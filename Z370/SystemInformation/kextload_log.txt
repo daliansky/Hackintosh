@@ -1,0 +1,9 @@
+   63    0 0xffffff7f8271c000 0xd000     0xd000     org.hwsensors.driver.LPCSensors (1800) EF5BB9DC-C33F-3EED-9F96-42A7F22D806F <37 13 12 8 6 5 3>
+  101    0 0xffffff7f828d6000 0x8000     0x8000     com.apple.driver.AppleIntelPCHPMC (2.0.1) C4FA324A-C8D0-35CB-B29D-32514AB64E56 <100 14 13 12 5 3>
+  105    1 0xffffff7f829f7000 0x1c000    0x1c000    com.apple.driver.AppleHDAController (282.10) 8D45D0E7-C7FB-3B7B-81D7-75486ADA1331 <104 103 95 13 8 7 6 5 3 1>
+  125    0 0xffffff7f8319e000 0xe9000    0xe9000    com.apple.driver.AppleHDA (282.10) AB4E74FB-9D40-3AED-82C3-3329E94CF3A4 <124 105 104 103 96 95 7 6 5 3 1>
+  120    1 0xffffff7f83023000 0x3000     0x3000     com.apple.iokit.IOSMBusFamily (1.1) BC6BE924-53E3-318A-A1B7-B896FA559717 <6 5 3>
+  121    1 0xffffff7f83026000 0xe000     0xe000     com.apple.driver.AppleSMBusController (1.0.18d1) 04381CF5-D5B8-31D2-AB76-8F5AF590BDC0 <120 13 12 6 5 3>
+   15    1 0xffffff7f81c1a000 0x9c000    0x9c000    com.apple.driver.AppleACPIPlatform (6.1) 98B644EC-14AD-380A-AD97-CB7B9B2228BE <14 13 12 8 7 6 5 3 1>
+  112    1 0xffffff7f82d6a000 0x18000    0x18000    com.apple.driver.X86PlatformPlugin (1.0.0) 0B67F81C-DF54-35B7-BCA5-D2C9E5310F10 <100 72 23 14 12 8 7 6 5 3 1>
+  134    1 0xffffff7f834ed000 0x8000     0x8000     com.apple.driver.X86PlatformShim (1.0.0) 9C7D22E9-BE62-3703-9639-4733ADF05821 <112 100 14 8 5 3>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BuildMachineOSBuild</key>
+	<string>15G19005</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>ACPIMonitor</string>
+	<key>CFBundleIdentifier</key>
+	<string>org.slice.ACPIMonitor</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundlePackageType</key>
+	<string>KEXT</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0.3</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleSupportedPlatforms</key>
+	<array>
+		<string>MacOSX</string>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>1.0.3</string>
+	<key>DTCompiler</key>
+	<string>com.apple.compilers.llvm.clang.1_0</string>
+	<key>DTPlatformBuild</key>
+	<string>7D1014</string>
+	<key>DTPlatformVersion</key>
+	<string>GM</string>
+	<key>DTSDKBuild</key>
+	<string>15E60</string>
+	<key>DTSDKName</key>
+	<string>macosx10.11</string>
+	<key>DTXcode</key>
+	<string>0731</string>
+	<key>DTXcodeBuild</key>
+	<string>7D1014</string>
+	<key>IOKitPersonalities</key>
+	<dict>
+		<key>ACPI Monitoring Plugin</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>org.slice.ACPIMonitor</string>
+			<key>FanNames</key>
+			<array>
+				<string>System Fan</string>
+				<string>Processor Fan</string>
+				<string>Power Fan</string>
+				<string>Intake Fan</string>
+				<string>Exhaust Fan</string>
+				<string>Fan 6</string>
+				<string>Fan 7</string>
+				<string>Fan 8</string>
+				<string>Fan 9</string>
+				<string>Fan 10</string>
+			</array>
+			<key>IOClass</key>
+			<string>ACPIMonitor</string>
+			<key>IOMatchCategory</key>
+			<string>ACPIMonitor</string>
+			<key>IONameMatch</key>
+			<array>
+				<string>monitor</string>
+			</array>
+			<key>IOProviderClass</key>
+			<string>IOACPIPlatformDevice</string>
+			<key>keysToAdd</key>
+			<dict>
+				<key>TCRR</key>
+				<string>TA0P</string>
+				<key>TCRW</key>
+				<string>TA1P</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>OSBundleLibraries</key>
+	<dict>
+		<key>com.apple.iokit.IOACPIFamily</key>
+		<string>1.2.0</string>
+		<key>com.apple.kpi.iokit</key>
+		<string>9.0.0</string>
+		<key>com.apple.kpi.libkern</key>
+		<string>9.0.0</string>
+		<key>com.apple.kpi.mach</key>
+		<string>9.0.0</string>
+		<key>com.apple.kpi.unsupported</key>
+		<string>9.0.0</string>
+		<key>org.netkas.FakeSMC</key>
+		<string>3.3.0</string>
+	</dict>
+	<key>OSBundleRequired</key>
+	<string>Root</string>
+</dict>
+</plist>
