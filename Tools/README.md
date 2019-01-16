@@ -10,7 +10,9 @@
 
 - [WebDD v1.7](WebDD.command)
 
-- webdriver.sh
+- webdriver.sh 项目仓库：https://github.com/vulgo/webdriver.sh 
+
+  Nvidia webdriver驱动下载：https://vulgo.github.io/nvidia-drivers/
 
   ```bash
   brew tap vulgo/repo
@@ -19,6 +21,12 @@
   ```
 
   ![webdriver.png](webdriver.png)
+
+一条命令17G66 Nvidia Web Driver驱动：
+
+```bash
+bash <(curl -s https://vulgo.github.io/webdriver) 387.10.10.10.40.113
+```
 
 
 
