@@ -4,7 +4,7 @@
 
 提供以下几种方式，总有一款适合你
 
-- [Webdriver All Versions.app](Webdriver All Versions.app)
+- [Webdriver All Versions.app](Webdriver All Versions.app.zip)
 
 ![WebdriverDownload](WebdriverDownload.png)
 
