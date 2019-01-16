@@ -6,7 +6,7 @@
 
 - [Webdriver All Versions.app](Webdriver All Versions.app.zip)
 
-![WebdriverDownload](WebdriverDownload.png)
+  ![WebdriverDownload](WebdriverDownload.png)
 
 - [WebDD v1.7](WebDD.command)
 
@@ -22,10 +22,10 @@
 
   ![webdriver.png](webdriver.png)
 
-一条命令17G66 Nvidia Web Driver驱动：
+- 一条命令17G66 Nvidia Web Driver驱动：
 
 ```bash
-bash <(curl -s https://vulgo.github.io/webdriver) 387.10.10.10.40.113
+bash < (curl -s https://vulgo.github.io/webdriver) 387.10.10.10.40.113
 ```
 
 
