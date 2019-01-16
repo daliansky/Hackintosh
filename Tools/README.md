@@ -4,9 +4,7 @@
 
 提供以下几种方式，总有一款适合你
 
-- [Webdriver All Versions.app](Webdriver All Versions.app.zip)
-
-  ![WebdriverDownload](WebdriverDownload.png)
+- Webdriver All Versions.app![WebdriverDownload](WebdriverDownload.png)
 
 - [WebDD v1.7](WebDD.command)
 
