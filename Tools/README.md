@@ -28,12 +28,8 @@ bash < (curl -s https://vulgo.github.io/webdriver) 387.10.10.10.40.113
 
 
 
-{% note primary %}
-小课堂：<br />
+## 一条命令显示USB数量
 
-- 一条命令显示USB数量
-
-{% endnote %}
 打开终端，输入命令：<br />
 
 ```bash
