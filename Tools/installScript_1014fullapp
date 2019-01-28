@@ -145,7 +145,7 @@ echo
 cd /tmp
 rm -f fullapp-catalogs
 rm -f fullapp-catalogs.gz
-curl ${CatalogURL} -o fullapp-catalogs.gz 2>/dev/null
+axel -a -n 10 ${CatalogURL} -o fullapp-catalogs.gz 2>/dev/null
 
 found404=`cat fullapp-catalogs.gz | grep Not | grep Found `
 if [[ ! $found404 == "" ]]; then
@@ -185,7 +185,7 @@ do
     url="https://swdist.apple.com/content/downloads/${macOSUpdversion[$index]}/${macOSUpdkey[$index]}/${macOSUpdsalt[$index]}/"
     distribution="${macOSUpdkey[$index]}.English.dist"
     rm -f *dist
-    curl $url$distribution -o ${macOSUpdkey[$index]}.English.dist 2>/dev/null
+    axel -a -n 10 $url$distribution -o ${macOSUpdkey[$index]}.English.dist 2>/dev/null
     macOSupdateosver[$index]=`cat ${macOSUpdkey[$index]}.English.dist | grep InstallAssistantAuto | grep version | awk '{print $4;}' | sed 's/version="//' | sed 's/.\{7\}/& /g' | awk '{print $1;}' `
     macOSupdatebeta[$index]=`cat ${macOSUpdkey[$index]}.English.dist | grep SU_TITLE | grep strings | grep macOS | sed 's/<strings language="English">"SU_TITLE" = "//' | sed 's/";//' | sed 's/Install //' | sed 's/    //' | sed 's/    //' | sed 's/  //' `
     macOSupdatebuildver[$index]=`cat ${macOSUpdkey[$index]}.English.dist | grep -A1 BUILD | grep -A1 key | grep string | sed 's/<string>//' | sed 's/<\/string>//' | awk '{print $1;}' `
@@ -364,7 +364,7 @@ esac
 #
 if [ ! -e "${tmpDirectory}/${key}/${distribution}" ]; then
   echo "Downloading: ${distribution} ..."
-  curl "${url}${distribution}" -o "${tmpDirectory}/${key}/${distribution}"
+  axel -a -n 10 "${url}${distribution}" -o "${tmpDirectory}/${key}/${distribution}"
   #
   # Remove root only restriction/allow us to install on any target volume.
   #
@@ -390,7 +390,7 @@ do
   if [ ! $filename == "" ]; then
     if [ ! -e "${tmpDirectory}/${key}/${filename}" ]; then
       echo "Downloading: ${filename} ..."
-      curl "${url}${filename}" -o "${tmpDirectory}/${key}/${filename}"
+      axel -a -n 10 "${url}${filename}" -o "${tmpDirectory}/${key}/${filename}"
     else
       echo "File: ${filename} already there, skipping this download."
     fi
