@@ -1,0 +1,317 @@
+#!/bin/bash
+# Modified: DalianSky(https://blog.daliansky.net)
+# 脚本中调用了bdmesg获取主板型号，所以使用前请勾选安装CLOVER的RC Scripts
+# updated: 2-15-2019
+
+# archey-osx 1.6.0 (https://github.com/obihann/archey-osx/)
+
+# test to see if bash supports arrays
+arraytest[0]='test' || (echo 'Error: Arrays are not supported in this version of
+bash.' && exit 2)
+
+# Detect the packager.
+if [ -x /usr/local/bin/brew ]; then
+  detectedpackager=homebrew
+elif command -v port >/dev/null; then
+  detectedpackager=macports
+else
+  detectedpackager=none
+fi
+
+# Get the command line options
+opt_nocolor=f
+opt_force_color=f
+opt_offline=f
+for arg in "$@"
+do
+  case "${arg}" in
+    -p|--packager)
+      packager=$detectedpackager
+      ;;
+    -m|--macports)
+      packager=macports
+      ;;
+    -b|--nocolor)
+      opt_nocolor=t
+      ;;
+    -c|--color)
+      opt_nocolor=f
+      opt_force_color=t
+      ;;
+    -o|--offline)
+        opt_offline=t
+      ;;
+    -h|--help)
+      echo "Archey OS X 1.6.0"
+      echo
+      echo "Usage: $0 [options]"
+      echo
+      echo "  -p --packager  Use auto detected package system (default packager: ${detectedpackager})."
+      echo "  -m --macports  Force use MacPorts as package system."
+      echo "  -b --nocolor   Turn color off."
+      echo "  -c --color     Force the color on (overrides --nocolor)."
+      echo "  -o --offline   Disable the IP address check."
+      exit 0
+      ;;
+    *)
+      echo "Unknown argument: $1" 1>&2
+      echo "For help, use: $0 --help" 1>&2
+      exit 1
+      ;;
+  esac
+done
+
+osx_version="$(sw_vers -productVersion)"
+osx_build="$(sw_vers -buildVersion)"
+
+# define OS Short Version 
+#case "$osx_version" in
+#  "10.4"*)  codename="Mac OS X Tiger" ;;
+#  "10.5"*)  codename="Mac OS X Leopard" ;;
+#  "10.6"*)  codename="Mac OS X Snow Leopard" ;;
+#  "10.7"*)  codename="Mac OS X Lion" ;;
+#  "10.8"*)  codename="OS X Mountain Lion" ;;
+#  "10.9"*)  codename="OS X Mavericks" ;;
+#  "10.10"*) codename="OS X Yosemite" ;;
+#  "10.11"*) codename="OS X El Capitan" ;;
+#  "10.12"*) codename="macOS Sierra" ;;
+#  "10.13"*) codename="macOS High Sierra" ;;
+#  "10.14"*) codename="macOS Mojave" ;;
+#  *)        codename="macOS" ;;
+#esac
+
+# define OS Short Version 
+codename=$(xxd -ps /Applications/Utilities/System\ Information.app/Contents/MacOS/System\ Information | tr -d '\n' | perl -nle "print $& if m{00$(sw_vers -productVersion | awk -F '.' '{printf $1"."$2}' | xxd -ps)00\K.*?00}" | xxd -r -p)
+
+mem_total="$(($(sysctl -n hw.memsize) / 1024 / 1024))"
+mem_wired="$(vm_stat | awk '/wired/ { print $4 }')"
+mem_active="$(vm_stat | awk '/active / { printf $3 }')"
+mem_compressed="$(vm_stat | awk '/occupied/ { printf $5 }')"
+mem_used="$(((${mem_wired//.} + ${mem_active//.} + ${mem_compressed//.}) * 4 / 1024))"
+
+cores="$(sysctl -n hw.logicalcpu_max)"
+
+# Uptime
+boot="$(sysctl -n kern.boottime)"
+boot="${boot/'{ sec = '}"
+boot="${boot/,*}"
+now="$(date +%s)"
+seconds="$((now - boot))"
+days="$((seconds / 60 / 60 / 24)) days"
+hours="$((seconds / 60 / 60 % 24)) hours"
+mins="$((seconds / 60 % 60)) minutes"
+
+# Format the days, hours and minutes.
+strip_date() {
+  case "$1" in
+    "0 "*) unset "${1/* }" ;;
+    "1 "*) printf "%s" "${1/s}" ;;
+    *)     printf "%s" "$1" ;;
+  esac
+}
+
+days="$(strip_date "$days")"
+hours="$(strip_date "$hours")"
+mins="$(strip_date "$mins")"
+
+uptime="${days:+$days, }${hours:+$hours, }${mins}"
+uptime="${uptime%', '}"
+uptime="${uptime:-${seconds} seconds}"
+
+# model
+if [[ "$(kextstat | grep "FakeSMC")" != "" ]]; then
+  #model="$(ioreg -c FakeSMCKeyStore | grep product-name | sed -e's/"//g' | sed -e 's/|//g' | sed -e 's/product-name = //g' | sed -e 's/  //g') (SMBIOS: $(sysctl -n hw.model))"
+  model="$(bdmesg | grep ProductName | grep ProductName | sed '{print $7}')"
+else
+  model="$(sysctl -n hw.model)"
+fi
+
+# Mainboard
+mb="$(bdmesg | grep Z370 | awk '{print $8,$9,$10}' | sed "s/'Z/Z/g" | sed "s/)'/)/g")"
+
+# System Variables
+# User="$(osascript -e "computer name of (system info)")"
+# Hostname=$(osascript -e "computer name of (system info)")
+# Hostname=$(system_profiler SPSoftwareDataType | grep "Computer" | sed 's/      Computer Name: //g')
+User=$(echo $(osascript -e "computer name of (system info)") | sed "s/-/ /g") 
+Date=$(date | sed 's/CST//g')
+# IP=$(osascript -e "IPv4 address of (system info)")
+# IP=`echo $(ifconfig | grep 'inet.*netmask.*broadcast') | awk '{print $2}'`
+Intranet=$(osascript -e "IPv4 address of (system info)")
+Public=$(dig +short myip.opendns.com @resolver1.opendns.com)
+System_version="$codename $osx_version $osx_build"
+Kernel_version="$(uname) $(uname -r)"
+Uptime=$(uptime | sed 's/.*up \([^,]*\), .*/\1/')
+Shell="$SHELL"
+Terminal="$TERM by ${TERM_PROGRAM//_/ }" 
+Cpu="$(sysctl -n machdep.cpu.brand_string | sed 's/(R)//g' | sed 's/(TM)//g' | sed 's/CPU @ //g') x (${cores})"
+memory="${mem_used}MB(Avai) / ${mem_total}MB(Total)"
+
+# Battery
+Battery=$(ioreg -c AppleSmartBattery -r | awk '$1~/Capacity/{c[$1]=$3} END{OFMT="%.2f%"; max=c["\"MaxCapacity\""]; if (max>0) { print 100*c["\"CurrentCapacity\""]/max;} }')
+batterystatus=$(pmset -g batt | sed -n '2p' | awk '{print $4}' | sed 's/;//g')
+if [[ $batterystatus == discharging ]] ; then 
+  batterystatus="未充电"
+elif [[ $batterystatus == charging ]] ; then 
+  batterystatus="充电中"
+else 
+  batterystatus="充电完成"
+fi
+
+# disk
+disk_total="$(df -h | head -2 | tail -1 | awk '{print $2}' | sed 's/i/B/g')(Total)"
+disk_used="$(df -h | head -2 | tail -1 | awk '{print $4}' | sed 's/i/B/g')(Avai)"
+Disk="$disk_used / $disk_total"
+
+
+# GPU
+# main resolution
+resolution="$(system_profiler SPDisplaysDataType | grep Resolution | awk 'NF+=1' | sed 's/Resolution://g' | cut -b 12- | sed -e 's/, /\n/g' | sed -n 1p)"
+gpu="$(system_profiler SPDisplaysDataType | awk -F': ' '/^\ *Chipset Model:/ {printf $2 " "}')"
+vram="$(system_profiler SPDisplaysDataType | grep VRAM | cut -b 7-)"
+# extension resolution
+displayext="$(system_profiler SPDisplaysDataType | grep Resolution | awk 'NF+=1' | sed 's/Resolution://g' | cut -b 12- | sed -e 's/, /\n/g' | sed -n 2p)"
+#if [[ -z $displayext ]] ; then 
+#  displayext=$resolution
+#fi
+#if type -p screenresolution >/dev/null; then
+#  resolution="$(screenresolution get 2>&1 | awk '/Display/ {printf $6 "Hz, "}')"
+#  resolution="${resolution//x??@/ @ }"
+#
+#else
+#  resolution="$(system_profiler SPDisplaysDataType |\
+#          awk '/Resolution:/ {printf $2"x"$4" @ "$6"Hz, "}')"
+#fi
+#
+## If no refresh rate is empty.
+#[[ "$resolution" == *"@ Hz"* ]] && \
+#  resolution="${resolution//@ Hz}"
+#
+#[[ "${scale_factor%.*}" == 2 ]] && \
+#  resolution="${resolution// @/@2x @}"
+#
+#if [[ "$refresh_rate" == "off" ]]; then
+#  resolution="${resolution// @ [0-9][0-9]Hz}"
+#  resolution="${resolution// @ [0-9][0-9][0-9]Hz}"
+#fi
+#
+#[[ "$resolution" == *"0Hz"* ]] && \
+#  resolution="${resolution// @ 0Hz}"
+#resolution="${resolution%,*}"
+
+case "$term" in
+    "Apple_Terminal")
+      term_font="$(osascript <<END
+             tell application "Terminal" to font name of window frontmost
+END
+)"
+    ;;
+
+    "iTerm2")
+      # Unfortunately the profile name is not unique, but it seems to be the only thing
+      # that identifies an active profile. There is the "id of current session of current win-
+      # dow" though, but that does not match to a guid in the plist.
+      # So, be warned, collisions may occur!
+      # See: https://groups.google.com/forum/#!topic/iterm2-discuss/0tO3xZ4Zlwg
+      local current_profile_name profiles_count profile_name diff_font none_ascii
+
+      current_profile_name="$(osascript <<END
+                  tell application "iTerm2" to profile name \
+                  of current session of current window
+END
+)"
+
+      # Warning: Dynamic profiles are not taken into account here!
+      # https://www.iterm2.com/documentation-dynamic-profiles.html
+      font_file="${HOME}/Library/Preferences/com.googlecode.iterm2.plist"
+
+      # Count Guids in "New Bookmarks"; they should be unique
+      profiles_count="$(PlistBuddy -c "Print :New\ Bookmarks:" "$font_file" | grep -c "Guid")"
+
+      for ((i=0; i<=profiles_count; i++)); do
+        profile_name="$(PlistBuddy -c "Print :New\ Bookmarks:${i}:Name:" "$font_file")"
+
+        if [[ "$profile_name" == "$current_profile_name" ]]; then
+          # "Normal Font"
+          term_font="$(PlistBuddy -c "Print :New\ Bookmarks:${i}:Normal\ Font:" \
+                 "$font_file")"
+
+          # Font for non-ascii characters
+          # Only check for a different non-ascii font, if the user checked
+          # the "use a different font for non-ascii text" switch.
+          diff_font="$(PlistBuddy -c "Print :New\ Bookmarks:${i}:Use\ Non-ASCII\ Font:" \
+                 "$font_file")"
+
+          if [[ "$diff_font" == "true" ]]; then
+            non_ascii="$(PlistBuddy -c "Print :New\ Bookmarks:${i}:Non\ Ascii\ Font:" \
+                   "$font_file")"
+
+            [[ "$term_font" != "$non_ascii" ]] && \
+              term_font="$term_font (normal) / $non_ascii (non-ascii)"
+          fi
+        fi
+      done
+    ;;
+esac
+
+# Set up colors if:
+# * stdout is a tty
+# * the user hasn't turned it off
+# * or if we're forcing color
+if [[ ( -t 1  && "${opt_nocolor}" = f) || "${opt_force_color}" = t ]]
+then
+  RED=$(tput       setaf 1 2>/dev/null)
+  GREEN=$(tput     setaf 2 2>/dev/null)
+  YELLOW=$(tput    setaf 3 2>/dev/null)
+  BLUE=$(tput      setaf 4 2>/dev/null)
+  PURPLE=$(tput    setaf 5 2>/dev/null)
+  textColor=$(tput setaf 6 2>/dev/null)
+  normal=$(tput    sgr0 2>/dev/null)
+fi
+
+fieldlist[${#fieldlist[@]}]="${textColor}主板型号 :${normal} ${mb}${normal}"
+fieldlist[${#fieldlist[@]}]="${textColor}操作系统 :${normal} ${System_version}${normal}"
+fieldlist[${#fieldlist[@]}]="${textColor}内核版本 :${normal} ${Kernel_version}${normal}"
+fieldlist[${#fieldlist[@]}]="${textColor}开机时间 :${normal} ${uptime}${normal}"
+fieldlist[${#fieldlist[@]}]="${textColor}Shell    :${normal} ${Shell}${normal}"
+fieldlist[${#fieldlist[@]}]="${textColor}当前时间 :${normal} ${Date}${normal}"
+fieldlist[${#fieldlist[@]}]="${textColor}处理器   :${normal} ${Cpu}${normal}"
+fieldlist[${#fieldlist[@]}]="${textColor}内存     :${normal} ${memory}${normal}"
+fieldlist[${#fieldlist[@]}]="${textColor}磁盘     :${normal} ${Disk}${normal}"
+if [[ ! -z $Battery ]]; then
+    fieldlist[${#fieldlist[@]}]="${textColor}剩余电量 :${normal} ${Battery}%  /  ${batterystatus}${normal}"
+fi
+fieldlist[${#fieldlist[@]}]="${textColor}IP 地址  :${normal} 公网 ${Public} / 内网 ${Intranet}${normal}"
+fieldlist[${#fieldlist[@]}]="${textColor}当前终端 :${normal} ${Terminal}${normal}"
+fieldlist[${#fieldlist[@]}]="${textColor}显卡设备 :${normal} ${gpu}/ $vram${normal}"
+fieldlist[${#fieldlist[@]}]="${textColor}主显示器 :${normal} ${resolution}${normal}"
+fieldlist[${#fieldlist[@]}]="${textColor}扩展显示 :${normal} ${displayext}${normal}"
+
+logofile=${ARCHEY_LOGO_FILE:-"${HOME}/.config/archey-logo"}
+if [ -a "$logofile" ]
+  then
+  source "$logofile"
+else
+# The ${foo#  } is a cheat so that it lines up here as well
+# as when run.
+  echo -e "
+${normal# }                                      ${User} ${model}
+${normal# }                                      ----------------------------------------------
+${GREEN#  }                                      ${fieldlist[0]}
+${GREEN#  }                 ###                  ${fieldlist[1]}
+${GREEN#  }               ####                   ${fieldlist[2]}
+${GREEN#  }               ###                    ${fieldlist[3]}
+${GREEN#  }       #######    #######             ${fieldlist[4]}
+${YELLOW# }     ######################           ${fieldlist[5]}
+${YELLOW# }    #####################             ${fieldlist[6]}
+${RED#    }    ####################              ${fieldlist[7]}
+${RED#    }    ####################              ${fieldlist[8]}
+${RED#    }    #####################             ${fieldlist[9]}
+${PURPLE# }     ######################           ${fieldlist[10]}
+${PURPLE# }      ####################            ${fieldlist[11]}
+${BLUE#   }        ################              ${fieldlist[12]}
+${BLUE#   }         ####     #####               ${fieldlist[13]}
+${BLUE#   }                                      ${fieldlist[14]}
+${normal}                                      
+"
+fi
