@@ -26,6 +26,20 @@
 bash < (curl -s https://vulgo.github.io/webdriver) 387.10.10.10.40.113
 ```
 
+## 一条命令显示机型和主板
+
+打开终端，输入命令：
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/daliansky/Hackintosh/master/Tools/bdmesg -o /tmp/bdmesg && chmod +x /tmp/bdmesg && sh -c /tmp/bdmesg | grep Running
+```
+
+输出如下：
+
+```bash
+0:100  0:000  Running on: 'Inspiron 7560' with board '07T996'
+```
+
 
 
 ## 一条命令显示USB数量
