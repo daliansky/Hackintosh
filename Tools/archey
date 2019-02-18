@@ -127,7 +127,7 @@ else
 fi
 
 # Mainboard
-mb="$(bdmesg | grep Z370 | awk '{print $8,$9,$10}' | sed "s/'Z/Z/g" | sed "s/)'/)/g")"
+mb="$(bdmesg | grep Running | awk '{print $5,$6,$7,$8,$9,$10}' | sed "s/\'//g")"
 
 # System Variables
 # User="$(osascript -e "computer name of (system info)")"
