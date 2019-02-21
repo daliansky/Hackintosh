@@ -12,6 +12,8 @@
 
 ![3USB](ScreenShot/3USB.png)
 
+![31USBPorts](ScreenShot/31USBPorts.png)
+
 ![4APPLEHDA](ScreenShot/4APPLEHDA.png)
 
 ![5ETHERNET](ScreenShot/5ETHERNET.png)
