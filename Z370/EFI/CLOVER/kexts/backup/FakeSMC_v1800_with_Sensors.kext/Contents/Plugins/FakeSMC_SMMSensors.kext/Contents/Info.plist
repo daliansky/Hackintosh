@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BuildMachineOSBuild</key>
+	<string>17G65</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>SMMSensors</string>
+	<key>CFBundleIdentifier</key>
+	<string>org.hwsensors.driver.SMMSensors</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundlePackageType</key>
+	<string>KEXT</string>
+	<key>CFBundleShortVersionString</key>
+	<string>6.26-357-gceb835ea.1800</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleSupportedPlatforms</key>
+	<array>
+		<string>MacOSX</string>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>1800</string>
+	<key>DTCompiler</key>
+	<string>com.apple.compilers.llvm.clang.1_0</string>
+	<key>DTPlatformBuild</key>
+	<string>8E3004b</string>
+	<key>DTPlatformVersion</key>
+	<string>GM</string>
+	<key>DTSDKBuild</key>
+	<string>12D75</string>
+	<key>DTSDKName</key>
+	<string>macosx10.8</string>
+	<key>DTXcode</key>
+	<string>0833</string>
+	<key>DTXcodeBuild</key>
+	<string>8E3004b</string>
+	<key>IOKitPersonalities</key>
+	<dict>
+		<key>SMM Monitoring Plugin</key>
+		<dict>
+			<key>IOClass</key>
+			<string>SMMSensors</string>
+			<key>IOMatchCategory</key>
+			<string>FakeSMCPlugin</string>
+			<key>IONameMatch</key>
+			<string>bios</string>
+			<key>IOProviderClass</key>
+			<string>IOPlatformDevice</string>
+			<key>Platform Profile</key>
+			<dict>
+				<key>Default</key>
+				<dict>
+					<key>DisableDevice</key>
+					<false/>
+					<key>FanMultiplier</key>
+					<integer>1</integer>
+					<key>ForceLoad</key>
+					<false/>
+					<key>Tachometers</key>
+					<dict>
+						<key>System Fan</key>
+						<dict>
+							<key>Disabled</key>
+							<false/>
+							<key>Index</key>
+							<integer>0</integer>
+						</dict>
+					</dict>
+					<key>Temperatures</key>
+					<dict>
+						<key>CPU Package</key>
+						<dict>
+							<key>Disabled</key>
+							<true/>
+							<key>Index</key>
+							<integer>0</integer>
+						</dict>
+					</dict>
+				</dict>
+				<key>Dell</key>
+				<dict>
+					<key>02PG84</key>
+					<dict>
+						<key>Description</key>
+						<string>Dell XPS 9360 (i7-8550U)</string>
+						<key>Tachometers</key>
+						<dict>
+							<key>System Fan</key>
+							<dict>
+								<key>Disabled</key>
+								<false/>
+								<key>Index</key>
+								<integer>0</integer>
+							</dict>
+						</dict>
+						<key>Temperatures</key>
+						<dict>
+							<key>Ambient</key>
+							<dict>
+								<key>Disabled</key>
+								<true/>
+								<key>Index</key>
+								<integer>1</integer>
+							</dict>
+							<key>CPU Package</key>
+							<dict>
+								<key>Disabled</key>
+								<true/>
+								<key>Index</key>
+								<integer>0</integer>
+							</dict>
+							<key>Mainboard</key>
+							<dict>
+								<key>Disabled</key>
+								<true/>
+								<key>Index</key>
+								<integer>3</integer>
+							</dict>
+							<key>Memory Module</key>
+							<dict>
+								<key>Disabled</key>
+								<true/>
+								<key>Index</key>
+								<integer>4</integer>
+							</dict>
+							<key>Thermal Zone</key>
+							<dict>
+								<key>Disabled</key>
+								<true/>
+								<key>Index</key>
+								<integer>2</integer>
+							</dict>
+						</dict>
+					</dict>
+				</dict>
+			</dict>
+		</dict>
+	</dict>
+	<key>NSHumanReadableCopyright</key>
+	<string>MIT License</string>
+	<key>OSBundleLibraries</key>
+	<dict>
+		<key>com.apple.kpi.iokit</key>
+		<string>10.6</string>
+		<key>com.apple.kpi.libkern</key>
+		<string>10.6</string>
+		<key>com.apple.kpi.mach</key>
+		<string>10.6</string>
+		<key>com.apple.kpi.unsupported</key>
+		<string>10.6</string>
+		<key>org.netkas.driver.FakeSMC</key>
+		<string>1429</string>
+	</dict>
+	<key>Source Code</key>
+	<string>"https://github.com/RehabMan/OS-X-FakeSMC-kozlek.git"</string>
+</dict>
+</plist>
