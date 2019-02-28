@@ -40,6 +40,14 @@ curl -fsSL https://raw.githubusercontent.com/daliansky/Hackintosh/master/Tools/b
 0:100  0:000  Running on: 'Inspiron 7560' with board '07T996'
 ```
 
+或者：显示更多的信息：
+
+```bash
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/daliansky/Hackintosh/master/Tools/archey)"
+```
+
+输出效果见上图
+
 
 
 ## 一条命令显示USB数量

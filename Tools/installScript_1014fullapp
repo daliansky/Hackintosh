@@ -364,7 +364,7 @@ esac
 #
 if [ ! -e "${tmpDirectory}/${key}/${distribution}" ]; then
   echo "Downloading: ${distribution} ..."
-  axel -a -n 10 "${url}${distribution}" -o "${tmpDirectory}/${key}/${distribution}"
+  axel -a -n 64 "${url}${distribution}" -o "${tmpDirectory}/${key}/${distribution}"
   #
   # Remove root only restriction/allow us to install on any target volume.
   #
@@ -390,7 +390,7 @@ do
   if [ ! $filename == "" ]; then
     if [ ! -e "${tmpDirectory}/${key}/${filename}" ]; then
       echo "Downloading: ${filename} ..."
-      axel -a -n 10 "${url}${filename}" -o "${tmpDirectory}/${key}/${filename}"
+      axel -a -n 64 "${url}${filename}" -o "${tmpDirectory}/${key}/${filename}"
     else
       echo "File: ${filename} already there, skipping this download."
     fi
