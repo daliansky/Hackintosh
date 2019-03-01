@@ -104,7 +104,7 @@
 | Lenovo-V330-15IKB | [链接](https://github.com/BesnikRrustemi/Lenovo-V330-15IKB) | [链接](https://www.tonymacx86.com/threads/guide-lenovo-v330-15ikb-using-clover-uefi-hotpatch.265841/) |  |
 | 联想小新Air 13 IWL | [链接](https://github.com/daliansky/Lenovo-Air13-IWL) | [链接](https://blog.daliansky.net/Lenovo-Xiaoxin-Air-13-macOS-Mojave-installation-tutorial.html) | 联想小新Air 13 2018 IWL |
 | Lenovo-chao5000   | [链接](https://github.com/Xc2333/Hackintosh-Lenovo-chao5000)   |  | 联想潮5000   |
-| Lenovo-Xiaoxin-Chao-7000  | [链接](https://github.com/penghubingzhou/Lenovo-Xiaoxin-Chao-7000--EFI) | [链接](https://github.com/penghubingzhou/Lenovo-Xiaoxin-Chao-7000--EFI/blob/master/Readme.md) | 联想小新潮7000，已支持14寸、12.5寸，13.3寸后续会添加支持，请期待…… |
+| Lenovo-Xiaoxin-Chao-7000  | [链接](https://github.com/penghubingzhou/Lenovo-Xiaoxin-Chao-7000--EFI) | [链接](https://github.com/penghubingzhou/Lenovo-Xiaoxin-Chao-7000--EFI/blob/master/Readme.md) | 联想小新潮7000，已支持14寸、12.5寸、13.3寸，15寸以及13.3寸的完美支持后续会添加，请期待…… |
 | 联想小新锐7000|[链接](https://github.com/Erf172/Lenovo_XiaoXin_Rui7000_Hackintosh)  |[链接](https://github.com/Erf172/Lenovo_XiaoXin_Rui7000_Hackintosh/blob/10.12/README.md) |  |
 | Lenovo-XiaoXin700-15ISK   |[链接](https://github.com/athlonreg/Lenovo-XiaoXin700-15ISK) |[链接](https://github.com/athlonreg/Lenovo-XiaoXin700-15ISK/blob/master/README.md) | Lenovo-XiaoXin700-15ISK  |
 | 联想Y7000 | [链接](https://github.com/hnie-xwz/EFI) | [链接](https://github.com/hnie-xwz/EFI/blob/macOs10.14/readme.md)  |  |
@@ -135,6 +135,8 @@
 | Thinkpad P51  |[链接](https://github.com/MirkoCovizzi/thinkpad-p51-hackintosh)  |[链接](https://github.com/MirkoCovizzi/thinkpad-p51-hackintosh/blob/master/README.md) | Thinkpad P51 |
 | Thinkpad-Yoga-12  | [链接](https://github.com/gartempe/MacOS-Thinkpad-Yoga-12) | [链接](https://github.com/gartempe/MacOS-Thinkpad-Yoga-12/blob/master/README.md) |  |
 |  |  |  | |
+| Lenovo_Y7000/Y530系列| [链接](https://github.com/xiaoMGitHub/Lenovo_Y7000-Y530_Hackintosh/tree/new-efi) | [链接](https://github.com/xiaoMGitHub/Lenovo_Y7000-Y530_Hackintosh/blob/new-efi/README.md) | 全新完美EFI，舍弃了小键盘 |
+|  |  |  |  |
 | **MSI 微星** |   |   |  |
 | MSI-GL62m-7REX| [链接](https://github.com/rlindsberg/Hackintosh-On-MSI-GL62m-7REX) |  |  |
 | msi-GL72M-7RDX| [链接](https://github.com/jbwharris/hackintosh-msi-GL72M-7RDX) | [链接](https://github.com/jbwharris/hackintosh-msi-GL72M-7RDX/blob/master/README.md) |  |
