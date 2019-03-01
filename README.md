@@ -102,6 +102,7 @@
 | Lenovo-Ideapad-320-15ISK  | [链接](https://github.com/gajjartejas/Lenovo-Ideapad-320-15ISK-Laptop-Hackintosh) |  |  |
 | Ideapad-320   | [链接](https://github.com/gajjartejas/Lenovo-Ideapad-320-15ISK-Laptop-Hackintosh) |  |  |
 | Lenovo-V330-15IKB | [链接](https://github.com/BesnikRrustemi/Lenovo-V330-15IKB) | [链接](https://www.tonymacx86.com/threads/guide-lenovo-v330-15ikb-using-clover-uefi-hotpatch.265841/) |  |
+| 联想小新Air 13 IWL | [链接](https://github.com/daliansky/Lenovo-Air13-IWL) | [链接](https://blog.daliansky.net/Lenovo-Xiaoxin-Air-13-macOS-Mojave-installation-tutorial.html) | 联想小新Air 13 2018 IWL |
 | Lenovo-chao5000   | [链接](https://github.com/Xc2333/Hackintosh-Lenovo-chao5000)   |  | 联想潮5000   |
 | Lenovo-Xiaoxin-Chao-7000  | [链接](https://github.com/penghubingzhou/Lenovo-Xiaoxin-Chao-7000--EFI) | [链接](https://github.com/penghubingzhou/Lenovo-Xiaoxin-Chao-7000--EFI/blob/master/Readme.md) | 联想小新潮7000，已支持14寸、12.5寸，13.3寸后续会添加支持，请期待…… |
 | 联想小新锐7000|[链接](https://github.com/Erf172/Lenovo_XiaoXin_Rui7000_Hackintosh)  |[链接](https://github.com/Erf172/Lenovo_XiaoXin_Rui7000_Hackintosh/blob/10.12/README.md) |  |
@@ -157,7 +158,7 @@
 | Hasse Shinelon A40L-i7|[链接](https://github.com/i0Ek3/Hackintosh_4_Hasee_Shinelon_A40L)|[链接](https://github.com/i0Ek3/Hackintosh_4_Hasee_Shinelon_A40L/blob/master/README.md) | 这是神舟 |
 | k650D | [链接](https://github.com/wklesss/k650D-Hackintosh) |  | 神舟K 650D   |
 | MECHREVO-X1   | [链接](https://github.com/tsmswifty/MECHREVO-X1-hackintosh)|  | 机械革命X1 |
-| 更多机型 | [链接](https://github.com/sqlsec/clover) | | 引用自：国光之前维护的仓库 |
+| **更多机型** | [链接](https://github.com/sqlsec/clover) | | 引用自：国光之前维护的仓库 |
 | | | | |
 | **笔记本相关资源** |   |   |  |
 |  | **hotpatch**  |   |  |
@@ -179,7 +180,7 @@
 | z370n-hackintosh  | [链接](https://github.com/cwr31/z370n-hackintosh) [链接](https://github.com/qinkangdeid/z370n-wifi-hackintosh) |  | Gigabyte Z370N   |
 | gigabyte-z390-aorus   | [链接](https://github.com/cmer/gigabyte-z390-aorus-master-hackintosh) |  |  |
 | asrock-z370m-pro4 | [链接](https://github.com/HouCoder/asrock-z370m-pro4-hackintosh)   | [链接](https://github.com/HouCoder/asrock-z370m-pro4-hackintosh/blob/master/README.md) |  |
-| 更多机型 | [链接](https://github.com/sqlsec/clover/tree/master/%E5%8F%B0%E5%BC%8F%E6%9C%BA) |  | 引用自：国光之前维护的仓库 |
+| **更多机型** | [链接](https://github.com/sqlsec/clover/tree/master/%E5%8F%B0%E5%BC%8F%E6%9C%BA) |  | 引用自：国光之前维护的仓库 |
 
 
 
