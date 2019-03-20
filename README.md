@@ -28,6 +28,7 @@
 |  |  | | |
 | **ASUS 华硕** |   |   |  |
 | Asus ROG GL552JX  |[链接](https://github.com/javanesse/Asus-ROG-GL552JX-High-Sierra-10.13-Hackintosh) |[链接](https://github.com/javanesse/Asus-ROG-GL552JX-High-Sierra-10.13-Hackintosh/blob/master/README.md) | Asus ROG GL552JX |
+| Asus ROG GX531GS  |[链接](https://github.com/williambj1/Hackintosh-EFI-Asus-Zephyrus-S-GX531) | | 华硕玩家国度冰刃3 |
 | Asus Zenbook UX360UAK |[链接](https://github.com/Frizz925/UX360UAK-Hackintosh)  |[链接](https://github.com/Frizz925/UX360UAK-Hackintosh/blob/master/README.md) |  |
 | ASUS UX32VD   |[链接](https://github.com/rafaelmaeuer/Asus-UX32VD-Hackintosh)   |[链接](https://github.com/rafaelmaeuer/Asus-UX32VD-Hackintosh/blob/master/readme.md) | ASUS UX32VD  |
 | Asus P8P67 Pro|[链接](https://github.com/rafaelmaeuer/Asus-P8P67Pro-Hackintosh) |[链接](https://github.com/rafaelmaeuer/Asus-P8P67Pro-Hackintosh/blob/master/readme.md) |  |
