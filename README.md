@@ -84,6 +84,9 @@
 | HP-840-G1 | [链接](https://github.com/blint01/hackintosh-mojave-HP-840-G1) | [链接](https://github.com/blint01/hackintosh-mojave-HP-840-G1/blob/master/README.md) |  |
 | EliteDesk-800-G3-Mini | [链接](https://github.com/francoisminh/Hackintosh-EliteDesk-800-G3-Mini-65W) | [链接](https://github.com/francoisminh/Hackintosh-EliteDesk-800-G3-Mini-65W/blob/master/README.md) |  |
 |  |  |  | |
+| **Huawei 华为**                                    |                                                              |                                                              |                                                              |
+| 华为 Matebook X Pro                                | [链接](https://github.com/gnodipac886/MatebookXPro-hackintosh) | [链接](https://github.com/gnodipac886/MatebookXPro-hackintosh/blob/master/README-CN.md) | 华为 Matebook X Pro                                          |
+|  |  | | |
 | **INTEL 英特尔** |   |   |  |
 | 英特尔Intel DH67GD, DH67BL, DH67CF, DH67CL系列主板 | [链接](https://github.com/RehabMan/Intel-DH67XX-DSDT-Patch)  | [链接](https://www.tonymacx86.com/threads/guide-intel-dh67xx-with-hd3000-using-clover-uefi-hotpatch.233257/) | Intel DH67GD, DH67BL, DH67CF, DH67CL系列主板 |
 | 技嘉GB-BXi5H-4200 系列主板   | [链接](https://github.com/RehabMan/Gigabyte-BRIX-s-DSDT-Patch) | [链接](https://www.tonymacx86.com/threads/guide-gigabyte-brix-using-clover-uefi-gb-bxi5h-4200-gb-bxi5-4570r-gb-bxi7-4770r.261710/) | 技嘉GB-BXi5H-4200 系列主板 |
