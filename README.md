@@ -9,9 +9,9 @@
 
 
 
-镜像链接：[黑果小兵的部落阁](<https://blog.daliansky.net/Hackintosh-long-term-maintenance-model-checklist.html>) [远景pcbeta.com](<http://bbs.pcbeta.com/viewthread-1795904-1-1.html>) 
+### 同步更新：[黑果小兵的部落阁](<https://blog.daliansky.net/Hackintosh-long-term-maintenance-model-checklist.html>)
 
-机型讨论：[远景pcbeta.com](<http://bbs.pcbeta.com/viewthread-1795904-1-1.html>) 
+### 机型讨论：[远景pcbeta.com](<http://bbs.pcbeta.com/viewthread-1795904-1-1.html>) 
 
 
 
