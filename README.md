@@ -193,6 +193,7 @@
 | Gigabyte Z390 Aorus        | [链接](https://github.com/cmer/gigabyte-z390-aorus-master-hackintosh)                                          |                                                                                        |                            |
 | Huanan X79 E5-2670, GTX650 | [链接](https://github.com/cheneyveron/clover-x79-e5-2670-gtx650)                                               | [链接](https://github.com/cheneyveron/clover-x79-e5-2670-gtx650/blob/master/README.md) | 华南 x79 V2                |
 | MSI B360                   | [链接](https://github.com/SuperNG6/MSI-b360-10.14.2-EFI)                                                       |                                                                                        |                            |
+| MSI Z370-A                | [链接](https://github.com/daliansky/Z370-Hackintosh)         | [链接](https://github.com/daliansky/Z370-Hackintosh)         | 黑果小兵MSI Z370-A自用EFI                                    |
 | **更多机型**               | [链接](https://github.com/sqlsec/clover/tree/master/%E5%8F%B0%E5%BC%8F%E6%9C%BA)                               |                                                                                        | 引用自：国光之前维护的仓库 |
 | | [链接](https://zhih.me/hackintosh/#/) | | 底噪出品：**[one-key-hidpi](https://github.com/xzhih/one-key-hidpi)** |
 
