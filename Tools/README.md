@@ -86,3 +86,15 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/daliansky/Hackintosh/maste
 +--Integrated_Webcam_HD@14500000AppleUSBDevice
 +--BCM20702A0@14800000AppleUSBDevice
 ```
+
+## 提高github/gitalk访问速度
+
+```bash
+cat /etc/hosts
+# github.com
+192.30.253.113	github.com
+192.30.253.112	github.com
+192.30.255.117	api.github.com
+192.30.255.116	api.github.com
+```
+
