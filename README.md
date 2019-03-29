@@ -293,4 +293,5 @@
 943181023 [联想小新Air黑苹果交流群](http://shang.qq.com/wpa/qunwpa?idkey=fb772a7e01436d43e1d856a099549551952bb08161ced4a8fc08b4e75e7ab438) 500人群 非专用机型请勿加入
 
 436905405 [机械革命MECHREVO【MR学院】黑苹果](http://shang.qq.com/wpa/qunwpa?idkey=fedfd951c92b6493a1b02940ec673657d3d0c8316d1abfa738f92214ed66d365) 500人群 非专用机型请勿加入
-612655811 elitebook_probook_zbook 系列机型黑苹果交流 500人群 主要针对 RehabMan和 tluck提供支持的机型,thinkpad x220_T420_T520,T460_T560_t470等机型
+
+612655811 elitebook_probook_zbook 系列机型黑苹果交流 500人群 非专用机型请勿加入
