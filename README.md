@@ -173,6 +173,13 @@
 | K650D                                         | [链接](https://github.com/wklesss/k650D-Hackintosh)          |                                                              | 神舟 K 650D                                                  |
 | MECHREVO-X1                                   | [链接](https://github.com/tsmswifty/MECHREVO-X1-hackintosh)  |                                                              | 机械革命 X1                                                  |
 | Gigabyte Aero 15X                             | [链接](https://github.com/zacmks/Hackintosh-Aero-15X)        | [链接](https://github.com/zacmks/Hackintosh-Aero-15X/blob/master/README.md) |                                                              |
+| Shinalon_Yao_7000                             | [链接](https://github.com/jinmu333/Shinalon_YAO_7000_efi)        | [链接](https://github.com/jinmu333/Shinalon_YAO_7000_efi/blob/efi/README.md) |                                                              |
+| 神舟战神 Z7系列                             | [链接](https://github.com/kirainmoe/hasee-z7-kp7gz-macos)        | [链接](https://github.com/kirainmoe/hasee-z7-kp7gz-macos/blob/master/README.md) |                                                              |
+| ThinkPad E540                             | [链接](https://github.com/wwbhl/E540)        |                |
+| XPS13  9343                             | [链接](https://github.com/SiGae/macOS-Mojave-on-xps-13-9343)        | [链接](https://github.com/haos001/XPS13-9343-Clover) |                                                              |
+| ASRock-Z370-Gaming                            | [链接](https://github.com/fangf2018/ASRock-Z370-Gaming-ITX-ac-hackintosh)        | [链接](https://github.com/fangf2018/ASRock-Z370-Gaming-ITX-ac-hackintosh/blob/master/README.md) |  
+| Acer-V3-572G-51MR                            | [链接](https://github.com/AnoldmanLiSir/Acer-V3-572G-51MR)        | [链接](https://github.com/AnoldmanLiSir/Acer-V3-572G-51MR/blob/master/README.md) |  
+
 | **更多机型**                                  | [链接](https://github.com/sqlsec/clover)                     |                                                              | 引用自：国光之前维护的仓库                                   |
 |                                               | [链接](https://zhih.me/hackintosh/#/)                        |                                                              | 底噪出品：**[one-key-hidpi](https://github.com/xzhih/one-key-hidpi)** |
 |                                               |                                                              |                                                              |                                                              |
@@ -284,4 +291,4 @@
 943181023 [联想小新Air黑苹果交流群](http://shang.qq.com/wpa/qunwpa?idkey=fb772a7e01436d43e1d856a099549551952bb08161ced4a8fc08b4e75e7ab438) 500人群 非专用机型请勿加入
 
 436905405 [机械革命MECHREVO【MR学院】黑苹果](http://shang.qq.com/wpa/qunwpa?idkey=fedfd951c92b6493a1b02940ec673657d3d0c8316d1abfa738f92214ed66d365) 500人群 非专用机型请勿加入
-
+612655811 [elitebook_probook_zbook 系列机型黑苹果交流] 500人群 主要针对 RehabMan和 tluck提供支持的机型,thinkpad x220_T420_T520,T460_T560_t470等机型
