@@ -1,6 +1,6 @@
 # Hackintosh
 
-![up2date](https://img.shields.io/librariesio/github/daliansky/Hackintosh.svg)![contributors](https://img.shields.io/github/contributors-anon/daliansky/Hackintosh.svg) ![commit](https://img.shields.io/github/last-commit/daliansky/Hackintosh.svg) [![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu) 
+![up2date](https://img.shields.io/librariesio/github/daliansky/Hackintosh.svg) ![contributors](https://img.shields.io/github/contributors-anon/daliansky/Hackintosh.svg) ![commit](https://img.shields.io/github/last-commit/daliansky/Hackintosh.svg) [![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu) 
 
 ## 黑苹果长期维护机型整理 by @我意
 
