@@ -1,5 +1,7 @@
 # Hackintosh
 
+![up2date](https://img.shields.io/librariesio/github/daliansky/Hackintosh.svg)![contributors](https://img.shields.io/github/contributors-anon/daliansky/Hackintosh.svg) ![commit](https://img.shields.io/github/last-commit/daliansky/Hackintosh.svg) [![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu) 
+
 ## 黑苹果长期维护机型整理 by @我意
 
 > 整理这份清单的目的：在于给想体验黑苹果的人一个方向，也想减少大家重复造轮子，节约大家的时间。      
@@ -11,7 +13,7 @@
 
 ### 同步更新：[黑果小兵的部落阁](<https://blog.daliansky.net/Hackintosh-long-term-maintenance-model-checklist.html>)
 
-### 机型讨论：[远景pcbeta.com](<http://bbs.pcbeta.com/viewthread-1795904-1-1.html>) 
+### 机型讨论：[远景pcbeta.com](<http://bbs.pcbeta.com/viewthread-1795904-1-1.html>)
 
 
 
@@ -161,7 +163,7 @@
 | XiaoMi Air 1gen                                     | [链接](https://github.com/johnnync13/Xiaomi-Notebook-Air-1Gen) |                                                              | 这哥们应该是忠实的米粉，<br />有兴趣的多多关注               |
 | XiaoMi Air Skylake                                  | [链接](https://github.com/johnnync13/EFI_XIAOMI_NOTEBOOK_AIR_SKYLAKE) | [链接](https://github.com/johnnync13/EFI_XIAOMI_NOTEBOOK_AIR_SKYLAKE/blob/master/README.md) |                                                              |
 | XiaoMi Gaming                                       | [链接](https://github.com/johnnync13/XiaomiGaming)           |                                                              | 额，小米游戏本                                               |
-| XiaoMi Pro 系列                                     | [链接](https://github.com/daliansky/XiaoMi-Pro)              | [链接](https://github.com/daliansky/XiaoMi-Pro/blob/master/README_CN.md) | 小米 Pro 系列                                                |
+| XiaoMi Pro 系列                                     | [链接](https://github.com/daliansky/XiaoMi-Pro)              | [链接](https://github.com/daliansky/XiaoMi-Pro/wiki)         | 小米 Pro 系列                                                |
 | XiaoMi 游戏本 8 代                                  | [链接](https://github.com/daliansky/XiaoMi-GLP)              |                                                              | 小米游戏本，猜的                                             |
 |                                                     |                                                              |                                                              |                                                              |
 | **Intel 英特尔**                                    |                                                              |                                                              |                                                              |
