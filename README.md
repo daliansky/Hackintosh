@@ -148,6 +148,9 @@
 | ThinkPad X260 系列                                  | [链接](https://github.com/daliansky/ThinkPad-X260-hackintosh) | [链接](https://github.com/daliansky/ThinkPad-X260-hackintosh/blob/master/README.md) | ThinkPad X260                                                |
 | ThinkPad Yoga 12                                    | [链接](https://github.com/gartempe/MacOS-Thinkpad-Yoga-12)   | [链接](https://github.com/gartempe/MacOS-Thinkpad-Yoga-12/blob/master/README.md) |                                                              |
 | ThinkPad Yoga 12                                    | [链接](https://github.com/kymodoke/MacOS-Thinkpad-Yoga-12)   | [链接](https://github.com/kymodoke/MacOS-Thinkpad-Yoga-12/blob/master/README.md) |                                                              |
+| Lenovo Yoga3 Pro                                    | [链接](https://github.com/gdllzkusi/hackintosh--lenovo-Yoga-3-Pro-1370) |                                                              |                                                              |
+| Lenovo Yoga3 14                                     | [链接](https://github.com/gdllzkusi/Lenovo-yoga3-14-hackntiosh) |                                                              |                                                              |
+| Lenovo Yoga3 11                                     | [链接](https://github.com/gdllzkusi/Lenovo-yoga3-11-hackntiosh) |                                                              |                                                              |
 |                                                     |                                                              |                                                              |                                                              |
 | **MSI 微星**                                        |                                                              |                                                              |                                                              |
 | MSI GL62M-7REX                                      | [链接](https://github.com/rlindsberg/Hackintosh-On-MSI-GL62m-7REX) |                                                              |                                                              |
@@ -179,8 +182,10 @@
 | K650D                                               | [链接](https://github.com/wklesss/k650D-Hackintosh)          |                                                              | 神舟 K 650D                                                  |
 | MECHREVO-X1                                         | [链接](https://github.com/tsmswifty/MECHREVO-X1-hackintosh)  |                                                              | 机械革命 X1                                                  |
 | Gigabyte Aero 15X                                   | [链接](https://github.com/zacmks/Hackintosh-Aero-15X)        | [链接](https://github.com/zacmks/Hackintosh-Aero-15X/blob/master/README.md) |                                                              |
+| Gigabyte Aero 15W                                   | [链接](https://github.com/Errrneist/Hackintosh-Aero-15W)     |                                                              |                                                              |
 | Shinalon_Yao_7000                                   | [链接](https://github.com/jinmu333/Shinalon_YAO_7000_efi)    | [链接](https://github.com/jinmu333/Shinalon_YAO_7000_efi/blob/efi/README.md) |                                                              |
 | 神舟战神 Z7系列                                     | [链接](https://github.com/kirainmoe/hasee-z7-kp7gz-macos)    | [链接](https://github.com/kirainmoe/hasee-z7-kp7gz-macos/blob/master/README.md) |                                                              |
+| 神舟炫龙笔记本DC2                                   | [链接](https://github.com/bavelee/DC2_Hackintosh)            | [链接](https://bavelee.cn/index.php/archives/60/)            |                                                              |
 |                                                     |                                                              |                                                              |                                                              |
 | **更多机型**                                        | [链接](https://github.com/sqlsec/clover)                     |                                                              | 引用自：国光之前维护的仓库                                   |
 |                                                     | [链接](https://zhih.me/hackintosh/#/)                        |                                                              | 底噪出品：**[one-key-hidpi](https://github.com/xzhih/one-key-hidpi)** |
@@ -198,10 +203,12 @@
 | **台式（部分）**           |                                                                                                                |                                                                                        |                            |
 | -------------------------- | -------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- | -------------------------- |
 | AMD Ryzen                  | [链接](https://github.com/MrNegativeTW/Ryzen-Hackintosh-Tutorial)                                              | [链接](https://mtwstudio.gitbook.io/ryzentosh/)                                        |                            |
+| AMD FX 6300/NVIDIA GTX 650 | [链接](https://github.com/pexcn/hackintosh-amd) |  | 主板：ASUS M5A97 LE R2.0 |
 | ASRock Z370M Pro4    | [链接](https://github.com/HouCoder/asrock-z370m-pro4-hackintosh)                                               | [链接](https://github.com/HouCoder/asrock-z370m-pro4-hackintosh/blob/master/README.md) |                            |
 | ASRock Z370-Gaming | [链接](https://github.com/fangf2018/ASRock-Z370-Gaming-ITX-ac-hackintosh) | [链接](https://github.com/fangf2018/ASRock-Z370-Gaming-ITX-ac-hackintosh/blob/master/README.md) | |
 | Asus Z170-P | [链接](https://github.com/Sharlion/z170_6700k_hackintosh) |  | 华硕Z170-P+6700K+RX470 |
 | Asus STRIX Z270-E          | [链接](https://github.com/BradenM/Hackintosh-7700k-R9_390-iGPU)                                                |                                                                                        | Asus STRIX Z270-E          |
+| CM238 i7-8950H UHD630 ALC269 | [链接](https://github.com/kkzzhizhou/S200H_I7-8750H_Hackintosh) | | S200H_I7-8750H 小主机 |
 | Gigabyte X370N             | [链接](https://github.com/cwr31/z370n-hackintosh) [链接](https://github.com/qinkangdeid/z370n-wifi-hackintosh) |                                                                                        | Gigabyte Z370N             |
 | Gigabyte Z270X-UG          | [链接](https://github.com/icedterminal/ga-z270x-ug)                                                            | [链接](https://github.com/icedterminal/ga-z270x-ug/blob/master/README.md)              |                            |
 | Gigabyte Z390 Aorus        | [链接](https://github.com/cmer/gigabyte-z390-aorus-master-hackintosh)                                         |                                                                                        |                            |
@@ -299,3 +306,7 @@
 436905405 [机械革命MECHREVO【MR学院】黑苹果](http://shang.qq.com/wpa/qunwpa?idkey=fedfd951c92b6493a1b02940ec673657d3d0c8316d1abfa738f92214ed66d365) 500人群 非专用机型请勿加入
 
 612655811 elitebook_probook_zbook 系列机型黑苹果交流 500人群 非专用机型请勿加入
+
+
+
+![star](https://img.shields.io/github/stars/daliansky/Hackintosh.svg?style=social)![followers](https://img.shields.io/github/followers/daliansky.svg?style=social) 
