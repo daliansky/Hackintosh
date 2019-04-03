@@ -338,13 +338,12 @@
 
 612655811 elitebook_probook_zbook 系列机型黑苹果交流 500人群 非专用机型请勿加入
 
-
 ## 关于打赏
 
 如果您认可我的工作，请通过打赏支持我后续的更新
 
 | paypal                                                       | 微信                                                       | 支付宝                                               |
 | ------------------------------------------------------------ | ---------------------------------------------------------- | ---------------------------------------------------- |
-| ![paypal_daliansky](https://7.daliansky.net/paypal_daliansky.png) | ![wechatpay_160](http://7.daliansky.net/wechatpay_160.jpg) | ![alipay_160](http://7.daliansky.net/alipay_160.jpg) |
+| [![paypal_daliansky](https://7.daliansky.net/paypal_daliansky.png)](https://www.paypal.me/daliansky) | ![wechatpay_160](http://7.daliansky.net/wechatpay_160.jpg) | ![alipay_160](http://7.daliansky.net/alipay_160.jpg) |
 
 ![star](https://img.shields.io/github/stars/daliansky/Hackintosh.svg?style=social)![followers](https://img.shields.io/github/followers/daliansky.svg?style=social) 
