@@ -20,11 +20,21 @@
 更新日期：
 
 - 2018 年 10 月 06 日
+
 - 2018 年 12 月 25 日
+
 - 2019 年 01 月 15 日
+
 - 2019 年 3 月 1 日 by 黑果小兵
   - 按机型重新排版
   - 将该文档上传到仓库，方便其它人提交合并，共同维护
+
+- 2019年4月2日
+
+  - 添加部分新机型
+  - 将多于2个机型的品牌独立出来，方便检索
+
+  
 
 ### 笔记本部分机型
 
@@ -236,7 +246,7 @@
 | Huanan X79 E5-2670, GTX650 | [链接](https://github.com/cheneyveron/clover-x79-e5-2670-gtx650)                                               | [链接](https://github.com/cheneyveron/clover-x79-e5-2670-gtx650/blob/master/README.md) | 华南 x79 V2                |
 | MSI B360                   | [链接](https://github.com/SuperNG6/MSI-b360-10.14.2-EFI)                                                       |                                                                                        |                            |
 | MSI Z370-A                | [链接](https://github.com/daliansky/Z370-Hackintosh)         | [链接](https://github.com/daliansky/Z370-Hackintosh)         | 黑果小兵MSI Z370-A自用EFI                                    |
-| **更多机型**               | [链接](https://github.com/sqlsec/clover/tree/master/%E5%8F%B0%E5%BC%8F%E6%9C%BA)                               |                                                                                        | 引用自：国光之前维护的仓库 |
+| **更多机型**               | [链接](https://github.com/sqlsec/clover)                               |                                                                                        | 引用自：国光之前维护的仓库 |
 | | [链接](https://zhih.me/hackintosh/#/) | | 底噪出品：**[one-key-hidpi](https://github.com/xzhih/one-key-hidpi)** |
 
 ### Github 上一些贡献者的配置
@@ -328,6 +338,19 @@
 
 612655811 elitebook_probook_zbook 系列机型黑苹果交流 500人群 非专用机型请勿加入
 
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick" />
+<input type="hidden" name="hosted_button_id" value="ESWNFU9D29NLS" />
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+<img alt="" border="0" src="https://www.paypal.com/en_C2/i/scr/pixel.gif" width="1" height="1" />
+</form>
 
+## 关于打赏
+
+如果您认可我的工作，请通过打赏支持我后续的更新
+
+| 微信                                                       | 支付宝                                               |
+| ---------------------------------------------------------- | ---------------------------------------------------- |
+| ![wechatpay_160](http://7.daliansky.net/wechatpay_160.jpg) | ![alipay_160](http://7.daliansky.net/alipay_160.jpg) |
 
 ![star](https://img.shields.io/github/stars/daliansky/Hackintosh.svg?style=social)![followers](https://img.shields.io/github/followers/daliansky.svg?style=social) 
