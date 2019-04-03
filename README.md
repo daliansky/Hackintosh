@@ -338,19 +338,13 @@
 
 612655811 elitebook_probook_zbook 系列机型黑苹果交流 500人群 非专用机型请勿加入
 
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-<input type="hidden" name="cmd" value="_s-xclick" />
-<input type="hidden" name="hosted_button_id" value="ESWNFU9D29NLS" />
-<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
-<img alt="" border="0" src="https://www.paypal.com/en_C2/i/scr/pixel.gif" width="1" height="1" />
-</form>
 
 ## 关于打赏
 
 如果您认可我的工作，请通过打赏支持我后续的更新
 
-| 微信                                                       | 支付宝                                               |
-| ---------------------------------------------------------- | ---------------------------------------------------- |
-| ![wechatpay_160](http://7.daliansky.net/wechatpay_160.jpg) | ![alipay_160](http://7.daliansky.net/alipay_160.jpg) |
+| paypal                                                       | 微信                                                       | 支付宝                                               |
+| ------------------------------------------------------------ | ---------------------------------------------------------- | ---------------------------------------------------- |
+| ![paypal_daliansky](https://7.daliansky.net/paypal_daliansky.png) | ![wechatpay_160](http://7.daliansky.net/wechatpay_160.jpg) | ![alipay_160](http://7.daliansky.net/alipay_160.jpg) |
 
 ![star](https://img.shields.io/github/stars/daliansky/Hackintosh.svg?style=social)![followers](https://img.shields.io/github/followers/daliansky.svg?style=social) 
