@@ -400,6 +400,8 @@
 
 612655811 elitebook_probook_zbook 系列机型黑苹果交流 500人群 非专用机型请勿加入
 
+308469644 [外星人Alienware黑苹果交流群](https://shang.qq.com/wpa/qunwpa?idkey=9f579e157ffed2a47be3861601080953453be323e50844005e9f2466dd2b12c5) 500人群 非专用机型请勿加入
+
 ## 关于打赏
 
 如果您认可我的工作，请通过打赏支持我后续的更新
