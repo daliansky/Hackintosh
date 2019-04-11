@@ -265,6 +265,30 @@
 | LG Gram 14z980         | [链接](https://github.com/ShiningXu/LG-Gram-macOS) |          |      |
 | LG Gram 15Z980-G.AA52C | [链接](https://github.com/ice-black-tea/LG-15Z980) |          |      |
 
+
+
+
+
+#### Mechrevo 机械革命
+
+| 机型名称           | 发布地址                                                     | 教程地址 | 备注                                |
+| ------------------ | ------------------------------------------------------------ | -------- | ----------------------------------- |
+| Mechrevo Z2        | [链接](https://github.com/cmbs2019/Mechrevo-Hackintosh)      |          | i7-8750H/i5-8300H GTX1050ti/GTX1060 |
+| Mechrevo Z2 Air    | [链接](https://github.com/cmbs2019/Mechrevo-Hackintosh)      |          | i7-8750H/i5-8300H GTX1050ti/GTX1060 |
+| Mechrevo X8ti      | [链接](https://github.com/cmbs2019/Mechrevo-Hackintosh)      |          | i7-8750H/i5-8300H GTX1050ti/GTX1060 |
+| Mechrevo X8ti Plus | [链接](https://github.com/cmbs2019/Mechrevo-Hackintosh)      |          | i7-8750H/i5-8300H GTX1050ti/GTX1060 |
+| Mechrevo S1        | [链接](https://github.com/cmbs2019/Mechrevo-Hackintosh)      |          | I5-8250U/I7-8550u Mx150             |
+| Mechrevo S1        | [链接](https://github.com/cmbs2019/Mechrevo-Hackintosh)      |          | I5-8265U/I7-8565u Mx250             |
+| Mechrevo X2        | [链接](https://github.com/cmbs2019/Mechrevo-Hackintosh)      |          | i7-8750H/i5-8300H GTX1050ti/GTX1060 |
+| Mechrevo S1 PLUS   | [链接](https://github.com/cmbs2019/Mechrevo-Hackintosh)      |          | i7-8750H/i5-8300H GTX1050ti/GTX1060 |
+| Mechrevo X7TI      | [链接](https://github.com/cmbs2019/Mechrevo-Hackintosh)      |          | I7-6700HQ/I7 7700HQ                 |
+| Mechrevo X7TI-S    | [链接](https://github.com/cmbs2019/Mechrevo-Hackintosh)      |          | I7-7700HQ GTX1070/GTX1060           |
+| Mechrevo X6TI      | [链接](https://github.com/cmbs2019/Mechrevo-Hackintosh)      |          | i7-8750H/i5-8300H GTX1050ti/GTX1060 |
+| Mechrevo X6TIS     | [链接](https://github.com/cmbs2019/Mechrevo-Hackintosh)      |          |                                     |
+| Mechrevo X1        | [链接](https://github.com/cmbs2019/Mechrevo-Hackintosh) [链接](https://github.com/tsmswifty/MECHREVO-X1-hackintosh) |          | i7-7700HQ/GTX1060                   |
+
+
+
 #### MSI 微星
 
 | 机型名称                  | 发布地址                                                     | 教程地址                                                     | 备注      |
@@ -307,7 +331,6 @@
 | ----------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ----------------- |
 | Clevo P950HR      | [链接](https://github.com/MegaCookie/Clevo-P950HR-Hackintosh) |                                                              | 蓝天 P950HR，猜的 |
 | 火影地狱火X6      | [链接](https://github.com/gaofeicm/DiYuHuo-X6-MacOS-High-Sierra-10.13.6-Hackintosh) |                                                              |                   |
-| MECHREVO-X1       | [链接](https://github.com/tsmswifty/MECHREVO-X1-hackintosh)  |                                                              | 机械革命 X1       |
 | Shinalon_Yao_7000 | [链接](https://github.com/jinmu333/Shinalon_YAO_7000_efi)    | [链接](https://github.com/jinmu333/Shinalon_YAO_7000_efi/blob/efi/README.md) |                   |
 
 #### 笔记本更多的机型
@@ -354,10 +377,11 @@
 | Gigabyte X370N                 | [链接](https://github.com/cwr31/z370n-hackintosh) [链接](https://github.com/qinkangdeid/z370n-wifi-hackintosh) |                                                              | Gigabyte Z370N                                  |
 | DQ77KB                         | [链接](https://github.com/siwilizhao/DQ77KB-I7-3770S-Hackintosh) |                                                              |                                                 |
 | Gigabyte Z270X-UG              | [链接](https://github.com/icedterminal/ga-z270x-ug)          | [链接](https://github.com/icedterminal/ga-z270x-ug/blob/master/README.md) |                                                 |
+| Gigabyte Z370N WIFI            | [链接](https://github.com/b166ar/Mac-Mini-Killer)            |                                                              | Mac-Mini-Killer                                 |
 | Gigabyte Z390 Aorus            | [链接](https://github.com/cmer/gigabyte-z390-aorus-master-hackintosh) |                                                              |                                                 |
 | Lenovo M73 Tiny                | [链接](https://github.com/rehandalal/m73-tiny-hackintosh)    |                                                              |                                                 |
 | Huanan X79 E5-2670, GTX650     | [链接](https://github.com/cheneyveron/clover-x79-e5-2670-gtx650) | [链接](https://github.com/cheneyveron/clover-x79-e5-2670-gtx650/blob/master/README.md) | 华南 x79 V2                                     |
-| HP Z600 Workstation            | [链接](https://github.com/lutzmor/hp_z600_hackintosh)        |                                                              |                                                 |
+| HP Z600 Workstation            | [链接](https://github.com/lutzmor/hp_z600_hackintosh)        |                                                              | Mac-Mini-Killer                                 |
 | MSI B360                       | [链接](https://github.com/SuperNG6/MSI-b360-10.14.4-EFI)     |                                                              | 也适用于<br />MAG Z390 TOMAHAWK <br />(MS-7B18) |
 | MSI Z370-A                     | [链接](https://github.com/daliansky/Z370-Hackintosh)         | [链接](https://github.com/daliansky/Z370-Hackintosh)         | 黑果小兵MSI Z370-A自用EFI                       |
 
