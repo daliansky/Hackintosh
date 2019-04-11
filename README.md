@@ -332,7 +332,7 @@
 
 | **台式（部分）**               | 发布地址                                                     | 教程地址                                                     | 备注                                            |
 | ------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ----------------------------------------------- |
-| AMD Ryzen                      | [链接](https://github.com/MrNegativeTW/Ryzen-Hackintosh-Tutorial) | [链接](https://mtwstudio.gitbook.io/ryzentosh/)              |                                                 |
+| AMD Ryzen安装教程              | [链接](https://github.com/MrNegativeTW/Ryzen-Hackintosh-Tutorial) | [链接](https://mtwstudio.gitbook.io/ryzentosh/)              | 适用于`Sierra` `10.12.6`                        |
 | AMD FX 6300/NVIDIA GTX 650     | [链接](https://github.com/pexcn/hackintosh-amd)              |                                                              | 主板：Asus M5A97 LE R2.0                        |
 | MSI B350M Gaming Pro           | [链接](https://github.com/nghuunghiaa111/Hackintosh-IMac)    |                                                              | AMD Ryzen 5 1400<br />MSI RX580 8GB Armor       |
 | AMD Ryzen 1700/Asus B350 Plus  | [链接](https://github.com/mikigal/ryzen-hackintosh)          |                                                              | MSI GTX 1080 Gaming X                           |
