@@ -381,8 +381,8 @@
 | DQ77KB                         | [链接](https://github.com/siwilizhao/DQ77KB-I7-3770S-Hackintosh) |                                                              |                                                 |
 | Gigabyte Z270X-UG              | [链接](https://github.com/icedterminal/ga-z270x-ug)          | [链接](https://github.com/icedterminal/ga-z270x-ug/blob/master/README.md) |                                                 |
 | Gigabyte Z370N WIFI            | [链接](https://github.com/b166ar/Mac-Mini-Killer)            |                                                              | Mac-Mini-Killer                                 |
-| Gigabyte Z390 Aorus            | [链接](https://github.com/cmer/gigabyte-z390-aorus-master-hackintosh) |                                                              |                                                 |
-| Gigabytes Z390 AUROS ELITE     | [链接](https://github.com/liusming/hackintosh)               |                                                              | I9-9900K/Intel (Z380) HD 630 2G                 |
+| Gigabyte Z390 AORUS            | [链接](https://github.com/cmer/gigabyte-z390-aorus-master-hackintosh) |                                                              |                                                 |
+| Gigabytes Z390 AORUS ELITE     | [链接](https://github.com/liusming/hackintosh)               |                                                              | I9-9900K/Intel (Z380) HD 630 2G                 |
 | Gigabytes Z390 Ultra           | [链接](https://github.com/mrpaulphan/gigabyte-z390-ultra-master-hackintosh) |                                                              |                                                 |
 | Lenovo M73 Tiny                | [链接](https://github.com/rehandalal/m73-tiny-hackintosh)    |                                                              |                                                 |
 | Huanan X79 E5-2670, GTX650     | [链接](https://github.com/cheneyveron/clover-x79-e5-2670-gtx650) | [链接](https://github.com/cheneyveron/clover-x79-e5-2670-gtx650/blob/master/README.md) | 华南 x79 V2                                     |
