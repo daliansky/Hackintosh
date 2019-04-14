@@ -128,7 +128,8 @@
 | Dell Inspiron 5559                         | [链接](https://github.com/cbabb/dell-5559)                   |                                                              | Dell 5559                                             |
 | Dell Inspiron 5567                         | [链接](https://github.com/MuntashirAkon/HackintoshDellInspiron5567) |                                                              | i3-7100u, Intel HD620                                 |
 | Dell inspiron 5570                         | [链接](https://github.com/Mateo1234454545/Dell-5570-hackintosh) |                                                              |                                                       |
-| Dell Inspiron 5577                         | [链接](https://github.com/imAmouse/Clover-EFI-For-Dell-5577) |                                                              |                                                       |
+| Dell Inspiron 5577                         | [链接](https://github.com/imAmouse/Clover-EFI-For-Dell-5577) [链接](https://github.com/Wmyaaa/Dell5577-hackintosh-clover) |                                                              |                                                       |
+| Dell Inspiron 5680                         | [链接](https://github.com/Firxiao/hackintosh-efi)            |                                                              |                                                       |
 | Dell Inspiron 7000 系列                    | [链接](https://github.com/daliansky/dell7000)                | [链接](https://github.com/daliansky/dell7000/blob/master/README.md) | Dell Inspiron 7000 I/II (7x60/7x72)                   |
 | Dell Inspiron 14 7447 Pandora              | [链接](https://github.com/Am1nCmd/Dell-Inspiron-14-7447-Pandora-Hackintosh) |                                                              |                                                       |
 | Dell Inspiron 7460 和 7560                 | [链接](https://github.com/xzhih/dell-7460-7560-hackintosh)   | [链接](https://github.com/xzhih/dell-7460-7560-hackintosh/blob/master/README.md) | 戴尔 7460 和 7560                                     |
@@ -355,7 +356,8 @@
 |                                    | **无线网卡**                                  |                                                              |                                                              |
 | 推荐无线网卡                       | MiniPCIe 接口(推荐 BCM4352HMB、DW1510)        | 博通：BCM94322HM8L、Asus BCM94352、AzureWave AW-CE123H、AzureWave AW-NB290H、DW1510、DW1520、DW1550、 | 高通：DW1515、DW1705、AR5BHB92、AR5BHB112 AR9285 芯片在 10.14 将不再被支持 |
 | PCIe 接口                          | 博通：BCM94331CD、BCM94322MC、BCM94360CD      | 高通：AR5BXB72、AR5BXB92、AR5BXB112                          |                                                              |
-| M.2 接口(推荐 BCM94352ZAE、DW1560) | 博通：BCM94352Z(AE)、DW1560，DW1830           | 高通：DW1707(AR9565)                                         |                                                              |
+| M.2 接口(推荐 BCM94352ZAE、DW1560) | 博通：BCM94352Z(AE)、DW1560，DW1830           |                                                              |                                                              |
+| Wireless USB Adapter               | REALTEK系列                                   | [链接](https://github.com/chris1111/Wireless-USB-Adapter-Clover) |                                                              |
 
 ### 台式机
 
