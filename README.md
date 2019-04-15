@@ -300,11 +300,13 @@
 
 | 机型名称                  | 发布地址                                                     | 教程地址                                                     | 备注      |
 | ------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | --------- |
+| MSI GE70 2PC              | [链接](https://github.com/alxzoomer/msi-ge70-2pc-hackintosh) |                                                              |           |
 | MSI GL62M-7REX            | [链接](https://github.com/rlindsberg/Hackintosh-On-MSI-GL62m-7REX) |                                                              |           |
 | MSI GL72M-7RDX            | [链接](https://github.com/jbwharris/hackintosh-msi-GL72M-7RDX) | [链接](https://github.com/jbwharris/hackintosh-msi-GL72M-7RDX/blob/master/README.md) |           |
 | MSI GP62 6QG-1071XCN      | [链接](https://github.com/chuxubank/MSI-GP62-Hackintosh)     | [链接](https://github.com/chuxubank/MSI-GP62-Hackintosh/blob/master/README.md) | 微星 GP62 |
 | MSI GS65 Stealth Thin 8RF | [链接](https://github.com/vladichimescu/msi-gs65-hackintosh) |                                                              |           |
-| MSI GE70 2PC              | [链接](https://github.com/alxzoomer/msi-ge70-2pc-hackintosh) |                                                              |           |
+| MSI GS73VR 7RF            | [链接](https://github.com/dogukanoksuz/msi-gs73vr-7rf-macOS) |                                                              |           |
+
 
 #### XiaoMi 小米
 
@@ -357,7 +359,7 @@
 | 推荐无线网卡                       | MiniPCIe 接口(推荐 BCM4352HMB、DW1510)        | 博通：BCM94322HM8L、Asus BCM94352、AzureWave AW-CE123H、AzureWave AW-NB290H、DW1510、DW1520、DW1550、 | 高通：DW1515、DW1705、AR5BHB92、AR5BHB112 AR9285 芯片在 10.14 将不再被支持 |
 | PCIe 接口                          | 博通：BCM94331CD、BCM94322MC、BCM94360CD      | 高通：AR5BXB72、AR5BXB92、AR5BXB112                          |                                                              |
 | M.2 接口(推荐 BCM94352ZAE、DW1560) | 博通：BCM94352Z(AE)、DW1560，DW1830           |                                                              |                                                              |
-| Wireless USB Adapter               | REALTEK系列                                   | [链接](https://github.com/chris1111/Wireless-USB-Adapter-Clover) |                                                              |
+| Wireless USB Adapter               | RealTek系列                                   | [链接](https://github.com/chris1111/Wireless-USB-Adapter-Clover) |                                                              |
 
 ### 台式机
 
