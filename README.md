@@ -9,15 +9,17 @@
 > 清单收录了 4 个月以内的有人长期维护并更新过 EFI 的机型链接，如果有新的链接希望收录到这份清单，请发送邮件到 [y010204025@126.com](mailto:y010204025@126.com)       
 > 致谢：感谢一直为黑苹果进行开发的各位开发者和愿意共享出 EFI 文件的开发者，谢谢！     
 > 最近有好幾個人發郵件，請求適配機型。
->>  * 建議大家使用[yandex搜索引擎](yandex.ru)、[github](github.com)先搜索下有沒有自己的機型，型號一樣，機型配置有差異可以忽略，使用你的機器型號+clover、型號+EFI、型號+mac、型號+Hackintosh等進行搜索。例如我最近更新了 elitebook840g3、840g4等幾個機型的 EFI，就可以使用840g3+clover 840g3+EFI 等關鍵詞進行搜索。
+>>  * 建議大家使用[yandex搜索引擎](https://yandex.ru)、[github](https://github.com)先搜索下有沒有自己的機型，型號一樣，機型配置有差異可以忽略，使用你的機器型號+clover、型號+EFI、型號+mac、型號+Hackintosh等進行搜索。例如我最近更新了 elitebook840g3、840g4等幾個機型的 EFI，就可以使用840g3+clover 840g3+EFI 等關鍵詞進行搜索。
 >>  * 黑蘋果論壇：
->>> * **國內** [遠景論壇](bbs.pcbeta.com)、[威鋒論壇](bbs.feng.com)
->>> * **國外** [insanelymac 論壇](https://www.insanelymac.com/forum/)、[tonymacx86論壇](tonymacx86.com)、[德國黑蘋果論壇](https://www.hackintosh-forum.de/)、[俄羅斯黑蘋果論壇](https://www.applelife.ru)、[法國黑蘋果論壇](https://www.hackintosh-montreal.com)、
+>>> * **國內** [遠景論壇](http://bbs.pcbeta.com)、[威鋒論壇](http://bbs.feng.com)
+>>> * **國外** [insanelymac 論壇](https://www.insanelymac.com/forum/)、[tonymacx86論壇](https://www.tonymacx86.com/)、[德國黑蘋果論壇](https://www.hackintosh-forum.de/)、[俄羅斯黑蘋果論壇](https://www.applelife.ru)、[法國黑蘋果論壇](https://www.hackintosh-montreal.com)、
             [osxlatitude論壇](https://osxlatitude.com/forums/)
 >> * 一些黑蘋果常用的軟件或者驅動開發者的主頁，希望大家能及時更新驅動和軟件，驅動需要自己去對應驅動開發者的主頁去更新。
 >>> * *[RehabMan](https://bitbucket.org/RehabMan/)* 維護了很多黑蘋果驅動和相關補丁
 >>> * *[Vit9696](https://github.com/acidanthera)* lilu和相關插件、applealc的主要開發或維護者
 >>> * *[Clover更新地址](https://sourceforge.net/projects/cloverefiboot/)* Clover團隊更新 clover的主要發佈渠道
+>>> * *[常用軟件和驅動清單](https://github.com/daliansky/Hackintosh/blob/master/LinkList)* 整理了常用軟件和驅動的主要發佈地址，持續修改……
+
 
 >   *關於黑蘋果，希望大家能擺正心態，容忍小問題的存在，某些功能無法實現或者是體驗不好「觸摸板、指點桿、觸摸屏、雷電端口等等」，系統運行不穩定，容易卡機或者死機或者是開機不認引導、升級系統失敗等都屬於正常現象。 **每次升級前請先從各種驅動了解本次升級有沒有大的改動，在升級前首先升級 Clover 和相關的 kext 驅動，需要添加補丁或者是更新補丁的請做好相關工作，不要等著出了問題再去尋找解決方案。** 在自己遇到問題的時候，請先通過網絡尋找解決辦法，無法解決再詢問別人，請別人幫忙解決問題的時候，首先端正自己的態度，把問題描述清楚，能提供 log 日誌或者是相關文件的先提供文件，提供不了文件的拍照拍清楚。解決問題，需要努力的是自己，不是讓別人幫你努力，幫你解答是情分，不是義務。*
 
