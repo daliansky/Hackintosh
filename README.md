@@ -8,20 +8,26 @@
 > 所有文件均归属于原作者，本清单只列出链接。如果您不希望你的链接被这份清单收录，请发送邮件到 [y010204025@126.com](mailto:y010204025@126.com),我将移除链接      
 > 清单收录了 4 个月以内的有人长期维护并更新过 EFI 的机型链接，如果有新的链接希望收录到这份清单，请发送邮件到 [y010204025@126.com](mailto:y010204025@126.com)       
 > 致谢：感谢一直为黑苹果进行开发的各位开发者和愿意共享出 EFI 文件的开发者，谢谢！     
-> 最近有好幾個人發郵件，請求適配機型。
->>  * 建議大家使用[yandex搜索引擎](https://yandex.ru)、[github](https://github.com)先搜索下有沒有自己的機型，型號一樣，機型配置有差異可以忽略，使用你的機器型號+clover、型號+EFI、型號+mac、型號+Hackintosh等進行搜索。例如我最近更新了 elitebook840g3、840g4等幾個機型的 EFI，就可以使用840g3+clover 840g3+EFI 等關鍵詞進行搜索。
->>  * 黑蘋果論壇：
->>> * **國內** [遠景論壇](http://bbs.pcbeta.com)、[威鋒論壇](http://bbs.feng.com)
->>> * **國外** [insanelymac 論壇](https://www.insanelymac.com/forum/)、[tonymacx86論壇](https://www.tonymacx86.com/)、[德國黑蘋果論壇](https://www.hackintosh-forum.de/)、[俄羅斯黑蘋果論壇](https://www.applelife.ru)、[法國黑蘋果論壇](https://www.hackintosh-montreal.com)、
-            [osxlatitude論壇](https://osxlatitude.com/forums/)
->> * 一些黑蘋果常用的軟件或者驅動開發者的主頁，希望大家能及時更新驅動和軟件，驅動需要自己去對應驅動開發者的主頁去更新。
->>> * *[RehabMan](https://bitbucket.org/RehabMan/)* 維護了很多黑蘋果驅動和相關補丁
->>> * *[Vit9696](https://github.com/acidanthera)* lilu和相關插件、applealc的主要開發或維護者
->>> * *[Clover更新地址](https://sourceforge.net/projects/cloverefiboot/)* Clover團隊更新 clover的主要發佈渠道
->>> * *[常用軟件和驅動清單](https://github.com/daliansky/Hackintosh/blob/master/LinkList)* 整理了常用軟件和驅動的主要發佈地址，持續修改……
+> 最近有好几个人发邮件，请求适配机型。
 
+  * 建议大家使用[yandex搜索引擎](https://yandex.ru)、[github](https://github.com)先搜索下有没有自己的机型，型号一样，机型配置有差异可以忽略，使用你的机器型号+clover、型号+EFI、型号+mac、型号+Hackintosh等进行搜索。例如我最近更新了 elitebook840g3、840g4等几个机型的 EFI，就可以使用840g3+clover 840g3+EFI 等关键词进行搜索。
 
->   *關於黑蘋果，希望大家能擺正心態，容忍小問題的存在，某些功能無法實現或者是體驗不好「觸摸板、指點桿、觸摸屏、雷電端口等等」，系統運行不穩定，容易卡機或者死機或者是開機不認引導、升級系統失敗等都屬於正常現象。 **每次升級前請先從各種驅動了解本次升級有沒有大的改動，在升級前首先升級 Clover 和相關的 kext 驅動，需要添加補丁或者是更新補丁的請做好相關工作，不要等著出了問題再去尋找解決方案。** 在自己遇到問題的時候，請先通過網絡尋找解決辦法，無法解決再詢問別人，請別人幫忙解決問題的時候，首先端正自己的態度，把問題描述清楚，能提供 log 日誌或者是相關文件的先提供文件，提供不了文件的拍照拍清楚。解決問題，需要努力的是自己，不是讓別人幫你努力，幫你解答是情分，不是義務。*
+  * 黑苹果论坛：
+       * **国内** [远景论坛](http://bbs.pcbeta.com)、[威锋论坛](http://bbs.feng.com)
+     * **国外** [insanelymac 论坛](https://www.insanelymac.com/forum/)、[tonymacx86论坛](https://www.tonymacx86.com/)、[德国黑苹果论坛](https://www.hackintosh-forum.de/)、[俄罗斯黑苹果论坛](https://www.applelife.ru)、[法国黑苹果论坛](https://www.hackintosh-montreal.com)、 [osxlatitude论坛](https://osxlatitude.com/forums/)
+
+* 一些黑苹果常用的软件或者驱动开发者的主页，希望大家能及时更新驱动和软件，驱动需要自己去对应驱动开发者的主页去更新。
+
+      * *[RehabMan](https://bitbucket.org/RehabMan/)* 维护了很多黑苹果驱动和相关补丁
+      * *[Vit9696](https://github.com/acidanthera)* lilu和相关插件、applealc的主要开发或维护者
+      * *[Clover更新地址](https://sourceforge.net/projects/cloverefiboot/)* Clover团队更新 clover的主要发佈渠道
+      * *[常用软件和驱动清单](https://github.com/daliansky/Hackintosh/blob/master/LinkList)* 整理了常用软件和驱动的主要发佈地址，持续修改……
+
+     
+
+     *关于黑苹果，希望大家能摆正心态，容忍小问题的存在，某些功能无法实现或者是体验不好「触摸板、指点杆、触摸屏、雷电端口等等」，系统运行不稳定，容易卡机或者死机或者是开机不认引导、升级系统失败等都属于正常现象。 **每次升级前请先从各种驱动了解本次升级有没有大的改动，在升级前首先升级 Clover 和相关的 kext 驱动，需要添加补丁或者是更新补丁的请做好相关工作，不要等著出了问题再去寻找解决方案。** 在自己遇到问题的时候，请先通过网络寻找解决办法，无法解决再询问别人，请别人帮忙解决问题的时候，首先端正自己的态度，把问题描述清楚，能提供 log 日志或者是相关文件的先提供文件，提供不了文件的拍照拍清楚。解决问题，需要努力的是自己，不是让别人帮你努力，帮你解答是情分，不是义务。*
+
+     
 
 ### 同步更新：[黑果小兵的部落阁](<https://blog.daliansky.net/Hackintosh-long-term-maintenance-model-checklist.html>)
 
@@ -136,7 +142,7 @@
 | Dell Inspiron 3670                         | [链接](https://github.com/inyan600/Dell-Inspiron-3670-Hackintosh) |                                                              |                                                              |
 | Dell Inspiron 5447                         | [链接](https://github.com/SinhLv/Dell-Ins-14-5447-hackintosh) |                                                              |                                                              |
 | Dell Inspiron 5458                         | [链接](https://github.com/HZY040122/DELL-Inspiron-5458)      |                                                              |                                                              |
-| Dell Inspiron 5488                         | [链接](https://github.com/daggeryu/DELL-inspiron-5488)       |                                                              | DELL Inspiron 5480 5488 5580 5482<br />DELL_Vostro_5481_5581 |
+| Dell Inspiron 5488                         | [链接](https://github.com/daggeryu/DELL-inspiron-5488)       |                                                              | DELL Inspiron 5480 5488 5580 5482<br />DELL Vostro 5481 5581 |
 | Dell Inspiron 5559                         | [链接](https://github.com/cbabb/dell-5559)                   |                                                              | Dell 5559                                                    |
 | Dell Inspiron 5567                         | [链接](https://github.com/MuntashirAkon/HackintoshDellInspiron5567) |                                                              | i3-7100u, Intel HD620                                        |
 | Dell inspiron 5570                         | [链接](https://github.com/Mateo1234454545/Dell-5570-hackintosh) |                                                              |                                                              |
