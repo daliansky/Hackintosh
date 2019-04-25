@@ -121,6 +121,7 @@
 | Asus ZenBook Flip UX360UAK        | [链接](https://github.com/Frizz925/UX360UAK-Hackintosh)      | [链接](https://github.com/Frizz925/UX360UAK-Hackintosh/blob/master/README.md) |                                                            |
 | Asus ZenBook UX32VD               | [链接](https://github.com/rafaelmaeuer/Asus-UX32VD-Hackintosh) | [链接](https://github.com/rafaelmaeuer/Asus-UX32VD-Hackintosh/blob/master/readme.md) | Asus UX32VD                                                |
 | Asus ZenBook UX330UAK             | [链接](https://github.com/Rybo713/UX330UA-macOS)             | [链接](https://github.com/Rybo713/UX330UA-macOS/blob/master/README.md) | Asus UX330UAK (Kabylake）                                  |
+| Asus Zephyrus M (GM501GS)         | [链接](https://github.com/kylergib/Asus-Zephyrus-M-gm501gs-Mojave) |                                                              |                                                            |
 | 华硕zx50jx4200                    | [链接](https://github.com/sxz799/zx50jx4200_hackintosh)      |                                                              |                                                            |
 
 #### DELL 戴尔
@@ -130,7 +131,6 @@
 | Alienware 17 R4 i7-7700HQ                  | [链接](https://github.com/RockJesus/Alienware-17-R4-I7-7700HQ-MacOS-High-Sierra) | [链接](https://github.com/RockJesus/Alienware-17-R4-I7-7700HQ-MacOS-High-Sierra/blob/master/README.md) | 外星人 17 R4                                                 |
 | Alienware Aurora-R7                        | [链接](https://github.com/jianghaizhi/DELL-Alienware-Aurora-R7-macOS) |                                                              |                                                              |
 | Alienware-Aurora-R6/R7/R8                  | [链接](https://github.com/jianghaizhi/DELL-Alienware-Aurora-R7-macOS) |                                                              |                                                              |
-| DELL Latitude E7440                        | [链接](https://github.com/ameeno/Dell-E7440-Hackintosh)      |                                                              |                                                              |
 | **Alienware外星人更多机型**                | [链接](https://github.com/RockJesus/Alienware-Hackintosh)    |                                                              | 引用自：RockJesus维护的仓库                                  |
 |                                            |                                                              |                                                              |                                                              |
 | Dell G3 3579                               | [链接](https://github.com/JiangHoumin/Dell_G3_3579_Hackintosh) [链接](https://github.com/JiangHoumin/Dell_G3_3579_Hackintosh) |                                                              |                                                              |
