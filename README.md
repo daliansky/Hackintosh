@@ -22,7 +22,7 @@
   * *[RehabMan](https://bitbucket.org/RehabMan/)* 维护了很多黑苹果驱动和相关补丁
   * *[Vit9696](https://github.com/acidanthera)* lilu和相关插件、applealc的主要开发或维护者
   * *[Clover更新地址](https://sourceforge.net/projects/cloverefiboot/)* Clover团队更新 clover的主要发佈渠道
-* *[常用软件和驱动清单](https://github.com/daliansky/Hackintosh/blob/master/LinkList)* 整理了常用软件和驱动的主要发佈地址，持续修改……
+* *[常用软件和驱动清单](./LinkList.md)* 整理了常用软件和驱动的主要发佈地址，持续修改……
   
    
 
@@ -399,7 +399,8 @@
 | AMD FX 6300/NVIDIA GTX 650     | [链接](https://github.com/pexcn/hackintosh-amd)              |                                                              | 主板：Asus M5A97 LE R2.0                        |
 | MSI B350M Gaming Pro           | [链接](https://github.com/nghuunghiaa111/Hackintosh-IMac)    |                                                              | AMD Ryzen 5 1400<br />MSI RX580 8GB Armor       |
 | AMD Ryzen 1700/Asus B350 Plus  | [链接](https://github.com/mikigal/ryzen-hackintosh)          |                                                              | MSI GTX 1080 Gaming X                           |
-|                                |                                                              |                                                              |                                                 |
+| AMD Vanilla Clover Patches | [链接](https://github.com/AMD-OSX/AMD_Vanilla) | [链接](https://github.com/cheneyveron/hackintosh-clover-tachi-x370-1700x-rx570) | AMD Clover补丁，以后可以<br />直接刻盘安装，10.14.5我会同步<br />更新针对AMD平台的配置文件<br />敬请期待 |
+|  |  |  |  |
 | **INTEL CPU**                  |                                                              |                                                              |                                                 |
 | ASRock  deskmini 110           | [链接](https://github.com/suxiaogang/asrock-deskmini-110-hackintosh) |                                                              |                                                 |
 | Asrock deskmini 310            | [链接](https://github.com/liminghuang/asrock_deskmini310_hackintosh) |                                                              |                                                 |
