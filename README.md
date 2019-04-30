@@ -111,6 +111,7 @@
 | Asus VivoBook 15 X510UQ / S5100UQ | [链接](https://github.com/wishayne/hackintosh-Asus-S5100UQ-X510UQ) |                                                              |                                                            |
 | Asus X441U                        | [链接](https://github.com/jundanaalbasyir/Hackintosh-Asus-X441U) |                                                              |                                                            |
 | Asus X441UB                       | [链接](https://github.com/alfinauzikri/Asus-X441UB-Hackintosh) |                                                              |                                                            |
+| Asus X441UV                       | [链接](https://github.com/MinorityCode/asus-x441uv-hackintosh-files) |                                                              |                                                            |
 | Asus VivoBook Max X441UVK         | [链接](https://github.com/alfinauzikri/Asus-X441UVK-Hackintosh) |                                                              |                                                            |
 | Asus VivoBook S15 S510UA          | [链接](https://github.com/tctien342/Asus-Vivobook-S510UA-High-Sierra-10.13-Hackintosh) | [链接](https://github.com/tctien342/Asus-Vivobook-S510UA-High-Sierra-10.13-Hackintosh/blob/master/README.md) | Vivobook S510UA                                            |
 | Asus Vivobook S530UA BQ100T       | [链接](https://github.com/superzeldalink/Asus-Vivobook-S530-hackintosh) |                                                              |                                                            |
@@ -205,6 +206,7 @@
 | HP 17 BY0062ST                          | [链接](https://github.com/emilevirus/HP-BY00000-HACKINTOSH)  |                                                              |                                                              |
 | HP Envy13 ad1xxx                        | [链接](https://github.com/ArisHub/Hackintosh_Envy13_10.13.6-10.14.4) | [链接](https://github.com/ArisHub/Hackintosh_Envy13_10.13.6/blob/master/README.md) | 惠普 envy13                                                  |
 | HP ENVY 15 as110tu                      | [链接](https://github.com/wing-ho/HP-AS110TU-Hackintosh)     |                                                              |                                                              |
+| HP Envy DV6 7303ef                      | [链接](https://github.com/TehOrange/hackintosh_configs/tree/master/HP-Envy-DV6-7303ef) |                                                              |                                                              |
 | HP 840-G1                               | [链接](https://github.com/blint01/hackintosh-mojave-HP-840-G1) | [链接](https://github.com/blint01/hackintosh-mojave-HP-840-G1/blob/master/README.md) |                                                              |
 | HP Pavillion ck069tx                    | [链接](https://github.com/Blizzard57/Hackintosh)             |                                                              |                                                              |
 | Hp spectre X360                         | [链接](https://github.com/Just-maple/Hp-spectre-X360-hackintosh) |                                                              |                                                              |
@@ -244,6 +246,7 @@
 | ThinkPad T420 系列                 | [链接](https://github.com/tluck/Lenovo-T420-Clover)          | [链接](https://www.insanelymac.com/forum/topic/285678-lenovo-thinkpad-t420-with-uefi-only/?page=20&tab=comments#comment-1952283) | 包含 T420、T420s、T520、X220X220，<br />可通过修改支持到 10.14.x |
 | ThinkPad T430 | [链接](https://github.com/hai666l/T430-EFI) |  |  |
 | ThinkPad T440p                     | [链接](https://github.com/evy0311/t440p) [链接](https://github.com/jloisel/t440p) | [链接](https://github.com/evy0311/t440p/blob/master/README.md) |                                                              |
+| ThinkPad T450 | [链接](https://github.com/jsassu20/ThinkPad-T450-Mojave) |  | |
 | ThinkPad T460 系列                 | [链接](https://github.com/tluck/Lenovo-T460-Clover)          | [链接](http://www.insanelymac.com/forum/topic/315451-guide-lenovo-t460-macos-with-clover/) | 可支持 T460、T560、T470<br /> 和 T470p4 款机型               |
 | ThinkPad T460p                     | [链接](https://github.com/totemofwolf/Thinkpad-T460p-OSX-EFI) |                                                              |                                                              |
 | Thinkpad T470                      | [链接](https://github.com/nguyenduy98/Hackintosh)            |                                                              | I7-7500u                                                     |
@@ -262,6 +265,7 @@
 | Lenovo XiaoXin Rui 7000            | [链接](https://github.com/Erf172/Lenovo_XiaoXin_Rui7000_Hackintosh) | [链接](https://github.com/Erf172/Lenovo_XiaoXin_Rui7000_Hackintosh/blob/10.12/README.md) |                                                              |
 | Lenovo XiaoXin Chao 7000           | [链接](https://github.com/penghubingzhou/Lenovo-Xiaoxin-Chao-7000--EFI) | [链接](https://github.com/penghubingzhou/Lenovo-Xiaoxin-Chao-7000--EFI/blob/master/Readme.md) | 联想小新潮 7000，已支持 14 寸、<br />12.5 寸、13.3 寸，15 寸以及 <br />13.3 寸的完美支持后续会添加，<br />请期待…… |
 | ThinkPad X1 3rd                    | [链接](https://github.com/shockingpants/ThinkpadX1Y3)        | [链接](https://www.tonymacx86.com/threads/guide-thinkpad-x1-yoga-3rd-gen-20ld-with-mojave.261823/) | ThinkPad X1 3 代                                             |
+| ThinkPad X1 Carbon 2015 | [链接](https://github.com/transtone/hackintosh/tree/master/x1c-2015) |  |  |
 | ThinkPad X1 Carbon 5th gen         | [链接](https://github.com/B0hrer/Thinkpad-x1c-5th-gen-Hackintosh) |                                                              | (5th gen, released 2017)                                     |
 | ThinkPad X1 Carbon 6th Gen         | [链接](https://github.com/tylernguyen/x1c6-hackintosh)       | [链接](https://github.com/tylernguyen/x1c6-hackintosh/blob/master/README.md) | Thinkpad X1 Carbon 6th Gen                                   |
 | ThinkPad X1 Yoga / Carbon          | [链接](https://github.com/LukaJankovic/Thinkpad-X1-20FQ-Hackintosh) | [链接](https://github.com/LukaJankovic/Thinkpad-X1-20FQ-Hackintosh/blob/master/README.md) | Thinkpad X1 Yoga / Carbon                                    |
@@ -290,7 +294,7 @@
 | Lenovo Yoga 730 | [链接](https://github.com/dragonflylee/Yoga-730-hackintosh) | | Lenovo Yoga 730-13IKB |
 | Lenovo Z50(40)/70 系列             | [链接](https://github.com/the-braveknight/Lenovo-X50-macOS)  | [链接](https://www.tonymacx86.com/threads/guide-lenovo-z50-70-z40-70-g50-70-g40-70-using-clover-uefi.261787/) | Lenovo Z50-70/Z40-70   Lenovo G50-70/G40-70                  |
 | Lenovo-Miix-520             | [链接](https://github.com/acai66/lenovo-miix-520-hackintosh-10.14-CLOVER) | [链接](https://github.com/acai66/lenovo-miix-520-hackintosh-10.14-CLOVER) | Lenovo-Miix-520          |
-| ThinkPad P52 | [链接](https://github.com/liuyishengalan/ThinkPad-P52-Hackintosh-10.14.X-)   | [链接](https://github.com/liuyishengalan/ThinkPad-P52-Hackintosh-10.14.X-/blob/master/README.md)        |
+| ThinkPad P52 | [链接](https://github.com/liuyishengalan/ThinkPad-P52-Hackintosh-10.14.X-)   | [链接](https://github.com/liuyishengalan/ThinkPad-P52-Hackintosh-10.14.X-/blob/master/README.md)        ||
 
 #### LG
 
@@ -380,15 +384,17 @@
 
 #### 笔记本相关资源
 
-| **笔记本相关资源**                 |                                               |                                                              |                                                              |
-| ---------------------------------- | --------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-|                                    | **hotpatch**                                  |                                                              |                                                              |
-| P-little                           | [链接](https://github.com/daliansky/P-little) | 见 ThinkPad 交流群                                           | 宪武做的一套 ThinkPad 补丁，刚开始上传，请期待               |
-|                                    | **无线网卡**                                  |                                                              |                                                              |
-| 推荐无线网卡                       | MiniPCIe 接口(推荐 BCM4352HMB、DW1510)        | 博通：BCM94322HM8L、Asus BCM94352、AzureWave AW-CE123H、AzureWave AW-NB290H、DW1510、DW1520、DW1550、 | 高通：DW1515、DW1705、AR5BHB92、AR5BHB112 AR9285 芯片在 10.14 将不再被支持 |
-| PCIe 接口                          | 博通：BCM94331CD、BCM94322MC、BCM94360CD      | 高通：AR5BXB72、AR5BXB92、AR5BXB112                          |                                                              |
-| M.2 接口(推荐 BCM94352ZAE、DW1560) | 博通：BCM94352Z(AE)、DW1560，DW1830           |                                                              |                                                              |
-| Wireless USB Adapter               | RealTek系列                                   | [链接](https://github.com/chris1111/Wireless-USB-Adapter-Clover) |                                                              |
+| **笔记本相关资源**                 |                                                            |                                                              |                                                              |
+| ---------------------------------- | ---------------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+|                                    | **hotpatch**                                               |                                                              |                                                              |
+| P-little                           | [链接](https://github.com/daliansky/P-little)              | 见 ThinkPad 交流群                                           | 宪武做的一套 ThinkPad 补丁，刚开始上传，请期待               |
+|                                    | **触摸板**                                                 |                                                              |                                                              |
+| VoodooI2C-PreRelease               | [链接](https://github.com/williambj1/VoodooI2C-PreRelease) | [触摸设备 DSDT 修补补充](https://github.com/williambj1/VoodooI2C-PreRelease/blob/master/%E8%A7%A6%E6%91%B8%E6%9D%BF%E8%A1%A5%E5%85%85.md) | [Bat.bat](https://github.com/williambj1)搞的                 |
+|                                    | **无线网卡**                                               |                                                              |                                                              |
+| 推荐无线网卡                       | MiniPCIe 接口(推荐 BCM4352HMB、DW1510)                     | 博通：BCM94322HM8L、Asus BCM94352、AzureWave AW-CE123H、AzureWave AW-NB290H、DW1510、DW1520、DW1550、 | 高通：DW1515、DW1705、AR5BHB92、AR5BHB112 AR9285 芯片在 10.14 将不再被支持 |
+| PCIe 接口                          | 博通：BCM94331CD、BCM94322MC、BCM94360CD                   | 高通：AR5BXB72、AR5BXB92、AR5BXB112                          |                                                              |
+| M.2 接口(推荐 BCM94352ZAE、DW1560) | 博通：BCM94352Z(AE)、DW1560，DW1830                        |                                                              |                                                              |
+| Wireless USB Adapter               | RealTek系列                                                | [链接](https://github.com/chris1111/Wireless-USB-Adapter-Clover) |                                                              |
 
 ### 台式机
 
