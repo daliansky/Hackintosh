@@ -41,19 +41,17 @@
 更新日期：
 
 - 2018 年 10 月 06 日
-
 - 2018 年 12 月 25 日
-
 - 2019 年 01 月 15 日
-
 - 2019 年 3 月 1 日 by 黑果小兵
   - 按机型重新排版
   - 将该文档上传到仓库，方便其它人提交合并，共同维护
-
 - 2019年4月2日
 
   - 添加部分新机型
   - 将多于2个机型的品牌独立出来，方便检索
+- 2019年5月9日
+  - 新增机型：`Mechrevo X9Ti R` / `Mechrevo Z2 G` 等
 
 
 
@@ -224,10 +222,12 @@
 
 #### Huawei 华为
 
-| 机型名称            | 发布地址                                                     | 教程地址                                                     | 备注                |
-| ------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------- |
-| 华为 Matebook X Pro | [链接](https://github.com/gnodipac886/MatebookXPro-hackintosh) | [链接](https://github.com/gnodipac886/MatebookXPro-hackintosh/blob/master/README-CN.md) | 华为 Matebook X Pro |
-| 荣耀 Magicbook      | [链接](https://github.com/hjmmc/Honor-Magicbook)             | [链接](https://github.com/hjmmc/Honor-Magicbook/blob/master/README_CN.md) |                     |
+| 机型名称            | 发布地址                                                     | 教程地址                                                     | 备注                               |
+| ------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------------------------------- |
+| 华为 Matebook X Pro | [链接](https://github.com/gnodipac886/MatebookXPro-hackintosh) | [链接](https://github.com/gnodipac886/MatebookXPro-hackintosh/blob/master/README-CN.md) | 华为 Matebook X Pro                |
+| 华为 Matebook 13    | [链接](https://github.com/FIU001/huawei-matebook-13-)        |                                                              |                                    |
+| 华为 Matebook D     | [链接](https://github.com/MOJUNSHOU/MateBooK-D)              |                                                              | 华为MateBook D2018 i5-8250U 15.6寸 |
+| 荣耀 Magicbook      | [链接](https://github.com/hjmmc/Honor-Magicbook)             | [链接](https://github.com/hjmmc/Honor-Magicbook/blob/master/README_CN.md) |                                    |
 
 #### Lenovo 联想
 
@@ -320,6 +320,8 @@
 
 | 机型名称           | 发布地址                                                     | 教程地址 | 备注                                |
 | ------------------ | ------------------------------------------------------------ | -------- | ----------------------------------- |
+| Mechrevo Z2 G      | [链接](https://github.com/cmbs2019/Mechrevo-Hackintosh/tree/master/Mechrevo%20Z2%20G%20X9TI/EFI) |          | i7-9750H/GTX1660Ti                  |
+| Mechrevo X9Ti R    | [链接](https://github.com/cmbs2019/Mechrevo-Hackintosh/tree/master/Mechrevo%20Z2%20G%20X9TI/EFI) |          | i7-9750H/RTX2060/RTX2070            |
 | Mechrevo Z2        | [链接](https://github.com/cmbs2019/Mechrevo-Hackintosh)      |          | i7-8750H/i5-8300H GTX1050ti/GTX1060 |
 | Mechrevo Z2 Air    | [链接](https://github.com/cmbs2019/Mechrevo-Hackintosh)      |          | i7-8750H/i5-8300H GTX1050ti/GTX1060 |
 | Mechrevo X8ti      | [链接](https://github.com/cmbs2019/Mechrevo-Hackintosh)      |          | i7-8750H/i5-8300H GTX1050ti/GTX1060 |
@@ -342,6 +344,7 @@
 | ------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | --------- |
 | MSI GE70 2PC              | [链接](https://github.com/alxzoomer/msi-ge70-2pc-hackintosh) |                                                              |           |
 | MSI GL62M-7REX            | [链接](https://github.com/rlindsberg/Hackintosh-On-MSI-GL62m-7REX) |                                                              |           |
+| MSI GL63-8RE              | [链接](https://github.com/iAmineOHN/Hackintosh-MSI-GL63-8RE) |                                                              |           |
 | MSI GL72M-7RDX            | [链接](https://github.com/jbwharris/hackintosh-msi-GL72M-7RDX) | [链接](https://github.com/jbwharris/hackintosh-msi-GL72M-7RDX/blob/master/README.md) |           |
 | MSI GP62 6QG-1071XCN      | [链接](https://github.com/chuxubank/MSI-GP62-Hackintosh)     | [链接](https://github.com/chuxubank/MSI-GP62-Hackintosh/blob/master/README.md) | 微星 GP62 |
 | MSI GS65 Stealth Thin 8RF | [链接](https://github.com/vladichimescu/msi-gs65-hackintosh) |                                                              |           |
@@ -371,7 +374,9 @@
 | Intel DH67GD, DH67BL, <br />DH67CF, DH67CL 系列主板 | [链接](https://github.com/RehabMan/Intel-DH67XX-DSDT-Patch)  | [链接](https://www.tonymacx86.com/threads/guide-intel-dh67xx-with-hd3000-using-clover-uefi-hotpatch.233257/) | Intel DH67GD, DH67BL, <br />DH67CF, DH67CL 系列主板 |
 | Intel NUC 5、6、7、8 系列                           | [链接](https://github.com/RehabMan/Intel-NUC-DSDT-Patch)     | [链接](https://www.tonymacx86.com/threads/guide-intel-kaby-lake-nuc7-using-clover-uefi-nuc7i7bnh-nuc7i5bnk-nuc7i3bnh-etc.261711/) | mini 主机                                           |
 | NUC8i7BEH                                           | [链接](https://github.com/sarkrui/NUC8i7BEH-Hackintosh-Build) |                                                              |                                                     |
+| Surface Pro 3 | [链接](https://github.com/hacker1024/Hackintosh-Clover-SurfacePro3) | | |
 | Surface Pro 4                                       | [链接](https://github.com/Neil-Steven/SurfacePro4-Hackintosh) [链接](https://github.com/bigsadan/surface-pro-4-hackintosh-10.14.3) | [链接](https://github.com/Neil-Steven/SurfacePro4-Hackintosh/blob/master/README.md) | surfacePro 4                                        |
+| Surface Pro 6     | [链接](https://github.com/molie34/Surface-Pro-6-macOS)   | [教程](https://github.com/molie34/Surface-Pro-6-macOS)   |   |
 | 技嘉 GB-BXi5H-4200 系列主板                         | [链接](https://github.com/RehabMan/Gigabyte-BRIX-s-DSDT-Patch) | [链接](https://www.tonymacx86.com/threads/guide-gigabyte-brix-using-clover-uefi-gb-bxi5h-4200-gb-bxi5-4570r-gb-bxi7-4770r.261710/) | 技嘉 GB-BXi5H-4200 系列主板                         |
 
 #### Other 其它
@@ -382,7 +387,6 @@
 | 火影地狱火X6                       | [链接](https://github.com/gaofeicm/DiYuHuo-X6-MacOS-Mojave-10.14.3-Hackintosh) |                                                              |                   |
 | Shinalon_Yao_7000                  | [链接](https://github.com/jinmu333/Shinalon_YAO_7000_efi)    | [链接](https://github.com/jinmu333/Shinalon_YAO_7000_efi/blob/efi/README.md) |                   |
 | Razer Blade Stealth 雷蛇灵刃潜行版 | [链接](https://github.com/widmonstertony/razer-blade-stealth-hackintosh) |                                                              |                   |
-| Surface Pro 6     | [链接](https://github.com/molie34/Surface-Pro-6-macOS)   | [教程](https://github.com/molie34/Surface-Pro-6-macOS)   |   |   |
 
 #### 笔记本更多的机型
 
