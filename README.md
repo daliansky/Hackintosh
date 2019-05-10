@@ -365,6 +365,7 @@
 | XiaoMi Air Skylake | [链接](https://github.com/johnnync13/EFI_XIAOMI_NOTEBOOK_AIR_SKYLAKE) | [链接](https://github.com/johnnync13/EFI_XIAOMI_NOTEBOOK_AIR_SKYLAKE/blob/master/README.md) |                                                |
 | XiaoMi Gaming      | [链接](https://github.com/johnnync13/XiaomiGaming)           |                                                              | 额，小米游戏本                                 |
 | XiaoMi Pro 系列    | [链接](https://github.com/daliansky/XiaoMi-Pro)              | [链接](https://github.com/daliansky/XiaoMi-Pro/wiki)         | 小米 Pro 系列                                  |
+| XiaoMi Ruby 15.6   | [链接](https://github.com/Jxh98/XiaoMi-Ruby-15.6-2019)       |                                                              | 目前ALC256声卡外放无法驱动                     |
 | XiaoMi 游戏本 8 代 | [链接](https://github.com/daliansky/XiaoMi-GLP)              |                                                              | 小米游戏本，猜的                               |
 
 #### Intel 英特尔
@@ -467,7 +468,7 @@
 
 
 
-### 其它机型请提交到[这里](https://github.com/daliansky/Hackintosh) 
+### 其它机型请提交到[这里](https://github.com/daliansky/Hackintosh)
 
 
 
