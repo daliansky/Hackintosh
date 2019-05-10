@@ -435,6 +435,7 @@
 | CM238 i7-8950H UHD630 ALC269   | [链接](https://github.com/kkzzhizhou/S200H_I7-8750H_Hackintosh) |                                                              | S200H_I7-8750H 小主机                           |
 | Dell OptiPlex 3050             | [链接](https://github.com/Leif160519/Dell-OptiPlex-3050-EFI) |                                                              |                                                 |
 | Dell OptiPlex 9020M            | [链接](https://github.com/mingcheng/dell-optiplex-9020m-hackintosh) |                                                              |                                                 |
+| Lenovo M93P           | [链接](https://github.com/mingcheng/lenovo-thinkcentre-m93p-hackintosh) |      | 联想 M93P 系列主机 |
 | Gigabyte X370N                 | [链接](https://github.com/cwr31/z370n-hackintosh) [链接](https://github.com/qinkangdeid/z370n-wifi-hackintosh) |                                                              | Gigabyte Z370N                                  |
 | DQ77KB                         | [链接](https://github.com/siwilizhao/DQ77KB-I7-3770S-Hackintosh) |                                                              |                                                 |
 | Gigabyte Z270X-UG              | [链接](https://github.com/icedterminal/ga-z270x-ug)          | [链接](https://github.com/icedterminal/ga-z270x-ug/blob/master/README.md) |                                                 |
