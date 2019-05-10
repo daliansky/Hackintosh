@@ -47,12 +47,12 @@
   - 按机型重新排版
   - 将该文档上传到仓库，方便其它人提交合并，共同维护
 - 2019年4月2日
-
   - 添加部分新机型
   - 将多于2个机型的品牌独立出来，方便检索
 - 2019年5月9日
   - 新增机型：`Mechrevo X9Ti R` / `Mechrevo Z2 G` 等
-
+- 2019年5月10日 by [明城](https://github.com/mingcheng)
+  - 新增机型：`Lenovo M93P` / `Dell 9020m` 等机型
 
 
 ### 笔记本部分机型
@@ -435,6 +435,7 @@
 | CM238 i7-8950H UHD630 ALC269   | [链接](https://github.com/kkzzhizhou/S200H_I7-8750H_Hackintosh) |                                                              | S200H_I7-8750H 小主机                           |
 | Dell OptiPlex 3050             | [链接](https://github.com/Leif160519/Dell-OptiPlex-3050-EFI) |                                                              |                                                 |
 | Dell OptiPlex 9020M            | [链接](https://github.com/mingcheng/dell-optiplex-9020m-hackintosh) |                                                              |                                                 |
+| Lenovo M93P           | [链接](https://github.com/mingcheng/lenovo-thinkcentre-m93p-hackintosh) |      | 联想 M93P 系列主机 |
 | Gigabyte X370N                 | [链接](https://github.com/cwr31/z370n-hackintosh) [链接](https://github.com/qinkangdeid/z370n-wifi-hackintosh) |                                                              | Gigabyte Z370N                                  |
 | DQ77KB                         | [链接](https://github.com/siwilizhao/DQ77KB-I7-3770S-Hackintosh) |                                                              |                                                 |
 | Gigabyte Z270X-UG              | [链接](https://github.com/icedterminal/ga-z270x-ug)          | [链接](https://github.com/icedterminal/ga-z270x-ug/blob/master/README.md) |                                                 |
