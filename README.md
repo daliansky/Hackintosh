@@ -72,7 +72,8 @@
 | Acer Aspire E1-571G     | [链接](https://github.com/DiogoSilva48/Acer-E1-571G-Hackintosh) |                                                              |                     |
 | Acer Aspire E1-572G     | [链接](https://github.com/TonyStark10006/Acer_E1-572G_Hackintosh_EFI) |                                                              |                     |
 | Acer ES1-572-37pz       | [链接](https://github.com/joodrew/hackintosh-acer-es1-572-37pz) |                                                              |                     |
-| ACER F5-573G            | [链接](https://github.com/johnnywolinger/ACER-F5-573G-Hackintosh) |                                                              |                     |
+| Acer F5-573G            | [链接](https://github.com/johnnywolinger/ACER-F5-573G-Hackintosh) |                                                              |                     |
+| Acer F5-573G-55PJ       | [链接](https://github.com/zoothz/Hackintosh-acer-f5-573g-55pj) |                                                              |                     |
 | Acer F5-573g-75A3       | [链接](https://github.com/vinicioslc/HACKINTOSH-ACER-F5-573G-75A3) |                                                              |                     |
 | Acer V3-471G            | [链接](https://github.com/oneveb/Acer-V3-471G)               |                                                              |                     |
 | Acer-V3-572G-51MR       | [链接](https://github.com/AnoldmanLiSir/Acer-V3-572G-51MR)   | [链接](https://github.com/AnoldmanLiSir/Acer-V3-572G-51MR/blob/master/README.md) |                     |
@@ -168,7 +169,7 @@
 | Dell OptiPlex 3050                         | [链接](https://github.com/Leif160519/Dell-OptiPlex-3050-EFI) | [链接](https://github.com/Leif160519/Dell-OptiPlex-3050-EFI/blob/master/README.md) |                                                              |
 | Dell Precision 5510                        | [链接](https://github.com/soulomoon/Dell-Precision-5510-OSX) |                                                              | Dell-Precision-5510                                          |
 | Dell Precision M3800<br />Dell XPS 15-9530 | [链接](https://github.com/syscl/M3800)                       | [链接](https://github.com/syscl/M3800/blob/M3800/README.md)  | Dell M3800 和 XPS 9530                                       |
-| XPS13  9343                                | [链接](https://github.com/SiGae/macOS-Mojave-on-xps-13-9343) | [链接](https://github.com/haos001/XPS13-9343-Clover)         |                                                              |
+| Dell XPS13  9343                           | [链接](https://github.com/SiGae/macOS-Mojave-on-xps-13-9343) | [链接](https://github.com/haos001/XPS13-9343-Clover)         |                                                              |
 |                                            |                                                              |                                                              |                                                              |
 | Dell XPS 9350                              | [链接](https://github.com/syscl/XPS9350-macOS)               | [链接](https://github.com/syscl/XPS9350-macOS/blob/master/README.md) | Dell XPS 9350                                                |
 | Dell XPS 9360                              | [链接](https://github.com/hoanX/xps13-9360-i7-7560u)         | [链接](https://github.com/hoanX/xps13-9360-i7-7560u/blob/master/README.md) | Dell XPS 9360                                                |
@@ -209,6 +210,7 @@
 | HP Laptop 15-da0233ur                   | [链接](https://github.com/DmitriyyyyS/Hackintosh-HP-Laptop-15-da0233ur) |                                                              | i3-7020U                                                     |
 | HP 17 BY0062ST                          | [链接](https://github.com/emilevirus/HP-BY00000-HACKINTOSH)  |                                                              |                                                              |
 | HP Envy13 ad1xxx                        | [链接](https://github.com/ArisHub/Hackintosh_Envy13_10.13.6-10.14.4) | [链接](https://github.com/ArisHub/Hackintosh_Envy13_10.13.6/blob/master/README.md) | 惠普 envy13                                                  |
+| HP Envy15 as109tu                       | [链接](https://github.com/TianNes/Hackintosh-Clover)         |                                                              |                                                              |
 | HP ENVY 15 as110tu                      | [链接](https://github.com/wing-ho/HP-AS110TU-Hackintosh)     |                                                              |                                                              |
 | HP Envy DV6 7303ef                      | [链接](https://github.com/TehOrange/hackintosh_configs/tree/master/HP-Envy-DV6-7303ef) |                                                              |                                                              |
 | HP ProBook 650 G1                       | [链接](https://github.com/Hologos/hackintosh-hp-probook-650-g1) |                                                              |                                                              |
