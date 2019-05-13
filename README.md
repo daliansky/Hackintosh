@@ -149,6 +149,7 @@
 | Dell Inspiron 3543                         | [链接](https://github.com/arisskz6/Dell-3543-Hackintosh) [链接](https://github.com/meikeeit/Hackintosh_Dell3543) |                                                              |                                                              |
 | Dell Inspiron 3568                         | [链接](https://github.com/YGQ8988/dell-3568)                 | [链接](https://github.com/YGQ8988/dell-3568)                 | Dell Inspiron 3568                                           |
 | Dell Inspiron 3670                         | [链接](https://github.com/inyan600/Dell-Inspiron-3670-Hackintosh) |                                                              |                                                              |
+| Dell Inspiron 3737                         | [链接](https://github.com/SteveJustSteve/Dell3737HACKINTOSH) |                                                              |                                                              |
 | Dell Inspiron 5447                         | [链接](https://github.com/SinhLv/Dell-Ins-14-5447-hackintosh) |                                                              |                                                              |
 | Dell Inspiron 5458                         | [链接](https://github.com/HZY040122/DELL-Inspiron-5458)      |                                                              |                                                              |
 | Dell Inspiron 5488                         | [链接](https://github.com/daggeryu/DELL-inspiron-5488)       |                                                              | DELL Inspiron 5480 5488 5580 5482<br />DELL Vostro 5481 5581 |
@@ -163,8 +164,10 @@
 | Dell Inspiron 7460 和 7560                 | [链接](https://github.com/xzhih/dell-7460-7560-hackintosh)   | [链接](https://github.com/xzhih/dell-7460-7560-hackintosh/blob/master/README.md) | 戴尔 7460 和 7560                                            |
 | Dell Inspiron 7559                         | [链接](https://github.com/crackself/Dell-7559-Hackintosh) [链接](https://github.com/JiangHoumin/Dell_G3_3579_Hackintosh) | [链接](https://github.com/crackself/Dell-7559-Hackintosh/blob/Hotpatch/README.md) | Dell 7559                                                    |
 | Dell Inspiron 7567                         | [链接](https://github.com/Doapeat/Dell7567)                  |                                                              |                                                              |
+| Dell Inspiron 7577                         | [链接](https://github.com/wadimw/dell-7577-hackintosh)       |                                                              | Gaming w/ i5-7300HQ, GTX 1060 Max-Q                          |
 | Dell Latitude E5440                        | [链接](https://github.com/soejin/hackintosh-dell-e5440)      |                                                              | Dell E5440                                                   |
 | Dell Latitude E5570                        | [链接](https://github.com/fritsvt/Dell-Latitude-E5570-Hackintosh) |                                                              |                                                              |
+| Dell Latitude E6430                        | [链接](https://github.com/kinoute/Hack-Dell-Latitude-E6430)  |                                                              |                                                              |
 | Dell Latitude E7440                        | [链接](https://github.com/ameeno/Dell-E7440-Hackintosh)      |                                                              |                                                              |
 | Dell OptiPlex 3050                         | [链接](https://github.com/Leif160519/Dell-OptiPlex-3050-EFI) | [链接](https://github.com/Leif160519/Dell-OptiPlex-3050-EFI/blob/master/README.md) |                                                              |
 | Dell Precision 5510                        | [链接](https://github.com/soulomoon/Dell-Precision-5510-OSX) |                                                              | Dell-Precision-5510                                          |
@@ -228,6 +231,7 @@
 | ------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------------------------------- |
 | 华为 Matebook X Pro | [链接](https://github.com/gnodipac886/MatebookXPro-hackintosh) | [链接](https://github.com/gnodipac886/MatebookXPro-hackintosh/blob/master/README-CN.md) | 华为 Matebook X Pro                |
 | 华为 Matebook 13    | [链接](https://github.com/FIU001/huawei-matebook-13-)        |                                                              |                                    |
+| 华为 Matebook 14    | [链接](https://github.com/frezs/MateBook14-Hackintosh)       |                                                              |                                    |
 | 华为 Matebook D     | [链接](https://github.com/MOJUNSHOU/MateBooK-D)              |                                                              | 华为MateBook D2018 i5-8250U 15.6寸 |
 | 荣耀 Magicbook      | [链接](https://github.com/hjmmc/Honor-Magicbook)             | [链接](https://github.com/hjmmc/Honor-Magicbook/blob/master/README_CN.md) |                                    |
 
