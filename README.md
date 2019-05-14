@@ -196,7 +196,7 @@
 | Hasse Shinelon A40L-i7 | [链接](https://github.com/i0Ek3/Hackintosh_4_Hasee_Shinelon_A40L) | [链接](https://github.com/i0Ek3/Hackintosh_4_Hasee_Shinelon_A40L/blob/master/README.md) | 这是神舟          |
 | 神舟K650D              | [链接](https://github.com/wklesss/k650D-Hackintosh)          |                                                              | 神舟 K 650D       |
 | Hasee Z6-SL5 D1        | [链接](https://github.com/Measureless/Hackintosh_Hasee_Z6-SL5D1) |                                                              |                   |
-| 神舟战神 Z7系列        | [链接](https://github.com/kirainmoe/hasee-z7-kp7gz-macos)    | [链接](https://github.com/kirainmoe/hasee-z7-kp7gz-macos/blob/master/README.md) | 神舟战神 Z7-KP7GZ |
+| 神舟战神 Z7-KP7GZ        | [链接](https://github.com/kirainmoe/hasee-z7-kp7gz-macos)    | [链接](https://note.youdao.com/ynoteshare1/index.html?id=0ebe9470eeaee01e137b9504ceca78db&type=note) | Z7(m)-KP7/5(G)Z |
 | Hasee Z7M KP5GC        | [链接](https://github.com/CharlesZhou959/Hasee-Z7M-KP5GC-Hackintosh) |                                                              |                   |
 | 神舟炫龙笔记本DC2      | [链接](https://github.com/bavelee/DC2_Hackintosh)            | [链接](https://bavelee.cn/index.php/archives/60/)            |                   |
 | 神舟精盾系列T96E       | [链接](https://github.com/L0ngxhn/Hackintosh-Hasee-T96E)     |                                                              |                   |
