@@ -224,6 +224,8 @@
 | HP Zhan 66 Pro G1                       | [链接1](https://github.com/A-Linz/Hackintosh-HP-Zhan-66-Pro-G1) [链接2](https://github.com/RenAmamiya/HP-Zhan-66-Pro-G1) |                                                              |                                                              |
 | HP ZHAN99 WorkStation G1                | [链接](https://github.com/MacsedProtoss/hackintosh)          |                                                              | 惠普 战99                                                    |
 | 暗影精灵4 i5-8300H GTX1050Ti            | [链接](https://github.com/canwdev/omen15dc-hackintosh)       |                                                              |                                                              |
+| 暗影精灵2                            |[链接](https://github.com/Arecall/-Mac-os) |            |          |
+
 
 #### Huawei 华为
 
