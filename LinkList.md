@@ -50,10 +50,10 @@
 | OS-X-Null-Ethernet  | [链接](https://bitbucket.org/RehabMan/os-x-null-ethernet)  | 仿冒有线网卡到en0端口，帮助连接AppleStore等  |
 | OS-X-Realtek-Network  |  [链接](https://bitbucket.org/RehabMan/os-x-realtek-network) | Realtek有线网卡驱动  |
 | OS-X-USB-Inject-All  | [链接](https://bitbucket.org/RehabMan/os-x-usb-inject-all)  | USB端口注入框架  |
-| VoodooPS2Controller  | [链接](https://github.com/acidanthera/VoodooPS2)  | PS2键盘和触控板驱动，ALPS 触控板请用 SmartTouchPad 驱动  |
 | RTL8111_driver_for_OS_X  | [链接](https://github.com/Mieze/RTL8111_driver_for_OS_X)  | Realtek RTL8111/8168有线网卡驱动  |
 | SATA-unsupported  | [链接](https://github.com/RehabMan/hack-tools/tree/master/kexts/SATA-unsupported.kext)  | SATA硬盘驱动  |
 | VoodooI2C  | [链接](https://github.com/alexandred/VoodooI2C)  | I2C触控板驱动  |
+| VoodooPS2Controller  | [链接](https://github.com/acidanthera/VoodooPS2)  | PS2键盘和触控板驱动，ALPS 触控板请用 SmartTouchPad 驱动  |
 | XHCI-unsupported  | [链接](https://github.com/RehabMan/OS-X-USB-Inject-All/tree/master/XHCI-unsupported.kext)  |  USB驱动  |
 
 
