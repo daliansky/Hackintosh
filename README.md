@@ -375,7 +375,7 @@
 | XiaoMi Air 1gen    | [链接](https://github.com/johnnync13/Xiaomi-Notebook-Air-1Gen) |                                                              | 这哥们应该是忠实的米粉，<br />有兴趣的多多关注 |
 | XiaoMi Air Skylake | [链接](https://github.com/johnnync13/EFI_XIAOMI_NOTEBOOK_AIR_SKYLAKE) | [链接](https://github.com/johnnync13/EFI_XIAOMI_NOTEBOOK_AIR_SKYLAKE/blob/master/README.md) |                                                |
 | XiaoMi Gaming      | [链接](https://github.com/johnnync13/XiaomiGaming)           |                                                              | 额，小米游戏本                                 |
-| XiaoMi Pro 系列    | [链接](https://github.com/daliansky/XiaoMi-Pro)              | [链接](https://github.com/daliansky/XiaoMi-Pro/wiki)         | 小米 Pro 系列                                  |
+| XiaoMi Pro 系列    | [链接](https://github.com/daliansky/XiaoMi-Pro/releases)              | [链接](https://blog.daliansky.net/MacOS-installation-tutorial-XiaoMi-Pro-installation-process-records.html)         | 小米 Pro 系列                                  |
 | XiaoMi Ruby 15.6   | [链接](https://github.com/Jxh98/XiaoMi-Ruby-15.6-2019)       |                                                              | 目前ALC256声卡外放无法驱动                     |
 | XiaoMi 游戏本 8 代 | [链接](https://github.com/daliansky/XiaoMi-GLP)              |                                                              | 小米游戏本，猜的                               |
 
