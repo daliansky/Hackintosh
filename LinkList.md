@@ -29,7 +29,7 @@
 | CPUFriend  | [链接](https://github.com/acidanthera/CPUFriend)  | 注入CPU动态电源数据的驱动  |
 | DiskArbitrationFixup | [链接](https://github.com/Goldfish64/DiskArbitrationFixup)  | 禁止“此电脑不能读取您插入的磁盘”提示  |
 | HibernationFixup  | [链接](https://github.com/acidanthera/HibernationFixup)  | 修复休眠问题  |
-| NightShiftUnlocker | [链接](https://github.com/0xFireWolf/NightShiftUnlocker)  | 开启夜览f功能  |
+| NightShiftUnlocker | [链接](https://github.com/0xFireWolf/NightShiftUnlocker)  | 开启夜览功能  |
 | NoTouchID  | [链接](https://github.com/al3xtjames/NoTouchID)  | 禁用触控 ID支持  |
 | SystemProfilerMemoryFixup  | [链接](https://github.com/Goldfish64/SystemProfilerMemoryFixup)  | 显示关于本机的内存标签  |
 | VirtualSMC  | [链接](https://github.com/acidanthera/VirtualSMC)  | SMC仿冒驱动，和FakeSMC二选一 |
