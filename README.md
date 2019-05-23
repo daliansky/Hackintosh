@@ -256,6 +256,8 @@
 | ThinkPad P51                       | [链接](https://github.com/MirkoCovizzi/thinkpad-p51-hackintosh) | [链接](https://github.com/MirkoCovizzi/thinkpad-p51-hackintosh/blob/master/README.md) | Thinkpad P51                                                 |
 | ThinkPad P52                       | [链接](https://github.com/liuyishengalan/ThinkPad-P52-Hackintosh-10.14.X-) |                                                              |                                                              |
 | 锐 7000                            | [链接](https://github.com/839891627/Lenovo_RUI7000_Hackintosh) |                                                              | 联想 80WB 笔记本电脑                                         |
+| ThinkPad S1 2017 | [链接](https://github.com/bugprogrammer/hackintosh/tree/ThinkPad-S1-2017) | | ThinkPad S1 2017 |
+| ThinkPad S1 2018 | [链接](https://github.com/bugprogrammer/hackintosh/tree/ThinkPad-S1-2018) | | ThinkPad S1 2018 |
 | ThinkPad T420 系列                 | [链接](https://github.com/tluck/Lenovo-T420-Clover)          | [链接](https://www.insanelymac.com/forum/topic/285678-lenovo-thinkpad-t420-with-uefi-only/?page=20&tab=comments#comment-1952283) | 包含 T420、T420s、T520、X220X220，<br />可通过修改支持到 10.14.x |
 | ThinkPad T430 | [链接](https://github.com/hai666l/T430-EFI) |  |  |
 | ThinkPad T440p                     | [链接](https://github.com/evy0311/t440p) [链接](https://github.com/jloisel/t440p) | [链接](https://github.com/evy0311/t440p/blob/master/README.md) |                                                              |
@@ -304,6 +306,7 @@
 | Lenovo Yoga3 14                    | [链接](https://github.com/gdllzkusi/Lenovo-yoga3-14-hackntiosh) |                                                              |                                                              |
 | Lenovo Yoga3 11                    | [链接](https://github.com/gdllzkusi/Lenovo-yoga3-11-hackntiosh) |                                                              |                                                              |
 | Lenovo Yoga 710                    | [链接](https://github.com/xiaoxx970/Hackintosh-Mojave-for-Lenovo-Yoga710) |                                                              |                                                              |
+| Lenovo Yoga 720 | [链接](https://github.com/bugprogrammer/hackintosh/tree/Lenovo-yoga-720-13ikb-7200u) | | Lenovo Yoga 720-13IKB |
 | Lenovo Yoga 730 | [链接](https://github.com/dragonflylee/Yoga-730-hackintosh) | | Lenovo Yoga 730-13IKB |
 | Lenovo Z50(40)/70 系列             | [链接](https://github.com/the-braveknight/Lenovo-X50-macOS)  | [链接](https://www.tonymacx86.com/threads/guide-lenovo-z50-70-z40-70-g50-70-g40-70-using-clover-uefi.261787/) | Lenovo Z50-70/Z40-70   Lenovo G50-70/G40-70                  |
 | Lenovo-Miix-520             | [链接](https://github.com/acai66/lenovo-miix-520-hackintosh-10.14-CLOVER) | [链接](https://github.com/acai66/lenovo-miix-520-hackintosh-10.14-CLOVER) | Lenovo-Miix-520          |
