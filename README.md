@@ -100,6 +100,8 @@
 | Asus FX50J                        | [链接](https://github.com/Xc2333/Hackintosh-Asus-FX50J)      |                                                              |                                                            |
 | Asus FX50V                        | [链接](https://github.com/Cyberhan123/Hackintosh-ASUS--FX50V) |                                                              |                                                            |
 | Asus FX533VD                      | [链接](https://github.com/kue-kid/Asus-FX533VD-HACKINTOSH)   |                                                              |                                                            |
+| Asus GL503GE                      | [链接](https://github.com/Bimoaryo5/ASUS-GL503GE-Hackintosh-master) |                                                              |                                                            |
+| Asus GL504GE                      | [链接](https://github.com/PoomSmart/Asus-FX504GE-Hackintosh) |                                                              |                                                            |
 | Asus GL551JW                      | [链接](https://github.com/zacharyrs/GL551JW-Hackintosh)      |                                                              |                                                            |
 | Asus G60VW                        | [链接](https://github.com/PtNan/G60VW-Hackintosh)            |                                                              |                                                            |
 | Asus K501LB                       | [链接](https://github.com/ApolloRisky/EFI_Clover-Asus-K501LB-Mojave) |                                                              |                                                            |
@@ -194,7 +196,9 @@
 | ---------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ----------------- |
 | Hasse Shinelon A40L-i7 | [链接](https://github.com/i0Ek3/Hackintosh_4_Hasee_Shinelon_A40L) | [链接](https://github.com/i0Ek3/Hackintosh_4_Hasee_Shinelon_A40L/blob/master/README.md) | 这是神舟          |
 | 神舟K650D              | [链接](https://github.com/wklesss/k650D-Hackintosh)          |                                                              | 神舟 K 650D       |
+| Hasee k770e i7 d1 | [链接](https://github.com/Gitawake/Hasee-K770e-i7-D1-Clover) | | p170sm-a |
 | Hasee Z6-SL5 D1        | [链接](https://github.com/Measureless/Hackintosh_Hasee_Z6-SL5D1) |                                                              |                   |
+| HASEE Z7-KP7D1 | [链接](https://github.com/ConnersHua/Clevo-P65xHP-Hackintosh) | | Clevo P65xHP<br />HASEE Z7-KP7S1 |
 | 神舟战神 Z7-KP7GZ        | [链接](https://github.com/kirainmoe/hasee-z7-kp7gz-macos)    | [链接](https://note.youdao.com/ynoteshare1/index.html?id=0ebe9470eeaee01e137b9504ceca78db&type=note) | Z7(m)-KP7/5(G)Z |
 | Hasee Z7M KP5GC        | [链接](https://github.com/CharlesZhou959/Hasee-Z7M-KP5GC-Hackintosh) |                                                              |                   |
 | 神舟炫龙笔记本DC2      | [链接](https://github.com/bavelee/DC2_Hackintosh)            | [链接](https://bavelee.cn/index.php/archives/60/)            |                   |
