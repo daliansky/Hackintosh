@@ -195,6 +195,7 @@
 | 机型名称               | 发布地址                                                     | 教程地址                                                     | 备注              |
 | ---------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ----------------- |
 | Hasse Shinelon A40L-i7 | [链接](https://github.com/i0Ek3/Hackintosh_4_Hasee_Shinelon_A40L) | [链接](https://github.com/i0Ek3/Hackintosh_4_Hasee_Shinelon_A40L/blob/master/README.md) | 这是神舟          |
+| Hasee k610d i5 d3 | [链接](https://github.com/1zilc/K610d-i5-d3-10.14.5-efi-clover) |  |  |
 | 神舟K650D              | [链接](https://github.com/wklesss/k650D-Hackintosh)          |                                                              | 神舟 K 650D       |
 | Hasee k770e i7 d1 | [链接](https://github.com/Gitawake/Hasee-K770e-i7-D1-Clover) | | p170sm-a |
 | Hasee Z6-SL5 D1        | [链接](https://github.com/Measureless/Hackintosh_Hasee_Z6-SL5D1) |                                                              |                   |
@@ -467,6 +468,7 @@
 | Gigabytes Z390 Ultra           | [链接](https://github.com/mrpaulphan/gigabyte-z390-ultra-master-hackintosh) |                                                              |                                                 |
 | Lenovo M73 Tiny                | [链接](https://github.com/rehandalal/m73-tiny-hackintosh)    |                                                              |                                                 |
 | Huanan X79 E5-2670, GTX650     | [链接](https://github.com/cheneyveron/clover-x79-e5-2670-gtx650) | [链接](https://github.com/cheneyveron/clover-x79-e5-2670-gtx650/blob/master/README.md) | 华南 x79 V2                                     |
+| HP Elitedesk G3 | [链接](https://github.com/lavjamanxd/hp-elitedesk-g3-hackintosh) |  |  |
 | HP Z600 Workstation            | [链接](https://github.com/lutzmor/hp_z600_hackintosh)        |                                                              | Mac-Mini-Killer                                 |
 | MSI B360                       | [链接](https://github.com/SuperNG6/MSI-b360-10.14.4-EFI)     |                                                              | 也适用于<br />MAG Z390 TOMAHAWK <br />(MS-7B18) |
 | MSI Z370-A                     | [链接](https://github.com/daliansky/Z370-Hackintosh)         | [链接](https://github.com/daliansky/Z370-Hackintosh)         | 黑果小兵MSI Z370-A自用EFI                       |
