@@ -343,7 +343,7 @@
 | Mechrevo Z2 Air    | [链接](https://github.com/cmbs2019/Mechrevo-Hackintosh)      |          | i7-8750H/i5-8300H GTX1050ti/GTX1060 |
 | Mechrevo X8ti      | [链接](https://github.com/cmbs2019/Mechrevo-Hackintosh)      |          | i7-8750H/i5-8300H GTX1050ti/GTX1060 |
 | Mechrevo X8ti Plus | [链接](https://github.com/cmbs2019/Mechrevo-Hackintosh)      |          | i7-8750H/i5-8300H GTX1050ti/GTX1060 |
-| Mechrevo S1        | [链接](https://github.com/cmbs2019/Mechrevo-Hackintosh)      |          | I5-8250U/I7-8550u Mx150             |
+| Mechrevo S1        | [链接](https://github.com/cmbs2019/Mechrevo-Hackintosh) [链接](https://github.com/lgs3137/MR_S1-macOS) |          | I5-8250U/I7-8550u Mx150             |
 | Mechrevo S1        | [链接](https://github.com/cmbs2019/Mechrevo-Hackintosh)      |          | I5-8265U/I7-8565u Mx250             |
 | Mechrevo X2        | [链接](https://github.com/cmbs2019/Mechrevo-Hackintosh)      |          | i7-8750H/i5-8300H GTX1050ti/GTX1060 |
 | Mechrevo S1 PLUS   | [链接](https://github.com/cmbs2019/Mechrevo-Hackintosh)      |          | i7-8750H/i5-8300H GTX1050ti/GTX1060 |
