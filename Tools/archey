@@ -81,7 +81,7 @@ osx_build="$(sw_vers -buildVersion)"
 #esac
 
 # define OS Short Version 
-codename=$(xxd -ps /Applications/Utilities/System\ Information.app/Contents/MacOS/System\ Information | tr -d '\n' | perl -nle "print $& if m{00$(sw_vers -productVersion | awk -F '.' '{printf $1"."$2}' | xxd -ps)00\K.*?00}" | xxd -r -p)
+#codename=$(xxd -ps /Applications/Utilities/System\ Information.app/Contents/MacOS/System\ Information | tr -d '\n' | perl -nle "print $& if m{00$(sw_vers -productVersion | awk -F '.' '{printf $1"."$2}' | xxd -ps)00\K.*?00}" | xxd -r -p)
 
 mem_total="$(($(sysctl -n hw.memsize) / 1024 / 1024))"
 mem_wired="$(vm_stat | awk '/wired/ { print $4 }')"
@@ -139,7 +139,8 @@ Date=$(date | sed 's/CST//g')
 # IP=`echo $(ifconfig | grep 'inet.*netmask.*broadcast') | awk '{print $2}'`
 Intranet=$(osascript -e "IPv4 address of (system info)")
 Public=$(dig +short myip.opendns.com @resolver1.opendns.com)
-System_version="$codename $osx_version $osx_build"
+#System_version="$codename $osx_version $osx_build"
+System_version="macOS Catalina $osx_version $osx_build"
 Kernel_version="$(uname) $(uname -r)"
 Uptime=$(uptime | sed 's/.*up \([^,]*\), .*/\1/')
 Shell="$SHELL"
