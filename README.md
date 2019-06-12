@@ -516,8 +516,6 @@
 
 943181023 [联想小新Air黑苹果交流群](http://shang.qq.com/wpa/qunwpa?idkey=fb772a7e01436d43e1d856a099549551952bb08161ced4a8fc08b4e75e7ab438) 500人群 非专用机型请勿加入
 
-436905405 [机械革命MECHREVO【MR学院】黑苹果](http://shang.qq.com/wpa/qunwpa?idkey=fedfd951c92b6493a1b02940ec673657d3d0c8316d1abfa738f92214ed66d365) 500人群 非专用机型请勿加入
-
 43518833  [Mac for HP](https://shang.qq.com/wpa/qunwpa?idkey=739faedadd025d72310a48effa168a797bd7407520f5264560f45fc611e601d0) 1000人群 惠普商务机EFI交流共享（推荐）
 
 612655811 [elitebook_probook_zbook系列黑苹果交流](https://shang.qq.com/wpa/qunwpa?idkey=5f91e85dc300cc5da20324401b23236cdeb9a0e5ebee5944fa8811ff0d5e4e36) 500人群 hotpatch方案(备选)
