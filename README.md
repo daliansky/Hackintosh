@@ -256,8 +256,8 @@
 | Lenovo G40-70M | [链接](https://github.com/jinmu333/Lenovo_G40_70M_EFI) | | |
 | Lenovo G50-80                      | [链接](https://github.com/upupming/Lenovo-G50-80-Clover)     |                                                              |                                                              |
 | Lenovo G510                        | [链接](https://github.com/Z39/G510-OS-X-Clover-Hotpatch)     | [链接](https://github.com/Z39/G510-OS-X-Clover-Hotpatch/blob/master/README-CN.md) | 感谢：[39军小兵张](http://i.pcbeta.com/space-uid-4472739.html) |
+| ThinkPad E440 | [链接](https://github.com/ZzMark/Thinkpad-E440-Hackintosh) |  |  |
 | ThinkPad E450C                     | [链接](https://github.com/zhangxuan1340/Hackintosh_E450C)    |                                                              |                                                              |
-| ThinkPad E440                      | [链接](https://github.com/ZzMark/Thinkpad-E440-Hackintosh)   | 
 | ThinkPad E480                      | [链接](https://github.com/aliyoge/Hackintosh-ThinkPad-E480)  | [链接](https://github.com/aliyoge/Hackintosh-ThinkPad-E480/blob/master/README.md) |                                                              |
 | ThinkPad E540                      | [链接](https://github.com/wwbhl/E540)                        |                                                              |                                                              |
 | ThinkPad E550                      | [链接](https://github.com/the-braveknight/Lenovo-ThinkPad-E550-DSDT-Patch) | [链接](https://www.tonymacx86.com/threads/guide-lenovo-thinkpad-e550-haswell-using-clover-uefi-10-11.214675/) | E550 四代 CPU                                                |
