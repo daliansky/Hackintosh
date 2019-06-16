@@ -30,6 +30,13 @@
 
 **解决问题，需要努力的是自己，不是让别人帮你努力；帮你解答是情分，不是义务**
 
+**为了感谢这份清单内机型的维护人员的长期的付出，希望大家在下载 EFI 的时候点一下 'star',顺便可以点一下 'watch',这样你将会收到你关注机型 efi 的更新提醒，这是对维护人员的一种肯定和鼓励。**
+
+
+**感谢各位维护人员的辛勤付出，希望在更新时能够提供必要的更新内容说明，在引用别人的补丁、或者是某些特殊版本的驱动是给出驱动的来源链接，必要时还请加入一些 credit，黑苹果更多的是大家群策群力、开放共享努力的结果。**
+
+*希望整个黑苹果领域能够进入良性循环状态，不用再重复造很多轮子，也希望那些使用别人成果收费的人，必要时还请留出文件来源和相关致谢，额，你付出了时间和精力收费确实是可以的，只是别整天这样独家、那样xx的，使用别人的东西，不丢人，做些声明不会抹掉你的存在。*
+
    
 
 ### 同步更新：[黑果小兵的部落阁](<https://blog.daliansky.net/Hackintosh-long-term-maintenance-model-checklist.html>)
@@ -80,6 +87,10 @@
 | Acer-V3-572G-51MR       | [链接](https://github.com/AnoldmanLiSir/Acer-V3-572G-51MR)   | [链接](https://github.com/AnoldmanLiSir/Acer-V3-572G-51MR/blob/master/README.md) |                     |
 | Acer V5-572             | [链接](https://github.com/7ack/Acer-V5-572-Hackintosh)       | [链接](https://github.com/7ack/Acer-V5-572-Hackintosh/blob/master/readme.md) |                     |
 | Acer Vn7-793g           | [链接](https://github.com/cedric-bour/793g-hackintosh-efi)   |                                                              |                     |
+| Acer-K50-10-525V       | [链接](https://github.com/mingslife/Acer-K50-10-525V-Hackintosh) |                                                              |                     |
+
+
+
 
 #### Asus 华硕
 
@@ -135,6 +146,9 @@
 | Asus ZenBook UX330UAK             | [链接](https://github.com/Rybo713/UX330UA-macOS)             | [链接](https://github.com/Rybo713/UX330UA-macOS/blob/master/README.md) | Asus UX330UAK (Kabylake）                                  |
 | Asus Zephyrus M (GM501GS)         | [链接](https://github.com/kylergib/Asus-Zephyrus-M-gm501gs-Mojave) |                                                              |                                                            |
 | 华硕zx50jx4200                    | [链接](https://github.com/sxz799/zx50jx4200_hackintosh)      |                                                              |                                                            |
+| 华硕A407UB                         | [链接](https://github.com/xinguisoft/Hackintosh-EFI-Asus-A407UB/)   |      |     |
+
+
 
 #### DELL 戴尔
 
@@ -413,6 +427,7 @@
 | Razer Blade Stealth 雷蛇灵刃潜行版 | [链接](https://github.com/widmonstertony/razer-blade-stealth-hackintosh) |                                                              |                   |
 | 三星Samsung NP300E4C               | [链接](https://github.com/installgento0/NP300E4C-hackintosh) |                                                              |                   |
 | ASRock-Z370M-ITX-AC | [链接](https://github.com/youngle316/ASRock-Z370M-ITX-AC) |                    |                |
+| 微星准系统ProBox23  | [链接]( https://github.com/Twilightlee/MSI_ProBox23_hackintosh) |                    |                |
 
 
 #### 笔记本更多的机型
