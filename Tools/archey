@@ -140,7 +140,7 @@ Date=$(date | sed 's/CST//g')
 Intranet=$(osascript -e "IPv4 address of (system info)")
 Public=$(dig +short myip.opendns.com @resolver1.opendns.com)
 #System_version="$codename $osx_version $osx_build"
-System_version="macOS Catalina $osx_version $osx_build"
+System_version="macOS $osx_version $osx_build"
 Kernel_version="$(uname) $(uname -r)"
 Uptime=$(uptime | sed 's/.*up \([^,]*\), .*/\1/')
 Shell="$SHELL"
@@ -167,11 +167,11 @@ Disk="$disk_used / $disk_total"
 
 # GPU
 # main resolution
-resolution="$(system_profiler SPDisplaysDataType | grep Resolution | awk 'NF+=1' | sed 's/Resolution://g' | cut -b 12- | sed -e 's/, /\n/g' | sed -n 1p)"
-gpu="$(system_profiler SPDisplaysDataType | awk -F': ' '/^\ *Chipset Model:/ {printf $2 " "}')"
-vram="$(system_profiler SPDisplaysDataType | grep VRAM | cut -b 7-)"
+resolution="$(system_profiler SPDisplaysDataType  2>/dev/null| grep Resolution | awk 'NF+=1' | sed 's/Resolution://g' | cut -b 12- | sed -e 's/, /\n/g' | sed -n 1p)"
+gpu="$(system_profiler SPDisplaysDataType 2>/dev/null|awk -F': ' '/^\ *Chipset Model:/ {printf $2 " "}')"
+vram="$(system_profiler SPDisplaysDataType 2>/dev/null| grep VRAM | cut -b 7-)"
 # extension resolution
-displayext="$(system_profiler SPDisplaysDataType | grep Resolution | awk 'NF+=1' | sed 's/Resolution://g' | cut -b 12- | sed -e 's/, /\n/g' | sed -n 2p)"
+displayext="$(system_profiler SPDisplaysDataType  2>/dev/null| grep Resolution | awk 'NF+=1' | sed 's/Resolution://g' | cut -b 12- | sed -e 's/, /\n/g' | sed -n 2p)"
 #if [[ -z $displayext ]] ; then 
 #  displayext=$resolution
 #fi
