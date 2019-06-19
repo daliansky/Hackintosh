@@ -104,12 +104,12 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/daliansky/Hackintosh/maste
 也可以下载到本地执行：
 
 ```bash
-$ msss -h		帮助信息
-$ msss -v		回显存储的截屏文件名，配合使用`open`直接显：`open $(msss -v)` 
-$ msss -d 0 就是截取所有显示器并自动拼接
-$ msss -d 1 就是截取1号主显示器
-$ msss -d 2 就是截取第二台显示器
-$ msss -f 	手动指定截图文件名和保存路径，比如：`msss -f ~/Desktop/111.png` 将截屏保存到桌面上
+$ msss -h	帮助信息
+$ msss -v	回显存储的截屏文件名，配合使用`open`直接显：`open $(msss -v)` 
+$ msss -d 0	就是截取所有显示器并自动拼接
+$ msss -d 1	就是截取1号主显示器
+$ msss -d 2	就是截取第二台显示器
+$ msss -f 手动指定截图文件名和保存路径，比如：`msss -f ~/Desktop/111.png` 将截屏保存到桌面上
 ```
 
 
