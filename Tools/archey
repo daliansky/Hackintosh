@@ -297,7 +297,7 @@ else
 # as when run.
   echo -e "
 ${normal# }                                      ${User} ${model}
-${normal# }                                      ----------------------------------------------
+${normal# }                                      ==============================================================
 ${GREEN#  }                                      ${fieldlist[0]}
 ${GREEN#  }                 ###                  ${fieldlist[1]}
 ${GREEN#  }               ####                   ${fieldlist[2]}
