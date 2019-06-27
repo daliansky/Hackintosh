@@ -412,8 +412,8 @@
 | --------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | --------------------------------------------------- |
 | Intel DH67GD, DH67BL, <br />DH67CF, DH67CL 系列主板 | [链接](https://github.com/RehabMan/Intel-DH67XX-DSDT-Patch)  | [链接](https://www.tonymacx86.com/threads/guide-intel-dh67xx-with-hd3000-using-clover-uefi-hotpatch.233257/) | Intel DH67GD, DH67BL, <br />DH67CF, DH67CL 系列主板 |
 | Intel NUC 5、6、7、8 系列                           | [链接](https://github.com/RehabMan/Intel-NUC-DSDT-Patch)     | [链接](https://www.tonymacx86.com/threads/guide-intel-kaby-lake-nuc7-using-clover-uefi-nuc7i7bnh-nuc7i5bnk-nuc7i3bnh-etc.261711/) | mini 主机                                           |
-| NUC8I5BEH                                           | [链接](https://github.com/dongyubin/nuc8i5beh)               | [链接](https://chengxuxiaohei.cn/mac-anzhuang.html)          |                                                     |
-| NUC8i7BEH                                           | [链接](https://github.com/sarkrui/NUC8i7BEH-Hackintosh-Build) |                                                              |                                                     |
+| NUC8I5BEH                                           | [链接](https://github.com/dongyubin/nuc8i5beh)               | [链接](https://chengxuxiaohei.cn/mac-anzhuang.html) [链接](https://osy.gitbook.io/hac-mini-guide/) |                                                     |
+| NUC8i7BEH                                           | [链接](https://github.com/sarkrui/NUC8i7BEH-Hackintosh-Build) | [链接](https://osy.gitbook.io/hac-mini-guide/)               |                                                     |
 | Surface Pro 3                                       | [链接](https://github.com/hacker1024/Hackintosh-Clover-SurfacePro3) |                                                              |                                                     |
 | Surface Pro 4                                       | [链接](https://github.com/Neil-Steven/SurfacePro4-Hackintosh) [链接](https://github.com/bigsadan/surface-pro-4-hackintosh-10.14.3) | [链接](https://github.com/Neil-Steven/SurfacePro4-Hackintosh/blob/master/README.md) | surfacePro 4                                        |
 | Surface Pro 6                                       | [链接](https://github.com/molie34/Surface-Pro-6-macOS)       | [教程](https://github.com/molie34/Surface-Pro-6-macOS)       |                                                     |
@@ -434,6 +434,7 @@
 | msi-b360m-i3-8100-rx570               | [链接](https://github.com/shm007g/hackintosh-msi-b360m-i3-8100-rx570) |                                                              |                   |
 | Asrock_Z390_Phantom_ITX               | [链接](https://github.com/zanderzhng/EFI_Asrock_Z390_Phantom_ITX) |                                                              |                   |
 | MaiBenBen_Damai5 | [链接](https://github.com/jasminebd/MaiBenBen-Damai5) | | 麦本本-大麦5 |
+| Sony VAIO pro13 | [链接](https://github.com/raydoom/hackintosh-sony-vaio-pro13) | |  |
 
 
 
@@ -464,13 +465,14 @@
 | **台式（部分）**               | 发布地址                                                     | 教程地址                                                     | 备注                                            |
 | ------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ----------------------------------------------- |
 | **AMD Ryzen CPU**              |                                                              |                                                              |                                                 |
-| AMD Ryzen安装教程              | [链接](https://github.com/MrNegativeTW/Ryzen-Hackintosh-Tutorial) | [链接](https://mtwstudio.gitbook.io/ryzentosh/)              | 适用于`Sierra` `10.12.6`                        |
+| AMD Ryzen安装教程              | [链接](https://github.com/MrNegativeTW/Ryzen-Hackintosh-Tutorial) [链接](https://github.com/doesprintfwork/Intel-AMD-Hackintosh-Guide) | [链接](https://mtwstudio.gitbook.io/ryzentosh/)              | 适用于`10.12` `10.13` `10.14` |
 | AMD FX 6300/NVIDIA GTX 650     | [链接](https://github.com/pexcn/hackintosh-amd)              |                                                              | 主板：Asus M5A97 LE R2.0                        |
 | MSI B350M Gaming Pro           | [链接](https://github.com/nghuunghiaa111/Hackintosh-IMac)    |                                                              | AMD Ryzen 5 1400<br />MSI RX580 8GB Armor       |
 | AMD Ryzen 1700/Asus B350 Plus  | [链接](https://github.com/mikigal/ryzen-hackintosh)          |                                                              | MSI GTX 1080 Gaming X                           |
 | AMD Vanilla Clover Patches | [链接](https://github.com/AMD-OSX/AMD_Vanilla) | [链接](https://github.com/cheneyveron/hackintosh-clover-tachi-x370-1700x-rx570) | AMD Clover补丁，以后可以<br />直接刻盘安装，10.14.5我会同步<br />更新针对AMD平台的配置文件<br />敬请期待 |
 |  |  |  |  |
 | **INTEL CPU**                  |                                                              |                                                              |                                                 |
+| INTEL安装教程 | [链接](https://github.com/doesprintfwork/Intel-AMD-Hackintosh-Guide) | | |
 | ASRock  deskmini 110           | [链接](https://github.com/suxiaogang/asrock-deskmini-110-hackintosh) |                                                              |                                                 |
 | Asrock deskmini 310            | [链接](https://github.com/liminghuang/asrock_deskmini310_hackintosh) |                                                              |                                                 |
 | ASRock Z370 Pro4 | [链接](https://github.com/athlonreg/ASRock-Z370-Pro4-Hackintosh) | | [套路](https://github.com/athlonreg) 自用机型 |
@@ -510,7 +512,7 @@
 | ------------ | ---------------------------------------- | -------- | ------------------------------------------------------------ |
 | **更多机型** | [链接](https://github.com/sqlsec/clover) |          | 引用自：国光之前维护的仓库                                   |
 |              | [链接](https://zhih.me/hackintosh/#/)    |          | 底噪出品：**[one-key-hidpi](https://github.com/xzhih/one-key-hidpi)** |
-| 耕田男孩维护的几个机型 | [华硕H81-PLUS](https://pan.baidu.com/s/1iWXxUDWBUUlnsuc4COusJQ) [ASUS-Z97](https://pan.baidu.com/s/1QNax08N7BNI1X_Myuaa-XA) [ASUS X299 deluxe](https://pan.baidu.com/s/1JA0UrABdhu4HmM-WuJDWdw)
+| 耕田男孩维护的几个机型 | [华硕H81-PLUS](https://pan.baidu.com/s/1iWXxUDWBUUlnsuc4COusJQ) [ASUS-Z97](https://pan.baidu.com/s/1QNax08N7BNI1X_Myuaa-XA) [ASUS X299 deluxe](https://pan.baidu.com/s/1JA0UrABdhu4HmM-WuJDWdw) | |
 
 #### 硬件兼容列表
 
