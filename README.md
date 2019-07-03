@@ -60,7 +60,7 @@
   - 新增机型：`Mechrevo X9Ti R` / `Mechrevo Z2 G` 等
 - 2019年5月10日 by [明城](https://github.com/mingcheng)
   - 新增机型：`Lenovo M93P` / `Dell 9020m` 等机型
-
+- 2019年7月3日 by [Cruii](https://github.com/Cruii)
 
 ### 笔记本部分机型
 
@@ -248,7 +248,7 @@
 | HP ZHAN99 WorkStation G1                | [链接](https://github.com/MacsedProtoss/hackintosh)          |                                                              | 惠普 战99                                                    |
 | 暗影精灵4 i5-8300H GTX1050Ti            | [链接](https://github.com/canwdev/omen15dc-hackintosh)       |                                                              |                                                              |
 | 暗影精灵2                            |[链接](https://github.com/Arecall/-Mac-os) |            |          |
-
+| 暗影精灵2 Pro HP OMEN 15-ax225TX                             |[链接](https://github.com/Cruii/HP-OMEN-15-ax225TX) |            |          |
 
 #### Huawei 华为
 
