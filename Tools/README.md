@@ -48,6 +48,12 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/daliansky/Hackintosh/maste
 
 输出效果见上图
 
+## 微信小助手
+
+```bash
+curl -o- -L https://raw.githubusercontent.com/lmk123/oh-my-wechat/master/install.sh | bash -s
+```
+
 
 
 ## 一条命令显示USB数量
@@ -86,6 +92,41 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/daliansky/Hackintosh/maste
 +--Integrated_Webcam_HD@14500000AppleUSBDevice
 +--BCM20702A0@14800000AppleUSBDevice
 ```
+
+
+
+## 一键截屏，方法来自[绿帽兄](https://github.com/lihaoyun6)
+
+```bash
+[[ ! -x "/tmp/msss" ]] && (curl -fsSL -o /tmp/msss https://raw.githubusercontent.com/daliansky/Hackintosh/master/Tools/msss && chmod a+x /tmp/msss && open $(/tmp/msss -v)) || open $(/tmp/msss -v)
+```
+
+也可以下载到本地执行：
+
+```bash
+$ msss -h	帮助信息
+$ msss -v	回显存储的截屏文件名，配合使用`open`直接显：`open $(msss -v)` 
+$ msss -d 0	就是截取所有显示器并自动拼接
+$ msss -d 1	就是截取1号主显示器
+$ msss -d 2	就是截取第二台显示器
+$ msss -f 手动指定截图文件名和保存路径，比如：`msss -f ~/Desktop/111.png` 将截屏保存到桌面上
+```
+
+
+
+## 一键变频脚本自动生成`CPUFriend.kext`
+
+- 在终端输入以下命令并回车：
+
+```
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/daliansky/XiaoMi-Pro/master/one-key-cpufriend/one-key-cpufriend_cn.sh)"
+```
+
+- 把桌面上的 `CPUFriend.kext` 和 `CPUFriendDataProvider.kext` 复制进 `/CLOVER/kexts/Other/` 并重启。
+
+详细说明请[移步](https://github.com/daliansky/XiaoMi-Pro/blob/master/one-key-cpufriend/README_CN.md)
+
+
 
 ## 提高github/gitalk访问速度
 
