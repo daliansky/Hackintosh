@@ -60,7 +60,8 @@
   - 新增机型：`Mechrevo X9Ti R` / `Mechrevo Z2 G` 等
 - 2019年5月10日 by [明城](https://github.com/mingcheng)
   - 新增机型：`Lenovo M93P` / `Dell 9020m` 等机型
-
+- 2019年7月3日 by [Cruii](https://github.com/Cruii)
+  - 新增机型：`暗影精灵2Pro`(HP OMEN 15-ax225TX)
 
 ### 笔记本部分机型
 
@@ -247,7 +248,7 @@
 | HP ZHAN99 WorkStation G1                | [链接](https://github.com/MacsedProtoss/hackintosh)          |                                                              | 惠普 战99                                                    |
 | 暗影精灵4 i5-8300H GTX1050Ti            | [链接](https://github.com/canwdev/omen15dc-hackintosh)       |                                                              |                                                              |
 | 暗影精灵2                            |[链接](https://github.com/Arecall/-Mac-os) |            |          |
-
+| 暗影精灵2 Pro HP OMEN 15-ax225TX                             |[链接](https://github.com/Cruii/HP-OMEN-15-ax225TX) |            |          |
 
 #### Huawei 华为
 
@@ -474,6 +475,7 @@
 | INTEL安装教程 | [链接](https://github.com/doesprintfwork/Intel-AMD-Hackintosh-Guide) | | |
 | ASRock  deskmini 110           | [链接](https://github.com/suxiaogang/asrock-deskmini-110-hackintosh) |                                                              |                                                 |
 | Asrock deskmini 310            | [链接](https://github.com/liminghuang/asrock_deskmini310_hackintosh) |                                                              |                                                 |
+| ASRock B360M-HDV | [链接](https://github.com/RealKiro/Hackintosh) | | |
 | ASRock Z370 Pro4 | [链接](https://github.com/athlonreg/ASRock-Z370-Pro4-Hackintosh) | | [套路](https://github.com/athlonreg) 自用机型 |
 | ASRock Z370M Pro4              | [链接](https://github.com/HouCoder/asrock-z370m-pro4-hackintosh) [链接](https://github.com/ljllili23/Hackintosh) | [链接](https://github.com/HouCoder/asrock-z370m-pro4-hackintosh/blob/master/README.md) |                                                 |
 | ASRock Z370 Gaming             | [链接](https://github.com/fangf2018/ASRock-Z370-Gaming-ITX-ac-hackintosh) | [链接](https://github.com/fangf2018/ASRock-Z370-Gaming-ITX-ac-hackintosh/blob/master/README.md) | I7-8700k/RX570                                  |
@@ -499,6 +501,7 @@
 | Lenovo M73 Tiny                | [链接](https://github.com/rehandalal/m73-tiny-hackintosh)    |                                                              |                                                 |
 | Huanan X79 E5-2670, GTX650     | [链接](https://github.com/cheneyveron/clover-x79-e5-2670-gtx650) | [链接](https://github.com/cheneyveron/clover-x79-e5-2670-gtx650/blob/master/README.md) | 华南 x79 V2                                     |
 | HP Elitedesk G3 | [链接](https://github.com/lavjamanxd/hp-elitedesk-g3-hackintosh) |  |  |
+| HP Z420 | [链接](https://github.com/yansheng1003/Hackintosh) | | E5 1650v2 |
 | HP Z600 Workstation            | [链接](https://github.com/lutzmor/hp_z600_hackintosh)        |                                                              | Mac-Mini-Killer                                 |
 | MSI B360                       | [链接](https://github.com/SuperNG6/MSI-b360-10.14.4-EFI)     |                                                              | 也适用于<br />MAG Z390 TOMAHAWK <br />(MS-7B18) |
 | MSI Z370-A                     | [链接](https://github.com/daliansky/Z370-Hackintosh)         | [链接](https://github.com/daliansky/Z370-Hackintosh)         | 黑果小兵MSI Z370-A自用EFI                       |
