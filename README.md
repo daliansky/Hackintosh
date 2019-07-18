@@ -457,17 +457,19 @@
 
 #### 笔记本相关资源
 
-| **笔记本相关资源**                 |                                                            |                                                              |                                                              |
-| ---------------------------------- | ---------------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-|                                    | **hotpatch**                                               |                                                              |                                                              |
-| P-little                           | [链接](https://github.com/daliansky/P-little)              | 见 ThinkPad 交流群                                           | 宪武做的一套 ThinkPad 补丁，刚开始上传，请期待               |
-|                                    | **触摸板**                                                 |                                                              |                                                              |
-| VoodooI2C-PreRelease               | [链接](https://github.com/williambj1/VoodooI2C-PreRelease) | [触摸设备 DSDT 修补补充](https://github.com/williambj1/VoodooI2C-PreRelease/blob/master/%E8%A7%A6%E6%91%B8%E6%9D%BF%E8%A1%A5%E5%85%85.md) | [Bat.bat](https://github.com/williambj1)搞的                 |
-|                                    | **无线网卡**                                               |                                                              |                                                              |
-| 推荐无线网卡                       | MiniPCIe 接口(推荐 BCM4352HMB、DW1510)                     | 博通：BCM94322HM8L、Asus BCM94352、AzureWave AW-CE123H、AzureWave AW-NB290H、DW1510、DW1520、DW1550、 | 高通：DW1515、DW1705、AR5BHB92、AR5BHB112 AR9285 芯片在 10.14 将不再被支持 |
-| PCIe 接口                          | 博通：BCM94331CD、BCM94322MC、BCM94360CD                   | 高通：AR5BXB72、AR5BXB92、AR5BXB112                          |                                                              |
-| M.2 接口(推荐 BCM94352ZAE、DW1560) | 博通：BCM94352Z(AE)、DW1560，DW1830                        |                                                              |                                                              |
-| Wireless USB Adapter               | RealTek系列                                                | [链接](https://github.com/chris1111/Wireless-USB-Adapter-Clover) |                                                              |
+| **笔记本相关资源**   |                                                            |                                                              |                                                              |
+| -------------------- | ---------------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+|                      | **hotpatch**                                               |                                                              |                                                              |
+| P-little             | [链接](https://github.com/daliansky/P-little)              | `Clover` 部件热修复(hotpatch)                                | 宪武做的一套 ThinkPad 补丁，刚开始上传，请期待               |
+| OC-little            | [链接](https://github.com/daliansky/OC-little)             | `OpenCore` 部件热修复(hotpatch)                              | 感谢：@宪武                                                  |
+|                      | **触摸板**                                                 |                                                              |                                                              |
+| VoodooI2C-PreRelease | [链接](https://github.com/williambj1/VoodooI2C-PreRelease) | [触摸设备 DSDT 修补补充](https://github.com/williambj1/VoodooI2C-PreRelease/blob/master/%E8%A7%A6%E6%91%B8%E6%9D%BF%E8%A1%A5%E5%85%85.md) | [Bat.bat](https://github.com/williambj1)搞的                 |
+| GenI2C               | [link](https://github.com/williambj1/GenI2C)               | 生成SSDT触摸板的热修复补丁(hotpatch)，以便支持`VoodooI2C`    |                                                              |
+|                      | **无线网卡**                                               |                                                              |                                                              |
+| 推荐无线网卡         | **MiniPCIe** 接口(推荐 BCM4352HMB、DW1510)                 | **博通**：BCM94322HM8L、Asus BCM94352、AzureWave AW-CE123H、AzureWave AW-NB290H、DW1510、DW1520、DW1550、 | **高通**：DW1515、DW1705、AR5BHB92、AR5BHB112 AR9285 芯片在 10.14 将不再被支持 |
+|                      | **PCIe** 接口                                              | **博通**：BCM94331CD、BCM94322MC、BCM94360CD                 | **高通**：AR5BXB72、AR5BXB92、AR5BXB112                      |
+|                      | **M.2** 接口                                               | **博通**：BCM94352Z(AE)、DW1560，DW1830                      |                                                              |
+|                      | **USB** 无线网卡                                           | RealTek系列                                                  | [链接](https://github.com/chris1111/Wireless-USB-Adapter-Clover) |
 
 ### 台式机
 
