@@ -64,6 +64,8 @@
   - 新增机型：`Lenovo M93P` / `Dell 9020m` 等机型
 - 2019年7月3日 by [Cruii](https://github.com/Cruii)
   - 新增机型：`暗影精灵2Pro`(HP OMEN 15-ax225TX)
+- 2019年7月19日 by [lgs3137](https://github.com/lgs3137)
+  - 新增机型：`暗影精灵I`(惠普PAVILION Gaming NB 15-ak039TX)
 
 ### 笔记本部分机型
 
