@@ -93,7 +93,7 @@
 | Acer V5-572             | [链接](https://github.com/7ack/Acer-V5-572-Hackintosh)       | [链接](https://github.com/7ack/Acer-V5-572-Hackintosh/blob/master/readme.md) |                     |
 | Acer Vn7-793g           | [链接](https://github.com/cedric-bour/793g-hackintosh-efi)   |                                                              |                     |
 | Acer-K50-10-525V       | [链接](https://github.com/mingslife/Acer-K50-10-525V-Hackintosh) |                                                              |                     |
-
+|宏碁暗影骑士3          |[链接](https://github.com/Chakid/Acer-VX15-Hackintosh)  |    |    |
 
 
 
@@ -154,6 +154,7 @@
 | Asus Zephyrus M (GM501GS)         | [链接](https://github.com/kylergib/Asus-Zephyrus-M-gm501gs-Mojave) |                                                              |                                                            |
 | 华硕zx50jx4200                    | [链接](https://github.com/sxz799/zx50jx4200_hackintosh)      |                                                              |                                                            |
 | 华硕A407UB                         | [链接](https://github.com/xinguisoft/Hackintosh-EFI-Asus-A407UB/)   |      |     |
+| 玩家国度枪神3                       | [链接](https://github.com/DongLinghe/ROG-SCAR-III-Hackintosh-EFI)   |      |这个应该是华硕的吧     |
 
 
 
@@ -186,7 +187,7 @@
 | Dell Inspiron 7000 系列                    | [链接](https://github.com/daliansky/dell7000)                | [链接](https://github.com/daliansky/dell7000/blob/master/README.md) | Dell Inspiron 7000 I/II (7x60/7x72)                   |
 | Dell Inspiron 14 7447 Pandora              | [链接](https://github.com/Am1nCmd/Dell-Inspiron-14-7447-Pandora-Hackintosh) |                                                              |                                                       |
 | Dell Inspiron 7460 和 7560                 | [链接](https://github.com/xzhih/dell-7460-7560-hackintosh)   | [链接](https://github.com/xzhih/dell-7460-7560-hackintosh/blob/master/README.md) | 戴尔 7460 和 7560                                     |
-| Dell Inspiron 7559                         | [链接](https://github.com/crackself/Dell-7559-Hackintosh) [链接](https://github.com/JiangHoumin/Dell_G3_3579_Hackintosh) | [链接](https://github.com/crackself/Dell-7559-Hackintosh/blob/Hotpatch/README.md) | Dell 7559                                             |
+| Dell Inspiron 7559                         | [链接](https://github.com/crackself/Dell-7559-Hackintosh) [链接](https://github.com/JiangHoumin/Dell_G3_3579_Hackintosh) [链接](https://github.com/fengwenhua/dell-7559-hackintosh)| [链接](https://github.com/crackself/Dell-7559-Hackintosh/blob/Hotpatch/README.md) | Dell 7559                                             |
 | Dell Inspiron 7567                         | [链接](https://github.com/Doapeat/Dell7567)                  |                                                              |                                                       |
 | Dell Latitude E5440                        | [链接](https://github.com/soejin/hackintosh-dell-e5440)      |                                                              | Dell E5440                                            |
 | Dell Latitude E6330                        | [链接](https://github.com/BladeScraper-Designs/Dell-Latitude-E6330-Mojave-Hackintosh-EFI) |                                                              |                                                       |
@@ -415,7 +416,7 @@
 | XiaoMi Air Kabylake | [链接](https://github.com/jasper-wan/Xiaomi-Air-i5-7200U) |                                                    | Xiaomi Notebook Air 13.3 i5-7200U 指纹版 |
 | XiaoMi Gaming      | [链接](https://github.com/johnnync13/XiaomiGaming)           |                                                              | 额，小米游戏本                                 |
 | XiaoMi Pro 系列    | [链接](https://github.com/daliansky/XiaoMi-Pro/releases)              | [链接](https://blog.daliansky.net/MacOS-installation-tutorial-XiaoMi-Pro-installation-process-records.html)         | 小米 Pro 系列                                  |
-| XiaoMi Ruby 15.6   | [链接](https://github.com/Jxh98/XiaoMi-Ruby-15.6-2019)       |                                                              | 目前ALC256声卡外放无法驱动                     |
+| XiaoMi Ruby 15.6   | [链接](https://github.com/Jxh98/XiaoMi-Ruby-15.6-2019) [小米ruby2019集显版](https://github.com/XenOriginal/XiaoMi-Ruby-15.6-UMA-only)      |                                                              | 目前ALC256声卡外放无法驱动                     |
 | XiaoMi 游戏本 8 代 | [链接](https://github.com/daliansky/XiaoMi-GLP)              |                                                              | 小米游戏本，猜的                               |
 
 #### Intel 英特尔
