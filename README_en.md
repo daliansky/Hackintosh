@@ -196,6 +196,7 @@
 | 暗影精灵4 i5-8300H GTX1050Ti           | [link](https://github.com/canwdev/omen15dc-hackintosh)       |                                                              |                                                              |
 | 暗影精灵2                              | [link](https://github.com/Arecall/-Mac-os)                   |                                                              |                                                              |
 | 暗影精灵2 Pro HP OMEN 15-ax225TX       | [link](https://github.com/Cruii/HP-OMEN-15-ax225TX)          |                                                              |                                                              |
+| HP PAVILION Gaming NB 15-ak039TX	 | [link](https://github.com/lgs3137/PAVILION_Gaming_NB-macOS)	| |	Non-working:GPU(Nvidia 950M/GTX)/WiFi(Intel® Dual Band Wireless-AC 3165)	|
 
 #### Huawei 华为
 

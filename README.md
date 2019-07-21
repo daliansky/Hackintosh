@@ -64,6 +64,8 @@
   - 新增机型：`Lenovo M93P` / `Dell 9020m` 等机型
 - 2019年7月3日 by [Cruii](https://github.com/Cruii)
   - 新增机型：`暗影精灵2Pro`(HP OMEN 15-ax225TX)
+- 2019年7月19日 by [lgs3137](https://github.com/lgs3137)
+  - 新增机型：`暗影精灵I`(惠普PAVILION Gaming NB 15-ak039TX)
 
 ### 笔记本部分机型
 
@@ -256,6 +258,7 @@
 | 暗影精灵2                            |[链接](https://github.com/Arecall/-Mac-os) |            |          |
 | 暗影精灵2 Pro HP OMEN 15-ax225TX                             |[链接](https://github.com/Cruii/HP-OMEN-15-ax225TX) |            |          |
 | HP暗影精灵3 |[链接](https://github.com/bessyjl/HP-OMEN-3-Hackintosh) | | 还有挖坑的，看看啥时候能埋人 |
+| 暗影精灵I (惠普PAVILION Gaming NB 15-ak039TX) |[链接](https://github.com/lgs3137/PAVILION_Gaming_NB-macOS) | | 除了独显、Intel无线网卡，其他功能模块正常(包括HDMI视频) |
 
 #### Huawei 华为
 
