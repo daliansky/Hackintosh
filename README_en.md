@@ -87,10 +87,12 @@
 | Asus X550JX                       | [link](https://github.com/gaoliang/Asus-X550JX-Hackintosh)   |                                                              |                                                  |
 | Asus X555LB                       | [link](https://github.com/emre1393/Asus-x555lb-mojave-efi)   |                                                              |                                                  |
 | Asus X75VC-TY056D                 | [link](https://github.com/Jesterjke/ASUS-X75VC-Hackintosh)   |                                                              |                                                  |
+| Asus X751LJ                       | [link](https://github.com/leandro1988n/ASUS-X751LJ-Hackintosh) |                                                              |                                                  |
 | Asus ZenBook series               | [link](https://github.com/hieplpvip/Asus-ZENBOOK-HACKINTOSH) | [link](https://www.tonymacx86.com/threads/guide-Asus-zenbook-using-clover-uefi-hotpatch.257448/) | UX310 - UX330 - UX330<br />UX410 - UX430 - UX430 |
 | Asus ZenBook Flip UX360UAK        | [link](https://github.com/Frizz925/UX360UAK-Hackintosh)      | [link](https://github.com/Frizz925/UX360UAK-Hackintosh/blob/master/README.md) |                                                  |
 | Asus ZenBook UX32VD               | [link](https://github.com/rafaelmaeuer/Asus-UX32VD-Hackintosh) | [link](https://github.com/rafaelmaeuer/Asus-UX32VD-Hackintosh/blob/master/readme.md) | Asus UX32VD                                      |
 | Asus ZenBook UX330UAK             | [link](https://github.com/Rybo713/UX330UA-macOS)             | [link](https://github.com/Rybo713/UX330UA-macOS/blob/master/README.md) | Asus UX330UAK (Kabylake）                        |
+| Asus Zenbook 3 UX490              | [link](https://github.com/VillenaDeveloper/asus-ux490-hackintosh) |                                                              |                                                  |
 | Asus Zephyrus M (GM501GS)         | [link](https://github.com/kylergib/Asus-Zephyrus-M-gm501gs-Mojave) |                                                              |                                                  |
 | Asus zx50jx4200                   | [link](https://github.com/sxz799/zx50jx4200_hackintosh)      |                                                              |                                                  |
 | Asus A407UB                       | [link](https://github.com/xinguisoft/Hackintosh-EFI-Asus-A407UB/) |                                                              |                                                  |
@@ -108,7 +110,7 @@
 | **Alienware More models**                  | [link](https://github.com/RockJesus/Alienware-Hackintosh)    |                                                              | 引用自：RockJesus维护的仓库                             |
 |                                            |                                                              |                                                              |                                                         |
 | Dell G3 3579                               | [link](https://github.com/JiangHoumin/Dell_G3_3579_Hackintosh) [link](https://github.com/JiangHoumin/Dell_G3_3579_Hackintosh) |                                                              |                                                         |
-| Dell G7 7588                               | [link](https://github.com/geraldoandradee/Hackintosh-Dell-G7-7588) [link](https://github.com/flyfeng2002/FYQ-Hackintosh) |                                                              | 链接2包括`OpenCore`                                     |
+| Dell G7 7588                               | [link](https://github.com/geraldoandradee/Hackintosh-Dell-G7-7588) [link](https://github.com/flyfeng2002/FYQ-Hackintosh) |                                                              | link2 include `OpenCore`                                |
 | Dell Inspiron 14 5447                      | [link](https://github.com/SinhLv/Dell-Ins-14-5447-hackintosh) | [link](https://github.com/SinhLv/Dell-Ins-14-5447-hackintosh/blob/master/README.md) | Dell-Ins-14-5447                                        |
 | Dell Inspiron 14 7447                      | [link](https://github.com/Am1nCmd/Dell-Inspiron-14-7447-Pandora-Hackintosh) | [link](https://github.com/Am1nCmd/Dell-Inspiron-14-7447-Pandora-Hackintosh/blob/master/README.md) | Dell-Inspiron-14-7447                                   |
 | Dell Inspiron 15 7000 (i7-8550U)           | [link](https://github.com/athlonreg/Dell-Inspiron-15-7000-i7-8550u) |                                                              |                                                         |
@@ -149,16 +151,18 @@
 
 #### Gigabyte 技嘉
 
-| Model Name        | Depot                                                    | Tutorial                                                     | Remarks |
-| ----------------- | -------------------------------------------------------- | ------------------------------------------------------------ | ------- |
-| Gigabyte Aero 15X | [link](https://github.com/zacmks/Hackintosh-Aero-15X)    | [link](https://github.com/zacmks/Hackintosh-Aero-15X/blob/master/README.md) |         |
-| Gigabyte Aero 15W | [link](https://github.com/Errrneist/Hackintosh-Aero-15W) |                                                              |         |
+| Model Name         | Depot                                                    | Tutorial                                                     | Remarks |
+| ------------------ | -------------------------------------------------------- | ------------------------------------------------------------ | ------- |
+| Gigabyte Aero 15X  | [link](https://github.com/zacmks/Hackintosh-Aero-15X)    | [link](https://github.com/zacmks/Hackintosh-Aero-15X/blob/master/README.md) |         |
+| Gigabyte Aero 15W  | [link](https://github.com/Errrneist/Hackintosh-Aero-15W) |                                                              |         |
+| Gigabyte Sabre 15K | [link](https://github.com/gnehs/Sabre15KClover)          |                                                              |         |
 
 #### Hasse 神舟
 
 | Model Name             | Depot                                                        | Tutorial                                                     | Remarks                          |
 | ---------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | -------------------------------- |
 | Hasse Shinelon A40L-i7 | [link](https://github.com/i0Ek3/Hackintosh_4_Hasee_Shinelon_A40L) | [link](https://github.com/i0Ek3/Hackintosh_4_Hasee_Shinelon_A40L/blob/master/README.md) | 这是神舟                         |
+| Hasee CT7NA            | [link](https://github.com/bufsnake/Z7-CT7NA-HackIntosh)      |                                                              |                                  |
 | Hasee k610d i5 d3      | [link](https://github.com/1zilc/K610d-i5-d3-10.14.5-efi-clover) |                                                              |                                  |
 | Hasee K650D            | [link](https://github.com/wklesss/k650D-Hackintosh)          |                                                              | 神舟 K 650D                      |
 | Hasee k770e i7 d1      | [link](https://github.com/Gitawake/Hasee-K770e-i7-D1-Clover) |                                                              | p170sm-a                         |
@@ -187,10 +191,12 @@
 | HP Envy x360 15-aq160sa                | [link](https://github.com/KaylumJ/Hackintosh-HP-Envy-x360)   |                                                              |                                                              |
 | HP Envy DV6 7303ef                     | [link](https://github.com/TehOrange/hackintosh_configs/tree/master/HP-Envy-DV6-7303ef) |                                                              |                                                              |
 | HP 840-G1                              | [link](https://github.com/blint01/hackintosh-mojave-HP-840-G1) | [link](https://github.com/blint01/hackintosh-mojave-HP-840-G1/blob/master/README.md) |                                                              |
+| HP Pavilion 15-au028ur | [link](https://github.com/Drovosek01/hackintosh_HP_Pavilion_15-au028ur_i5-6200U/blob/master/docs/ENG/README.md) |  | |
+| HP Pavilion 15 au067tx | [link](https://github.com/FzeNiX/HPPavilion15-au067tx-Mojave-Hackintosh) |  | |
 | HP Pavillion ck069tx                   | [link](https://github.com/Blizzard57/Hackintosh)             |                                                              |                                                              |
 | Hp spectre X360                        | [link](https://github.com/Just-maple/Hp-spectre-X360-hackintosh) |                                                              |                                                              |
 | EliteDesk 800-G3-Mini                  | [link](https://github.com/francoisminh/Hackintosh-EliteDesk-800-G3-Mini-65W) | [link](https://github.com/francoisminh/Hackintosh-EliteDesk-800-G3-Mini-65W/blob/master/README.md) |                                                              |
-| HP Zhan 66 Pro G1                      | [链接1](https://github.com/A-Linz/Hackintosh-HP-Zhan-66-Pro-G1) [链接2](https://github.com/RenAmamiya/HP-Zhan-66-Pro-G1) |                                                              |                                                              |
+| HP Zhan 66 Pro G1                      | [link1](https://github.com/A-Linz/Hackintosh-HP-Zhan-66-Pro-G1) [link2](https://github.com/RenAmamiya/HP-Zhan-66-Pro-G1) |                                                              |                                                              |
 | HP ZHAN 66 PRO 14 G2                   | [link](https://github.com/peihexian/HP-ZHAN-66-Pro-14-G2)    |                                                              |                                                              |
 | HP ZHAN99 WorkStation G1               | [link](https://github.com/MacsedProtoss/hackintosh)          |                                                              | 惠普 战99                                                    |
 | 暗影精灵4 i5-8300H GTX1050Ti           | [link](https://github.com/canwdev/omen15dc-hackintosh)       |                                                              |                                                              |
@@ -267,7 +273,7 @@
 | ThinkPad X220                        | [link](https://github.com/laris/Hackintosh-ThinkPad-X220-MacOS) |                                                              | ThinkPad-X220                                                |
 | ThinkPad X230                        | [link](https://github.com/littlegtplr/Hackintosh-X230-macOS) | [link](https://github.com/littlegtplr/Hackintosh-X230-macOS/blob/master/README.md) | ThinkPad X230                                                |
 | ThinkPad X230                        | [link](https://github.com/SynneK1337/ThinkPad_X230_Hackintosh) | [link](https://github.com/SynneK1337/ThinkPad_X230_Hackintosh/blob/master/README.md) | ThinkPad X230                                                |
-| ThinkPad X250                        | [link](https://github.com/Janolan/x250-hackintosh) [link](https://github.com/qwerty12/X250-Hackintosh) [链接10.15](https://github.com/teddytaod/mac-catalina-thinkpad-x250) |                                                              |                                                              |
+| ThinkPad X250                        | [link](https://github.com/Janolan/x250-hackintosh) [link](https://github.com/qwerty12/X250-Hackintosh) [link10.15](https://github.com/teddytaod/mac-catalina-thinkpad-x250) |                                                              |                                                              |
 | ThinkPad X260 series                 | [link](https://github.com/daliansky/ThinkPad-X260-hackintosh) | [link](https://github.com/daliansky/ThinkPad-X260-hackintosh/blob/master/README.md) | ThinkPad X260                                                |
 | Lenovo Y50(70) series                | [link](https://github.com/RehabMan/Lenovo-Y50-DSDT-Patch)    | [link](https://www.tonymacx86.com/threads/guide-lenovo-y50-uhd-or-1080p-using-clover-uefi.261723/) | Y50(70)1080P 和 4K 版本                                      |
 | Lenovo IdeaPad Y410P                 | [link](https://github.com/Z39/Y410p-OS-X-Clover-Hotpatch)    |                                                              | credit：[39军小兵张](http://i.pcbeta.com/space-uid-4472739.html) |
@@ -327,6 +333,7 @@
 | ------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | --------- |
 | MSI GE60 2PL-403XCN       | [link](https://github.com/ice-black-tea/MSI-GE60)            |                                                              |           |
 | MSI GE70 2PC              | [link](https://github.com/alxzoomer/msi-ge70-2pc-hackintosh) |                                                              |           |
+| MSI GF63                  | [link](https://github.com/oscarrock/hackintosh-msi-gf63-thin-9SC) |                                                              |           |
 | MSI GL62M-7REX            | [link](https://github.com/rlindsberg/Hackintosh-On-MSI-GL62m-7REX) |                                                              |           |
 | MSI GL63-8RE              | [link](https://github.com/iAmineOHN/Hackintosh-MSI-GL63-8RE) |                                                              |           |
 | MSI GL72M-7RDX            | [link](https://github.com/jbwharris/hackintosh-msi-GL72M-7RDX) | [link](https://github.com/jbwharris/hackintosh-msi-GL72M-7RDX/blob/master/README.md) |           |
