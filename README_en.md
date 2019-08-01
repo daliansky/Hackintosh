@@ -171,9 +171,8 @@
 | Hasee 战神 Z7-KP7GZ    | [link](https://github.com/kirainmoe/hasee-z7-kp7gz-macos)    | [link](https://note.youdao.com/ynoteshare1/index.html?id=0ebe9470eeaee01e137b9504ceca78db&type=note) | Z7(m)-KP7/5(G)Z                  |
 | Hasee Z7M KP5GC        | [link](https://github.com/CharlesZhou959/Hasee-Z7M-KP5GC-Hackintosh) |                                                              |                                  |
 | Hasee 炫龙笔记本DC2    | [link](https://github.com/bavelee/DC2_Hackintosh)            | [link](https://bavelee.cn/index.php/archives/60/)            |                                  |
-| Hasee 精盾系列T96E     | [link](https://github.com/L0ngxhn/Hackintosh-Hasee-T96E)     |                                                              |                                  |
-|                        |                                                              |                                                              |                                  |
-
+| Hasee 精盾系列T96E     | [link](https://github.com/L0ngxhn/Hackintosh-Hasee-T96E)     |
+| Hasee K590S(clevo W350ET)     | [link](https://github.com/JokerHYC/K590S-HACKINTOSH)     |
 #### HP 惠普
 
 | Model Name                             | Depot                                                        | Tutorial                                                     | Remarks                                                      |
