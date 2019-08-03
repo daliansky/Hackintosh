@@ -94,6 +94,7 @@
 | Acer Vn7-793g           | [链接](https://github.com/cedric-bour/793g-hackintosh-efi)   |                                                              |                     |
 | Acer-K50-10-525V       | [链接](https://github.com/mingslife/Acer-K50-10-525V-Hackintosh) |                                                              |                     |
 |宏碁暗影骑士3          |[链接](https://github.com/Chakid/Acer-VX15-Hackintosh)  |    |    |
+|ACER-ASPIRE-C24-865          |[链接](https://github.com/Sevendaye/ACER-ASPIRE-C24-865-Clover)  |    |    |
 
 
 
@@ -109,7 +110,6 @@
 | Asus A456UF(X456UF)               | [链接](https://github.com/alfinauzikri/Asus-A456UF-Hackintosh) |                                                              |                                                            |
 | Asus A550JK4200                   | [链接](https://github.com/hehuapei/ASUS-a550jk-4200---macOS) |                                                              |                                                            |
 | Asus F455LD                       | [链接](https://github.com/athlonreg/Asus-F455LD-i5-4210u)    |                                                              |                                                            |
-| Asus FX504GE                      | [链接](https://github.com/PoomSmart/Asus-FX504GE-Hackintosh) |                                                              |                                                            |
 | Asus FX504GE-ES72                 | [链接](https://github.com/MegaStood/Hackintosh-FX504GE-ES72) |                                                              |                                                            |
 | Asus FX505GD                      | [链接](https://github.com/kreactnative/hackintosh-mojave-fx505gd) |                                                              | ASUS TUF GAMING FX505GD-BQ071T                             |
 | Asus F556U (X556UQK)              | [链接](https://github.com/systemfaliure/Asus-X556UQK-hackintosh#Asus-f556u-x556uqk---high-sierra-hackintosh) | [链接](https://github.com/systemfaliure/Asus-X556UQK-hackintosh/blob/master/README.md) | Asus F556U (X556UQK)                                       |
@@ -117,7 +117,6 @@
 | Asus FX50V                        | [链接](https://github.com/Cyberhan123/Hackintosh-ASUS--FX50V) |                                                              |                                                            |
 | Asus FX533VD                      | [链接](https://github.com/kue-kid/Asus-FX533VD-HACKINTOSH)   |                                                              |                                                            |
 | Asus GL503GE                      | [链接](https://github.com/Bimoaryo5/ASUS-GL503GE-Hackintosh-master) |                                                              |                                                            |
-| Asus GL504GE                      | [链接](https://github.com/PoomSmart/Asus-FX504GE-Hackintosh) |                                                              |                                                            |
 | Asus GL551JW                      | [链接](https://github.com/zacharyrs/GL551JW-Hackintosh)      |                                                              |                                                            |
 | Asus G60VW                        | [链接](https://github.com/PtNan/G60VW-Hackintosh)            |                                                              |                                                            |
 | Asus K501LB                       | [链接](https://github.com/ApolloRisky/EFI_Clover-Asus-K501LB-Mojave) |                                                              |                                                            |
@@ -153,6 +152,7 @@
 | Asus ZenBook UX32VD               | [链接](https://github.com/rafaelmaeuer/Asus-UX32VD-Hackintosh) | [链接](https://github.com/rafaelmaeuer/Asus-UX32VD-Hackintosh/blob/master/readme.md) | Asus UX32VD                                                |
 | Asus ZenBook UX330UAK             | [链接](https://github.com/Rybo713/UX330UA-macOS)             | [链接](https://github.com/Rybo713/UX330UA-macOS/blob/master/README.md) | Asus UX330UAK (Kabylake）                                  |
 | Asus Zenbook 3 UX490 | [链接](https://github.com/VillenaDeveloper/asus-ux490-hackintosh) |  |  |
+| Asus ux305fa | [链接](https://github.com/nganhquoc95/clover-ux305fa) |  |  |
 | Asus Zephyrus M (GM501GS)         | [链接](https://github.com/kylergib/Asus-Zephyrus-M-gm501gs-Mojave) |                                                              |                                                            |
 | 华硕zx50jx4200                    | [链接](https://github.com/sxz799/zx50jx4200_hackintosh)      |                                                              |                                                            |
 | 华硕A407UB                         | [链接](https://github.com/xinguisoft/Hackintosh-EFI-Asus-A407UB/)   |      |     |
@@ -171,7 +171,7 @@
 | **Alienware外星人更多机型**                | [链接](https://github.com/RockJesus/Alienware-Hackintosh)    |                                                              | 引用自：RockJesus维护的仓库                           |
 |                                            |                                                              |                                                              |                                                       |
 | Dell G3 3579                               | [链接](https://github.com/JiangHoumin/Dell_G3_3579_Hackintosh) [链接](https://github.com/JiangHoumin/Dell_G3_3579_Hackintosh) |                                                              |                                                       |
-| Dell G7 7588                               | [链接](https://github.com/geraldoandradee/Hackintosh-Dell-G7-7588) [链接](https://github.com/flyfeng2002/FYQ-Hackintosh) |                                                              | 链接2包括`OpenCore`                                   |
+| Dell G7 7588                               | [链接](https://github.com/geraldoandradee/Hackintosh-Dell-G7-7588) [链接](https://github.com/flyfeng2002/FYQ-Hackintosh) [链接](https://github.com/Juan-VC/macOS-Mojave-on-Dell-G7-7588) |                                                              | 链接2包括`OpenCore`                                   |
 | Dell Inspiron 14 5447                      | [链接](https://github.com/SinhLv/Dell-Ins-14-5447-hackintosh) | [链接](https://github.com/SinhLv/Dell-Ins-14-5447-hackintosh/blob/master/README.md) | Dell-Ins-14-5447                                      |
 | Dell Inspiron 14 7447                      | [链接](https://github.com/Am1nCmd/Dell-Inspiron-14-7447-Pandora-Hackintosh) | [链接](https://github.com/Am1nCmd/Dell-Inspiron-14-7447-Pandora-Hackintosh/blob/master/README.md) | Dell-Inspiron-14-7447                                 |
 | Dell Inspiron 15 7000 (i7-8550U)           | [链接](https://github.com/athlonreg/Dell-Inspiron-15-7000-i7-8550u) |                                                              |                                                       |
@@ -210,6 +210,8 @@
 | Dell XPS 9550                              | [链接](https://github.com/wmchris/DellXPS15-9550-OSX) [链接](https://github.com/corenel/XPS9550-macOS) | [链接](https://github.com/wmchris/DellXPS15-9550-OSX/blob/10.14/README.md) [链接](https://github.com/corenel/XPS9550-macOS/blob/master/README.md) | Dell XPS 9550                                         |
 | Dell XPS 9560                              | [链接](https://github.com/gunslinger23/XPS15-9560-High-Sierra) | [链接](https://github.com/gunslinger23/XPS15-9560-High-Sierra/blob/master/README.md) | Dell XPS 9560                                         |
 | Dell XPS 9570                              | [链接](https://github.com/Xigtun/xps-9570-mojave) [链接](https://github.com/bavariancake/XPS9570-macOS) <br />[链接](https://github.com/LuletterSoul/Dell-XPS-15-9570-macOS-Mojave) |                                                              | 感谢：[LuletterSoul](https://github.com/LuletterSoul) |
+| Dell-Latitude-5290 |[链接](https://github.com/laelsirus/Dell-Latitude-5290-2-in-1-UHD620-iGPU-CLOVER) | [链接](https://github.https://github.com/laelsirus/Dell-Latitude-5290-2-in-1-UHD620-iGPU-CLOVER/blob/master/README.md) |Dell-Latitude-5290                                         |
+| DELL7472 | [链接](https://github.com/ic005k/DELL7472)  |   |  |
 
 #### Gigabyte 技嘉
 
@@ -218,6 +220,7 @@
 | Gigabyte Aero 15X  | [链接](https://github.com/zacmks/Hackintosh-Aero-15X)    | [链接](https://github.com/zacmks/Hackintosh-Aero-15X/blob/master/README.md) |      |
 | Gigabyte Aero 15W  | [链接](https://github.com/Errrneist/Hackintosh-Aero-15W) |                                                              |      |
 | Gigabyte Sabre 15K | [链接](https://github.com/gnehs/Sabre15KClover)          |                                                              |      |
+
 
 #### Hasse 神舟
 
@@ -305,11 +308,12 @@
 | ThinkPad T420 系列                 | [链接](https://github.com/tluck/Lenovo-T420-Clover)          | [链接](https://www.insanelymac.com/forum/topic/285678-lenovo-thinkpad-t420-with-uefi-only/?page=20&tab=comments#comment-1952283) | 包含 T420、T420s、T520、X220X220，<br />可通过修改支持到 10.14.x |
 | ThinkPad T430 | [链接](https://github.com/hai666l/T430-EFI) |  |  |
 | ThinkPad T430s | [链接](https://github.com/hunga1ok/hackintosh-t430si7vga-clover-config) | | |
-| ThinkPad T440p                     | [链接](https://github.com/evy0311/t440p) [链接](https://github.com/jloisel/t440p) | [链接](https://github.com/evy0311/t440p/blob/master/README.md) |                                                              |
+| ThinkPad T440p                     | [链接](https://github.com/evy0311/t440p) [链接](https://github.com/jloisel/t440p) [链接](https://github.com/notthebee/t440p-hackintosh)| [链接](https://github.com/evy0311/t440p/blob/master/README.md) |                                                              |
 | ThinkPad T450 | [链接](https://github.com/jsassu20/ThinkPad-T450-Mojave) |  | |
 | ThinkPad T460 系列                 | [链接](https://github.com/tluck/Lenovo-T460-Clover)          | [链接](http://www.insanelymac.com/forum/topic/315451-guide-lenovo-t460-macos-with-clover/) | 可支持 T460、T560、T470<br /> 和 T470p4 款机型               |
 | ThinkPad T460p                     | [链接](https://github.com/totemofwolf/Thinkpad-T460p-OSX-EFI) |                                                              |                                                              |
 | Thinkpad T470                      | [链接](https://github.com/nguyenduy98/Hackintosh)            |                                                              | I7-7500u                                                     |
+| Thinkpad T470S                     | [链接](https://github.com/Altairko/Lenovo-T470s-Clover)            |                                                              |                                                    |
 | ThinkPad T470p                     | [链接](https://github.com/lohcve/EFI_T470P)                  | [链接](https://github.com/lohcve/EFI_T470P/blob/master/README.md) | ThinkPad T470p                                               |
 | ThinkPad T480                      | [链接](https://github.com/rhkjyn/T480-Hackintosh-FULL)       |                                                              |                                                              |
 | ThinkPad T480s                     | [链接](https://github.com/kk1987/T480s-hackintosh)           | [链接](https://github.com/kk1987/T480s-hackintosh/blob/master/README.md) |                                                              |
@@ -340,6 +344,7 @@
 | ThinkPad X250                      | [链接](https://github.com/Janolan/x250-hackintosh) [链接](https://github.com/qwerty12/X250-Hackintosh) [链接10.15](https://github.com/teddytaod/mac-catalina-thinkpad-x250)|                                                              |                                                              |
 | ThinkPad X260 系列                 | [链接](https://github.com/daliansky/ThinkPad-X260-hackintosh) | [链接](https://github.com/daliansky/ThinkPad-X260-hackintosh/blob/master/README.md) | ThinkPad X260                                                |
 | Lenovo Y50(70) 系列                | [链接](https://github.com/RehabMan/Lenovo-Y50-DSDT-Patch)    | [链接](https://www.tonymacx86.com/threads/guide-lenovo-y50-uhd-or-1080p-using-clover-uefi.261723/) | Y50(70)1080P 和 4K 版本                                      |
+| Lenovo IdeaPad 530s        | [链接](https://github.com/corint1/Hackintosh-Lenovo-IdeaPad-530s-14ikb)    |                                                              | 感谢：[39军小兵张](http://i.pcbeta.com/space-uid-4472739.html) |
 | Lenovo IdeaPad Y410P               | [链接](https://github.com/Z39/Y410p-OS-X-Clover-Hotpatch)    |                                                              | 感谢：[39军小兵张](http://i.pcbeta.com/space-uid-4472739.html) |
 | Lenovo IdeaPad Y430P               | [链接](https://github.com/Z39/Y430p-OS-X-Clover-Hotpatch)    |                                                              | 感谢：[39军小兵张](http://i.pcbeta.com/space-uid-4472739.html) |
 | Lenovo IdeaPad Y510P               | [链接](https://github.com/Z39/Y510p-OS-X-Clover-Hotpatch)    |                                                              | 感谢：[39军小兵张](http://i.pcbeta.com/space-uid-4472739.html) |
@@ -406,6 +411,7 @@
 | MSI GP62 6QG-1071XCN      | [链接](https://github.com/chuxubank/MSI-GP62-Hackintosh)     | [链接](https://github.com/chuxubank/MSI-GP62-Hackintosh/blob/master/README.md) | 微星 GP62 |
 | MSI GS65 Stealth Thin 8RF | [链接](https://github.com/vladichimescu/msi-gs65-hackintosh) |                                                              |           |
 | MSI GS73VR 7RF            | [链接](https://github.com/dogukanoksuz/msi-gs73vr-7rf-macOS) |                                                              |           |
+| clover-z390-aorus-pro-wifi-9700k-rx580 |[链接](https://github.com/cheneyveron/hackintosh-clover-z390-aorus-pro-wifi-9700k-rx580) | [链接](https://github.com/cheneyveron/hackintosh-clover-z390-aorus-pro-wifi-9700k-rx580/blob/master/README.md)    |
 
 
 #### XiaoMi 小米
@@ -455,6 +461,8 @@
 | Asrock_Z390_Phantom_ITX               | [链接](https://github.com/zanderzhng/EFI_Asrock_Z390_Phantom_ITX) |                                                              |                   |
 | MaiBenBen_Damai5 | [链接](https://github.com/jasminebd/MaiBenBen-Damai5) | | 麦本本-大麦5 |
 | Sony VAIO pro13 | [链接](https://github.com/raydoom/hackintosh-sony-vaio-pro13) | |  |
+| Clover-Ryzen-MSI-B450I |[链接](https://github.com/portrayer/Clover-Ryzen-MSI-B450I) | |  |
+| toshiba-B654L |[链接](https://github.com/yxb2018/toshiba-B654L-clover-efi) | |  |
 
 
 
@@ -529,7 +537,10 @@
 | MSI Z370-A                     | [链接](https://github.com/daliansky/Z370-Hackintosh)         | [链接](https://github.com/daliansky/Z370-Hackintosh)         | 黑果小兵MSI Z370-A自用EFI                       |
 | ASRock-Z370-Gaming-ITX-ac-hackintosh  | [链接](https://github.com/fangf2018/ASRock-Z370-Gaming-ITX-ac-hackintosh) |   |   |
 | Gigabyte-Z390M  |[链接](https://github.com/xxiaofeng132/Gigabyte-Z390M-Gaming-Hackintosh)  |  |技嘉Z390m-gaming |
-
+| ASUS-PRIME-Z390 |[链接](https://github.com/dhckdgjs/ASUS-PRIME-Z390-A-HACKINTOSH-Clover-iGPU-with-dGPU-UHD630-RX580)  |  |ASUS-PRIME-Z390 |
+| GA-Z77P-D3 |[链接](https://github.com/cloverkits/GA-Z77P-D3-EFI)  |  |GA-Z77P-D3 |
+| Deskmini-310 |[链接](https://github.com/yuqi/Deskmini-310-Hackintosh)  |  |Deskmini-310 |
+| GA-B360M-D3H |[链接](https://github.com/laelsirus/GA-B360M-D3H-with-UHD630-iGPU-AMD-dGPU-CLOVER)  |  |GA-B360M-D3H |
 
 
 #### 台式机其它机型
@@ -546,6 +557,8 @@
 | ---------------- | ------------------------------------------------------------ | -------- | ----------------------------------------------------- |
 | **硬件兼容列表** | [链接](https://github.com/CrazyPegAsus/macOS-Mojave-Compatibility-hardware-list) |          | 感谢: [CrazyPegAsus](https://github.com/CrazyPegAsus) |
 | 黑苹果购买指南   | [链接](https://github.com/khronokernel/Anti-Hackintosh-Buyers-Guide) |          | Hackintosh Buyers Guide                               |
+| 黑苹果安装学院   | [链接](https://github.com/huangyz0918/Hackintosh-Installer-University) | [链接](https://github.com/huangyz0918/Hackintosh-Installer-University/blob/master/README-CN.md)         | 这个和本repo功能类似，既然作者开放了，我们也可以收录补充                               |
+| 黑苹果互助项目    |[链接](https://github.com/bessyjl/HackintoshClover)  |  |和本repo类似  |
 
 
 
