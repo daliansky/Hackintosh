@@ -232,7 +232,7 @@
 | HASEE Z7-KP7D1 | [链接](https://github.com/ConnersHua/Clevo-P65xHP-Hackintosh) | | Clevo P65xHP<br />HASEE Z7-KP7S1 |
 | 神舟战神 Z7-KP7GZ        | [链接](https://github.com/kirainmoe/hasee-z7-kp7gz-macos)    | [链接](https://note.youdao.com/ynoteshare1/index.html?id=0ebe9470eeaee01e137b9504ceca78db&type=note) | Z7(m)-KP7/5(G)Z |
 | Hasee Z7M KP5GC        | [链接](https://github.com/CharlesZhou959/Hasee-Z7M-KP5GC-Hackintosh) |                                                              |                   |
-| 神舟炫龙笔记本DC2      | [链接](https://github.com/bavelee/DC2_Hackintosh)            | [链接](https://bavelee.cn/index.php/archives/60/)            |                   |
+| 神舟炫龙笔记本DC2      | [链接](https://github.com/bavelee/DC2_Hackintosh)  [链接DC2_DD](https://github.com/yuedashen88/DC2_EFI)          | [链接](https://bavelee.cn/index.php/archives/60/)            |  yuedashen88基于大佬BaveLee之前的EFI的修改版本,修复了HDMI热插拔问题                 |
 | 神舟精盾系列T96E       | [链接](https://github.com/L0ngxhn/Hackintosh-Hasee-T96E)     |  |                   |
 | 神舟精盾系列 K590S      | [链接](https://github.com/JokerHYC/K590S-HACKINTOSH)     |  |                   |
 #### HP 惠普
@@ -528,6 +528,7 @@
 | MSI B360                       | [链接](https://github.com/SuperNG6/MSI-b360-10.14.4-EFI)     |                                                              | 也适用于<br />MAG Z390 TOMAHAWK <br />(MS-7B18) |
 | MSI Z370-A                     | [链接](https://github.com/daliansky/Z370-Hackintosh)         | [链接](https://github.com/daliansky/Z370-Hackintosh)         | 黑果小兵MSI Z370-A自用EFI                       |
 | ASRock-Z370-Gaming-ITX-ac-hackintosh  | [链接](https://github.com/fangf2018/ASRock-Z370-Gaming-ITX-ac-hackintosh) |   |   |
+| Gigabyte-Z390M  |[链接](https://github.com/xxiaofeng132/Gigabyte-Z390M-Gaming-Hackintosh)  |  |技嘉Z390m-gaming |
 
 
 
