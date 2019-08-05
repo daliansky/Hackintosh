@@ -263,7 +263,7 @@
 | EliteDesk 800-G3-Mini                   | [链接](https://github.com/francoisminh/Hackintosh-EliteDesk-800-G3-Mini-65W) | [链接](https://github.com/francoisminh/Hackintosh-EliteDesk-800-G3-Mini-65W/blob/master/README.md) |                                                              |
 | HP Zhan 66 Pro G1                       | [链接1](https://github.com/A-Linz/Hackintosh-HP-Zhan-66-Pro-G1) [链接2](https://github.com/RenAmamiya/HP-Zhan-66-Pro-G1) |                                                              |                                                              |
 | HP ZHAN 66 PRO 14 G2 | [链接](https://github.com/peihexian/HP-ZHAN-66-Pro-14-G2) | | |
-| HP ZHAN99 WorkStation G1                | [链接](https://github.com/MacsedProtoss/hackintosh)          |                                                              | 惠普 战99                                                    |
+| HP ZHAN99 WorkStation G1                | [链接](https://github.com/MacsedProtoss/hackintosh)          |                                                              | HP ZBook 15v G5                                     |
 | 暗影精灵4 i5-8300H GTX1050Ti            | [链接](https://github.com/canwdev/omen15dc-hackintosh)       |                                                              |                                                              |
 | 暗影精灵2                            |[链接](https://github.com/Arecall/-Mac-os) |            |          |
 | 暗影精灵2 Pro HP OMEN 15-ax225TX                             |[链接](https://github.com/Cruii/HP-OMEN-15-ax225TX) |            |          |
@@ -496,7 +496,7 @@
 | **台式（部分）**               | 发布地址                                                     | 教程地址                                                     | 备注                                            |
 | ------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ----------------------------------------------- |
 | **AMD Ryzen CPU**              |                                                              |                                                              |                                                 |
-| AMD Ryzen 7 1700x<br />MSI X370 Krait Gaming<br />RX Vega64 | [链接](https://github.com/yhl452493373/ryzen-hackintosh-efi)  | | 10.14.6 
+| AMD Ryzen 7 1700x<br />MSI X370 Krait Gaming<br />RX Vega64 | [链接](https://github.com/yhl452493373/ryzen-hackintosh-efi) |  | 10.14.6 |
 | AMD Ryzen安装教程              | [链接](https://github.com/MrNegativeTW/Ryzen-Hackintosh-Tutorial) [链接](https://github.com/doesprintfwork/Intel-AMD-Hackintosh-Guide) | [链接](https://mtwstudio.gitbook.io/ryzentosh/)              | 适用于`10.12` `10.13` `10.14` |
 | AMD FX 6300/NVIDIA GTX 650     | [链接](https://github.com/pexcn/hackintosh-amd)              |                                                              | 主板：Asus M5A97 LE R2.0                        |
 | MSI B350M Gaming Pro           | [链接](https://github.com/nghuunghiaa111/Hackintosh-IMac)    |                                                              | AMD Ryzen 5 1400<br />MSI RX580 8GB Armor       |
