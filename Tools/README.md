@@ -50,6 +50,8 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/daliansky/Hackintosh/maste
 
 ## 微信小助手
 
+打开终端，输入命令：
+
 ```bash
 curl -o- -L https://raw.githubusercontent.com/lmk123/oh-my-wechat/master/install.sh | bash -s
 ```
@@ -97,6 +99,8 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/daliansky/Hackintosh/maste
 
 ## 一键截屏，方法来自[绿帽兄](https://github.com/lihaoyun6)
 
+打开终端，输入命令：
+
 ```bash
 [[ ! -x "/tmp/msss" ]] && (curl -fsSL -o /tmp/msss https://raw.githubusercontent.com/daliansky/Hackintosh/master/Tools/msss && chmod a+x /tmp/msss && open $(/tmp/msss -v)) || open $(/tmp/msss -v)
 ```
@@ -116,19 +120,22 @@ $ msss -f 手动指定截图文件名和保存路径，比如：`msss -f ~/Deskt
 
 ## 一键变频脚本自动生成`CPUFriend.kext`
 
+- 使用前请先阅读[CPUFriend - WARNING](https://github.com/acidanthera/CPUFriend/blob/master/Instructions.md#warning)
 - 在终端输入以下命令并回车：
 
-```
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/daliansky/XiaoMi-Pro/master/one-key-cpufriend/one-key-cpufriend_cn.sh)"
+```bash
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/stevezhengshiqi/one-key-cpufriend/master/one-key-cpufriend.sh)"
 ```
 
 - 把桌面上的 `CPUFriend.kext` 和 `CPUFriendDataProvider.kext` 复制进 `/CLOVER/kexts/Other/` 并重启。
 
-详细说明请[移步](https://github.com/daliansky/XiaoMi-Pro/blob/master/one-key-cpufriend/README_CN.md)
+详细说明请[移步](https://github.com/stevezhengshiqi/one-key-cpufriend/blob/master/README_CN.md)
 
 
 
 ## 提高github/gitalk访问速度
+
+打开终端，输入命令：
 
 ```bash
 cat /etc/hosts
@@ -139,3 +146,12 @@ cat /etc/hosts
 192.30.255.116	api.github.com
 ```
 
+
+
+## 运用iasl编译dsl文件
+
+打开终端，输入命令：
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/daliansky/Hackintosh/master/Tools/iasl -o /tmp/iasl && chmod +x /tmp/iasl && sh -c /tmp/iasl -l <dsl文件路径>
+```
