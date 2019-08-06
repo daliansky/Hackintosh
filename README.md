@@ -152,6 +152,7 @@
 | Asus ZenBook Flip UX360UAK        | [链接](https://github.com/Frizz925/UX360UAK-Hackintosh)      | [链接](https://github.com/Frizz925/UX360UAK-Hackintosh/blob/master/README.md) |                                                            |
 | Asus ZenBook UX32VD               | [链接](https://github.com/rafaelmaeuer/Asus-UX32VD-Hackintosh) | [链接](https://github.com/rafaelmaeuer/Asus-UX32VD-Hackintosh/blob/master/readme.md) | Asus UX32VD                                                |
 | Asus ZenBook UX330UAK             | [链接](https://github.com/Rybo713/UX330UA-macOS)             | [链接](https://github.com/Rybo713/UX330UA-macOS/blob/master/README.md) | Asus UX330UAK (Kabylake）                                  |
+| Asus Zenbook UX450FDX | [链接](https://github.com/xvAcid/Hackintosh_Zenbook_UX450FDX) |  |  |
 | Asus Zenbook 3 UX490 | [链接](https://github.com/VillenaDeveloper/asus-ux490-hackintosh) |  |  |
 | Asus ux305fa | [链接](https://github.com/nganhquoc95/clover-ux305fa) |  |  |
 | Asus Zephyrus M (GM501GS)         | [链接](https://github.com/kylergib/Asus-Zephyrus-M-gm501gs-Mojave) |                                                              |                                                            |
@@ -192,6 +193,7 @@
 | Dell Inspiron 7460 和 7560                 | [链接](https://github.com/xzhih/dell-7460-7560-hackintosh)   | [链接](https://github.com/xzhih/dell-7460-7560-hackintosh/blob/master/README.md) | 戴尔 7460 和 7560                                     |
 | Dell Inspiron 7559                         | [链接](https://github.com/crackself/Dell-7559-Hackintosh) [链接](https://github.com/JiangHoumin/Dell_G3_3579_Hackintosh) [链接](https://github.com/fengwenhua/dell-7559-hackintosh)| [链接](https://github.com/crackself/Dell-7559-Hackintosh/blob/Hotpatch/README.md) | Dell 7559                                             |
 | Dell Inspiron 7567                         | [链接](https://github.com/Doapeat/Dell7567)                  |                                                              |                                                       |
+| Dell Inspiron 7577 | [链接](https://github.com/yakimka/Hackintosh-Dell-7577) | | |
 | Dell Latitude E5440                        | [链接](https://github.com/soejin/hackintosh-dell-e5440)      |                                                              | Dell E5440                                            |
 | Dell Latitude E6330                        | [链接](https://github.com/BladeScraper-Designs/Dell-Latitude-E6330-Mojave-Hackintosh-EFI) |                                                              |                                                       |
 | Dell Latitude E6430                        | [链接](https://github.com/kinoute/Hack-Dell-Latitude-E6430)  |                                                              |                                                       |
@@ -255,6 +257,7 @@
 | HP Envy x360 15-aq160sa | [链接](https://github.com/KaylumJ/Hackintosh-HP-Envy-x360) | | |
 | HP Envy DV6 7303ef                      | [链接](https://github.com/TehOrange/hackintosh_configs/tree/master/HP-Envy-DV6-7303ef) |                                                              |                                                              |
 | Hp Omen Ce020tx | [链接](https://github.com/thanatath/hp-omen-ce020tx-mojave-osx) | | |
+| HP 348 G5 | [链接](https://github.com/zsakvo/hp-348-g5-hackintosh) | | |
 | HP 840-G1                               | [链接](https://github.com/blint01/hackintosh-mojave-HP-840-G1) | [链接](https://github.com/blint01/hackintosh-mojave-HP-840-G1/blob/master/README.md) |                                                              |
 | HP Pavilion 15-au028ur | [链接](https://github.com/Drovosek01/hackintosh_HP_Pavilion_15-au028ur_i5-6200U/blob/master/docs/ENG/README.md) |  | |
 | HP Pavilion 15 au067tx | [链接](https://github.com/FzeNiX/HPPavilion15-au067tx-Mojave-Hackintosh) |  | |
@@ -274,9 +277,9 @@
 
 | 机型名称            | 发布地址                                                     | 教程地址                                                     | 备注                               |
 | ------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------------------------------- |
-| 华为 Matebook X Pro | [链接](https://github.com/gnodipac886/MatebookXPro-hackintosh) [链接](https://github.com/gnodipac886/MatebookXPro-hackintosh)| [链接](https://github.com/gnodipac886/MatebookXPro-hackintosh/blob/master/README-CN.md) | 华为 Matebook X Pro                |
+| 华为 Matebook X Pro | [链接](https://github.com/gnodipac886/MatebookXPro-hackintosh) [链接](https://github.com/gnodipac886/MatebookXPro-hackintosh) | [链接](https://github.com/gnodipac886/MatebookXPro-hackintosh/blob/master/README-CN.md) | 华为 Matebook X Pro                |
 | 华为 Matebook X     | [链接](https://github.com/4323770/Hackintosh-For-Matebook-X) |                                                              |                                    |
-| 华为 Matebook 13    | [链接](https://github.com/FIU001/huawei-matebook-13-)        |                                                              |                                    |
+| 华为 Matebook 13    | [链接](https://github.com/FIU001/huawei-matebook-13-) [链接](https://github.com/Edoardo001/Matebook-13-Hackintosh) |                                                              |                                    |
 | 华为 Matebook 14    | [链接](https://github.com/frezs/MateBook14-Hackintosh)       |                                                              |                                    |
 | 华为 Matebook D     | [链接](https://github.com/MOJUNSHOU/MateBooK-D)              |                                                              | 华为MateBook D2018 i5-8250U 15.6寸 |
 | 荣耀 Magicbook      | [链接](https://github.com/hjmmc/Honor-Magicbook)             | [链接](https://github.com/hjmmc/Honor-Magicbook/blob/master/README_CN.md) |                                    |
@@ -452,6 +455,7 @@
 | ---------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ----------------- |
 | Clevo P950HR                       | [链接](https://github.com/MegaCookie/Clevo-P950HR-Hackintosh) |                                                              | 蓝天 P950HR，猜的 |
 | 火影地狱火X6                       | [链接](https://github.com/gaofeicm/DiYuHuo-X6-MacOS-Mojave-10.14.3-Hackintosh) |                                                              |                   |
+| 同方 GI5CN5E | [链接](https://github.com/rodgomesc/AVELL-G1513-FOX-7-TONG-FANG-GI5CN5E-HACKINTOSH) | | |
 | Shinalon_Yao_7000                  | [链接](https://github.com/jinmu333/Shinalon_YAO_7000_efi) [链接](https://github.com/jinmu333/Shinelon_YAO_7000_efi) | [链接](https://github.com/jinmu333/Shinalon_YAO_7000_efi/blob/efi/README.md) |                   |
 | Razer Blade Stealth 雷蛇灵刃潜行版 | [链接](https://github.com/widmonstertony/razer-blade-stealth-hackintosh) |                                                              |                   |
 | 三星Samsung NP300E4C               | [链接](https://github.com/installgento0/NP300E4C-hackintosh) |                                                              |                   |

@@ -93,6 +93,7 @@
 | Asus ZenBook Flip UX360UAK        | [link](https://github.com/Frizz925/UX360UAK-Hackintosh)      | [link](https://github.com/Frizz925/UX360UAK-Hackintosh/blob/master/README.md) |                                                  |
 | Asus ZenBook UX32VD               | [link](https://github.com/rafaelmaeuer/Asus-UX32VD-Hackintosh) | [link](https://github.com/rafaelmaeuer/Asus-UX32VD-Hackintosh/blob/master/readme.md) | Asus UX32VD                                      |
 | Asus ZenBook UX330UAK             | [link](https://github.com/Rybo713/UX330UA-macOS)             | [link](https://github.com/Rybo713/UX330UA-macOS/blob/master/README.md) | Asus UX330UAK (Kabylake）                        |
+| Asus Zenbook UX450FDX             | [link](https://github.com/xvAcid/Hackintosh_Zenbook_UX450FDX) |                                                              |                                                  |
 | Asus Zenbook 3 UX490              | [link](https://github.com/VillenaDeveloper/asus-ux490-hackintosh) |                                                              |                                                  |
 | Asus Zephyrus M (GM501GS)         | [link](https://github.com/kylergib/Asus-Zephyrus-M-gm501gs-Mojave) |                                                              |                                                  |
 | Asus zx50jx4200                   | [link](https://github.com/sxz799/zx50jx4200_hackintosh)      |                                                              |                                                  |
@@ -131,6 +132,7 @@
 | Dell Inspiron 7460/7560                    | [link](https://github.com/xzhih/dell-7460-7560-hackintosh)   | [link](https://github.com/xzhih/dell-7460-7560-hackintosh/blob/master/README.md) | 戴尔 7460 和 7560                                       |
 | Dell Inspiron 7559                         | [link](https://github.com/crackself/Dell-7559-Hackintosh) [link](https://github.com/JiangHoumin/Dell_G3_3579_Hackintosh) | [link](https://github.com/crackself/Dell-7559-Hackintosh/blob/Hotpatch/README.md) | Dell 7559                                               |
 | Dell Inspiron 7567                         | [link](https://github.com/Doapeat/Dell7567)                  |                                                              |                                                         |
+| Dell Inspiron 7577                         | [link](https://github.com/yakimka/Hackintosh-Dell-7577)      |                                                              |                                                         |
 | Dell Latitude E5440                        | [link](https://github.com/soejin/hackintosh-dell-e5440)      |                                                              | Dell E5440                                              |
 | Dell Latitude E6330                        | [link](https://github.com/BladeScraper-Designs/Dell-Latitude-E6330-Mojave-Hackintosh-EFI) |                                                              |                                                         |
 | Dell Latitude E6430                        | [link](https://github.com/kinoute/Hack-Dell-Latitude-E6430)  |                                                              |                                                         |
@@ -190,6 +192,7 @@
 | HP Envy 15 as110tu                     | [link](https://github.com/wing-ho/HP-AS110TU-Hackintosh)     |                                                              |                                                              |
 | HP Envy x360 15-aq160sa                | [link](https://github.com/KaylumJ/Hackintosh-HP-Envy-x360)   |                                                              |                                                              |
 | HP Envy DV6 7303ef                     | [link](https://github.com/TehOrange/hackintosh_configs/tree/master/HP-Envy-DV6-7303ef) |                                                              |                                                              |
+| HP 348 G5 | [link](https://github.com/zsakvo/hp-348-g5-hackintosh) | | |
 | HP 840-G1                              | [link](https://github.com/blint01/hackintosh-mojave-HP-840-G1) | [link](https://github.com/blint01/hackintosh-mojave-HP-840-G1/blob/master/README.md) |                                                              |
 | HP Pavilion 15-au028ur | [link](https://github.com/Drovosek01/hackintosh_HP_Pavilion_15-au028ur_i5-6200U/blob/master/docs/ENG/README.md) |  | |
 | HP Pavilion 15 au067tx | [link](https://github.com/FzeNiX/HPPavilion15-au067tx-Mojave-Hackintosh) |  | |
@@ -210,7 +213,7 @@
 | ---------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------------------------------- |
 | Huawei Matebook X Pro  | [link](https://github.com/gnodipac886/MatebookXPro-hackintosh) [link](https://github.com/gnodipac886/MatebookXPro-hackintosh) | [link](https://github.com/gnodipac886/MatebookXPro-hackintosh/blob/master/README-CN.md) | 华为 Matebook X Pro                |
 | Huawei Matebook X      | [link](https://github.com/4323770/Hackintosh-For-Matebook-X) |                                                              |                                    |
-| Huawei Matebook 13     | [link](https://github.com/FIU001/huawei-matebook-13-)        |                                                              |                                    |
+| Huawei Matebook 13     | [link](https://github.com/FIU001/huawei-matebook-13-) [link](https://github.com/Edoardo001/Matebook-13-Hackintosh) |                                                              |                                    |
 | Huawei Matebook 14     | [link](https://github.com/frezs/MateBook14-Hackintosh)       |                                                              |                                    |
 | Huawei Matebook D      | [link](https://github.com/MOJUNSHOU/MateBooK-D)              |                                                              | 华为MateBook D2018 i5-8250U 15.6寸 |
 | Huawei Honor Magicbook | [link](https://github.com/hjmmc/Honor-Magicbook)             | [link](https://github.com/hjmmc/Honor-Magicbook/blob/master/README_CN.md) |                                    |
@@ -379,6 +382,7 @@
 | ---------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | Clevo P950HR                       | [link](https://github.com/MegaCookie/Clevo-P950HR-Hackintosh) |                                                              |                                                              |
 | 火影地狱火X6                       | [link](https://github.com/gaofeicm/DiYuHuo-X6-MacOS-Mojave-10.14.3-Hackintosh) |                                                              |                                                              |
+| tong fang GI5CN5E                  | [link](https://github.com/rodgomesc/AVELL-G1513-FOX-7-TONG-FANG-GI5CN5E-HACKINTOSH) |                                                              |                                                              |
 | Shinalon_Yao_7000                  | [link](https://github.com/jinmu333/Shinalon_YAO_7000_efi) [link](https://github.com/jinmu333/Shinelon_YAO_7000_efi) | [link](https://github.com/jinmu333/Shinalon_YAO_7000_efi/blob/efi/README.md) |                                                              |
 | Razer Blade Stealth 雷蛇灵刃潜行版 | [link](https://github.com/widmonstertony/razer-blade-stealth-hackintosh) |                                                              |                                                              |
 | Samsung NP300E4C                   | [link](https://github.com/installgento0/NP300E4C-hackintosh) |                                                              |                                                              |
