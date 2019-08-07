@@ -457,6 +457,7 @@
 | 火影地狱火X6                       | [链接](https://github.com/gaofeicm/DiYuHuo-X6-MacOS-Mojave-10.14.3-Hackintosh) |                                                              |                   |
 | 同方 GI5CN5E | [链接](https://github.com/rodgomesc/AVELL-G1513-FOX-7-TONG-FANG-GI5CN5E-HACKINTOSH) | | |
 | Shinalon_Yao_7000                  | [链接](https://github.com/jinmu333/Shinalon_YAO_7000_efi) [链接](https://github.com/jinmu333/Shinelon_YAO_7000_efi) | [链接](https://github.com/jinmu333/Shinalon_YAO_7000_efi/blob/efi/README.md) |                   |
+| Shinelon 炫龙T3TI | [链接](https://github.com/283330601/shinelon-t3ti-Hackintosh) |  | 9750H+1660TI |
 | Razer Blade Stealth 雷蛇灵刃潜行版 | [链接](https://github.com/widmonstertony/razer-blade-stealth-hackintosh) |                                                              |                   |
 | 三星Samsung NP300E4C               | [链接](https://github.com/installgento0/NP300E4C-hackintosh) |                                                              |                   |
 | ASRock-Z370M-ITX-AC | [链接](https://github.com/youngle316/ASRock-Z370M-ITX-AC) |                    |                |
