@@ -186,20 +186,23 @@
 | Dell Inspiron 5488                         | [链接](https://github.com/daggeryu/DELL-inspiron-5488)       |                                                              |                                                       |
 | Dell Inspiron 5559                         | [链接](https://github.com/cbabb/dell-5559)                   |                                                              | Dell 5559                                             |
 | Dell Inspiron 5567                         | [链接](https://github.com/MuntashirAkon/HackintoshDellInspiron5567) |                                                              | i3-7100u, Intel HD620                                 |
-| Dell inspiron 5570                         | [链接](https://github.com/Mateo1234454545/Dell-5570-hackintosh) |                                                              |                                                       |
+| Dell Inspiron 5570                        | [链接](https://github.com/Mateo1234454545/Dell-5570-hackintosh) |                                                              |                                                       |
 | Dell Inspiron 5577                         | [链接](https://github.com/imAmouse/Clover-EFI-For-Dell-5577) |                                                              |                                                       |
 | Dell Inspiron 7000 系列                    | [链接](https://github.com/daliansky/dell7000)                | [链接](https://github.com/daliansky/dell7000/blob/master/README.md) | Dell Inspiron 7000 I/II (7x60/7x72)                   |
+| Dell Inspiron 7348 | [链接](https://github.com/MoozIiSP/dell-7348-hackintosh) |  |  |
 | Dell Inspiron 14 7447 Pandora              | [链接](https://github.com/Am1nCmd/Dell-Inspiron-14-7447-Pandora-Hackintosh) |                                                              |                                                       |
 | Dell Inspiron 7460 和 7560                 | [链接](https://github.com/xzhih/dell-7460-7560-hackintosh)   | [链接](https://github.com/xzhih/dell-7460-7560-hackintosh/blob/master/README.md) | 戴尔 7460 和 7560                                     |
 | Dell Inspiron 7559                         | [链接](https://github.com/crackself/Dell-7559-Hackintosh) [链接](https://github.com/JiangHoumin/Dell_G3_3579_Hackintosh) [链接](https://github.com/fengwenhua/dell-7559-hackintosh)| [链接](https://github.com/crackself/Dell-7559-Hackintosh/blob/Hotpatch/README.md) | Dell 7559                                             |
 | Dell Inspiron 7567                         | [链接](https://github.com/Doapeat/Dell7567)                  |                                                              |                                                       |
 | Dell Inspiron 7577 | [链接](https://github.com/yakimka/Hackintosh-Dell-7577) | | |
+| Dell Inspiron 7580 | [链接](https://github.com/rogerioadris/hackintosh-dell-7580) | | |
 | Dell Latitude E5440                        | [链接](https://github.com/soejin/hackintosh-dell-e5440)      |                                                              | Dell E5440                                            |
 | Dell Latitude E6330                        | [链接](https://github.com/BladeScraper-Designs/Dell-Latitude-E6330-Mojave-Hackintosh-EFI) |                                                              |                                                       |
 | Dell Latitude E6430                        | [链接](https://github.com/kinoute/Hack-Dell-Latitude-E6430)  |                                                              |                                                       |
 | Dell Latitude 7280                         | [链接](https://github.com/conradlyn/Hackintosh-EFI-Dell-Latitude_7280) |                                                              |                                                       |
 | Dell Latitude E7440                        | [链接](https://github.com/ameeno/Dell-E7440-Hackintosh)      |                                                              |                                                       |
 | Dell OptiPlex 3050                         | [链接](https://github.com/Leif160519/Dell-OptiPlex-3050-EFI) | [链接](https://github.com/Leif160519/Dell-OptiPlex-3050-EFI/blob/master/README.md) |                                                       |
+| Dell OptiPlex 3060 | [链接](https://github.com/Drovosek01/hackintosh_DELL_OptiPlex_3060_i5-8500) |  | |
 | Dell Precision 5510                        | [链接](https://github.com/soulomoon/Dell-Precision-5510-OSX) [链接](https://github.com/PLChinDev/Dell-Precision-5510-Mojave) |                                                              | Dell-Precision-5510<br />链接2支持`Catalina`          |
 | Dell Precision M3800<br />Dell XPS 15-9530 | [链接](https://github.com/syscl/M3800)                       | [链接](https://github.com/syscl/M3800/blob/M3800/README.md)  | Dell M3800 和 XPS 9530                                |
 | Dell Vostro 5370                           | [链接](https://github.com/hellmonky/Hackintosh/tree/master/dell-vostro-5370) |                                                              |                                                       |
@@ -258,6 +261,7 @@
 | HP Envy DV6 7303ef                      | [链接](https://github.com/TehOrange/hackintosh_configs/tree/master/HP-Envy-DV6-7303ef) |                                                              |                                                              |
 | Hp Omen Ce020tx | [链接](https://github.com/thanatath/hp-omen-ce020tx-mojave-osx) | | |
 | HP 348 G5 | [链接](https://github.com/zsakvo/hp-348-g5-hackintosh) | | |
+| HP ProBook 650 G1 | [链接](https://github.com/Hologos/hackintosh-hp-probook-650-g1) | | |
 | HP 840-G1                               | [链接](https://github.com/blint01/hackintosh-mojave-HP-840-G1) | [链接](https://github.com/blint01/hackintosh-mojave-HP-840-G1/blob/master/README.md) |                                                              |
 | HP Pavilion 15-au028ur | [链接](https://github.com/Drovosek01/hackintosh_HP_Pavilion_15-au028ur_i5-6200U/blob/master/docs/ENG/README.md) |  | |
 | HP Pavilion 15 au067tx | [链接](https://github.com/FzeNiX/HPPavilion15-au067tx-Mojave-Hackintosh) |  | |
@@ -328,6 +332,7 @@
 | Lenovo V3000                       | [链接](https://github.com/Xc2333/Hackintosh-Lenovo-v3000-ISE) | [链接](https://github.com/Xc2333/Hackintosh-Lenovo-v3000-ISE/blob/master/README.md) | Lenovo V3000                                                 |
 | Lenovo V310 15iKB | [链接](https://github.com/jacobmesier/V310-Hackintosh) |  |  |
 | Lenovo V330 15IKB                  | [链接](https://github.com/BesnikRrustemi/Lenovo-V330-15IKB)  | [链接](https://www.tonymacx86.com/threads/guide-lenovo-v330-15ikb-using-clover-uefi-hotpatch.265841/) |                                                              |
+| Lenovo-WEI6(威6) | [链接](https://github.com/Tamshen/Lenovo-WEI6-Pro-13-IWL-Hackintosh) |  | **Lenovo Thinkbook 13S** |
 | Lenovo xiaoxin air13 6th           | [链接](https://github.com/gdllzkusi/Lenovo-xiaoxin-air13-6th-Hackintosh) |                                                              | Intel 酷睿i5 6200U                                           |
 | Lenovo XiaoXin Air 13 IWL          | [链接](https://github.com/daliansky/Lenovo-Air13-IWL) [链接](https://github.com/darpaxyz/Lenovo-Air13-IWL-Hackintosh) <br />[链接](https://github.com/xlivans/Air13IWL) | [链接](https://blog.daliansky.net/Lenovo-Xiaoxin-Air-13-macOS-Mojave-installation-tutorial.html) | 联想小新 Air 13 2018 IWL                                     |
 | Lenovo XiaoXin Chao 5000           | [链接](https://github.com/Xc2333/Hackintosh-Lenovo-chao5000) |                                                              | 联想潮 5000                                                  |
@@ -444,6 +449,7 @@
 | Intel NUC 5、6、7、8 系列                           | [链接](https://github.com/RehabMan/Intel-NUC-DSDT-Patch)     | [链接](https://www.tonymacx86.com/threads/guide-intel-kaby-lake-nuc7-using-clover-uefi-nuc7i7bnh-nuc7i5bnk-nuc7i3bnh-etc.261711/) | mini 主机                                           |
 | NUC8I5BEH                                           | [链接](https://github.com/dongyubin/nuc8i5beh)               | [链接](https://chengxuxiaohei.cn/mac-anzhuang.html) [链接](https://osy.gitbook.io/hac-mini-guide/) |                                                     |
 | NUC8i7BEH                                           | [链接](https://github.com/sarkrui/NUC8i7BEH-Hackintosh-Build) | [链接](https://osy.gitbook.io/hac-mini-guide/)               |                                                     |
+| NUC7i7BNH                                           | [链接](https://github.com/calebchow9/Intel-NUC7i7BNH-Hackintosh) |                                                              |                                                     |
 | Surface Pro 3                                       | [链接](https://github.com/hacker1024/Hackintosh-Clover-SurfacePro3) |                                                              |                                                     |
 | Surface Pro 4                                       | [链接](https://github.com/Neil-Steven/SurfacePro4-Hackintosh) [链接](https://github.com/bigsadan/surface-pro-4-hackintosh-10.14.3) | [链接](https://github.com/Neil-Steven/SurfacePro4-Hackintosh/blob/master/README.md) | surfacePro 4                                        |
 | Surface Pro 6                                       | [链接](https://github.com/molie34/Surface-Pro-6-macOS)       | [教程](https://github.com/molie34/Surface-Pro-6-macOS)       |                                                     |
