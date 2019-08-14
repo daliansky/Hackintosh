@@ -200,6 +200,7 @@
 | Dell Latitude E6330                        | [链接](https://github.com/BladeScraper-Designs/Dell-Latitude-E6330-Mojave-Hackintosh-EFI) |                                                              |                                                       |
 | Dell Latitude E6430                        | [链接](https://github.com/kinoute/Hack-Dell-Latitude-E6430)  |                                                              |                                                       |
 | Dell Latitude 7280                         | [链接](https://github.com/conradlyn/Hackintosh-EFI-Dell-Latitude_7280) |                                                              |                                                       |
+| Dell Latitude 7490 | [链接](https://github.com/Swung0x48/Dell-Latitude-7490-Hackintosh-EFI) | | |
 | Dell Latitude E7440                        | [链接](https://github.com/ameeno/Dell-E7440-Hackintosh)      |                                                              |                                                       |
 | Dell OptiPlex 3050                         | [链接](https://github.com/Leif160519/Dell-OptiPlex-3050-EFI) | [链接](https://github.com/Leif160519/Dell-OptiPlex-3050-EFI/blob/master/README.md) |                                                       |
 | Dell OptiPlex 3060 | [链接](https://github.com/Drovosek01/hackintosh_DELL_OptiPlex_3060_i5-8500) |  | |
