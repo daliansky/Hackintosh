@@ -68,6 +68,9 @@
   - 新增机型：`暗影精灵I`(惠普PAVILION Gaming NB 15-ak039TX)
 - 2019年8月15日
   - 新增机型：ASUS X299 PRIME DELUXE II + i9 7980XE + Radeon VII
+- 2019年8月16日
+  - 新增机型：MSI X370 KRAIT GAMING + 1700X + RADEON VEGA64
+  - 新增机型：ASROCK X570 TAICHI + 3700X + RADEON VEGA64，兼容ASROCK X570 TAICHI(BIOS<=1.21) + 1700X + RADEON VEGA64
 
 ### 笔记本部分机型
 
@@ -511,7 +514,7 @@
 | **台式（部分）**               | 发布地址                                                     | 教程地址                                                     | 备注                                            |
 | ------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ----------------------------------------------- |
 | **AMD Ryzen CPU**              |                                                              |                                                              |                                                 |
-| AMD Ryzen 7 1700x<br />MSI X370 Krait Gaming<br />RX Vega64 | [链接](https://github.com/yhl452493373/ryzen-hackintosh-efi) |  | 10.14.6 |
+| AMD Ryzen 7 1700x or 3700x<br />MSI X370 Krait Gaming or ASROCK X570 Taichi<br />RX Vega64 | [链接](https://github.com/yhl452493373/ryzen-hackintosh-efi) |  | 10.14.6 |
 | AMD Ryzen安装教程              | [链接](https://github.com/MrNegativeTW/Ryzen-Hackintosh-Tutorial) [链接](https://github.com/doesprintfwork/Intel-AMD-Hackintosh-Guide) | [链接](https://mtwstudio.gitbook.io/ryzentosh/)              | 适用于`10.12` `10.13` `10.14` |
 | AMD FX 6300/NVIDIA GTX 650     | [链接](https://github.com/pexcn/hackintosh-amd)              |                                                              | 主板：Asus M5A97 LE R2.0                        |
 | MSI B350M Gaming Pro           | [链接](https://github.com/nghuunghiaa111/Hackintosh-IMac)    |                                                              | AMD Ryzen 5 1400<br />MSI RX580 8GB Armor       |
