@@ -14,28 +14,29 @@
 
 #### Acer 宏碁
 
-| Model Name              | Depot                                                        | Tutorial                                                     | Remarks             |
-| ----------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------- |
-| Acer Aspire 3 A315-51   | [link](https://github.com/ZeroInfinityXDA/Acer-A315-51-Hackintosh) |                                                              |                     |
-| Acer Aspire A515-51G    | [link](https://github.com/h-okon/Acer-Aspire-A515-Hackintosh) |                                                              |                     |
-| Acer Aspire A515-51G    | [link](https://github.com/Siddhesh1197/Acer-A515-51G-Hackintosh) | [link](https://github.com/Siddhesh1197/Acer-A515-51G-Hackintosh/blob/master/README.md) |                     |
-| Acer A515-51G-58VH      | [link](https://github.com/Rodrigmatrix/Acer-A515-51G-58VH)   |                                                              |                     |
-| Acer Aspire E1-471G     | [link](https://github.com/matthew728960/Clover-ACER-E1-471G) | [link](https://github.com/matthew728960/Clover-ACER-E1-471G/blob/master/README.md) | ACER Aspire E1-471g |
-| Acer Aspire E5 475G     | [link](https://github.com/hilmanshini/Acer-Aspire-E5-475G-Clover-Hackintosh) |                                                              |                     |
-| Acer Aspire E5-476G     | [link](https://github.com/DijaminGila/Hackintosh-Mojave-Acer-E5-476G) [link](https://github.com/budhilaw/Acer-E5-476G-Hackintosh) |                                                              | i3-6006U            |
-| Acer Aspire E5-571-5552 | [link](https://github.com/GaryDoooo/acer_e51_osx)            |                                                              |                     |
-| Acer Aspire E1-571G     | [link](https://github.com/DiogoSilva48/Acer-E1-571G-Hackintosh) |                                                              |                     |
-| Acer Aspire E1-572G     | [link](https://github.com/TonyStark10006/Acer_E1-572G_Hackintosh_EFI) |                                                              |                     |
-| Acer ES1-572-37pz       | [link](https://github.com/joodrew/hackintosh-acer-es1-572-37pz) |                                                              |                     |
-| Acer F5-573G            | [link](https://github.com/johnnywolinger/ACER-F5-573G-Hackintosh) |                                                              |                     |
-| Acer F5-573G-55PJ       | [link](https://github.com/zoothz/Hackintosh-acer-f5-573g-55pj) |                                                              |                     |
-| Acer F5-573g-75A3       | [link](https://github.com/vinicioslc/HACKINTOSH-ACER-F5-573G-75A3) |                                                              |                     |
-| Acer Swift 3            | [link](https://github.com/FallenChromium/Acer-Swift3-2018-hackintosh) |                                                              | SF315-51-518S       |
-| Acer V3-471G            | [link](https://github.com/oneveb/Acer-V3-471G)               |                                                              |                     |
-| Acer-V3-572G-51MR       | [link](https://github.com/AnoldmanLiSir/Acer-V3-572G-51MR)   | [link](https://github.com/AnoldmanLiSir/Acer-V3-572G-51MR/blob/master/README.md) |                     |
-| Acer V5-572             | [link](https://github.com/7ack/Acer-V5-572-Hackintosh)       | [link](https://github.com/7ack/Acer-V5-572-Hackintosh/blob/master/readme.md) |                     |
-| Acer Vn7-793g           | [link](https://github.com/cedric-bour/793g-hackintosh-efi)   |                                                              |                     |
-| Acer-K50-10-525V        | [link](https://github.com/mingslife/Acer-K50-10-525V-Hackintosh) |                                                              |                     |
+| Model Name              | Depot                                                        | Tutorial                                                     | Remarks                     |
+| ----------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | --------------------------- |
+| Acer Aspire 3 A315-51   | [link](https://github.com/ZeroInfinityXDA/Acer-A315-51-Hackintosh) |                                                              |                             |
+| Acer Aspire A515-51G    | [link](https://github.com/h-okon/Acer-Aspire-A515-Hackintosh) |                                                              |                             |
+| Acer Aspire A515-51G    | [link](https://github.com/Siddhesh1197/Acer-A515-51G-Hackintosh) | [link](https://github.com/Siddhesh1197/Acer-A515-51G-Hackintosh/blob/master/README.md) |                             |
+| Acer A515-51G-58VH      | [link](https://github.com/Rodrigmatrix/Acer-A515-51G-58VH)   |                                                              |                             |
+| Acer Aspire E1-471G     | [link](https://github.com/matthew728960/Clover-ACER-E1-471G) | [link](https://github.com/matthew728960/Clover-ACER-E1-471G/blob/master/README.md) | ACER Aspire E1-471g         |
+| Acer Aspire E5 475G     | [link](https://github.com/hilmanshini/Acer-Aspire-E5-475G-Clover-Hackintosh) |                                                              |                             |
+| Acer Aspire E5-476G     | [link](https://github.com/DijaminGila/Hackintosh-Mojave-Acer-E5-476G) [link](https://github.com/budhilaw/Acer-E5-476G-Hackintosh) |                                                              | i3-6006U                    |
+| Acer Aspire E5-571-5552 | [link](https://github.com/GaryDoooo/acer_e51_osx)            |                                                              |                             |
+| Acer Aspire E1-571G     | [link](https://github.com/DiogoSilva48/Acer-E1-571G-Hackintosh) |                                                              |                             |
+| Acer Aspire E1-572G     | [link](https://github.com/TonyStark10006/Acer_E1-572G_Hackintosh_EFI) |                                                              |                             |
+| Acer ES1-572-37pz       | [link](https://github.com/joodrew/hackintosh-acer-es1-572-37pz) |                                                              |                             |
+| Acer F5-573G            | [link](https://github.com/johnnywolinger/ACER-F5-573G-Hackintosh) |                                                              |                             |
+| Acer F5-573G-55PJ       | [link](https://github.com/zoothz/Hackintosh-acer-f5-573g-55pj) |                                                              |                             |
+| Acer F5-573g-75A3       | [link](https://github.com/vinicioslc/HACKINTOSH-ACER-F5-573G-75A3) |                                                              |                             |
+| Acer Swift 3            | [link](https://github.com/FallenChromium/Acer-Swift3-2018-hackintosh) |                                                              | SF315-51-518S               |
+| Acer Swift 3 SF314-55G  | [link](https://github.com/cjtim/SF314-55G-hackintosh)        |                                                              | Acer Swift 3 2019 SF314-55G |
+| Acer V3-471G            | [link](https://github.com/oneveb/Acer-V3-471G)               |                                                              |                             |
+| Acer-V3-572G-51MR       | [link](https://github.com/AnoldmanLiSir/Acer-V3-572G-51MR)   | [link](https://github.com/AnoldmanLiSir/Acer-V3-572G-51MR/blob/master/README.md) |                             |
+| Acer V5-572             | [link](https://github.com/7ack/Acer-V5-572-Hackintosh)       | [link](https://github.com/7ack/Acer-V5-572-Hackintosh/blob/master/readme.md) |                             |
+| Acer Vn7-793g           | [link](https://github.com/cedric-bour/793g-hackintosh-efi)   |                                                              |                             |
+| Acer-K50-10-525V        | [link](https://github.com/mingslife/Acer-K50-10-525V-Hackintosh) |                                                              |                             |
 
 
 
@@ -72,6 +73,7 @@
 | Asus ROG Zephyrus S GX531GS       | [link](https://github.com/williambj1/Hackintosh-EFI-Asus-Zephyrus-S-GX531) |                                                              | 华硕玩家国度冰刃 3                               |
 | ASUS S4000VA                      | [link](https://github.com/stonexing/Asus-S4000VA8550-Hackintosh) |                                                              | 华硕灵耀 i7-8550U                                |
 | Asus S4100V                       | [link](https://github.com/loong1992/Asus_S4100VN8250U_Hackintosh) |                                                              |                                                  |
+| Asus S510UQ                       | [link](https://github.com/KINGKONG2808/Hackintosh_ASUSS510UQ) |                                                              |                                                  |
 | Asus S530UN                       | [link](https://github.com/tunglamvghy/AsusS530UN-hackintosh) |                                                              |                                                  |
 | Asus TUF Gaming FX504             | [link](https://github.com/PoomSmart/Asus-FX504GE-Hackintosh) [link](https://github.com/angeljavan/AUSU-FX80GE-FX504Ge-efi) | [link](https://github.com/PoomSmart/Asus-FX504GE-Hackintosh/blob/master/README.md) | 华硕 FX80GE FX504GE                              |
 | Asus UX501JW                      | [link](https://github.com/firefly917/Hackintosh_Asus-UX501JW_Mojave) |                                                              |                                                  |
@@ -85,6 +87,7 @@
 | Asus Vivobook S530UA BQ100T       | [link](https://github.com/superzeldalink/Asus-Vivobook-S530-hackintosh) |                                                              |                                                  |
 | Asus VivoBook X510UQR             | [link](https://github.com/nguyentrucxinh/Asus-VivoBook-X510UQR-Hackintosh) | [link](https://github.com/nguyentrucxinh/Asus-VivoBook-X510UQR-Hackintosh/blob/master/README.md) |                                                  |
 | Asus X450JB                       | [link](https://github.com/xiaoMGitHub/Asus_X450JB_Hackintosh) |                                                              |                                                  |
+| Asus X455LJ                       | [link](https://github.com/umarhadi/asus-x455lj-mojave)       |                                                              |                                                  |
 | Asus X550JX                       | [link](https://github.com/gaoliang/Asus-X550JX-Hackintosh)   |                                                              |                                                  |
 | Asus X555LB                       | [link](https://github.com/emre1393/Asus-x555lb-mojave-efi)   |                                                              |                                                  |
 | Asus X556UV                       | [link](https://github.com/Amview/ASUS-X556UV-Hackintosh)     |                                                              |                                                  |
@@ -137,16 +140,19 @@
 | Dell Inspiron 7577                         | [link](https://github.com/yakimka/Hackintosh-Dell-7577)      |                                                              |                                                         |
 | Dell Inspiron 7580                         | [link](https://github.com/rogerioadris/hackintosh-dell-7580) |                                                              |                                                         |
 | Dell Latitude E5440                        | [link](https://github.com/soejin/hackintosh-dell-e5440)      |                                                              | Dell E5440                                              |
+| Dell Latitude 5591                         | [link](https://github.com/geowoden/DELL-Latitude-5591_osx-clover) |                                                              |                                                         |
 | Dell Latitude E6330                        | [link](https://github.com/BladeScraper-Designs/Dell-Latitude-E6330-Mojave-Hackintosh-EFI) |                                                              |                                                         |
 | Dell Latitude E6430                        | [link](https://github.com/kinoute/Hack-Dell-Latitude-E6430)  |                                                              |                                                         |
 | Dell Latitude 7280                         | [link](https://github.com/conradlyn/Hackintosh-EFI-Dell-Latitude_7280) |                                                              |                                                         |
+| Dell Latitude 7370                         | [link](https://github.com/mikeTOliu/dell-latitude7370-Hackintosh-EFI-backup) |                                                              |                                                         |
 | Dell Latitude E7440                        | [link](https://github.com/ameeno/Dell-E7440-Hackintosh)      |                                                              |                                                         |
 | Dell Latitude 7490                         | [link](https://github.com/Swung0x48/Dell-Latitude-7490-Hackintosh-EFI) |                                                              |                                                         |
 | Dell OptiPlex 3050                         | [link](https://github.com/Leif160519/Dell-OptiPlex-3050-EFI) | [link](https://github.com/Leif160519/Dell-OptiPlex-3050-EFI/blob/master/README.md) |                                                         |
 | Dell OptiPlex 3060                         | [link](https://github.com/Drovosek01/hackintosh_DELL_OptiPlex_3060_i5-8500) |                                                              |                                                         |
 | Dell Precision 5510                        | [link](https://github.com/soulomoon/Dell-Precision-5510-OSX) [link](https://github.com/PLChinDev/Dell-Precision-5510-Mojave) |                                                              | Dell-Precision-5510<br />link2 support `Catalina`       |
-| Dell Precision 5591                         | [link](https://github.com/n0faith/Dell-Precision-5591-Hackintosh) |
+| Dell Precision 5591                        | [link](https://github.com/n0faith/Dell-Precision-5591-Hackintosh) |                                                              |                                                         |
 | Dell Precision M3800<br />Dell XPS 15-9530 | [link](https://github.com/syscl/M3800)                       | [link](https://github.com/syscl/M3800/blob/M3800/README.md)  | Dell M3800 和 XPS 9530                                  |
+| Dell Vostro 3267                           | [link](https://github.com/Drovosek01/hackintosh_DELL_Vostro_3267_i5-6400/blob/master/docs/ENG/README.md) |                                                              |                                                         |
 | Dell Vostro 5370                           | [link](https://github.com/hellmonky/Hackintosh/tree/master/dell-vostro-5370) |                                                              |                                                         |
 | Dell XPS13  9343                           | [link](https://github.com/SiGae/macOS-Mojave-on-xps-13-9343) | [link](https://github.com/haos001/XPS13-9343-Clover)         |                                                         |
 |                                            |                                                              |                                                              |                                                         |
@@ -201,9 +207,11 @@
 | HP 348 G5 | [link](https://github.com/zsakvo/hp-348-g5-hackintosh) | | |
 | HP ProBook 650 G1 | [link](https://github.com/Hologos/hackintosh-hp-probook-650-g1) | | |
 | HP 840-G1                              | [link](https://github.com/blint01/hackintosh-mojave-HP-840-G1) | [link](https://github.com/blint01/hackintosh-mojave-HP-840-G1/blob/master/README.md) |                                                              |
+| HP Elitebook 840 G2 | [link](https://github.com/AktasC/Hackintosh-Elitebook-840-G2-Broadwell) |  | |
 | HP Pavilion 15-au028ur | [link](https://github.com/Drovosek01/hackintosh_HP_Pavilion_15-au028ur_i5-6200U/blob/master/docs/ENG/README.md) |  | |
 | HP Pavilion 15 au067tx | [link](https://github.com/FzeNiX/HPPavilion15-au067tx-Mojave-Hackintosh) |  | |
 | HP Pavillion ck069tx                   | [link](https://github.com/Blizzard57/Hackintosh)             |                                                              |                                                              |
+| HP Pavilion 15 cs1xxx | [link](https://github.com/JaeSeoKim/HP-Pavilion-Laptop-15-cs1xxx-Hackintosh) | | |
 | Hp spectre X360                        | [link](https://github.com/Just-maple/Hp-spectre-X360-hackintosh) |                                                              |                                                              |
 | EliteDesk 800-G3-Mini                  | [link](https://github.com/francoisminh/Hackintosh-EliteDesk-800-G3-Mini-65W) | [link](https://github.com/francoisminh/Hackintosh-EliteDesk-800-G3-Mini-65W/blob/master/README.md) |                                                              |
 | HP Zhan 66 Pro G1                      | [link1](https://github.com/A-Linz/Hackintosh-HP-Zhan-66-Pro-G1) [link2](https://github.com/RenAmamiya/HP-Zhan-66-Pro-G1) |                                                              |                                                              |
@@ -232,6 +240,7 @@
 | Lenovo Flex 15                       | [link](https://github.com/aytic/Lenovo-Flex-15-Hackintosh)   | [link](https://github.com/aytic/Lenovo-Flex-15-Hackintosh/blob/master/README.md) | Lenovo Flex 15                                               |
 | Lenovo Ideapad 310-14IKB             | [link](https://github.com/29satnam/LenovoHackintosh)         | [link](https://github.com/29satnam/LenovoHackintosh/blob/master/README.md) |                                                              |
 | Lenovo Ideapad 320-15ISK             | [link](https://github.com/gajjartejas/Lenovo-Ideapad-320-15ISK-Laptop-Hackintosh) |                                                              |                                                              |
+| Lenovo Ideapad 330s-14IKB            | [link](https://github.com/chrisru26/LenovoIdeapad330s-14ikb-Hackintosh) |                                                              |                                                              |
 | Lenovo Ideapad 700-15ISK             | [link](https://github.com/athlonreg/Lenovo-XiaoXin700-15ISK) | [link](https://github.com/athlonreg/Lenovo-XiaoXin700-15ISK/blob/master/README.md) | Lenovo-XiaoXin700-15ISK                                      |
 | Lenovo Flex 3-1580                   | [link](https://github.com/gdllzkusi/Lenovo-Fex3-1580-hackintosh) |                                                              |                                                              |
 | Lenovo G40-70M                       | [link](https://github.com/jinmu333/Lenovo_G40_70M_EFI)       |                                                              |                                                              |
@@ -240,6 +249,7 @@
 | ThinkPad E440                        | [link](https://github.com/ZzMark/Thinkpad-E440-Hackintosh)   |                                                              |                                                              |
 | ThinkPad E450C                       | [link](https://github.com/zhangxuan1340/Hackintosh_E450C)    |                                                              |                                                              |
 | ThinkPad E480                        | [link](https://github.com/aliyoge/Hackintosh-ThinkPad-E480)  | [link](https://github.com/aliyoge/Hackintosh-ThinkPad-E480/blob/master/README.md) |                                                              |
+| ThinkPad E490                        | [link](https://github.com/dievdmitry/Thinkpad-E490-hackintosh) |                                                              |                                                              |
 | ThinkPad E540                        | [link](https://github.com/wwbhl/E540)                        |                                                              |                                                              |
 | ThinkPad E550                        | [link](https://github.com/the-braveknight/Lenovo-ThinkPad-E550-DSDT-Patch) | [link](https://www.tonymacx86.com/threads/guide-lenovo-thinkpad-e550-haswell-using-clover-uefi-10-11.214675/) | E550 四代 CPU                                                |
 | ThinkPad E560                        | [link](https://github.com/rsdev69/Lenovo-E560-Clover)        | [link](https://www.tonymacx86.com/threads/stable-lenovo-e560-full-work.248842/) |                                                              |
@@ -286,6 +296,7 @@
 | ThinkPad X220                        | [link](https://github.com/laris/Hackintosh-ThinkPad-X220-MacOS) |                                                              | ThinkPad-X220                                                |
 | ThinkPad X230                        | [link](https://github.com/littlegtplr/Hackintosh-X230-macOS) | [link](https://github.com/littlegtplr/Hackintosh-X230-macOS/blob/master/README.md) | ThinkPad X230                                                |
 | ThinkPad X230                        | [link](https://github.com/SynneK1337/ThinkPad_X230_Hackintosh) | [link](https://github.com/SynneK1337/ThinkPad_X230_Hackintosh/blob/master/README.md) | ThinkPad X230                                                |
+| ThinkPad X230i                       | [link](https://github.com/fivestrong/Hackintosh-X230i-macOS) |                                                              |                                                              |
 | ThinkPad X250                        | [link](https://github.com/Janolan/x250-hackintosh) [link](https://github.com/qwerty12/X250-Hackintosh) [link10.15](https://github.com/teddytaod/mac-catalina-thinkpad-x250) |                                                              |                                                              |
 | ThinkPad X260 series                 | [link](https://github.com/daliansky/ThinkPad-X260-hackintosh) | [link](https://github.com/daliansky/ThinkPad-X260-hackintosh/blob/master/README.md) | ThinkPad X260                                                |
 | Lenovo Y50(70) series                | [link](https://github.com/RehabMan/Lenovo-Y50-DSDT-Patch)    | [link](https://www.tonymacx86.com/threads/guide-lenovo-y50-uhd-or-1080p-using-clover-uefi.261723/) | Y50(70)1080P & 4K versions                                   |
@@ -298,6 +309,7 @@
 | Lenovo Legion Y7000<br />Y530 series | [link](https://github.com/xiaoMGitHub/Lenovo_Y7000-Y530_Hackintosh/) [link](https://github.com/ahossny/Legion-Y530-Hackintosh) |                                                              | Now fully working EFI，abandoned num pads.                   |
 | Lenovo Yoga 3 Pro 1370               | [link](https://github.com/gdllzkusi/hackintosh--lenovo-Yoga-3-Pro-1370) | [link](https://github.com/gdllzkusi/hackintosh--lenovo-Yoga-3-Pro-1370/blob/master/README.md) | Lenovo yoga3/pro                                             |
 | ThinkPad Yoga 12                     | [link](https://github.com/gartempe/MacOS-Thinkpad-Yoga-12) [link](https://github.com/kymodoke/MacOS-Thinkpad-Yoga-12) | [link](https://github.com/gartempe/MacOS-Thinkpad-Yoga-12/blob/master/README.md) [link](https://github.com/kymodoke/MacOS-Thinkpad-Yoga-12/blob/master/README.md) |                                                              |
+| Thinkpad S1 Yoga 12                  | [link](https://github.com/thebinh-lg051/Thinkpad-S1-Yoga-12-Hackintosh) |                                                              |                                                              |
 | Lenovo Yoga3 14                      | [link](https://github.com/gdllzkusi/Lenovo-yoga3-14-hackntiosh) |                                                              |                                                              |
 | Lenovo Yoga3 11                      | [link](https://github.com/gdllzkusi/Lenovo-yoga3-11-hackntiosh) |                                                              |                                                              |
 | Lenovo Yoga 13IKB                    | [link](https://github.com/dragonflylee/Yoga13-Hackintosh)    |                                                              |                                                              |
@@ -397,6 +409,7 @@
 | Shinelon 炫龙T3TI                  | [link](https://github.com/283330601/shinelon-t3ti-Hackintosh) |                                                              | 9750H+1660TI                                                 |
 | Razer Blade Stealth 雷蛇灵刃潜行版 | [link](https://github.com/widmonstertony/razer-blade-stealth-hackintosh) |                                                              |                                                              |
 | Samsung NP300E4C                   | [link](https://github.com/installgento0/NP300E4C-hackintosh) |                                                              |                                                              |
+| Samsung NP300E5L                   | [link](https://github.com/bearkfear/SAMSUNG-NP300E5L-HACKINTOSH) |                                                              |                                                              |
 | ASRock-Z370M-ITX-AC                | [link](https://github.com/youngle316/ASRock-Z370M-ITX-AC)    |                                                              |                                                              |
 | MSI ProBox23                       | [link]( https://github.com/Twilightlee/MSI_ProBox23_hackintosh) |                                                              |                                                              |
 | Razer_Blade_Advanced_early_2019    | [link]( https://github.com/stonevil/Razer_Blade_Advanced_early_2019_Hackintosh) |                                                              | [link](https://github.com/stonevil/Razer_Blade_Advanced_early_2019_Hackintosh) |
