@@ -17,7 +17,7 @@
   * 黑苹果论坛：
 
        * **国内** [远景论坛](http://bbs.pcbeta.com)、[威锋论坛](http://bbs.feng.com)
-     * **国外** [insanelymac 论坛](https://www.insanelymac.com/forum/)、[tonymacx86论坛](https://www.tonymacx86.com/)、[德国黑苹果论坛](https://www.hackintosh-forum.de/)、[俄罗斯黑苹果论坛](https://www.applelife.ru)、[法国黑苹果论坛](https://www.hackintosh-montreal.com)、 [osxlatitude论坛](https://osxlatitude.com/forums/)
+          * **国外** [insanelymac 论坛](https://www.insanelymac.com/forum/)、[tonymacx86论坛](https://www.tonymacx86.com/)、[德国黑苹果论坛](https://www.hackintosh-forum.de/)、[俄罗斯黑苹果论坛](https://www.applelife.ru)、[法国黑苹果论坛](https://www.hackintosh-montreal.com)、 [osxlatitude论坛](https://osxlatitude.com/forums/)
 
 * 一些黑苹果常用的软件或者驱动开发者的主页，希望大家能及时更新驱动和软件，驱动需要自己去对应驱动开发者的主页去更新。
   
@@ -295,7 +295,7 @@
 
 | 机型名称                 | 发布地址                                                     | 教程地址                                                     | 备注                               |
 | ------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------------------------------- |
-| 华为 Matebook X Pro 2019 | [链接](https://github.com/gnodipac886/MatebookXPro-hackintosh) [链接](https://github.com/gnodipac886/MatebookXPro-hackintosh) | [链接](https://github.com/gnodipac886/MatebookXPro-hackintosh/blob/master/README-CN.md) | 华为 Matebook X Pro 2019           |
+| 华为 Matebook X Pro 2019 | [链接](https://github.com/laozhiang/MateBook_X_Pro_2019-Hackintosh) | [链接](https://github.com/laozhiang/MateBook_X_Pro_2019-Hackintosh) | 华为 Matebook X Pro 2019           |
 | 华为 Matebook X Pro      | [链接](https://github.com/gnodipac886/MatebookXPro-hackintosh) [链接](https://github.com/gnodipac886/MatebookXPro-hackintosh) | [链接](https://github.com/gnodipac886/MatebookXPro-hackintosh/blob/master/README-CN.md) | 华为 Matebook X Pro 2018           |
 | 华为 Matebook X          | [链接](https://github.com/4323770/Hackintosh-For-Matebook-X) |                                                              |                                    |
 | 华为 Matebook 13         | [链接](https://github.com/FIU001/huawei-matebook-13-) [链接](https://github.com/Edoardo001/Matebook-13-Hackintosh) |                                                              |                                    |

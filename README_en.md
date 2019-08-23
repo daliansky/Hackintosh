@@ -224,14 +224,15 @@
 
 #### Huawei 华为
 
-| Model Name             | Depot                                                        | Tutorial                                                     | Remarks                                 |
-| ---------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | --------------------------------------- |
-| Huawei Matebook X Pro  | [link](https://github.com/gnodipac886/MatebookXPro-hackintosh) [link](https://github.com/gnodipac886/MatebookXPro-hackintosh) | [link](https://github.com/gnodipac886/MatebookXPro-hackintosh/blob/master/README-CN.md) | Huawei Matebook X Pro                   |
-| Huawei Matebook X      | [link](https://github.com/4323770/Hackintosh-For-Matebook-X) |                                                              |                                         |
-| Huawei Matebook 13     | [link](https://github.com/FIU001/huawei-matebook-13-) [link](https://github.com/Edoardo001/Matebook-13-Hackintosh) |                                                              |                                         |
-| Huawei Matebook 14     | [link](https://github.com/frezs/MateBook14-Hackintosh)       |                                                              |                                         |
-| Huawei Matebook D      | [link](https://github.com/MOJUNSHOU/MateBooK-D)              |                                                              | Huawei MateBook D2018 i5-8250U 15.6inch |
-| Huawei Honor Magicbook | [link](https://github.com/hjmmc/Honor-Magicbook)             | [link](https://github.com/hjmmc/Honor-Magicbook/blob/master/README_CN.md) |                                         |
+| Model Name                 | Depot                                                        | Tutorial                                                     | Remarks                                 |
+| -------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | --------------------------------------- |
+| Huawei Matebook X Pro 2019 | [link](https://github.com/laozhiang/MateBook_X_Pro_2019-Hackintosh) | [link](https://github.com/laozhiang/MateBook_X_Pro_2019-Hackintosh) | Huawei Matebook X Pro 2019              |
+| Huawei Matebook X Pro      | [link](https://github.com/gnodipac886/MatebookXPro-hackintosh) [link](https://github.com/gnodipac886/MatebookXPro-hackintosh) | [link](https://github.com/gnodipac886/MatebookXPro-hackintosh/blob/master/README-CN.md) | Huawei Matebook X Pro                   |
+| Huawei Matebook X          | [link](https://github.com/4323770/Hackintosh-For-Matebook-X) |                                                              |                                         |
+| Huawei Matebook 13         | [link](https://github.com/FIU001/huawei-matebook-13-) [link](https://github.com/Edoardo001/Matebook-13-Hackintosh) |                                                              |                                         |
+| Huawei Matebook 14         | [link](https://github.com/frezs/MateBook14-Hackintosh)       |                                                              |                                         |
+| Huawei Matebook D          | [link](https://github.com/MOJUNSHOU/MateBooK-D)              |                                                              | Huawei MateBook D2018 i5-8250U 15.6inch |
+| Huawei Honor Magicbook     | [link](https://github.com/hjmmc/Honor-Magicbook)             | [link](https://github.com/hjmmc/Honor-Magicbook/blob/master/README_CN.md) |                                         |
 
 #### Lenovo 联想
 
