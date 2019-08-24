@@ -92,7 +92,7 @@
 | Acer F5-573G            | [链接](https://github.com/johnnywolinger/ACER-F5-573G-Hackintosh) |                                                              |                     |
 | Acer F5-573G-55PJ       | [链接](https://github.com/zoothz/Hackintosh-acer-f5-573g-55pj) |                                                              |                     |
 | Acer F5-573g-75A3       | [链接](https://github.com/vinicioslc/HACKINTOSH-ACER-F5-573G-75A3) |                                                              |                     |
-| Acer Swift 3            | [链接](https://github.com/FallenChromium/Acer-Swift3-2018-hackintosh) |                                                              | SF315-51-518S       |
+| Acer Swift 3            | [链接](https://github.com/FallenChromium/Acer-Swift3-2018-hackintosh) [SF135-52G](https://github.com/geekcjj/Clover-Acer-Swift3-SF315-52G) |                                                              | SF315-51-518S       |
 | Acer Swift 3 SF314-55G | [链接](https://github.com/cjtim/SF314-55G-hackintosh) | | Acer Swift 3 2019 SF314-55G |
 | Acer V3-471G            | [链接](https://github.com/oneveb/Acer-V3-471G)               |                                                              |                     |
 | Acer-V3-572G-51MR       | [链接](https://github.com/AnoldmanLiSir/Acer-V3-572G-51MR)   | [链接](https://github.com/AnoldmanLiSir/Acer-V3-572G-51MR/blob/master/README.md) |                     |
@@ -290,6 +290,7 @@
 | 暗影精灵2 Pro HP OMEN 15-ax225TX                             |[链接](https://github.com/Cruii/HP-OMEN-15-ax225TX) |            |          |
 | HP暗影精灵3 |[链接](https://github.com/bessyjl/HP-OMEN-3-Hackintosh) | | 还有挖坑的，看看啥时候能埋人 |
 | 暗影精灵I (惠普PAVILION Gaming NB 15-ak039TX) |[链接](https://github.com/lgs3137/PAVILION_Gaming_NB-macOS) | | 除了独显、Intel无线网卡，其他功能模块正常(包括HDMI视频) |
+|惠普光影精靈5 |[链接](https://github.com/Tonymiugrey/Garden-by-miugrey) | | 內含搞定PM981的補丁，可以試試 |
 
 #### Huawei 华为
 
@@ -577,6 +578,8 @@
 | Deskmini-310 |[链接](https://github.com/yuqi/Deskmini-310-Hackintosh)  |  |Deskmini-310 |
 | GA-B360M-D3H |[链接](https://github.com/laelsirus/GA-B360M-D3H-with-UHD630-iGPU-AMD-dGPU-CLOVER)  |  |GA-B360M-D3H |
 | Soarsea mini PC |[链接](https://github.com/EngLearnsh/Soarsea-i9-8950HK-Hackintosh) | | |
+| MSI-B360M-MORTAR-IMACPRO |[链接](https://github.com/andot/MSI-B360M-MORTAR-IMACPRO-EFI) | | |
+| ASRock B360M Pro4 |[链接](https://github.com/Joehaivo/hackintosh) | | |
 
 
 #### 台式机其它机型
