@@ -8,9 +8,9 @@
 
 - [WebDD v1.7](WebDD.command)
 
-- webdriver.sh 项目仓库：https://github.com/vulgo/webdriver.sh 
+- webdriver.sh 项目仓库：<https://github.com/vulgo/webdriver.sh>
 
-  Nvidia webdriver驱动下载：https://vulgo.github.io/nvidia-drivers/
+  Nvidia webdriver驱动下载：<https://vulgo.github.io/nvidia-drivers/>
 
   ```bash
   brew tap vulgo/repo
@@ -56,16 +56,16 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/daliansky/Hackintosh/maste
 curl -o- -L https://raw.githubusercontent.com/lmk123/oh-my-wechat/master/install.sh | bash -s
 ```
 
-
-
 ## 一条命令显示USB数量
 
-打开终端，输入命令：<br />
+打开终端，输入命令：
 
 ```bash
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/daliansky/Hackintosh/master/Tools/usb_Ports)"
 ```
+
 输出如下：
+
 ```bash
 +--XHC@14IOPCIDevice
 |+--XHC@14000000
@@ -95,8 +95,6 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/daliansky/Hackintosh/maste
 +--BCM20702A0@14800000AppleUSBDevice
 ```
 
-
-
 ## 一键截屏，方法来自[绿帽兄](https://github.com/lihaoyun6)
 
 打开终端，输入命令：
@@ -108,15 +106,13 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/daliansky/Hackintosh/maste
 也可以下载到本地执行：
 
 ```bash
-$ msss -h	帮助信息
-$ msss -v	回显存储的截屏文件名，配合使用`open`直接显：`open $(msss -v)` 
-$ msss -d 0	就是截取所有显示器并自动拼接
-$ msss -d 1	就是截取1号主显示器
-$ msss -d 2	就是截取第二台显示器
+$ msss -h   帮助信息
+$ msss -v   回显存储的截屏文件名，配合使用`open`直接显：`open $(msss -v)`
+$ msss -d 0 就是截取所有显示器并自动拼接
+$ msss -d 1 就是截取1号主显示器
+$ msss -d 2 就是截取第二台显示器
 $ msss -f 手动指定截图文件名和保存路径，比如：`msss -f ~/Desktop/111.png` 将截屏保存到桌面上
 ```
-
-
 
 ## 一键变频脚本自动生成`CPUFriend.kext`
 
@@ -131,8 +127,6 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/stevezhengshiqi/one-key-
 
 详细说明请[移步](https://github.com/stevezhengshiqi/one-key-cpufriend/blob/master/README_CN.md)
 
-
-
 ## 提高github/gitalk访问速度
 
 打开终端，输入命令：
@@ -140,18 +134,26 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/stevezhengshiqi/one-key-
 ```bash
 cat /etc/hosts
 # github.com
-192.30.253.113	github.com
-192.30.253.112	github.com
-192.30.255.117	api.github.com
-192.30.255.116	api.github.com
+192.30.253.113  github.com
+192.30.253.112  github.com
+192.30.255.117  api.github.com
+192.30.255.116  api.github.com
 ```
 
-
-
 ## 运用iasl编译dsl文件
+
+### 使用RehabMan的iasl62（ACPI标准6.2）
 
 打开终端，输入命令：
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/daliansky/Hackintosh/master/Tools/iasl -o /tmp/iasl && chmod +x /tmp/iasl && sh -c /tmp/iasl -l <dsl文件路径>
+curl -fsSL https://raw.githubusercontent.com/daliansky/Hackintosh/master/Tools/iasl-RM -o /tmp/iasl-RM && chmod +x /tmp/iasl-RM && sh -c /tmp/iasl-RM -l <dsl文件路径>
+```
+
+### 使用ACPICA的iasl63（ACPI标准6.3）
+
+打开终端，输入命令：
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/daliansky/Hackintosh/master/Tools/iasl63 -o /tmp/iasl63 && chmod +x /tmp/iasl63 && sh -c /tmp/iasl63 -l <dsl文件路径>
 ```
