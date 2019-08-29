@@ -502,7 +502,7 @@
 |                      | **无线网卡**                                               |                                                              |                                                              |
 | 推荐无线网卡         | **MiniPCIe** 接口(推荐 BCM4352HMB、DW1510)                 | **博通**：BCM94322HM8L、Asus BCM94352、AzureWave AW-CE123H、AzureWave AW-NB290H、DW1510、DW1520、DW1550、 | **高通**：DW1515、DW1705、AR5BHB92、AR5BHB112 AR9285 芯片在 10.14 将不再被支持 |
 |                      | **PCIe** 接口                                              | **博通**：BCM94331CD、BCM94322MC、BCM94360CD                 | **高通**：AR5BXB72、AR5BXB92、AR5BXB112                      |
-|                      | **M.2** 接口                                               | **博通**：BCM94352Z(AE)、DW1560，DW1830                      |                                                              |
+|                      | **M.2** 接口                                               | **博通**：BCM94352Z(AE)、DW1560，DW1830<br />BCM94350Z(AE)/[DW1820A](https://blog.daliansky.net/DW1820A_BCM94350ZAE-driver-inserts-the-correct-posture.html) |                                                              |
 |                      | **USB** 无线网卡                                           | RealTek系列                                                  | [链接](https://github.com/chris1111/Wireless-USB-Adapter-Clover) |
 
 ### 台式机

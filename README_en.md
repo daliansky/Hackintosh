@@ -422,7 +422,7 @@
 |                                   | **wireless network card**                                  |                                                              |                                                              |
 | Recommended wireless network card | **MiniPCIe** BCM4352HMB、DW1510)                           | **Broadcom**：BCM94322HM8L、Asus BCM94352、AzureWave AW-CE123H、AzureWave AW-NB290H、DW1510、DW1520、DW1550、 | **Qualcomm**：DW1515/DW1705/<br />AR5BHB92/AR5BHB112 AR9285  |
 |                                   | **PCIe**                                                   | **Broadcom**：BCM94331CD、BCM94322MC、BCM94360CD             | **Qualcomm**：AR5BXB72<br />AR5BXB92<br />AR5BXB112          |
-|                                   | **M.2**:                                                   | **Broadcom**：BCM94352Z(AE)<br />DW1560/DW1830               |                                                              |
+|                                   | **M.2**:                                                   | **Broadcom**：BCM94352Z(AE)、DW1560，DW1830<br />BCM94350Z(AE)/[DW1820A](https://blog.daliansky.net/DW1820A_BCM94350ZAE-driver-inserts-the-correct-posture.html) |                                                              |
 |                                   | Wireless **USB** Adapter                                   | RealTek series                                               | [link](https://github.com/chris1111/Wireless-USB-Adapter-Clover) |
 
 ### Desktop
