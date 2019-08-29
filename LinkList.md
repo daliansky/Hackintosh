@@ -12,9 +12,6 @@
 | MaciASL  | [链接](https://github.com/acidanthera/MaciASL/releases)  | AML的编译器和IDE，用于修改DSDT和制作热补丁  |
 | OSX-Debug  | [链接](https://github.com/black-dragon74/OSX-Debug)  | 收集原始ACPI表，驱动，崩溃日志等相关信息的脚本，用于给大神反馈问题  |
 
-
-
-
 ## 2.驱动类
 
 ### Lilu和它的插件
@@ -43,9 +40,9 @@
 | EFICheckDisabler  | [链接](https://github.com/RehabMan/hack-tools/tree/master/kexts/EFICheckDisabler.kext)  | 禁止macOS EFI开机检查  |
 | OS-X-ACPI-Battery-Driver  | [链接](https://bitbucket.org/RehabMan/os-x-acpi-battery-driver) | 电池驱动  |
 | OS-X-BrcmPatchRAM  | [链接](https://bitbucket.org/RehabMan/os-x-brcmpatchram)  | 博通蓝牙驱动  |
-| OS-X-EAPD-Codec-Commander  | [链接](https://bitbucket.org/RehabMan/os-x-eapd-codec-commander)  | 修复声卡休眠无声的驱动  | 
+| OS-X-EAPD-Codec-Commander  | [链接](https://bitbucket.org/RehabMan/os-x-eapd-codec-commander)  | 修复声卡休眠无声的驱动  |
 | OS-X-Fake-PCI-ID  | [链接](https://bitbucket.org/RehabMan/os-x-fake-pci-id)  | 硬件 ID 仿冒驱动  |
-| OS-X-FakeSMC-kozlek  | [链接](https://bitbucket.org/RehabMan/os-x-fakesmc-kozlek)  | SMC仿冒驱动，和VirtualSMC二选一  | 
+| OS-X-FakeSMC-kozlek  | [链接](https://bitbucket.org/RehabMan/os-x-fakesmc-kozlek)  | SMC仿冒驱动，和VirtualSMC二选一  |
 | OS-X-Intel-Network  | [链接](https://bitbucket.org/RehabMan/os-x-intel-network)  | Intel有线网卡驱动(部分)  |
 | OS-X-Null-Ethernet  | [链接](https://bitbucket.org/RehabMan/os-x-null-ethernet)  | 仿冒有线网卡到en0端口，帮助连接AppleStore等  |
 | OS-X-Realtek-Network  |  [链接](https://bitbucket.org/RehabMan/os-x-realtek-network) | Realtek有线网卡驱动  |
@@ -56,9 +53,4 @@
 | VoodooPS2Controller  | [链接](https://github.com/acidanthera/VoodooPS2)  | PS2键盘和触控板驱动，ALPS 触控板请用 SmartTouchPad 驱动  |
 | XHCI-unsupported  | [链接](https://github.com/RehabMan/OS-X-USB-Inject-All/tree/master/XHCI-unsupported.kext)  |  USB驱动  |
 
-
-
-
 ## 3.待续……
-
-

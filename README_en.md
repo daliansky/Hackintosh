@@ -1,14 +1,10 @@
 # Hackintosh long-term maintenance model EFI and installation tutorial
 
-[![img](https://img.shields.io/github/stars/daliansky/Hackintosh.svg?color=ff69b4&label=%E7%82%B9%E8%B5%9E&logoColor=ff69b4&style=social)](https://github.com/daliansky/Hackintosh) [![img](https://img.shields.io/github/followers/daliansky.svg?label=%E7%B2%89%E4%B8%9D&logoColor=success&style=social)](https://github.com/daliansky/Hackintosh) ![img](https://img.shields.io/github/contributors/daliansky/Hackintosh.svg?color=red&label=%E8%B4%A1%E7%8C%AE%E4%BA%BA%E6%95%B0) [![img](https://img.shields.io/github/last-commit/daliansky/Hackintosh.svg?color=orange&label=%E6%9C%80%E8%BF%91%E6%8F%90%E4%BA%A4)](https://github.com/daliansky/Hackintosh) [![img](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu/) 
+[![img](https://img.shields.io/github/stars/daliansky/Hackintosh.svg?color=ff69b4&label=%E7%82%B9%E8%B5%9E&logoColor=ff69b4&style=social)](https://github.com/daliansky/Hackintosh) [![img](https://img.shields.io/github/followers/daliansky.svg?label=%E7%B2%89%E4%B8%9D&logoColor=success&style=social)](https://github.com/daliansky/Hackintosh) ![img](https://img.shields.io/github/contributors/daliansky/Hackintosh.svg?color=red&label=%E8%B4%A1%E7%8C%AE%E4%BA%BA%E6%95%B0) [![img](https://img.shields.io/github/last-commit/daliansky/Hackintosh.svg?color=orange&label=%E6%9C%80%E8%BF%91%E6%8F%90%E4%BA%A4)](https://github.com/daliansky/Hackintosh) [![img](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu/)
 
 ### 中文版本:[Hackintosh黑苹果长期维护机型EFI及安装教程整理](README.md)
 
-   
-
 ### Synchronized Update：[黑果小兵的部落阁](<https://blog.daliansky.net/Hackintosh-long-term-maintenance-model-checklist.html>)
-
-
 
 ### Laptop
 
@@ -37,8 +33,6 @@
 | Acer V5-572             | [link](https://github.com/7ack/Acer-V5-572-Hackintosh)       | [link](https://github.com/7ack/Acer-V5-572-Hackintosh/blob/master/readme.md) |                             |
 | Acer Vn7-793g           | [link](https://github.com/cedric-bour/793g-hackintosh-efi)   |                                                              |                             |
 | Acer-K50-10-525V        | [link](https://github.com/mingslife/Acer-K50-10-525V-Hackintosh) |                                                              |                             |
-
-
 
 #### Asus 华硕
 
@@ -70,7 +64,8 @@
 | Asus ROG GL552JX                  | [link](https://github.com/javanesse/Asus-ROG-GL552JX-High-Sierra-10.13-Hackintosh) | [link](https://github.com/javanesse/Asus-ROG-GL552JX-High-Sierra-10.13-Hackintosh/blob/master/README.md) | Asus ROG GL552JX                                 |
 | Asus ROG GL552VX                  | [link](https://github.com/xuanquydsr/Gl552VX-Mojave)         |                                                              |                                                  |
 | Asus ROG GL553VD                  | [link](https://github.com/MohammadtaghiFarkhondekar/macOS-Mojave-For-Asus-ROG-GL553VD) |                                                              |                                                  |
-| Asus ROG Zephyrus S GX531GS       | [link](https://github.com/williambj1/Hackintosh-EFI-Asus-Zephyrus-S-GX531) |                                                              | 华硕玩家国度冰刃 3                               |
+| Asus ROG Zephyrus M GM501GS       | [link](https://github.com/kylergib/Asus-Zephyrus-M-gm501gs-Mojave) |                                                              |                                                  |
+| Asus ROG Zephyrus S GX531GS       | [link](https://github.com/williambj1/Hackintosh-EFI-Asus-Zephyrus-S-GX531) |                                                              | 2018 Model                                   |
 | ASUS S4000VA                      | [link](https://github.com/stonexing/Asus-S4000VA8550-Hackintosh) |                                                              | 华硕灵耀 i7-8550U                                |
 | Asus S4100V                       | [link](https://github.com/loong1992/Asus_S4100VN8250U_Hackintosh) |                                                              |                                                  |
 | Asus S510UQ                       | [link](https://github.com/KINGKONG2808/Hackintosh_ASUSS510UQ) |                                                              |                                                  |
@@ -99,11 +94,8 @@
 | Asus ZenBook UX330UAK             | [link](https://github.com/Rybo713/UX330UA-macOS)             | [link](https://github.com/Rybo713/UX330UA-macOS/blob/master/README.md) | Asus UX330UAK (Kabylake）                        |
 | Asus Zenbook UX450FDX             | [link](https://github.com/xvAcid/Hackintosh_Zenbook_UX450FDX) |                                                              |                                                  |
 | Asus Zenbook 3 UX490              | [link](https://github.com/VillenaDeveloper/asus-ux490-hackintosh) |                                                              |                                                  |
-| Asus Zephyrus M (GM501GS)         | [link](https://github.com/kylergib/Asus-Zephyrus-M-gm501gs-Mojave) |                                                              |                                                  |
 | Asus zx50jx4200                   | [link](https://github.com/sxz799/zx50jx4200_hackintosh)      |                                                              |                                                  |
 | Asus A407UB                       | [link](https://github.com/xinguisoft/Hackintosh-EFI-Asus-A407UB/) |                                                              |                                                  |
-
-
 
 #### DELL 戴尔
 
@@ -188,6 +180,7 @@
 | Hasee Shinelon DC2 | [link](https://github.com/bavelee/DC2_Hackintosh)            | [link](https://bavelee.cn/index.php/archives/60/)            |                                  |
 | Hasee 精盾系列T96E     | [link](https://github.com/L0ngxhn/Hackintosh-Hasee-T96E)     |||
 | Hasee K590S(clevo W350ET)     | [link](https://github.com/JokerHYC/K590S-HACKINTOSH)     |||
+
 #### HP 惠普
 
 | Model Name                             | Depot                                                        | Tutorial                                                     | Remarks                                                      |
@@ -220,7 +213,7 @@
 | 暗影精灵4 i5-8300H GTX1050Ti           | [link](https://github.com/canwdev/omen15dc-hackintosh)       |                                                              |                                                              |
 | 暗影精灵2                              | [link](https://github.com/Arecall/-Mac-os)                   |                                                              |                                                              |
 | 暗影精灵2 Pro HP OMEN 15-ax225TX       | [link](https://github.com/Cruii/HP-OMEN-15-ax225TX)          |                                                              |                                                              |
-| HP PAVILION Gaming NB 15-ak039TX	 | [link](https://github.com/lgs3137/PAVILION_Gaming_NB-macOS)	| |	Non-working:GPU(Nvidia 950M/GTX)/WiFi(Intel® Dual Band Wireless-AC 3165)	|
+| HP PAVILION Gaming NB 15-ak039TX   | [link](https://github.com/lgs3137/PAVILION_Gaming_NB-macOS)   | | Non-working:GPU(Nvidia 950M/GTX)/WiFi(Intel® Dual Band Wireless-AC 3165)   |
 
 #### Huawei 华为
 
@@ -316,6 +309,7 @@
 | Lenovo Yoga 13IKB                    | [link](https://github.com/dragonflylee/Yoga13-Hackintosh)    |                                                              |                                                              |
 | Lenovo Yoga 710                      | [link](https://github.com/xiaoxx970/Hackintosh-Mojave-for-Lenovo-Yoga710) |                                                              |                                                              |
 | Lenovo Yoga 720                      | [link](https://github.com/bugprogrammer/hackintosh/tree/Lenovo-yoga-720-13ikb-7200u) |                                                              | Lenovo Yoga 720-13IKB                                        |
+| Lenovo Yoga 720                      | [link](https://github.com/williambj1/Hackintosh-EFI-Lenovo-Yoga-720-12IKB) | [link](https://github.com/williambj1/Hackintosh-EFI-Lenovo-Yoga-720-12IKB/tree/master/Resources) | Lenovo Yoga 720-12IKB                                        |
 | Lenovo Yoga 730                      | [link](https://github.com/dragonflylee/Yoga-730-hackintosh)  |                                                              | Lenovo Yoga 730-13IKB                                        |
 | Lenovo Z50(40)/70 系列               | [link](https://github.com/the-braveknight/Lenovo-X50-macOS)  | [link](https://www.tonymacx86.com/threads/guide-lenovo-z50-70-z40-70-g50-70-g40-70-using-clover-uefi.261787/) | Lenovo Z50-70/Z40-70   Lenovo G50-70/G40-70                  |
 | Lenovo-Miix-520                      | [link](https://github.com/acai66/lenovo-miix-520-hackintosh-10.14-CLOVER) | [link](https://github.com/acai66/lenovo-miix-520-hackintosh-10.14-CLOVER) | Lenovo-Miix-520                                              |
@@ -328,8 +322,6 @@
 | LG Gram 14z980         | [link](https://github.com/ShiningXu/LG-Gram-macOS) |          |         |
 | LG Gram 15Z980-G.AA52C | [link](https://github.com/ice-black-tea/LG-15Z980) |          |         |
 | LG Gram Z980           | [link](https://github.com/ShiningXu/LG-Gram-macOS) |          |         |
-
-
 
 #### Mechrevo 机械革命
 
@@ -350,8 +342,6 @@
 | Mechrevo X6TI      | [link](https://github.com/cmbs2019/Mechrevo-Hackintosh)      |          | i7-8750H/i5-8300H GTX1050ti/GTX1060 |
 | Mechrevo X6TIS     | [link](https://github.com/cmbs2019/Mechrevo-Hackintosh)      |          |                                     |
 | Mechrevo X1        | [link](https://github.com/cmbs2019/Mechrevo-Hackintosh) [link](https://github.com/tsmswifty/MECHREVO-X1-hackintosh) |          | i7-7700HQ/GTX1060                   |
-
-
 
 #### MSI 微星
 
@@ -484,8 +474,6 @@
 | MSI Z370-A                                                   | [link](https://github.com/daliansky/Z370-Hackintosh)         | [link](https://github.com/daliansky/Z370-Hackintosh)         | 黑果小兵MSI Z370-A自用EFI                                    |
 | ASRock-Z370-Gaming-ITX-ac-hackintosh                         | [link](https://github.com/fangf2018/ASRock-Z370-Gaming-ITX-ac-hackintosh) |                                                              |                                                              |
 
-
-
 #### Hardware compatibility list
 
 | Model Name                      | Depot                                                        | Tutorial | Remarks                                                 |
@@ -493,11 +481,7 @@
 | **Hardware compatibility list** | [link](https://github.com/CrazyPegAsus/macOS-Mojave-Compatibility-hardware-list) |          | credit: [CrazyPegAsus](https://github.com/CrazyPegAsus) |
 |                                 |                                                              |          |                                                         |
 
-
-
 ### Please submit other models to [here](https://github.com/daliansky/Hackintosh)
-
-
 
 ## About rewards
 
@@ -507,4 +491,4 @@ If you approve my work, please support me for subsequent updates.
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------------------------------------------------- |
 | [![paypal_daliansky](https://7.daliansky.net/paypal_daliansky.png)](https://www.paypal.me/daliansky) | ![wechatpay_160](http://7.daliansky.net/wechatpay_160.jpg)   | ![alipay_160](http://7.daliansky.net/alipay_160.jpg) |
 
-[![img](https://img.shields.io/github/stars/daliansky/Hackintosh.svg?color=ff69b4&label=%E7%82%B9%E8%B5%9E&logoColor=ff69b4&style=social)](https://github.com/daliansky/Hackintosh) [![img](https://img.shields.io/github/followers/daliansky.svg?label=%E7%B2%89%E4%B8%9D&logoColor=success&style=social)](https://github.com/daliansky/Hackintosh) ![img](https://img.shields.io/github/contributors/daliansky/Hackintosh.svg?color=red&label=%E8%B4%A1%E7%8C%AE%E4%BA%BA%E6%95%B0) [![img](https://img.shields.io/github/last-commit/daliansky/Hackintosh.svg?color=orange&label=%E6%9C%80%E8%BF%91%E6%8F%90%E4%BA%A4)](https://github.com/daliansky/Hackintosh) [![img](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu/) 
+[![img](https://img.shields.io/github/stars/daliansky/Hackintosh.svg?color=ff69b4&label=%E7%82%B9%E8%B5%9E&logoColor=ff69b4&style=social)](https://github.com/daliansky/Hackintosh) [![img](https://img.shields.io/github/followers/daliansky.svg?label=%E7%B2%89%E4%B8%9D&logoColor=success&style=social)](https://github.com/daliansky/Hackintosh) ![img](https://img.shields.io/github/contributors/daliansky/Hackintosh.svg?color=red&label=%E8%B4%A1%E7%8C%AE%E4%BA%BA%E6%95%B0) [![img](https://img.shields.io/github/last-commit/daliansky/Hackintosh.svg?color=orange&label=%E6%9C%80%E8%BF%91%E6%8F%90%E4%BA%A4)](https://github.com/daliansky/Hackintosh) [![img](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu/)
