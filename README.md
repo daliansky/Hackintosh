@@ -192,10 +192,12 @@
 | Dell Inspiron 7348 | [链接](https://github.com/MoozIiSP/dell-7348-hackintosh) |  |  |
 | Dell Inspiron 14 7447 Pandora              | [链接](https://github.com/Am1nCmd/Dell-Inspiron-14-7447-Pandora-Hackintosh) |                                                              |                                                       |
 | Dell Inspiron 7460 和 7560                 | [链接](https://github.com/xzhih/dell-7460-7560-hackintosh)   | [链接](https://github.com/xzhih/dell-7460-7560-hackintosh/blob/master/README.md) | 戴尔 7460 和 7560                                     |
+| DELL7472 | [链接](https://github.com/ic005k/DELL7472) |  |  |
 | Dell Inspiron 7559                         | [链接](https://github.com/crackself/Dell-7559-Hackintosh) [链接](https://github.com/JiangHoumin/Dell_G3_3579_Hackintosh) [链接](https://github.com/fengwenhua/dell-7559-hackintosh)| [链接](https://github.com/crackself/Dell-7559-Hackintosh/blob/Hotpatch/README.md) | Dell 7559                                             |
 | Dell Inspiron 7567                         | [链接](https://github.com/Doapeat/Dell7567)                  |                                                              |                                                       |
 | Dell Inspiron 7577 | [链接](https://github.com/yakimka/Hackintosh-Dell-7577) | | |
 | Dell Inspiron 7580 | [链接](https://github.com/rogerioadris/hackintosh-dell-7580) | | |
+| Dell Latitude 5290 | [链接](https://github.com/laelsirus/Dell-Latitude-5290-2-in-1-UHD620-iGPU-CLOVER) | [链接](https://github.https://github.com/laelsirus/Dell-Latitude-5290-2-in-1-UHD620-iGPU-CLOVER/blob/master/README.md) | Dell-Latitude-5290 |
 | Dell Latitude E5440                        | [链接](https://github.com/soejin/hackintosh-dell-e5440)      |                                                              | Dell E5440                                            |
 | Dell Latitude 5591 | [链接](https://github.com/geowoden/DELL-Latitude-5591_osx-clover) | |  |
 | Dell Latitude E6330                        | [链接](https://github.com/BladeScraper-Designs/Dell-Latitude-E6330-Mojave-Hackintosh-EFI) |                                                              |                                                       |
@@ -220,8 +222,6 @@
 | Dell XPS 9550                              | [链接](https://github.com/wmchris/DellXPS15-9550-OSX) [链接](https://github.com/corenel/XPS9550-macOS) | [链接](https://github.com/wmchris/DellXPS15-9550-OSX/blob/10.14/README.md) [链接](https://github.com/corenel/XPS9550-macOS/blob/master/README.md) | Dell XPS 9550                                         |
 | Dell XPS 9560                              | [链接](https://github.com/gunslinger23/XPS15-9560-High-Sierra) | [链接](https://github.com/gunslinger23/XPS15-9560-High-Sierra/blob/master/README.md) | Dell XPS 9560                                         |
 | Dell XPS 9570                              | [链接](https://github.com/Xigtun/xps-9570-mojave) [链接](https://github.com/bavariancake/XPS9570-macOS) <br />[链接](https://github.com/LuletterSoul/Dell-XPS-15-9570-macOS-Mojave) |                                                              | 感谢：[LuletterSoul](https://github.com/LuletterSoul) |
-| Dell-Latitude-5290 |[链接](https://github.com/laelsirus/Dell-Latitude-5290-2-in-1-UHD620-iGPU-CLOVER) | [链接](https://github.https://github.com/laelsirus/Dell-Latitude-5290-2-in-1-UHD620-iGPU-CLOVER/blob/master/README.md) |Dell-Latitude-5290                                         |
-| DELL7472 | [链接](https://github.com/ic005k/DELL7472)  |   |  |
 
 #### Gigabyte 技嘉
 
@@ -398,23 +398,23 @@
 
 #### Mechrevo 机械革命
 
-| 机型名称           | 发布地址                                                     | 教程地址 | 备注                                |
-| ------------------ | ------------------------------------------------------------ | -------- | ----------------------------------- |
-| Mechrevo Z2 G      | [链接](https://github.com/cmbs2019/Mechrevo-Hackintosh/tree/master/Mechrevo%20Z2%20G%20X9TI/EFI) |          | i7-9750H/GTX1660Ti                  |
-| Mechrevo X9Ti R    | [链接](https://github.com/cmbs2019/Mechrevo-Hackintosh/tree/master/Mechrevo%20Z2%20G%20X9TI/EFI) |          | i7-9750H/RTX2060/RTX2070            |
-| Mechrevo Z2        | [链接](https://github.com/cmbs2019/Mechrevo-Hackintosh)      |          | i7-8750H/i5-8300H GTX1050ti/GTX1060 |
-| Mechrevo Z2 Air    | [链接](https://github.com/cmbs2019/Mechrevo-Hackintosh)      |          | i7-8750H/i5-8300H GTX1050ti/GTX1060 |
-| Mechrevo X8ti      | [链接](https://github.com/cmbs2019/Mechrevo-Hackintosh)      |          | i7-8750H/i5-8300H GTX1050ti/GTX1060 |
-| Mechrevo X8ti Plus | [链接](https://github.com/cmbs2019/Mechrevo-Hackintosh)      |          | i7-8750H/i5-8300H GTX1050ti/GTX1060 |
-| Mechrevo S1        | [链接](https://github.com/cmbs2019/Mechrevo-Hackintosh) [链接](https://github.com/lgs3137/MR_S1-macOS) |          | I5-8250U/I7-8550u Mx150             |
-| Mechrevo S1        | [链接](https://github.com/cmbs2019/Mechrevo-Hackintosh)      |          | I5-8265U/I7-8565u Mx250             |
-| Mechrevo X2        | [链接](https://github.com/cmbs2019/Mechrevo-Hackintosh)      |          | i7-8750H/i5-8300H GTX1050ti/GTX1060 |
-| Mechrevo S1 PLUS   | [链接](https://github.com/cmbs2019/Mechrevo-Hackintosh)      |          | i7-8750H/i5-8300H GTX1050ti/GTX1060 |
-| Mechrevo X7TI      | [链接](https://github.com/cmbs2019/Mechrevo-Hackintosh)      |          | I7-6700HQ/I7 7700HQ                 |
-| Mechrevo X7TI-S    | [链接](https://github.com/cmbs2019/Mechrevo-Hackintosh)      |          | I7-7700HQ GTX1070/GTX1060           |
-| Mechrevo X6TI      | [链接](https://github.com/cmbs2019/Mechrevo-Hackintosh)      |          | i7-8750H/i5-8300H GTX1050ti/GTX1060 |
-| Mechrevo X6TIS     | [链接](https://github.com/cmbs2019/Mechrevo-Hackintosh)      |          |                                     |
-| Mechrevo X1        | [链接](https://github.com/cmbs2019/Mechrevo-Hackintosh) [链接](https://github.com/tsmswifty/MECHREVO-X1-hackintosh) |          | i7-7700HQ/GTX1060                   |
+| 机型名称           | 发布地址                                                     | 教程地址                                                     | 备注                                |
+| ------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ----------------------------------- |
+| Mechrevo Z2 G      | [链接](https://github.com/cmbs2019/Mechrevo-Hackintosh/tree/master/Mechrevo%20Z2%20G%20X9TI/EFI) |                                                              | i7-9750H/GTX1660Ti                  |
+| Mechrevo X9Ti R    | [链接](https://github.com/cmbs2019/Mechrevo-Hackintosh/tree/master/Mechrevo%20Z2%20G%20X9TI/EFI) |                                                              | i7-9750H/RTX2060/RTX2070            |
+| Mechrevo Z2        | [链接](https://github.com/cmbs2019/Mechrevo-Hackintosh)      |                                                              | i7-8750H/i5-8300H GTX1050ti/GTX1060 |
+| Mechrevo Z2 Air    | [链接](https://github.com/cmbs2019/Mechrevo-Hackintosh)      |                                                              | i7-8750H/i5-8300H GTX1050ti/GTX1060 |
+| Mechrevo X8ti      | [链接](https://github.com/cmbs2019/Mechrevo-Hackintosh)      |                                                              | i7-8750H/i5-8300H GTX1050ti/GTX1060 |
+| Mechrevo X8ti Plus | [链接](https://github.com/cmbs2019/Mechrevo-Hackintosh)      |                                                              | i7-8750H/i5-8300H GTX1050ti/GTX1060 |
+| Mechrevo S1        | [链接](https://github.com/cmbs2019/Mechrevo-Hackintosh) [链接](https://github.com/lgs3137/MR_S1-macOS) | [链接](https://github.com/lgs3137/MR_S1-macOS/tree/master/Install) | I5-8250U/I7-8550u Mx150             |
+| Mechrevo S1        | [链接](https://github.com/cmbs2019/Mechrevo-Hackintosh)      |                                                              | I5-8265U/I7-8565u Mx250             |
+| Mechrevo X2        | [链接](https://github.com/cmbs2019/Mechrevo-Hackintosh)      |                                                              | i7-8750H/i5-8300H GTX1050ti/GTX1060 |
+| Mechrevo S1 PLUS   | [链接](https://github.com/cmbs2019/Mechrevo-Hackintosh)      |                                                              | i7-8750H/i5-8300H GTX1050ti/GTX1060 |
+| Mechrevo X7TI      | [链接](https://github.com/cmbs2019/Mechrevo-Hackintosh)      |                                                              | I7-6700HQ/I7 7700HQ                 |
+| Mechrevo X7TI-S    | [链接](https://github.com/cmbs2019/Mechrevo-Hackintosh)      |                                                              | I7-7700HQ GTX1070/GTX1060           |
+| Mechrevo X6TI      | [链接](https://github.com/cmbs2019/Mechrevo-Hackintosh)      |                                                              | i7-8750H/i5-8300H GTX1050ti/GTX1060 |
+| Mechrevo X6TIS     | [链接](https://github.com/cmbs2019/Mechrevo-Hackintosh)      |                                                              |                                     |
+| Mechrevo X1        | [链接](https://github.com/cmbs2019/Mechrevo-Hackintosh) [链接](https://github.com/tsmswifty/MECHREVO-X1-hackintosh) |                                                              | i7-7700HQ/GTX1060                   |
 
 #### MSI 微星
 
