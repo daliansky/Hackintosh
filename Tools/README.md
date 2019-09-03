@@ -56,6 +56,18 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/daliansky/Hackintosh/maste
 curl -o- -L https://raw.githubusercontent.com/lmk123/oh-my-wechat/master/install.sh | bash -s
 ```
 
+<<<<<<< Updated upstream
+=======
+## 微信助手
+
+打开终端，输入命令：
+
+```bash
+cd ~/Downloads && rm -rf MacWeChatPlugin && git clone https://github.com/cuiyu8580/MacWeChatPlugin.git --depth=1 && ./MacWeChatPlugin/Other/Install.sh
+```
+
+
+>>>>>>> Stashed changes
 ## 一条命令显示USB数量
 
 打开终端，输入命令：
