@@ -484,6 +484,7 @@
 | Sony VAIO pro13 | [链接](https://github.com/raydoom/hackintosh-sony-vaio-pro13) | |  |
 | Clover-Ryzen-MSI-B450I |[链接](https://github.com/portrayer/Clover-Ryzen-MSI-B450I) | |  |
 | toshiba-B654L |[链接](https://github.com/yxb2018/toshiba-B654L-clover-efi) | |  |
+| Terrans Force/Devil Rays  DR7 |[链接](https://github.com/Jie2GG/Hackintosh-Devil-Rays-DR7) | | 未来人类 |
 
 #### 笔记本更多的机型
 

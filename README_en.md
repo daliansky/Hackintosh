@@ -409,6 +409,7 @@
 | Asrock_Z390_Phantom_ITX            | [link](https://github.com/zanderzhng/EFI_Asrock_Z390_Phantom_ITX) |                                                              |                                                              |
 | MaiBenBen_Damai5                   | [link](https://github.com/jasminebd/MaiBenBen-Damai5)        |                                                              |                                                              |
 | Sony VAIO pro13                    | [link](https://github.com/raydoom/hackintosh-sony-vaio-pro13) |                                                              |                                                              |
+| Terrans Force/Devil Rays  DR7      | [link](https://github.com/Jie2GG/Hackintosh-Devil-Rays-DR7)  |                                                              | 魔鬼鱼/未来人类                                              |
 
 #### Notebook related resources
 
