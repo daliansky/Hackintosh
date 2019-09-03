@@ -64,6 +64,8 @@
 - 2019年8月16日
   - 新增机型：MSI X370 KRAIT GAMING + 1700X + RADEON VEGA64
   - 新增机型：ASROCK X570 TAICHI + 3700X + RADEON VEGA64，兼容ASROCK X570 TAICHI(BIOS<=1.21) + 1700X + RADEON VEGA64
+- 2019年9月1日 by [lgs3137](https://github.com/lgs3137)
+  - 新增机型：`ASUS Y5000U`(X507UBR)
 
 ### 笔记本部分机型
 
@@ -139,6 +141,7 @@
 | Asus VivoBook S15 S510UA          | [链接](https://github.com/tctien342/Asus-Vivobook-S510UA-High-Sierra-10.13-Hackintosh) | [链接](https://github.com/tctien342/Asus-Vivobook-S510UA-High-Sierra-10.13-Hackintosh/blob/master/README.md) | Vivobook S510UA                                            |
 | Asus Vivobook S530UA BQ100T       | [链接](https://github.com/superzeldalink/Asus-Vivobook-S530-hackintosh) |                                                              |                                                            |
 | Asus VivoBook X510UQR             | [链接](https://github.com/nguyentrucxinh/Asus-VivoBook-X510UQR-Hackintosh) | [链接](https://github.com/nguyentrucxinh/Asus-VivoBook-X510UQR-Hackintosh/blob/master/README.md) |                                                            |
+| Asus VivoBook Y5000U (X507UBR) | [链接](https://github.com/lgs3137/ASUS_Y5000U_X507UBR-macOS) |  | |
 | Asus W419LD | [链接](https://github.com/Yasin27878/Hackintosh-ASUS-W419LD) |  | |
 | Asus X45C | [链接](https://github.com/ipang-dwi/efi-high-sierra) |  | |
 | Asus X450JB                       | [链接](https://github.com/xiaoMGitHub/Asus_X450JB_Hackintosh) |                                                              |                                                            |
