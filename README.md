@@ -192,7 +192,7 @@
 | Dell Inspiron 7348 | [链接](https://github.com/MoozIiSP/dell-7348-hackintosh) |  |  |
 | Dell Inspiron 14 7447 Pandora              | [链接](https://github.com/Am1nCmd/Dell-Inspiron-14-7447-Pandora-Hackintosh) |                                                              |                                                       |
 | Dell Inspiron 7460 和 7560                 | [链接](https://github.com/xzhih/dell-7460-7560-hackintosh)   | [链接](https://github.com/xzhih/dell-7460-7560-hackintosh/blob/master/README.md) | 戴尔 7460 和 7560                                     |
-| DELL7472 | [链接](https://github.com/ic005k/DELL7472) |  |  |
+| Dell Inspiron 7472 | [链接](https://github.com/ic005k/DELL7472) |  |  |
 | Dell Inspiron 7559                         | [链接](https://github.com/crackself/Dell-7559-Hackintosh) [链接](https://github.com/JiangHoumin/Dell_G3_3579_Hackintosh) [链接](https://github.com/fengwenhua/dell-7559-hackintosh)| [链接](https://github.com/crackself/Dell-7559-Hackintosh/blob/Hotpatch/README.md) | Dell 7559                                             |
 | Dell Inspiron 7567                         | [链接](https://github.com/Doapeat/Dell7567)                  |                                                              |                                                       |
 | Dell Inspiron 7577 | [链接](https://github.com/yakimka/Hackintosh-Dell-7577) | | |
