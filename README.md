@@ -67,7 +67,7 @@
 - 2019年9月1日 by [lgs3137](https://github.com/lgs3137)
   - 新增机型：`ASUS Y5000U`(X507UBR)
 - 2019年9月7日 by [lgs3137](https://github.com/lgs3137)
-  - 新增机型：`ACER P258-MG`
+  - 新增机型：`Acer P258-MG`
 
 ### 笔记本部分机型
 
@@ -98,7 +98,7 @@
 | Acer-K50-10-525V       | [链接](https://github.com/mingslife/Acer-K50-10-525V-Hackintosh) |                                                              |                     |
 |宏碁暗影骑士3          |[链接](https://github.com/Chakid/Acer-VX15-Hackintosh)  |    |    |
 |ACER-ASPIRE-C24-865          |[链接](https://github.com/Sevendaye/ACER-ASPIRE-C24-865-Clover)  |    |    |
-|ACER-P258-MG          |[链接](https://github.com/lgs3137/ACER_P258_MG-macOS)  |    |    |
+|Acer P258-MG          |[链接](https://github.com/lgs3137/ACER_P258_MG-macOS)  |    |    |
 
 #### Asus 华硕
 
