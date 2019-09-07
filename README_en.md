@@ -33,6 +33,7 @@
 | Acer V5-572             | [link](https://github.com/7ack/Acer-V5-572-Hackintosh)       | [link](https://github.com/7ack/Acer-V5-572-Hackintosh/blob/master/readme.md) |                             |
 | Acer Vn7-793g           | [link](https://github.com/cedric-bour/793g-hackintosh-efi)   |                                                              |                             |
 | Acer-K50-10-525V        | [link](https://github.com/mingslife/Acer-K50-10-525V-Hackintosh) |                                                              |                             |
+|ACER-P258-MG          |[link](https://github.com/lgs3137/ACER_P258_MG-macOS)  |    |    |
 
 #### Asus 华硕
 
