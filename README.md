@@ -611,7 +611,7 @@
 
 43518833  [Mac for HP](https://shang.qq.com/wpa/qunwpa?idkey=739faedadd025d72310a48effa168a797bd7407520f5264560f45fc611e601d0) 1000人群 惠普商务机EFI交流共享（推荐）
 
-612655811 [elitebook_probook_zbook系列黑苹果交流](https://shang.qq.com/wpa/qunwpa?idkey=5f91e85dc300cc5da20324401b23236cdeb9a0e5ebee5944fa8811ff0d5e4e36) 500人群 hotpatch方案(备选)
+612655811 [elitebook_probook_zbook系列黑苹果交流](https://shang.qq.com/wpa/qunwpa?idkey=5f91e85dc300cc5da20324401b23236cdeb9a0e5ebee5944fa8811ff0d5e4e36) 此群已散，勿加，有需要可以加上一个群。
 
 308469644 [外星人Alienware黑苹果交流群](https://shang.qq.com/wpa/qunwpa?idkey=9f579e157ffed2a47be3861601080953453be323e50844005e9f2466dd2b12c5) 500人群 非专用机型请勿加入
 
