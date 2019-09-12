@@ -27,7 +27,7 @@
 | Acer F5-573G-55PJ       | [link](https://github.com/zoothz/Hackintosh-acer-f5-573g-55pj) |                                                              |                             |
 | Acer F5-573g-75A3       | [link](https://github.com/vinicioslc/HACKINTOSH-ACER-F5-573G-75A3) |                                                              |                             |
 | Acer Swift 3            | [link](https://github.com/FallenChromium/Acer-Swift3-2018-hackintosh) |                                                              | SF315-51-518S               |
-| Acer Swift 3 SF314-55G  | [link](https://github.com/cjtim/SF314-55G-hackintosh)        |                                                              | Acer Swift 3 2019 SF314-55G |
+| Acer Swift 3 SF314-55G  | [link](https://github.com/cjtim/SF314-55G-hackintosh) [link](https://github.com/cjtim/SF314-55G-hackintosh) |                                                              | Acer Swift 3 2019 SF314-55G |
 | Acer V3-471G            | [link](https://github.com/oneveb/Acer-V3-471G)               |                                                              |                             |
 | Acer-V3-572G-51MR       | [link](https://github.com/AnoldmanLiSir/Acer-V3-572G-51MR)   | [link](https://github.com/AnoldmanLiSir/Acer-V3-572G-51MR/blob/master/README.md) |                             |
 | Acer V5-572             | [link](https://github.com/7ack/Acer-V5-572-Hackintosh)       | [link](https://github.com/7ack/Acer-V5-572-Hackintosh/blob/master/readme.md) |                             |
@@ -128,6 +128,7 @@
 | Dell Inspiron 7000 series                  | [link](https://github.com/daliansky/dell7000)                | [link](https://github.com/daliansky/dell7000/blob/master/README.md) | Dell Inspiron 7000 I/II (7x60/7x72)                     |
 | Dell Inspiron 7348                         | [link](https://github.com/MoozIiSP/dell-7348-hackintosh)     |                                                              |                                                         |
 | Dell Inspiron 14 7447 Pandora              | [link](https://github.com/Am1nCmd/Dell-Inspiron-14-7447-Pandora-Hackintosh) |                                                              |                                                         |
+| Dell Inspiron 7548                         | [link](https://github.com/mbrula/hackintosh-dell-inspiron)   |                                                              |                                                         |
 | Dell Inspiron 7460/7560                    | [link](https://github.com/xzhih/dell-7460-7560-hackintosh)   | [link](https://github.com/xzhih/dell-7460-7560-hackintosh/blob/master/README.md) | Dell 7460 & 7560                                        |
 | Dell Inspiron 7559                         | [link](https://github.com/crackself/Dell-7559-Hackintosh) [link](https://github.com/JiangHoumin/Dell_G3_3579_Hackintosh) | [link](https://github.com/crackself/Dell-7559-Hackintosh/blob/Hotpatch/README.md) | Dell 7559                                               |
 | Dell Inspiron 7567                         | [link](https://github.com/Doapeat/Dell7567)                  |                                                              |                                                         |
@@ -175,6 +176,7 @@
 | Hasee CT7NA            | [link](https://github.com/bufsnake/Z7-CT7NA-HackIntosh)      |                                                              |                                  |
 | Hasee k610d i5 d3      | [link](https://github.com/1zilc/K610d-i5-d3-10.14.5-efi-clover) |                                                              |                                  |
 | Hasee K650D            | [link](https://github.com/wklesss/k650D-Hackintosh)          |                                                              | 神舟 K 650D                      |
+| Hasee K680E-G6D1 | [link](https://github.com/Vnzen/Hackintosh_hasee_k680e-g6d1_clover) | |  |
 | Hasee k770e i7 d1      | [link](https://github.com/Gitawake/Hasee-K770e-i7-D1-Clover) |                                                              | p170sm-a                         |
 | Hasee Z6-SL5 D1        | [link](https://github.com/Measureless/Hackintosh_Hasee_Z6-SL5D1) |                                                              |                                  |
 | HASEE Z7-KP7D1         | [link](https://github.com/ConnersHua/Clevo-P65xHP-Hackintosh) |                                                              | Clevo P65xHP<br />HASEE Z7-KP7S1 |
@@ -359,6 +361,7 @@
 | MSI GL72M-7RDX            | [link](https://github.com/jbwharris/hackintosh-msi-GL72M-7RDX) | [link](https://github.com/jbwharris/hackintosh-msi-GL72M-7RDX/blob/master/README.md) |           |
 | MSI GP62 6QG-1071XCN      | [link](https://github.com/chuxubank/MSI-GP62-Hackintosh)     | [link](https://github.com/chuxubank/MSI-GP62-Hackintosh/blob/master/README.md) | 微星 GP62 |
 | MSI GS65 Stealth Thin 8RF | [link](https://github.com/vladichimescu/msi-gs65-hackintosh) |                                                              |           |
+| MSI GS65 8SE              | [link](https://github.com/ErrorErrorError/msi-gs65-8SE-hackintosh) |                                                              |           |
 | MSI GS73VR 7RF            | [link](https://github.com/dogukanoksuz/msi-gs73vr-7rf-macOS) |                                                              |           |
 
 #### XiaoMi 小米
@@ -405,6 +408,7 @@
 | Razer Blade Stealth 雷蛇灵刃潜行版 | [link](https://github.com/widmonstertony/razer-blade-stealth-hackintosh) |                                                              |                                                              |
 | Samsung NP300E4C                   | [link](https://github.com/installgento0/NP300E4C-hackintosh) |                                                              |                                                              |
 | Samsung NP300E5L                   | [link](https://github.com/bearkfear/SAMSUNG-NP300E5L-HACKINTOSH) |                                                              |                                                              |
+| Samsung NP300E5M                   | [link](https://github.com/zb2947244682/Samsung_300E5M_Mac_Hackintosh_EFI) |                                                              |                                                              |
 | ASRock-Z370M-ITX-AC                | [link](https://github.com/youngle316/ASRock-Z370M-ITX-AC)    |                                                              |                                                              |
 | MSI ProBox23                       | [link]( https://github.com/Twilightlee/MSI_ProBox23_hackintosh) |                                                              |                                                              |
 | Razer_Blade_Advanced_early_2019    | [link]( https://github.com/stonevil/Razer_Blade_Advanced_early_2019_Hackintosh) |                                                              | [link](https://github.com/stonevil/Razer_Blade_Advanced_early_2019_Hackintosh) |
@@ -458,6 +462,7 @@
 | Asus STRIX Z270-E                                            | [link](https://github.com/BradenM/Hackintosh-7700k-R9_390-iGPU) |                                                              | Asus STRIX Z270-E                                            |
 | Asus ROG Strix Z390-E                                        | [link](https://github.com/xiedonghang/hackintosh)            |                                                              | Intel i9-9900k+UHD630核显                                    |
 | ASUS X299 PRIME DELUXE II                                    | [link](https://github.com/yifan-gu/hackintosh)               |                                                              | i9 7980XE + Radeon VII                                       |
+| Asus X299                                                    | [link](https://github.com/shinoki7/Asus-X299-Hackintosh)     |                                                              |                                                              |
 | CM238 i7-8950H UHD630 ALC269                                 | [link](https://github.com/kkzzhizhou/S200H_I7-8750H_Hackintosh) |                                                              | S200H_I7-8750H 小主机                                        |
 | Dell OptiPlex 3050                                           | [link](https://github.com/Leif160519/Dell-OptiPlex-3050-EFI) |                                                              |                                                              |
 | Dell OptiPlex 9020M                                          | [link](https://github.com/mingcheng/dell-optiplex-9020m-hackintosh) [link](https://github.com/JimLee1996/Hackintosh_OptiPlex_9020) |                                                              | Disable MSR 0xE2 (i.e. cfg lock) `setup_var 0xDA2 0x00`<br /> Increase DVMT to 96M `setup_var 0x263 0x03` |
