@@ -48,6 +48,29 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/daliansky/Hackintosh/maste
 
 输出效果见上图
 
+## 一条命令解决时间不同步问题：
+
+> 两种方法，选项其中一个即可。
+
+### Windows下操作：
+
+`Win+x`选择管理员模式进入`CMD`
+执行以下命令：
+
+```bash
+Reg add HKLM\SYSTEM\CurrentControlSet\Control\TimeZoneInformation /v RealTimeIsUniversal /t REG_DWORD /d 1
+```
+
+### macOS下操作：
+
+打开终端，输入命令：
+
+```bash
+sudo sh -c "$(curl -kfsSL https://raw.githubusercontent.com/hieplpvip/LocalTime-Toggle/master/fix_time_osx.sh)"
+```
+
+
+
 ## 微信小助手
 
 打开终端，输入命令：
@@ -56,8 +79,6 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/daliansky/Hackintosh/maste
 curl -o- -L https://raw.githubusercontent.com/lmk123/oh-my-wechat/master/install.sh | bash -s
 ```
 
-<<<<<<< Updated upstream
-=======
 ## 微信助手
 
 打开终端，输入命令：
