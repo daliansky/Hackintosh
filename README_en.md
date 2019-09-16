@@ -57,6 +57,7 @@
 | Asus GL503GE                      | [link](https://github.com/Bimoaryo5/ASUS-GL503GE-Hackintosh-master) |                                                              |                                                  |
 | Asus GL504GE                      | [link](https://github.com/PoomSmart/Asus-FX504GE-Hackintosh) |                                                              |                                                  |
 | Asus GL551JW                      | [link](https://github.com/zacharyrs/GL551JW-Hackintosh)      |                                                              |                                                  |
+| Asus GL552VW | [link](https://github.com/originman521/Hackintosh-ASUS-FXPRO-GL552VW) | | |
 | Asus G60VW                        | [link](https://github.com/PtNan/G60VW-Hackintosh)            |                                                              |                                                  |
 | Asus K501LB                       | [link](https://github.com/ApolloRisky/EFI_Clover-Asus-K501LB-Mojave) |                                                              |                                                  |
 | Asus K55VD                        | [link](https://github.com/southernvevo/Asus-K55VD-HACKINTOSH) | [link](https://github.com/southernvevo/Asus-K55VD-HACKINTOSH/blob/master/README.md) | Asus K55VD                                       |
