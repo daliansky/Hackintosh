@@ -355,6 +355,7 @@
 | Model Name                | Depot                                                        | Tutorial                                                     | Remarks   |
 | ------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | --------- |
 | MSI GE60 2PL-403XCN       | [link](https://github.com/ice-black-tea/MSI-GE60)            |                                                              |           |
+| MSI GE63 Raider RGB 8RE   | [link](https://github.com/skyline75489/Hackintosh-MSI-GE63-Raider-RGB-8RE) |                                                            |           |
 | MSI GE70 2PC              | [link](https://github.com/alxzoomer/msi-ge70-2pc-hackintosh) |                                                              |           |
 | MSI GF63                  | [link](https://github.com/oscarrock/hackintosh-msi-gf63-thin-9SC) |                                                              |           |
 | MSI GL62M-7REX            | [link](https://github.com/rlindsberg/Hackintosh-On-MSI-GL62m-7REX) |                                                              |           |
