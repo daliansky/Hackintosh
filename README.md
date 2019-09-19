@@ -68,6 +68,8 @@
   - 新增机型：`ASUS Y5000U`(X507UBR)
 - 2019年9月7日 by [lgs3137](https://github.com/lgs3137)
   - 新增机型：`Acer P258-MG`
+- 2019年9月17日 by [skyline75489](https://github.com/skyline75489)
+  - 新增机型：`MSI GE63 Raider RGB 8RE`
 
 ### 笔记本部分机型
 
@@ -429,6 +431,7 @@
 | 机型名称                  | 发布地址                                                     | 教程地址                                                     | 备注      |
 | ------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | --------- |
 | MSI GE60 2PL-403XCN       | [链接](https://github.com/ice-black-tea/MSI-GE60)            |                                                              |           |
+| MSI GE63 Raider RGB 8RE   | [链接](https://github.com/skyline75489/Hackintosh-MSI-GE63-Raider-RGB-8RE) |                                                            |           |
 | MSI GE70 2PC              | [链接](https://github.com/alxzoomer/msi-ge70-2pc-hackintosh) |                                                              |           |
 | MSI GF63                  | [链接](https://github.com/oscarrock/hackintosh-msi-gf63-thin-9SC) |                                                              |           |
 | MSI GL62M-7REX            | [链接](https://github.com/rlindsberg/Hackintosh-On-MSI-GL62m-7REX) |                                                              |           |
