@@ -556,6 +556,7 @@
 | Dell OptiPlex 9020M            | [链接](https://github.com/mingcheng/dell-optiplex-9020m-hackintosh) [链接](https://github.com/JimLee1996/Hackintosh_OptiPlex_9020) |                                                              | Disable MSR 0xE2 (i.e. cfg lock) `setup_var 0xDA2 0x00`<br /> Increase DVMT to 96M `setup_var 0x263 0x03` |
 | Dell Precision Tower 3620 | [链接](https://github.com/fivestrong/Hackintosh-Dell-Precision-T-3620) | |  |
 | Lenovo M93P           | [链接](https://github.com/mingcheng/lenovo-thinkcentre-m93p-hackintosh) |      | 联想 M93P 系列主机 |
+| Lenovo ThinkCentre M720Q | [链接](https://github.com/fronttang/Lenovo-ThinkCentre-M720Q-Hackintosh) | |  |
 | B360 AORUS Gaming 3 | [链接](https://github.com/littlegtplr/Hackintosh-Clover-folder-for-Coffee-Lake-builds) | |  |
 | Gigabyte X370N                 | [链接](https://github.com/cwr31/z370n-hackintosh) [链接](https://github.com/qinkangdeid/z370n-wifi-hackintosh) |                                                              | Gigabyte Z370N                                  |
 | DQ77KB                         | [链接](https://github.com/siwilizhao/DQ77KB-I7-3770S-Hackintosh) |                                                              |                                                 |
@@ -580,6 +581,7 @@
 | Soarsea mini PC |[链接](https://github.com/EngLearnsh/Soarsea-i9-8950HK-Hackintosh) | | S200H |
 | MSI-B360M-MORTAR-IMACPRO |[链接](https://github.com/andot/MSI-B360M-MORTAR-IMACPRO-EFI) | | |
 | ASRock B360M Pro4 |[链接](https://github.com/Joehaivo/hackintosh) | | |
+| Lenovo Thinkpad P1 <br />MobileWorkStation |[链接](https://github.com/p455555555/Thinkpad-P1-EFI) | | |
 
 #### 台式机其它机型
 

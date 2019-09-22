@@ -470,6 +470,7 @@
 | Dell OptiPlex 9020M                                          | [link](https://github.com/mingcheng/dell-optiplex-9020m-hackintosh) [link](https://github.com/JimLee1996/Hackintosh_OptiPlex_9020) |                                                              | Disable MSR 0xE2 (i.e. cfg lock) `setup_var 0xDA2 0x00`<br /> Increase DVMT to 96M `setup_var 0x263 0x03` |
 | Dell Precision Tower 3620                                    | [link](https://github.com/fivestrong/Hackintosh-Dell-Precision-T-3620) |                                                              |                                                              |
 | Lenovo M93P                                                  | [link](https://github.com/mingcheng/lenovo-thinkcentre-m93p-hackintosh) |                                                              | 联想 M93P 系列主机                                           |
+| Lenovo ThinkCentre M720Q                                     | [link](https://github.com/fronttang/Lenovo-ThinkCentre-M720Q-Hackintosh) |                                                              |                                                              |
 | B360 AORUS Gaming 3                                          | [link](https://github.com/littlegtplr/Hackintosh-Clover-folder-for-Coffee-Lake-builds) |                                                              |                                                              |
 | Gigabyte X370N                                               | [link](https://github.com/cwr31/z370n-hackintosh) [link](https://github.com/qinkangdeid/z370n-wifi-hackintosh) |                                                              | Gigabyte Z370N                                               |
 | DQ77KB                                                       | [link](https://github.com/siwilizhao/DQ77KB-I7-3770S-Hackintosh) |                                                              |                                                              |
@@ -486,6 +487,7 @@
 | MSI B360                                                     | [link](https://github.com/SuperNG6/MSI-b360-10.14.4-EFI)     |                                                              | 也适用于<br />MAG Z390 TOMAHAWK <br />(MS-7B18)              |
 | MSI Z370-A                                                   | [link](https://github.com/daliansky/Z370-Hackintosh)         | [link](https://github.com/daliansky/Z370-Hackintosh)         | 黑果小兵MSI Z370-A自用EFI                                    |
 | ASRock-Z370-Gaming-ITX-ac-hackintosh                         | [link](https://github.com/fangf2018/ASRock-Z370-Gaming-ITX-ac-hackintosh) |                                                              |                                                              |
+| Lenovo Thinkpad P1 <br />MobileWorkStation                   | [link](https://github.com/p455555555/Thinkpad-P1-EFI)        |                                                              |                                                              |
 
 #### Hardware compatibility list
 
