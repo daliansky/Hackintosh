@@ -244,16 +244,15 @@
 
 | 机型名称               | 发布地址                                                     | 教程地址                                                     | 备注              |
 | ---------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ----------------- |
-| Hasee CT7NA | [链接](https://github.com/bufsnake/Z7-CT7NA-HackIntosh) |  |  |
-| Hasee k610d i5 d3 | [链接](https://github.com/1zilc/K610d-i5-d3-10.14.5-efi-clover) |  |  |
-| 神舟K650D              | [链接](https://github.com/wklesss/k650D-Hackintosh)          |                                                              | 神舟K650D       |
-| 神舟K680E-G6D1 | [链接](https://github.com/Vnzen/Hackintosh_hasee_k680e-g6d1_clover) | |  |
-| Hasee k770e i7 d1 | [链接](https://github.com/Gitawake/Hasee-K770e-i7-D1-Clover) | | p170sm-a |
-| Hasee Z6-SL5 D1        | [链接](https://github.com/Measureless/Hackintosh_Hasee_Z6-SL5D1) |                                                              |                   |
-| Hasee Z7-KP7D1 | [链接](https://github.com/ConnersHua/Clevo-P65xHP-Hackintosh) | | Clevo P65xHP<br />HASEE Z7-KP7S1 |
-| Hasee Z7(m)-KP7/5(G)Z<br>Hasee Z7(m)-KP7/5EC<br>Hasee Z7(m)-KP7/5GC<br>Hasee Z7-C7TVK / Z7m-CT7GS / Z7-CT7VH <br>Hasee G7-CT7VK        | [仓库链接](https://github.com/kirainmoe/hasee-tongfang-macos) <br> [下载链接](https://efi.kirainmoe.com/)   | [链接](https://github.com/kirainmoe/hasee-tongfang-macos/wiki) | 神舟战神 8/9 代同方全系机型 |
-| Hasee Z7M KP5GC        | [链接](https://github.com/CharlesZhou959/Hasee-Z7M-KP5GC-Hackintosh) |                                                              |                   |
-| 神舟炫龙笔记本DC2      | [链接](https://github.com/bavelee/DC2_Hackintosh)  [链接DC2_DD](https://github.com/yuedashen88/DC2_EFI)          | [链接](https://bavelee.cn/index.php/archives/60/)            |  yuedashen88基于大佬BaveLee之前的EFI的修改版本,修复了HDMI热插拔问题                 |
+| 神舟 k610d i5 d3 | [链接](https://github.com/1zilc/K610d-i5-d3-10.14.5-efi-clover) |  |  |
+| 神舟 K650D              | [链接](https://github.com/wklesss/k650D-Hackintosh)          |                                                              | 神舟K650D       |
+| 神舟 K680E-G6D1 | [链接](https://github.com/Vnzen/Hackintosh_hasee_k680e-g6d1_clover) | |  |
+| 神舟战神 k770e i7 d1 | [链接](https://github.com/Gitawake/Hasee-K770e-i7-D1-Clover) | | p170sm-a |
+| 神舟战神 Z6-SL5 D1        | [链接](https://github.com/Measureless/Hackintosh_Hasee_Z6-SL5D1) |                                                              |                   |
+| 神舟战神 Z7-KP7D1 | [链接](https://github.com/ConnersHua/Clevo-P65xHP-Hackintosh) | | Clevo P65xHP<br />HASEE Z7-KP7S1 |
+| 神舟战神 Z7(m)-KP7/5(G)Z<br>神舟战神 Z7(m)-KP7/5EC<br>神舟战神 Z7(m)-KP7/5GC<br>神舟战神 Z7-C7TVK / Z7m-CT7GS / Z7-CT7VH <br>神舟战神 G7-CT7VK        | [仓库链接](https://github.com/kirainmoe/hasee-tongfang-macos) <br> [下载链接](https://efi.kirainmoe.com/)   | [链接](https://github.com/kirainmoe/hasee-tongfang-macos/wiki) | 神舟战神 8/9 代同方全系机型 |
+| 神舟战神 Z7M KP5GC        | [链接](https://github.com/CharlesZhou959/Hasee-Z7M-KP5GC-Hackintosh) |                                                              |                   |
+| 神舟战神 CT7NA | [链接](https://github.com/bufsnake/Z7-CT7NA-HackIntosh) |  |  |
 | 神舟精盾系列T96E       | [链接](https://github.com/L0ngxhn/Hackintosh-Hasee-T96E)     |  |                   |
 | 神舟精盾系列 K590S      | [链接](https://github.com/JokerHYC/K590S-HACKINTOSH)     |  |                   |
 
@@ -261,9 +260,10 @@
 
 | 机型名称               | 发布地址                                                     | 教程地址                                                     | 备注              |
 | ---------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ----------------- |
-| Shinelon A40L-i7 | [链接](https://github.com/i0Ek3/Hackintosh_4_Hasee_Shinelon_A40L) | [链接](https://github.com/i0Ek3/Hackintosh_4_Hasee_Shinelon_A40L/blob/master/README.md) |           |
-| Shinelon_Yao_7000                  |  [链接](https://github.com/jinmu333/Shinelon_YAO_7000_efi) | [链接](https://github.com/jinmu333/Shinalon_YAO_7000_efi/blob/efi/README.md) |                   |
-| Shinelon 炫龙T3TI | [链接](https://github.com/283330601/shinelon-t3ti-Hackintosh) |  | 9750H+1660TI |
+| 炫龙 A40L-i7 | [链接](https://github.com/i0Ek3/Hackintosh_4_Hasee_Shinelon_A40L) | [链接](https://github.com/i0Ek3/Hackintosh_4_Hasee_Shinelon_A40L/blob/master/README.md) |           |
+| 炫龙 耀7000                  |  [链接](https://github.com/jinmu333/Shinelon_YAO_7000_efi) | [链接](https://github.com/jinmu333/Shinalon_YAO_7000_efi/blob/efi/README.md) |                   |
+| 炫龙 T3TI | [链接](https://github.com/283330601/shinelon-t3ti-Hackintosh) |  | 9750H+1660TI |
+| 炫龙笔记本 DC2      | [链接](https://github.com/bavelee/DC2_Hackintosh)  [链接DC2_DD](https://github.com/yuedashen88/DC2_EFI)          | [链接](https://bavelee.cn/index.php/archives/60/)            |  yuedashen88基于大佬BaveLee之前的EFI的修改版本,修复了HDMI热插拔问题                 |
 
 #### HP 惠普
 
