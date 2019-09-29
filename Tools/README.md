@@ -8,9 +8,9 @@
 
 - [WebDD v1.7](WebDD.command)
 
-- webdriver.sh 项目仓库：https://github.com/vulgo/webdriver.sh 
+- webdriver.sh 项目仓库：<https://github.com/vulgo/webdriver.sh>
 
-  Nvidia webdriver驱动下载：https://vulgo.github.io/nvidia-drivers/
+  Nvidia webdriver驱动下载：<https://vulgo.github.io/nvidia-drivers/>
 
   ```bash
   brew tap vulgo/repo
@@ -48,16 +48,57 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/daliansky/Hackintosh/maste
 
 输出效果见上图
 
+## 一条命令解决时间不同步问题：
+
+> 两种方法，选项其中一个即可。
+
+### Windows下操作：
+
+`Win+x`选择管理员模式进入`CMD`
+执行以下命令：
+
+```bash
+Reg add HKLM\SYSTEM\CurrentControlSet\Control\TimeZoneInformation /v RealTimeIsUniversal /t REG_DWORD /d 1
+```
+
+### macOS下操作：
+
+打开终端，输入命令：
+
+```bash
+sudo sh -c "$(curl -kfsSL https://raw.githubusercontent.com/hieplpvip/LocalTime-Toggle/master/fix_time_osx.sh)"
+```
 
 
+
+## 微信小助手
+
+打开终端，输入命令：
+
+```bash
+curl -o- -L https://raw.githubusercontent.com/lmk123/oh-my-wechat/master/install.sh | bash -s
+```
+
+## 微信助手
+
+打开终端，输入命令：
+
+```bash
+cd ~/Downloads && rm -rf MacWeChatPlugin && git clone https://github.com/cuiyu8580/MacWeChatPlugin.git --depth=1 && ./MacWeChatPlugin/Other/Install.sh
+```
+
+
+>>>>>>> Stashed changes
 ## 一条命令显示USB数量
 
-打开终端，输入命令：<br />
+打开终端，输入命令：
 
 ```bash
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/daliansky/Hackintosh/master/Tools/usb_Ports)"
 ```
+
 输出如下：
+
 ```bash
 +--XHC@14IOPCIDevice
 |+--XHC@14000000
@@ -87,14 +128,65 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/daliansky/Hackintosh/maste
 +--BCM20702A0@14800000AppleUSBDevice
 ```
 
+## 一键截屏，方法来自[绿帽兄](https://github.com/lihaoyun6)
+
+打开终端，输入命令：
+
+```bash
+[[ ! -x "/tmp/msss" ]] && (curl -fsSL -o /tmp/msss https://raw.githubusercontent.com/daliansky/Hackintosh/master/Tools/msss && chmod a+x /tmp/msss && open $(/tmp/msss -v)) || open $(/tmp/msss -v)
+```
+
+也可以下载到本地执行：
+
+```bash
+$ msss -h   帮助信息
+$ msss -v   回显存储的截屏文件名，配合使用`open`直接显：`open $(msss -v)`
+$ msss -d 0 就是截取所有显示器并自动拼接
+$ msss -d 1 就是截取1号主显示器
+$ msss -d 2 就是截取第二台显示器
+$ msss -f 手动指定截图文件名和保存路径，比如：`msss -f ~/Desktop/111.png` 将截屏保存到桌面上
+```
+
+## 一键变频脚本自动生成`CPUFriend.kext`
+
+- 使用前请先阅读[CPUFriend - WARNING](https://github.com/acidanthera/CPUFriend/blob/master/Instructions.md#warning)
+- 在终端输入以下命令并回车：
+
+```bash
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/stevezhengshiqi/one-key-cpufriend/master/one-key-cpufriend.sh)"
+```
+
+- 把桌面上的 `CPUFriend.kext` 和 `CPUFriendDataProvider.kext` 复制进 `/CLOVER/kexts/Other/` 并重启。
+
+详细说明请[移步](https://github.com/stevezhengshiqi/one-key-cpufriend/blob/master/README_CN.md)
+
 ## 提高github/gitalk访问速度
+
+打开终端，输入命令：
 
 ```bash
 cat /etc/hosts
 # github.com
-192.30.253.113	github.com
-192.30.253.112	github.com
-192.30.255.117	api.github.com
-192.30.255.116	api.github.com
+192.30.253.113  github.com
+192.30.253.112  github.com
+192.30.255.117  api.github.com
+192.30.255.116  api.github.com
 ```
 
+## 运用iasl编译dsl文件
+
+### 使用RehabMan的iasl62（ACPI标准6.2）
+
+打开终端，输入命令：
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/daliansky/Hackintosh/master/Tools/iasl-RM -o /tmp/iasl-RM && chmod +x /tmp/iasl-RM && sh -c /tmp/iasl-RM -l <dsl文件路径>
+```
+
+### 使用ACPICA的iasl63（ACPI标准6.3）
+
+打开终端，输入命令：
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/daliansky/Hackintosh/master/Tools/iasl63 -o /tmp/iasl63 && chmod +x /tmp/iasl63 && sh -c /tmp/iasl63 -l <dsl文件路径>
+```
