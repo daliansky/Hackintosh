@@ -299,7 +299,7 @@
 | 暗影精灵4 i5-8300H GTX1050Ti            | [链接](https://github.com/canwdev/omen15dc-hackintosh)       |                                                              |                                                              |
 | 暗影精灵2                            |[链接](https://github.com/Arecall/-Mac-os) |            |          |
 | 暗影精灵 II 代Pro <br />HP OMEN 15-ax214TX |[链接](https://github.com/ZGGSONG/HP-OMEN-15-ax214TX-Hackintosh) | | |
-| 暗影精灵2 Pro HP OMEN 15-ax225TX                             |[链接](https://github.com/Cruii/HP-OMEN-15-ax225TX) |            |          |
+| 暗影精灵2 Pro HP OMEN 15-ax225TX                             |[链接](https://github.com/Cruii/HP-OMEN-15-ax225TX) [链接](https://github.com/XStar-Dev/HP_OMEN-2Pro_Hackintosh) |            |          |
 | HP暗影精灵3 |[链接](https://github.com/bessyjl/HP-OMEN-3-Hackintosh) | | 还有挖坑的，看看啥时候能埋人 |
 | 暗影精灵I (惠普PAVILION Gaming NB 15-ak039TX) |[链接](https://github.com/lgs3137/PAVILION_Gaming_NB-macOS) | | 除了独显、Intel无线网卡，其他功能模块正常(包括HDMI视频) |
 |惠普光影精靈5 |[链接](https://github.com/Tonymiugrey/Garden-by-miugrey) | | 內含搞定PM981的補丁，可以試試 |
