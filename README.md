@@ -70,6 +70,8 @@
   - 新增机型：`Acer P258-MG`
 - 2019年9月17日 by [skyline75489](https://github.com/skyline75489)
   - 新增机型：`MSI GE63 Raider RGB 8RE`
+- 2019年10月5日 by [sarkrui](https://github.com/sarkrui)
+  - 新增机型：ASRock Z390M Pro4 + i7-9700K + Sapphire RX580 Nitro+ 8G
 
 ### 笔记本部分机型
 
@@ -556,6 +558,7 @@
 | ASRock Z370M Pro4              | [链接](https://github.com/HouCoder/asrock-z370m-pro4-hackintosh) [链接](https://github.com/ljllili23/Hackintosh) | [链接](https://github.com/HouCoder/asrock-z370m-pro4-hackintosh/blob/master/README.md) |                                                 |
 | ASRock Z370 Gaming             | [链接](https://github.com/fangf2018/ASRock-Z370-Gaming-ITX-ac-hackintosh) | [链接](https://github.com/fangf2018/ASRock-Z370-Gaming-ITX-ac-hackintosh/blob/master/README.md) | I7-8700k/RX570                                  |
 | ASRock Z370 Gaming ITX-ac | [链接](https://github.com/fangf2018/ASRock-Z370-Gaming-ITX-ac-hackintosh) |  |  |
+| ASRock Z390M Pro4 mATX | [link](https://github.com/sarkrui/Z390MPro4-i7-9700K-Hackintosh) | | i7-9700K + Sapphire RX580 Nitro+ 8G |
 | ASRock Z390 Phantom Gaming itx | [链接](https://github.com/icyleaf/EFI-ASRock-Z390-Phantom-Gaming-ITX) [链接](https://github.com/bydavy/EFI-ASRock-Z390-Phantom-Gaming) <br />[链接](https://github.com/kcunanan/Jared-PC/) [链接](https://github.com/befuture/EFI-ASRock-Z390-Phantom-Gaming) |                                                              | 华擎 Z390 Phantom Gaming itx/ac                 |
 | ASUS Z97K 4980HQ               | [链接](https://github.com/efsg/ASUS-Z97K-4980HQ-Hackintosh)  |                                                              | I7-4980HQ                                       |
 | Asus Z170-P                    | [链接](https://github.com/Sharlion/z170_6700k_hackintosh)    |                                                              | 华硕Z170-P+6700K+RX470                          |
