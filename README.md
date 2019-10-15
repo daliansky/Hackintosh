@@ -72,6 +72,8 @@
   - 新增机型：`MSI GE63 Raider RGB 8RE`
 - 2019年10月5日 by [sarkrui](https://github.com/sarkrui)
   - 新增机型：ASRock Z390M Pro4 + i7-9700K + Sapphire RX580 Nitro+ 8G
+- 2019年10月5日 by [我意](https://github.com/y010204025)
+  - 新增机型：lenovo miix4(700)、miix510、E470
 
 ### 笔记本部分机型
 
@@ -325,6 +327,7 @@
 | Lenovo G510                        | [链接](https://github.com/Z39/G510-OS-X-Clover-Hotpatch)     | [链接](https://github.com/Z39/G510-OS-X-Clover-Hotpatch/blob/master/README-CN.md) | 感谢：[39军小兵张](http://i.pcbeta.com/space-uid-4472739.html) |
 | ThinkPad E440 | [链接](https://github.com/ZzMark/Thinkpad-E440-Hackintosh) |  |  |
 | ThinkPad E450C                     | [链接](https://github.com/zhangxuan1340/Hackintosh_E450C)    |                                                              |                                                              |
+| ThinkPad E470                     | [链接](https://github.com/y010204025/E470-clover)    |                                                              |                                                              |
 | ThinkPad E480                      | [链接](https://github.com/aliyoge/Hackintosh-ThinkPad-E480)  | [链接](https://github.com/aliyoge/Hackintosh-ThinkPad-E480/blob/master/README.md) |                                                              |
 | ThinkPad E490 | [链接](https://github.com/dievdmitry/Thinkpad-E490-hackintosh) |  | |
 | ThinkPad E540                      | [链接](https://github.com/wwbhl/E540)                        |                                                              |                                                              |
@@ -401,7 +404,10 @@
 | Lenovo Yoga 730 | [链接](https://github.com/dragonflylee/Yoga-730-hackintosh) | | Lenovo Yoga 730-13IKB |
 | Lenovo Z50(40)/70 系列             | [链接](https://github.com/the-braveknight/Lenovo-X50-macOS)  | [链接](https://www.tonymacx86.com/threads/guide-lenovo-z50-70-z40-70-g50-70-g40-70-using-clover-uefi.261787/) | Lenovo Z50-70/Z40-70   Lenovo G50-70/G40-70                  |
 | Lenovo-Miix-520             | [链接](https://github.com/acai66/lenovo-miix-520-hackintosh-10.14-CLOVER) | [链接](https://github.com/acai66/lenovo-miix-520-hackintosh-10.14-CLOVER) | Lenovo-Miix-520          |
-| ThinkPad P52 | [链接](https://github.com/liuyishengalan/ThinkPad-P52-Hackintosh-10.14.X-)   | [链接](https://github.com/liuyishengalan/ThinkPad-P52-Hackintosh-10.14.X-/blob/master/README.md)        ||
+| Lenovo-Miix4            | [链接](https://github.com/Zero-zer0/Miix700-OSX-Hackintosh-Clover) |   | Lenovo-Miix4（700）          |
+| Lenovo-miix510          | [链接](https://github.com/Aexus/hackintosh-ideapad-miix510)   [链接](https://github.com/liuwaei/Lenovo-Miix510-EFI-Clover-for-MacOS-10.14.X) |    | Lenovo-Miix510          |
+| ThinkPad P52 |  [链接](https://github.com/liuyishengalan/ThinkPad-P52-Hackintosh-10.14.X-)   | [链接](https://github.com/liuyishengalan/ThinkPad-P52-Hackintosh-10.14.X-/blob/master/README.md)        |       |
+
 
 #### LG
 
