@@ -206,15 +206,16 @@
 | Dell Inspiron 7567                         | [链接](https://github.com/Doapeat/Dell7567)                  |                                                              |                                                       |
 | Dell Inspiron 7577 | [链接](https://github.com/yakimka/Hackintosh-Dell-7577) | | |
 | Dell Inspiron 7580 | [链接](https://github.com/rogerioadris/hackintosh-dell-7580) | | |
-| Dell Latitude 5290 | [链接](https://github.com/laelsirus/Dell-Latitude-5290-2-in-1-UHD620-iGPU-CLOVER) | [链接](https://github.https://github.com/laelsirus/Dell-Latitude-5290-2-in-1-UHD620-iGPU-CLOVER/blob/master/README.md) | Dell-Latitude-5290 |
+| Dell Latitude E5270 | [链接](https://github.com/thebinh-lg051/Dell-Latitude-E5270-Hackintosh) | | |
+| Dell Latitude E5290 | [链接](https://github.com/laelsirus/Dell-Latitude-5290-2-in-1-UHD620-iGPU-CLOVER) | [链接](https://github.https://github.com/laelsirus/Dell-Latitude-5290-2-in-1-UHD620-iGPU-CLOVER/blob/master/README.md) | Dell-Latitude-5290 |
 | Dell Latitude E5440                        | [链接](https://github.com/soejin/hackintosh-dell-e5440)      |                                                              | Dell E5440                                            |
-| Dell Latitude 5591 | [链接](https://github.com/geowoden/DELL-Latitude-5591_osx-clover) | |  |
+| Dell Latitude E5591 | [链接](https://github.com/geowoden/DELL-Latitude-5591_osx-clover) | |  |
 | Dell Latitude E6330                        | [链接](https://github.com/BladeScraper-Designs/Dell-Latitude-E6330-Mojave-Hackintosh-EFI) |                                                              |                                                       |
 | Dell Latitude E6430                        | [链接](https://github.com/kinoute/Hack-Dell-Latitude-E6430)  |                                                              |                                                       |
-| Dell Latitude 7280                         | [链接](https://github.com/conradlyn/Hackintosh-EFI-Dell-Latitude_7280) |                                                              |                                                       |
-| Dell Latitude 7370 | [链接](https://github.com/mikeTOliu/dell-latitude7370-Hackintosh-EFI-backup) | | |
+| Dell Latitude E7280                        | [链接](https://github.com/conradlyn/Hackintosh-EFI-Dell-Latitude_7280) |                                                              |                                                       |
+| Dell Latitude E7370 | [链接](https://github.com/mikeTOliu/dell-latitude7370-Hackintosh-EFI-backup) | | |
 | Dell Latitude E7440                        | [链接](https://github.com/ameeno/Dell-E7440-Hackintosh)      |                                                              |                                                       |
-| Dell Latitude 7490 | [链接](https://github.com/Swung0x48/Dell-Latitude-7490-Hackintosh-EFI) | | |
+| Dell Latitude E7490 | [链接](https://github.com/Swung0x48/Dell-Latitude-7490-Hackintosh-EFI) | | |
 | Dell OptiPlex 3050                         | [链接](https://github.com/Leif160519/Dell-OptiPlex-3050-EFI) | [链接](https://github.com/Leif160519/Dell-OptiPlex-3050-EFI/blob/master/README.md) |                                                       |
 | Dell OptiPlex 3060 | [链接](https://github.com/Drovosek01/hackintosh_DELL_OptiPlex_3060_i5-8500) |  | |
 | Dell Precision 5510                        | [链接](https://github.com/soulomoon/Dell-Precision-5510-OSX) [链接](https://github.com/PLChinDev/Dell-Precision-5510-Mojave) |                                                              | Dell-Precision-5510<br />链接2支持`Catalina`          |
@@ -259,15 +260,6 @@
 | 神舟精盾系列 K590S      | [链接](https://github.com/JokerHYC/K590S-HACKINTOSH)     |  |                   |
 | 神舟GX8-P775TM      | [链接](https://github.com/JokerHYC/GX8CP5-P775TM-HACKINTOSH)     |  |       未来人类X711，战神GX8-CP5，战神GX8-CR6，炫龙V87等使用蓝天p775tm模具的10*0系显卡都支持            |
 
-
-#### Shinelon 炫龙
-
-| 机型名称               | 发布地址                                                     | 教程地址                                                     | 备注              |
-| ---------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ----------------- |
-| 炫龙 A40L-i7 | [链接](https://github.com/i0Ek3/Hackintosh_4_Hasee_Shinelon_A40L) | [链接](https://github.com/i0Ek3/Hackintosh_4_Hasee_Shinelon_A40L/blob/master/README.md) |           |
-| 炫龙 耀7000                  |  [链接](https://github.com/jinmu333/Shinelon_YAO_7000_efi) | [链接](https://github.com/jinmu333/Shinalon_YAO_7000_efi/blob/efi/README.md) |                   |
-| 炫龙 T3TI | [链接](https://github.com/283330601/shinelon-t3ti-Hackintosh) |  | 9750H+1660TI |
-| 炫龙笔记本 DC2      | [链接](https://github.com/bavelee/DC2_Hackintosh)  [链接DC2_DD](https://github.com/yuedashen88/DC2_EFI)          | [链接](https://bavelee.cn/index.php/archives/60/)            |  yuedashen88基于大佬BaveLee之前的EFI的修改版本,修复了HDMI热插拔问题                 |
 
 #### HP 惠普
 
@@ -457,6 +449,16 @@
 | MSI-Z77A-G45           | [链接](https://github.com/ac1ra/MSI-Z77A-G45-Hackintosh) |                                                              |           |
 | clover-z390-aorus-pro-wifi-9700k-rx580 |[链接](https://github.com/cheneyveron/hackintosh-clover-z390-aorus-pro-wifi-9700k-rx580) | [链接](https://github.com/cheneyveron/hackintosh-clover-z390-aorus-pro-wifi-9700k-rx580/blob/master/README.md)    ||
 
+#### Shinelon 炫龙
+
+| 机型名称               | 发布地址                                                     | 教程地址                                                     | 备注              |
+| ---------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ----------------- |
+| 炫龙 A40L-i7 | [链接](https://github.com/i0Ek3/Hackintosh_4_Hasee_Shinelon_A40L) | [链接](https://github.com/i0Ek3/Hackintosh_4_Hasee_Shinelon_A40L/blob/master/README.md) |           |
+| 炫龙 耀7000                  |  [链接](https://github.com/jinmu333/Shinelon_YAO_7000_efi) | [链接](https://github.com/jinmu333/Shinalon_YAO_7000_efi/blob/efi/README.md) |                   |
+| 炫龙毒刺x6 | [链接](https://github.com/JS1993/Shinelon-X6-EFI) |  | |
+| 炫龙 T3TI | [链接](https://github.com/283330601/shinelon-t3ti-Hackintosh) |  | 9750H+1660TI |
+| 炫龙笔记本 DC2      | [链接](https://github.com/bavelee/DC2_Hackintosh)  [链接DC2_DD](https://github.com/yuedashen88/DC2_EFI)          | [链接](https://bavelee.cn/index.php/archives/60/)            |  yuedashen88基于大佬BaveLee之前的EFI的修改版本,修复了HDMI热插拔问题                 |
+
 #### XiaoMi 小米
 
 | 机型名称           | 发布地址                                                     | 教程地址                                                     | 备注                                           |
@@ -495,6 +497,7 @@
 | ---------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ----------------- |
 | Clevo P950HR                       | [链接](https://github.com/MegaCookie/Clevo-P950HR-Hackintosh) |                                                              | 蓝天 P950HR，猜的 |
 | 火影地狱火X6                       | [链接](https://github.com/gaofeicm/DiYuHuo-X6-MacOS-Mojave-10.14.3-Hackintosh) |                                                              |                   |
+| 炫龙毒刺x6 | [链接](https://github.com/JS1993/Shinelon-X6-EFI) | | |
 | 同方 GI5CN5E | [链接](https://github.com/rodgomesc/AVELL-G1513-FOX-7-TONG-FANG-GI5CN5E-HACKINTOSH) | | |
 | Razer Blade Stealth 雷蛇灵刃潜行版 | [链接](https://github.com/widmonstertony/razer-blade-stealth-hackintosh) |                                                              |                   |
 | 三星Samsung NP300E4C               | [链接](https://github.com/installgento0/NP300E4C-hackintosh) |                                                              |                   |
@@ -652,4 +655,4 @@
 | ------------------------------------------------------------ | ---------------------------------------------------------- | ---------------------------------------------------- |
 | [![paypal_daliansky](https://7.daliansky.net/paypal_daliansky.png)](https://www.paypal.me/daliansky) | ![wechatpay_160](http://7.daliansky.net/wechatpay_160.jpg) | ![alipay_160](http://7.daliansky.net/alipay_160.jpg) |
 
-[![img](https://img.shields.io/github/stars/daliansky/Hackintosh.svg?color=ff69b4&label=%E7%82%B9%E8%B5%9E&logoColor=ff69b4&style=social)](https://github.com/daliansky/Hackintosh) [![img](https://img.shields.io/github/followers/daliansky.svg?label=%E7%B2%89%E4%B8%9D&logoColor=success&style=social)](https://github.com/daliansky/Hackintosh) ![img](https://img.shields.io/github/contributors/daliansky/Hackintosh.svg?color=red&label=%E8%B4%A1%E7%8C%AE%E4%BA%BA%E6%95%B0) [![img](https://img.shields.io/github/last-commit/daliansky/Hackintosh.svg?color=orange&label=%E6%9C%80%E8%BF%91%E6%8F%90%E4%BA%A4)](https://github.com/daliansky/Hackintosh) [![img](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu/)
+[![img](https://img.shields.io/github/stars/daliansky/Hackintosh.svg?color=ff69b4&label=%E7%82%B9%E8%B5%9E&logoColor=ff69b4&style=social)](https://github.com/daliansky/Hackintosh) [![img](https://img.shields.io/github/followers/daliansky.svg?label=%E7%B2%89%E4%B8%9D&logoColor=success&style=social)](https://github.com/daliansky/Hackintosh) ![img](https://img.shields.io/github/contributors/daliansky/Hackintosh.svg?color=red&label=%E8%B4%A1%E7%8C%AE%E4%BA%BA%E6%95%B0) [![img](https://img.shields.io/github/last-commit/daliansky/Hackintosh.svg?color=orange&label=%E6%9C%80%E8%BF%91%E6%8F%90%E4%BA%A4)](https://github.com/daliansky/Hackintosh) [![img](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu/)i
