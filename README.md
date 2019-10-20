@@ -345,6 +345,7 @@
 | ThinkPad T430s | [链接](https://github.com/hunga1ok/hackintosh-t430si7vga-clover-config) | | |
 | ThinkPad T440p                     | [链接](https://github.com/evy0311/t440p) [链接](https://github.com/jloisel/t440p) [链接](https://github.com/notthebee/t440p-hackintosh)| [链接](https://github.com/evy0311/t440p/blob/master/README.md) |                                                              |
 | ThinkPad T450 | [链接](https://github.com/jsassu20/ThinkPad-T450-Mojave) |  | |
+| ThinkPad T450s | [链接](https://github.com/EchoEsprit/Hackintosh-Catalina-OpenCore-Lenovo-T450s-efi) |  | |
 | ThinkPad T460 系列                 | [链接](https://github.com/tluck/Lenovo-T460-Clover)          | [链接](http://www.insanelymac.com/forum/topic/315451-guide-lenovo-t460-macos-with-clover/) | 可支持 T460、T560、T470<br /> 和 T470p4 款机型               |
 | ThinkPad T460p                     | [链接](https://github.com/totemofwolf/Thinkpad-T460p-OSX-EFI) |                                                              |                                                              |
 | ThinkPad T460s | [链接](https://github.com/nicogig/T460s-Clover) | | |
