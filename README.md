@@ -507,6 +507,7 @@
 | Clevo P950HR                       | [链接](https://github.com/MegaCookie/Clevo-P950HR-Hackintosh) |                                                              | 蓝天 P950HR，猜的 |
 | 火影地狱火X6                       | [链接](https://github.com/gaofeicm/DiYuHuo-X6-MacOS-Mojave-10.14.3-Hackintosh) |                                                              |                   |
 | 炫龙毒刺x6 | [链接](https://github.com/JS1993/Shinelon-X6-EFI) | | |
+| Airbook | [链接](https://github.com/nabaonan/airbook-6200u-efi) | | |
 | 同方 GI5CN5E | [链接](https://github.com/rodgomesc/AVELL-G1513-FOX-7-TONG-FANG-GI5CN5E-HACKINTOSH) | | |
 | Razer Blade Stealth 雷蛇灵刃潜行版 | [链接](https://github.com/widmonstertony/razer-blade-stealth-hackintosh) |                                                              |                   |
 | 三星Samsung NP300E4C               | [链接](https://github.com/installgento0/NP300E4C-hackintosh) |                                                              |                   |
