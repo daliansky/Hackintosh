@@ -10,7 +10,7 @@
 > 所有文件均归属于原作者，本清单只列出链接。如果您不希望你的链接被这份清单收录，请发送邮件到 [y010204025@126.com](mailto:y010204025@126.com),我将移除链接
 > 清单收录了 4 个月以内的有人长期维护并更新过 EFI 的机型链接，如果有新的链接希望收录到这份清单，请发送邮件到 [y010204025@126.com](mailto:y010204025@126.com)
 > 致谢：感谢一直为黑苹果进行开发的各位开发者和愿意共享出 EFI 文件的开发者，谢谢！
-> 最近有好几个人发邮件，请求适配机型。
+> 最近有部分github作者删除了repo,有失效的请大家反馈，我会及时跟进删除相关链接。
 
 - 建议大家使用[yandex搜索引擎](https://yandex.ru)、[github](https://github.com)先搜索下有没有自己的机型，型号一样，机型配置有差异可以忽略，使用你的机器型号+clover、型号+EFI、型号+mac、型号+Hackintosh等进行搜索。例如我最近更新了 elitebook840g3、840g4等几个机型的 EFI，就可以使用840g3+clover 840g3+EFI 等关键词进行搜索。
 
@@ -34,7 +34,7 @@
 
 **感谢各位维护人员的辛勤付出，希望在更新时能够提供必要的更新内容说明，在引用别人的补丁、或者是某些特殊版本的驱动是给出驱动的来源链接，必要时还请加入一些 credit，黑苹果更多的是大家群策群力、开放共享努力的结果。**
 
-*希望整个黑苹果领域能够进入良性循环状态，不用再重复造很多轮子，也希望那些使用别人成果收费的人，必要时还请留出文件来源和相关致谢，额，你付出了时间和精力收费确实是可以的，只是别整天这样独家、那样xx的，使用别人的东西，不丢人，做些声明不会抹掉你的存在。*
+*希望整个黑苹果领域能够进入良性循环状态，不用再重复造很多轮子，也希望那些使用别人成果收费的人，必要时还请留出文件来源和相关致谢。*
 
 ### 同步更新：[黑果小兵的部落阁](<https://blog.daliansky.net/Hackintosh-long-term-maintenance-model-checklist.html>)
 
@@ -200,7 +200,7 @@
 | Dell Inspiron 5559                         | [链接](https://github.com/cbabb/dell-5559)                   |                                                              | Dell 5559                                             |
 | Dell Inspiron 5567                         | [链接](https://github.com/MuntashirAkon/HackintoshDellInspiron5567) |                                                              | i3-7100u, Intel HD620                                 |
 | Dell Inspiron 5570                        | [链接](https://github.com/Mateo1234454545/Dell-5570-hackintosh) |                                                              |                                                       |
-| Dell Inspiron 5577                         | [链接](https://github.com/imAmouse/Clover-EFI-For-Dell-5577) |                                                              |                                                       |
+| Dell Inspiron 5577                         | [链接](https://github.com/imAmouse/Clover-EFI-For-Dell-5577) [链接](https://github.com/sachangregory/Dell-Inspiron-5577-Hackintosh)|                                                              |                                                       |
 | Dell Inspiron 7000 系列                    | [链接](https://github.com/daliansky/dell7000)                | [链接](https://github.com/daliansky/dell7000/blob/master/README.md) | Dell Inspiron 7000 I/II (7x60/7x72)                   |
 | Dell Inspiron 7348 | [链接](https://github.com/MoozIiSP/dell-7348-hackintosh) |  |  |
 | Dell Inspiron 14 7447 Pandora              | [链接](https://github.com/Am1nCmd/Dell-Inspiron-14-7447-Pandora-Hackintosh) |                                                              |                                                       |
@@ -239,6 +239,8 @@
 | Dell XPS 9550                              | [链接](https://github.com/wmchris/DellXPS15-9550-OSX) [链接](https://github.com/corenel/XPS9550-macOS)[链接](https://github.com/xxxzc/xps15-9550-macos) | [链接](https://github.com/wmchris/DellXPS15-9550-OSX/blob/10.14/README.md) [链接](https://github.com/corenel/XPS9550-macOS/blob/master/README.md) | Dell XPS 9550                                         |
 | Dell XPS 9560                              | [链接](https://github.com/gunslinger23/XPS15-9560-High-Sierra) | [链接](https://github.com/gunslinger23/XPS15-9560-High-Sierra/blob/master/README.md) | Dell XPS 9560                                         |
 | Dell XPS 9570                              | [链接](https://github.com/Xigtun/xps-9570-mojave) [链接](https://github.com/bavariancake/XPS9570-macOS) <br />[链接](https://github.com/LuletterSoul/Dell-XPS-15-9570-macOS-Mojave) |                                                              | 感谢：[LuletterSoul](https://github.com/LuletterSoul) |
+| OptiPlex-7060and7070    |[链接](https://github.com/W-MS/OptiPlex-7060and7070-Catalina)        |       |       |
+
 
 #### Gigabyte 技嘉
 
@@ -314,6 +316,7 @@
 | 华为 Matebook 14         | [链接](https://github.com/frezs/MateBook14-Hackintosh)       |                                                              |                                    |
 | 华为 Matebook D          | [链接](https://github.com/MOJUNSHOU/MateBooK-D)              |                                                              | 华为MateBook D2018 i5-8250U 15.6寸 |
 | 荣耀 Magicbook           | [链接](https://github.com/hjmmc/Honor-Magicbook)             | [链接](https://github.com/hjmmc/Honor-Magicbook/blob/master/README_CN.md) |                                    |
+| 荣耀 Magicbook-Pro-16.1           | [链接](https://github.com/GatesYang/Magicbook-Pro-16.1-Hackintosh)             |  |                                    |
 
 #### Lenovo 联想
 
@@ -458,6 +461,7 @@
 | MSI GS73VR 7RF            | [链接](https://github.com/dogukanoksuz/msi-gs73vr-7rf-macOS) |                                                              |           |
 | MSI-Z77A-G45           | [链接](https://github.com/ac1ra/MSI-Z77A-G45-Hackintosh) |                                                              |           |
 | clover-z390-aorus-pro-wifi-9700k-rx580 |[链接](https://github.com/cheneyveron/hackintosh-clover-z390-aorus-pro-wifi-9700k-rx580) | [链接](https://github.com/cheneyveron/hackintosh-clover-z390-aorus-pro-wifi-9700k-rx580/blob/master/README.md)    ||
+|MSI Z390   |[链接](https://github.com/MonkeySdkCom/EFI-MSI-Z390-Tomahawk)    |     |     |
 
 #### Shinelon 炫龙
 
@@ -468,6 +472,7 @@
 | 炫龙毒刺x6 | [链接](https://github.com/JS1993/Shinelon-X6-EFI) |  | |
 | 炫龙 T3TI | [链接](https://github.com/283330601/shinelon-t3ti-Hackintosh) |  | 9750H+1660TI |
 | 炫龙笔记本 DC2      | [链接](https://github.com/bavelee/DC2_Hackintosh)  [链接DC2_DD](https://github.com/yuedashen88/DC2_EFI)          | [链接](https://bavelee.cn/index.php/archives/60/)            |  yuedashen88基于大佬BaveLee之前的EFI的修改版本,修复了HDMI热插拔问题                 |
+| 神舟战神Z6      |[链接](https://github.com/hevervie/Hackintosh_HASEE_Z6-KP7S1)        |       |       |
 
 #### XiaoMi 小米
 
@@ -486,6 +491,9 @@
 | XiaoMi Pro 系列    | [链接](https://github.com/daliansky/XiaoMi-Pro/releases)              | [链接](https://blog.daliansky.net/MacOS-installation-tutorial-XiaoMi-Pro-installation-process-records.html)         | 小米 Pro 系列                                  |
 | XiaoMi Ruby 15.6   | [链接](https://github.com/Jxh98/XiaoMi-Ruby-15.6-2019) [小米ruby2019集显版](https://github.com/XenOriginal/XiaoMi-Ruby-15.6-UMA-only)      |                                                              | 目前ALC256声卡外放无法驱动                     |
 | XiaoMi 游戏本 8 代 | [链接](https://github.com/daliansky/XiaoMi-GLP)              |                                                              | 小米游戏本，猜的                               |
+| XiaoMi Air    |[链接](https://github.com/hevervie/Hackintosh_XIAOMI_AIR-13.3)   |     |喜欢买小米的，自己区分去吧，我是分不清楚了     |     
+| XiaoMi Air      |[链接](https://github.com/wilsonnkwan/Hackintosh-Xiaomi-Air-13.3-2018-Catalina)      |     |     |
+
 
 #### Intel 英特尔
 
@@ -494,7 +502,7 @@
 | Intel DH67GD, DH67BL, <br />DH67CF, DH67CL 系列主板 | [链接](https://github.com/RehabMan/Intel-DH67XX-DSDT-Patch)  | [链接](https://www.tonymacx86.com/threads/guide-intel-dh67xx-with-hd3000-using-clover-uefi-hotpatch.233257/) | Intel DH67GD, DH67BL, <br />DH67CF, DH67CL 系列主板 |
 | Intel NUC 5、6、7、8 系列                           | [链接](https://github.com/RehabMan/Intel-NUC-DSDT-Patch)     | [链接](https://www.tonymacx86.com/threads/guide-intel-kaby-lake-nuc7-using-clover-uefi-nuc7i7bnh-nuc7i5bnk-nuc7i3bnh-etc.261711/) | mini 主机                                           |
 | NUC8I5BEH                                           | [链接](https://github.com/dongyubin/nuc8i5beh)               | [链接](https://chengxuxiaohei.cn/mac-anzhuang.html) [链接](https://osy.gitbook.io/hac-mini-guide/) |                                                     |
-| NUC8i7BEH                                           | [链接](https://github.com/sarkrui/NUC8i7BEH-Hackintosh-Build) | [链接](https://osy.gitbook.io/hac-mini-guide/)               |                                                     |
+| NUC8i7BEH                                           | [链接](https://github.com/sarkrui/NUC8i7BEH-Hackintosh-Build)[链接](https://github.com/wilsonnkwan/Hackintosh-NUC8i7BEH-Catalina) | [链接](https://osy.gitbook.io/hac-mini-guide/)               |                                                     |
 | NUC7i7BNH                                           | [链接](https://github.com/calebchow9/Intel-NUC7i7BNH-Hackintosh) |                                                              |                                                     |
 | Surface Pro 3                                       | [链接](https://github.com/hacker1024/Hackintosh-Clover-SurfacePro3) |                                                              |                                                     |
 | Surface Pro 4                                       | [链接](https://github.com/Neil-Steven/SurfacePro4-Hackintosh) [链接](https://github.com/bigsadan/surface-pro-4-hackintosh-10.14.3) | [链接](https://github.com/Neil-Steven/SurfacePro4-Hackintosh/blob/master/README.md) | surfacePro 4                                        |
