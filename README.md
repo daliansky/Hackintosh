@@ -349,6 +349,7 @@
 | ThinkPad T420 系列                 | [链接](https://github.com/tluck/Lenovo-T420-Clover)          | [链接](https://www.insanelymac.com/forum/topic/285678-lenovo-thinkpad-t420-with-uefi-only/?page=20&tab=comments#comment-1952283) | 包含 T420、T420s、T520、X220X220，<br />可通过修改支持到 10.14.x |
 | ThinkPad T430 | [链接](https://github.com/hai666l/T430-EFI) |  |  |
 | ThinkPad T430s | [链接](https://github.com/hunga1ok/hackintosh-t430si7vga-clover-config) | | |
+| ThinkPad T440s | [链接](https://github.com/thebinh-lg051/ThinkPad-T440s-Hackintosh) | | |
 | ThinkPad T440p                     | [链接](https://github.com/evy0311/t440p) [链接](https://github.com/jloisel/t440p) [链接](https://github.com/notthebee/t440p-hackintosh)| [链接](https://github.com/evy0311/t440p/blob/master/README.md) |                                                              |
 | ThinkPad T450 | [链接](https://github.com/jsassu20/ThinkPad-T450-Mojave) |  | |
 | ThinkPad T450s | [链接](https://github.com/EchoEsprit/Hackintosh-Catalina-OpenCore-Lenovo-T450s-efi) |  | |
