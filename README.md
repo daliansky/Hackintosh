@@ -76,6 +76,9 @@
   - 新增机型：lenovo miix4(700)、miix510、E470
 - 2019年10月19日 by [kongbg](https://github.com/kongbg)
   - 新增机型：ASUS K555LD
+- 2019年10月28日 by [W-MS](https://github.com/W-MS)
+  - 新增机型：Dell OptiPlex 7060 and 7070
+  
 ### 笔记本部分机型
 
 #### Acer 宏碁
@@ -239,7 +242,6 @@
 | Dell XPS 9550                              | [链接](https://github.com/wmchris/DellXPS15-9550-OSX) [链接](https://github.com/corenel/XPS9550-macOS)[链接](https://github.com/xxxzc/xps15-9550-macos) | [链接](https://github.com/wmchris/DellXPS15-9550-OSX/blob/10.14/README.md) [链接](https://github.com/corenel/XPS9550-macOS/blob/master/README.md) | Dell XPS 9550                                         |
 | Dell XPS 9560                              | [链接](https://github.com/gunslinger23/XPS15-9560-High-Sierra) | [链接](https://github.com/gunslinger23/XPS15-9560-High-Sierra/blob/master/README.md) | Dell XPS 9560                                         |
 | Dell XPS 9570                              | [链接](https://github.com/Xigtun/xps-9570-mojave) [链接](https://github.com/bavariancake/XPS9570-macOS) <br />[链接](https://github.com/LuletterSoul/Dell-XPS-15-9570-macOS-Mojave) |                                                              | 感谢：[LuletterSoul](https://github.com/LuletterSoul) |
-| OptiPlex-7060and7070    |[链接](https://github.com/W-MS/OptiPlex-7060and7070-Catalina)        |       |       |
 
 
 #### Gigabyte 技嘉
@@ -596,6 +598,7 @@
 | CM238 i7-8950H UHD630 ALC269   | [链接](https://github.com/kkzzhizhou/S200H_I7-8750H_Hackintosh) |                                                              | S200H_I7-8750H 小主机                           |
 | Dell OptiPlex 3050             | [链接](https://github.com/Leif160519/Dell-OptiPlex-3050-EFI) |                                                              |                                                 |
 | Dell OptiPlex 9020M            | [链接](https://github.com/mingcheng/dell-optiplex-9020m-hackintosh) [链接](https://github.com/JimLee1996/Hackintosh_OptiPlex_9020) |                                                              | Disable MSR 0xE2 (i.e. cfg lock) `setup_var 0xDA2 0x00`<br /> Increase DVMT to 96M `setup_var 0x263 0x03` |
+| Dell OptiPlex 7060 7070    |[链接](https://github.com/W-MS/OptiPlex-7060and7070-Catalina)        |       |       Increase DVMT to 64M `setup_var 0x8DC 0x2` ，不支持96M模式，切勿在使用0x3或在其他型号使用此命令 |
 | Dell Precision Tower 3620 | [链接](https://github.com/fivestrong/Hackintosh-Dell-Precision-T-3620) | |  |
 | Lenovo M93P           | [链接](https://github.com/mingcheng/lenovo-thinkcentre-m93p-hackintosh) |      | 联想 M93P 系列主机 |
 | Lenovo ThinkCentre M720Q | [链接](https://github.com/fronttang/Lenovo-ThinkCentre-M720Q-Hackintosh) | |  |
