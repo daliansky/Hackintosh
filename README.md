@@ -105,7 +105,7 @@
 | Acer V3-471G            | [链接](https://github.com/oneveb/Acer-V3-471G)               |                                                              |                     |
 | Acer-V3-572G-51MR       | [链接](https://github.com/AnoldmanLiSir/Acer-V3-572G-51MR)   | [链接](https://github.com/AnoldmanLiSir/Acer-V3-572G-51MR/blob/master/README.md) |                     |
 | Acer V5-572             | [链接](https://github.com/7ack/Acer-V5-572-Hackintosh)       | [链接](https://github.com/7ack/Acer-V5-572-Hackintosh/blob/master/readme.md) |                     |
-| Acer Vn7-793g           | [链接](https://github.com/cedric-bour/793g-hackintosh-efi)   |                                                              |                     |
+| Acer VN7-793g           | [链接](https://github.com/cedric-bour/Acer-VN7-793g-Hackintosh) |                                                              |                     |
 | Acer-K50-10-525V       | [链接](https://github.com/mingslife/Acer-K50-10-525V-Hackintosh) |                                                              |                     |
 |宏碁暗影骑士3          |[链接](https://github.com/Chakid/Acer-VX15-Hackintosh)  |    |    |
 |ACER-ASPIRE-C24-865          |[链接](https://github.com/Sevendaye/ACER-ASPIRE-C24-865-Clover)  |    |    |
@@ -146,6 +146,7 @@
 | ASUS S4000VA                      | [链接](https://github.com/stonexing/Asus-S4000VA8550-Hackintosh) |                                                              | 华硕灵耀 i7-8550U                                          |
 | Asus S4100V                       | [链接](https://github.com/loong1992/Asus_S4100VN8250U_Hackintosh) |                                                              |                                                            |
 | Asus S510UQ | [链接](https://github.com/KINGKONG2808/Hackintosh_ASUSS510UQ) | | |
+| Asus S5300FN | [链接](https://github.com/Jie2GG/Hackintosh-ASUS-S5300FN) | | 华硕灵耀2代 |
 | Asus S530UN                       | [链接](https://github.com/tunglamvghy/AsusS530UN-hackintosh) |                                                              |                                                            |
 | Asus TUF Gaming FX504             | [链接](https://github.com/PoomSmart/Asus-FX504GE-Hackintosh) [链接](https://github.com/angeljavan/AUSU-FX80GE-FX504Ge-efi) | [链接](https://github.com/PoomSmart/Asus-FX504GE-Hackintosh/blob/master/README.md) | 华硕 FX80GE FX504GE                                        |
 | Asus UX501JW                      | [链接](https://github.com/firefly917/Hackintosh_Asus-UX501JW_Mojave) |                                                              |                                                            |
@@ -215,6 +216,7 @@
 | Dell Inspiron 7567                         | [链接](https://github.com/Doapeat/Dell7567)                  |                                                              |                                                       |
 | Dell Inspiron 7577 | [链接](https://github.com/yakimka/Hackintosh-Dell-7577) | | |
 | Dell Inspiron 7580 | [链接](https://github.com/rogerioadris/hackintosh-dell-7580) | | |
+| Dell Inspiron 7591 | [链接](https://github.com/tctien342/Dell-Inspiron-7591-Hackintosh) | | |
 | Dell Latitude E5270 | [链接](https://github.com/thebinh-lg051/Dell-Latitude-E5270-Hackintosh) | | |
 | Dell Latitude E5290 | [链接](https://github.com/laelsirus/Dell-Latitude-5290-2-in-1-UHD620-iGPU-CLOVER) | [链接](https://github.https://github.com/laelsirus/Dell-Latitude-5290-2-in-1-UHD620-iGPU-CLOVER/blob/master/README.md) | Dell-Latitude-5290 |
 | Dell Latitude E5440                        | [链接](https://github.com/soejin/hackintosh-dell-e5440)      |                                                              | Dell E5440                                            |
@@ -495,7 +497,7 @@
 | XiaoMi Pro 系列    | [链接](https://github.com/daliansky/XiaoMi-Pro/releases)              | [链接](https://blog.daliansky.net/MacOS-installation-tutorial-XiaoMi-Pro-installation-process-records.html)         | 小米 Pro 系列                                  |
 | XiaoMi Ruby 15.6   | [链接](https://github.com/Jxh98/XiaoMi-Ruby-15.6-2019) [小米ruby2019集显版](https://github.com/XenOriginal/XiaoMi-Ruby-15.6-UMA-only)      |                                                              | 目前ALC256声卡外放无法驱动                     |
 | XiaoMi 游戏本 8 代 | [链接](https://github.com/daliansky/XiaoMi-GLP)              |                                                              | 小米游戏本，猜的                               |
-| XiaoMi Air    |[链接](https://github.com/hevervie/Hackintosh_XIAOMI_AIR-13.3)   |     |喜欢买小米的，自己区分去吧，我是分不清楚了     |     
+| XiaoMi Air    |[链接](https://github.com/hevervie/Hackintosh_XIAOMI_AIR-13.3)   |     |喜欢买小米的，自己区分去吧，我是分不清楚了     |
 | XiaoMi Air      |[链接](https://github.com/wilsonnkwan/Hackintosh-Xiaomi-Air-13.3-2018-Catalina)      |     |     |
 
 
@@ -520,6 +522,7 @@
 | Clevo P950HR                       | [链接](https://github.com/MegaCookie/Clevo-P950HR-Hackintosh) |                                                              | 蓝天 P950HR，猜的 |
 | 火影地狱火X6                       | [链接](https://github.com/gaofeicm/DiYuHuo-X6-MacOS-Mojave-10.14.3-Hackintosh) |                                                              |                   |
 | 炫龙毒刺x6 | [链接](https://github.com/JS1993/Shinelon-X6-EFI) | | |
+|  |  | | |
 | Airbook | [链接](https://github.com/nabaonan/airbook-6200u-efi) | | |
 | 同方 GI5CN5E | [链接](https://github.com/rodgomesc/AVELL-G1513-FOX-7-TONG-FANG-GI5CN5E-HACKINTOSH) | | |
 | Razer Blade Stealth 雷蛇灵刃潜行版 | [链接](https://github.com/widmonstertony/razer-blade-stealth-hackintosh) |                                                              |                   |
@@ -527,17 +530,13 @@
 | 三星Samsung NP300E5L | [链接](https://github.com/bearkfear/SAMSUNG-NP300E5L-HACKINTOSH) | | |
 | 三星Samsung NP300E5M | [链接](https://github.com/zb2947244682/Samsung_300E5M_Mac_Hackintosh_EFI) | | |
 | GPD P2 MAX | [链接](https://github.com/Azkali/GPD-P2-MAX-Hackintosh) | | |
-| ASRock-Z370M-ITX-AC | [链接](https://github.com/youngle316/ASRock-Z370M-ITX-AC) |                    |                |
 | 微星准系统ProBox23  | [链接]( https://github.com/Twilightlee/MSI_ProBox23_hackintosh) |                    |                |
 | Razer_Blade_Advanced_early_2019  | [链接]( https://github.com/stonevil/Razer_Blade_Advanced_early_2019_Hackintosh) |                    | [链接](https://github.com/stonevil/Razer_Blade_Advanced_early_2019_Hackintosh)               |
-| msi-b360m-i3-8100-rx570               | [链接](https://github.com/shm007g/hackintosh-msi-b360m-i3-8100-rx570) |                                                              |                   |
-| Asrock_Z390_Phantom_ITX               | [链接](https://github.com/zanderzhng/EFI_Asrock_Z390_Phantom_ITX) |                                                              |                   |
 | MaiBenBen_Damai5 | [链接](https://github.com/jasminebd/MaiBenBen-Damai5) | | 麦本本-大麦5 |
 | Sony VAIO pro13 | [链接](https://github.com/raydoom/hackintosh-sony-vaio-pro13) | |  |
 | Clover-Ryzen-MSI-B450I |[链接](https://github.com/portrayer/Clover-Ryzen-MSI-B450I) | |  |
 | toshiba-B654L |[链接](https://github.com/yxb2018/toshiba-B654L-clover-efi) | |  |
 | Terrans Force/Devil Rays  DR7 |[链接](https://github.com/Jie2GG/Hackintosh-Devil-Rays-DR7) | | 未来人类 |
-| Gigabyte Z390 M Gaming    |[链接](https://github.com/tspng/gigabyte-z390-m-gaming-hackintosh) | |技嘉 Z390m|
 
 
 
@@ -586,7 +585,7 @@
 | ASRock Z370 Gaming             | [链接](https://github.com/fangf2018/ASRock-Z370-Gaming-ITX-ac-hackintosh) | [链接](https://github.com/fangf2018/ASRock-Z370-Gaming-ITX-ac-hackintosh/blob/master/README.md) | I7-8700k/RX570                                  |
 | ASRock Z370 Gaming ITX-ac | [链接](https://github.com/fangf2018/ASRock-Z370-Gaming-ITX-ac-hackintosh) |  |  |
 | ASRock Z390M Pro4 mATX | [link](https://github.com/sarkrui/Z390MPro4-i7-9700K-Hackintosh) | | i7-9700K + Sapphire RX580 Nitro+ 8G |
-| ASRock Z390 Phantom Gaming itx | [链接](https://github.com/icyleaf/EFI-ASRock-Z390-Phantom-Gaming-ITX) [链接](https://github.com/bydavy/EFI-ASRock-Z390-Phantom-Gaming) <br />[链接](https://github.com/kcunanan/Jared-PC/) [链接](https://github.com/befuture/EFI-ASRock-Z390-Phantom-Gaming) |                                                              | 华擎 Z390 Phantom Gaming itx/ac                 |
+| ASRock Z390 Phantom Gaming itx | [链接](https://github.com/zanderzhng/EFI_Asrock_Z390_Phantom_ITX_OC)  [链接](https://github.com/icyleaf/EFI-ASRock-Z390-Phantom-Gaming-ITX) [链接](https://github.com/bydavy/EFI-ASRock-Z390-Phantom-Gaming) <br />[链接](https://github.com/kcunanan/Jared-PC/) [链接](https://github.com/befuture/EFI-ASRock-Z390-Phantom-Gaming) |                                                              | 华擎 Z390 Phantom Gaming itx/ac                 |
 | Asus TUF B360M-PLUS-S | [链接](https://github.com/Zerah64/hackintosh_9400f_b360_vega56) | |  |
 | ASUS Z97K 4980HQ               | [链接](https://github.com/efsg/ASUS-Z97K-4980HQ-Hackintosh)  |                                                              | I7-4980HQ                                       |
 | Asus Z170-P                    | [链接](https://github.com/Sharlion/z170_6700k_hackintosh)    |                                                              | 华硕Z170-P+6700K+RX470                          |
@@ -598,7 +597,7 @@
 | Asus ROG STRIX X299-E GAMING | [链接](https://github.com/Fansaly/X299-STRIX-macOS) | | INTEL® CORE™ i7-7800X |
 | CM238 i7-8950H UHD630 ALC269   | [链接](https://github.com/kkzzhizhou/S200H_I7-8750H_Hackintosh) |                                                              | S200H_I7-8750H 小主机                           |
 | Dell OptiPlex 3050             | [链接](https://github.com/Leif160519/Dell-OptiPlex-3050-EFI) |                                                              |                                                 |
-| Dell OptiPlex 9020M            | [链接](https://github.com/mingcheng/dell-optiplex-9020m-hackintosh) [链接](https://github.com/JimLee1996/Hackintosh_OptiPlex_9020) [链接](https://github.com/W-MS/OptiPlex-9020-Catalina) |                                                              | Disable MSR 0xE2 (i.e. cfg lock) `setup_var 0xDA2 0x00`<br /> Increase DVMT to 96M `setup_var 0x263 0x03`<br /> 链接3支持Catalina |
+| Dell OptiPlex 9020M            | [链接](https://github.com/mingcheng/dell-optiplex-9020m-hackintosh) [链接](https://github.com/JimLee1996/Hackintosh_OptiPlex_9020)<br /> [链接](https://github.com/W-MS/OptiPlex-9020-Catalina) |                                                              | Disable MSR 0xE2 (i.e. cfg lock) `setup_var 0xDA2 0x00`<br /> Increase DVMT to 96M `setup_var 0x263 0x03`<br /> 链接3支持Catalina |
 | Dell OptiPlex 7060<br />Dell OptiPlex 7070    |[链接](https://github.com/W-MS/OptiPlex-7060and7070-Catalina)        |       |       Increase DVMT to 64M `setup_var 0x8DC 0x2` ，不支持96M模式，<br />切勿使用0x3或在其他型号使用此命令。支持Catalina。 |
 | Dell Precision Tower 3620 | [链接](https://github.com/fivestrong/Hackintosh-Dell-Precision-T-3620) | |  |
 | Lenovo M93P           | [链接](https://github.com/mingcheng/lenovo-thinkcentre-m93p-hackintosh) |      | 联想 M93P 系列主机 |
