@@ -79,7 +79,9 @@
 - 2019年10月28日 by [W-MS](https://github.com/W-MS)
   - 新增机型：Dell OptiPlex 7060 and 7070
   - 增加新版本支持： Dell OptiPlex 9020
-  
+- 2019年11月4日 by [YGQ8988](https://github.com/YGQ8988)
+  - 新增机型：HP ProBook 430 G6
+
 ### 笔记本部分机型
 
 #### Acer 宏碁
