@@ -79,7 +79,9 @@
 - 2019年10月28日 by [W-MS](https://github.com/W-MS)
   - 新增机型：Dell OptiPlex 7060 and 7070
   - 增加新版本支持： Dell OptiPlex 9020
-  
+- 2019年11月4日 by [YGQ8988](https://github.com/YGQ8988)
+  - 新增机型：HP ProBook 430 G6
+
 ### 笔记本部分机型
 
 #### Acer 宏碁
@@ -309,6 +311,7 @@
 | HP暗影精灵3 |[链接](https://github.com/bessyjl/HP-OMEN-3-Hackintosh) | | 还有挖坑的，看看啥时候能埋人 |
 | 暗影精灵I (惠普PAVILION Gaming NB 15-ak039TX) |[链接](https://github.com/lgs3137/PAVILION_Gaming_NB-macOS) | | 除了独显、Intel无线网卡，其他功能模块正常(包括HDMI视频) |
 |惠普光影精靈5 |[链接](https://github.com/Tonymiugrey/Garden-by-miugrey) | | 內含搞定PM981的補丁，可以試試 |
+|ProBook 430 G6 |[链接](https://github.com/YGQ8988/HP-ProBook430G6) | | i5-8265U 已卸载内置镁光nvme SSD(此硬盘不识别) |
 
 #### Huawei 华为
 
