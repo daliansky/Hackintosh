@@ -263,6 +263,7 @@
 | ---------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ----------------- |
 | 神舟 k610d i5 d3 | [链接](https://github.com/1zilc/K610d-i5-d3-10.14.5-efi-clover) |  |  |
 | 神舟 K650D              | [链接](https://github.com/wklesss/k650D-Hackintosh)          |                                                              | 神舟K650D       |
+| 神舟 K650D i5 D2        | [链接](https://github.com/ivothgle/Hackintosh)          |                                                              | 神舟K650D i5 D2      |
 | 神舟 K680E-G6D1 | [链接](https://github.com/Vnzen/Hackintosh_hasee_k680e-g6d1_clover) | |  |
 | 神舟战神 k770e i7 d1 | [链接](https://github.com/Gitawake/Hasee-K770e-i7-D1-Clover) | | p170sm-a |
 | 神舟战神 Z6-SL5 D1        | [链接](https://github.com/Measureless/Hackintosh_Hasee_Z6-SL5D1) |                                                              |                   |

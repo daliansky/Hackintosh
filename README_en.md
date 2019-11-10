@@ -182,6 +182,7 @@
 | Hasee CT7NA            | [link](https://github.com/bufsnake/Z7-CT7NA-HackIntosh)      |                                                              |                                  |
 | Hasee k610d i5 d3      | [link](https://github.com/1zilc/K610d-i5-d3-10.14.5-efi-clover) |                                                              |                                  |
 | Hasee K650D            | [link](https://github.com/wklesss/k650D-Hackintosh)          |                                                              | 神舟 K 650D                      |
+| Hasee K650D i5 D2      | [link](https://github.com/ivothgle/Hackintosh)          |                                                              | 神舟 K 650D                      |
 | Hasee K680E-G6D1 | [link](https://github.com/Vnzen/Hackintosh_hasee_k680e-g6d1_clover) | |  |
 | Hasee k770e i7 d1      | [link](https://github.com/Gitawake/Hasee-K770e-i7-D1-Clover) |                                                              | p170sm-a                         |
 | Hasee Z6-SL5 D1        | [link](https://github.com/Measureless/Hackintosh_Hasee_Z6-SL5D1) |                                                              |                                  |
