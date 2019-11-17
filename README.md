@@ -422,6 +422,7 @@
 | Lenovo Yoga 720 | [链接](https://github.com/bugprogrammer/hackintosh/tree/Lenovo-yoga-720-13ikb-7200u) | | Lenovo Yoga 720-13IKB |
 | Lenovo Yoga 720 | [链接](https://github.com/williambj1/Hackintosh-EFI-Lenovo-Yoga-720-12IKB) | [链接](https://github.com/williambj1/Hackintosh-EFI-Lenovo-Yoga-720-12IKB/tree/master/Resources) | Lenovo Yoga 720-12IKB                                        |
 | Lenovo Yoga 730 | [链接](https://github.com/dragonflylee/Yoga-730-hackintosh) | | Lenovo Yoga 730-13IKB |
+| Lenovo Yoga 370 | [链接](https://github.com/ouxuebo/YOGA370-clover) | |     |
 | Lenovo Z50(40)/70 系列             | [链接](https://github.com/the-braveknight/Lenovo-X50-macOS)  | [链接](https://www.tonymacx86.com/threads/guide-lenovo-z50-70-z40-70-g50-70-g40-70-using-clover-uefi.261787/) | Lenovo Z50-70/Z40-70   Lenovo G50-70/G40-70                  |
 | Lenovo-Miix-520             | [链接](https://github.com/acai66/lenovo-miix-520-hackintosh-10.14-CLOVER) | [链接](https://github.com/acai66/lenovo-miix-520-hackintosh-10.14-CLOVER) | Lenovo-Miix-520          |
 | Lenovo-Miix4            | [链接](https://github.com/Zero-zer0/Miix700-OSX-Hackintosh-Clover) |   | Lenovo-Miix4（700）          |
