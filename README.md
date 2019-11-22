@@ -278,7 +278,7 @@
 | 神舟战神 CT7NA | [链接](https://github.com/bufsnake/Z7-CT7NA-HackIntosh) |  |  |
 | 神舟精盾系列T96E       | [链接](https://github.com/L0ngxhn/Hackintosh-Hasee-T96E)     |  |                   |
 | 神舟精盾系列 K590S      | [链接](https://github.com/JokerHYC/K590S-HACKINTOSH)     |  |                   |
-| 神舟GX8-P775TM      | [链接](https://github.com/JokerHYC/GX8CP5-P775TM-HACKINTOSH)     |  |       未来人类X711，战神GX8-CP5，战神GX8-CR6，炫龙V87等使用蓝天p775tm模具的10*0系显卡都支持            |
+| 神舟GX8-P775TM      | [链接](https://github.com/JokerHYC/P775TM-HACKINTOSH)     |  |       未来人类X711，战神GX8-CP5，战神GX8-CR6，炫龙V87等使用蓝天p775tm模具的10*0系显卡都支持            |
 
 
 #### HP 惠普
