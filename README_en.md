@@ -193,7 +193,7 @@
 | Hasee Shinelon DC2 | [link](https://github.com/bavelee/DC2_Hackintosh)            | [link](https://bavelee.cn/index.php/archives/60/)            |                                  |
 | Hasee 精盾系列T96E     | [link](https://github.com/L0ngxhn/Hackintosh-Hasee-T96E)     |||
 | Hasee K590S(clevo W350ET)     | [link](https://github.com/JokerHYC/K590S-HACKINTOSH)     |||
-| HASEE-GX8  CLEVO-P775TM      | [链接](https://github.com/JokerHYC/GX8CP5-P775TM-HACKINTOSH)     |  |      for clevo p775tm            |
+| HASEE-GX8  CLEVO-P775TM      | [链接](https://github.com/JokerHYC/P775TM-HACKINTOSH)     |  |      for clevo p775tm            |
 
 
 #### HP 惠普
