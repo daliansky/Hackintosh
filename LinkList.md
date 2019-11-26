@@ -11,6 +11,7 @@
 | IORegistryExplorer  | [链接](https://www.tonymacx86.com/attachments/ioregistryexplorer-slrid_v10-6-3-zip.24086)  | 查看系统 I/O 信息以及驱动和设备的附属关系  |
 | MaciASL  | [链接](https://github.com/acidanthera/MaciASL/releases)  | AML的编译器和IDE，用于修改DSDT和制作热补丁  |
 | OSX-Debug  | [链接](https://github.com/black-dragon74/OSX-Debug)  | 收集原始ACPI表，驱动，崩溃日志等相关信息的脚本，用于给大神反馈问题  |
+| ProperTree | [链接](https://github.com/corpnewt/ProperTree)  | OpenCore 官方推荐的配置工具 | 
 
 ## 2.驱动类
 
