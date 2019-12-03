@@ -212,6 +212,7 @@
 | HP Envy 15 as110tu                     | [link](https://github.com/wing-ho/HP-AS110TU-Hackintosh)     |                                                              |                                                              |
 | HP Envy x360 15-aq160sa                | [link](https://github.com/KaylumJ/Hackintosh-HP-Envy-x360)   |                                                              |                                                              |
 | HP Envy DV6 7303ef                     | [link](https://github.com/TehOrange/hackintosh_configs/tree/master/HP-Envy-DV6-7303ef) |                                                              |                                                              |
+| HP Omen Laptop 15-ce0xx | [link](https://github.com/shimakazechan/OMEN-by-HP-Laptop-15-ce007TX-Hackintosh) | | |
 | HP 348 G5 | [link](https://github.com/zsakvo/hp-348-g5-hackintosh) | | |
 | HP ProBook 650 G1 | [link](https://github.com/Hologos/hackintosh-hp-probook-650-g1) | | |
 | HP 840-G1                              | [link](https://github.com/blint01/hackintosh-mojave-HP-840-G1) | [link](https://github.com/blint01/hackintosh-mojave-HP-840-G1/blob/master/README.md) |                                                              |

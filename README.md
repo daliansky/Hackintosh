@@ -297,6 +297,7 @@
 | HP Envy x360 15-aq160sa | [链接](https://github.com/KaylumJ/Hackintosh-HP-Envy-x360) | | |
 | HP Envy DV6 7303ef                      | [链接](https://github.com/TehOrange/hackintosh_configs/tree/master/HP-Envy-DV6-7303ef) |                                                              |                                                              |
 | Hp Omen Ce020tx | [链接](https://github.com/thanatath/hp-omen-ce020tx-mojave-osx) | | |
+| HP Omen Laptop 15-ce0xx | [链接](https://github.com/shimakazechan/OMEN-by-HP-Laptop-15-ce007TX-Hackintosh) | | |
 | HP 348 G5 | [链接](https://github.com/zsakvo/hp-348-g5-hackintosh) | | |
 | HP ProBook 650 G1 | [链接](https://github.com/Hologos/hackintosh-hp-probook-650-g1) | | |
 | HP 840-G1                               | [链接](https://github.com/blint01/hackintosh-mojave-HP-840-G1) | [链接](https://github.com/blint01/hackintosh-mojave-HP-840-G1/blob/master/README.md) |                                                              |
