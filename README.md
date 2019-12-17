@@ -515,6 +515,7 @@
 | XiaoMi 游戏本 8 代 | [链接](https://github.com/daliansky/XiaoMi-GLP)              |                                                              | 小米游戏本，猜的                               |
 | XiaoMi Air    |[链接](https://github.com/hevervie/Hackintosh_XIAOMI_AIR-13.3)   |     |喜欢买小米的，自己区分去吧，我是分不清楚了     |
 | XiaoMi Air      |[链接](https://github.com/wilsonnkwan/Hackintosh-Xiaomi-Air-13.3-2018-Catalina)      |     |     |
+| 红米redmibook mx250    |[链接](https://github.com/dbv/redmibook_hackintsh_EFI)      |     |     |
 
 
 #### Intel 英特尔
