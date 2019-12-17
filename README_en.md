@@ -398,6 +398,7 @@
 | XiaoMi Pro          | [link](https://github.com/daliansky/XiaoMi-Pro/releases)     | [link](https://blog.daliansky.net/MacOS-installation-tutorial-XiaoMi-Pro-installation-process-records.html) | Xiaomi Notebook Pro                                          |
 | XiaoMi Ruby 15.6    | [link](https://github.com/Jxh98/XiaoMi-Ruby-15.6-2019)       |                                                              | ALC256 sound card can not be driven externally<br />Recommended network card: [DW1820A](https://blog.daliansky.net/DW1820A_BCM94350ZAE-driver-inserts-the-correct-posture.html) |
 | XiaoMi 游戏本 8 代  | [link](https://github.com/daliansky/XiaoMi-GLP)              |                                                              | 小米游戏本，猜的                                             |
+| Redmibook mx250    |[链接](https://github.com/dbv/redmibook_hackintsh_EFI)      |     |     |
 
 #### Intel 英特尔
 
