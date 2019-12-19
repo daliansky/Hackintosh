@@ -220,6 +220,7 @@
 | HP Elitebook 840 G2 | [link](https://github.com/AktasC/Hackintosh-Elitebook-840-G2-Broadwell) |  | |
 | HP Pavilion 15-au028ur | [link](https://github.com/Drovosek01/hackintosh_HP_Pavilion_15-au028ur_i5-6200U/blob/master/docs/ENG/README.md) |  | |
 | HP Pavilion 15 au067tx | [link](https://github.com/FzeNiX/HPPavilion15-au067tx-Mojave-Hackintosh) |  | |
+| HP Pavilion15 AU157TX | [link](https://github.com/sxrhd/HP-AU157TX-EFI) | | |
 | HP Pavillion ck069tx                   | [link](https://github.com/Blizzard57/Hackintosh)             |                                                              |                                                              |
 | HP Pavilion 15 cs1xxx | [link](https://github.com/JaeSeoKim/HP-Pavilion-Laptop-15-cs1xxx-Hackintosh) | | |
 | Hp spectre X360                        | [link](https://github.com/Just-maple/Hp-spectre-X360-hackintosh) |                                                              |                                                              |
