@@ -615,6 +615,7 @@
 | Asus ROG STRIX H370-I GAMING   | [链接](https://github.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide) |                                                              | mini-ITX H370 motherboard                       |
 | Asus STRIX Z270-E              | [链接](https://github.com/BradenM/Hackintosh-7700k-R9_390-iGPU) |                                                              | Asus STRIX Z270-E                               |
 | Asus ROG Strix Z390-E          | [链接](https://github.com/xiedonghang/hackintosh)            |                                                              | Intel i9-9900k+UHD630核显                       |
+| Asus Prime Z390m plus | [链接](https://github.com/Asphyxia-m/Asus-Z390m-plus-efi) | | OC |
 | ASUS X299 PRIME DELUXE II | [链接](https://github.com/yifan-gu/hackintosh) | | i9 7980XE + Radeon VII |
 | Asus X299 | [链接](https://github.com/shinoki7/Asus-X299-Hackintosh) | |  |
 | Asus ROG STRIX X299-E GAMING | [链接](https://github.com/Fansaly/X299-STRIX-macOS) | | INTEL® CORE™ i7-7800X |
