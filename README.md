@@ -501,6 +501,7 @@
 
 | 机型名称           | 发布地址                                                     | 教程地址                                                     | 备注                                           |
 | ------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------------------------------------------- |
+| XiaoMi Air 2019    | [链接](https://github.com/szpinc/Hacintosh_MiBookAir13.3_i5-8250U_with_10.13.5)|
 | XiaoMi Air         | [链接](https://github.com/billhhh/MiAir-Hackintosh)          | [链接](https://github.com/billhhh/MiAir-Hackintosh/blob/master/README.md) | XiaoMiAir_i7 7500u                             |
 | XiaoMi Air         | [链接](https://github.com/johnnync13/Xiaomi-Mi-Air)          | [链接](https://github.com/johnnync13/Xiaomi-Mi-Air/blob/master/README.md) | 小米 Air                                       |
 | XiaoMi Air         | [链接](https://github.com/ourfor/Mibook-air)                 | [链接](https://github.com/ourfor/Mibook-air/blob/master/README.md) | 小米 Air                                       |
