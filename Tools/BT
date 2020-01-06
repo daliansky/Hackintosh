@@ -1,0 +1,3 @@
+#!/bin/sh
+ioreg -l | grep "FirmwareVersionString" | sed "s/|//g" | sed "s/ //g" && kextstat | grep -v com.apple | grep -y brcm | awk '{print $6,$7}'
+
