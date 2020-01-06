@@ -556,6 +556,7 @@
 | Sony VAIO pro13 | [链接](https://github.com/raydoom/hackintosh-sony-vaio-pro13) | |  |
 | toshiba-B654L |[链接](https://github.com/yxb2018/toshiba-B654L-clover-efi) | |  |
 | Terrans Force/Devil Rays  DR7 |[链接](https://github.com/Jie2GG/Hackintosh-Devil-Rays-DR7) | | 未来人类 |
+| toshiba-C805 |[链接](https://github.com/nan1jueze/TOSHIBA-C805-HM76-CLOVER-Hackintosh)| |  |
 
 
 
