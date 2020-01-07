@@ -190,3 +190,11 @@ curl -fsSL https://raw.githubusercontent.com/daliansky/Hackintosh/master/Tools/i
 ```bash
 curl -fsSL https://raw.githubusercontent.com/daliansky/Hackintosh/master/Tools/iasl63 -o /tmp/iasl63 && chmod +x /tmp/iasl63 && sh -c /tmp/iasl63 -l <dsl文件路径>
 ```
+
+## 一键提取DW1820A所需的信息：
+
+```bash
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/daliansky/Hackintosh/master/Tools/DW1820A)"
+
+```
+
