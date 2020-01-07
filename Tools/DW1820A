@@ -1,0 +1,5 @@
+#!/bin/sh
+echo "DW1820A网卡驱动信息："
+curl -fsSL https://raw.githubusercontent.com/daliansky/Hackintosh/master/Tools/bdmesg -o /tmp/bdmesg && chmod +x /tmp/bdmesg && sh -c /tmp/bdmesg | grep Running | awk '{print $3,$4,$5,$6,$7,$8}' && sh -c /tmp/bdmesg | grep PCI && ioreg -l | grep "FirmwareVersionString" | sed "s/|//g" | sed "s/ //g" && kextstat | grep -v com.apple | grep -y brcm | awk '{print $6,$7}'
+
+
