@@ -3,6 +3,8 @@ echo "DW1820A网卡驱动信息："
 echo "==========================================================="
 echo "网卡型号："
 ioreg -l | grep "14e4,43" | grep "compatible" | sed "s/|//g" | sed "s/ //g" 
+system_profiler SPAirPortDataType | grep "Card Type"
+system_profiler SPAirPortDataType | grep "MAC Address"
 echo "机型或者主板："
 curl -fsSL https://raw.githubusercontent.com/daliansky/Hackintosh/master/Tools/bdmesg -o /tmp/bdmesg && chmod +x /tmp/bdmesg && sh -c /tmp/bdmesg | grep Running
 echo "=== [ GetDevices ] ========================================"
