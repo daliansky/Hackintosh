@@ -1,10 +1,10 @@
 #!/bin/sh
-echo "DW1820A网卡驱动信息："
+echo "macOS版本：" && sw_vers -productVersion
 echo "==========================================================="
 echo "机型或者主板："
 curl -fsSL https://raw.githubusercontent.com/daliansky/Hackintosh/master/Tools/bdmesg -o /tmp/bdmesg && chmod +x /tmp/bdmesg && sh -c /tmp/bdmesg | grep Running
 echo "=== [ GetDevices ] ========================================"
-sh -c /tmp/bdmesg | grep PCI 
+sh -c /tmp/bdmesg | grep PCI | grep -v IGPU
 echo "网卡信息："
 echo "==========================================================="
 ioreg -l | grep "14e4,43" | grep "compatible" | sed "s/|//g" | sed "s/ //g" 
@@ -12,7 +12,7 @@ system_profiler SPAirPortDataType | grep "Card Type"
 system_profiler SPAirPortDataType | grep "MAC Address"
 echo "蓝牙信息："
 echo "==========================================================="
-system_profiler SPUSBDataType | grep BCM2045A0
+system_profiler SPUSBDataType | grep BCM2045A0 | grep -v SPUSBDevice
 ioreg -l | grep "FirmwareVersionString" | sed "s/|//g" | sed "s/ //g" 
 kextstat | grep -v com.apple | grep -y brcm | awk '{print $6,$7}'
 
