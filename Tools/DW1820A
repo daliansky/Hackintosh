@@ -6,7 +6,7 @@
 # @create date 2020-01-5 05:12:13
 # @modify date 2020-01-11 06:57:02
 # 
-# @transfer： [ sh -c "$(curl -fsSL https://raw.githubusercontent.com/daliansky/Hackintosh/master/Tools/DW1820A)" ]
+# @command call： [ sh -c "$(curl -fsSL https://raw.githubusercontent.com/daliansky/Hackintosh/master/Tools/DW1820A)" ]
 
 echo "macOS版本：" && sw_vers -productVersion
 echo "==========================================================="
