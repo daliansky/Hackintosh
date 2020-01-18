@@ -40,52 +40,9 @@
 
 ### 机型讨论：[远景pcbeta.com](<http://bbs.pcbeta.com/viewthread-1795904-1-1.html>)
 
-更新日期：
+### 更新日志：[Changelog](./Changelog.md)
 
-- 2018 年 10 月 06 日
-- 2018 年 12 月 25 日
-- 2019 年 01 月 15 日
-- 2019 年 3 月 1 日 by 黑果小兵
-  - 按机型重新排版
-  - 将该文档上传到仓库，方便其它人提交合并，共同维护
-- 2019年4月2日
-  - 添加部分新机型
-  - 将多于2个机型的品牌独立出来，方便检索
-- 2019年5月9日
-  - 新增机型：`Mechrevo X9Ti R` / `Mechrevo Z2 G` 等
-- 2019年5月10日 by [明城](https://github.com/mingcheng)
-  - 新增机型：`Lenovo M93P` / `Dell 9020m` 等机型
-- 2019年7月3日 by [Cruii](https://github.com/Cruii)
-  - 新增机型：`暗影精灵2Pro`(HP OMEN 15-ax225TX)
-- 2019年7月19日 by [lgs3137](https://github.com/lgs3137)
-  - 新增机型：`暗影精灵I`(惠普PAVILION Gaming NB 15-ak039TX)
-- 2019年8月15日
-  - 新增机型：ASUS X299 PRIME DELUXE II + i9 7980XE + Radeon VII
-- 2019年8月16日
-  - 新增机型：MSI X370 KRAIT GAMING + 1700X + RADEON VEGA64
-  - 新增机型：ASROCK X570 TAICHI + 3700X + RADEON VEGA64，兼容ASROCK X570 TAICHI(BIOS<=1.21) + 1700X + RADEON VEGA64
-- 2019年9月1日 by [lgs3137](https://github.com/lgs3137)
-  - 新增机型：`ASUS Y5000U`(X507UBR)
-- 2019年9月7日 by [lgs3137](https://github.com/lgs3137)
-  - 新增机型：`Acer P258-MG`
-- 2019年9月17日 by [skyline75489](https://github.com/skyline75489)
-  - 新增机型：`MSI GE63 Raider RGB 8RE`
-- 2019年10月5日 by [sarkrui](https://github.com/sarkrui)
-  - 新增机型：ASRock Z390M Pro4 + i7-9700K + Sapphire RX580 Nitro+ 8G
-- 2019年10月5日 by [我意](https://github.com/y010204025)
-  - 新增机型：lenovo miix4(700)、miix510、E470
-- 2019年10月19日 by [kongbg](https://github.com/kongbg)
-  - 新增机型：ASUS K555LD
-- 2019年10月28日 by [W-MS](https://github.com/W-MS)
-  - 新增机型：Dell OptiPlex 7060 and 7070
-  - 增加新版本支持： Dell OptiPlex 9020
-- 2019年11月4日 by [YGQ8988](https://github.com/YGQ8988)
-  - 新增机型：HP ProBook 430 G6
-- 2019年11月14日
-  - 新增机型：Lenovo Y9000X
-- 2019年11月21日
 
-  - 新增机型：Dell XPS 15 7590
 
 ### 笔记本部分机型
 
@@ -170,8 +127,10 @@
 | Asus X45C | [链接](https://github.com/ipang-dwi/efi-high-sierra) |  | |
 | Asus X450JB                       | [链接](https://github.com/xiaoMGitHub/Asus_X450JB_Hackintosh) |                                                              |                                                            |
 | Asus X455LJ | [链接](https://github.com/umarhadi/asus-x455lj-mojave) | | |
+| Asus X542UN | [链接](https://github.com/yCatDev/asus_x542un-hackintosh) | | |
 | Asus X550JX                       | [链接](https://github.com/gaoliang/Asus-X550JX-Hackintosh)   |                                                              |                                                            |
 | Asus X555LB                       | [链接](https://github.com/emre1393/Asus-x555lb-mojave-efi)   |                                                              |                                                            |
+| Asus X550VX | [链接](https://github.com/lramadhan/hackintosh-asus-x550vx) | | |
 | Asus X556UV                       | [链接](https://github.com/Amview/ASUS-X556UV-Hackintosh)   |                                                              |                                                            |
 | Asus X75VC-TY056D                 | [链接](https://github.com/Jesterjke/ASUS-X75VC-Hackintosh)   |                                                              |                                                            |
 | Asus X751LJ | [链接](https://github.com/leandro1988n/ASUS-X751LJ-Hackintosh) | | |
@@ -197,6 +156,7 @@
 | **Alienware外星人更多机型**                | [链接](https://github.com/RockJesus/Alienware-Hackintosh)    |                                                              | 引用自：RockJesus维护的仓库                           |
 |                                            |                                                              |                                                              |                                                       |
 | Dell G3 3579                               | [链接](https://github.com/JiangHoumin/Dell_G3_3579_Hackintosh) [链接](https://github.com/CerteKim/Dell-G3-3579-Hackintosh-Clover) [链接](https://github.com/CerteKim/Dell-G3-3579-Hackintosh-OpenCore) |                                                              | 网卡推荐：[DW1820A](https://blog.daliansky.net/DW1820A_BCM94350ZAE-driver-inserts-the-correct-posture.html)；链接3为`OpenCore`|
+| Dell G3 3779 | [链接](https://github.com/djlucas123456/Dell-G3-3779-Mojave-Catalina-Clover-) | | |
 | Dell G7 7588                               | [链接](https://github.com/geraldoandradee/Hackintosh-Dell-G7-7588) [链接](https://github.com/flyfeng2002/FYQ-Hackintosh) [链接](https://github.com/Juan-VC/Hackintosh-macOS-Catalina-on-Dell-G7-7588) |                                                              | 链接2包括`OpenCore`                                   |
 | Dell Inspiron 14 5447                      | [链接](https://github.com/SinhLv/Dell-Ins-14-5447-hackintosh) | [链接](https://github.com/SinhLv/Dell-Ins-14-5447-hackintosh/blob/master/README.md) | Dell-Ins-14-5447                                      |
 | Dell Inspiron 14 7447                      | [链接](https://github.com/Am1nCmd/Dell-Inspiron-14-7447-Pandora-Hackintosh) | [链接](https://github.com/Am1nCmd/Dell-Inspiron-14-7447-Pandora-Hackintosh/blob/master/README.md) | Dell-Inspiron-14-7447                                 |
@@ -228,12 +188,14 @@
 | Dell Latitude E5290 | [链接](https://github.com/laelsirus/Dell-Latitude-5290-2-in-1-UHD620-iGPU-CLOVER) | [链接](https://github.https://github.com/laelsirus/Dell-Latitude-5290-2-in-1-UHD620-iGPU-CLOVER/blob/master/README.md) | Dell-Latitude-5290 |
 | Dell Latitude E5440                        | [链接](https://github.com/soejin/hackintosh-dell-e5440)      |                                                              | Dell E5440                                            |
 | Dell Latitude E5470 | [链接](https://github.com/txt1994/dell_latitude5470_i7-6820hq) | |  |
+| Dell Latitude E5490 | [链接](https://github.com/lijun215021/DELL-5490-hackintosh) | | |
 | Dell Latitude E5591 | [链接](https://github.com/geowoden/DELL-Latitude-5591_osx-clover) | |  |
 | Dell Latitude E6330                        | [链接](https://github.com/BladeScraper-Designs/Dell-Latitude-E6330-Mojave-Hackintosh-EFI) |                                                              |                                                       |
 | Dell Latitude E6430                        | [链接](https://github.com/kinoute/Hack-Dell-Latitude-E6430)  |                                                              |                                                       |
 | Dell Latitude E7280                        | [链接](https://github.com/conradlyn/Hackintosh-EFI-Dell-Latitude_7280) |                                                              |                                                       |
 | Dell Latitude E7370 | [链接](https://github.com/mikeTOliu/dell-latitude7370-Hackintosh-EFI-backup) | | |
 | Dell Latitude E7440                        | [链接](https://github.com/ameeno/Dell-E7440-Hackintosh)      |                                                              |                                                       |
+| Dell Latitude E74890 | [链接](https://github.com/TranNgocKhoa/Dell-Latitude-7480-Hackintosh) | | |
 | Dell Latitude E7490 | [链接](https://github.com/Swung0x48/Dell-Latitude-7490-Hackintosh-EFI) | | |
 | Dell OptiPlex 3050                         | [链接](https://github.com/Leif160519/Dell-OptiPlex-3050-EFI) | [链接](https://github.com/Leif160519/Dell-OptiPlex-3050-EFI/blob/master/README.md) |                                                       |
 | Dell OptiPlex 3060 | [链接](https://github.com/Drovosek01/hackintosh_DELL_OptiPlex_3060_i5-8500) |  | |
@@ -331,8 +293,8 @@
 | 华为 Matebook X          | [链接](https://github.com/4323770/Hackintosh-For-Matebook-X) |                                                              |                                    |
 | 华为 Matebook 13         | [链接](https://github.com/FIU001/huawei-matebook-13-) [链接](https://github.com/Edoardo001/Matebook-13-Hackintosh) |                                                              |                                    |
 | 华为 Matebook 14         | [链接](https://github.com/frezs/MateBook14-Hackintosh)       |                                                              |                                    |
-| 华为 Matebook D          | [链接](https://github.com/MOJUNSHOU/MateBooK-D)              |                                                              | 华为MateBook D2018 i5-8250U 15.6寸 |
-| 荣耀 Magicbook           | [链接](https://github.com/hjmmc/Honor-Magicbook)             | [链接](https://github.com/hjmmc/Honor-Magicbook/blob/master/README_CN.md) |                                    |
+| 华为 Matebook D          | [链接](https://github.com/MOJUNSHOU/MateBooK-D)              |                                                              | 华为MateBook D2018 i5-8250U 15.6寸<br />网卡推荐：[DW1820A](https://blog.daliansky.net/DW1820A_BCM94350ZAE-driver-inserts-the-correct-posture.html) |
+| 荣耀 Magicbook           | [链接](https://github.com/hjmmc/Honor-Magicbook) [链接](https://github.com/buseQ/magicbook-hackintosh-opencore-i7-8550u) | [链接](https://github.com/hjmmc/Honor-Magicbook/blob/master/README_CN.md) | 网卡推荐：[DW1820A](https://blog.daliansky.net/DW1820A_BCM94350ZAE-driver-inserts-the-correct-posture.html) |
 | 荣耀 Magicbook-Pro-16.1           | [链接](https://github.com/GatesYang/Magicbook-Pro-16.1-Hackintosh)             |  |                                    |
 
 #### Lenovo 联想
@@ -343,8 +305,9 @@
 | Lenovo Ideapad 310-14IKB           | [链接](https://github.com/29satnam/LenovoHackintosh)         | [链接](https://github.com/29satnam/LenovoHackintosh/blob/master/README.md) |                                                              |
 | Lenovo Ideapad 320-15ISK           | [链接](https://github.com/gajjartejas/Lenovo-Ideapad-320-15ISK-Laptop-Hackintosh) |                                                              |                                                              |
 | Lenovo Ideapad 330s-14IKB | [链接](https://github.com/chrisru26/LenovoIdeapad330s-14ikb-Hackintosh) | | |
+| Lenovo Ideapad S340 | [链接](https://github.com/4mitabh/Ideapad_S340) | | |
 | Lenovo Ideapad 700-15ISK           | [链接](https://github.com/athlonreg/Lenovo-XiaoXin700-15ISK) | [链接](https://github.com/athlonreg/Lenovo-XiaoXin700-15ISK/blob/master/README.md) | Lenovo-XiaoXin700-15ISK                                      |
-| Lenovo Ideapad 720s 13IKB | [链接](https://github.com/xiaominglei001/ideapad-720s-13IKB) |  |  |
+| Lenovo Ideapad 720s 13IKB | [链接](https://github.com/xiaominglei001/ideapad-720s-13IKB) |  | 网卡推荐：[DW1820A](https://blog.daliansky.net/DW1820A_BCM94350ZAE-driver-inserts-the-correct-posture.html) |
 | Lenovo Flex 3-1580                 | [链接](https://github.com/gdllzkusi/Lenovo-Fex3-1580-hackintosh) |                                                              |                                                              |
 | Lenovo G40-70M | [链接](https://github.com/jinmu333/Lenovo_G40_70M_EFI) | | |
 | Lenovo G50-80                      | [链接](https://github.com/upupming/Lenovo-G50-80-Clover)     |                                                              |                                                              |
@@ -360,7 +323,7 @@
 | ThinkPad L440                      | [链接](https://github.com/BesnikRrustemi/Lenovo-ThinkPad-L440) |                                                              |                                                              |
 | Lenovo miix 520                    | [链接](https://github.com/acai66/lenovo-miix-520-hackintosh-10.14-CLOVER) |                                                              |                                                              |
 | ThinkPad P51                       | [链接](https://github.com/MirkoCovizzi/thinkpad-p51-hackintosh) | [链接](https://github.com/MirkoCovizzi/thinkpad-p51-hackintosh/blob/master/README.md) | Thinkpad P51                                                 |
-| ThinkPad P52                       | [链接](https://github.com/liuyishengalan/ThinkPad-P52-Hackintosh-10.14.X-) |                                                              |                                                              |
+| ThinkPad P52                       | [链接](https://github.com/liuyishengalan/ThinkPad-P52-Hackintosh-10.14.X-) |                                                              | 网卡推荐：[DW1820A](https://blog.daliansky.net/DW1820A_BCM94350ZAE-driver-inserts-the-correct-posture.html) |
 | 锐 7000                            | [链接](https://github.com/839891627/Lenovo_RUI7000_Hackintosh) |                                                              | 联想 80WB 笔记本电脑                                         |
 | ThinkPad S1 2017 | [链接](https://github.com/bugprogrammer/hackintosh/tree/ThinkPad-S1-2017) | | ThinkPad S1 2017 |
 | ThinkPad S1 2018 | [链接](https://github.com/bugprogrammer/hackintosh/tree/ThinkPad-S1-2018) | | ThinkPad S1 2018 |
@@ -377,9 +340,9 @@
 | Thinkpad T470                      | [链接](https://github.com/nguyenduy98/Hackintosh)            |                                                              | I7-7500u                                                     |
 | Thinkpad T470S                     | [链接](https://github.com/Altairko/Lenovo-T470s-Clover)            |                                                              |                                                    |
 | ThinkPad T470p                     | [链接](https://github.com/lohcve/EFI_T470P)                  | [链接](https://github.com/lohcve/EFI_T470P/blob/master/README.md) | ThinkPad T470p                                               |
-| ThinkPad T480                      | [链接](https://github.com/rhkjyn/T480-Hackintosh-FULL)       |                                                              |                                                              |
-| ThinkPad T480s                     | [链接](https://github.com/kk1987/T480s-hackintosh)           | [链接](https://github.com/kk1987/T480s-hackintosh/blob/master/README.md) |                                                              |
-| ThinkPad T480s                     | [链接](https://github.com/kk1987/T480s-hackintosh) [链接](https://github.com/linusyang92/macOS-ThinkPad-T480s) <br />[链接](https://github.com/samuelshi/Thinkpad-T480S) | [链接](https://github.com/linusyang92/macOS-ThinkPad-T480s/blob/master/README.md) [链接](https://github.com/kk1987/T480s-hackintosh/blob/master/README.md) | ThinkPad T480s                                               |
+| ThinkPad T480                      | [链接](https://github.com/rhkjyn/T480-Hackintosh-FULL)       |                                                              | 网卡推荐：[DW1820A](https://blog.daliansky.net/DW1820A_BCM94350ZAE-driver-inserts-the-correct-posture.html) |
+| ThinkPad T480s                     | [链接](https://github.com/kk1987/T480s-hackintosh)           | [链接](https://github.com/kk1987/T480s-hackintosh/blob/master/README.md) | 网卡推荐：[DW1820A](https://blog.daliansky.net/DW1820A_BCM94350ZAE-driver-inserts-the-correct-posture.html) |
+| ThinkPad T480s                     | [链接](https://github.com/kk1987/T480s-hackintosh) [链接](https://github.com/linusyang92/macOS-ThinkPad-T480s) <br />[链接](https://github.com/samuelshi/Thinkpad-T480S) | [链接](https://github.com/linusyang92/macOS-ThinkPad-T480s/blob/master/README.md) [链接](https://github.com/kk1987/T480s-hackintosh/blob/master/README.md) | ThinkPad T480s<br />网卡推荐：[DW1820A](https://blog.daliansky.net/DW1820A_BCM94350ZAE-driver-inserts-the-correct-posture.html) |
 | ThinkPad T580                      | [链接](https://github.com/CrazyPegAsus/ThinkPad-T580-Hackintosh) |                                                              | 鸣谢：[CrazyPegasus](https://github.com/CrazyPegasus)        |
 | Lenovo U330/U430/U530 系列         | [链接](https://github.com/RehabMan/Lenovo-U430-Touch-DSDT-Patch) | [链接](https://www.tonymacx86.com/threads/guide-lenovo-ideapad-u330-u430-u530-using-clover-uefi.261722/) |                                                              |
 | Lenovo V1000                       | [链接](https://github.com/LiuJiangshan/Lenovo-V1000-FHD)     |                                                              | 联想小新笔记本V1000 FHD                                      |
@@ -408,7 +371,7 @@
 | ThinkPad X230                      | [链接](https://github.com/SynneK1337/ThinkPad_X230_Hackintosh) | [链接](https://github.com/SynneK1337/ThinkPad_X230_Hackintosh/blob/master/README.md) | ThinkPad X230                                                |
 | ThinkPad X230i | [链接](https://github.com/fivestrong/Hackintosh-X230i-macOS) |  |  |
 | ThinkPad X250                      | [链接](https://github.com/Janolan/x250-hackintosh) [链接](https://github.com/qwerty12/X250-Hackintosh) [链接10.15](https://github.com/teddytaod/mac-catalina-thinkpad-x250)|                                                              |                                                              |
-| ThinkPad X260 系列                 | [链接](https://github.com/daliansky/ThinkPad-X260-hackintosh) | [链接](https://github.com/daliansky/ThinkPad-X260-hackintosh/blob/master/README.md) | ThinkPad X260                                    |
+| ThinkPad X260 系列                 | [链接](https://github.com/daliansky/ThinkPad-X260-hackintosh) | [链接](https://github.com/daliansky/ThinkPad-X260-hackintosh/blob/master/README.md) | ThinkPad X260<br />网卡推荐：[DW1820A](https://blog.daliansky.net/DW1820A_BCM94350ZAE-driver-inserts-the-correct-posture.html) |
 | Thinkpad x390-yoga        |[链接](https://github.com/Liu-wenxiang/Thinkpad-X390-Yoga-Clover)      |       |       |
 | Lenovo Y50(70) 系列                | [链接](https://github.com/RehabMan/Lenovo-Y50-DSDT-Patch)    | [链接](https://www.tonymacx86.com/threads/guide-lenovo-y50-uhd-or-1080p-using-clover-uefi.261723/) | Y50(70)1080P 和 4K 版本<br />网卡推荐：[DW1820A](https://blog.daliansky.net/DW1820A_BCM94350ZAE-driver-inserts-the-correct-posture.html) |
 | Lenovo IdeaPad 530s        | [链接](https://github.com/corint1/Hackintosh-Lenovo-IdeaPad-530s-14ikb)    |                                                              | 感谢：[39军小兵张](http://i.pcbeta.com/space-uid-4472739.html) |
@@ -436,7 +399,7 @@
 | Lenovo-Miix-520             | [链接](https://github.com/acai66/lenovo-miix-520-hackintosh-10.14-CLOVER) | [链接](https://github.com/acai66/lenovo-miix-520-hackintosh-10.14-CLOVER) | Lenovo-Miix-520          |
 | Lenovo-Miix4            | [链接](https://github.com/Zero-zer0/Miix700-OSX-Hackintosh-Clover) |   | Lenovo-Miix4（700）          |
 | Lenovo-miix510          | [链接](https://github.com/Aexus/hackintosh-ideapad-miix510)   [链接](https://github.com/liuwaei/Lenovo-Miix510-EFI-Clover-for-MacOS-10.14.X) |    | Lenovo-Miix510          |
-| ThinkPad P52 |  [链接](https://github.com/liuyishengalan/ThinkPad-P52-Hackintosh-10.14.X-)   | [链接](https://github.com/liuyishengalan/ThinkPad-P52-Hackintosh-10.14.X-/blob/master/README.md)        | 网卡推荐：[DW1820A](https://blog.daliansky.net/DW1820A_BCM94350ZAE-driver-inserts-the-correct-posture.html) |
+| Thinkstation P910 | [链接](https://github.com/crazyi/Hackintosh_Thinkstation_P910) |  |  |
 
 
 #### LG
@@ -679,7 +642,7 @@
 | 黑苹果安装学院   | [链接](https://github.com/huangyz0918/Hackintosh-Installer-University) | [链接](https://github.com/huangyz0918/Hackintosh-Installer-University/blob/master/README-CN.md)         | 这个和本repo功能类似，既然作者开放了，我们也可以收录补充                               |
 | 黑苹果互助项目    |[链接](https://github.com/bessyjl/HackintoshClover)  |  |和本repo类似  |
 
-### 其它机型请提交到[这里](https://github.com/daliansky/Hackintosh)
+### 其它机型请提交到[这里](https://github.com/daliansky/Hackintosh) 
 
 ## QQ群列表：
 
