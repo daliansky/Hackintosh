@@ -166,6 +166,7 @@
 | Dell Inspiron 3543                         | [链接](https://github.com/arisskz6/Dell-3543-Hackintosh) [链接](https://github.com/meikeeit/Hackintosh_Dell3543) |                                                              |                                                       |
 | Dell Inspiron 3568                         | [链接](https://github.com/YGQ8988/dell-3568)                 | [链接](https://github.com/YGQ8988/dell-3568)                 | Dell Inspiron 3568                                    |
 | Dell Inspiron 3670                         | [链接](https://github.com/inyan600/Dell-Inspiron-3670-Hackintosh) |                                                              |                                                       |
+| Dell Inspiron 5370 | [链接](https://github.com/dreamwhite/dell-inspiron-5370-hackintosh) | | |
 | Dell Inspiron 5447                         | [链接](https://github.com/SinhLv/Dell-Ins-14-5447-hackintosh) |                                                              |                                                       |
 | Dell Inspiron 5488                         | [链接](https://github.com/daggeryu/DELL-inspiron-5488)       |                                                              |                                                       |
 | Dell Inspiron 5548(4528S) | [链接](https://github.com/yuppiesnotzhuhao/Hackintosh-Dell-Inspiron-5548) | | |
