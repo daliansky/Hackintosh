@@ -13,7 +13,7 @@ echo "==========================================================="
 echo "机型或者主板："
 curl -fsSL https://raw.githubusercontent.com/daliansky/Hackintosh/master/Tools/bdmesg -o /tmp/bdmesg && chmod +x /tmp/bdmesg && sh -c /tmp/bdmesg | grep Running
 echo "=== [ GetDevices ] ========================================"
-sh -c /tmp/bdmesg | grep PCI | grep -v IGPU
+sh -c /tmp/bdmesg | grep PCI | grep -v IGPU | grep -v USBXHCI
 echo "网卡信息："
 echo "==========================================================="
 curl -fsSL https://raw.githubusercontent.com/daliansky/Hackintosh/master/Tools/gfxutil -o /tmp/gfxutil && chmod +x /tmp/gfxutil && sh -c /tmp/gfxutil | grep ARPT | awk '{print $3}'
