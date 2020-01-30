@@ -4,14 +4,14 @@
 # @author [DalianSky]
 # @email [daliansky2008@mail.com]
 # @create date 2020-01-5 05:12:13
-# @modify date 2020-01-11 06:57:02
+# @modify date 2020-01-30 11:57:02
 # 
 # @command call： [ sh -c "$(curl -fsSL https://raw.githubusercontent.com/daliansky/Hackintosh/master/Tools/DW1820A)" ]
-
+curl -fsSL https://raw.githubusercontent.com/daliansky/Hackintosh/master/Tools/bdmesg -o /tmp/bdmesg && chmod +x /tmp/bdmesg
 echo "macOS版本：" && sw_vers -productVersion
+echo "引导参数：" && sh -c /tmp/bdmesg | grep boot-args | awk '{for(i=5;i<=NF;i++){to=to" "$i};print to}'
 echo "==========================================================="
-echo "机型或者主板："
-curl -fsSL https://raw.githubusercontent.com/daliansky/Hackintosh/master/Tools/bdmesg -o /tmp/bdmesg && chmod +x /tmp/bdmesg && sh -c /tmp/bdmesg | grep Running
+echo "机型或者主板：" && sh -c /tmp/bdmesg | grep Running
 echo "=== [ GetDevices ] ========================================"
 sh -c /tmp/bdmesg | grep PCI | grep -v IGPU | grep -v USBXHCI | grep -v PCI0
 echo "网卡信息："
