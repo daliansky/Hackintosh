@@ -636,6 +636,7 @@
 | z370m mortar i7-9700k|[链接](https://github.com/JackyCZJ/Z370M-MORTAR-I7-9700K-M9PEG-CLOVER) | | |
 | Gigabyte Z370-HD3P|[链接](https://github.com/kinoute/Hack-Z370-HD3P-i5-8400) | | |
 | I7-8850H迷你主机 |[链接](https://github.com/n0jack/i78850h-minipc-hackintosh) | | |
+| MSI-B360M-MORTAR OpenCore |[链接](https://github.com/GeQ1an/MSI-B360M-MORTAR-HACKINTOSH-OPENCORE-EFI) | [链接](https://github.com/GeQ1an/MSI-B360M-MORTAR-HACKINTOSH-OPENCORE-EFI/blob/master/README.md) | 使用 iMac19,1 机型，默认启用全部 USB，适合使用微星 b360m 迫击炮（钛金版）主板的用户，详见使用说明 |
 
 #### 台式机其它机型
 
