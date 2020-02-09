@@ -55,6 +55,7 @@
 | Acer Aspire A515-51G    | [链接](https://github.com/Siddhesh1197/Acer-A515-51G-Hackintosh) | [链接](https://github.com/Siddhesh1197/Acer-A515-51G-Hackintosh/blob/master/README.md) |                     |
 | Acer A515-51G-58VH      | [链接](https://github.com/Rodrigmatrix/Acer-A515-51G-58VH)   |                                                              |                     |
 | Acer Aspire E1-471G     | [链接](https://github.com/matthew728960/Clover-ACER-E1-471G) | [链接](https://github.com/matthew728960/Clover-ACER-E1-471G/blob/master/README.md) | ACER Aspire E1-471g |
+ Acer Aspire E5-471G     | [链接](https://github.com/THLIVSQAZ/ACER-E5-471G-OpenCore) [链接](https://github.com/THLIVSQAZ/ACER-E5-471G-Clover) |                                                              |                     |
 | Acer Aspire E5 475G     | [链接](https://github.com/hilmanshini/Acer-Aspire-E5-475G-Clover-Hackintosh) |                                                              |                     |
 | Acer Aspire E5-476G     | [链接](https://github.com/DijaminGila/Hackintosh-Mojave-Acer-E5-476G) [链接](https://github.com/budhilaw/Acer-E5-476G-Hackintosh) |                                                              | i3-6006U            |
 | Acer Aspire E5-571-5552 | [链接](https://github.com/GaryDoooo/acer_e51_osx)            |                                                              |                     |
