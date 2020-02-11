@@ -1,7 +1,13 @@
 #!/bin/bash
+#    ____        ___            _____ __            ____  __
+#   / __ \____ _/ (_)___ _____ / ___// /____  __   / __ )/ /___  ____ _
+#  / / / / __ `/ / / __ `/ __ \\__ \/ //_/ / / /  / __  / / __ \/ __ `/
+# / /_/ / /_/ / / / /_/ / / / /__/ / ,< / /_/ /  / /_/ / / /_/ / /_/ /
+#/_____/\__,_/_/_/\__,_/_/ /_/____/_/|_|\__, /  /_____/_/\____/\__, /
+#                                      /____/                 /____/
 # Modified: DalianSky(https://blog.daliansky.net)
 # 脚本中调用了bdmesg获取主板型号，所以使用前请勾选安装CLOVER的RC Scripts
-# updated: 2-15-2019
+# updated: 2-11-2020
 
 # archey-osx 1.6.0 (https://github.com/obihann/archey-osx/)
 
@@ -77,6 +83,7 @@ osx_build="$(sw_vers -buildVersion)"
 #  "10.12"*) codename="macOS Sierra" ;;
 #  "10.13"*) codename="macOS High Sierra" ;;
 #  "10.14"*) codename="macOS Mojave" ;;
+#  "10.15"*) codename="macOS Catalina" ;;
 #  *)        codename="macOS" ;;
 #esac
 
