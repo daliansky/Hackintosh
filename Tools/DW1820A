@@ -32,12 +32,13 @@ echo "\033[33m ${MB} \033[0m \c" && sh -c /tmp/bdmesg | grep Running | awk '{for
 # sh -c /tmp/bdmesg | grep PCI | grep -v IGPU | grep -v USBXHCI | grep -v PCI0
 echo "\033[32m ${WIFI} \033[0m"
 echo "==========================================================="
-ioreg -l | grep "IO80211CountryCode" | sed 's/|//g' | sed 's/ //g'
 curl -fsSL https://raw.githubusercontent.com/daliansky/Hackintosh/master/Tools/gfxutil -o /tmp/gfxutil && chmod +x /tmp/gfxutil && sh -c /tmp/gfxutil | grep ARPT | awk '{print $3}'
 sh -c /tmp/bdmesg  | grep -y aspm | awk '{for(i=3;i<=NF;i++){to=to" "$i};print to}'
 ioreg -l | grep "14e4,43" | grep "compatible" | sed "s/|//g" | sed "s/ //g" 
 system_profiler SPAirPortDataType | grep "Card Type"
 system_profiler SPAirPortDataType | grep "MAC Address"
+kextstat | grep Brcm43 | awk '{for(i=6;i<=7;i++){to=to" "$i};print to}' | sed "s/ //g" 
+ioreg -l | grep "IO80211CountryCode" | sed 's/|//g' | sed 's/ //g'
 echo "\033[34m ${BT} \033[0m"
 echo "==========================================================="
 system_profiler SPUSBDataType | grep BCM2045A0 | grep -v SPUSBDevice
