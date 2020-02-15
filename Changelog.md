@@ -46,5 +46,5 @@
   - 新增机型：Dell XPS 15 7590
 - 2020年1月18日
   - 新增机型：DELL系列/Lenovo系列等机型
-- 2020年2月15日
+- 2020年2月15日 by [KKKIIINNN](https://github.com/KKKIIINNN)
   - 新增机型：ASUS VivoBook FL8000UQ
