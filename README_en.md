@@ -87,6 +87,7 @@
 | Asus Vivobook S530UA BQ100T       | [link](https://github.com/superzeldalink/Asus-Vivobook-S530-hackintosh) |                                                              |                                                  |
 | Asus VivoBook X510UQR             | [link](https://github.com/nguyentrucxinh/Asus-VivoBook-X510UQR-Hackintosh) | [link](https://github.com/nguyentrucxinh/Asus-VivoBook-X510UQR-Hackintosh/blob/master/README.md) |                                                  |
 | Asus VivoBook Y5000U (X507UBR) | [link](https://github.com/lgs3137/ASUS_Y5000U_X507UBR-macOS) |  | |
+| Asus VivoBook X509FBU (Y5200FB) | [link](https://github.com/chiangzihao/asus-vivobook-x509fb-y5200FB-hackintosh) |  | |
 | Asus X450JB                       | [link](https://github.com/xiaoMGitHub/Asus_X450JB_Hackintosh) |                                                              |                                                  |
 | Asus X455LJ                       | [link](https://github.com/umarhadi/asus-x455lj-mojave)       |                                                              |                                                  |
 | Asus X550JX                       | [link](https://github.com/gaoliang/Asus-X550JX-Hackintosh)   |                                                              |                                                  |
