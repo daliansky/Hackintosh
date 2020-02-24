@@ -580,6 +580,7 @@
 | Gigabyte Z370N WIFI            | [链接](https://github.com/b166ar/Mac-Mini-Killer) [链接](https://github.com/yangbe/z370n-wifi-vega64) |                                                              | Mac-Mini-Killer<br />Z370N WIFI VEGA64          |
 | Gigabyte Z390 AORUS            | [链接](https://github.com/cmer/gigabyte-z390-aorus-master-hackintosh) |                                                              | **备注：**<br />如果不是9900k/9700k/8500/8700k CPU，<br />需要打`Device RTC`补丁 |
 | Gigabytes Z390 AORUS ELITE     | [链接](https://github.com/liusming/hackintosh)               |                                                              | I9-9900K/Intel (Z380) HD 630 2G                 |
+| Gigabytes Z390 Aorus Pro | [链接](https://github.com/sarkrui/Hackintosh-Z390-Aorus-Pro-9700K-RX580) | | OpenCore/i7-9700K/蓝宝石 RX580 8G |
 | Gigabytes Z390 Ultra           | [链接](https://github.com/mrpaulphan/gigabyte-z390-ultra-master-hackintosh) |                                                              |                                                 |
 | Lenovo M73 Tiny                | [链接](https://github.com/rehandalal/m73-tiny-hackintosh)    |                                                              |                                                 |
 | Huanan X79 E5-2670, GTX650     | [链接](https://github.com/cheneyveron/clover-x79-e5-2670-gtx650) | [链接](https://github.com/cheneyveron/clover-x79-e5-2670-gtx650/blob/master/README.md) | 华南 x79 V2                                     |
