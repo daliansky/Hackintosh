@@ -614,6 +614,7 @@
 | Gigabyte Z370N WIFI            | [链接](https://github.com/b166ar/Mac-Mini-Killer) [链接](https://github.com/yangbe/z370n-wifi-vega64) |                                                              | Mac-Mini-Killer<br />Z370N WIFI VEGA64          |
 | Gigabyte Z390 AORUS            | [链接](https://github.com/cmer/gigabyte-z390-aorus-master-hackintosh) |                                                              | **备注：**<br />如果不是9900k/9700k/8500/8700k CPU，<br />需要打`Device RTC`补丁 |
 | Gigabytes Z390 AORUS ELITE     | [链接](https://github.com/liusming/hackintosh)               |                                                              | I9-9900K/Intel (Z380) HD 630 2G                 |
+| Gigabytes Z390 Aorus Pro | [链接](https://github.com/sarkrui/Hackintosh-Z390-Aorus-Pro-9700K-RX580) | | OpenCore/i7-9700K/蓝宝石 RX580 8G |
 | Gigabyte Z390 AORUS PRO | [链接](https://pcpartpicker.com/product/L9YLrH/gigabyte-z390-i-aorus-pro-wifi-mini-itx-lga1151-motherboard-z390-i-aorus-pro-wifi) | | WIFI Mini ITX |
 | Gigabyte Z390 AORUS PRO WIFI | [链接](https://github.com/shiruken/hackintosh) | | i7-9700K + Radeon RX 5700 XT |
 | Gigabyte Z390 Master | [链接](https://github.com/felixyin/clover-z390master-i99900k-rx580-970pro) | |  |
