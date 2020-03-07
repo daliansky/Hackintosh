@@ -210,6 +210,7 @@
 | Dell Precision 5591                         | [链接](https://github.com/n0faith/Dell-Precision-5591-Hackintosh) |||
 | Dell Precision M3800<br />Dell XPS 15-9530 | [链接](https://github.com/syscl/M3800)                       | [链接](https://github.com/syscl/M3800/blob/M3800/README.md)  | Dell M3800 和 XPS 9530                                |
 | Dell Vostro 3267 | [链接](https://github.com/Drovosek01/hackintosh_DELL_Vostro_3267_i5-6400/blob/master/docs/ENG/README.md) |  |  |
+| Dell Vostro 3578 | [链接](https://github.com/ABCDFAS/dell-vostro-3578-hackintosh-clover-efi) | | |
 | Dell Vostro 5370                           | [链接](https://github.com/hellmonky/Hackintosh/tree/master/dell-vostro-5370) |                                                              |                                                       |
 | Dell Latitude 5290 2-in-1                  | [链接](https://github.com/laelsirus/Dell-Latitude-5290-2-in-1-UHD620-iGPU-CLOVER) |                                                              |                                                     |
 | Dell Vostro 5581 | [链接](https://github.com/nghetienhiep/Dell-Vostro-5581-Hackintosh) | | |
