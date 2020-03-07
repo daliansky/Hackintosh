@@ -239,7 +239,7 @@
 | ---------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ----------------- |
 | 神舟 k610d i5 d3 | [链接](https://github.com/1zilc/K610d-i5-d3-10.14.5-efi-clover) |  |  |
 | 神舟 K650D              | [链接](https://github.com/wklesss/k650D-Hackintosh)          |                                                              | 神舟K650D       |
-| 神舟 K650D-SL5S1      |           |    [链接](https://blog.nyaasu.top/front-end/111.html)      | 神舟战神 K650D-SL5S1，无线网卡和d电池无法驱动      |
+| 神舟 K650D-SL5S1      |   [链接](http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1800662)  |    [链接](https://blog.nyaasu.top/front-end/111.html)      |  EFI文件部分有效，无线网卡和电池无法驱动      |
 | 神舟 K650D i5 D2        | [链接](https://github.com/ivothgle/Hackintosh)          |                                                              | 神舟K650D i5 D2      |
 | 神舟 K680E-G6D1 | [链接](https://github.com/Vnzen/Hackintosh_hasee_k680e-g6d1_clover) | |  |
 | 神舟战神 k770e i7 d1 | [链接](https://github.com/Gitawake/Hasee-K770e-i7-D1-Clover) | | p170sm-a |
