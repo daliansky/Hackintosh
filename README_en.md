@@ -245,8 +245,9 @@
 | Huawei Matebook X          | [link](https://github.com/4323770/Hackintosh-For-Matebook-X) |                                                              |                                         |
 | Huawei Matebook 13         | [link](https://github.com/FIU001/huawei-matebook-13-) [link](https://github.com/Edoardo001/Matebook-13-Hackintosh) |                                                              |                                         |
 | Huawei Matebook 14         | [link](https://github.com/frezs/MateBook14-Hackintosh)       |                                                              |                                         |
-| Huawei Matebook D          | [link](https://github.com/MOJUNSHOU/MateBooK-D)              |                                                              | Huawei MateBook D2018 i5-8250U 15.6inch |
+| Huawei Matebook D          | [link](https://github.com/MOJUNSHOU/MateBooK-D) [link](https://github.com/Zero-zer0/Matebook_D_2018_Hackintosh_OpenCore) |                                                              | Huawei MateBook D2018 i5-8250U 15.6inch |
 | Huawei Honor Magicbook     | [link](https://github.com/hjmmc/Honor-Magicbook)             | [link](https://github.com/hjmmc/Honor-Magicbook/blob/master/README_CN.md) |                                         |
+| Huawei Matebook 14 2020    | [link](https://github.com/Zero-zer0/Matebook_13_14_2020_Hackintosh_OpenCore) |                                                              | Huawei Matebook 13 / 14 2020 CometLake  |
 
 #### Lenovo 联想
 
