@@ -321,7 +321,7 @@ function downloadfullapp()
   #
   if [[ ! -e "${tmpDirectory}/${key}/${distribution}" ]]; then
     echo "Downloading: ${distribution} ..."
-    axel -n 64 -q "${url}${distribution}" -o "${tmpDirectory}/${key}/${distribution}"
+    axel -n 16 -q "${url}${distribution}" -o "${tmpDirectory}/${key}/${distribution}"
     #
     # Remove root only restriction/allow us to install on any target volume.
     #
@@ -347,7 +347,7 @@ function downloadfullapp()
     if [[ ! $filename == "" ]]; then
       if [[ ! -e "${tmpDirectory}/${key}/${filename}" ]]; then
         echo "Downloading: ${filename} ..."
-        axel -n 64 -q "${url}${filename}" -o "${tmpDirectory}/${key}/${filename}"
+        axel -n 16 -a "${url}${filename}" -o "${tmpDirectory}/${key}/${filename}"
       else
         echo "File: ${filename} already there, skipping this download."
       fi
