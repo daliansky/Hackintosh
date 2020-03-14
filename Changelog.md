@@ -48,3 +48,5 @@
   - 新增机型：DELL系列/Lenovo系列等机型
 - 2020年2月15日
   - 新增机型：ASUS VivoBook FL8000UQ
+- 2020年3月14日
+  - 新增机型：Lenovo G400
