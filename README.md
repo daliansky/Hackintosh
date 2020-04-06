@@ -103,7 +103,7 @@
 | Asus K555LD                       | [链接](https://github.com/kongbg/asus-k555ld-4210U) | [链接](https://github.com/kongbg/asus-k555ld-4210U/blob/master/README.md) | Asus K555LD                                                 |
 | Asus Laptop N56VZ                 | [链接](https://github.com/signxer/N56VZ-Hackintosh)          |                                                              |                                                            |
 | Asus P8P67 PRO                    | [链接](https://github.com/rafaelmaeuer/Asus-P8P67Pro-Hackintosh) | [链接](https://github.com/rafaelmaeuer/Asus-P8P67Pro-Hackintosh/blob/master/readme.md) |                                                            |  
-| Asus R414U                        | [链接](https://github.com/srole-xiaoxian/ASUS-R414U-Clover)  |  |华硕顽石|
+| Asus R414U                        | [链接](https://github.com/srole-xiaoxian/ASUS-R414U-Clover)  |[链接](https://github.com/LHB6540/Asus-R414-Hackintosh-10.15.4)| 10.13&10.15 |
 | Asus ROG GL552JX                  | [链接](https://github.com/javanesse/Asus-ROG-GL552JX-High-Sierra-10.13-Hackintosh) | [链接](https://github.com/javanesse/Asus-ROG-GL552JX-High-Sierra-10.13-Hackintosh/blob/master/README.md) | Asus ROG GL552JX                                           |
 | Asus ROG GL552VX                  | [链接](https://github.com/xuanquydsr/Gl552VX-Mojave)         |                                                              |                                                            |
 | Asus ROG GL553VD                  | [链接](https://github.com/MohammadtaghiFarkhondekar/macOS-Mojave-For-Asus-ROG-GL553VD) |                                                              |                                                            |
