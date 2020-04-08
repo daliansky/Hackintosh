@@ -65,7 +65,9 @@
 | Acer F5-573G            | [链接](https://github.com/johnnywolinger/ACER-F5-573G-Hackintosh) |                                                              |                     |
 | Acer F5-573G-55PJ       | [链接](https://github.com/zoothz/Hackintosh-acer-f5-573g-55pj) |                                                              |                     |
 | Acer F5-573g-75A3       | [链接](https://github.com/vinicioslc/HACKINTOSH-ACER-F5-573G-75A3) |                                                              |                     |
-| Acer Swift 3            | [链接](https://github.com/FallenChromium/Acer-Swift3-2018-hackintosh) [SF135-52G](https://github.com/geekcjj/Clover-Acer-Swift3-SF315-52G) |                                                              | SF315-51-518S       |
+| Acer nitro 5 an517-51 | [链接](https://github.com/SaeedHaidar/Nitro-5-an517-51-Hackintosh) | | |
+| Acer Swift 3            | [链接](https://github.com/FallenChromium/Acer-Swift3-2018-hackintosh) |                                                              | SF315-51-518S       |
+| Acer Swift 3 52G | [链接](https://github.com/geekcjj/Clover-Acer-Swift3-SF315-52G) | | Acer-Swift3-SF315-52G |
 | Acer Swift 3 SF314-55G | [链接](https://github.com/cjtim/SF314-55G-hackintosh) [链接](https://github.com/cjtim/SF314-55G-hackintosh) | | Acer Swift 3 2019 SF314-55G |
 | Acer V3-471G            | [链接](https://github.com/oneveb/Acer-V3-471G)               |                                                              |                     |
 | Acer-V3-572G-51MR       | [链接](https://github.com/AnoldmanLiSir/Acer-V3-572G-51MR)   | [链接](https://github.com/AnoldmanLiSir/Acer-V3-572G-51MR/blob/master/README.md) |                     |
@@ -102,7 +104,7 @@
 | Asus K55VD                        | [链接](https://github.com/southernvevo/Asus-K55VD-HACKINTOSH) | [链接](https://github.com/southernvevo/Asus-K55VD-HACKINTOSH/blob/master/README.md) | Asus K55VD                                                 |
 | Asus K555LD                       | [链接](https://github.com/kongbg/asus-k555ld-4210U) | [链接](https://github.com/kongbg/asus-k555ld-4210U/blob/master/README.md) | Asus K555LD                                                 |
 | Asus Laptop N56VZ                 | [链接](https://github.com/signxer/N56VZ-Hackintosh)          |                                                              |                                                            |
-| Asus P8P67 PRO                    | [链接](https://github.com/rafaelmaeuer/Asus-P8P67Pro-Hackintosh) | [链接](https://github.com/rafaelmaeuer/Asus-P8P67Pro-Hackintosh/blob/master/readme.md) |                                                            |  
+| Asus P8P67 PRO                    | [链接](https://github.com/rafaelmaeuer/Asus-P8P67Pro-Hackintosh) | [链接](https://github.com/rafaelmaeuer/Asus-P8P67Pro-Hackintosh/blob/master/readme.md) |                                                            |
 | Asus R414U                        | [链接](https://github.com/srole-xiaoxian/ASUS-R414U-Clover)  |[链接](https://github.com/LHB6540/Asus-R414-Hackintosh-10.15.4)| 10.13&10.15 |
 | Asus ROG GL552JX                  | [链接](https://github.com/javanesse/Asus-ROG-GL552JX-High-Sierra-10.13-Hackintosh) | [链接](https://github.com/javanesse/Asus-ROG-GL552JX-High-Sierra-10.13-Hackintosh/blob/master/README.md) | Asus ROG GL552JX                                           |
 | Asus ROG GL552VX                  | [链接](https://github.com/xuanquydsr/Gl552VX-Mojave)         |                                                              |                                                            |
@@ -206,6 +208,7 @@
 | Dell Latitude E7490 | [链接](https://github.com/Swung0x48/Dell-Latitude-7490-Hackintosh-EFI) | | |
 | Dell OptiPlex 3050                         | [链接](https://github.com/Leif160519/Dell-OptiPlex-3050-EFI) | [链接](https://github.com/Leif160519/Dell-OptiPlex-3050-EFI/blob/master/README.md) |                                                       |
 | Dell OptiPlex 3060 | [链接](https://github.com/Drovosek01/hackintosh_DELL_OptiPlex_3060_i5-8500) |  | |
+| Dell Optiplex 7020 | [链接](https://github.com/zearp/optimac) | | |
 | Dell OptiPlex 9020 | [链接](https://github.com/kyroschow/Dell-Optiplex-9020-Hackintosh-Clover-EFI) | | |
 | Dell Precision 5510                        | [链接](https://github.com/soulomoon/Dell-Precision-5510-OSX) [链接](https://github.com/PLChinDev/Dell-Precision-5510-Mojave) |                                                              | Dell-Precision-5510<br />链接2支持`Catalina`          |
 | Dell Precision 5591                         | [链接](https://github.com/n0faith/Dell-Precision-5591-Hackintosh) |||
