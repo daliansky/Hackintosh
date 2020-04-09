@@ -244,20 +244,23 @@
 
 | 机型名称               | 发布地址                                                     | 教程地址                                                     | 备注              |
 | ---------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ----------------- |
-| 神舟 k610d i5 d3 | [链接](https://github.com/1zilc/K610d-i5-d3-10.14.5-efi-clover) |  |  |
+| 神舟 k610d-i5D3 | [链接](https://github.com/1zilc/K610d-i5-d3-10.14.5-efi-clover) |  |  |
 | 神舟 K650D              | [链接](https://github.com/wklesss/k650D-Hackintosh)          |                                                              | 神舟K650D       |
 | 神舟 K650D-SL5S1      |   [链接](http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1800662)  |    [链接](https://blog.nyaasu.top/front-end/111.html)      |  EFI文件部分有效，无线网卡和电池无法驱动      |
-| 神舟 K650D i5 D2        | [链接](https://github.com/ivothgle/Hackintosh)          |                                                              | 神舟K650D i5 D2      |
+| 神舟 K650D-i5D2        | [链接](https://github.com/ivothgle/Hackintosh)          |                                                              | 神舟K650D i5 D2      |
 | 神舟 K680E-G6D1 | [链接](https://github.com/Vnzen/Hackintosh_hasee_k680e-g6d1_clover) | |  |
-| 神舟战神 k770e i7 d1 | [链接](https://github.com/Gitawake/Hasee-K770e-i7-D1-Clover) | | p170sm-a |
-| 神舟战神 Z6-SL5 D1        | [链接](https://github.com/Measureless/Hackintosh_Hasee_Z6-SL5D1) |                                                              |                   |
+| 神舟战神 K770E-i7D1 | [链接](https://github.com/Gitawake/Hasee-K770e-i7-D1-Clover) | | p170sm-a |
+| 神舟战神 Z6-SL5D1        | [链接](https://github.com/Measureless/Hackintosh_Hasee_Z6-SL5D1) |                                                              |                   |
 | 神舟战神 Z7-KP7D1 | [链接](https://github.com/ConnersHua/Clevo-P65xHP-Hackintosh) | | Clevo P65xHP<br />HASEE Z7-KP7S1 |
-| 神舟战神 Z7(m)-KP7/5(G)Z<br>神舟战神 Z7(m)-KP7/5EC<br>神舟战神 Z7(m)-KP7/5GC<br>神舟战神 Z7-C7TVK / Z7m-CT7GS / Z7-CT7VH <br>神舟战神 G7-CT7VK        | [仓库链接](https://github.com/kirainmoe/hasee-tongfang-macos) <br> [下载链接](https://efi.kirainmoe.com/)   | [链接](https://github.com/kirainmoe/hasee-tongfang-macos/wiki) | 神舟战神 8/9 代同方全系机型 |
-| 神舟战神 Z7M KP5GC        | [链接](https://github.com/CharlesZhou959/Hasee-Z7M-KP5GC-Hackintosh) |                                                              |                   |
-| 神舟战神 CT7NA | [链接](https://github.com/bufsnake/Z7-CT7NA-HackIntosh) |  |  |
-| 神舟精盾系列T96E       | [链接](https://github.com/L0ngxhn/Hackintosh-Hasee-T96E)     |  |                   |
+| 神舟战神<br>Z7(M)-KP7/5GZ<br>Z7(M)-KP7/5Z<br>Z7-KP7EC<br>Z7(M)-KP7/5GC<br>Z7(M)-KP7/5GA<br>Z7(M)-KP7/5GE<br>Z7(M)-KP7/5GH<br>Z7-CT7/5GK<br>Z7M-CT7GS<br>G7-CT7VK、G7-CT7RA<br>Z7(M)-CT7/5GA<br>Z7(M)-CT7/5VH  | [链接](https://github.com/kirainmoe/hasee-tongfang-macos) | [链接](https://www.bilibili.com/video/av81263778) | 神舟战神 8/9 代同方模具全系标压机型，适配以下模具：<br>GK5CN6X, GK5CN5X <br> GJ5CN64, GI5CN54 <br>GK5CP6X, GK5CP5X <br> GK7CP6R <br>GK5CP6V,GK5CP5V |
+| 神舟战神 Z7M-KP5GC        | [链接](https://github.com/CharlesZhou959/Hasee-Z7M-KP5GC-Hackintosh) |                                                              |                   |
+| 神舟战神 Z7(M)-CT7/5NA | [链接](https://github.com/bufsnake/Z7-CT7NA-HackIntosh) |  |  |
+| 神舟战神<br> Z7(M)-CT7/5NA (NK/NT)<br> G7-CT7NA (NK/NT) <br> G8-CT7NA (NK/NT) | [链接](https://github.com/a328661276/Clevo-NH50-NH70-Hackintosh-macOS10.15.3) | | 适用于蓝天Clevo NH5xRD_RC_RA_RH(Q)/NH70RD_RC_RA_RH(Q)  |
+| 神舟精盾系列 T96E       | [链接](https://github.com/L0ngxhn/Hackintosh-Hasee-T96E)     |  |                   |
 | 神舟精盾系列 K590S      | [链接](https://github.com/JokerHYC/K590S-HACKINTOSH)     |  |                   |
-| 神舟GX8-P775TM      | [链接](https://github.com/JokerHYC/P775TM-HACKINTOSH)     |  |       未来人类X711，战神GX8-CP5，战神GX8-CR6，炫龙V87等使用蓝天p775tm模具的10*0系显卡都支持            |
+| 神舟 GX8-P775TM      | [链接](https://github.com/JokerHYC/P775TM-HACKINTOSH)     |  |       未来人类X711，战神GX8-CP5，战神GX8-CR6，炫龙V87等使用蓝天p775tm模具的10*0系显卡都支持   |
+| 神舟战神Z6-KP7S1     |[链接](https://github.com/hevervie/Hackintosh_HASEE_Z6-KP7S1)        |       |       | |
+| 神舟战神<br> ZX7-CP5SC<br>ZX6-CP5S1<br>K680E-G6E3<br>K680E-G6D3 | [链接](https://github.com/bavelee/NB5TK1_TJ1-Hackintosh/) | [链接](https://bavelee.cn/archives/60.html) | 蓝天 NB50/60 TJ1/TK1 模具 |
 
 
 #### HP 惠普
@@ -452,6 +455,7 @@
 | Mechrevo X6TI      | [链接](https://github.com/cmbs2019/Mechrevo-Hackintosh)      |                                                              | i7-8750H/i5-8300H GTX1050ti/GTX1060 |
 | Mechrevo X6TIS     | [链接](https://github.com/cmbs2019/Mechrevo-Hackintosh)      |                                                              |                                     |
 | Mechrevo X1        | [链接](https://github.com/cmbs2019/Mechrevo-Hackintosh) [链接](https://github.com/tsmswifty/MECHREVO-X1-hackintosh) |                                                              | i7-7700HQ/GTX1060                   |
+| Mechrevo Z2 Air <br> Mechrevo Z2 Air-G <br> Mechreco X3 | [链接](https://github.com/kirainmoe/hasee-tongfang-macos) | [链接](https://www.bilibili.com/video/av81263778) | 适用于同方GK5CN6X, GK5CP6X, GK7CP6R准系统模具 |
 
 #### MSI 微星
 
@@ -478,11 +482,10 @@
 | ---------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ----------------- |
 | 炫龙 A40L-i7 | [链接](https://github.com/i0Ek3/Hackintosh_4_Hasee_Shinelon_A40L) | [链接](https://github.com/i0Ek3/Hackintosh_4_Hasee_Shinelon_A40L/blob/master/README.md) |           |
 | 炫龙 耀7000                  |  [链接](https://github.com/jinmu333/Shinelon_YAO_7000_efi) | [链接](https://github.com/jinmu333/Shinalon_YAO_7000_efi/blob/efi/README.md) |                   |
+| 炫龙 耀7000 <br> 炫龙 耀9000-II | [链接](https://github.com/kirainmoe/hasee-tongfang-macos) | [链接](https://www.bilibili.com/video/av81263778) | 同方 GK5CN6X/GK5CN5X 通用模具 |
 | 炫龙毒刺x6 | [链接](https://github.com/JS1993/Shinelon-X6-EFI) |  | |
 | 炫龙 T3TI | [链接](https://github.com/283330601/shinelon-t3ti-Hackintosh) |  | 9750H+1660TI |
-| 炫龙笔记本 DC2      | [链接](https://github.com/bavelee/DC2_Hackintosh)  [链接DC2_DD](https://github.com/yuedashen88/DC2_EFI)          | [链接](https://bavelee.cn/index.php/archives/60/)            |  yuedashen88基于大佬BaveLee之前的EFI的修改版本,修复了HDMI热插拔问题                 |
-| 神舟战神Z6      |[链接](https://github.com/hevervie/Hackintosh_HASEE_Z6-KP7S1)        |       |       |
-| Thunderobot 911 Air2      |[链接](https://github.com/athlonreg/Thunderobot-911-Air-i7-9750h)        |       |我也不认识是谁家的，放神舟吧      |
+| 炫龙 DC2/DD2      | [链接](https://github.com/bavelee/DC2_Hackintosh)  [链接DC2_DD](https://github.com/yuedashen88/DC2_EFI)          | [链接](https://bavelee.cn/index.php/archives/60/)            |  yuedashen88基于大佬BaveLee之前的EFI的修改版本,修复了HDMI热插拔问题                 |
 
 
 #### XiaoMi 小米
@@ -531,6 +534,7 @@
 | 火影地狱火X6                       | [链接](https://github.com/gaofeicm/DiYuHuo-X6-MacOS-Mojave-10.14.3-Hackintosh) |                                                              |                   |
 | 炫龙毒刺x6 | [链接](https://github.com/JS1993/Shinelon-X6-EFI) | | |
 | Thunderobot 911 Air | [链接](https://github.com/athlonreg/Thunderobot-911-Air-i7-9750h) | | |
+| Thunderobot 911 Air2      |[链接](https://github.com/athlonreg/Thunderobot-911-Air-i7-9750h)        |       |      |
 | 雷神笔记本黑苹果套件 | [链接](https://github.com/athlonreg/Thunderobot-Hackintosh) | | |
 | Airbook | [链接](https://github.com/nabaonan/airbook-6200u-efi) | | |
 | 同方 GI5CN5E | [链接](https://github.com/rodgomesc/AVELL-G1513-FOX-7-TONG-FANG-GI5CN5E-HACKINTOSH) | | |
