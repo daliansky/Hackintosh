@@ -76,6 +76,7 @@
 | Acer-K50-10-525V       | [链接](https://github.com/mingslife/Acer-K50-10-525V-Hackintosh) |                                                              |                     |
 |宏碁暗影骑士3          |[链接](https://github.com/Chakid/Acer-VX15-Hackintosh)  |    |    |
 |ACER-ASPIRE-C24-865          |[链接](https://github.com/Sevendaye/ACER-ASPIRE-C24-865-Clover)  |    |    |
+|ACER Travelmate P248 |[链接](https://github.com/jamesciq/Acer-Travelmate-P248-hackintosh-EFI) | | |
 |Acer P258-MG          |[链接](https://github.com/lgs3137/ACER_P258_MG-macOS)  |    |    |
 
 #### Asus 华硕
