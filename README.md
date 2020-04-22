@@ -649,6 +649,7 @@
 | MSI B360                       | [链接](https://github.com/SuperNG6/MSI-b360-10.14.4-EFI)     |                                                              | 也适用于<br />MAG Z390 TOMAHAWK <br />(MS-7B18) |
 | msi-b360m-i3-8100-rx570 | [链接](https://github.com/shm007g/hackintosh-msi-b360m-i3-8100-rx570) | |  |
 | MSI Z370-A                     | [链接](https://github.com/daliansky/Z370-Hackintosh)         | [链接](https://github.com/daliansky/Z370-Hackintosh)         | 黑果小兵MSI Z370-A自用EFI                       |
+| MSI-MPG-Z390-Gaming-EDGE-AC  | [链接](https://github.com/fnoopv/MSI-Z390-Gaming-Edge-AC_OC) |   |  微星MPG-Z390-Gaming-Edge-ac OpenCore EFI |
 | ASRock-Z370-Gaming-ITX-ac-hackintosh  | [链接](https://github.com/fangf2018/ASRock-Z370-Gaming-ITX-ac-hackintosh) |   |   |
 | Gigabyte-Z390M  |[链接](https://github.com/xxiaofeng132/Gigabyte-Z390M-Gaming-Hackintosh)  |  |技嘉Z390m-gaming |
 | ASUS-PRIME-Z390 |[链接](https://github.com/dhckdgjs/ASUS-PRIME-Z390-A-HACKINTOSH-Clover-iGPU-with-dGPU-UHD630-RX580)  |  |ASUS-PRIME-Z390 |
