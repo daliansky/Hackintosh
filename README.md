@@ -658,6 +658,7 @@
 | Deskmini-310 |[链接](https://github.com/yuqi/Deskmini-310-Hackintosh)  |  |Deskmini-310 |
 | GA-B360M-D3H |[链接](https://github.com/laelsirus/GA-B360M-D3H-with-UHD630-iGPU-AMD-dGPU-CLOVER)  |  |GA-B360M-D3H |
 | 技嘉B360M DS3H |[链接](https://github.com/sqlsec/B360M-DS3H-I5-9600KF-RX580-CLOVER) | |国光自用：i5-9600KF RX580 |
+| 技嘉z390 gaming|[链接](https://github.com/dbv/hackintosh_9600k_Z390_RX580) | 小辉自用: i5-9600k RX580 2304sp矿 |
 | GA B360m d2v |[链接](https://github.com/Matchas-xiaobin/EFI-B360m_d2v_dvi_uhd630) | |技嘉B360m，支持DVI输出 |
 | Soarsea mini PC |[链接](https://github.com/EngLearnsh/Soarsea-i9-8950HK-Hackintosh) | | S200H |
 | MSI-B360M-MORTAR-IMACPRO |[链接](https://github.com/andot/MSI-B360M-MORTAR-IMACPRO-EFI) | | |
