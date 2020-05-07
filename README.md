@@ -1,14 +1,18 @@
-# Hackintosh黑苹果长期维护机型EFI及安装教程整理
+## Hackintosh黑苹果长期维护机型EFI及安装教程整理
 
 [![img](https://img.shields.io/github/stars/daliansky/Hackintosh.svg?color=ff69b4&label=%E7%82%B9%E8%B5%9E&logoColor=ff69b4&style=social)](https://github.com/daliansky/Hackintosh) [![img](https://img.shields.io/github/followers/daliansky.svg?label=%E7%B2%89%E4%B8%9D&logoColor=success&style=social)](https://github.com/daliansky/Hackintosh) ![img](https://img.shields.io/github/contributors/daliansky/Hackintosh.svg?color=red&label=%E8%B4%A1%E7%8C%AE%E4%BA%BA%E6%95%B0) [![img](https://img.shields.io/github/last-commit/daliansky/Hackintosh.svg?color=orange&label=%E6%9C%80%E8%BF%91%E6%8F%90%E4%BA%A4)](https://github.com/daliansky/Hackintosh) [![img](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu/)
 
 ## English Version: [Hackintosh long-term maintenance model EFI and installation tutorial](README_en.md)
 
-## 黑苹果长期维护机型整理 by @[我意](https://github.com/y010204025)
+## 黑苹果长期维护机型整理 
 
+> by @[我意](https://github.com/y010204025)
+>
 > 整理这份清单的目的：在于给想体验黑苹果的人一个方向，也想减少大家重复造轮子，节约大家的时间。
+>
 > 所有文件均归属于原作者，本清单只列出链接。如果您不希望你的链接被这份清单收录，请发送邮件到 [y010204025@126.com](mailto:y010204025@126.com),我将移除链接
 > 清单收录了 4 个月以内的有人长期维护并更新过 EFI 的机型链接，如果有新的链接希望收录到这份清单，请发送邮件到 [y010204025@126.com](mailto:y010204025@126.com)
+>
 > 致谢：感谢一直为黑苹果进行开发的各位开发者和愿意共享出 EFI 文件的开发者，谢谢！
 > 最近有部分github作者删除了repo,有失效的请大家反馈，我会及时跟进删除相关链接。
 
@@ -44,9 +48,9 @@
 
 
 
-### 笔记本部分机型
+## 笔记本部分机型
 
-#### Acer 宏碁
+### Acer 宏碁
 
 | 机型名称                | 发布地址                                                     | 教程地址                                                     | 备注                |
 | ----------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------- |
@@ -66,6 +70,7 @@
 | Acer F5-573G-55PJ       | [链接](https://github.com/zoothz/Hackintosh-acer-f5-573g-55pj) |                                                              |                     |
 | Acer F5-573g-75A3       | [链接](https://github.com/vinicioslc/HACKINTOSH-ACER-F5-573G-75A3) |                                                              |                     |
 | Acer nitro 5 an517-51 | [链接](https://github.com/SaeedHaidar/Nitro-5-an517-51-Hackintosh) | | |
+| Acer Predator Helios 300 | [链接](https://github.com/PruvostMaxime/Hackintosh-Predator-300) | | |
 | Acer Swift 3            | [链接](https://github.com/FallenChromium/Acer-Swift3-2018-hackintosh) |                                                              | SF315-51-518S       |
 | Acer Swift 3 52G | [链接](https://github.com/geekcjj/Clover-Acer-Swift3-SF315-52G) | | Acer-Swift3-SF315-52G |
 | Acer Swift 3 SF314-55G | [链接](https://github.com/cjtim/SF314-55G-hackintosh) [链接](https://github.com/cjtim/SF314-55G-hackintosh) | | Acer Swift 3 2019 SF314-55G |
@@ -79,7 +84,7 @@
 |ACER Travelmate P248 |[链接](https://github.com/jamesciq/Acer-Travelmate-P248-hackintosh-EFI) | | |
 |Acer P258-MG          |[链接](https://github.com/lgs3137/ACER_P258_MG-macOS)  |    |    |
 
-#### Asus 华硕
+### Asus 华硕
 
 | 机型名称                          | 发布地址                                                     | 教程地址                                                     | 备注                                                       |
 | --------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------------------------------------------------------- |
@@ -112,6 +117,7 @@
 | Asus ROG GL553VD                  | [链接](https://github.com/MohammadtaghiFarkhondekar/macOS-Mojave-For-Asus-ROG-GL553VD) |                                                              |                                                            |
 | Asus ROG Zephyrus M GM501GS       | [链接](https://github.com/kylergib/Asus-Zephyrus-M-gm501gs-Mojave) |                                                              |                                                            |
 | Asus ROG Zephyrus S GX531GS       | [链接](https://github.com/williambj1/Hackintosh-EFI-Asus-Zephyrus-S-GX531) |                                                              | 华硕玩家国度冰刃 3                                         |
+| Asus ROG GX701 | [链接](https://github.com/laeo/hackintosh-rog-gx701-efi) | |  |
 | ASUS S4000VA                      | [链接](https://github.com/stonexing/Asus-S4000VA8550-Hackintosh) |                                                              | 华硕灵耀 i7-8550U                                          |
 | Asus S4100V                       | [链接](https://github.com/loong1992/Asus_S4100VN8250U_Hackintosh) |                                                              |                                                            |
 | Asus S510UQ | [链接](https://github.com/KINGKONG2808/Hackintosh_ASUSS510UQ) | | |
@@ -137,6 +143,7 @@
 | Asus X550JX                       | [链接](https://github.com/gaoliang/Asus-X550JX-Hackintosh)   |                                                              |                                                            |
 | Asus X555LB                       | [链接](https://github.com/emre1393/Asus-x555lb-mojave-efi)   |                                                              |                                                            |
 | Asus X550VX | [链接](https://github.com/lramadhan/hackintosh-asus-x550vx) | | |
+| Asus X550VXK | [链接](https://github.com/Giovix92/efi_x550vxk) | | |
 | Asus X556UQ | [链接](https://github.com/IlhamSevensky/ASUS-X556UQ-HACKINTOSH) | | A556U |
 | Asus X556UV                       | [链接](https://github.com/Amview/ASUS-X556UV-Hackintosh)   |                                                              |                                                            |
 | Asus X75VC-TY056D                 | [链接](https://github.com/Jesterjke/ASUS-X75VC-Hackintosh)   |                                                              |                                                            |
@@ -152,7 +159,7 @@
 | 华硕A407UB                         | [链接](https://github.com/xinguisoft/Hackintosh-EFI-Asus-A407UB/)   |      |     |
 | 玩家国度枪神3                       | [链接](https://github.com/DongLinghe/ROG-SCAR-III-Hackintosh-EFI)   |      |这个应该是华硕的吧     |
 
-#### DELL 戴尔
+### DELL 戴尔
 
 | 机型名称                                   | 发布地址                                                     | 教程地址                                                     | 备注                                                  |
 | ------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ----------------------------------------------------- |
@@ -233,7 +240,7 @@
 | Dell XPS 9560                              | [链接](https://github.com/gunslinger23/XPS15-9560-High-Sierra) | [链接](https://github.com/gunslinger23/XPS15-9560-High-Sierra/blob/master/README.md) | Dell XPS 9560，网卡推荐：[DW1820A](https://blog.daliansky.net/DW1820A_BCM94350ZAE-driver-inserts-the-correct-posture.html) |
 | Dell XPS 9570                              | [链接](https://github.com/Xigtun/xps-9570-mojave) [链接](https://github.com/bavariancake/XPS9570-macOS) <br />[链接](https://github.com/LuletterSoul/Dell-XPS-15-9570-macOS-Mojave) |                                                              | 感谢：[LuletterSoul](https://github.com/LuletterSoul)，网卡推荐：[DW1820A](https://blog.daliansky.net/DW1820A_BCM94350ZAE-driver-inserts-the-correct-posture.html) |
 
-#### Gigabyte 技嘉
+### Gigabyte 技嘉
 
 | 机型名称           | 发布地址                                                 | 教程地址                                                     | 备注 |
 | ------------------ | -------------------------------------------------------- | ------------------------------------------------------------ | ---- |
@@ -241,11 +248,11 @@
 | Gigabyte Aero 15W  | [链接](https://github.com/Errrneist/Hackintosh-Aero-15W) |                                                              |      |
 | Gigabyte Sabre 15K | [链接](https://github.com/gnehs/Sabre15KClover)          |                                                              |      |
 
-#### Hasse 神舟
+### Hasse 神舟
 
 | 机型名称               | 发布地址                                                     | 教程地址                                                     | 备注              |
 | ---------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ----------------- |
-| 神舟 k610d-i5D3 | [链接](https://github.com/1zilc/K610d-i5-d3-10.14.5-efi-clover) |  |  |
+| 神舟 k610d-i5D3 | [链接](https://github.com/1zilc/K610d-i5-d3-10.14.5-efi-clover) |  | 神舟 Z7-SP5D1 (模具 P65xRP6) |
 | 神舟 K650D              | [链接](https://github.com/wklesss/k650D-Hackintosh)          |                                                              | 神舟K650D       |
 | 神舟 K650D-SL5S1      |   [链接](http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1800662)  |    [链接](https://blog.nyaasu.top/front-end/111.html)      |  EFI文件部分有效，无线网卡和电池无法驱动      |
 | 神舟 K650D-i5D2        | [链接](https://github.com/ivothgle/Hackintosh)          |                                                              | 神舟K650D i5 D2      |
@@ -253,6 +260,7 @@
 | 神舟战神 K770E-i7D1 | [链接](https://github.com/Gitawake/Hasee-K770e-i7-D1-Clover) | | p170sm-a |
 | 神舟战神 Z6-SL5D1        | [链接](https://github.com/Measureless/Hackintosh_Hasee_Z6-SL5D1) |                                                              |                   |
 | 神舟战神 Z7-KP7D1 | [链接](https://github.com/ConnersHua/Clevo-P65xHP-Hackintosh) | | Clevo P65xHP<br />HASEE Z7-KP7S1 |
+| 神舟 Z7-SP5D1 | [链接](https://github.com/moonheart/Hackintosh-P65xRP6-Z7-SP5D1) | |  |
 | 神舟战神<br>Z7(M)-KP7/5GZ<br>Z7(M)-KP7/5Z<br>Z7-KP7EC<br>Z7(M)-KP7/5GC<br>Z7(M)-KP7/5GA<br>Z7(M)-KP7/5GE<br>Z7(M)-KP7/5GH<br>Z7-CT7/5GK<br>Z7M-CT7GS<br>G7-CT7VK、G7-CT7RA<br>Z7(M)-CT7/5GA<br>Z7(M)-CT7/5VH  | [链接](https://github.com/kirainmoe/hasee-tongfang-macos) | [链接](https://www.bilibili.com/video/av81263778) | 神舟战神 8/9 代同方模具全系标压机型，适配以下模具：<br>GK5CN6X, GK5CN5X <br> GJ5CN64, GI5CN54 <br>GK5CP6X, GK5CP5X <br> GK7CP6R <br>GK5CP6V,GK5CP5V |
 | 神舟战神 Z7M-KP5GC        | [链接](https://github.com/CharlesZhou959/Hasee-Z7M-KP5GC-Hackintosh) |                                                              |                   |
 | 神舟战神 Z7(M)-CT7/5NA | [链接](https://github.com/bufsnake/Z7-CT7NA-HackIntosh) |  |  |
@@ -260,11 +268,11 @@
 | 神舟精盾系列 T96E       | [链接](https://github.com/L0ngxhn/Hackintosh-Hasee-T96E)     |  |                   |
 | 神舟精盾系列 K590S      | [链接](https://github.com/JokerHYC/K590S-HACKINTOSH)     |  |                   |
 | 神舟 GX8-P775TM      | [链接](https://github.com/JokerHYC/P775TM-HACKINTOSH)     |  |       未来人类X711，战神GX8-CP5，战神GX8-CR6，炫龙V87等使用蓝天p775tm模具的10*0系显卡都支持   |
-| 神舟战神Z6-KP7S1     |[链接](https://github.com/hevervie/Hackintosh_HASEE_Z6-KP7S1)        |       |       | |
+| 神舟战神Z6-KP7S1     |[链接](https://github.com/hevervie/Hackintosh_HASEE_Z6-KP7S1)        |       |       |
 | 神舟战神<br> ZX7-CP5SC<br>ZX6-CP5S1<br>K680E-G6E3<br>K680E-G6D3 | [链接](https://github.com/bavelee/NB5TK1_TJ1-Hackintosh/) | [链接](https://bavelee.cn/archives/60.html) | 蓝天 NB50/60 TJ1/TK1 模具 |
 
 
-#### HP 惠普
+### HP 惠普
 
 | 机型名称                                | 发布地址                                                     | 教程地址                                                     | 备注                                                         |
 | --------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -290,7 +298,8 @@
 | HP Pavilion15 AU157TX | [链接](https://github.com/sxrhd/HP-AU157TX-EFI) | | |
 | HP Pavillion ck069tx                    | [链接](https://github.com/Blizzard57/Hackintosh)             |                                                              |                                                              |
 | HP Pavilion 15 cs1xxx | [链接](https://github.com/JaeSeoKim/HP-Pavilion-Laptop-15-cs1xxx-Hackintosh) | | |
-| Hp spectre X360                         | [链接](https://github.com/Just-maple/Hp-spectre-X360-hackintosh) |                                                              |                                                              |
+| Hp Spectre X360                         | [链接](https://github.com/Just-maple/Hp-spectre-X360-hackintosh) |                                                              |                                                              |
+| HP Spectre X360 15-bl112dx | [链接](https://github.com/WoadZS/HP-Spectre-X360-15-Hackintosh) | | |
 | EliteDesk 800-G3-Mini                   | [链接](https://github.com/francoisminh/Hackintosh-EliteDesk-800-G3-Mini-65W) | [链接](https://github.com/francoisminh/Hackintosh-EliteDesk-800-G3-Mini-65W/blob/master/README.md) |                                                              |
 | HP Zhan 66 Pro G1                       | [链接1](https://github.com/A-Linz/Hackintosh-HP-Zhan-66-Pro-G1) [链接2](https://github.com/RenAmamiya/HP-Zhan-66-Pro-G1) |                                                              |                                                              |
 | HP ZHAN 66 PRO 14 G2 | [链接](https://github.com/peihexian/HP-ZHAN-66-Pro-14-G2) | | |
@@ -303,9 +312,10 @@
 | 暗影精灵I (惠普PAVILION Gaming NB 15-ak039TX) |[链接](https://github.com/lgs3137/PAVILION_Gaming_NB-macOS) | | 除了独显、Intel无线网卡，其他功能模块正常(包括HDMI视频) |
 | HP Pavillion Gaming Laptop 15-cx0xxx |[链接](https://github.com/mechtifs/hackintosh-clover-hp-pavillion-15-cx0xxx) | | 光影精靈4代 |
 |惠普光影精靈5 |[链接](https://github.com/Tonymiugrey/Garden-by-miugrey) | | 內含搞定PM981的補丁，可以試試 |
-|ProBook 430 G6 |[链接](https://github.com/YGQ8988/HP-ProBook430G6) | | i5-8265U 已卸载内置镁光nvme SSD(此硬盘不识别) |
+|HP Probook 430 G5 |[链接](https://github.com/GoProgrammer/HP-Probook-430-G5-Hackintosh) | |  |
+|HP ProBook 430 G6 |[链接](https://github.com/YGQ8988/HP-ProBook430G6) | | i5-8265U 已卸载内置镁光nvme SSD(此硬盘不识别) |
 
-#### Huawei 华为
+### Huawei 华为
 
 | 机型名称                 | 发布地址                                                     | 教程地址                                                     | 备注                               |
 | ------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------------------------------- |
@@ -319,7 +329,7 @@
 | 荣耀 Magicbook-Pro-16.1           | [链接](https://github.com/GatesYang/Magicbook-Pro-16.1-Hackintosh)             |  |                                    |
 | 华为 Matebook 14 2020款 | [链接](https://github.com/Zero-zer0/Matebook_13_14_2020_Hackintosh_OpenCore) | | 华为 Matebook 13 / 14 2020 十代 通用 |
 
-#### Lenovo 联想
+### Lenovo 联想
 
 | 机型名称                           | 发布地址                                                     | 教程地址                                                     | 备注                                                         |
 | ---------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -361,9 +371,9 @@
 | ThinkPad T450s | [链接](https://github.com/EchoEsprit/Hackintosh-Catalina-OpenCore-Lenovo-T450s-efi) [链接](https://github.com/jianzhao0806/ThinkPad-T450S-Hackintosh)|  | |
 | ThinkPad T460 系列                 | [链接](https://github.com/tluck/Lenovo-T460-Clover)          | [链接](http://www.insanelymac.com/forum/topic/315451-guide-lenovo-t460-macos-with-clover/) | 可支持 T460、T560、T470<br /> 和 T470p4 款机型               |
 | ThinkPad T460p                     | [链接](https://github.com/totemofwolf/Thinkpad-T460p-OSX-EFI) |                                                              |                                                              |
-| ThinkPad T460s | [链接](https://github.com/nicogig/T460s-Clover) | | |
+| ThinkPad T460s | [链接](https://github.com/nicogig/T460s-Clover) [链接](https://github.com/simprecicchiani/Thinkpad-T460s-macOS-OpenCore) | | |
 | Thinkpad T470                      | [链接](https://github.com/nguyenduy98/Hackintosh)            |                                                              | I7-7500u                                                     |
-| Thinkpad T470S                     | [链接](https://github.com/Altairko/Lenovo-T470s-Clover)            |                                                              |                                                    |
+| Thinkpad T470S                     | [链接](https://github.com/Altairko/Lenovo-T470s-Clover) [链接](https://github.com/YBN-JUAN/T470s-OpenCore-EFI) |                                                              | 网卡推荐：[DW1820A](https://blog.daliansky.net/DW1820A_BCM94350ZAE-driver-inserts-the-correct-posture.html) `00JT494`联想版 |
 | ThinkPad T470p                     | [链接](https://github.com/lohcve/EFI_T470P)                  | [链接](https://github.com/lohcve/EFI_T470P/blob/master/README.md) | ThinkPad T470p                                               |
 | ThinkPad T480                      | [链接](https://github.com/rhkjyn/T480-Hackintosh-FULL)       |                                                              | 网卡推荐：[DW1820A](https://blog.daliansky.net/DW1820A_BCM94350ZAE-driver-inserts-the-correct-posture.html) |
 | ThinkPad T480s                     | [链接](https://github.com/kk1987/T480s-hackintosh)           | [链接](https://github.com/kk1987/T480s-hackintosh/blob/master/README.md) | 网卡推荐：[DW1820A](https://blog.daliansky.net/DW1820A_BCM94350ZAE-driver-inserts-the-correct-posture.html) |
@@ -384,9 +394,9 @@
 | Lenovo XiaoXin Rui 7000            | [链接](https://github.com/Erf172/Lenovo_XiaoXin_Rui7000_Hackintosh) | [链接](https://github.com/Erf172/Lenovo_XiaoXin_Rui7000_Hackintosh/blob/10.12/README.md) |                                                              |
 | Lenovo XiaoXin Chao 7000           | [链接](https://github.com/penghubingzhou/Lenovo-Xiaoxin-Chao-7000--EFI) | [链接](https://github.com/penghubingzhou/Lenovo-Xiaoxin-Chao-7000--EFI/blob/master/Readme.md) | 联想小新潮 7000，已支持 14 寸、<br />12.5 寸、13.3 寸，15 寸以及 <br />13.3 寸的完美支持后续会添加，<br />请期待…… |
 | ThinkPad X1 3rd                    | [链接](https://github.com/shockingpants/ThinkpadX1Y3)        | [链接](https://www.tonymacx86.com/threads/guide-thinkpad-x1-yoga-3rd-gen-20ld-with-mojave.261823/) | ThinkPad X1 3 代                                             |
-| ThinkPad X1 Carbon 2015 | [链接](https://github.com/transtone/hackintosh/tree/master/x1c-2015) |  |  |
+| ThinkPad X1 Carbon 2015 | [链接](https://github.com/transtone/hackintosh/tree/master/x1c-2015) [链接](https://github.com/Derekxxzzyy/Thinkpad-X1-Carbon-3rd-Hackintosh-OC-EFI) |  |  |
 | ThinkPad X1 Carbon 5th gen         | [链接](https://github.com/B0hrer/Thinkpad-x1c-5th-gen-Hackintosh) |                                                              | (5th gen, released 2017)                                     |
-| ThinkPad X1 Carbon 6th Gen         | [链接](https://github.com/tylernguyen/x1c6-hackintosh)       | [链接](https://github.com/tylernguyen/x1c6-hackintosh/blob/master/README.md) | Thinkpad X1 Carbon 6th Gen                                   |
+| ThinkPad X1 Carbon 6th Gen         | [链接](https://github.com/tylernguyen/x1c6-hackintosh) [链接](https://github.com/RyoIkarashi/hackintosh-x1c6-with-native-wifi-card) | [链接](https://github.com/tylernguyen/x1c6-hackintosh/blob/master/README.md) | Thinkpad X1 Carbon 6th Gen                                   |
 | ThinkPad X1 Yoga / Carbon          | [链接](https://github.com/LukaJankovic/Thinkpad-X1-20FQ-Hackintosh) | [链接](https://github.com/LukaJankovic/Thinkpad-X1-20FQ-Hackintosh/blob/master/README.md) | Thinkpad X1 Yoga / Carbon                                    |
 | ThinkPad X1 Yoga 2018 | [链接](https://github.com/Jamesxxx1997/thinkpad-x1-yoga-2018-hackintosh) |  |  |
 | ThinkPad X1 Extreme                | [链接](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme) [链接](https://github.com/zysuper/Thinkpad-X1-extreme-EFI) | [链接](https://www.tonymacx86.com/threads/macos-10-14-0-thinkpad-x1-extreme-igpu-issue.263916/) | 如果没猜错，这货就是 x1 隐士，<br />好几个人问过，这下省事了 |
@@ -408,6 +418,7 @@
 | Lenovo Legion Y7000                | [链接](https://github.com/hnie-xwz/EFI)                      | [链接](https://github.com/hnie-xwz/EFI/blob/macOs10.14/readme.md) | 网卡推荐：[DW1820A](https://blog.daliansky.net/DW1820A_BCM94350ZAE-driver-inserts-the-correct-posture.html) |
 | Lenovo Legion Y7000-1060           | [链接](https://github.com/TioaTyan/Lenovo_Legion_Y7000-1060_Hackintosh) | [链接](https://github.com/TioaTyan/Lenovo_Legion_Y7000-1060_Hackintosh/blob/master/README.md) | Lenovo_Legion_Y7000-1060                                     |
 | Lenovo Legion Y7000<br />Y530 系列 | [链接](https://github.com/xiaoMGitHub/Lenovo_Y7000-Y530_Hackintosh/) [链接](https://github.com/ahossny/Legion-Y530-Hackintosh) | | 全新完美 EFI，舍弃了小键盘                                   |
+| Lenovo Y7000P 81T1 | [链接](https://github.com/gclm/Hackintosh-LEGION-Y7000P-I7-9750H) | | I7-9750H |
 | Lenovo Y9000X | [链接](https://github.com/programbw/y9000x) [链接](https://github.com/hsd815/Y9000X-4K-hackintosh) [链接](https://github.com/WangRicky/Y9000X-HACKINTOSH) [链接](https://github.com/snxiang/Y9000X-Hackintosh-FHD-OpenCore) | | 支持CNVi直插m.2网卡，推荐：[DW1820A](https://blog.daliansky.net/DW1820A_BCM94350ZAE-driver-inserts-the-correct-posture.html) |
 | Lenovo Yoga 3 Pro 1370             | [链接](https://github.com/gdllzkusi/hackintosh--lenovo-Yoga-3-Pro-1370) | [链接](https://github.com/gdllzkusi/hackintosh--lenovo-Yoga-3-Pro-1370/blob/master/README.md) | 联想 yaga3/pro                                               |
 | ThinkPad Yoga 12                   | [链接](https://github.com/gartempe/MacOS-Thinkpad-Yoga-12) [链接](https://github.com/kymodoke/MacOS-Thinkpad-Yoga-12) | [链接](https://github.com/gartempe/MacOS-Thinkpad-Yoga-12/blob/master/README.md) [链接](https://github.com/kymodoke/MacOS-Thinkpad-Yoga-12/blob/master/README.md) |                                                              |
@@ -417,6 +428,7 @@
 | Lenovo Yoga 13IKB | [链接](https://github.com/dragonflylee/Yoga13-Hackintosh) | | |
 | Lenovo Yoga 370 | [链接](https://github.com/ouxuebo/YOGA370-clover) | |     |
 | Lenovo Yoga 520 14IKB | [链接](https://github.com/gasperTheGhost/Yoga-520-Hackintosh) | | |
+| Lenovo Yoga 710-14isk 80TY | [链接](https://github.com/yutayouguan/EFI) | | i5-6200U |
 | Lenovo Yoga 710                    | [链接](https://github.com/xiaoxx970/Hackintosh-Mojave-for-Lenovo-Yoga710) |                                                              |                                                              |
 | Lenovo Yoga 720 | [链接](https://github.com/bugprogrammer/hackintosh/tree/Lenovo-yoga-720-13ikb-7200u) | | Lenovo Yoga 720-13IKB |
 | Lenovo Yoga 720 | [链接](https://github.com/williambj1/Hackintosh-EFI-Lenovo-Yoga-720-12IKB) | [链接](https://github.com/williambj1/Hackintosh-EFI-Lenovo-Yoga-720-12IKB/tree/master/Resources) | Lenovo Yoga 720-12IKB                                        |
@@ -430,15 +442,16 @@
 | Thinkstation P910 | [链接](https://github.com/crazyi/Hackintosh_Thinkstation_P910) |  |  |
 
 
-#### LG
+### LG
 
 | 机型名称               | 发布地址                                           | 教程地址 | 备注 |
 | ---------------------- | -------------------------------------------------- | -------- | ---- |
+| LG Gram 13z980 | [链接](https://github.com/suzuke/LG-Gram-13z980-Opencore) |  | OC |
 | LG Gram 14z980         | [链接](https://github.com/ShiningXu/LG-Gram-macOS) |          |      |
 | LG Gram 15Z980-G.AA52C | [链接](https://github.com/ice-black-tea/LG-15Z980) |          |      |
 | LG Gram Z980           | [链接](https://github.com/ShiningXu/LG-Gram-macOS) |          |       |
 
-#### Mechrevo 机械革命
+### Mechrevo 机械革命
 
 | 机型名称           | 发布地址                                                     | 教程地址                                                     | 备注                                |
 | ------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ----------------------------------- |
@@ -459,7 +472,7 @@
 | Mechrevo X1        | [链接](https://github.com/cmbs2019/Mechrevo-Hackintosh) [链接](https://github.com/tsmswifty/MECHREVO-X1-hackintosh) |                                                              | i7-7700HQ/GTX1060                   |
 | Mechrevo Z2 Air <br> Mechrevo Z2 Air-G <br> Mechreco X3 | [链接](https://github.com/kirainmoe/hasee-tongfang-macos) | [链接](https://www.bilibili.com/video/av81263778) | 适用于同方GK5CN6X, GK5CP6X, GK7CP6R准系统模具 |
 
-#### MSI 微星
+### MSI 微星
 
 | 机型名称                  | 发布地址                                                     | 教程地址                                                     | 备注      |
 | ------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | --------- |
@@ -478,7 +491,7 @@
 | clover-z390-aorus-pro-wifi-9700k-rx580 |[链接](https://github.com/cheneyveron/hackintosh-clover-z390-aorus-pro-wifi-9700k-rx580) | [链接](https://github.com/cheneyveron/hackintosh-clover-z390-aorus-pro-wifi-9700k-rx580/blob/master/README.md)    ||
 |MSI Z390   |[链接](https://github.com/MonkeySdkCom/EFI-MSI-Z390-Tomahawk)    |     |     |
 
-#### Shinelon 炫龙
+### Shinelon 炫龙
 
 | 机型名称               | 发布地址                                                     | 教程地址                                                     | 备注              |
 | ---------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ----------------- |
@@ -489,12 +502,11 @@
 | 炫龙 T3TI | [链接](https://github.com/283330601/shinelon-t3ti-Hackintosh) |  | 9750H+1660TI |
 | 炫龙 DC2/DD2      | [链接](https://github.com/bavelee/DC2_Hackintosh)  [链接DC2_DD](https://github.com/yuedashen88/DC2_EFI)          | [链接](https://bavelee.cn/index.php/archives/60/)            |  yuedashen88基于大佬BaveLee之前的EFI的修改版本,修复了HDMI热插拔问题                 |
 
-
-#### XiaoMi 小米
+### XiaoMi 小米
 
 | 机型名称           | 发布地址                                                     | 教程地址                                                     | 备注                                           |
 | ------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------------------------------------------- |
-| XiaoMi Air 2019    | [链接](https://github.com/szpinc/Hacintosh_MiBookAir13.3_i5-8250U_with_10.13.5)|
+| XiaoMi Air 2019    | [链接](https://github.com/szpinc/Hacintosh_MiBookAir13.3_i5-8250U_with_10.13.5)|||
 | XiaoMi Air         | [链接](https://github.com/billhhh/MiAir-Hackintosh)          | [链接](https://github.com/billhhh/MiAir-Hackintosh/blob/master/README.md) | XiaoMiAir_i7 7500u                             |
 | XiaoMi Air         | [链接](https://github.com/johnnync13/Xiaomi-Mi-Air)          | [链接](https://github.com/johnnync13/Xiaomi-Mi-Air/blob/master/README.md) | 小米 Air                                       |
 | XiaoMi Air         | [链接](https://github.com/ourfor/Mibook-air)                 | [链接](https://github.com/ourfor/Mibook-air/blob/master/README.md) | 小米 Air                                       |
@@ -510,25 +522,21 @@
 | XiaoMi 游戏本 8 代 | [链接](https://github.com/daliansky/XiaoMi-GLP)              |                                                              | 小米游戏本，猜的                               |
 | XiaoMi Air    |[链接](https://github.com/hevervie/Hackintosh_XIAOMI_AIR-13.3)   |     |喜欢买小米的，自己区分去吧，我是分不清楚了     |
 | XiaoMi Air      |[链接](https://github.com/wilsonnkwan/Hackintosh-Xiaomi-Air-13.3-2018-Catalina)      |     |     |
+| XiaoMi Air 13.3 |[链接](https://github.com/teojs/Xiaomi-Air-i7-8550u-EFI) | | i7-8550U |
 | 红米redmibook mx250    |[链接](https://github.com/dbv/redmibook_hackintsh_EFI)      |     |     |
 
 
-#### Intel 英特尔
+### Intel 英特尔
 
 | 机型名称                                            | 发布地址                                                     | 教程地址                                                     | 备注                                                |
 | --------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | --------------------------------------------------- |
 | Intel DH67GD, DH67BL, <br />DH67CF, DH67CL 系列主板 | [链接](https://github.com/RehabMan/Intel-DH67XX-DSDT-Patch)  | [链接](https://www.tonymacx86.com/threads/guide-intel-dh67xx-with-hd3000-using-clover-uefi-hotpatch.233257/) | Intel DH67GD, DH67BL, <br />DH67CF, DH67CL 系列主板 |
-| Intel NUC 5、6、7、8 系列                           | [链接](https://github.com/RehabMan/Intel-NUC-DSDT-Patch)     | [链接](https://www.tonymacx86.com/threads/guide-intel-kaby-lake-nuc7-using-clover-uefi-nuc7i7bnh-nuc7i5bnk-nuc7i3bnh-etc.261711/) | mini 主机                                           |
-| NUC8I5BEH                                           | [链接](https://github.com/dongyubin/nuc8i5beh)               | [链接](https://chengxuxiaohei.cn/mac-anzhuang.html) [链接](https://osy.gitbook.io/hac-mini-guide/) |                                                     |
-| NUC8i7BEH                                           | [链接](https://github.com/sarkrui/NUC8i7BEH-Hackintosh-Build)[链接](https://github.com/wilsonnkwan/Hackintosh-NUC8i7BEH-Catalina) | [链接](https://osy.gitbook.io/hac-mini-guide/)               |                                                     |
-| NUC7i7BNH                                           | [链接](https://github.com/calebchow9/Intel-NUC7i7BNH-Hackintosh) |                                                              |                                                     |
-| NUC7i5BEK                                           | [链接](https://github.com/331296441/NUC7i5BEK)               |                                                              |                                                     |
 | Surface Pro 3                                       | [链接](https://github.com/hacker1024/Hackintosh-Clover-SurfacePro3) |                                                              |                                                     |
 | Surface Pro 4                                       | [链接](https://github.com/Neil-Steven/SurfacePro4-Hackintosh) [链接](https://github.com/bigsadan/surface-pro-4-hackintosh-10.14.3) | [链接](https://github.com/Neil-Steven/SurfacePro4-Hackintosh/blob/master/README.md) | surfacePro 4                                        |
 | Surface Pro 6                                       | [链接](https://github.com/molie34/Surface-Pro-6-macOS)       | [教程](https://github.com/molie34/Surface-Pro-6-macOS)       |                                                     |
-| 技嘉 GB-BXi5H-4200 系列主板                         | [链接](https://github.com/RehabMan/Gigabyte-BRIX-s-DSDT-Patch) | [链接](https://www.tonymacx86.com/threads/guide-gigabyte-brix-using-clover-uefi-gb-bxi5h-4200-gb-bxi5-4570r-gb-bxi7-4770r.261710/) | 技嘉 GB-BXi5H-4200 系列主板                         |
+|                                                     |                                                              |                                                              |                                                     |
 
-#### Other 其它
+### Other 其它
 
 | 机型名称                           | 发布地址                                                     | 教程地址                                                     | 备注              |
 | ---------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ----------------- |
@@ -556,14 +564,14 @@
 
 
 
-#### 笔记本更多的机型
+### 笔记本更多的机型
 
 | 机型名称     | 发布地址                                 | 教程地址 | 备注                                                         |
 | ------------ | ---------------------------------------- | -------- | ------------------------------------------------------------ |
 | **更多机型** | [链接](https://github.com/sqlsec/clover) |          | 引用自：国光之前维护的仓库                                   |
 |              | [链接](https://zhih.me/hackintosh/#/)    |          | 底噪出品：**[one-key-hidpi](https://github.com/xzhih/one-key-hidpi)** |
 
-#### 笔记本相关资源
+### 笔记本相关资源
 
 | **笔记本相关资源**   |                                                            |                                                              |                                                              |
 | -------------------- | ---------------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -579,105 +587,156 @@
 |                      | **M.2** 接口                                               | **博通**：BCM94352Z(AE)、DW1560，DW1830<br />BCM94350Z(AE)/[DW1820A](https://blog.daliansky.net/DW1820A_BCM94350ZAE-driver-inserts-the-correct-posture.html) |                                                              |
 |                      | **USB** 无线网卡                                           | RealTek系列                                                  | [链接](https://github.com/chris1111/Wireless-USB-Adapter-Clover) |
 
-### 台式机
+## 台式机
 
-| **台式（部分）**               | 发布地址                                                     | 教程地址                                                     | 备注                                            |
+## AMD Ryzen
+
+| **台式**               | 发布地址                                                     | 教程地址                                                     | 备注                                            |
 | ------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ----------------------------------------------- |
-| **AMD Ryzen CPU**              |                                                              |                                                              |                                                 |
+| ASUS B350 Plus | [链接](https://github.com/mikigal/ryzen-hackintosh) | | AMD Ryzen 7 1700/MSI RX Vega 64 |
+| AsRock X570 Phantom Gaming ITX/TB3 | [链接](https://github.com/aluveitie/RyzenMacPro) | | AMD Ryzen 9 3900X<br />Sapphire Radeon RX 5500 XT Pulse 8G |
 | AMD Ryzen 7 1700x or 3700x<br />MSI X370 Krait Gaming or ASROCK X570 Taichi<br />RX Vega64 | [链接](https://github.com/yhl452493373/ryzen-hackintosh-efi) |  | 10.14.6 |
 | R7 3700x/MSI B450/5700XT | [链接](https://github.com/harpsword/hackintosh-ryzen) | |  |
 | AMD Ryzen安装教程              | [链接](https://github.com/MrNegativeTW/Ryzen-Hackintosh-Tutorial) [链接](https://github.com/doesprintfwork/Intel-AMD-Hackintosh-Guide) | [链接](https://kb.hackintoshisfun.ml/vanilla/v/traditional-chinese/) [链接](https://mtwstudio.gitbook.io/ryzentosh/) | 适用于`10.12` `10.13` `10.14` |
 | AMD FX 6300/NVIDIA GTX 650     | [链接](https://github.com/pexcn/hackintosh-amd)              |                                                              | 主板：Asus M5A97 LE R2.0                        |
 | MSI B350M Gaming Pro           | [链接](https://github.com/nghuunghiaa111/Hackintosh-IMac)    |                                                              | AMD Ryzen 5 1400<br />MSI RX580 8GB Armor       |
+| MSI B450m 迫击炮 | [链接](https://github.com/heyxiaobai/MSI-B450m-MORTAR-Hackintosh) | | AMD R5 3600x/蓝宝石 RX 570 |
 | MSI MEG X570 ACE | [链接](https://github.com/vaasheim1995/AMD-MSI-MEG-X570-ACE-Hackintosh) | |  |
 | AMD Ryzen 1700/Asus B350 Plus  | [链接](https://github.com/mikigal/ryzen-hackintosh)          |                                                              | MSI GTX 1080 Gaming X                           |
 | AMD Vanilla Clover Patches | [链接](https://github.com/AMD-OSX/AMD_Vanilla) | [链接](https://github.com/cheneyveron/hackintosh-clover-tachi-x370-1700x-rx570) | AMD Clover补丁，以后可以<br />直接刻盘安装，10.14.5我会同步<br />更新针对AMD平台的配置文件<br />敬请期待 |
 | Clover-Ryzen-MSI-B450I | [链接](https://github.com/portrayer/Clover-Ryzen-MSI-B450I) |  |  |
 |  |  |  |  |
-| **INTEL CPU**                  |                                                              |                                                              |                                                 |
-| INTEL安装教程 | [链接](https://github.com/doesprintfwork/Intel-AMD-Hackintosh-Guide) | | |
-| ASRock  deskmini 110           | [链接](https://github.com/suxiaogang/asrock-deskmini-110-hackintosh) |                                                              |                                                 |
-| Asrock deskmini 310            | [链接](https://github.com/liminghuang/asrock_deskmini310_hackintosh) |                                                              |                                                 |
-| ASRock B360M-HDV | [链接](https://github.com/RealKiro/Hackintosh) | | |
-| ASRock Z370 Pro4 | [链接](https://github.com/athlonreg/ASRock-Z370-Pro4-Hackintosh) | | [套路](https://github.com/athlonreg) 自用机型 |
-| ASRock Z370M ITX-AC | [链接](https://github.com/youngle316/ASRock-Z370M-ITX-AC) | |  |
-| ASRock Z370M Pro4              | [链接](https://github.com/HouCoder/asrock-z370m-pro4-hackintosh) [链接](https://github.com/ljllili23/Hackintosh) | [链接](https://github.com/HouCoder/asrock-z370m-pro4-hackintosh/blob/master/README.md) |                                                 |
-| ASRock Z370 Gaming             | [链接](https://github.com/fangf2018/ASRock-Z370-Gaming-ITX-ac-hackintosh) | [链接](https://github.com/fangf2018/ASRock-Z370-Gaming-ITX-ac-hackintosh/blob/master/README.md) | I7-8700k/RX570                                  |
-| ASRock Z370 Gaming ITX-ac | [链接](https://github.com/fangf2018/ASRock-Z370-Gaming-ITX-ac-hackintosh) |  |  |
-| ASRock Z390M Pro4 mATX | [link](https://github.com/sarkrui/Z390MPro4-i7-9700K-Hackintosh) | | i7-9700K + Sapphire RX580 Nitro+ 8G |
-| ASRock Z390 Phantom Gaming itx | [链接](https://github.com/zanderzhng/EFI_Asrock_Z390_Phantom_ITX_OC)  [链接](https://github.com/icyleaf/EFI-ASRock-Z390-Phantom-Gaming-ITX) [链接](https://github.com/bydavy/EFI-ASRock-Z390-Phantom-Gaming) <br />[链接](https://github.com/kcunanan/Jared-PC/) [链接](https://github.com/befuture/EFI-ASRock-Z390-Phantom-Gaming) |                                                              | 华擎 Z390 Phantom Gaming itx/ac                 |
-| ASRock Z390 Phantom Gaming itx | [链接](https://github.com/icyleaf/EFI-ASRock-Z390-Phantom-Gaming-ITX) [链接](https://github.com/bydavy/EFI-ASRock-Z390-Phantom-Gaming) <br />[链接](https://github.com/kcunanan/Jared-PC/) [链接](https://github.com/befuture/EFI-ASRock-Z390-Phantom-Gaming) |                                                              | 华擎 Z390 Phantom Gaming itx/ac                 |
-| Asrock Z390 Phantom ITX | [链接](https://github.com/zanderzhng/EFI_Asrock_Z390_Phantom_ITX) | |  |
+
+## INTEL CPU系列
+
+### ASUS 华硕
+
+| **台式（部分）**               | 发布地址      | 教程地址      | 备注                                            |
+| ------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ----------------------------------------------- |
 | Asus TUF B360M-PLUS-S | [链接](https://github.com/Zerah64/hackintosh_9400f_b360_vega56) | |  |
-| ASUS Z97K 4980HQ               | [链接](https://github.com/efsg/ASUS-Z97K-4980HQ-Hackintosh)  |                                                              | I7-4980HQ                                       |
-| Asus Z170-P                    | [链接](https://github.com/Sharlion/z170_6700k_hackintosh)    |                                                              | 华硕Z170-P+6700K+RX470                          |
-| Asus ROG STRIX H370-I GAMING   | [链接](https://github.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide) |                                                              | mini-ITX H370 motherboard                       |
-| Asus STRIX Z270-E              | [链接](https://github.com/BradenM/Hackintosh-7700k-R9_390-iGPU) |                                                              | Asus STRIX Z270-E                               |
-| Asus ROG Strix Z390-E          | [链接](https://github.com/xiedonghang/hackintosh)            |                                                              | Intel i9-9900k+UHD630核显                       |
+| ASUS Z97K 4980HQ               | [链接](https://github.com/efsg/ASUS-Z97K-4980HQ-Hackintosh)  |  | I7-4980HQ                                       |
+| Asus Z170-P                    | [链接](https://github.com/Sharlion/z170_6700k_hackintosh)    |  | 华硕Z170-P+6700K+RX470                          |
+| Asus ROG STRIX H370-I GAMING   | [链接](https://github.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide) |  | mini-ITX H370 motherboard                       |
+| Asus STRIX Z270-E              | [链接](https://github.com/BradenM/Hackintosh-7700k-R9_390-iGPU) |  | Asus STRIX Z270-E                               |
+| Asus ROG Strix Z390-E          | [链接](https://github.com/xiedonghang/hackintosh)            |  | Intel i9-9900k+UHD630核显                       |
+| ASUS-PRIME-Z390 |[链接](https://github.com/dhckdgjs/ASUS-PRIME-Z390-A-HACKINTOSH-Clover-iGPU-with-dGPU-UHD630-RX580)  |  |ASUS-PRIME-Z390 |
 | Asus Prime Z390m plus | [链接](https://github.com/Asphyxia-m/Asus-Z390m-plus-efi) | | OC |
 | ASUS X299 PRIME DELUXE II | [链接](https://github.com/yifan-gu/hackintosh) | | i9 7980XE + Radeon VII |
 | Asus X299 | [链接](https://github.com/shinoki7/Asus-X299-Hackintosh) | |  |
 | Asus ROG STRIX X299-E GAMING | [链接](https://github.com/Fansaly/X299-STRIX-macOS) | | INTEL® CORE™ i7-7800X |
-| CM238 i7-8950H UHD630 ALC269   | [链接](https://github.com/kkzzhizhou/S200H_I7-8750H_Hackintosh) |                                                              | S200H_I7-8750H 小主机                           |
-| Dell OptiPlex 3050             | [链接](https://github.com/Leif160519/Dell-OptiPlex-3050-EFI) |                                                              |                                                 |
-| Dell OptiPlex 9020M            | [链接](https://github.com/mingcheng/dell-optiplex-9020m-hackintosh) [链接](https://github.com/JimLee1996/Hackintosh_OptiPlex_9020)<br /> [链接](https://github.com/W-MS/OptiPlex-9020-Catalina) |                                                              | Disable MSR 0xE2 (i.e. cfg lock) `setup_var 0xDA2 0x00`<br /> Increase DVMT to 96M `setup_var 0x263 0x03`<br /> 链接3支持Catalina |
+
+### ASRock 华擎
+| **台式（部分）**               | 发布地址                                                     | 教程地址                                                     | 备注                                            |
+| ------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ----------------------------------------------- |
+| ASRock  deskmini 110           | [链接](https://github.com/suxiaogang/asrock-deskmini-110-hackintosh) |  |  |
+| Asrock deskmini 310            | [链接](https://github.com/liminghuang/asrock_deskmini310_hackintosh) [链接](https://github.com/huangyanan/Hackintosh-EFI-for-deskmini-310-dw1820) |  | 网卡推荐：[DW1820A](https://blog.daliansky.net/DW1820A_BCM94350ZAE-driver-inserts-the-correct-posture.html) |
+| ASRock B360M-HDV | [链接](https://github.com/RealKiro/Hackintosh) | | |
+| ASRock B360M Pro4 |[链接](https://github.com/Joehaivo/hackintosh) | | |
+| ASRock Z370 Pro4 | [链接](https://github.com/athlonreg/ASRock-Z370-Pro4-Hackintosh) | | [套路](https://github.com/athlonreg) 自用机型 |
+| ASRock Z370M ITX-AC | [链接](https://github.com/youngle316/ASRock-Z370M-ITX-AC) | |  |
+| ASRock Z370M Pro4              | [链接](https://github.com/HouCoder/asrock-z370m-pro4-hackintosh) [链接](https://github.com/ljllili23/Hackintosh) | [链接](https://github.com/HouCoder/asrock-z370m-pro4-hackintosh/blob/master/README.md) |  |
+| ASRock Z370 Gaming             | [链接](https://github.com/fangf2018/ASRock-Z370-Gaming-ITX-ac-hackintosh) | [链接](https://github.com/fangf2018/ASRock-Z370-Gaming-ITX-ac-hackintosh/blob/master/README.md) | I7-8700k/RX570                                  |
+| ASRock Z370 Gaming ITX-ac | [链接](https://github.com/fangf2018/ASRock-Z370-Gaming-ITX-ac-hackintosh) |  |  |
+| ASRock Z390M Pro4 mATX | [link](https://github.com/sarkrui/Z390MPro4-i7-9700K-Hackintosh) | | i7-9700K + Sapphire RX580 Nitro+ 8G |
+| ASRock Z390 Phantom Gaming itx | [链接](https://github.com/zanderzhng/EFI_Asrock_Z390_Phantom_ITX_OC)  [链接](https://github.com/icyleaf/EFI-ASRock-Z390-Phantom-Gaming-ITX) [链接](https://github.com/bydavy/EFI-ASRock-Z390-Phantom-Gaming) <br />[链接](https://github.com/kcunanan/Jared-PC/) [链接](https://github.com/befuture/EFI-ASRock-Z390-Phantom-Gaming) |  | 华擎 Z390 Phantom Gaming itx/ac                 |
+| ASRock Z390 Phantom Gaming itx | [链接](https://github.com/icyleaf/EFI-ASRock-Z390-Phantom-Gaming-ITX) [链接](https://github.com/bydavy/EFI-ASRock-Z390-Phantom-Gaming) <br />[链接](https://github.com/kcunanan/Jared-PC/) [链接](https://github.com/befuture/EFI-ASRock-Z390-Phantom-Gaming) |  | 华擎 Z390 Phantom Gaming itx/ac                 |
+| Asrock Z390 Phantom ITX | [链接](https://github.com/zanderzhng/EFI_Asrock_Z390_Phantom_ITX) | |  |
+
+### Dell 戴尔
+| **台式（部分）**               | 发布地址                                                     | 教程地址                                                     | 备注                                            |
+| ------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ----------------------------------------------- |
+| Dell OptiPlex 3050             | [链接](https://github.com/Leif160519/Dell-OptiPlex-3050-EFI) |  |  |
+| Dell OptiPlex 9020M            | [链接](https://github.com/mingcheng/dell-optiplex-9020m-hackintosh) [链接](https://github.com/JimLee1996/Hackintosh_OptiPlex_9020)<br /> [链接](https://github.com/W-MS/OptiPlex-9020-Catalina) |  | Disable MSR 0xE2 (i.e. cfg lock) `setup_var 0xDA2 0x00`<br /> Increase DVMT to 96M `setup_var 0x263 0x03`<br /> 链接3支持Catalina |
 | Dell OptiPlex 7060<br />Dell OptiPlex 7070    |[链接](https://github.com/W-MS/OptiPlex-7060and7070-Catalina)        |       |       Increase DVMT to 64M `setup_var 0x8DC 0x2` ，不支持96M模式，<br />切勿使用0x3或在其他型号使用此命令。支持Catalina。 |
-| Dell Precision Tower 3620 | [链接](https://github.com/fivestrong/Hackintosh-Dell-Precision-T-3620) | |  |
-| Lenovo M93P           | [链接](https://github.com/mingcheng/lenovo-thinkcentre-m93p-hackintosh) |      | 联想 M93P 系列主机 |
-| Lenovo ThinkCentre M4500q | [链接](https://github.com/samawong/hackintosh-clover-configure-for-lenovo-m4500q-n000-model) | |  |
-| Lenovo ThinkCentre M720Q | [链接](https://github.com/fronttang/Lenovo-ThinkCentre-M720Q-Hackintosh) | |  |
-| B360 AORUS Gaming 3 | [链接](https://github.com/littlegtplr/Hackintosh-Clover-folder-for-Coffee-Lake-builds) | |  |
-| Gigabyte X370N                 | [链接](https://github.com/cwr31/z370n-hackintosh) [链接](https://github.com/qinkangdeid/z370n-wifi-hackintosh) |                                                              | Gigabyte Z370N                                  |
-| DQ77KB                         | [链接](https://github.com/siwilizhao/DQ77KB-I7-3770S-Hackintosh) |                                                              |                                                 |
-| Gigabyte Z270X-UG              | [链接](https://github.com/icedterminal/ga-z270x-ug)          | [链接](https://github.com/icedterminal/ga-z270x-ug/blob/master/README.md) |                                                 |
-| Gigabyte Z370N WIFI            | [链接](https://github.com/b166ar/Mac-Mini-Killer) [链接](https://github.com/yangbe/z370n-wifi-vega64) |                                                              | Mac-Mini-Killer<br />Z370N WIFI VEGA64          |
-| Gigabyte Z390 AORUS            | [链接](https://github.com/cmer/gigabyte-z390-aorus-master-hackintosh) |                                                              | **备注：**<br />如果不是9900k/9700k/8500/8700k CPU，<br />需要打`Device RTC`补丁 |
-| Gigabytes Z390 AORUS ELITE     | [链接](https://github.com/liusming/hackintosh)               |                                                              | I9-9900K/Intel (Z380) HD 630 2G                 |
-| Gigabytes Z390 Aorus Pro | [链接](https://github.com/sarkrui/Hackintosh-Z390-Aorus-Pro-9700K-RX580) | | OpenCore/i7-9700K/蓝宝石 RX580 8G |
+| Dell Precision T3610 |[链接](https://github.com/cstrouse/Dell-T3610-Hackintosh) | |  |
+| Dell Precision T3620 | [链接](https://github.com/fivestrong/Hackintosh-Dell-Precision-T-3620) | |  |
+
+### Gigabyte 技嘉
+| **台式（部分）**               | 发布地址                                                     | 教程地址                                                     | 备注                                            |
+| ------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ----------------------------------------------- |
+| 技嘉 GB-BXi5H-4200 系列主板 | [链接](https://github.com/RehabMan/Gigabyte-BRIX-s-DSDT-Patch) | [链接](https://www.tonymacx86.com/threads/guide-gigabyte-brix-using-clover-uefi-gb-bxi5h-4200-gb-bxi5-4570r-gb-bxi7-4770r.261710/) | 技嘉 GB-BXi5H-4200 系列主板 |
+| Gigabyte B360M AORUS PRO | [链接](https://github.com/liangzhenduo0608/hackintosh-efi) | | |
+| Gigabyte B360 AORUS Gaming 3 | [链接](https://github.com/littlegtplr/Hackintosh-Clover-folder-for-Coffee-Lake-builds) | |  |
+| Gigabyte B360m d2v |[链接](https://github.com/Matchas-xiaobin/EFI-B360m_d2v_dvi_uhd630) | |技嘉B360m，支持DVI输出 |
+| Gigabyte B360M D3H |[链接](https://github.com/laelsirus/GA-B360M-D3H-with-UHD630-iGPU-AMD-dGPU-CLOVER)  |  |GA-B360M-D3H |
+| Gigabyte B360M DS3H |[链接](https://github.com/sqlsec/B360M-DS3H-I5-9600KF-RX580-CLOVER) | |国光自用：i5-9600KF RX580 |
+| Gigabyte Designaire Z390 | [链接](https://github.com/baughmann/designaire-z390-intel-i9-9900k-opencore) | | |
+| Gigabyte X370N                 | [链接](https://github.com/cwr31/z370n-hackintosh) [链接](https://github.com/qinkangdeid/z370n-wifi-hackintosh) | | Gigabyte Z370N                                  |
+| Gigabyte Z270X-UG              | [链接](https://github.com/icedterminal/ga-z270x-ug)          | [链接](https://github.com/icedterminal/ga-z270x-ug/blob/master/README.md) |  |
+| Gigabyte Z370N WIFI            | [链接](https://github.com/b166ar/Mac-Mini-Killer) [链接](https://github.com/yangbe/z370n-wifi-vega64) |  | Mac-Mini-Killer<br />Z370N WIFI VEGA64          |
+| Gigabyte Z370 HD3P|[链接](https://github.com/kinoute/Hack-Z370-HD3P-i5-8400) | | |
+| Gigabyte Z390 AORUS            | [链接](https://github.com/cmer/gigabyte-z390-aorus-master-hackintosh) |  | **备注：**<br />如果不是9900k/9700k/8500/8700k CPU，<br />需要打`Device RTC`补丁 |
+| Gigabyte Z390 AORUS ELITE     | [链接](https://github.com/liusming/hackintosh)               |  | I9-9900K/Intel (Z380) HD 630 2G                 |
+| Gigabyte Z390 Aorus Pro | [链接](https://github.com/sarkrui/Hackintosh-Z390-Aorus-Pro-9700K-RX580) | | OpenCore/i7-9700K/蓝宝石 RX580 8G |
 | Gigabyte Z390 AORUS PRO | [链接](https://pcpartpicker.com/product/L9YLrH/gigabyte-z390-i-aorus-pro-wifi-mini-itx-lga1151-motherboard-z390-i-aorus-pro-wifi) | | WIFI Mini ITX |
 | Gigabyte Z390 AORUS PRO WIFI | [链接](https://github.com/shiruken/hackintosh) | | i7-9700K + Radeon RX 5700 XT |
 | Gigabyte Z390 Master | [链接](https://github.com/felixyin/clover-z390master-i99900k-rx580-970pro) | |  |
 | Gigabyte Z390 M Gaming | [链接](https://github.com/tspng/gigabyte-z390-m-gaming-hackintosh) | | 技嘉 Z390m |
-| Gigabyte Z390 Ultra           | [链接](https://github.com/mrpaulphan/gigabyte-z390-ultra-master-hackintosh) |                                                              |                                                 |
+| Gigabyte Z390 gaming|[链接](https://github.com/dbv/hackintosh_9600k_Z390_RX580) | 小辉自用: i5-9600k RX580 2304sp矿 ||
+| Gigabyte Z390 M  |[链接](https://github.com/xxiaofeng132/Gigabyte-Z390M-Gaming-Hackintosh)  |  |技嘉Z390m-gaming |
+| Gigabyte Z390 Ultra           | [链接](https://github.com/mrpaulphan/gigabyte-z390-ultra-master-hackintosh) |  |  |
 | Gigabyte Z390-UD | [链接](https://github.com/kong-git/Z390-OC-UHD630) [链接](https://github.com/kong-git/Z390-UD-RX580) | | OpenCore 核显/RX580独显 |
 | Gigabyte B365M Aorus Elite | [链接](https://github.com/ChuanfengZhang/Gigabyte-B365M-UHD630-Clover) | | Gigabyte B365M i5-9400 UHD630 Clover config |
-| Lenovo ThinkCentre e 73 | [链接](https://github.com/riku2015/Efi-files-for-lenovo-e73) | | |
-| Lenovo M73 Tiny                | [链接](https://github.com/rehandalal/m73-tiny-hackintosh)    |                                                              |                                                 |
-| Huanan X79 E5-2670, GTX650     | [链接](https://github.com/cheneyveron/clover-x79-e5-2670-gtx650) | [链接](https://github.com/cheneyveron/clover-x79-e5-2670-gtx650/blob/master/README.md) | 华南 x79 V2                                     |
+| Gigabyte Z77P D3 |[链接](https://github.com/cloverkits/GA-Z77P-D3-EFI)  |  |GA-Z77P-D3 |
+| Gigabyte Z77X D3H | [链接](https://github.com/nickw444/opencore-efi) | |  |
+
+### HP 惠普
+| **台式（部分）**               | 发布地址                                                     | 教程地址                                                     | 备注                                            |
+| ------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ----------------------------------------------- |
 | HP Elitedesk G3 | [链接](https://github.com/lavjamanxd/hp-elitedesk-g3-hackintosh) |  |  |
 | HP Z420 | [链接](https://github.com/yansheng1003/Hackintosh) | | E5 1650v2 |
-| HP Z600 Workstation            | [链接](https://github.com/lutzmor/hp_z600_hackintosh)        |                                                              | Mac-Mini-Killer                                 |
-| MSI B360                       | [链接](https://github.com/SuperNG6/MSI-b360-10.14.4-EFI)     |                                                              | 也适用于<br />MAG Z390 TOMAHAWK <br />(MS-7B18) |
-| msi-b360m-i3-8100-rx570 | [链接](https://github.com/shm007g/hackintosh-msi-b360m-i3-8100-rx570) | |  |
-| MSI Z370-A                     | [链接](https://github.com/daliansky/Z370-Hackintosh)         | [链接](https://github.com/daliansky/Z370-Hackintosh)         | 黑果小兵MSI Z370-A自用EFI                       |
-| MSI-MPG-Z390-Gaming-EDGE-AC  | [链接](https://github.com/fnoopv/MSI-Z390-Gaming-Edge-AC_OC) |   |  微星MPG-Z390-Gaming-Edge-ac OpenCore EFI |
-| ASRock-Z370-Gaming-ITX-ac-hackintosh  | [链接](https://github.com/fangf2018/ASRock-Z370-Gaming-ITX-ac-hackintosh) |   |   |
-| Gigabyte-Z390M  |[链接](https://github.com/xxiaofeng132/Gigabyte-Z390M-Gaming-Hackintosh)  |  |技嘉Z390m-gaming |
-| ASUS-PRIME-Z390 |[链接](https://github.com/dhckdgjs/ASUS-PRIME-Z390-A-HACKINTOSH-Clover-iGPU-with-dGPU-UHD630-RX580)  |  |ASUS-PRIME-Z390 |
-| GA-Z77P-D3 |[链接](https://github.com/cloverkits/GA-Z77P-D3-EFI)  |  |GA-Z77P-D3 |
-| Deskmini-310 |[链接](https://github.com/yuqi/Deskmini-310-Hackintosh)  |  |Deskmini-310 |
-| GA-B360M-D3H |[链接](https://github.com/laelsirus/GA-B360M-D3H-with-UHD630-iGPU-AMD-dGPU-CLOVER)  |  |GA-B360M-D3H |
-| 技嘉B360M DS3H |[链接](https://github.com/sqlsec/B360M-DS3H-I5-9600KF-RX580-CLOVER) | |国光自用：i5-9600KF RX580 |
-| 技嘉z390 gaming|[链接](https://github.com/dbv/hackintosh_9600k_Z390_RX580) | 小辉自用: i5-9600k RX580 2304sp矿 |
-| GA B360m d2v |[链接](https://github.com/Matchas-xiaobin/EFI-B360m_d2v_dvi_uhd630) | |技嘉B360m，支持DVI输出 |
-| Soarsea mini PC |[链接](https://github.com/EngLearnsh/Soarsea-i9-8950HK-Hackintosh) | | S200H |
-| MSI-B360M-MORTAR-IMACPRO |[链接](https://github.com/andot/MSI-B360M-MORTAR-IMACPRO-EFI) | | |
-| ASRock B360M Pro4 |[链接](https://github.com/Joehaivo/hackintosh) | | |
-| Lenovo Thinkpad P1 <br />MobileWorkStation |[链接](https://github.com/p455555555/Thinkpad-P1-EFI) | | |
-| z370m mortar i7-9700k|[链接](https://github.com/JackyCZJ/Z370M-MORTAR-I7-9700K-M9PEG-CLOVER) | | |
-| Gigabyte Z370-HD3P|[链接](https://github.com/kinoute/Hack-Z370-HD3P-i5-8400) | | |
-| I7-8850H迷你主机 |[链接](https://github.com/n0jack/i78850h-minipc-hackintosh) | | |
-| MSI-B360M-MORTAR OpenCore |[链接](https://github.com/GeQ1an/MSI-B360M-MORTAR-HACKINTOSH-OPENCORE-EFI) | [链接](https://github.com/GeQ1an/MSI-B360M-MORTAR-HACKINTOSH-OPENCORE-EFI/blob/master/README.md) | 使用 iMac19,1 机型，默认启用全部 USB，适合使用微星 b360m 迫击炮（钛金版）主板的用户，详见使用说明 |
+| HP Z600 Workstation            | [链接](https://github.com/lutzmor/hp_z600_hackintosh)        |  | Mac-Mini-Killer                                 |
 
-#### 台式机其它机型
+### Intel 英特尔
+| **台式（部分）**               | 发布地址                                                     | 教程地址                                                     | 备注                                            |
+| ------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ----------------------------------------------- |
+| Intel NUC 5、6、7、8 系列                           | [链接](https://github.com/RehabMan/Intel-NUC-DSDT-Patch)     | [链接](https://www.tonymacx86.com/threads/guide-intel-kaby-lake-nuc7-using-clover-uefi-nuc7i7bnh-nuc7i5bnk-nuc7i3bnh-etc.261711/) | mini 主机                                           |
+| NUC8I5BEH                                           | [链接](https://github.com/dongyubin/nuc8i5beh)               | [链接](https://chengxuxiaohei.cn/mac-anzhuang.html) [链接](https://osy.gitbook.io/hac-mini-guide/) |                                                     |
+| NUC8i7BEH                                           | [链接](https://github.com/sarkrui/NUC8i7BEH-Hackintosh-Build) [链接](https://github.com/wilsonnkwan/Hackintosh-NUC8i7BEH-Catalina) [链接](https://github.com/honglov3/NUC8I7BEH) | [链接](https://osy.gitbook.io/hac-mini-guide/)               | 链接3为`OC`                                         |
+| NUC7i7BNH                                           | [链接](https://github.com/calebchow9/Intel-NUC7i7BNH-Hackintosh) |                                                              |                                                     |
+| NUC7i5BEK                                           | [链接](https://github.com/331296441/NUC7i5BEK)               |                                                              |                                                     |
+
+### Lenovo 联想
+| **台式（部分）**               | 发布地址                                                     | 教程地址                                                     | 备注                                            |
+| ------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ----------------------------------------------- |
+| Lenovo M93P           | [链接](https://github.com/mingcheng/lenovo-thinkcentre-m93p-hackintosh) |      | 联想 M93P 系列主机 |
+| Lenovo ThinkCentre M4500q | [链接](https://github.com/samawong/hackintosh-clover-configure-for-lenovo-m4500q-n000-model) | |  |
+| Lenovo ThinkCentre M710Q | 链接 | | 小兵自用，长期维护<br />网卡推荐：[DW1820A](https://blog.daliansky.net/DW1820A_BCM94350ZAE-driver-inserts-the-correct-posture.html) |
+| Lenovo ThinkCentre M720Q | [链接](https://github.com/fronttang/Lenovo-ThinkCentre-M720Q-Hackintosh) | |  |
+| Lenovo ThinkCentre e 73 | [链接](https://github.com/riku2015/Efi-files-for-lenovo-e73) | | |
+| Lenovo M73 Tiny                | [链接](https://github.com/rehandalal/m73-tiny-hackintosh)    |  |  |
+| Lenovo Thinkpad P1 <br />MobileWorkStation |[链接](https://github.com/p455555555/Thinkpad-P1-EFI) | | |
+
+### MSI 微星
+| **台式（部分）**               | 发布地址                                                     | 教程地址                                                     | 备注                                            |
+| ------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ----------------------------------------------- |
+| MSI B360                       | [链接](https://github.com/SuperNG6/MSI-b360-10.14.4-EFI)     |  | 也适用于<br />MAG Z390 TOMAHAWK <br />(MS-7B18) |
+| MSI B360M MORTAR IMACPRO |[链接](https://github.com/andot/MSI-B360M-MORTAR-IMACPRO-EFI) | | |
+| MSI B360M i3-8100/rx570 | [链接](https://github.com/shm007g/hackintosh-msi-b360m-i3-8100-rx570) | |  |
+| MSI B360M MORTAR OpenCore |[链接](https://github.com/GeQ1an/MSI-B360M-MORTAR-HACKINTOSH-OPENCORE-EFI) | [链接](https://github.com/GeQ1an/MSI-B360M-MORTAR-HACKINTOSH-OPENCORE-EFI/blob/master/README.md) | 使用 iMac19,1 机型，默认启用全部 USB，适合使用微星 b360m 迫击炮（钛金版）主板的用户，详见使用说明 |
+| MSI Z370-A                     | [链接](https://github.com/daliansky/Z370-Hackintosh)         | [链接](https://github.com/daliansky/Z370-Hackintosh)         | 黑果小兵MSI Z370-A自用EFI                       |
+| MSI Z370m mortar i7-9700k|[链接](https://github.com/JackyCZJ/Z370M-MORTAR-I7-9700K-M9PEG-CLOVER) | | |
+| MSI Z390-Gaming-EDGE-AC  | [链接](https://github.com/fnoopv/MSI-Z390-Gaming-Edge-AC_OC) |   |  微星MPG-Z390-Gaming-Edge-ac OpenCore EFI |
+| MSI Z390i | [链接](https://github.com/GaryOAO/MSI-Z390i-hackintosh-clover) | |  |
+
+### Mini 迷你系列
+
+| **台式（部分）**               | 发布地址                                                     | 教程地址                                                     | 备注                                            |
+| ------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ----------------------------------------------- |
+| Deskmini-310 |[链接](https://github.com/yuqi/Deskmini-310-Hackintosh)  |  |Deskmini-310 |
+| Soarsea mini PC |[链接](https://github.com/EngLearnsh/Soarsea-i9-8950HK-Hackintosh) | | S200H |
+| CM238 i7-8950H UHD630 ALC269   | [链接](https://github.com/kkzzhizhou/S200H_I7-8750H_Hackintosh) |  | S200H_I7-8750H 小主机                           |
+| I7-8850H迷你主机 |[链接](https://github.com/n0jack/i78850h-minipc-hackintosh) | | |
+| DQ77KB                         | [链接](https://github.com/siwilizhao/DQ77KB-I7-3770S-Hackintosh) |  |  |
+
+### 台式机其它机型
 
 | 机型名称     | 发布地址                                 | 教程地址 | 备注                                                         |
 | ------------ | ---------------------------------------- | -------- | ------------------------------------------------------------ |
-| **更多机型** | [链接](https://github.com/sqlsec/clover) |          | 引用自：国光之前维护的仓库                                   |
-|              | [链接](https://zhih.me/hackintosh/#/)    |          | 底噪出品：**[one-key-hidpi](https://github.com/xzhih/one-key-hidpi)** |
-| 耕田男孩维护的几个机型 | [华硕H81-PLUS](https://pan.baidu.com/s/1iWXxUDWBUUlnsuc4COusJQ) [ASUS-Z97](https://pan.baidu.com/s/1QNax08N7BNI1X_Myuaa-XA) [ASUS X299 deluxe](https://pan.baidu.com/s/1JA0UrABdhu4HmM-WuJDWdw) | |
+| 华南金牌B75 | [链接](https://github.com/LeUKi/Hackintosh-EFI-huanan_B75) | | e3-1230-v2 RX460 |
+| Huanan X79 E5-2670, GTX650     | [链接](https://github.com/cheneyveron/clover-x79-e5-2670-gtx650) | [链接](https://github.com/cheneyveron/clover-x79-e5-2670-gtx650/blob/master/README.md) | 华南 x79 V2 |
 
-#### 硬件兼容列表
+## 硬件兼容列表
 
 | 机型名称         | 发布地址                                                     | 教程地址 | 备注                                                  |
 | ---------------- | ------------------------------------------------------------ | -------- | ----------------------------------------------------- |
@@ -686,7 +745,51 @@
 | 黑苹果安装学院   | [链接](https://github.com/huangyz0918/Hackintosh-Installer-University) | [链接](https://github.com/huangyz0918/Hackintosh-Installer-University/blob/master/README-CN.md)         | 这个和本repo功能类似，既然作者开放了，我们也可以收录补充                               |
 | 黑苹果互助项目    |[链接](https://github.com/bessyjl/HackintoshClover)  |  |和本repo类似  |
 
-### 其它机型请提交到[这里](https://github.com/daliansky/Hackintosh) 
+## 其它机型请提交到[这里](https://github.com/daliansky/Hackintosh)
+
+## 感谢名单
+
+- [Apple](https://www.apple.com/) 的 macOS
+- [RehabMan](https://github.com/rehabman)维护的项目：[OS-X-Clover-Laptop-Config](https://github.com/RehabMan/OS-X-Clover-Laptop-Config) [Laptop-DSDT-Patch](https://github.com/RehabMan/Laptop-DSDT-Patch) [OS-X-USB-Inject-All](https://github.com/RehabMan/OS-X-USB-Inject-All)等
+- [Acidanthera](https://github.com/acidanthera) 维护的项目：[OpenCorePkg](https://github.com/acidanthera/OpenCorePkg) [lilu](https://github.com/acidanthera/Lilu) [AirportBrcmFixup](https://github.com/acidanthera/AirportBrcmFixup) [WhateverGreen](https://github.com/acidanthera/WhateverGreen) [VirtualSMC](https://github.com/acidanthera/VirtualSMC) [AppleALC](https://github.com/acidanthera/AppleALC) [BrcmPatchRAM](https://github.com/acidanthera/BrcmPatchRAM) [MaciASL](https://github.com/acidanthera/MaciASL) 等
+- [headkaze](https://www.insanelymac.com/forum/profile/1364628-headkaze/) 提供的工具：[hackintool](https://github.com/headkaze/Hackintool) [PinConfigurator](https://github.com/headkaze/PinConfigurator) [BrcmPatchRAM](https://www.insanelymac.com/forum/topic/339175-brcmpatchram2-for-1015-catalina-broadcom-bluetooth-firmware-upload/)  
+- [CloverHackyColor](https://github.com/CloverHackyColor)维护的项目：[CloverBootloader](https://github.com/CloverHackyColor/CloverBootloader) [CloverThemes](https://github.com/CloverHackyColor/CloverThemes) 
+- 宪武整理的：[P-little](https://github.com/daliansky/P-little) [OC-little](https://github.com/daliansky/OC-little) 
+- [chris1111](https://github.com/chris1111)维护的项目：[VoodooHDA](https://github.com/chris1111/VoodooHDA-2.9.2-Clover-V15) [Wireless USB Adapter Clover](https://github.com/chris1111/Wireless-USB-Adapter-Clover) 
+- [zxystd](https://github.com/zxystd)开发的[itlwm](https://github.com/zxystd/itlwm) [IntelBluetoothFirmware](https://github.com/zxystd/IntelBluetoothFirmware) 
+- [lihaoyun6](https://github.com/lihaoyun6)提供的工具：[CPU-S](https://github.com/lihaoyun6/CPU-S) [macOS-Displays-icon](https://github.com/lihaoyun6/macOS-Displays-icon) [SidecarPatcher](https://github.com/lihaoyun6/SidecarPatcher) 
+- [xzhih](https://github.com/xzhih)提供的工具：[one-key-hidpi](https://github.com/xzhih/one-key-hidpi) 
+- [Bat.bat](https://github.com/williambj1)更新维护的[精解OpenCore](https://blog.daliansky.net/OpenCore-BootLoader.html)
+- [athlonreg](https://github.com/athlonreg)更新维护的[OpenCore 0.5+ 部件补丁](https://blog.cloudops.ml/ocbook/) [Common-patches-for-hackintosh](https://github.com/athlonreg/Common-patches-for-hackintosh)
+- [github.com](github.com)
+- [码云 gitee.io](gitee.io) 
+- [扣钉 coding.net](coding.net) 
+
+## 参考及引用：
+
+- https://wikidevi.com/wiki/Dell
+
+- https://wikidevi.com/wiki/Dell_Wireless_1820A_(DW1820A)
+
+- [Hervé]([https://osxlatitude.com/profile/4953-herv%C3%A9/](https://osxlatitude.com/profile/4953-hervé/)) 更新的Broadcom 4350:https://osxlatitude.com/forums/topic/12169-bcm4350-cards-registry-of-cardslaptops-interop/
+
+- [Hervé]([https://osxlatitude.com/profile/4953-herv%C3%A9/](https://osxlatitude.com/profile/4953-hervé/)) 更新的DW1820A支持机型列表:https://osxlatitude.com/forums/topic/11322-broadcom-bcm4350-cards-under-high-sierramojave/
+
+- [nickhx](https://osxlatitude.com/profile/129953-nickhx/) 提供的蓝牙驱动：https://osxlatitude.com/forums/topic/11540-dw1820a-for-7490-help/?do=findComment&comment=92833
+
+- [xjn819](https://blog.xjn819.com/)： [使用OpenCore引导黑苹果](https://blog.xjn819.com/?p=543) [300系列主板正确使用AptioMemoryFix.efi的姿势(重写版）](https://blog.xjn819.com/?p=317) 
+
+- [insanelymac.com](https://www.insanelymac.com/) 
+
+- [tonymacx86.com](https://www.tonymacx86.com/) 
+
+- [远景论坛](http://bbs.pcbeta.com)
+
+- [applelife.ru](https://applelife.ru/) 
+
+- [olarila.com](https://www.olarila.com/)
+
+  
 
 ## QQ群列表：
 
