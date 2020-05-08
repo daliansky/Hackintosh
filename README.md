@@ -784,20 +784,35 @@
 ## QQ群列表：
 
 688324116 [一起黑苹果](http://shang.qq.com/wpa/qunwpa?idkey=6bf69a6f4b983dce94ab42e439f02195dfd19a1601522c10ad41f4df97e0da82) 2000人群 人满为患
+
 331686786 [一起吃苹果](http://shang.qq.com/wpa/qunwpa?idkey=db511a29e856f37cbb871108ffa77a6e79dde47e491b8f2c8d8fe4d3c310de91) 2000人群 人满为患
+
 257995340 [一起啃苹果](http://shang.qq.com/wpa/qunwpa?idkey=8a63c51acb2bb80184d788b9f419ffcc33aa1ed2080132c82173a3d881625be8) 2000人群 远景报备群
+
 875482673 [黑果小兵黑苹果技术群](http://shang.qq.com/wpa/qunwpa?idkey=81c3783ae414ddac233af104d949899edde38aeac60defcb05036fa7d3fa2972) 2000人群收费群 已满员，请加3/4群
+
 1058822256 [黑果小兵黑苹果技术群2](http://shang.qq.com/wpa/qunwpa?idkey=0565a16f6dbfa1c69159d15b8fa4ee6473fbf61cb8e998d56e807459aa3006a2) 2000人收费群 已满员，请加3/4群
+
 819662911 [黑果小兵黑苹果技术群3](http://shang.qq.com/wpa/qunwpa?idkey=f7374ff70f7e52442ed6433abfe844791b2ee595e470d74b462143065210b857) 2000人群(新) 付费群
+
 954098809 [黑果小兵黑苹果技术群4](http://shang.qq.com/wpa/qunwpa?idkey=034013783cd47f32ae35f19d3fc55591170fa66c8449a1d7aeae53f0935ec505) 2000人群(新) 付费群
+
 701278330 [黑苹果无线网卡交流群](http://shang.qq.com/wpa/qunwpa?idkey=5bfd8b092f5a3f3079eab8bb1a497973dbba78ad785d9520ad090a931aeb06f6) 1000人群 DW1820A技术支持群
+
 891434070 [Catalina黑苹果交流群](http://shang.qq.com/wpa/qunwpa?idkey=be06e4c13e796e06a5cd3151d7fcc8f2feee8f9b68b1620ce8771111e2822084) 2000人群 远景报备群
+
 939122730 [Catalina黑苹果交流II群](http://shang.qq.com/wpa/qunwpa?idkey=e7fb8ea793aee10f9e86c70cd134867bde4183cc3eb87424e61e50b3e9cabf72) 2000人群
+
 891677227 [黑果小兵高级群](http://shang.qq.com/wpa/qunwpa?idkey=9a1eaa552c45d736bb6b19d82ad80e76bf82729f1c1a975b437aa3858473231d) 2000人群
+
 943307869 [黑果小兵高级群II](http://shang.qq.com/wpa/qunwpa?idkey=7080e6ff936fd2e207439ea18c0a34b4651db81ff45d0edf27b34a21a037871e) 2000人群
+
 538643249 [OpenCore技术交流群](http://shang.qq.com/wpa/qunwpa?idkey=665ed002721454d2e811535020261a04b0aae2fa3b6a2ffde5778a852f892178) 2000人群 大神众多非OC适配者慎入
+
 673294583 [小新Pro黑苹果技术群](http://shang.qq.com/wpa/qunwpa?idkey=c00a79b8adbba92c152f71cdc721660cc2de276f62a1d4435c83b884e7f369c0) 500人群 非专用机型请勿加入
+
 946132482 [小新Pro黑苹果](http://shang.qq.com/wpa/qunwpa?idkey=d64dff649d6a19f9496aaa472ee3a14450cfbbeddd0e618edf182ffe320a1fd0) 500人群 非专用机型请勿加入
+
 943181023 [联想小新Air黑苹果交流群](http://shang.qq.com/wpa/qunwpa?idkey=fb772a7e01436d43e1d856a099549551952bb08161ced4a8fc08b4e75e7ab438) 500人群 非专用机型请勿加入
 
 ## 微信公众号：【`黑果小兵的部落阁`】
