@@ -331,6 +331,7 @@
 |惠普光影精靈5 |[链接](https://github.com/Tonymiugrey/Garden-by-miugrey) | | 內含搞定PM981的補丁，可以試試 |
 |HP Probook 430 G5 |[链接](https://github.com/GoProgrammer/HP-Probook-430-G5-Hackintosh) | |  |
 |HP ProBook 430 G6 |[链接](https://github.com/YGQ8988/HP-ProBook430G6) | | i5-8265U 已卸载内置镁光nvme SSD(此硬盘不识别) |
+| HP Omen 15 DC | [链接](https://github.com/kirainmoe/hp-omen15-dc-macos) |  | 暗影精灵 4 GTX1060 144Hz 版，由于物理屏蔽核显，只能安装 10.13.6  |
 
 ### Huawei 华为
 
@@ -485,10 +486,10 @@
 | Mechrevo X6TI      | [链接](https://github.com/cmbs2019/Mechrevo-Hackintosh)      |                                                              | i7-8750H/i5-8300H GTX1050ti/GTX1060 |
 | Mechrevo X6TIS     | [链接](https://github.com/cmbs2019/Mechrevo-Hackintosh)      |                                                              |                                     |
 | Mechrevo X1        | [链接](https://github.com/cmbs2019/Mechrevo-Hackintosh) [链接](https://github.com/tsmswifty/MECHREVO-X1-hackintosh) |                                                              | i7-7700HQ/GTX1060                   |
-| Mechrevo Z2 / X8Ti 系列 | [链接](https://github.com/kirainmoe/hasee-tongfang-macos) | [链接](https://www.bilibili.com/video/av81263778) | 准系统名称：同方 GK5CN6Z/GK5CN5Z |
-| Mechrevo Z2 Air | [链接](https://github.com/kirainmoe/hasee-tongfang-macos) | [链接](https://www.bilibili.com/video/av81263778) | 准系统名称：同方 GK5CN6X/GK5CN5X |
-| Mechrevo Z2-G / Z2 Air-G | [链接](https://github.com/kirainmoe/hasee-tongfang-macos) | [链接](https://www.bilibili.com/video/av81263778) | 准系统名称：同方 GK5CP6X/GK5CP5X |
-| Mechrevo X3 | [链接](https://github.com/kirainmoe/hasee-tongfang-macos) | [链接](https://www.bilibili.com/video/av81263778) | 准系统名称：同方 GK7CP6R |
+| Mechrevo Z2 / X8Ti 系列 | [链接](https://github.com/kirainmoe/hasee-tongfang-macos) | [链接](https://www.bilibili.com/video/av81263778) | 准系统型号：同方 GK5CN6Z/GK5CN5Z |
+| Mechrevo Z2 Air | [链接](https://github.com/kirainmoe/hasee-tongfang-macos) | [链接](https://www.bilibili.com/video/av81263778) | 准系统型号：同方 GK5CN6X/GK5CN5X |
+| Mechrevo Z2-G / Z2 Air-G | [链接](https://github.com/kirainmoe/hasee-tongfang-macos) | [链接](https://www.bilibili.com/video/av81263778) | 准系统型号：同方 GK5CP6X/GK5CP5X |
+| Mechrevo X3 | [链接](https://github.com/kirainmoe/hasee-tongfang-macos) | [链接](https://www.bilibili.com/video/av81263778) | 准系统型号：同方 GK7CP6R |
 
 ### MSI 微星
 
