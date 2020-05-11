@@ -50,3 +50,5 @@
   - 新增机型：ASUS VivoBook FL8000UQ
 - 2020年3月14日
   - 新增机型：Lenovo G400
+- 2020年4月22日
+  - 新增机型：光影精靈4代/MSI-MPG-Z390-Gaming-EDGE-AC

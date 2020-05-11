@@ -221,3 +221,17 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/daliansky/Hackintosh/maste
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/daliansky/Hackintosh/master/Tools/sn.sh)"
 ```
 
+## 一条命令提取`EDID`
+
+```bash
+ioreg -lw0 | grep -i "IODisplayEDID" | sed -e 's/.*<//' -e 's/>//'
+
+```
+
+显示结果：
+
+```xml
+00ffffffffffff000e6f6d0700000000141d0104a51d1278e2ee95a3544c99260f505400000001010101010101010101010101010101ec6800a0a0402e60302036001eb31000001a000000000000000000000000000000000000000000fe0043534f542054330a2020202020000000fe004d4e443330374441312d320a200048
+```
+
+将`EDID`值复制进`config.plist`里
