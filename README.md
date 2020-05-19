@@ -4,7 +4,7 @@
 
 ## English Version: [Hackintosh long-term maintenance model EFI and installation tutorial](README_en.md)
 
-## 黑苹果长期维护机型整理 
+## 黑苹果长期维护机型整理
 
 > by @[我意](https://github.com/y010204025)
 >
@@ -165,9 +165,9 @@
 | ------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ----------------------------------------------------- |
 | Alienware 17 R4 i7-7700HQ                  | [链接](https://github.com/RockJesus/Alienware-17-R4-I7-7700HQ-MacOS-High-Sierra) | [链接](https://github.com/RockJesus/Alienware-17-R4-I7-7700HQ-MacOS-High-Sierra/blob/master/README.md) | 外星人 17 R4，网卡推荐：[DW1820A](https://blog.daliansky.net/DW1820A_BCM94350ZAE-driver-inserts-the-correct-posture.html) |
 | Alienware Aurora-R7                        | [链接](https://github.com/jianghaizhi/DELL-Alienware-Aurora-R7-macOS) |                                                              |                                                       |
-| Alienware-Aurora-R6/R7/R8                  | [链接](https://github.com/jianghaizhi/DELL-Alienware-Aurora-R7-macOS) |                                                              |                                                       |                                                  |
+| Alienware-Aurora-R6/R7/R8                  | [链接](https://github.com/jianghaizhi/DELL-Alienware-Aurora-R7-macOS) |                                                              |                                                       |
 | **Alienware外星人更多机型**                | [链接](https://github.com/RockJesus/Alienware-Hackintosh)    |                                                              | 引用自：RockJesus维护的仓库                           |
-| DELL Latitude E7440                        | [链接](https://github.com/ameeno/Dell-E7440-Hackintosh)      |                                                              |
+| DELL Latitude E7440                        | [链接](https://github.com/ameeno/Dell-E7440-Hackintosh)      |                                                              ||
 | Dell G3 3579                               | [链接](https://github.com/JiangHoumin/Dell_G3_3579_Hackintosh) [链接](https://github.com/CerteKim/Dell-G3-3579-Hackintosh-Clover) [链接](https://github.com/CerteKim/Dell-G3-3579-Hackintosh-OpenCore) [链接](https://github.com/tonyleelyy/OpenCore-Hackintosh-Dell-G3-3579) |                                                              | 网卡推荐：[DW1820A](https://blog.daliansky.net/DW1820A_BCM94350ZAE-driver-inserts-the-correct-posture.html)；链接3,4为`OpenCore`|
 | Dell G3 3779 | [链接](https://github.com/djlucas123456/Dell-G3-3779-Mojave-Catalina-Clover-) | | |
 | Dell G7 7588                               | [链接](https://github.com/geraldoandradee/Hackintosh-Dell-G7-7588) [链接](https://github.com/flyfeng2002/FYQ-Hackintosh) [链接](https://github.com/Juan-VC/Hackintosh-macOS-Catalina-on-Dell-G7-7588) |                                                              | 链接2和链接3包括`OpenCore`                                 |
@@ -183,6 +183,7 @@
 | Dell Inspiron 5447                         | [链接](https://github.com/SinhLv/Dell-Ins-14-5447-hackintosh) |                                                              |                                                       |
 | Dell Inspiron 5459 | [链接](https://github.com/lzhoang2601/Dell-Insprison-5459-Hackintosh) | | |
 | Dell Inspiron 5488                         | [链接](https://github.com/daggeryu/DELL-inspiron-5488)       |                                                              |                                                       |
+| Dell Inspiron 5537 | [链接](https://github.com/thedeadfish59/Dell_Inspiron_5537-Hackintosh) | | |
 | Dell Inspiron 5548(4528S) | [链接](https://github.com/yuppiesnotzhuhao/Hackintosh-Dell-Inspiron-5548) | | |
 | Dell Inspiron 5559                         | [链接](https://github.com/cbabb/dell-5559)                   |                                                              | Dell 5559                                             |
 | Dell Inspiron 5567                         | [链接](https://github.com/MuntashirAkon/HackintoshDellInspiron5567) |                                                              | i3-7100u, Intel HD620                                 |
@@ -201,6 +202,7 @@
 | Dell Inspiron 7591 | [链接](https://github.com/tctien342/Dell-Inspiron-7591-Hackintosh) [链接](https://github.com/Skimige/Inspiron-759x-Hackintosh)[链接](https://github.com/Pinming/Dell-Inspiron-7590-Hackintosh-Opencore)| | |
 | Dell Latitude E5270 | [链接](https://github.com/thebinh-lg051/Dell-Latitude-E5270-Hackintosh) | | |
 | Dell Latitude E5290 | [链接](https://github.com/laelsirus/Dell-Latitude-5290-2-in-1-UHD620-iGPU-CLOVER) | [链接](https://github.https://github.com/laelsirus/Dell-Latitude-5290-2-in-1-UHD620-iGPU-CLOVER/blob/master/README.md) | Dell-Latitude-5290 |
+| Dell Latitude E5400 | [链接](https://github.com/gouiferda/dell-5400-hackintoch) |  |  |
 | Dell Latitude E5440                        | [链接](https://github.com/soejin/hackintosh-dell-e5440)      |                                                              | Dell E5440                                            |
 | Dell Latitude E5470 | [链接](https://github.com/txt1994/dell_latitude5470_i7-6820hq) | |  |
 | Dell Latitude E5490 | [链接](https://github.com/lijun215021/DELL-5490-hackintosh) | | |
@@ -352,6 +354,7 @@
 | 机型名称                           | 发布地址                                                     | 教程地址                                                     | 备注                                                         |
 | ---------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | Lenovo Flex 15                     | [链接](https://github.com/aytic/Lenovo-Flex-15-Hackintosh)   | [链接](https://github.com/aytic/Lenovo-Flex-15-Hackintosh/blob/master/README.md) | Lenovo Flex 15                                               |
+| Lenovo Ideapad S145-15IWL | [链接](https://github.com/boffik/LenovoS145-15IWL_OpenCore) |  |  |
 | Lenovo Ideapad 310-14IKB           | [链接](https://github.com/29satnam/LenovoHackintosh)         | [链接](https://github.com/29satnam/LenovoHackintosh/blob/master/README.md) |                                                              |
 | Lenovo Ideapad 320-15ISK           | [链接](https://github.com/gajjartejas/Lenovo-Ideapad-320-15ISK-Laptop-Hackintosh) |                                                              |                                                              |
 | Lenovo Ideapad 330s-14IKB | [链接](https://github.com/chrisru26/LenovoIdeapad330s-14ikb-Hackintosh) | | |
@@ -743,6 +746,7 @@
 
 | **台式（部分）**               | 发布地址                                                     | 教程地址                                                     | 备注                                            |
 | ------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ----------------------------------------------- |
+| Cloud Hin H170 | [链接](https://github.com/kdwycz/cloud-hin-h170-stx-hackintosh) [链接](https://github.com/matri/hipda-h170-opencore) |  | 云轩H170 |
 | Deskmini-310 |[链接](https://github.com/yuqi/Deskmini-310-Hackintosh)  |  |Deskmini-310 |
 | Soarsea mini PC |[链接](https://github.com/EngLearnsh/Soarsea-i9-8950HK-Hackintosh) | | S200H |
 | CM238 i7-8950H UHD630 ALC269   | [链接](https://github.com/kkzzhizhou/S200H_I7-8750H_Hackintosh) |  | S200H_I7-8750H 小主机                           |
