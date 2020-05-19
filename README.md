@@ -725,7 +725,7 @@
 | ------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ----------------------------------------------- |
 | Lenovo M93P           | [链接](https://github.com/mingcheng/lenovo-thinkcentre-m93p-hackintosh) |      | 联想 M93P 系列主机 |
 | Lenovo ThinkCentre M4500q | [链接](https://github.com/samawong/hackintosh-clover-configure-for-lenovo-m4500q-n000-model) | |  |
-| Lenovo ThinkCentre M710Q | 链接 | | 小兵自用，长期维护<br />网卡推荐：[DW1820A](https://blog.daliansky.net/DW1820A_BCM94350ZAE-driver-inserts-the-correct-posture.html) |
+| Lenovo ThinkCentre M710Q | [链接](https://github.com/daliansky/Lenovo-M710Q-Hackintosh) | | 小兵自用，长期维护<br />网卡推荐：[DW1820A](https://blog.daliansky.net/DW1820A_BCM94350ZAE-driver-inserts-the-correct-posture.html) |
 | Lenovo ThinkCentre M720Q | [链接](https://github.com/fronttang/Lenovo-ThinkCentre-M720Q-Hackintosh) | |  |
 | Lenovo ThinkCentre e 73 | [链接](https://github.com/riku2015/Efi-files-for-lenovo-e73) | | |
 | Lenovo M73 Tiny                | [链接](https://github.com/rehandalal/m73-tiny-hackintosh)    |  |  |
@@ -792,8 +792,8 @@
 
 ## 参考及引用：
 
-- https://wikidevi.com/wiki/Dell
-- https://wikidevi.com/wiki/Dell_Wireless_1820A_(DW1820A)
+- https://deviwiki.com/wiki/Dell
+- https://deviwiki.com/wiki/Dell_Wireless_1820A_(DW1820A)
 - [Hervé]([https://osxlatitude.com/profile/4953-herv%C3%A9/](https://osxlatitude.com/profile/4953-hervé/)) 更新的Broadcom 4350:https://osxlatitude.com/forums/topic/12169-bcm4350-cards-registry-of-cardslaptops-interop/
 - [Hervé]([https://osxlatitude.com/profile/4953-herv%C3%A9/](https://osxlatitude.com/profile/4953-hervé/)) 更新的DW1820A支持机型列表:https://osxlatitude.com/forums/topic/11322-broadcom-bcm4350-cards-under-high-sierramojave/
 - [nickhx](https://osxlatitude.com/profile/129953-nickhx/) 提供的蓝牙驱动：https://osxlatitude.com/forums/topic/11540-dw1820a-for-7490-help/?do=findComment&comment=92833
