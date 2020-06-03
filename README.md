@@ -195,6 +195,7 @@
 | Dell Inspiron 14 7447 Pandora              | [链接](https://github.com/Am1nCmd/Dell-Inspiron-14-7447-Pandora-Hackintosh) |                                                              |                                                       |
 | Dell Inspiron 7460 和 7560                 | [链接](https://github.com/xzhih/dell-7460-7560-hackintosh)   | [链接](https://github.com/xzhih/dell-7460-7560-hackintosh/blob/master/README.md) | 戴尔 7460 和 7560，网卡推荐：[DW1820A](https://blog.daliansky.net/DW1820A_BCM94350ZAE-driver-inserts-the-correct-posture.html) |
 | Dell Inspiron 7472 | [链接](https://github.com/ic005k/DELL7472) |  |  |
+| Dell Inspiron 7472/7572 | [链接](https://github.com/lyngogogog/Dell-7472-7572-Hackintosh-EFI) | | |
 | Dell Inspiron 7548 | [链接](https://github.com/mbrula/hackintosh-dell-inspiron) | | |
 | Dell Inspiron 7559                         | [链接](https://github.com/crackself/Dell-7559-Hackintosh) [链接](https://github.com/JiangHoumin/Dell_G3_3579_Hackintosh) [链接](https://github.com/fengwenhua/dell-7559-hackintosh)| [链接](https://github.com/crackself/Dell-7559-Hackintosh/blob/Hotpatch/README.md) | Dell 7559，网卡推荐：[DW1820A](https://blog.daliansky.net/DW1820A_BCM94350ZAE-driver-inserts-the-correct-posture.html) |
 | Dell Inspiron 7567                         | [链接](https://github.com/Doapeat/Dell7567)                  |                                                              |                                                       |
@@ -406,6 +407,7 @@
 | Lenovo V3000                       | [链接](https://github.com/Xc2333/Hackintosh-Lenovo-v3000-ISE) | [链接](https://github.com/Xc2333/Hackintosh-Lenovo-v3000-ISE/blob/master/README.md) | Lenovo V3000                                                 |
 | Lenovo V310 15iKB | [链接](https://github.com/jacobmesier/V310-Hackintosh) |  |  |
 | Lenovo V330 15IKB                  | [链接](https://github.com/BesnikRrustemi/Lenovo-V330-15IKB)  | [链接](https://www.tonymacx86.com/threads/guide-lenovo-v330-15ikb-using-clover-uefi-hotpatch.265841/) |                                                              |
+| Lenovo ThinkPad W530 | [链接](https://github.com/nghiant96/EFI-Thinkpad-W530-Hackintosh) |  | |
 | Lenovo-WEI6(威6) | [链接](https://github.com/Tamshen/Lenovo-WEI6-Pro-13-IWL-Hackintosh) |  | **Lenovo Thinkbook 13S** |
 | Lenovo xiaoxin air13 6th           | [链接](https://github.com/gdllzkusi/Lenovo-xiaoxin-air13-6th-Hackintosh) |                                                              | Intel 酷睿i5 6200U                                           |
 | Lenovo XiaoXin Air 13 IWL          | [链接](https://github.com/daliansky/Lenovo-Air13-IWL) [链接](https://github.com/darpaxyz/Lenovo-Air13-IWL-Hackintosh) <br />[链接](https://github.com/xlivans/Air13IWL) | [链接](https://blog.daliansky.net/Lenovo-Xiaoxin-Air-13-macOS-Mojave-installation-tutorial.html) | 联想小新 Air 13 2018 IWL<br />网卡推荐：[DW1820A](https://blog.daliansky.net/DW1820A_BCM94350ZAE-driver-inserts-the-correct-posture.html) |
@@ -710,6 +712,7 @@
 | HP Elitedesk G3 | [链接](https://github.com/lavjamanxd/hp-elitedesk-g3-hackintosh) |  |  |
 | HP Z420 | [链接](https://github.com/yansheng1003/Hackintosh) | | E5 1650v2 |
 | HP Z600 Workstation            | [链接](https://github.com/lutzmor/hp_z600_hackintosh)        |  | Mac-Mini-Killer                                 |
+| HP Z620 Workstation | [链接](https://github.com/d4vinder/HP-Z620-Hackintosh-macOS-Catalina) | |  |
 
 ### Intel 英特尔
 | **台式（部分）**               | 发布地址                                                     | 教程地址                                                     | 备注                                            |
@@ -721,6 +724,7 @@
 | NUC7i5BEK                                           | [链接](https://github.com/331296441/NUC7i5BEK)               |                                                              |                                                     |
 
 ### Lenovo 联想
+
 | **台式（部分）**               | 发布地址                                                     | 教程地址                                                     | 备注                                            |
 | ------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ----------------------------------------------- |
 | Lenovo M93P           | [链接](https://github.com/mingcheng/lenovo-thinkcentre-m93p-hackintosh) |      | 联想 M93P 系列主机 |
