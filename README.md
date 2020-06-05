@@ -748,6 +748,7 @@
 | MSI Z370m mortar i7-9700k|[链接](https://github.com/JackyCZJ/Z370M-MORTAR-I7-9700K-M9PEG-CLOVER) | | |
 | MSI Z390-Gaming-EDGE-AC  | [链接](https://github.com/fnoopv/MSI-Z390-Gaming-Edge-AC_OC) |   |  微星MPG-Z390-Gaming-Edge-ac OpenCore EFI |
 | MSI Z390i | [链接](https://github.com/GaryOAO/MSI-Z390i-hackintosh-clover) | |  |
+| MSI MAG Z390 TOMAHAWK | [链接](https://github.com/xushuduo/MSI_Z390_TOMAHAWK_I5-9600K_HACKINTOSH_OPENCORE_EFI) | | MSI MAG Z390 TOMAHAWK + i5-9600K + RX590 HACKINTOSH OPENCORE EFI |
 
 ### Mini 迷你系列
 
