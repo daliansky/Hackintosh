@@ -255,6 +255,7 @@
 
 | 机型名称 | 发布地址 | 教程地址 | 备注 |
 | ---------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ----------------- |
+| 神舟A480B | [链接](https://github.com/wklxd/A480B) |  |  |
 | 战神 K610D-i5D3 | [链接](https://github.com/1zilc/K610d-i5-d3-10.14.5-efi-clover) |  |  |
 | 战神 K650D              | [链接](https://github.com/wklesss/k650D-Hackintosh)          |                                                              | 战神 K650D       |
 | 战神 K650D-SL5S1      |   [链接](http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1800662)  |    [链接](https://blog.nyaasu.top/front-end/111.html)      |  EFI文件部分有效，无线网卡和电池无法驱动      |
@@ -620,6 +621,7 @@
 | **台式**               | 发布地址                                                     | 教程地址                                                     | 备注                                            |
 | ------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ----------------------------------------------- |
 | ASUS B350 Plus | [链接](https://github.com/mikigal/ryzen-hackintosh) | | AMD Ryzen 7 1700/MSI RX Vega 64 |
+| Asus TUF B450M | [链接](https://github.com/Pai2Chen/OpenCore-Asus-TUF-B450M-Plus-Gaming) | |  |
 | AsRock X570 Phantom Gaming ITX/TB3 | [链接](https://github.com/aluveitie/RyzenMacPro) | | AMD Ryzen 9 3900X<br />Sapphire Radeon RX 5500 XT Pulse 8G |
 | AMD Ryzen 7 1700x or 3700x<br />MSI X370 Krait Gaming or ASROCK X570 Taichi<br />RX Vega64 | [链接](https://github.com/yhl452493373/ryzen-hackintosh-efi) |  | 10.14.6 |
 | R7 3700x/MSI B450/5700XT | [链接](https://github.com/harpsword/hackintosh-ryzen) | |  |
