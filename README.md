@@ -101,6 +101,7 @@
 | Asus F556U (X556UQK)              | [链接](https://github.com/systemfaliure/Asus-X556UQK-hackintosh#Asus-f556u-x556uqk---high-sierra-hackintosh) | [链接](https://github.com/systemfaliure/Asus-X556UQK-hackintosh/blob/master/README.md) | Asus F556U (X556UQK)                                       |
 | Asus FX50J                        | [链接](https://github.com/Xc2333/Hackintosh-Asus-FX50J)      |                                                              |                                                            |
 | Asus FX50V                        | [链接](https://github.com/Cyberhan123/Hackintosh-ASUS--FX50V) |                                                              |                                                            |
+| FX86FE（FX505GE）                 |[链接](https://github.com/EricCui2333/FX86FE-OpenCore-0.5.5) |                                                              |                                                            |
 | Asus FX533VD                      | [链接](https://github.com/kue-kid/Asus-FX533VD-HACKINTOSH)   |                                                              |                                                            |
 | Asus GL503GE                      | [链接](https://github.com/Bimoaryo5/ASUS-GL503GE-Hackintosh-master) |                                                              |                                                            |
 | Asus GL551JW                      | [链接](https://github.com/zacharyrs/GL551JW-Hackintosh)      |                                                              |                                                            |
@@ -158,6 +159,7 @@
 | 华硕zx50jx4200                    | [链接](https://github.com/sxz799/zx50jx4200_hackintosh)      |                                                              |                                                            |
 | 华硕A407UB                         | [链接](https://github.com/xinguisoft/Hackintosh-EFI-Asus-A407UB/)   |      |     |
 | 玩家国度枪神3                       | [链接](https://github.com/DongLinghe/ROG-SCAR-III-Hackintosh-EFI)   |      |这个应该是华硕的吧     |
+|  asusb85-pro-gamer,e31231v3-rx570|[链接](https://github.com/xl120022/ASUS-B85PG-E3-RX570-MAC10.15)   |      |     |
 
 ### DELL 戴尔
 
@@ -331,6 +333,7 @@
 | 暗影精灵 II 代Pro <br />HP OMEN 15-ax214TX |[链接](https://github.com/ZGGSONG/HP-OMEN-15-ax214TX-Hackintosh) | | |
 | 暗影精灵2 Pro HP OMEN 15-ax225TX                             |[链接](https://github.com/Cruii/HP-OMEN-15-ax225TX) [链接](https://github.com/XStar-Dev/HP_OMEN-2Pro_Hackintosh) |            |          |
 | HP暗影精灵3 |[链接](https://github.com/bessyjl/HP-OMEN-3-Hackintosh) | | 还有挖坑的，看看啥时候能埋人 |
+| 惠普光影精灵3(HP Pavilion 15-cb0xx)|[链接](https://github.com/zty199/HP_Pavilion_15-cb073tx_Hackintosh) | | 希望能继续维护|
 | 暗影精灵I (惠普PAVILION Gaming NB 15-ak039TX) |[链接](https://github.com/lgs3137/PAVILION_Gaming_NB-macOS) | | 除了独显、Intel无线网卡，其他功能模块正常(包括HDMI视频) |
 | HP Pavillion Gaming Laptop 15-cx0xxx |[链接](https://github.com/mechtifs/hackintosh-clover-hp-pavillion-15-cx0xxx) | | 光影精靈4代 |
 |惠普光影精靈5 |[链接](https://github.com/Tonymiugrey/Garden-by-miugrey) | | 內含搞定PM981的補丁，可以試試 |
@@ -370,6 +373,7 @@
 | Lenovo G400                      | [链接](https://github.com/autersu/Lenovo_G400_EFI)     |||
 | Lenovo G50-80                      | [链接](https://github.com/upupming/Lenovo-G50-80-Clover)     |                                                              |                                                              |
 | Lenovo G510                        | [链接](https://github.com/Z39/G510-OS-X-Clover-Hotpatch)     | [链接](https://github.com/Z39/G510-OS-X-Clover-Hotpatch/blob/master/README-CN.md) | 感谢：[39军小兵张](http://i.pcbeta.com/space-uid-4472739.html) |
+| 联想flex3-1470/i5 5200u-hd5500  |[链接](https://github.com/xl120022/FLEX-3-1470-Mac-10.15.3-efi) |  |  |
 | ThinkPad E440 | [链接](https://github.com/ZzMark/Thinkpad-E440-Hackintosh) |  |  |
 | ThinkPad E450C                     | [链接](https://github.com/zhangxuan1340/Hackintosh_E450C)    |                                                              |                                                              |
 | ThinkPad E470                     | [链接](https://github.com/y010204025/E470-clover)    |                                                              |                                                              |
@@ -465,6 +469,7 @@
 | Lenovo Miix4           | [链接](https://github.com/Zero-zer0/Miix700-OSX-Hackintosh-Clover) |   | Lenovo-Miix4（700）          |
 | Lenovo Miix720 | [链接](https://github.com/jennie26/Lenovo-Miix-720-Hackintosh) | |  |
 | Thinkstation P910 | [链接](https://github.com/crazyi/Hackintosh_Thinkstation_P910) |  |  |
+| Lenovo Yoga 920 13IKB  |[链接](https://github.com/qxuchn/YOGA920-Hackintosh) |  |  |
 
 
 ### LG
