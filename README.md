@@ -654,6 +654,8 @@
 | Asus ROG Strix Z390-E          | [链接](https://github.com/xiedonghang/hackintosh)            |  | Intel i9-9900k+UHD630核显                       |
 | ASUS-PRIME-Z390 |[链接](https://github.com/dhckdgjs/ASUS-PRIME-Z390-A-HACKINTOSH-Clover-iGPU-with-dGPU-UHD630-RX580)  |  |ASUS-PRIME-Z390 |
 | Asus Prime Z390m plus | [链接](https://github.com/Asphyxia-m/Asus-Z390m-plus-efi) | | OC |
+| Asus Prime Z490-A | [链接](https://github.com/yilmazca/intel-i9-10900K-Asus-prime-Z490A-hackintosh) | | OC: Intel i9-10900K 核显DP |
+| Asus ROG STRIZX Z490I | [链接](https://github.com/jergoo/Hackintosh-ROG-STRIX-Z490I) | | OC: i7-10700k + Radeon VII |
 | ASUS X299 PRIME DELUXE II | [链接](https://github.com/yifan-gu/hackintosh) | | i9 7980XE + Radeon VII |
 | Asus X299 | [链接](https://github.com/shinoki7/Asus-X299-Hackintosh) | |  |
 | Asus ROG STRIX X299-E GAMING | [链接](https://github.com/Fansaly/X299-STRIX-macOS) | | INTEL® CORE™ i7-7800X |
@@ -709,7 +711,9 @@
 | Gigabyte Z390 M  |[链接](https://github.com/xxiaofeng132/Gigabyte-Z390M-Gaming-Hackintosh)  |  |技嘉Z390m-gaming |
 | Gigabyte Z390 Ultra           | [链接](https://github.com/mrpaulphan/gigabyte-z390-ultra-master-hackintosh) |  |  |
 | Gigabyte Z390-UD | [链接](https://github.com/kong-git/Z390-OC-UHD630) [链接](https://github.com/kong-git/Z390-UD-RX580) | | OpenCore 核显/RX580独显 |
-| Gigabyte B365M Aorus Elite | [链接](https://github.com/ChuanfengZhang/Gigabyte-B365M-UHD630-Clover) | | Gigabyte B365M i5-9400 UHD630 Clover config |
+| Gigabyte B365M Aorus Elite | [链接](https://github.com/ChuanfengZhang/Gigabyte-B365M-UHD630-Clover) | [链接](https://www.bugprogrammer.me/2020/05/27/Hackintosh_for_Z490_10900K.html) | Gigabyte B365M i5-9400 UHD630 Clover config |
+| Gigabyte Z490 AORUS ELITE | [链接](https://github.com/bugprogrammer/hackintosh/tree/Z490-AORUS-ELETE+10900K+RX5700XT) | | OC: 10900K+5700XT |
+| Gigabyte Z490 Vision D | [链接](https://github.com/SchmockLord/Hackintosh-Intel-i9-10900k-Gigabyte-Z490-Vision-D) [链接](https://github.com/xiaovie/Hackintosh-Intel-i9-10900k-Gigabyte-Z490-Vision-D) | | OC: 10900K+Radeon VII |
 | Gigabyte Z77P D3 |[链接](https://github.com/cloverkits/GA-Z77P-D3-EFI)  |  |GA-Z77P-D3 |
 | Gigabyte Z77X D3H | [链接](https://github.com/nickw444/opencore-efi) | |  |
 
@@ -754,6 +758,8 @@
 | MSI Z390-Gaming-EDGE-AC  | [链接](https://github.com/fnoopv/MSI-Z390-Gaming-Edge-AC_OC) |   |  微星MPG-Z390-Gaming-Edge-ac OpenCore EFI |
 | MSI Z390i | [链接](https://github.com/GaryOAO/MSI-Z390i-hackintosh-clover) | |  |
 | MSI MAG Z390 TOMAHAWK | [链接](https://github.com/xushuduo/MSI_Z390_TOMAHAWK_I5-9600K_HACKINTOSH_OPENCORE_EFI) | | MSI MAG Z390 TOMAHAWK + i5-9600K + RX590 HACKINTOSH OPENCORE EFI |
+| MSI MEG Z490 ACE | [链接](https://github.com/kreactnative/z490-ace-10700k-catalina) | |  |
+| MSI Z490M Gaming Edge | [链接](https://github.com/redcweed/z490) | |  |
 
 ### Mini 迷你系列
 
