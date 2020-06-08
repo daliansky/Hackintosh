@@ -798,10 +798,11 @@
 
 ### 台式机其它机型
 
-| 机型名称     | 发布地址                                 | 教程地址 | 备注                                                         |
-| ------------ | ---------------------------------------- | -------- | ------------------------------------------------------------ |
-| 华南金牌B75 | [链接](https://github.com/LeUKi/Hackintosh-EFI-huanan_B75) | | e3-1230-v2 RX460 |
-| Huanan X79 E5-2670, GTX650     | [链接](https://github.com/cheneyveron/clover-x79-e5-2670-gtx650) | [链接](https://github.com/cheneyveron/clover-x79-e5-2670-gtx650/blob/master/README.md) | 华南 x79 V2 |
+| 机型名称                   | 发布地址                                                     | 教程地址                                                     | 备注             |
+| -------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------------- |
+| ACER Veriton D430          | [链接](https://github.com/SummerEmber/ACER-Veriton-D430)     |                                                              |                  |
+| 华南金牌B75                | [链接](https://github.com/LeUKi/Hackintosh-EFI-huanan_B75)   |                                                              | e3-1230-v2 RX460 |
+| Huanan X79 E5-2670, GTX650 | [链接](https://github.com/cheneyveron/clover-x79-e5-2670-gtx650) | [链接](https://github.com/cheneyveron/clover-x79-e5-2670-gtx650/blob/master/README.md) | 华南 x79 V2      |
 
 ## 硬件兼容列表
 
@@ -812,7 +813,7 @@
 | 黑苹果安装学院   | [链接](https://github.com/huangyz0918/Hackintosh-Installer-University) | [链接](https://github.com/huangyz0918/Hackintosh-Installer-University/blob/master/README-CN.md)         | 这个和本repo功能类似，既然作者开放了，我们也可以收录补充                               |
 | 黑苹果互助项目    |[链接](https://github.com/bessyjl/HackintoshClover)  |  |和本repo类似  |
 
-## 其它机型请提交到[这里](https://github.com/daliansky/Hackintosh)
+## 其它机型请提交到[这里](https://github.com/daliansky/Hackintosh) 
 
 ## 感谢名单
 
