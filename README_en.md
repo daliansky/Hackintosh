@@ -103,6 +103,7 @@
 | Asus Zenbook 3 UX490              | [link](https://github.com/VillenaDeveloper/asus-ux490-hackintosh) |                                                              |                                                  |
 | Asus zx50jx4200                   | [link](https://github.com/sxz799/zx50jx4200_hackintosh)      |                                                              |                                                  |
 | Asus A407UB                       | [link](https://github.com/xinguisoft/Hackintosh-EFI-Asus-A407UB/) |                                                              |                                                  |
+| ASUS K555UB Series               | [link](https://github.com/sutsurup/ASUS-K555UB-Hackintosh) | [link](https://github.com/sutsurup/ASUS-K555UB-Hackintosh/blob/master/README.md) | XO092T - XO093T - XO096T - XO097T<br />XO066T - XO198T - XO266T - XO099D - XO227D|
 
 #### DELL 戴尔
 
