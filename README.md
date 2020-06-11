@@ -163,6 +163,7 @@
 | 华硕A407UB                         | [链接](https://github.com/xinguisoft/Hackintosh-EFI-Asus-A407UB/)   |      |     |
 | 玩家国度枪神3                       | [链接](https://github.com/DongLinghe/ROG-SCAR-III-Hackintosh-EFI)   |      |这个应该是华硕的吧     |
 |  asusb85-pro-gamer,e31231v3-rx570|[链接](https://github.com/xl120022/ASUS-B85PG-E3-RX570-MAC10.15)   |      |     |
+| ASUS K555UB Series               | [链接](https://github.com/sutsurup/ASUS-K555UB-Hackintosh) | [链接](https://github.com/sutsurup/ASUS-K555UB-Hackintosh/blob/master/README.md) | XO092T - XO093T - XO096T - XO097T<br />XO066T - XO198T - XO266T - XO099D - XO227D|
 
 ### DELL 戴尔
 
