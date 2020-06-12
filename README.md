@@ -107,6 +107,8 @@
   - 新增机型：新增Z490等部分台式机型
 - 2020年6月10日
   - 新增机型：新增Lenovo Thinkcentre M910x等部分新机型
+- 2020年6月12日
+  - 新增机型：新增DELL 9020 MT/SFF/USFF/Micro机型，基于OpenCore
 </code></pre>
 </details>
 
@@ -296,7 +298,7 @@
 | Dell OptiPlex 7070 mff                     | [链接](https://github.com/liaoyudong2/Dell-7070-mff-hackintosh) |                                                              |                                                              |
 | Dell OptiPlex 7070 SFF                     | [链接](https://github.com/webleon/Hackintosh-OptiPlex-7070-SFF) |                                                              |                                                              |
 | Dell OptiPlex 9020                         | [链接](https://github.com/kyroschow/Dell-Optiplex-9020-Hackintosh-Clover-EFI) |                                                              |                                                              |
-| Dell OptiPlex 9020 OpenCore                | [链接](https://github.com/li3p/dell-optiplex-9020-hackintosh-opencore) |                                                              |                                                              |
+| Dell OptiPlex 9020 OpenCore                | [链接](https://github.com/li3p/dell-optiplex-9020-hackintosh-opencore) |         [链接](https://github.com/li3p/dell-optiplex-9020-hackintosh-opencore/blob/master/README.md)    |  支持MT/SFF/USFF/Micro所有机型  |
 | Dell Precision 5510                        | [链接](https://github.com/soulomoon/Dell-Precision-5510-OSX) [链接](https://github.com/PLChinDev/Dell-Precision-5510-Mojave) |                                                              | Dell-Precision-5510<br />链接2支持`Catalina`                 |
 | Dell Precision 5591                        | [链接](https://github.com/n0faith/Dell-Precision-5591-Hackintosh) |                                                              |                                                              |
 | Dell Precision M3800<br />Dell XPS 15-9530 | [链接](https://github.com/syscl/M3800)                       | [链接](https://github.com/syscl/M3800/blob/M3800/README.md)  | Dell M3800 和 XPS 9530                                       |
