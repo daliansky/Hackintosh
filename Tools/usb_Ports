@@ -1,3 +1,0 @@
-#!/bin/sh
-ioreg | grep @14 | awk '{print $3 $4 $5 $6}' | sed 's/<class//g' | sed 's/Root//g' | sed 's/-o/--/g' | sed 's/,//g' | sed 's/|||+--//g' | sed 's/||||//g' | sed '/^$/d'
-ioreg | grep @15 | awk '{print $3 $4 $5 $6}' | sed 's/<class//g' | sed 's/Root//g' | sed 's/-o/--/g' | sed 's/,//g' | sed 's/|||+--//g' | sed 's/||||//g' | sed '/^$/d'
