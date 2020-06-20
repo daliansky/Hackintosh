@@ -755,6 +755,7 @@
 | ASUS X299 PRIME DELUXE II    | [链接](https://github.com/yifan-gu/hackintosh)               |          | i9 7980XE + Radeon VII                                       |
 | Asus X299                    | [链接](https://github.com/shinoki7/Asus-X299-Hackintosh)     |          |                                                              |
 | Asus ROG STRIX X299-E GAMING | [链接](https://github.com/Fansaly/X299-STRIX-macOS)          |          | INTEL® CORE™ i7-7800X                                        |
+| Asus TUF Z370-Plus Gaming |  [链接](https://github.com/hackintosh-OC/Asus_Z370_8700_RX590)          |          | INTEL® CORE™ i7-8700                                        |
 
 ### ASRock 华擎
 
