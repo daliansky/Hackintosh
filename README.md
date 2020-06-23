@@ -690,6 +690,7 @@
 | Terrans Force/Devil Rays  DR7      | [链接](https://github.com/Jie2GG/Hackintosh-Devil-Rays-DR7)  |          | 未来人类                                                     |
 | Toshiba L55W C5320                 | [链接](https://github.com/martinmenchon/Hackintosh-Toshiba-L55W-C5320) |          |                                                              |
 | Toshiba C805                       | [链接](https://github.com/nan1jueze/TOSHIBA-C805-HM76-CLOVER-Hackintosh) |          |                                                              |
+| MONSTER Tulpar T7 V20.1                       | [链接](https://github.com/sutsurup/MONSTER-Hackintosh) | [链接](https://github.com/sutsurup/MONSTER-Hackintosh/blob/master/README.md)         |                                                              |
 
 
 
