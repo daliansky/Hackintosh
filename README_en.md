@@ -18,7 +18,7 @@
 | Acer A515-51G-58VH      | [link](https://github.com/Rodrigmatrix/Acer-A515-51G-58VH)   |                                                              |                             |
 | Acer Aspire E1-471G     | [link](https://github.com/matthew728960/Clover-ACER-E1-471G) | [link](https://github.com/matthew728960/Clover-ACER-E1-471G/blob/master/README.md) | ACER Aspire E1-471g         |
 | Acer Aspire E5 475G     | [link](https://github.com/hilmanshini/Acer-Aspire-E5-475G-Clover-Hackintosh) |                                                              |                             |
-| Acer Aspire E5-476G     | [link](https://github.com/DijaminGila/Hackintosh-Mojave-Acer-E5-476G) [link](https://github.com/budhilaw/Acer-E5-476G-Hackintosh) |                                                              | i3-6006U                    |
+| Acer Aspire E5-476G     | [link](https://github.com/budhilaw/Acer-E5-476G-Hackintosh) [link2](https://github.com/rockavoldy/Acer-E5-476G-Hackintosh) |                                                              | i3-6006U; OpenCore on link2                    |
 | Acer Aspire E5-571-5552 | [link](https://github.com/GaryDoooo/acer_e51_osx)            |                                                              |                             |
 | Acer Aspire E1-571G     | [link](https://github.com/DiogoSilva48/Acer-E1-571G-Hackintosh) |                                                              |                             |
 | Acer Aspire E1-572G     | [link](https://github.com/TonyStark10006/Acer_E1-572G_Hackintosh_EFI) |                                                              |                             |
