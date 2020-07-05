@@ -113,6 +113,8 @@
   - 新增机型：新增部分台式机型，基于OpenCore
 - 2020年6月23日
 	- 新增机型：新增Dell Latitude E7390等部分新机型
+- 2020年7月5日
+	- 新增机型：新增ThinkPad T470p、ASUS-Prime-Z390M-PLUS、神舟战神z7-kp7sc、ASRock-B365M-ITX-AC等部分新机型
 </code></pre>
 </details>
 
@@ -188,7 +190,8 @@
 | Asus K55VD                        | [链接](https://github.com/southernvevo/Asus-K55VD-HACKINTOSH) | [链接](https://github.com/southernvevo/Asus-K55VD-HACKINTOSH/blob/master/README.md) | Asus K55VD                                                   |
 | Asus K555LD                       | [链接](https://github.com/kongbg/asus-k555ld-4210U)          | [链接](https://github.com/kongbg/asus-k555ld-4210U/blob/master/README.md) | Asus K555LD                                                  |
 | Asus Laptop N56VZ                 | [链接](https://github.com/signxer/N56VZ-Hackintosh)          |                                                              |                                                              |
-| Asus P8P67 PRO                    | [链接](https://github.com/rafaelmaeuer/Asus-P8P67Pro-Hackintosh) | [链接](https://github.com/rafaelmaeuer/Asus-P8P67Pro-Hackintosh/blob/master/readme.md) |                                                              |
+| Asus P8P67 PRO                    | [链接](https://github.com/rafaelmaeuer/Asus-P8P67Pro-Hackintosh) | [链接](https://github.com/rafaelmaeuer/Asus-P8P67Pro-Hackintosh/blob/master/readme.md) | |
+| ASUS-Prime-Z390M-PLUS-EFI                    | [链接]https://github.com/Lyrance/ASUS-Prime-Z390M-PLUS-EFI) | |
 | Asus R414U                        | [链接](https://github.com/srole-xiaoxian/ASUS-R414U-Clover)  | [链接](https://github.com/LHB6540/Asus-R414-Hackintosh-10.15.4) | 10.13&10.15                                                  |
 | Asus ROG GL552JX                  | [链接](https://github.com/javanesse/Asus-ROG-GL552JX-High-Sierra-10.13-Hackintosh) | [链接](https://github.com/javanesse/Asus-ROG-GL552JX-High-Sierra-10.13-Hackintosh/blob/master/README.md) | Asus ROG GL552JX                                             |
 | Asus ROG GL552VX                  | [链接](https://github.com/xuanquydsr/Gl552VX-Mojave)         |                                                              |                                                              |
@@ -379,6 +382,8 @@
 | 战神 ZX6-CP5S1              | [链接](https://github.com/bavelee/NB5TK1_TJ1-Hackintosh/)    | [链接](https://bavelee.cn/archives/60.html)        | 准系统型号：蓝天 NB50/60 TJ1/TK1                             |
 | 战神 K680E-G6E3/G6D3        | [链接](https://github.com/bavelee/NB5TK1_TJ1-Hackintosh/)    | [链接](https://bavelee.cn/archives/60.html)        | 准系统型号：蓝天 NB50/60 TJ1/TK1                             |
 | 战神 TX7-CT5DS              | [链接](http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1843619&highlight=%C9%F1%D6%DB) |                                                    | 准系统型号：蓝天 N960TC                                      |
+| 战神Z7M-KP7GT              | [链接](https://github.com/Xin9912/Hackintosh) |                                                    |                                       |
+| Hases-z7-kp7sc              | [链接](https://github.com/Bluestar-coder/Hases-z7-kp7sc-10.15.4-OC) |                                    |                             |
 | 精盾 T96E                   | [链接](https://github.com/L0ngxhn/Hackintosh-Hasee-T96E)     |                                                    | 准系统型号：蓝天 P950EP6                                     |
 | 精盾 K590S                  | [链接](https://github.com/JokerHYC/K590S-HACKINTOSH)         |                                                    | 准系统型号：	蓝天 W350ET                                  |
 
@@ -494,7 +499,7 @@
 | ThinkPad T460 系列                 | [链接](https://github.com/tluck/Lenovo-T460-Clover)          | [链接](http://www.insanelymac.com/forum/topic/315451-guide-lenovo-t460-macos-with-clover/) | 可支持 T460、T560、T470<br /> 和 T470p4 款机型               |
 | ThinkPad T460p                     | [链接](https://github.com/totemofwolf/Thinkpad-T460p-OSX-EFI) |                                                              |                                                              |
 | ThinkPad T460s                     | [链接](https://github.com/nicogig/T460s-Clover) [链接](https://github.com/simprecicchiani/Thinkpad-T460s-macOS-OpenCore) |                                                              |                                                              |
-| Thinkpad T470                      | [链接](https://github.com/nguyenduy98/Hackintosh)            |                                                              | I7-7500u                                                     |
+| Thinkpad T470                      | [链接](https://github.com/nguyenduy98/Hackintosh) [链接-OC](https://github.com/evlon/t470p-oc)           |                                                              | I7-7500u                                                     |
 | Thinkpad T470S                     | [链接](https://github.com/Altairko/Lenovo-T470s-Clover) [链接](https://github.com/YBN-JUAN/T470s-OpenCore-EFI) |                                                              | 网卡推荐：[DW1820A](https://blog.daliansky.net/DW1820A_BCM94350ZAE-driver-inserts-the-correct-posture.html) `00JT494`联想版 |
 | ThinkPad T470p                     | [链接](https://github.com/lohcve/EFI_T470P)                  | [链接](https://github.com/lohcve/EFI_T470P/blob/master/README.md) | ThinkPad T470p                                               |
 | ThinkPad T480                      | [链接](https://github.com/rhkjyn/T480-Hackintosh-FULL)       |                                                              | 网卡推荐：[DW1820A](https://blog.daliansky.net/DW1820A_BCM94350ZAE-driver-inserts-the-correct-posture.html) |
@@ -744,6 +749,7 @@
 | AMD Vanilla Clover Patches                                   | [链接](https://github.com/AMD-OSX/AMD_Vanilla)               | [链接](https://github.com/cheneyveron/hackintosh-clover-tachi-x370-1700x-rx570) | AMD Clover补丁，以后可以<br />直接刻盘安装，10.14.5我会同步<br />更新针对AMD平台的配置文件<br />敬请期待 |
 | Clover-Ryzen-MSI-B450I                                       | [链接](https://github.com/portrayer/Clover-Ryzen-MSI-B450I)  |                                                              |                                                              |
 | Gigabyte X399 Aorus Extreme                                  | [链接](https://github.com/SchmockLord/Hackintosh-Threadripper-1950x-Gigabyte-X399-Aorus-Extreme) |                                                              | Threadripper 1950x@4.0Ghz                                    |
+| ASRock-B365M-ITX                                  | [链接](https://github.com/imzhengziyi/ASRock-B365M-ITX-AC-opencore/releases) |                                                              |                                    |
 
 ## INTEL CPU系列
 
