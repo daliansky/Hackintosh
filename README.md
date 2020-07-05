@@ -787,6 +787,7 @@
 | ASRock Z370 Pro4               | [链接](https://github.com/athlonreg/ASRock-Z370-Pro4-Hackintosh) |          | [套路]-                                                      |
 | ASRock Z390 Phantom Gaming itx | [链接](https://github.com/haiyang1992/Hackintosh-Opencore-Asrock_Z390_Phantom_Gaming_ITX) [链接](https://github.com/icyleaf/EFI-ASRock-Z390-Phantom-Gaming-ITX) [链接](https://github.com/bydavy/EFI-ASRock-Z390-Phantom-Gaming) <br />[链接](https://github.com/kcunanan/Jared-PC/) [链接](https://github.com/befuture/EFI-ASRock-Z390-Phantom-Gaming) |          | 华擎 Z390 Phantom Gaming itx/ac                              |
 | Asrock Z390 Phantom ITX        | [链接](https://github.com/zanderzhng/EFI_Asrock_Z390_Phantom_ITX) |          |                                                              |
+| ASRock Z370M-ITX/ac            | [链接](https://github.com/Yellowpal/ASRock-Z370M-ITX-AC-OpenCore) |          | OpenCore                                                     |
 
 ### Dell 戴尔
 
