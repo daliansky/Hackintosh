@@ -521,6 +521,7 @@
 | MSI Z370-A                                                   | [link](https://github.com/daliansky/Z370-Hackintosh)         | [link](https://github.com/daliansky/Z370-Hackintosh)         | 黑果小兵MSI Z370-A自用EFI                                    |
 | ASRock-Z370-Gaming-ITX-ac-hackintosh                         | [link](https://github.com/fangf2018/ASRock-Z370-Gaming-ITX-ac-hackintosh) |                                                              |                                                              |
 | Lenovo Thinkpad P1 <br />MobileWorkStation                   | [link](https://github.com/p455555555/Thinkpad-P1-EFI)        |                                                              |                                                              |
+| ASRock Z370M-ITX/ac                                          | [link](https://github.com/Yellowpal/ASRock-Z370M-ITX-AC-OpenCore) |                                                              | OpenCore                                                     |
 
 #### Hardware compatibility list
 
