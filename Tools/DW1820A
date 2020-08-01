@@ -34,7 +34,7 @@ echo "      ######    ## ##   #####   ###   #####   ####   #     #"
 
 echo "\033[31m ${DW1820A} \033[0m"
 echo "\033[33m ${ver} \033[0m \c" && sw_vers -productVersion
-echo "\033[36m ${bootargs} \033[0m \c" && sh -c /tmp/bdmesg | grep boot-args | sed "s/boot-args=//g" | awk '{for(i=5;i<=NF;i++){to=to" "$i};print to}'
+echo "\033[36m ${bootargs} \033[0m \c" && ioreg -l | grep -y boot-args | awk '{for(i=4;i<=NF;i++){to=to" " $i};print to}'
 echo "==========================================================="
 echo "\033[33m ${MB} \033[0m \c" && sh -c /tmp/bdmesg | grep Running | awk '{for(i=5;i<=NF;i++){to=to" "$i};print to}'
 # echo "=== [ GetDevices ] ========================================"

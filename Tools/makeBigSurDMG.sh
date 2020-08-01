@@ -28,10 +28,10 @@ hdiutil create -o install_container -size 15G -layout SPUD -fs HFS+J -type SPARS
 hdiutil attach install_container.sparseimage -noverify -mountpoint /Volumes/install_build
  
 # Copy contents of installer .app into mounted volume:
-/Applications/Install\ macOS\ Beta.app/Contents/Resources/createinstallmedia --nointeraction --volume /Volumes/install_build
+/Applications/Install\ macOS\ Big\ Sur\ Beta.app/Contents/Resources/createinstallmedia --nointeraction --volume /Volumes/install_build
  
 # Detach the completed image:
-hdiutil detach -force /Volumes/Install\ macOS\ Beta
+hdiutil detach -force /Volumes/Install\ macOS\ Big\ Sur\ Beta
  
 # Convert and rename the image:
 hdiutil convert install_container.sparseimage -format UDZO -o $dmgName.dmg
