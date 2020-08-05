@@ -830,7 +830,7 @@
 | **台式（部分）**                           | 发布地址                                                     | 教程地址 | 备注                                                         |
 | ------------------------------------------ | ------------------------------------------------------------ | -------- | ------------------------------------------------------------ |
 | Dell OptiPlex 760                          | [链接](https://github.com/Austcool-Walker/Dell-Optiplex-760-hackintosh-OpenCore) |          |                                                              |
-| Dell OptiPlex 3050                         | [链接](https://github.com/Leif160519/Dell-OptiPlex-3050-EFI) [链接](https://github.com/fgprodigal/Optiplex-3050-EFI-OC) |          |                                                              |
+| Dell OptiPlex 3050                         | [链接](https://github.com/Leif160519/Dell-OptiPlex-3050-EFI) [链接](https://github.com/fgprodigal/Optiplex-3050-EFI-OC)<br />[链接](https://github.com/mxltxt/Dell-OptiPlex-3050-OC-EFI) |          |                                                              |
 | Dell OptiPlex 3070                         | [链接](https://github.com/bfrorum10/DELL-3070-MFF-Catalina-10.15.6-OC-0.5.9) |          |                                                              |
 | Dell OptiPlex 9020M                        | [链接](https://github.com/mingcheng/dell-optiplex-9020m-hackintosh) [链接](https://github.com/JimLee1996/Hackintosh_OptiPlex_9020)<br /> [链接](https://github.com/W-MS/OptiPlex-9020-Catalina) |          | Disable MSR 0xE2 (i.e. cfg lock) `setup_var 0xDA2 0x00`<br /> Increase DVMT to 96M `setup_var 0x263 0x03`<br /> 链接3支持Catalina |
 | Dell OptiPlex 7040                         | [链接](https://github.com/optiplex-osx/Dell-OptiPlex-7040-Clover-EFI) [链接](https://github.com/monaive/DELL-OptiPlex-7040-Clover) |          |                                                              |
@@ -886,14 +886,15 @@
 
 ### HP 惠普
 
-| **台式（部分）**    | 发布地址                                                     | 教程地址 | 备注            |
-| ------------------- | ------------------------------------------------------------ | -------- | --------------- |
-| HP Elitedesk G3     | [链接](https://github.com/lavjamanxd/hp-elitedesk-g3-hackintosh) |          |                 |
-| HP ProDesk 480 G4   | [链接](https://github.com/SummerEmber/HP-ProDesk-480-G4)     |          |                 |
-| HP ProDesk 600 G4   | [链接](https://github.com/ljzxzxl/HP-ProDesk-600-G4-)        |          |                 |
-| HP Z420             | [链接](https://github.com/yansheng1003/Hackintosh)           |          | E5 1650v2       |
-| HP Z600 Workstation | [链接](https://github.com/lutzmor/hp_z600_hackintosh)        |          | Mac-Mini-Killer |
-| HP Z620 Workstation | [链接](https://github.com/d4vinder/HP-Z620-Hackintosh-macOS-Catalina) [链接](https://github.com/mokiii/HP-Z620-Hackintosh-macOS_10.13-10.15) |          |                 |
+| **台式（部分）**      | 发布地址                                                     | 教程地址 | 备注            |
+| --------------------- | ------------------------------------------------------------ | -------- | --------------- |
+| HP Elitedesk G3       | [链接](https://github.com/lavjamanxd/hp-elitedesk-g3-hackintosh) |          |                 |
+| HP ProDesk 480 G4     | [链接](https://github.com/SummerEmber/HP-ProDesk-480-G4)     |          |                 |
+| HP Prodesk 600 G1 SFF | [链接](https://github.com/kidddjh/HP-Prodesk-600-G1-SFF)     |          |                 |
+| HP ProDesk 600 G4     | [链接](https://github.com/ljzxzxl/HP-ProDesk-600-G4-)        |          |                 |
+| HP Z420               | [链接](https://github.com/yansheng1003/Hackintosh)           |          | E5 1650v2       |
+| HP Z600 Workstation   | [链接](https://github.com/lutzmor/hp_z600_hackintosh)        |          | Mac-Mini-Killer |
+| HP Z620 Workstation   | [链接](https://github.com/d4vinder/HP-Z620-Hackintosh-macOS-Catalina) [链接](https://github.com/mokiii/HP-Z620-Hackintosh-macOS_10.13-10.15) |          |                 |
 
 ### Intel 英特尔
 
