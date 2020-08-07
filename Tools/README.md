@@ -167,10 +167,27 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/stevezhengshiqi/one-key-
 ```bash
 cat /etc/hosts
 # github.com
-192.30.253.113  github.com
-192.30.253.112  github.com
-192.30.255.117  api.github.com
-192.30.255.116  api.github.com
+192.30.253.113	github.com
+192.30.253.112	github.com
+192.30.255.117	api.github.com
+192.30.255.116	api.github.com
+#151.101.184.133 raw.githubusercontent.com
+
+192.30.253.119 gist.github.com
+151.101.184.133 assets-cdn.github.com
+151.101.184.133 raw.githubusercontent.com
+151.101.184.133 gist.githubusercontent.com
+151.101.184.133 cloud.githubusercontent.com
+151.101.184.133 camo.githubusercontent.com
+151.101.184.133 avatars0.githubusercontent.com
+151.101.184.133 avatars1.githubusercontent.com
+151.101.184.133 avatars2.githubusercontent.com
+151.101.184.133 avatars3.githubusercontent.com
+151.101.184.133 avatars4.githubusercontent.com
+151.101.184.133 avatars5.githubusercontent.com
+151.101.184.133 avatars6.githubusercontent.com
+151.101.184.133 avatars7.githubusercontent.com
+151.101.184.133 avatars8.githubusercontent.com
 ```
 
 ## 运用iasl编译dsl文件
@@ -190,3 +207,31 @@ curl -fsSL https://raw.githubusercontent.com/daliansky/Hackintosh/master/Tools/i
 ```bash
 curl -fsSL https://raw.githubusercontent.com/daliansky/Hackintosh/master/Tools/iasl63 -o /tmp/iasl63 && chmod +x /tmp/iasl63 && sh -c /tmp/iasl63 -l <dsl文件路径>
 ```
+
+## 一键提取DW1820A所需的信息：
+
+```bash
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/daliansky/Hackintosh/master/Tools/DW1820A)"
+
+```
+
+## 一键提取`macOS 三码`
+
+```bash
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/daliansky/Hackintosh/master/Tools/sn.sh)"
+```
+
+## 一条命令提取`EDID`
+
+```bash
+ioreg -lw0 | grep -i "IODisplayEDID" | sed -e 's/.*<//' -e 's/>//'
+
+```
+
+显示结果：
+
+```xml
+00ffffffffffff000e6f6d0700000000141d0104a51d1278e2ee95a3544c99260f505400000001010101010101010101010101010101ec6800a0a0402e60302036001eb31000001a000000000000000000000000000000000000000000fe0043534f542054330a2020202020000000fe004d4e443330374441312d320a200048
+```
+
+将`EDID`值复制进`config.plist`里

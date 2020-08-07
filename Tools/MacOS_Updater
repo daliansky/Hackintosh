@@ -22,23 +22,28 @@ shopt -s nullglob
 #
 # script version
 #
-gScriptVersion="1.0.9"
+gScriptVersion="1.0.20"
 
 #
 # Beta version (ONLY the latest Beta)
 # could be empty when there is no Beta available. (consider 10.14.6)
 #
-gBetaVersion="10.14.4"
+gBetaVersion=""
 
 #
 # stable version (ONLY the latest stable)
 #
-gStableVersion="10.14.3"
+gStableVersion="10.14.6"
 
 #
-# Current macOS version returned from sw_vers.
+# Current macOS version returned from sw_vers (e.g 10.14.5).
 #
 gProductVersion="$(sw_vers -productVersion)"
+
+#
+# Current macOS build returned from sw_vers (e.g 18F132).
+#
+gProductBuildVersion="$(sw_vers -buildVersion)"
 
 #
 # Current macOS major version.
@@ -137,7 +142,7 @@ gWorkDir=""
 # name of target installer package
 gInstallerPackage="installer.pkg"
 # backup dir
-gUserPath="/Users/`users`/Desktop"
+gUserPath="${HOME}/Desktop"
 
 #----------------------------------------------------------------------------------------------------
 
@@ -177,6 +182,18 @@ function STY_LINE() {
   printf '%s\n\n' '-------------------------------------------------------------------------------'
 }
 
+function isProductBeta() {
+  # if the last char of build version is a lowercased letter,
+  # then it is Beta, 1 will be returned.
+  local chBetaIndicator="${gProductBuildVersion:-1}"
+  if [[ "${chBetaIndicator}" =~ [a-z] ]]; then
+    echo 1
+    return
+  fi
+
+  echo 0
+}
+
 function setPackageMode() {
   if [[ "${gChannel}" == 'Beta' ]]; then
     let "gBetaMinorVersionMinusOne   = gBetaMinorVersion   - 1"
@@ -191,10 +208,13 @@ function setPackageMode() {
   else
     let "gStableMinorVersionMinusOne = gStableMinorVersion - 1"
     if [[ "${gProductMajorVersion}" -eq "${gStableMajorVersion}" && \
-          "${gProductMinorVersion}" -eq "${gStableMinorVersion}" || \
-          "${gProductMinorVersion}" -eq "${gStableMinorVersionMinusOne}" ]]; then
-      printf "\nUsing ${GREEN}Delta${OFF} package (Stable).\n\n"
-      gPackageMode='Delta'
+          "${gProductMinorVersion}" -eq "${gStableMinorVersion}" ]]; then
+      	printf "\nUsing ${GREEN}Delta Supplemental${OFF} package (Stable).\n\n"
+      	gPackageMode='DeltaSup'
+    elif [[ "${gProductMajorVersion}" -eq "${gStableMajorVersion}" && \
+            "${gProductMinorVersion}" -eq "${gStableMinorVersionMinusOne}" ]]; then
+      	printf "\nUsing ${GREEN}Delta${OFF} package (Stable).\n\n"
+      	gPackageMode='Delta'
     else
       printf "\nUsing ${DARK_YELLOW}Combo${OFF} package (Stable).\n\n"
     fi
@@ -207,7 +227,7 @@ function updateScript() {
  # download remote script
  rm -f "${tmpScriptPath}" && curl -s "${remoteAddr}" -o "${tmpScriptPath}" || exit 1
  local remoteVer=$(cat ${tmpScriptPath} | grep '^gScriptVersion=' | tr -cd '.0-9')
- 
+
   if [[ "${gScriptVersion}" != "${remoteVer}" ]]; then
     clear
     printf "\tLocal Script Version: ${RED}${gScriptVersion}${OFF}\t\tUpdate available: ${GREEN}v${remoteVer}${OFF}\n"
@@ -217,7 +237,7 @@ function updateScript() {
       y|Y )
         cp "${tmpScriptPath}" "$0"
         STY_LINE
-        
+
         printf "${BLUE}Running the new script...${OFF}"
         local args="$@"
         "$0" "${args}"
@@ -225,7 +245,7 @@ function updateScript() {
         exit 0
      ;;
     esac
-  fi   
+  fi
 }
 
 function downloadFile() {
@@ -235,7 +255,7 @@ function downloadFile() {
   local attempt=0
   local maxTry=3
   for ((; attempt < maxTry; attempt++ )); do
-    axel -a -n 10 "${link}" -o "${out}"
+    curl "${link}" -o "${out}"
     if [[ $? -ne 0 ]]; then
       # failed, remove the "corrupted" file and try again
       rm -rf "${out}"
@@ -252,7 +272,7 @@ function downloadFile() {
 }
 
 function registerScript() {
-  local prefDir="/Users/`users`/.MacOS_Updater"
+  local prefDir="${HOME}/.MacOS_Updater"
   local prefFile="${prefDir}/pref.conf"
 
   [[ ! -d "${prefDir}" ]] && mkdir "${prefDir}"
@@ -270,7 +290,7 @@ function registerScript() {
     echo 'Well, it is totally up to you to register or not,'
     echo 'and you will be no more asked you after this time.'
     echo
-    
+
     while true; do
       local confirmRegScpt
       read -p "Would you like to? (y/n) " confirmRegScpt
@@ -359,6 +379,15 @@ function selectChannel() {
   done
 }
 
+function getURLIndex() {
+  local str2Grep="${1}"
+
+  echo "$(cat /tmp/update-catalogs | \
+          grep "${str2Grep}" | grep pkg | grep -v RecoveryHDUpdate | grep -v Patch | grep -v integrityData | \
+          sed 's/<string>//' | sed 's/<\/string>//' | \
+          awk '{print $1;}'  | sed 's/^.*downloads//')"
+}
+
 function parseCatalog() {
   selectChannel
 
@@ -375,7 +404,7 @@ function parseCatalog() {
     gVersion="${gStableVersion}"
 
     sleep 2
-  elif [[ "${gChannel}" != "Beta" ]]; then  
+  elif [[ "${gChannel}" != "Beta" ]]; then
     gVersion="${gStableVersion}"
   fi
 
@@ -387,18 +416,49 @@ function parseCatalog() {
   [[ -f update-catalogs ]] && rm -f update-catalogs
   downloadFile "${gCatalog}" "update-catalogs.gz" && gunzip update-catalogs.gz || exit 1
 
+  # default value for Delta
+  local str2Grep="macOSUpd${gVersion}.pkg"
+  case "${gPackageMode}" in
+    'Combo' )
+      str2Grep="macOSUpdCombo${gVersion}"
+    ;;
+
+    'DeltaSup' )
+      str2Grep="macOSUpd${gVersion}Supplemental"
+    ;;
+  esac
+
   # update vars
-  if [[ "${gPackageMode}" == 'Combo' ]]; then
-    gUrlIndex="$(cat /tmp/update-catalogs | \
-                 grep macOSUpdCombo${gVersion} | grep pkg | grep -v RecoveryHDUpdate | grep -v Patch | grep -v integrityData | \
-                 sed 's/<string>//' | sed 's/<\/string>//' | \
-                 awk '{print $1;}'  | sed 's/^.*downloads//')"
-  else
-    gUrlIndex="$(cat /tmp/update-catalogs | \
-                 grep macOSUpd${gVersion} | grep pkg | grep -v RecoveryHDUpdate | grep -v Patch | grep -v integrityData | \
-                 sed 's/<string>//' | sed 's/<\/string>//' | \
-                 awk '{print $1;}'  | sed 's/^.*downloads//')"
+  gUrlIndex="$(getURLIndex "${str2Grep}")"
+
+  #
+  # When upgrading, for example,
+  # from 10.14.5 Beta  (18F131a)
+  # to   10.14.5 Final (18F132),
+  # gPackageMode would be set to DeltaSup, which is fine,
+  # yet supplemental update may not exist
+  # all the time, that is to say that gUrlIndex is null.
+  # We are going to be back to Delta in this case and check again.
+  #
+  local isBeta="$(isProductBeta)"
+  if [[ "${isBeta}" -eq 1               && \
+        "${gPackageMode}" == 'DeltaSup' && \
+        -z "${gUrlIndex}" ]]; then
+    printf 'You are on Beta and going to update to supplemental update,\nbut there is nothing at the moment!\nUpdating to the latest stable version via Delta.\n\n'
+
+    gPackageMode='Delta'
+
+    str2Grep="macOSUpd${gVersion}.pkg"
+    gUrlIndex="$(getURLIndex "${str2Grep}")"
   fi
+
+  if [[ "${gChannel}" == "Normal Channel" && \
+        -z "${gUrlIndex}"                 && \
+        "${gProductVersion}" == "${gStableVersion}" ]]; then
+    printf "You are already ${GREEN}up to date${OFF}!\n"
+    exit 0
+  fi
+
   [[ -z "${gUrlIndex}" ]] && printf "ERROR: ${RED}URL Index not found!${OFF}\n" && exit 1
   gKeyNum="$(  echo ${gUrlIndex} | cut -d/ -f2,3)"
   gKeyIndex="$(echo ${gUrlIndex} | cut -d/ -f4,4)"
@@ -460,9 +520,33 @@ function downloadPackage() {
 
   # packages to be downloaded
   if [[ "${gPackageMode}" == 'Combo' ]]; then
+    # Looks like only 10.14.4 has Auto suffixed and others do not.
+    # TODO: find when Auto exists and when not.
+    if [[ "${gVersion}" == '10.14.4' ]]; then
+      local targetFiles=(
+        "macOSUpdCombo${gVersion}Auto.pkg"
+        "macOSUpdCombo${gVersion}Auto.RecoveryHDUpdate.pkg"
+        "macOSBrain.pkg"
+        "SecureBoot.pkg"
+        "EmbeddedOSFirmware.pkg"
+        "FirmwareUpdate.pkg"
+        "FullBundleUpdate.pkg"
+      )
+    else
+      local targetFiles=(
+        "macOSUpdCombo${gVersion}.pkg"
+        "macOSUpdCombo${gVersion}.RecoveryHDUpdate.pkg"
+        "macOSBrain.pkg"
+        "SecureBoot.pkg"
+        "EmbeddedOSFirmware.pkg"
+        "FirmwareUpdate.pkg"
+        "FullBundleUpdate.pkg"
+      )
+    fi
+  elif [[ "${gPackageMode}" == 'DeltaSup' ]]; then
     local targetFiles=(
-      "macOSUpdCombo${gVersion}.pkg"
-      "macOSUpdCombo${gVersion}.RecoveryHDUpdate.pkg"
+      "macOSUpd${gVersion}Supplemental.pkg"
+      "macOSUpd${gVersion}Supplemental.RecoveryHDUpdate.pkg"
       "macOSBrain.pkg"
       "SecureBoot.pkg"
       "EmbeddedOSFirmware.pkg"
@@ -581,7 +665,15 @@ function updateRecovery() {
   local dmBin="${gTmpDirectory}/updRec/dm"
 
   if [[ "${gPackageMode}" == 'Combo' ]]; then
-    local recPkg="${gWorkDir}/macOSUpdCombo${gVersion}.RecoveryHDUpdate.pkg"
+    # Looks like only 10.14.4 has Auto suffixed and others do not.
+    # TODO: find when Auto exists and when not.
+    if [[ "${gVersion}" == '10.14.4' ]]; then
+      local recPkg="${gWorkDir}/macOSUpdCombo${gVersion}Auto.RecoveryHDUpdate.pkg"
+    else
+      local recPkg="${gWorkDir}/macOSUpdCombo${gVersion}.RecoveryHDUpdate.pkg"
+    fi
+  elif [[ "${gPackageMode}" == 'DeltaSup' ]]; then
+    local recPkg="${gWorkDir}/macOSUpd${gVersion}Supplemental.RecoveryHDUpdate.pkg"
   else
     local recPkg="${gWorkDir}/macOSUpd${gVersion}.RecoveryHDUpdate.pkg"
   fi
