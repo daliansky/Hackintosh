@@ -694,31 +694,32 @@
 
 ### Other 其它
 
-| 机型名称                           | 发布地址                                                     | 教程地址 | 备注                                                         |
-| ---------------------------------- | ------------------------------------------------------------ | -------- | ------------------------------------------------------------ |
-| Clevo P950HR                       | [链接](https://github.com/MegaCookie/Clevo-P950HR-Hackintosh) |          | 蓝天 P950HR，猜的                                            |
-| 火影地狱火X6                       | [链接](https://github.com/gaofeicm/DiYuHuo-X6-MacOS-Mojave-10.14.3-Hackintosh) |          |                                                              |
-| Thunderobot 911 Air                | [链接](https://github.com/athlonreg/Thunderobot-911-Air-i7-9750h) |          |                                                              |
-| Thunderobot 911 Air2               | [链接](https://github.com/athlonreg/Thunderobot-911-Air-i7-9750h) |          |                                                              |
-| 雷神笔记本黑苹果套件               | [链接](https://github.com/athlonreg/Thunderobot-Hackintosh)  |          |                                                              |
-| Airbook                            | [链接](https://github.com/nabaonan/airbook-6200u-efi)        |          | 网卡推荐：[DW1820A](https://blog.daliansky.net/DW1820A_BCM94350ZAE-driver-inserts-the-correct-posture.html) |
-| 同方 GI5CN5E                       | [链接](https://github.com/rodgomesc/AVELL-G1513-FOX-7-TONG-FANG-GI5CN5E-HACKINTOSH) |          |                                                              |
-| Razer Blade 15 Base Model          | [链接](https://github.com/DocSystem/razerbladehackintosh)    |          |                                                              |
-| Razer Blade Stealth 雷蛇灵刃潜行版 | [链接](https://github.com/widmonstertony/razer-blade-stealth-hackintosh) |          |                                                              |
-| Razer Blade 15 Advanced            | [链接](https://github.com/doanhmaple/Razer-Blade-15-Advanced-2018-Hackintosh) |          | i7-8750H 网卡推荐：[DW1820A](https://blog.daliansky.net/DW1820A_BCM94350ZAE-driver-inserts-the-correct-posture.html) |
-| Razer_Blade_Advanced_early_2019    | [链接]( https://github.com/stonevil/Razer_Blade_Advanced_early_2019_Hackintosh) |          | [链接](https://github.com/stonevil/Razer_Blade_Advanced_early_2019_Hackintosh) |
-| 三星Samsung NP300E4C               | [链接](https://github.com/installgento0/NP300E4C-hackintosh) |          |                                                              |
-| 三星Samsung NP300E5L               | [链接](https://github.com/bearkfear/SAMSUNG-NP300E5L-HACKINTOSH) |          |                                                              |
-| 三星Samsung NP300E5M               | [链接](https://github.com/zb2947244682/Samsung_300E5M_Mac_Hackintosh_EFI) |          |                                                              |
-| GPD P2 MAX                         | [链接](https://github.com/Azkali/GPD-P2-MAX-Hackintosh)      |          |                                                              |
-| 微星准系统ProBox23                 | [链接]( https://github.com/Twilightlee/MSI_ProBox23_hackintosh) |          |                                                              |
-| MaiBenBen_Damai5                   | [链接](https://github.com/jasminebd/MaiBenBen-Damai5)        |          | 麦本本-大麦5                                                 |
-| Sony VAIO pro13                    | [链接](https://github.com/raydoom/hackintosh-sony-vaio-pro13) |          |                                                              |
-| toshiba-B654L                      | [链接](https://github.com/yxb2018/toshiba-B654L-clover-efi)  |          |                                                              |
-| Terrans Force/Devil Rays  DR7      | [链接](https://github.com/Jie2GG/Hackintosh-Devil-Rays-DR7)  |          | 未来人类                                                     |
-| Toshiba L55W C5320                 | [链接](https://github.com/martinmenchon/Hackintosh-Toshiba-L55W-C5320) |          |                                                              |
-| Toshiba C805                       | [链接](https://github.com/nan1jueze/TOSHIBA-C805-HM76-CLOVER-Hackintosh) |          |                                                              |
-| MONSTER Tulpar T7 V20.1                       | [链接](https://github.com/sutsurup/MONSTER-Hackintosh) | [链接](https://github.com/sutsurup/MONSTER-Hackintosh/blob/master/README.md)         |                                                              |
+| 机型名称                           | 发布地址                                                     | 教程地址                                                     | 备注                                                         |
+| ---------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| Clevo P950HR                       | [链接](https://github.com/MegaCookie/Clevo-P950HR-Hackintosh) |                                                              | 蓝天 P950HR，猜的                                            |
+| 火影地狱火X6                       | [链接](https://github.com/gaofeicm/DiYuHuo-X6-MacOS-Mojave-10.14.3-Hackintosh) |                                                              |                                                              |
+| Thunderobot 911 Air                | [链接](https://github.com/athlonreg/Thunderobot-911-Air-i7-9750h) |                                                              |                                                              |
+| Thunderobot 911 Air2               | [链接](https://github.com/athlonreg/Thunderobot-911-Air-i7-9750h) |                                                              |                                                              |
+| 雷神笔记本黑苹果套件               | [链接](https://github.com/athlonreg/Thunderobot-Hackintosh)  |                                                              |                                                              |
+| Airbook                            | [链接](https://github.com/nabaonan/airbook-6200u-efi)        |                                                              | 网卡推荐：[DW1820A](https://blog.daliansky.net/DW1820A_BCM94350ZAE-driver-inserts-the-correct-posture.html) |
+| 同方 GI5CN5E                       | [链接](https://github.com/rodgomesc/AVELL-G1513-FOX-7-TONG-FANG-GI5CN5E-HACKINTOSH) |                                                              |                                                              |
+| Razer Blade 15 Base Model          | [链接](https://github.com/DocSystem/razerbladehackintosh)    |                                                              |                                                              |
+| Razer Blade Stealth 雷蛇灵刃潜行版 | [链接](https://github.com/widmonstertony/razer-blade-stealth-hackintosh) |                                                              |                                                              |
+| Razer Blade 15 Advanced            | [链接](https://github.com/doanhmaple/Razer-Blade-15-Advanced-2018-Hackintosh) |                                                              | i7-8750H 网卡推荐：[DW1820A](https://blog.daliansky.net/DW1820A_BCM94350ZAE-driver-inserts-the-correct-posture.html) |
+| Razer_Blade_Advanced_early_2019    | [链接]( https://github.com/stonevil/Razer_Blade_Advanced_early_2019_Hackintosh) |                                                              | [链接](https://github.com/stonevil/Razer_Blade_Advanced_early_2019_Hackintosh) |
+| 三星Samsung NP300E4C               | [链接](https://github.com/installgento0/NP300E4C-hackintosh) |                                                              |                                                              |
+| 三星Samsung NP300E5L               | [链接](https://github.com/bearkfear/SAMSUNG-NP300E5L-HACKINTOSH) |                                                              |                                                              |
+| 三星Samsung NP300E5M               | [链接](https://github.com/zb2947244682/Samsung_300E5M_Mac_Hackintosh_EFI) |                                                              |                                                              |
+| GPD P2 MAX                         | [链接](https://github.com/Azkali/GPD-P2-MAX-Hackintosh)      |                                                              |                                                              |
+| 微星准系统ProBox23                 | [链接]( https://github.com/Twilightlee/MSI_ProBox23_hackintosh) |                                                              |                                                              |
+| MaiBenBen_Damai5                   | [链接](https://github.com/jasminebd/MaiBenBen-Damai5)        |                                                              | 麦本本-大麦5                                                 |
+| Sony VAIO pro13                    | [链接](https://github.com/raydoom/hackintosh-sony-vaio-pro13) |                                                              |                                                              |
+| toshiba-B654L                      | [链接](https://github.com/yxb2018/toshiba-B654L-clover-efi)  |                                                              |                                                              |
+| Terrans Force/Devil Rays  DR7      | [链接](https://github.com/Jie2GG/Hackintosh-Devil-Rays-DR7)  |                                                              | 未来人类                                                     |
+| Toshiba L55W C5320                 | [链接](https://github.com/martinmenchon/Hackintosh-Toshiba-L55W-C5320) |                                                              |                                                              |
+| Toshiba C805                       | [链接](https://github.com/nan1jueze/TOSHIBA-C805-HM76-CLOVER-Hackintosh) |                                                              |                                                              |
+| MONSTER Tulpar T7 V20.1            | [链接](https://github.com/sutsurup/MONSTER-Hackintosh)       | [链接](https://github.com/sutsurup/MONSTER-Hackintosh/blob/master/README.md) |                                                              |
+| 机械师 F117B1                      | [链接](https://github.com/Lusior/F117B-Hackintosh)           |                                                              |                                                              |
 
 
 
