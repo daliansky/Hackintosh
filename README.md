@@ -713,8 +713,7 @@
 | 三星Samsung NP300E4C               | [链接](https://github.com/installgento0/NP300E4C-hackintosh) |                                                              |                                                              |
 | 三星Samsung NP300E5L               | [链接](https://github.com/bearkfear/SAMSUNG-NP300E5L-HACKINTOSH) |                                                              |                                                              |
 | 三星Samsung NP300E5M               | [链接](https://github.com/zb2947244682/Samsung_300E5M_Mac_Hackintosh_EFI) |                     
-|
-| 三星Samsung NP900X3L(or NT900X3L)  | [链接](https://github.com/justiceserv/NT900X3L-Hackintosh) | i5-6200u & DDR3L 4GB & Samsung 860 Evo | 
+| 三星Samsung NP900X3L(or NT900X3L)  | [链接](https://github.com/justiceserv/NT900X3L-Hackintosh) | i5-6200u & DDR3L 4GB & Samsung 860 Evo 
 |                                                              |
 | GPD P2 MAX                         | [链接](https://github.com/Azkali/GPD-P2-MAX-Hackintosh)      |                                                              |                                                              |
 | 微星准系统ProBox23                 | [链接]( https://github.com/Twilightlee/MSI_ProBox23_hackintosh) |                                                              |                                                              |
