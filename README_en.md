@@ -436,6 +436,8 @@
 | Samsung NP300E4C                   | [link](https://github.com/installgento0/NP300E4C-hackintosh) |                                                              |                                                              |
 | Samsung NP300E5L                   | [link](https://github.com/bearkfear/SAMSUNG-NP300E5L-HACKINTOSH) |                                                              |                                                              |
 | Samsung NP300E5M                   | [link](https://github.com/zb2947244682/Samsung_300E5M_Mac_Hackintosh_EFI) |                                                              |                                                              |
+| Samsung NP900X3L(or NT900X3L)      | [link](https://github.com/justiceserv/NT900X3L-Hackintosh) |
+|                                                              |
 | GPD P2 MAX                         | [link](https://github.com/Azkali/GPD-P2-MAX-Hackintosh)      |                                                              |                                                              |
 | MSI ProBox23                       | [link]( https://github.com/Twilightlee/MSI_ProBox23_hackintosh) |                                                              |                                                              |
 | Razer_Blade_Advanced_early_2019    | [link]( https://github.com/stonevil/Razer_Blade_Advanced_early_2019_Hackintosh) |                                                              | [link](https://github.com/stonevil/Razer_Blade_Advanced_early_2019_Hackintosh) |
