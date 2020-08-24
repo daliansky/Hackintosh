@@ -174,11 +174,11 @@ Disk="$disk_used / $disk_total"
 
 # GPU
 # main resolution
-resolution="$(system_profiler SPDisplaysDataType  2>/dev/null| grep Resolution | awk 'NF+=1' | sed 's/Resolution://g' | cut -b 12- | sed -e 's/, /\n/g' | sed -n 1p)"
+resolution="$(system_profiler SPDisplaysDataType  2>/dev/null| grep Resolution | awk 'NF+=1' | sed 's/Resolution://g' | cut -b 2- | sed -e 's/, /\n/g' | sed -n 1p)"
 gpu="$(system_profiler SPDisplaysDataType 2>/dev/null|awk -F': ' '/^\ *Chipset Model:/ {printf $2 " "}')"
 vram="$(system_profiler SPDisplaysDataType 2>/dev/null| grep VRAM | cut -b 7-)"
 # extension resolution
-displayext="$(system_profiler SPDisplaysDataType  2>/dev/null| grep Resolution | awk 'NF+=1' | sed 's/Resolution://g' | cut -b 12- | sed -e 's/, /\n/g' | sed -n 2p)"
+displayext="$(system_profiler SPDisplaysDataType  2>/dev/null| grep Resolution | awk 'NF+=1' | sed 's/Resolution://g' | cut -b 2- | sed -e 's/, /\n/g' | sed -n 2p)"
 #if [[ -z $displayext ]] ; then 
 #  displayext=$resolution
 #fi
