@@ -127,12 +127,6 @@
 </details>
 
 
-
-
-
-
-
-
 ## 笔记本部分机型
 
 ### Acer 宏碁
@@ -470,7 +464,7 @@
 | 华为 Matebook X Pro 2019 | [链接](https://github.com/laozhiang/MateBook_X_Pro_2019-Hackintosh) | [链接](https://github.com/laozhiang/MateBook_X_Pro_2019-Hackintosh) | 华为 Matebook X Pro 2019                                     |
 | 华为 Matebook X Pro      | [链接](https://github.com/gnodipac886/MatebookXPro-hackintosh) [链接](https://github.com/gnodipac886/MatebookXPro-hackintosh) | [链接](https://github.com/gnodipac886/MatebookXPro-hackintosh/blob/master/README-CN.md) | 华为 Matebook X Pro 2018                                     |
 | 华为 Matebook X          | [链接](https://github.com/4323770/Hackintosh-For-Matebook-X) |                                                              |                                                              |
-| 华为 Matebook 13         | [链接](https://github.com/FIU001/huawei-matebook-13-) [链接](https://github.com/Edoardo001/Matebook-13-Hackintosh) |                                                              |                                                              |
+| 华为 Matebook 13         | [链接](https://github.com/FIU001/huawei-matebook-13-) [链接](https://github.com/Edoardo001/Matebook-13-Hackintosh)<br />[链接](https://github.com/ske1996/matebook-13-2019-oc-efi) |                                                              |                                                              |
 | 华为 Matebook 14         | [链接](https://github.com/frezs/MateBook14-Hackintosh)       |                                                              |                                                              |
 | 华为 Matebook D          | [链接](https://github.com/MOJUNSHOU/MateBooK-D) [链接](https://github.com/Zero-zer0/Matebook_D_2018_Hackintosh_OpenCore) |                                                              | 华为MateBook D2018 i5-8250U 15.6寸<br />网卡推荐：[DW1820A](https://blog.daliansky.net/DW1820A_BCM94350ZAE-driver-inserts-the-correct-posture.html) |
 | 荣耀 Magicbook           | [链接](https://github.com/hjmmc/Honor-Magicbook) [链接](https://github.com/buseQ/magicbook-hackintosh-opencore-i7-8550u) | [链接](https://github.com/hjmmc/Honor-Magicbook/blob/master/README_CN.md) | 网卡推荐：[DW1820A](https://blog.daliansky.net/DW1820A_BCM94350ZAE-driver-inserts-the-correct-posture.html) |
@@ -651,6 +645,17 @@
 | clover-z390-aorus-pro-wifi-9700k-rx580 | [链接](https://github.com/cheneyveron/hackintosh-clover-z390-aorus-pro-wifi-9700k-rx580) | [链接](https://github.com/cheneyveron/hackintosh-clover-z390-aorus-pro-wifi-9700k-rx580/blob/master/README.md) |           |
 | MSI Z390                               | [链接](https://github.com/MonkeySdkCom/EFI-MSI-Z390-Tomahawk) |                                                              |           |
 
+### Razer Blade 雷蛇
+
+| 机型名称 | 发布地址 | 教程地址 | 备注 |
+| -------- | -------- | -------- | ---- |
+| Razer Blade 15 Base Model          | [链接](https://github.com/DocSystem/razerbladehackintosh) [链接](https://github.com/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Big_Sur) | [链接](https://github.com/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Big_Sur) | 链接2支持`Big Sur`                                           |
+| Razer Blade Stealth 雷蛇灵刃潜行版 | [链接](https://github.com/widmonstertony/razer-blade-stealth-hackintosh) |                                                              |                                                              |
+| Razer Blade 15 Advanced            | [链接](https://github.com/doanhmaple/Razer-Blade-15-Advanced-2018-Hackintosh) [链接](https://github.com/Errrneist/Hackintosh-Razer-Blade-Advanced) |                                                              | i7-8750H 网卡推荐：[DW1820A](https://blog.daliansky.net/DW1820A_BCM94350ZAE-driver-inserts-the-correct-posture.html) |
+| Razer_Blade_Advanced_early_2019    | [链接]( https://github.com/stonevil/Razer_Blade_Advanced_early_2019_Hackintosh) |                                                              | [链接](https://github.com/stonevil/Razer_Blade_Advanced_early_2019_Hackintosh) |
+
+
+
 ### Shinelon 炫龙
 
 | 机型名称                     | 发布地址                                                     | 教程地址                                                     | 备注                                                         |
@@ -710,15 +715,10 @@
 | 雷神笔记本黑苹果套件               | [链接](https://github.com/athlonreg/Thunderobot-Hackintosh)  |                                                              |                                                              |
 | Airbook                            | [链接](https://github.com/nabaonan/airbook-6200u-efi)        |                                                              | 网卡推荐：[DW1820A](https://blog.daliansky.net/DW1820A_BCM94350ZAE-driver-inserts-the-correct-posture.html) |
 | 同方 GI5CN5E                       | [链接](https://github.com/rodgomesc/AVELL-G1513-FOX-7-TONG-FANG-GI5CN5E-HACKINTOSH) |                                                              |                                                              |
-| Razer Blade 15 Base Model          | [链接](https://github.com/DocSystem/razerbladehackintosh) [链接](https://github.com/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Big_Sur) | [链接](https://github.com/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Big_Sur) | 链接2支持`Big Sur`                                           |
-| Razer Blade Stealth 雷蛇灵刃潜行版 | [链接](https://github.com/widmonstertony/razer-blade-stealth-hackintosh) |                                                              |                                                              |
-| Razer Blade 15 Advanced            | [链接](https://github.com/doanhmaple/Razer-Blade-15-Advanced-2018-Hackintosh) |                                                              | i7-8750H 网卡推荐：[DW1820A](https://blog.daliansky.net/DW1820A_BCM94350ZAE-driver-inserts-the-correct-posture.html) |
-| Razer_Blade_Advanced_early_2019    | [链接]( https://github.com/stonevil/Razer_Blade_Advanced_early_2019_Hackintosh) |                                                              | [链接](https://github.com/stonevil/Razer_Blade_Advanced_early_2019_Hackintosh) |
 | 三星Samsung NP300E4C               | [链接](https://github.com/installgento0/NP300E4C-hackintosh) |                                                              |                                                              |
 | 三星Samsung NP300E5L               | [链接](https://github.com/bearkfear/SAMSUNG-NP300E5L-HACKINTOSH) |                                                              |                                                              |
-| 三星Samsung NP300E5M               | [链接](https://github.com/zb2947244682/Samsung_300E5M_Mac_Hackintosh_EFI) |                     
-| 三星Samsung NP900X3L(or NT900X3L)  | [链接](https://github.com/justiceserv/NT900X3L-Hackintosh) | i5-6200u & DDR3L 4GB & Samsung 860 Evo 
-|                                                              |
+| 三星Samsung NP300E5M               | [链接](https://github.com/zb2947244682/Samsung_300E5M_Mac_Hackintosh_EFI) |                                                              |                                                              |
+| 三星Samsung NP900X3L(NT900X3L)     | [链接](https://github.com/justiceserv/NT900X3L-Hackintosh)   |                                                              |                                                              |
 | GPD P2 MAX                         | [链接](https://github.com/Azkali/GPD-P2-MAX-Hackintosh)      |                                                              |                                                              |
 | 微星准系统ProBox23                 | [链接]( https://github.com/Twilightlee/MSI_ProBox23_hackintosh) |                                                              |                                                              |
 | MaiBenBen_Damai5                   | [链接](https://github.com/jasminebd/MaiBenBen-Damai5)        |                                                              | 麦本本-大麦5                                                 |
