@@ -587,6 +587,7 @@
 | Lenovo Yoga 720                    | [链接](https://github.com/bugprogrammer/hackintosh/tree/Lenovo-yoga-720-13ikb-7200u) |                                                              | Lenovo Yoga 720-13IKB                                        |
 | Lenovo Yoga 720                    | [链接](https://github.com/williambj1/Hackintosh-EFI-Lenovo-Yoga-720-12IKB) | [链接](https://github.com/williambj1/Hackintosh-EFI-Lenovo-Yoga-720-12IKB/tree/master/Resources) | Lenovo Yoga 720-12IKB                                        |
 | Lenovo Yoga 730                    | [链接](https://github.com/dragonflylee/Yoga-730-hackintosh)  |                                                              | Lenovo Yoga 730-13IKB                                        |
+| Lenovo Yoga S740                   | [链接](https://github.com/frozenzero123/YOGA-S740)           |                                                              | i7 1065G7                                                    |
 | Lenovo Yoga 910 13IKB              | [链接](https://github.com/wjz304/Hackintosh-EFI-Lenovo-Yoga-910-13IKB) |                                                              |                                                              |
 | Lenovo Z50(40)/70 系列             | [链接](https://github.com/the-braveknight/Lenovo-X50-macOS)  | [链接](https://www.tonymacx86.com/threads/guide-lenovo-z50-70-z40-70-g50-70-g40-70-using-clover-uefi.261787/) | Lenovo Z50-70/Z40-70   Lenovo G50-70/G40-70                  |
 | Lenovo Miix510                     | [链接](https://github.com/Aexus/hackintosh-ideapad-miix510)   [链接](https://github.com/liuwaei/Lenovo-Miix510-EFI-Clover-for-MacOS-10.14.X) |                                                              | Lenovo-Miix510                                               |
@@ -715,7 +716,9 @@
 | Razer_Blade_Advanced_early_2019    | [链接]( https://github.com/stonevil/Razer_Blade_Advanced_early_2019_Hackintosh) |                                                              | [链接](https://github.com/stonevil/Razer_Blade_Advanced_early_2019_Hackintosh) |
 | 三星Samsung NP300E4C               | [链接](https://github.com/installgento0/NP300E4C-hackintosh) |                                                              |                                                              |
 | 三星Samsung NP300E5L               | [链接](https://github.com/bearkfear/SAMSUNG-NP300E5L-HACKINTOSH) |                                                              |                                                              |
-| 三星Samsung NP300E5M               | [链接](https://github.com/zb2947244682/Samsung_300E5M_Mac_Hackintosh_EFI) |                                                              |                                                              |
+| 三星Samsung NP300E5M               | [链接](https://github.com/zb2947244682/Samsung_300E5M_Mac_Hackintosh_EFI) |                     
+| 三星Samsung NP900X3L(or NT900X3L)  | [链接](https://github.com/justiceserv/NT900X3L-Hackintosh) | i5-6200u & DDR3L 4GB & Samsung 860 Evo 
+|                                                              |
 | GPD P2 MAX                         | [链接](https://github.com/Azkali/GPD-P2-MAX-Hackintosh)      |                                                              |                                                              |
 | 微星准系统ProBox23                 | [链接]( https://github.com/Twilightlee/MSI_ProBox23_hackintosh) |                                                              |                                                              |
 | MaiBenBen_Damai5                   | [链接](https://github.com/jasminebd/MaiBenBen-Damai5)        |                                                              | 麦本本-大麦5                                                 |
@@ -965,6 +968,7 @@
 | MSI B460M MORTAR          | [链接](https://github.com/josways/B460M-MORTAR)              |                                                              | I5-10400 / RX550                                             |
 | MSI Z370-A                | [链接](https://github.com/daliansky/Z370-Hackintosh)         | [链接](https://github.com/daliansky/Z370-Hackintosh)         | 黑果小兵MSI Z370-A自用EFI                                    |
 | MSI Z370m mortar i7-9700k | [链接](https://github.com/JackyCZJ/Z370M-MORTAR-I7-9700K-M9PEG-CLOVER) |                                                              |                                                              |
+| MSI  Z370-TOMAHAWK  i7-8700k | [链接](https://github.com/luffythink/Hackintosh-EFI)         | [链接](https://github.com/luffythink/Hackintosh-EFI/blob/master/README.md)         | clover稳定版 and oc版                                        |
 | MSI Z390-Gaming-EDGE-AC   | [链接](https://github.com/fnoopv/MSI-Z390-Gaming-Edge-AC_OC) |                                                              | 微星MPG-Z390-Gaming-Edge-ac OpenCore EFI                     |
 | MSI Z390i                 | [链接](https://github.com/GaryOAO/MSI-Z390i-hackintosh-clover) |                                                              |                                                              |
 | MSI MAG Z390 TOMAHAWK     | [链接](https://github.com/xushuduo/MSI_Z390_TOMAHAWK_I5-9600K_HACKINTOSH_OPENCORE_EFI) |                                                              | MSI MAG Z390 TOMAHAWK + i5-9600K + RX590 HACKINTOSH OPENCORE EFI |
