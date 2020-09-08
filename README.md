@@ -287,6 +287,7 @@
 | Dell Inspiron 5488               | [链接](https://github.com/daggeryu/DELL-inspiron-5488)       |                                                              |                                                              |
 | Dell Inspiron 5537               | [链接](https://github.com/thedeadfish59/Dell_Inspiron_5537-Hackintosh) |                                                              |                                                              |
 | Dell Inspiron 5548(4528S)        | [链接](https://github.com/yuppiesnotzhuhao/Hackintosh-Dell-Inspiron-5548) |                                                              |                                                              |
+| Dell Inspiron 5558	|[链接](https://github.com/jance-hui/DELL-5558-EFI)		|		|		|
 | Dell Inspiron 5559               | [链接](https://github.com/cbabb/dell-5559)                   |                                                              | Dell 5559                                                    |
 | Dell Inspiron 5566               | [链接](https://github.com/matheusliraofficial/inspiron-5566-hackintosh) |                                                              |                                                              |
 | Dell Inspiron 5567               | [链接](https://github.com/MuntashirAkon/HackintoshDellInspiron5567) |                                                              | i3-7100u, Intel HD620                                        |
@@ -335,13 +336,12 @@
 | Dell Precision 5510                        | [链接](https://github.com/soulomoon/Dell-Precision-5510-OSX) [链接](https://github.com/PLChinDev/Dell-Precision-5510-Mojave) |                                                              | Dell-Precision-5510<br />链接2支持`Catalina`                 |
 | Dell Precision 5591                        | [链接](https://github.com/n0faith/Dell-Precision-5591-Hackintosh) |                                                              |                                                              |
 | Dell Precision M3800<br />Dell XPS 15-9530 | [链接](https://github.com/syscl/M3800)                       | [链接](https://github.com/syscl/M3800/blob/M3800/README.md)  | Dell M3800 和 XPS 9530                                       |
-| Dell Vostro 3267                           | [链接](https://github.com/Drovosek01/hackintosh_DELL_Vostro_3267_i5-6400/blob/master/docs/ENG/README.md) |                                                              |                                                              |
+|                                            |                                                              |                                                              |                                                              |
 | Dell Vostro 3490                           | [链接](https://github.com/FaneCH/Vostro-3490-hackintosh)     |                                                              | I5-10210u                                                    |
 | Dell Vostro 3578                           | [链接](https://github.com/ABCDFAS/dell-vostro-3578-hackintosh-clover-efi) |                                                              |                                                              |
 | Dell Vostro 5370                           | [链接](https://github.com/hellmonky/Hackintosh/tree/master/dell-vostro-5370) |                                                              |                                                              |
-| DELL Vostro 14 5490                        | [链接](https://github.com/msdnna/Dell-Vostro-14-5490-Hackintosh) |                                                              | i5-10210U / **i7-10510U**                                    |
+| Dell Vostro 14 5490                      | [链接](https://github.com/msdnna/Dell-Vostro-14-5490-Hackintosh) |                                                              | i5-10210U / **i7-10510U**                                    |
 | Dell Vostro 5581                           | [链接](https://github.com/nghetienhiep/Dell-Vostro-5581-Hackintosh) |                                                              |                                                              |
-| Dell Vostro 5558			|[链接](https://github.com/jance-hui/DELL-5558-EFI)		|		|		|
 | Dell XPS 15 7590                           | [链接](https://github.com/daliansky/XPS15-7590-Hackintosh)[OC版,维护的比较用心](https://github.com/gorquan/OC-XPS-7590)   |                                                              | Dell XPS 15 7590，网卡推荐：[DW1820A](https://blog.daliansky.net/DW1820A_BCM94350ZAE-driver-inserts-the-correct-posture.html) |
 | Dell XPS13  9343                           | [链接](https://github.com/SiGae/macOS-Mojave-on-xps-13-9343) | [链接](https://github.com/haos001/XPS13-9343-Clover)         |                                                              |
 | Dell XPS 9350                              | [链接](https://github.com/syscl/XPS9350-macOS)               | [链接](https://github.com/syscl/XPS9350-macOS/blob/master/README.md) | Dell XPS 9350                                                |
@@ -879,6 +879,8 @@
 | Dell OptiPlex 7060<br />Dell OptiPlex 7070 | [链接](https://github.com/W-MS/OptiPlex-7060and7070-Catalina) |          | Increase DVMT to 64M `setup_var 0x8DC 0x2` ，不支持96M模式，<br />切勿使用0x3或在其他型号使用此命令。支持Catalina。 |
 | Dell Precision T3610                       | [链接](https://github.com/cstrouse/Dell-T3610-Hackintosh)    |          |                                                              |
 | Dell Precision T3620                       | [链接](https://github.com/fivestrong/Hackintosh-Dell-Precision-T-3620) |          |                                                              |
+| Dell Vostro 3267                           | [链接](https://github.com/Drovosek01/hackintosh_DELL_Vostro_3267_i5-6400/blob/master/docs/ENG/README.md) |          |                                                              |
+| Dell Vostro 3669                           | [链接](https://github.com/daliansky/Dell_Vostro_3669_Hackintosh) |          |                                                              |
 
 ### Gigabyte 技嘉
 
