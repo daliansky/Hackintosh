@@ -275,7 +275,7 @@
 | Dell G3 3590                     | [链接](https://github.com/shadowsss/hackintosh-Dell-3590)    |                                                              |                                                              |
 | Dell G3 3779                     | [链接](https://github.com/djlucas123456/Dell-G3-3779-Mojave-Catalina-Clover-) |                                                              |                                                              |
 | Dell G5 5587                     | [链接](https://github.com/Sosueyakiko/Clover_EFI-For-DELL-G5-5587) |                                                              | 网卡推荐：[DW1820A](https://blog.daliansky.net/DW1820A_BCM94350ZAE-driver-inserts-the-correct-posture.html)； |
-| Dell G7 7588                     | [链接](https://github.com/geraldoandradee/Hackintosh-Dell-G7-7588) [链接](https://github.com/flyfeng2002/FYQ-Hackintosh) [链接](https://github.com/Juan-VC/Hackintosh-macOS-Catalina-on-Dell-G7-7588) |                                                              | 链接2和链接3包括`OpenCore`                                   |
+| Dell G7 7588                     | [链接](https://github.com/geraldoandradee/Hackintosh-Dell-G7-7588) [链接](https://github.com/flyfeng2002/FYQ-Hackintosh) [链接](https://github.com/Juan-VC/Hackintosh-macOS-Dell-G7-7588) |                                                              | 链接2和链接3包括`OpenCore`                                   |
 | Dell Inspiron 14 5447            | [链接](https://github.com/SinhLv/Dell-Ins-14-5447-hackintosh) | [链接](https://github.com/SinhLv/Dell-Ins-14-5447-hackintosh/blob/master/README.md) | Dell-Ins-14-5447                                             |
 | Dell Inspiron 14 7447            | [链接](https://github.com/Am1nCmd/Dell-Inspiron-14-7447-Pandora-Hackintosh) | [链接](https://github.com/Am1nCmd/Dell-Inspiron-14-7447-Pandora-Hackintosh/blob/master/README.md) | Dell-Inspiron-14-7447                                        |
 | Dell Inspiron 15 7000 (i7-8550U) | [链接](https://github.com/athlonreg/Dell-Inspiron-15-7000-i7-8550u) |                                                              |                                                              |
@@ -972,6 +972,7 @@
 | NUC8i7BEH                 | [链接](https://github.com/sarkrui/NUC8i7BEH-Hackintosh-Build) [链接](https://github.com/wilsonnkwan/Hackintosh-NUC8i7BEH-Catalina) [链接](https://github.com/honglov3/NUC8I7BEH) | [链接](https://osy.gitbook.io/hac-mini-guide/)               | 链接3为`OC` |
 | NUC7i7BNH                 | [链接](https://github.com/calebchow9/Intel-NUC7i7BNH-Hackintosh) |                                                              |             |
 | NUC7i5BEK                 | [链接](https://github.com/331296441/NUC7i5BEK)               |                                                              |             |
+| NUC10i7                   | [链接](https://github.com/HawkysCC/Hackintosh-NUC10i7)       |                                                              |             |
 
 ### Lenovo 联想
 
