@@ -126,7 +126,7 @@
 - 2020年8月31日
   - 新增机型：新增战神Z7、G8系列部分机型，具体请看commit
 - 2020年9月15日
-	- 新增机型：Asrock X99、Dell Inspiron 3559
+	- 新增机型：Lenovo 天逸 510S Mini
 </code></pre>
 </details>
 
@@ -978,6 +978,7 @@
 | **台式（部分）**                           | 发布地址                                                     | 教程地址 | 备注                                                         |
 | ------------------------------------------ | ------------------------------------------------------------ | -------- | ------------------------------------------------------------ |
 | Lenovo M93P                                | [链接](https://github.com/mingcheng/lenovo-thinkcentre-m93p-hackintosh) [链接](https://github.com/SummerEmber/Lenovo-ThinkCentre-M93p-Tiny) |          | 联想 M93P 系列主机                                           |
+| Lenovo 天逸 510S Mini                      | [链接](https://github.com/daliansky/Lenovo-TianYi-510S-Mini-Hackintosh) |          | 联想天逸510S Mini小主机                                      |
 | Lenovo ThinkCentre M4500q                  | [链接](https://github.com/samawong/hackintosh-clover-configure-for-lenovo-m4500q-n000-model) |          |                                                              |
 | Lenovo ThinkCentre M710Q                   | [链接](https://github.com/daliansky/Lenovo-M710Q-Hackintosh) |          | 小兵自用，长期维护<br />网卡推荐：[DW1820A](https://blog.daliansky.net/DW1820A_BCM94350ZAE-driver-inserts-the-correct-posture.html) |
 | Lenovo ThinkCentre M720Q                   | [链接](https://github.com/fronttang/Lenovo-ThinkCentre-M720Q-Hackintosh) |          |                                                              |
