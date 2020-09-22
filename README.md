@@ -127,6 +127,8 @@
   - 新增机型：新增战神Z7、G8系列部分机型，具体请看commit
 - 2020年9月15日
 	- 新增机型：Lenovo 天逸 510S Mini
+- 2020年9月23日
+	- 新增机型：Asus TUF B360M-PLUS-S
 </code></pre>
 </details>
 
@@ -836,7 +838,7 @@
 | ----------------------------- | ------------------------------------------------------------ | -------- | ------------------------------------------------------------ |
 | Asus B85 Pro Gamer            | [链接](https://github.com/xl120022/ASUS-B85PG-E3-RX570-MAC10.15) |          | e3-1231v3 / rx570                                            |
 | Asus Prime H310I-M            | [链接](https://github.com/xLidoni/i3-8100-H310I-Hackintosh_OC) |          |                                                              |
-| Asus TUF B360M-PLUS-S         | [链接](https://github.com/Zerah64/hackintosh_9400f_b360_vega56) |          |                                                              |
+| Asus TUF B360M-PLUS-S         | [链接](https://github.com/frowhy/opencore_bigsur_8700_b360m_rx580) [链接](https://github.com/Zerah64/hackintosh_9400f_b360_vega56) |          |                                                              |
 | ASUS TUF B460M                | [链接](https://github.com/SmallKi-d/ASUS-B460M-TUF-I5-10500ES-RX5700) |          | I5-10500 ES / RX5700                                         |
 | Asus Rog Strix B460-G Gaming  | [链接](https://github.com/huytbt/Hackintosh-Desktop-CometLake-B460G-Board-OpenCore) |          |                                                              |
 | Asus B460m Plus               | [链接](https://github.com/CasperNan/opencore-ASUS-B460m-plus-10400) |          | Intel 10400 / AMD 5500XT                                     |
