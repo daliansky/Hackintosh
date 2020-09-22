@@ -127,6 +127,8 @@
   - 新增机型：新增战神Z7、G8系列部分机型，具体请看commit
 - 2020年9月15日
 	- 新增机型：Lenovo 天逸 510S Mini
+- 2020年9月23日
+	- 新增机型：Asus ROG Strix Z390-E
 </code></pre>
 </details>
 
@@ -848,7 +850,7 @@
 | Asus ROG Maximus X Hero Z370  | [链接](https://github.com/RainshawGao/Hackintosh)            |          | Vega 56 网卡推荐：[DW1820A](https://blog.daliansky.net/DW1820A_BCM94350ZAE-driver-inserts-the-correct-posture.html) |
 | Asus ROG STRIX H370-I GAMING  | [链接](https://github.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide) [链接](https://github.com/ttdevs/EFI-Z390-ROG-MAXIMUS-XI-HERO-WIFI-i7-8700K) |          | mini-ITX H370 motherboard                                    |
 | Asus STRIX Z270-E             | [链接](https://github.com/BradenM/Hackintosh-7700k-R9_390-iGPU) |          | Asus STRIX Z270-E                                            |
-| Asus ROG Strix Z390-E         | [链接](https://github.com/xiedonghang/hackintosh) [链接](https://github.com/lbrdev/asus_z390e_opencore_hackintosh) |          | Intel i9-9900k+UHD630核显                                    |
+| Asus ROG Strix Z390-E         | [链接](https://github.com/frowhy/opencore_bigsur_8700_z390e_rx580) [链接](https://github.com/xiedonghang/hackintosh) [链接](https://github.com/lbrdev/asus_z390e_opencore_hackintosh) |          | Intel i9-9900k+UHD630核显                                    |
 | Asus Prime Z370-P             | [链接](https://github.com/mint-made/asus-z370p-opencore-hackintosh) |          | `强制RGB模式（EDID覆盖）`                                    |
 | Asus-PRIME-Z390               | [链接](https://github.com/dhckdgjs/ASUS-PRIME-Z390-A-HACKINTOSH-Clover-iGPU-with-dGPU-UHD630-RX580) |          | ASUS-PRIME-Z390                                              |
 | Asus Prime Z390-A             | [链接](https://github.com/ErickAgrazal/hackinstosh-efi) [链接](https://github.com/DiZhou92/ROG-STRIX-Z490-G-WIFI-ASUS) |          |                                                              |
