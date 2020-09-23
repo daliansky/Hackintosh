@@ -201,7 +201,7 @@
 | Hasee Shinelon DC2 | [link](https://github.com/bavelee/DC2_Hackintosh)            | [link](https://bavelee.cn/index.php/archives/60/)            |                                  |
 | Hasee 精盾系列T96E     | [link](https://github.com/L0ngxhn/Hackintosh-Hasee-T96E)     |||
 | Hasee K590S(clevo W350ET)     | [link](https://github.com/JokerHYC/K590S-HACKINTOSH)     |||
-| HASEE-GX8  CLEVO-P775TM      | [链接](https://github.com/JokerHYC/P775TM-HACKINTOSH)     |  |      for clevo p775tm            |
+| HASEE-GX8  CLEVO-P775TM      | [link](https://github.com/JokerHYC/P775TM-HACKINTOSH)     |  |      for clevo p775tm            |
 
 
 #### HP 惠普
@@ -276,7 +276,7 @@
 | ThinkPad E550                        | [link](https://github.com/the-braveknight/Lenovo-ThinkPad-E550-DSDT-Patch) | [link](https://www.tonymacx86.com/threads/guide-lenovo-thinkpad-e550-haswell-using-clover-uefi-10-11.214675/) | E550 四代 CPU                                                |
 | ThinkPad E560                        | [link](https://github.com/rsdev69/Lenovo-E560-Clover)        | [link](https://www.tonymacx86.com/threads/stable-lenovo-e560-full-work.248842/) |                                                              |
 | ThinkPad L440                        | [link](https://github.com/BesnikRrustemi/Lenovo-ThinkPad-L440) |                                                              |                                                              |
-| ThinkPad L490                      | [链接](https://github.com/twislyn/Hackintosh-ThinkPad-L490) | [链接](https://github.com/twislyn/Hackintosh-ThinkPad-L490/blob/master/README.md) |   
+| ThinkPad L490                      | [link](https://github.com/twislyn/Hackintosh-ThinkPad-L490) | [link](https://github.com/twislyn/Hackintosh-ThinkPad-L490/blob/master/README.md) |   
 | Lenovo miix 520                      | [link](https://github.com/acai66/lenovo-miix-520-hackintosh-10.14-CLOVER) |                                                              |                                                              |
 | ThinkPad P51                         | [link](https://github.com/MirkoCovizzi/thinkpad-p51-hackintosh) | [link](https://github.com/MirkoCovizzi/thinkpad-p51-hackintosh/blob/master/README.md) | Thinkpad P51                                                 |
 | ThinkPad P52                         | [link](https://github.com/liuyishengalan/ThinkPad-P52-Hackintosh-10.14.X-) |                                                              |                                                              |
@@ -409,7 +409,7 @@
 | XiaoMi Pro          | [link](https://github.com/daliansky/XiaoMi-Pro/releases)     | [link](https://blog.daliansky.net/MacOS-installation-tutorial-XiaoMi-Pro-installation-process-records.html) | Xiaomi Notebook Pro                                          |
 | XiaoMi Ruby 15.6    | [link](https://github.com/Jxh98/XiaoMi-Ruby-15.6-2019)       |                                                              | ALC256 sound card can not be driven externally<br />Recommended network card: [DW1820A](https://blog.daliansky.net/DW1820A_BCM94350ZAE-driver-inserts-the-correct-posture.html) |
 | XiaoMi 游戏本 8 代  | [link](https://github.com/daliansky/XiaoMi-GLP)              |                                                              | 小米游戏本，猜的                                             |
-| Redmibook mx250    |[链接](https://github.com/dbv/redmibook_hackintsh_EFI)      |     |     |
+| Redmibook mx250    |[link](https://github.com/dbv/redmibook_hackintsh_EFI)      |     |     |
 
 #### Intel 英特尔
 
@@ -469,7 +469,7 @@
 | **Desktop**                                                  | Depot                                                        | Tutorial                                                     | Remarks                                                      |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | **AMD Ryzen CPU**                                            |                                                              |                                                              |                                                              |
-| AMD Ryzen 7 1700x or 3700x<br />MSI X370 Krait Gaming or ASROCK X570 TAICI<br />RX Vega64 | [链接](https://github.com/yhl452493373/ryzen-hackintosh-efi) |                                                              | 10.14.6                                                      |
+| AMD Ryzen 7 1700x or 3700x<br />MSI X370 Krait Gaming or ASROCK X570 TAICI<br />RX Vega64 | [link](https://github.com/yhl452493373/ryzen-hackintosh-efi) |                                                              | 10.14.6                                                      |
 | R7 3700x/MSI B450/5700XT                                     | [link](https://github.com/harpsword/hackintosh-ryzen)        |                                                              |                                                              |
 | AMD Ryzen Tutorial                                           | [link](https://github.com/MrNegativeTW/Ryzen-Hackintosh-Tutorial) [link](https://github.com/doesprintfwork/Intel-AMD-Hackintosh-Guide) | [link](https://kb.hackintoshisfun.ml/vanilla/v/traditional-chinese/) [link](https://mtwstudio.gitbook.io/ryzentosh/) | 适用于`10.12` `10.13` `10.14`                                |
 | AMD FX 6300/NVIDIA GTX 650                                   | [link](https://github.com/pexcn/hackintosh-amd)              |                                                              | 主板：Asus M5A97 LE R2.0                                     |
@@ -493,7 +493,7 @@
 | Asus Z170-P                                                  | [link](https://github.com/Sharlion/z170_6700k_hackintosh)    |                                                              | 华硕Z170-P+6700K+RX470                                       |
 | Asus ROG STRIX H370-I GAMING                                 | [link](https://github.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide) |                                                              | mini-ITX H370 motherboard                                    |
 | Asus STRIX Z270-E                                            | [link](https://github.com/BradenM/Hackintosh-7700k-R9_390-iGPU) |                                                              | Asus STRIX Z270-E                                            |
-| Asus ROG Strix Z390-E                                        | [链接](https://github.com/frowhy/opencore_bigsur_8700_z390e_rx580) [link](https://github.com/xiedonghang/hackintosh)            |                                                              | Intel i9-9900k+UHD630核显                                    |
+| Asus ROG Strix Z390-E                                        | [link](https://github.com/frowhy/opencore_bigsur_8700_z390e_rx580) [link](https://github.com/xiedonghang/hackintosh)            |                                                              | Intel i9-9900k+UHD630核显                                    |
 | Asus Prime Z390m plus                                        | [link](https://github.com/Asphyxia-m/Asus-Z390m-plus-efi)    |                                                              | OC                                                           |
 | ASUS X299 PRIME DELUXE II                                    | [link](https://github.com/yifan-gu/hackintosh)               |                                                              | i9 7980XE + Radeon VII                                       |
 | Asus X299                                                    | [link](https://github.com/shinoki7/Asus-X299-Hackintosh)     |                                                              |                                                              |
