@@ -136,7 +136,7 @@ else
 fi
 
 # Mainboard
-mb="$(bdmesg | grep Running | awk '{print $5,$6,$7,$8,$9,$10}' | sed "s/\'//g")"
+# mb="$(bdmesg | grep Running | awk '{print $5,$6,$7,$8,$9,$10}' | sed "s/\'//g")"
 
 # System Variables
 # User="$(osascript -e "computer name of (system info)")"
@@ -279,7 +279,7 @@ then
   normal=$(tput    sgr0 2>/dev/null)
 fi
 
-fieldlist[${#fieldlist[@]}]="${textColor}主板型号 :${normal} ${mb}${normal}"
+fieldlist[${#fieldlist[@]}]="${textColor}机    型 :${normal} ${model}${normal}"
 fieldlist[${#fieldlist[@]}]="${textColor}操作系统 :${normal} ${System_version}${normal}"
 fieldlist[${#fieldlist[@]}]="${textColor}内核版本 :${normal} ${Kernel_version}${normal}"
 fieldlist[${#fieldlist[@]}]="${textColor}开机时间 :${normal} ${uptime}${normal}"

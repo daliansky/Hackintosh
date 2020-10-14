@@ -972,6 +972,7 @@
 | ------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ----------- |
 | Intel NUC 5、6、7、8 系列 | [链接](https://github.com/RehabMan/Intel-NUC-DSDT-Patch)     | [链接](https://www.tonymacx86.com/threads/guide-intel-kaby-lake-nuc7-using-clover-uefi-nuc7i7bnh-nuc7i5bnk-nuc7i3bnh-etc.261711/) | mini 主机   |
 | NUC8I5BEH                 | [链接](https://github.com/dongyubin/nuc8i5beh)               | [链接](https://chengxuxiaohei.cn/mac-anzhuang.html) [链接](https://osy.gitbook.io/hac-mini-guide/) |             |
+| NUC8i5BEK                 | [链接](https://github.com/Hyejeongdd/NUC8i5BEK-Hackintosh)   |                                                              |             |
 | NUC8i7BEH                 | [链接](https://github.com/sarkrui/NUC8i7BEH-Hackintosh-Build) [链接](https://github.com/wilsonnkwan/Hackintosh-NUC8i7BEH-Catalina) [链接](https://github.com/honglov3/NUC8I7BEH) | [链接](https://osy.gitbook.io/hac-mini-guide/)               | 链接3为`OC` |
 | NUC7i7BNH                 | [链接](https://github.com/calebchow9/Intel-NUC7i7BNH-Hackintosh) |                                                              |             |
 | NUC7i5BEK                 | [链接](https://github.com/331296441/NUC7i5BEK)               |                                                              |             |
