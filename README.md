@@ -365,7 +365,7 @@
 | Dell XPS 9559                              | [链接](https://github.com/darwinboaventura/Dell-XPS-9559-EFIs) |                                                              |                                                              |
 | Dell XPS 9560                              | [链接](https://github.com/gunslinger23/XPS15-9560-High-Sierra) | [链接](https://github.com/gunslinger23/XPS15-9560-High-Sierra/blob/master/README.md) | Dell XPS 9560，网卡推荐：[DW1820A](https://blog.daliansky.net/DW1820A_BCM94350ZAE-driver-inserts-the-correct-posture.html) |
 | Dell XPS 9570                              | [链接](https://github.com/Xigtun/xps-9570-mojave) [链接](https://github.com/bavariancake/XPS9570-macOS) <br />[链接](https://github.com/LuletterSoul/Dell-XPS-15-9570-macOS-Mojave) |                                                              | 感谢：[LuletterSoul](https://github.com/LuletterSoul)，网卡推荐：[DW1820A](https://blog.daliansky.net/DW1820A_BCM94350ZAE-driver-inserts-the-correct-posture.html) |
-
+| Dell XPS 13 9300                           | [链接](https://github.com/leon0410898/XPS13-9300-hackintosh)   |                   | i7-1065G7                  |
 ### Gigabyte 技嘉
 
 | 机型名称           | 发布地址                                                 | 教程地址                                                     | 备注 |
