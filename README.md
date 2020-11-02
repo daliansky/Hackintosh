@@ -1008,6 +1008,7 @@
 | ------------------------------------------ | ------------------------------------------------------------ | -------- | ------------------------------------------------------------ |
 | Lenovo M93P                                | [链接](https://github.com/mingcheng/lenovo-thinkcentre-m93p-hackintosh) [链接](https://github.com/SummerEmber/Lenovo-ThinkCentre-M93p-Tiny) |          | 联想 M93P 系列主机                                           |
 | 联想 Lenovo 启天 M415-D339                 | [链接](https://github.com/static-host/Hackintosh-OpenCore)   |          |                                                              |
+| 联想 Lenovo 启天 M420-D046(C)              | [链接](https://github.com/crysehillmes/Hackintosh-Lenovo-M420-D046-C)   |  [链接](https://github.com/crysehillmes/Hackintosh-Lenovo-M420-D046-C/blob/main/README.cn.md)     |                                                              |
 | Lenovo 天逸 510S Mini                      | [链接](https://github.com/daliansky/Lenovo-TianYi-510S-Mini-Hackintosh) |          | 联想天逸510S Mini小主机                                      |
 | Lenovo ThinkCentre M4500q                  | [链接](https://github.com/samawong/hackintosh-clover-configure-for-lenovo-m4500q-n000-model) |          |                                                              |
 | Lenovo ThinkCentre M710Q                   | [链接](https://github.com/daliansky/Lenovo-M710Q-Hackintosh) |          | 小兵自用，长期维护<br />网卡推荐：[DW1820A](https://blog.daliansky.net/DW1820A_BCM94350ZAE-driver-inserts-the-correct-posture.html) |
