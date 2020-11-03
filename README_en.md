@@ -240,6 +240,7 @@
 | 暗影精灵 II 代Pro <br />HP OMEN 15-ax214TX | [link](https://github.com/ZGGSONG/HP-OMEN-15-ax214TX-Hackintosh) | | |
 | 暗影精灵2 Pro HP OMEN 15-ax225TX       | [link](https://github.com/Cruii/HP-OMEN-15-ax225TX) [link](https://github.com/XStar-Dev/HP_OMEN-2Pro_Hackintosh) |                                                              |                                                              |
 | HP PAVILION Gaming NB 15-ak039TX   | [link](https://github.com/lgs3137/PAVILION_Gaming_NB-macOS)   | | Non-working:GPU(Nvidia 950M/GTX)/WiFi(Intel® Dual Band Wireless-AC 3165)   |
+| HP PAVILION Gaming NB 15-cx0172tx  | [linkOC](https://github.com/ExodazTH/Opencore-on-HP-Pavilion-Gaming-15-cx0172tx) [linkCV](https://github.com/ExodazTH/Hackintosh-on-HP-Pavilion-Gaming-15-cx0172tx)  | | non-working:GPU(Nvidia 1050TI/GTX)/WiFi( Intel® Wireless-AC 9560 802.11b/g/n/ac)   |
 
 #### Huawei 华为
 
@@ -473,7 +474,9 @@
 | R7 3700x/MSI B450/5700XT                                     | [link](https://github.com/harpsword/hackintosh-ryzen)        |                                                              |                                                              |
 | AMD Ryzen Tutorial                                           | [link](https://github.com/MrNegativeTW/Ryzen-Hackintosh-Tutorial) [link](https://github.com/doesprintfwork/Intel-AMD-Hackintosh-Guide) | [link](https://kb.hackintoshisfun.ml/vanilla/v/traditional-chinese/) [link](https://mtwstudio.gitbook.io/ryzentosh/) | 适用于`10.12` `10.13` `10.14`                                |
 | AMD FX 6300/NVIDIA GTX 650                                   | [link](https://github.com/pexcn/hackintosh-amd)              |                                                              | 主板：Asus M5A97 LE R2.0                                     |
-| MSI B350M Gaming Pro                                         | [link](https://github.com/nghuunghiaa111/Hackintosh-IMac)    |                                                              | AMD Ryzen 5 1400<br />MSI RX580 8GB Armor                    |
+| Gigabyte B450M Aorus Elite + Ryzen5 R3600 + Gigabyte RX580 MacOS 11.0 Bigsur Working with OC 0.6.3   | [link](https://github.com/ExodazTH/RyzenHackintosh)    |
+| MSI B350M Gaming Pro                                         | [link](https://github.com/nghuunghiaa111/Hackintosh-IMac)    |         
+| AMD Ryzen 5 1400<br />MSI RX580 8GB Armor                    |
 | AMD Ryzen 1700/Asus B350 Plus                                | [link](https://github.com/mikigal/ryzen-hackintosh)          |                                                              | MSI GTX 1080 Gaming X                                        |
 | AMD Vanilla Clover Patches                                   | [link](https://github.com/AMD-OSX/AMD_Vanilla)               | [link](https://github.com/cheneyveron/hackintosh-clover-tachi-x370-1700x-rx570) | AMD Clover补丁，以后可以<br />直接刻盘安装，10.14.5我会同步<br />更新针对AMD平台的配置文件<br />敬请期待 |
 |                                                              | [link](https://github.com/harpsword/hackintosh-ryzen)        |                                                              |                                                              |
