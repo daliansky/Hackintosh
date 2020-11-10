@@ -26,6 +26,14 @@
 bash < (curl -s https://vulgo.github.io/webdriver) 387.10.10.10.40.113
 ```
 
+## 一键安装`Catalina`下缺失的`PPTP`驱动及相关文件，以使用`PPTP clientfor Catalina`
+
+```bash
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/daliansky/Hackintosh/master/Tools/PPTP_for_Catalina.sh)"
+```
+
+
+
 ## 一条命令显示机型和主板
 
 打开终端，输入命令：
