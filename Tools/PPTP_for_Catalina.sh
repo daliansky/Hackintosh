@@ -9,7 +9,7 @@ then
    sudo mount -o rw /   # 挂载系统分区
    cd /System/Library/Extensions
    sudo mv PPP.kext PPP.kext.orig   # 备份PPP.kext
-   curl -fsSL https://raw.githubusercontent.com/daliansky/Hackintosh/master/Tools/PPTP/PPTP.zip -o /tmp/PPTP.zip && cd /tmp && unzip PPTP.zip && rm -rf /tmp/__MACOSX
+   curl -fsSL https://raw.githubusercontent.com/daliansky/Hackintosh/master/Tools/PPTP/PPTP.zip -o /tmp/PPTP.zip && cd /tmp && unzip -q -o PPTP.zip && rm -rf /tmp/__MACOSX
    sudo cp -R /tmp/PPTP/PPP.kext .
    sudo cp -R /tmp/PPTP/PPTP.ppp .
     [ -d /usr/local/bin ] && echo "Directory Exists" && say "目录已存在" || sudo mkdir /usr/local/bin && sudo chown $(whoami) /usr/local/bin
@@ -18,6 +18,7 @@ then
    chmod 755 /usr/local/bin/pptp
    echo "正在重建缓存..." && say "正在重建缓存"
    sudo kextcache -i /
+   cd ~
    echo "安装完成，请重启系统，并请安装Shimo Version 4.1.5.1 (8837)以启用PPTP客户端" && say "安装完成，请重启系统，并请安装Shimo Version 4.1.5.1 (8837)以启用PPTP客户端"
 
 else 
