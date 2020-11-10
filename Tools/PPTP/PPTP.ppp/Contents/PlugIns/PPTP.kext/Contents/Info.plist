@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BuildMachineOSBuild</key>
+	<string>17A405001</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>PPTP</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.apple.nke.pptp</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>PPTP</string>
+	<key>CFBundlePackageType</key>
+	<string>KEXT</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.9</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleSupportedPlatforms</key>
+	<array>
+		<string>MacOSX</string>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>1.9</string>
+	<key>DTCompiler</key>
+	<string>com.apple.compilers.llvm.clang.1_0</string>
+	<key>DTPlatformBuild</key>
+	<string>10P70r</string>
+	<key>DTPlatformName</key>
+	<string>macosx</string>
+	<key>DTPlatformVersion</key>
+	<string>10.14</string>
+	<key>DTSDKBuild</key>
+	<string>18G3018</string>
+	<key>DTSDKName</key>
+	<string>macosx10.14internal</string>
+	<key>DTXcode</key>
+	<string>1020</string>
+	<key>DTXcodeBuild</key>
+	<string>10P70r</string>
+	<key>IOKitPersonalities</key>
+	<dict/>
+	<key>LSMinimumSystemVersion</key>
+	<string>10.14</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright © 2002-2010 Apple Inc. All rights reserved.</string>
+	<key>OSBundleLibraries</key>
+	<dict>
+		<key>com.apple.kpi.bsd</key>
+		<string>8.0.0b1</string>
+		<key>com.apple.kpi.iokit</key>
+		<string>8.0.0b1</string>
+		<key>com.apple.kpi.libkern</key>
+		<string>8.0.0b1</string>
+		<key>com.apple.kpi.mach</key>
+		<string>8.0.0b1</string>
+		<key>com.apple.kpi.private</key>
+		<string>10.3.1</string>
+		<key>com.apple.kpi.unsupported</key>
+		<string>8.0.0b1</string>
+		<key>com.apple.nke.ppp</key>
+		<string>1.8</string>
+	</dict>
+</dict>
+</plist>
