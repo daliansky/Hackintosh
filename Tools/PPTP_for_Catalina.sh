@@ -11,7 +11,7 @@ then
    cd /System/Library/Extensions
    sudo mv PPP.kext PPP.kext.orig   # 备份PPP.kext
    echo "正在安装PPTP驱动及相关服务" && say "正在安装PPTP驱动及相关服务"
-   curl -fsSL https://raw.githubusercontent.com/daliansky/Hackintosh/master/Tools/PPTP/PPTP.zip -o /tmp/PPTP.zip && cd /tmp && unzip -foq PPTP.zip
+   curl -fsSL https://raw.githubusercontent.com/daliansky/Hackintosh/master/Tools/PPTP/PPTP.zip -o /tmp/PPTP.zip && cd /tmp && unzip -oq PPTP.zip
    sudo cp -R /tmp/PPTP/PPP.kext .
    sudo cp -R /tmp/PPTP/PPTP.ppp .
     [ -d /usr/local/bin ] && echo "/usr/local/bin目录已存在" && say "目录已存在" || sudo mkdir /usr/local/bin && sudo chown $(whoami) /usr/local/bin
