@@ -7,9 +7,10 @@ then
    echo "可以安装，请确保禁用System Intregrity Protection，请输入用户密码以挂载系统分区"
    say "可以安装，请确保禁用System Intregrity Protection，请输入用户密码以挂载系统分区"
    sudo mount -o rw /   # 挂载系统分区
+   sudo rm -rf /tmp/__MACOSX && sudo rm -rf /tmp/PPTP*
    cd /System/Library/Extensions
    sudo mv PPP.kext PPP.kext.orig   # 备份PPP.kext
-   curl -fsSL https://raw.githubusercontent.com/daliansky/Hackintosh/master/Tools/PPTP/PPTP.zip -o /tmp/PPTP.zip && cd /tmp && unzip -q -o PPTP.zip && rm -rf /tmp/__MACOSX
+   curl -fsSL https://raw.githubusercontent.com/daliansky/Hackintosh/master/Tools/PPTP/PPTP.zip -o /tmp/PPTP.zip && cd /tmp && unzip -foq PPTP.zip
    sudo cp -R /tmp/PPTP/PPP.kext .
    sudo cp -R /tmp/PPTP/PPTP.ppp .
     [ -d /usr/local/bin ] && echo "Directory Exists" && say "目录已存在" || sudo mkdir /usr/local/bin && sudo chown $(whoami) /usr/local/bin
