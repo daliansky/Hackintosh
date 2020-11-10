@@ -4,11 +4,22 @@ base_ver=15
 ver=$(sw_vers | grep ProductVersion | awk '{print $2}' | cut -d'.' -f2)
 if [ $ver == "$base_ver" ]
 then 
-   echo "可以安装，请输入用户密码以挂载系统分区"
+   echo "可以安装，请确保禁用System Intregrity Protection，请输入用户密码以挂载系统分区"
+   say "可以安装，请确保禁用System Intregrity Protection，请输入用户密码以挂载系统分区"
    sudo mount -o rw /   # 挂载系统分区
    cd /System/Library/Extensions
    sudo mv PPP.kext PPP.kext.orig   # 备份PPP.kext
-   curl -fsSL https://raw.githubusercontent.com/daliansky/Hackintosh/master/Tools/PPTP/PPTP.tar.gz -o /tmp/PPTP.tar.gz && cd /tmp && tar xvf PPTP.tar.gz
+   curl -fsSL https://raw.githubusercontent.com/daliansky/Hackintosh/master/Tools/PPTP/PPTP.zip -o /tmp/PPTP.zip && cd /tmp && unzip PPTP.zip && rm -rf /tmp/__MACOSX
+   sudo cp -R /tmp/PPTP/PPP.kext .
+   sudo cp -R /tmp/PPTP/PPTP.ppp .
+    [ -d /usr/local/bin ] && echo "Directory Exists" && say "目录已存在" || sudo mkdir /usr/local/bin && sudo chown $(whoami) /usr/local/bin
+   sudo cp /tmp/PPTP/pptp /usr/local/bin
+   sudo chown -R $(whoami) /usr/local/bin/pptp
+   chmod 755 /usr/local/bin/pptp
+   echo "正在重建缓存..." && say "正在重建缓存"
+   sudo kextcache -i /
+   echo "安装完成，请重启系统，并请安装Shimo Version 4.1.5.1 (8837)以启用PPTP客户端" && say "安装完成，请重启系统，并请安装Shimo Version 4.1.5.1 (8837)以启用PPTP客户端"
+
 else 
-   echo "不满足条件"
+   echo "别闹，你的系统不满足安装条件" && say "别闹，你的系统不满足安装条件"
 fi
