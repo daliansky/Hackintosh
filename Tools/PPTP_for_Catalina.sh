@@ -8,8 +8,7 @@ then
    sudo mount -o rw /   # 挂载系统分区
    cd /System/Library/Extensions
    sudo mv PPP.kext PPP.kext.orig   # 备份PPP.kext
-   
-
+   curl -fsSL https://raw.githubusercontent.com/daliansky/Hackintosh/master/Tools/PPTP/PPTP.tar.gz -o /tmp/PPTP.tar.gz && cd /tmp && tar xvf PPTP.tar.gz
 else 
    echo "不满足条件"
 fi
