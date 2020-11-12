@@ -946,6 +946,7 @@
 | Gigabyte Designaire Z390       | [链接](https://github.com/baughmann/designaire-z390-intel-i9-9900k-opencore) |                                                              |                                                              |
 | G1 sniper M7 intel B150M       | [链接](https://github.com/infonekingdom/G1M7)                |                                                              |                                                              |
 | Gigabyte H110m sh2             | [链接](https://github.com/DMNerd/Hackintosh_EFI)             |                                                              |                                                              |
+| Gigabyte H410MH                | [链接](https://github.com/aspisklov/EFI_i3-10100-Gigabyte-H410M-H) |                                                              |                                                              |
 | Gigabyte H87M-D3H              | [链接](https://github.com/aqeebimtiaz/EFI-for-Mojave-Hackintosh-Gigabyte-H87M-D3H-i34440-HD4600-8GB) |                                                              |                                                              |
 | Gigabyte X370N                 | [链接](https://github.com/cwr31/z370n-hackintosh) [链接](https://github.com/qinkangdeid/z370n-wifi-hackintosh) |                                                              | Gigabyte Z370N                                               |
 | Gigabyte Z270X-UD3             | [链接](https://github.com/cfryerdev/efi-opencore-7700K-Z270X-UD3) |                                                              | OpenCore 0.6.0                                               |
@@ -1030,6 +1031,7 @@
 | MSI B360M i3-8100/rx570   | [链接](https://github.com/shm007g/hackintosh-msi-b360m-i3-8100-rx570) |                                                              |                                                              |
 | MSI B360M MORTAR OpenCore | [链接](https://github.com/GeQ1an/MSI-B360M-MORTAR-HACKINTOSH-OPENCORE-EFI) [链接](https://github.com/CeuiLiSA/Opencore-EFI) | [链接](https://github.com/GeQ1an/MSI-B360M-MORTAR-HACKINTOSH-OPENCORE-EFI/blob/master/README.md) |                                                              |
 | MSI B460M MORTAR          | [链接](https://github.com/josways/B460M-MORTAR) [链接](https://github.com/IlikemacOS/B460M-MORTAR-Comet-Lake-IGPU-AGPU)<br />[链接](https://github.com/cheneyxx/Hackintosh-10400-B460M-MORTAR) |                                                              | I5-10400 / RX550                                             |
+| MSI H410M-A PRO | [链接](https://github.com/goomadao/MSI-H410M-A-PRO-OpenCore-EFI) | |  |
 | MSI H81M-IE35 | [链接](https://github.com/MoeGuoH/EFI-MSI-H81M-IE35) | |  |
 | MSI Z270 PC-MATE | [链接](https://github.com/koscakdomen/Hackintosh_EFI) | | |
 | MSI Z370-A                | [链接](https://github.com/daliansky/Z370-Hackintosh)         | [链接](https://github.com/daliansky/Z370-Hackintosh)         | 黑果小兵MSI Z370-A自用EFI                                    |
