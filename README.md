@@ -665,7 +665,7 @@
 | MSI GS73VR 7RF                         | [链接](https://github.com/dogukanoksuz/msi-gs73vr-7rf-macOS) |                                                              |           |
 | MSI GV62 7RE                           | [链接](https://github.com/amogh-w/Hackintosh-MSI-GV62-7RE)   |                                                              |           |
 | MSI modern 15                          | [链接](https://github.com/hla63/Msi-modern-15-Hackintosh)    |                                                              |           |
-| MSI Prestige 15                        | [链接](https://github.com/KerKerOgh/MSI-Prestige-15-Hackintosh) |                                                              |           |
+| MSI Prestige 15                        | [链接](https://github.com/KerKerOgh/MSI-Prestige-15-Hackintosh) [链接](https://github.com/wgjas2/MSI-Prestige-15-Hackintosh) |                                                              |           |
 | MSI PS63 Modern 8RC                    |                                                              |                                                              |           |
 | MSI-Z77A-G45                           | [链接](https://github.com/ac1ra/MSI-Z77A-G45-Hackintosh)     |                                                              |           |
 | clover-z390-aorus-pro-wifi-9700k-rx580 | [链接](https://github.com/cheneyveron/hackintosh-clover-z390-aorus-pro-wifi-9700k-rx580) | [链接](https://github.com/cheneyveron/hackintosh-clover-z390-aorus-pro-wifi-9700k-rx580/blob/master/README.md) |           |
