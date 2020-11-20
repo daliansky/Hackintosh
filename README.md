@@ -127,6 +127,8 @@
   - 新增机型：新增战神Z7、G8系列部分机型，具体请看commit
 - 2020年9月15日
 	- 新增机型：Lenovo 天逸 510S Mini
+- 2020年11月18日
+	- 新增机型：HP ZHAN 99 Pro G1 MT
 </code></pre>
 </details>
 
@@ -991,7 +993,8 @@
 | HP ProDesk 600 G4     | [链接](https://github.com/ljzxzxl/HP-ProDesk-600-G4-)        |          |                 |
 | HP Z420               | [链接](https://github.com/yansheng1003/Hackintosh)           |          | E5 1650v2       |
 | HP Z600 Workstation   | [链接](https://github.com/lutzmor/hp_z600_hackintosh)        |          | Mac-Mini-Killer |
-| HP Z620 Workstation   | [链接](https://github.com/d4vinder/HP-Z620-Hackintosh-macOS-Catalina) [链接](https://github.com/mokiii/HP-Z620-Hackintosh-macOS_10.13-10.15) |          |                 |
+| HP Z620 Workstation   | [链接](https://github.com/d4vinder/HP-Z620-Hackintosh-macOS-Catalina) [链接](https://github.com/mokiii/HP-Z620-Hackintosh-macOS_10.13-10.15) | |
+| HP ZHAN 99 Pro G1 MT  | [链接](https://github.com/Z-fly/HP-ZHAN-99-Pro-G1-MT-Hackintosh)|          | UHD630 | | 
 
 ### Intel 英特尔
 
