@@ -201,7 +201,7 @@
 | Hasee Shinelon DC2 | [link](https://github.com/bavelee/DC2_Hackintosh)            | [link](https://bavelee.cn/index.php/archives/60/)            |                                  |
 | Hasee 精盾系列T96E     | [link](https://github.com/L0ngxhn/Hackintosh-Hasee-T96E)     |||
 | Hasee K590S(clevo W350ET)     | [link](https://github.com/JokerHYC/K590S-HACKINTOSH)     |||
-| HASEE-GX8  CLEVO-P775TM      | [链接](https://github.com/JokerHYC/P775TM-HACKINTOSH)     |  |      for clevo p775tm            |
+| HASEE-GX8  CLEVO-P775TM      | [link](https://github.com/JokerHYC/P775TM-HACKINTOSH)     |  |      for clevo p775tm            |
 
 
 #### HP 惠普
@@ -277,7 +277,7 @@
 | ThinkPad E550                        | [link](https://github.com/the-braveknight/Lenovo-ThinkPad-E550-DSDT-Patch) | [link](https://www.tonymacx86.com/threads/guide-lenovo-thinkpad-e550-haswell-using-clover-uefi-10-11.214675/) | E550 四代 CPU                                                |
 | ThinkPad E560                        | [link](https://github.com/rsdev69/Lenovo-E560-Clover)        | [link](https://www.tonymacx86.com/threads/stable-lenovo-e560-full-work.248842/) |                                                              |
 | ThinkPad L440                        | [link](https://github.com/BesnikRrustemi/Lenovo-ThinkPad-L440) |                                                              |                                                              |
-| ThinkPad L490                      | [链接](https://github.com/twislyn/Hackintosh-ThinkPad-L490) | [链接](https://github.com/twislyn/Hackintosh-ThinkPad-L490/blob/master/README.md) |   
+| ThinkPad L490                      | [link](https://github.com/twislyn/Hackintosh-ThinkPad-L490) | [link](https://github.com/twislyn/Hackintosh-ThinkPad-L490/blob/master/README.md) |
 | Lenovo miix 520                      | [link](https://github.com/acai66/lenovo-miix-520-hackintosh-10.14-CLOVER) |                                                              |                                                              |
 | ThinkPad P51                         | [link](https://github.com/MirkoCovizzi/thinkpad-p51-hackintosh) | [link](https://github.com/MirkoCovizzi/thinkpad-p51-hackintosh/blob/master/README.md) | Thinkpad P51                                                 |
 | ThinkPad P52                         | [link](https://github.com/liuyishengalan/ThinkPad-P52-Hackintosh-10.14.X-) |                                                              |                                                              |
@@ -393,6 +393,17 @@
 | MSI GS65 8SE              | [link](https://github.com/ErrorErrorError/msi-gs65-8SE-hackintosh) |                                                              |           |
 | MSI GS73VR 7RF            | [link](https://github.com/dogukanoksuz/msi-gs73vr-7rf-macOS) |                                                              |           |
 
+### Razer Blade 雷蛇
+
+| Model Name                | Depot                                                        | Tutorial                                                     | Remarks   |
+| -------- | -------- | -------- | ---- |
+| Razer Blade 15 Base Model          | [link](https://github.com/DocSystem/razerbladehackintosh) [link](https://github.com/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Big_Sur) | [link](https://github.com/Mother-FKR/RazerBlade15-Base-Model-Hackintosh_macOS_Big_Sur) | `Big Sur`                                           |
+| Razer Blade Stealth 雷蛇灵刃潜行版 | [link](https://github.com/widmonstertony/razer-blade-stealth-hackintosh) |                                                              |                                                              |
+| Razer Blade 15 Advanced            | [link](https://github.com/doanhmaple/Razer-Blade-15-Advanced-2018-Hackintosh) [link](https://github.com/Errrneist/Hackintosh-Razer-Blade-Advanced) |                                                              | i7-8750H 网卡推荐：[DW1820A](https://blog.daliansky.net/DW1820A_BCM94350ZAE-driver-inserts-the-correct-posture.html) |
+| Razer_Blade_Advanced_early_2019    | [link]( https://github.com/stonevil/Razer_Blade_Advanced_early_2019_Hackintosh) |                                                              | [link](https://github.com/stonevil/Razer_Blade_Advanced_early_2019_Hackintosh) |
+| Razer Blade 17 Pro 2020            | [link]( https://github.com/steelbrain/razer-blade-17-pro-2020-hackintosh) |                                                              |           |
+
+
 #### XiaoMi 小米
 
 | Model Name          | Depot                                                        | Tutorial                                                     | Remarks                                                      |
@@ -410,7 +421,7 @@
 | XiaoMi Pro          | [link](https://github.com/daliansky/XiaoMi-Pro/releases)     | [link](https://blog.daliansky.net/MacOS-installation-tutorial-XiaoMi-Pro-installation-process-records.html) | Xiaomi Notebook Pro                                          |
 | XiaoMi Ruby 15.6    | [link](https://github.com/Jxh98/XiaoMi-Ruby-15.6-2019)       |                                                              | ALC256 sound card can not be driven externally<br />Recommended network card: [DW1820A](https://blog.daliansky.net/DW1820A_BCM94350ZAE-driver-inserts-the-correct-posture.html) |
 | XiaoMi 游戏本 8 代  | [link](https://github.com/daliansky/XiaoMi-GLP)              |                                                              | 小米游戏本，猜的                                             |
-| Redmibook mx250    |[链接](https://github.com/dbv/redmibook_hackintsh_EFI)      |     |     |
+| Redmibook mx250    |[link](https://github.com/dbv/redmibook_hackintsh_EFI)      |     |     |
 
 #### Intel 英特尔
 
@@ -436,7 +447,6 @@
 | tong fang GI5CN5E                  | [link](https://github.com/rodgomesc/AVELL-G1513-FOX-7-TONG-FANG-GI5CN5E-HACKINTOSH) |                                                              |                                                              |
 | Shinalon_Yao_7000                  | [link](https://github.com/jinmu333/Shinalon_YAO_7000_efi) [link](https://github.com/jinmu333/Shinelon_YAO_7000_efi) | [link](https://github.com/jinmu333/Shinalon_YAO_7000_efi/blob/efi/README.md) |                                                              |
 | Shinelon 炫龙T3TI                  | [link](https://github.com/283330601/shinelon-t3ti-Hackintosh) |                                                              | 9750H+1660TI                                                 |
-| Razer Blade Stealth 雷蛇灵刃潜行版 | [link](https://github.com/widmonstertony/razer-blade-stealth-hackintosh) |                                                              |                                                              |
 | Samsung NP300E4C                   | [link](https://github.com/installgento0/NP300E4C-hackintosh) |                                                              |                                                              |
 | Samsung NP300E5L                   | [link](https://github.com/bearkfear/SAMSUNG-NP300E5L-HACKINTOSH) |                                                              |                                                              |
 | Samsung NP300E5M                   | [link](https://github.com/zb2947244682/Samsung_300E5M_Mac_Hackintosh_EFI) |                                                              |                                                              |
@@ -444,7 +454,6 @@
 |                                                              |
 | GPD P2 MAX                         | [link](https://github.com/Azkali/GPD-P2-MAX-Hackintosh)      |                                                              |                                                              |
 | MSI ProBox23                       | [link]( https://github.com/Twilightlee/MSI_ProBox23_hackintosh) |                                                              |                                                              |
-| Razer_Blade_Advanced_early_2019    | [link]( https://github.com/stonevil/Razer_Blade_Advanced_early_2019_Hackintosh) |                                                              | [link](https://github.com/stonevil/Razer_Blade_Advanced_early_2019_Hackintosh) |
 | MaiBenBen_Damai5                   | [link](https://github.com/jasminebd/MaiBenBen-Damai5)        |                                                              |                                                              |
 | Sony VAIO pro13                    | [link](https://github.com/raydoom/hackintosh-sony-vaio-pro13) |                                                              |                                                              |
 | Terrans Force/Devil Rays  DR7      | [link](https://github.com/Jie2GG/Hackintosh-Devil-Rays-DR7)  |                                                              | 魔鬼鱼/未来人类                                              |
@@ -470,12 +479,12 @@
 | **Desktop**                                                  | Depot                                                        | Tutorial                                                     | Remarks                                                      |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | **AMD Ryzen CPU**                                            |                                                              |                                                              |                                                              |
-| AMD Ryzen 7 1700x or 3700x<br />MSI X370 Krait Gaming or ASROCK X570 TAICI<br />RX Vega64 | [链接](https://github.com/yhl452493373/ryzen-hackintosh-efi) |                                                              | 10.14.6                                                      |
+| AMD Ryzen 7 1700x or 3700x<br />MSI X370 Krait Gaming or ASROCK X570 TAICI<br />RX Vega64 | [link](https://github.com/yhl452493373/ryzen-hackintosh-efi) |                                                              | 10.14.6                                                      |
 | R7 3700x/MSI B450/5700XT                                     | [link](https://github.com/harpsword/hackintosh-ryzen)        |                                                              |                                                              |
 | AMD Ryzen Tutorial                                           | [link](https://github.com/MrNegativeTW/Ryzen-Hackintosh-Tutorial) [link](https://github.com/doesprintfwork/Intel-AMD-Hackintosh-Guide) | [link](https://kb.hackintoshisfun.ml/vanilla/v/traditional-chinese/) [link](https://mtwstudio.gitbook.io/ryzentosh/) | 适用于`10.12` `10.13` `10.14`                                |
 | AMD FX 6300/NVIDIA GTX 650                                   | [link](https://github.com/pexcn/hackintosh-amd)              |                                                              | 主板：Asus M5A97 LE R2.0                                     |
 | Gigabyte B450M Aorus Elite + Ryzen5 R3600 + Gigabyte RX580 MacOS 11.0 Bigsur Working with OC 0.6.3   | [link](https://github.com/ExodazTH/RyzenHackintosh)    |
-| MSI B350M Gaming Pro                                         | [link](https://github.com/nghuunghiaa111/Hackintosh-IMac)    |         
+| MSI B350M Gaming Pro                                         | [link](https://github.com/nghuunghiaa111/Hackintosh-IMac)    |
 | AMD Ryzen 5 1400<br />MSI RX580 8GB Armor                    |
 | AMD Ryzen 1700/Asus B350 Plus                                | [link](https://github.com/mikigal/ryzen-hackintosh)          |                                                              | MSI GTX 1080 Gaming X                                        |
 | AMD Vanilla Clover Patches                                   | [link](https://github.com/AMD-OSX/AMD_Vanilla)               | [link](https://github.com/cheneyveron/hackintosh-clover-tachi-x370-1700x-rx570) | AMD Clover补丁，以后可以<br />直接刻盘安装，10.14.5我会同步<br />更新针对AMD平台的配置文件<br />敬请期待 |
@@ -551,5 +560,5 @@ If you approve my work, please support me for subsequent updates.
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------------------------------------------------- |
 | [![paypal_daliansky](http://7.daliansky.net/paypal_daliansky.png)](https://www.paypal.me/daliansky) | ![wechatpay_160](http://7.daliansky.net/wechatpay_160.jpg)   | ![alipay_160](http://7.daliansky.net/alipay_160.jpg) |
 
-[![img](https://img.shields.io/github/stars/daliansky/Hackintosh.svg?color=ff69b4&label=%E7%82%B9%E8%B5%9E&logoColor=ff69b4&style=social)](https://github.com/daliansky/Hackintosh) [![img](https://img.shields.io/github/followers/daliansky.svg?label=%E7%B2%89%E4%B8%9D&logoColor=success&style=social)](https://github.com/daliansky/Hackintosh) ![img](https://img.shields.io/github/contributors/daliansky/Hackintosh.svg?color=red&label=%E8%B4%A1%E7%8C%AE%E4%BA%BA%E6%95%B0) [![img](https://img.shields.io/github/last-commit/daliansky/Hackintosh.svg?color=orange&label=%E6%9C%80%E8%BF%91%E6%8F%90%E4%BA%A4)](https://github.com/daliansky/Hackintosh) [![img](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu/) 
+[![img](https://img.shields.io/github/stars/daliansky/Hackintosh.svg?color=ff69b4&label=%E7%82%B9%E8%B5%9E&logoColor=ff69b4&style=social)](https://github.com/daliansky/Hackintosh) [![img](https://img.shields.io/github/followers/daliansky.svg?label=%E7%B2%89%E4%B8%9D&logoColor=success&style=social)](https://github.com/daliansky/Hackintosh) ![img](https://img.shields.io/github/contributors/daliansky/Hackintosh.svg?color=red&label=%E8%B4%A1%E7%8C%AE%E4%BA%BA%E6%95%B0) [![img](https://img.shields.io/github/last-commit/daliansky/Hackintosh.svg?color=orange&label=%E6%9C%80%E8%BF%91%E6%8F%90%E4%BA%A4)](https://github.com/daliansky/Hackintosh) [![img](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu/)
 
