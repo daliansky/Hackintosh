@@ -131,6 +131,7 @@
   - 新增N多机型：包括 `AMD`  /  `INTEL`等部分台式机型
 - 2020年11月23日
   - 新增机型：Acer Aspire A514-52-37H1/ Gygabyte B550i Aorus Pro AX 等新机型
+  - 新增机型：HP EliteDesk 800 G3/G4/G5
 
 </details>
 
@@ -1002,6 +1003,11 @@
 | **台式（部分）**      | 发布地址                                                     | 教程地址 | 备注            |
 | --------------------- | ------------------------------------------------------------ | -------- | --------------- |
 | HP Elitedesk G3       | [链接](https://github.com/lavjamanxd/hp-elitedesk-g3-hackintosh) |          |                 |
+| HP EliteDesk 800 G3 DM | [链接](https://github.com/randyzhong/OS-X-HP-EliteDesk-800-G3-DM-Clover) | | |
+| HP EliteDesk 800 G3 Mini | [链接](https://github.com/francoisminh/Hackintosh-EliteDesk-800-G3-Mini-65W) | | |
+| HP EliteDesk 800 G4 DM | [链接](https://github.com/jerry31279/HP-EliteDesk-800-G4-DM-35W-RX560) | | |
+| HP EliteDesk 800 G4 Mini | [链接](https://github.com/itskaizad/Elitedesk-800-G4-Hackintosh) | | |
+| HP EliteDesk 800 G5 Mini | [链接](https://github.com/Haveacry/OpenCore_HP-EliteDesk-800-G5-DM) | | |
 | HP Prodesk 400 G4 MT  | [链接](https://github.com/3rr0rists/EFI-OpenCore-HP-Prodesk-400-G4-MT) |          |                 |
 | HP ProDesk 480 G4     | [链接](https://github.com/SummerEmber/HP-ProDesk-480-G4)     |          |                 |
 | HP Prodesk 600 G1 DM  | [链接](https://github.com/ZqinKing/EFI-HP-ProDesk-600-G1-DM) |          |                 |
