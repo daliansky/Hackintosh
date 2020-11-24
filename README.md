@@ -131,7 +131,9 @@
   - 新增N多机型：包括 `AMD`  /  `INTEL`等部分台式机型
 - 2020年11月23日
   - 新增机型：Acer Aspire A514-52-37H1/ Gygabyte B550i Aorus Pro AX 等新机型
-  - 新增机型：HP EliteDesk 800 G3/G4/G5
+  - 新增机型：HP EliteDesk 800 G1/G2/G3/G4/G5
+- 2020年11月24日
+  - 新增机型：`Ice Lake`等部分机型
 
 </details>
 
@@ -166,6 +168,7 @@
 | Acer Swift 3             | [链接](https://github.com/FallenChromium/Acer-Swift3-2018-hackintosh) |                                                              | SF315-51-518S               |
 | Acer Swift 3 52G         | [链接](https://github.com/geekcjj/Clover-Acer-Swift3-SF315-52G) |                                                              | Acer-Swift3-SF315-52G       |
 | Acer Swift 3 SF314-55G   | [链接](https://github.com/cjtim/SF314-55G-hackintosh) [链接](https://github.com/cjtim/SF314-55G-hackintosh) |                                                              | Acer Swift 3 2019 SF314-55G |
+| Acer Swift 5 | [链接](https://github.com/ghayyem/acer_swift_5_1065g7) | | i7-1065G7 |
 | ACER Veriton D430 Gen4/6 | [链接](https://github.com/SummerEmber/ACER-Veriton-D430-Gen4) [链接](https://github.com/SummerEmber/ACER-Veriton-D430-Gen6) |                                                              |                             |
 | Acer V3-471G             | [链接](https://github.com/oneveb/Acer-V3-471G)               |                                                              |                             |
 | Acer V3-572G-51MR        | [链接](https://github.com/AnoldmanLiSir/Acer-V3-572G-51MR)   | [链接](https://github.com/AnoldmanLiSir/Acer-V3-572G-51MR/blob/master/README.md) |                             |
@@ -296,6 +299,7 @@
 | Dell Inspiron 3568               | [链接](https://github.com/YGQ8988/dell-3568)                 | [链接](https://github.com/YGQ8988/dell-3568)                 | Dell Inspiron 3568                                           |
 | Dell Inspiron 3670               | [链接](https://github.com/inyan600/Dell-Inspiron-3670-Hackintosh) |                                                              |                                                              |
 | Dell Inspiron 5370               | [链接](https://github.com/dreamwhite/dell-inspiron-5370-hackintosh) |                                                              |                                                              |
+| Dell Inspiron 14 5400 2-in-1 | [链接](https://github.com/robmagario/DELL-Inspiron-14-5400-2-in-1-LAPTOP-EFI) | | i3-1005G1 |
 | Dell Inspiron 5420               | [链接](https://github.com/jasper-wan/Dell-Inspiron-5420-Hackintosh) |                                                              |                                                              |
 | Dell Inspiron 5447               | [链接](https://github.com/SinhLv/Dell-Ins-14-5447-hackintosh) [链接](https://github.com/Jay-Wang-zechong/inspiron-14-5447-hacintosh-EFI-clover) |                                                              |                                                              |
 | Dell Inspiron 5459               | [链接](https://github.com/lzhoang2601/Dell-Insprison-5459-Hackintosh) |                                                              |                                                              |
@@ -456,9 +460,10 @@
 | HP ProBook 440 G2                             | [链接](https://github.com/Chexier/HP440-hackintosh)          |                                                              |                                                              |
 | HP ProBook 470 G1                             | [链接](https://github.com/mavethee/Hackintosh-OpenCore-HP-ProBook-470-G1) |                                                              |                                                              |
 | HP ProBook 650 G1                             | [链接](https://github.com/Hologos/hackintosh-hp-probook-650-g1) |                                                              |                                                              |
-| HP 840-G1                                     | [链接](https://github.com/blint01/hackintosh-mojave-HP-840-G1) | [链接](https://github.com/blint01/hackintosh-mojave-HP-840-G1/blob/master/README.md) |                                                              |
+| HP Elitebook 840-G1                           | [链接](https://github.com/blint01/hackintosh-mojave-HP-840-G1) | [链接](https://github.com/blint01/hackintosh-mojave-HP-840-G1/blob/master/README.md) |                                                              |
 | HP Elitebook 840 G2                           | [链接](https://github.com/AktasC/Hackintosh-Elitebook-840-G2-Broadwell) |                                                              |                                                              |
 | HP EliteBook 840 G3                           | [链接](https://github.com/GGorAA/Hackintosh-840)             |                                                              | Big Sur                                                      |
+| HP EliteBook Folio 9470m                      | [链接](https://github.com/hackintosh107/Hackintosh-OpenCore-HP-9470m-1366x768) [链接](https://github.com/hackintosh107/Hackintosh-OpenCore-HP-9470m-1600x900) |                                                              |                                                              |
 | HP prodesk 600g1-DM/800g1-DM                  | [链接](https://github.com/LomotHo/Hackintosh-600g1-DM-4670t) | [链接](https://github.com/LomotHo/Hackintosh-600g1-DM-4670t/blob/master/README-zh.md) |                                                              |
 | HP Pavilion 15-au028ur                        | [链接](https://github.com/Drovosek01/hackintosh_HP_Pavilion_15-au028ur_i5-6200U/blob/master/docs/ENG/README.md) |                                                              |                                                              |
 | HP Pavilion 15 au067tx                        | [链接](https://github.com/FzeNiX/HPPavilion15-au067tx-Mojave-Hackintosh) |                                                              |                                                              |
@@ -542,7 +547,7 @@
 | ThinkPad T440s                     | [链接](https://github.com/thebinh-lg051/ThinkPad-T440s-Hackintosh) |                                                              |                                                              |
 | ThinkPad T440p                     | [链接](https://github.com/evy0311/t440p) [链接](https://github.com/jloisel/t440p) [链接](https://github.com/notthebee/t440p-hackintosh) | [链接](https://github.com/evy0311/t440p/blob/master/README.md) |                                                              |
 | ThinkPad T450                      | [链接](https://github.com/jsassu20/ThinkPad-T450-Mojave)     |                                                              |                                                              |
-| ThinkPad T450s                     | [链接](https://github.com/EchoEsprit/Hackintosh-Catalina-OpenCore-Lenovo-T450s-efi) [链接](https://github.com/jianzhao0806/ThinkPad-T450S-Hackintosh) |                                                              |                                                              |
+| ThinkPad T450s                     | [链接](https://github.com/EchoEsprit/Hackintosh-Catalina-OpenCore-Lenovo-T450s-efi) [链接](https://github.com/jianzhao0806/ThinkPad-T450S-Hackintosh)<br />[链接](https://github.com/racka98/Lenovo-Thinkpad-T450-T450s-Hackintosh-Guide-Opencore) |                                                              |                                                              |
 | ThinkPad T460 系列                 | [链接](https://github.com/tluck/Lenovo-T460-Clover)          | [链接](http://www.insanelymac.com/forum/topic/315451-guide-lenovo-t460-macos-with-clover/) | 可支持 T460、T560、T470<br /> 和 T470p4 款机型               |
 | ThinkPad T460p                     | [链接](https://github.com/totemofwolf/Thinkpad-T460p-OSX-EFI) |                                                              |                                                              |
 | ThinkPad T460s                     | [链接](https://github.com/nicogig/T460s-Clover) [链接](https://github.com/simprecicchiani/Thinkpad-T460s-macOS-OpenCore) |                                                              |                                                              |
@@ -573,7 +578,7 @@
 | Lenovo XiaoXin Chao 7000           | [链接](https://github.com/penghubingzhou/Lenovo-Xiaoxin-Chao-7000--EFI) | [链接](https://github.com/penghubingzhou/Lenovo-Xiaoxin-Chao-7000--EFI/blob/master/Readme.md) | 联想小新潮 7000，已支持 14 寸、<br />12.5 寸、13.3 寸，15 寸以及 <br />13.3 寸的完美支持后续会添加，<br />请期待…… |
 | ThinkPad X1 3rd                    | [链接](https://github.com/shockingpants/ThinkpadX1Y3)        | [链接](https://www.tonymacx86.com/threads/guide-thinkpad-x1-yoga-3rd-gen-20ld-with-mojave.261823/) | ThinkPad X1 3 代                                             |
 | ThinkPad X1 Carbon 2015            | [链接](https://github.com/transtone/hackintosh/tree/master/x1c-2015) [链接](https://github.com/Derekxxzzyy/Thinkpad-X1-Carbon-3rd-Hackintosh-OC-EFI) |                                                              |                                                              |
-| ThinkPad X1 Carbon 2016            | [链接](https://github.com/lzjqsdd/Thinkpad-X1C4-Hackintosh)  |   | ThinkPad X1 Carbon 4th Gen  |
+| ThinkPad X1 Carbon 2016            | [链接](https://github.com/lzjqsdd/Thinkpad-X1C4-Hackintosh)  |                                                              | ThinkPad X1 Carbon 4th Gen                                   |
 | ThinkPad X1 Carbon 5th gen         | [链接](https://github.com/B0hrer/Thinkpad-x1c-5th-gen-Hackintosh) |                                                              | (5th gen, released 2017)                                     |
 | ThinkPad X1 Carbon 6th Gen         | [链接](https://github.com/tylernguyen/x1c6-hackintosh) [链接](https://github.com/RyoIkarashi/hackintosh-x1c6-with-native-wifi-card) | [链接](https://github.com/tylernguyen/x1c6-hackintosh/blob/master/README.md) | Thinkpad X1 Carbon 6th Gen                                   |
 | ThinkPad X1 Yoga / Carbon          | [链接](https://github.com/LukaJankovic/Thinkpad-X1-20FQ-Hackintosh) | [链接](https://github.com/LukaJankovic/Thinkpad-X1-20FQ-Hackintosh/blob/master/README.md) | Thinkpad X1 Yoga / Carbon                                    |
@@ -595,6 +600,7 @@
 | Lenovo IdeaPad Y430P               | [链接](https://github.com/Z39/Y430p-OS-X-Clover-Hotpatch)    |                                                              | 感谢：[39军小兵张](http://i.pcbeta.com/space-uid-4472739.html) |
 | Lenovo IdeaPad Y510P               | [链接](https://github.com/Z39/Y510p-OS-X-Clover-Hotpatch)    |                                                              | 感谢：[39军小兵张](http://i.pcbeta.com/space-uid-4472739.html) |
 | Lenovo Y520/Y720                   | [链接](https://github.com/the-braveknight/Lenovo-Y520-macOS) [链接](https://github.com/adrianjagielak/lenovo_y520_efi) | [链接](https://www.tonymacx86.com/threads/guide-lenovo-legion-y520-y720-using-clover-uefi.261009/) | 联想 Y520 及 Y720                                            |
+| Lenovo Legion Y530                 | [链接](https://github.com/adrianjagielak/lenovo_y530_efi)    |                                                              |                                                              |
 | Lenovo Legion Y7000                | [链接](https://github.com/hnie-xwz/EFI)                      | [链接](https://github.com/hnie-xwz/EFI/blob/macOs10.14/readme.md) | 网卡推荐：[DW1820A](https://blog.daliansky.net/DW1820A_BCM94350ZAE-driver-inserts-the-correct-posture.html) |
 | Lenovo Legion Y7000-1060           | [链接](https://github.com/TioaTyan/Lenovo_Legion_Y7000-1060_Hackintosh) | [链接](https://github.com/TioaTyan/Lenovo_Legion_Y7000-1060_Hackintosh/blob/master/README.md) | Lenovo_Legion_Y7000-1060                                     |
 | Lenovo Legion Y7000<br />Y530 系列 | [链接](https://github.com/xiaoMGitHub/Lenovo_Y7000-Y530_Hackintosh/) [链接](https://github.com/ahossny/Legion-Y530-Hackintosh) |                                                              | 全新完美 EFI，舍弃了小键盘                                   |
@@ -822,6 +828,7 @@
 | Asus Rog Strix B550i                                         | [链接](https://github.com/huukhai/hackintosh-rog-b550i)      |                                                              |                                                              |
 | Asus TUF Gaming B550M-Plus                                   | [链接](https://github.com/ahmetdereli/Hackintosh-Opencore-Asus-TUF-Gaming-B550M-Plus-WI-FI-RX570) |                                                              |                                                              |
 | Asus ROG CROSSHAIR VI HERO                                   | [链接](https://github.com/YWQBX/RyzenProEFI)                 |                                                              |                                                              |
+| ASUS Crosshair VIII Hero                                     | [链接](https://github.com/steeve/ryzentosh)                  |                                                              |                                                              |
 | Asus ROG Strix X570-I                                        | [链接](https://github.com/ChanceArthur/macOS-EFI-Asus-X570I) |                                                              |                                                              |
 | Asus Strix GAMING X570-I                                     | [链接](https://github.com/reimertz/hackintosh-x570i-3950x) [链接](https://github.com/ChanceArthur/macOS-EFI-Asus-X570I) |                                                              | Ryzen 9 3950x/Reden Vega 64                                  |
 | Asus TUF Gaming X570                                         | [链接](https://github.com/hermanzhaozzzz/My-Opencore-EFI-for-AMD3900X-5700XT-TUF-x570-Hackintosh) |                                                              |                                                              |
@@ -934,7 +941,7 @@
 | Dell OptiPlex 9020M                        | [链接](https://github.com/mingcheng/dell-optiplex-9020m-hackintosh) [链接](https://github.com/JimLee1996/Hackintosh_OptiPlex_9020)<br /> [链接](https://github.com/W-MS/OptiPlex-9020-Catalina) |          | Disable MSR 0xE2 (i.e. cfg lock) `setup_var 0xDA2 0x00`<br /> Increase DVMT to 96M `setup_var 0x263 0x03`<br /> 链接3支持Catalina |
 | Dell OptiPlex 7040                         | [链接](https://github.com/optiplex-osx/Dell-OptiPlex-7040-Clover-EFI) [链接](https://github.com/monaive/DELL-OptiPlex-7040-Clover) |          |                                                              |
 | Dell OptiPlex 7050                         | [链接](https://github.com/kuaima/Dell-OptiPlex-7050-Clover-EFI) |          |                                                              |
-| Dell OptiPlex 7060<br />Dell OptiPlex 7070 | [链接](https://github.com/W-MS/OptiPlex-7060and7070-Catalina) [链接](https://github.com/Jianhua-Wang/DELL-Optiplex-7060-7040-Clover) |          | Increase DVMT to 64M `setup_var 0x8DC 0x2` ，不支持96M模式，<br />切勿使用0x3或在其他型号使用此命令。支持Catalina。 |
+| Dell OptiPlex 7060<br />Dell OptiPlex 7070 | [链接](https://github.com/W-MS/OptiPlex-7060and7070-Catalina) [链接](https://github.com/Jianhua-Wang/DELL-Optiplex-7060-7040-Clover)<br />[链接](https://github.com/webleon/Hackintosh-OptiPlex-7060-MFF) |          | Increase DVMT to 64M `setup_var 0x8DC 0x2` ，不支持96M模式，<br />切勿使用0x3或在其他型号使用此命令。支持Catalina。 |
 | Dell PowerEdge T30                         | [链接](https://github.com/cstrouse/Dell-PowerEdge-T30-Hackintosh) |          |                                                              |
 | Dell Precision 3240                        | [链接](https://github.com/billzhong/dell-precision-3240-compact-hackintosh) |          |                                                              |
 | Dell Pricision 3520                        | [链接](https://github.com/sdh0618/Pricision-3520-EFI-Catalina) |          |                                                              |
@@ -1002,13 +1009,19 @@
 
 | **台式（部分）**      | 发布地址                                                     | 教程地址 | 备注            |
 | --------------------- | ------------------------------------------------------------ | -------- | --------------- |
-| HP Elitedesk G3       | [链接](https://github.com/lavjamanxd/hp-elitedesk-g3-hackintosh) |          |                 |
+| HP EliteDesk 400 G1 DM | [链接](https://github.com/Hiroki-Minakawa/Hackintosh-HP-800g1-USDT-4870HQ) |  |  |
+| HP EliteDesk 800 G1 DM/USDT | [链接](https://github.com/Hiroki-Minakawa/Hackintosh-HP-800g1-USDT-4870HQ) |  |  |
+| HP EliteDesk 800 G2 | [链接](https://github.com/taitran91095/HP800-G2-Mini-OpenCore) |  |  |
+| HP EliteDesk 800 G2 DM | [链接](https://github.com/randyzhong/HP-EliteDesk-800-G2-DM-Hackintosh) |  |  |
+| HP EliteDesk 800 G2 Tower PC | [链接](https://github.com/sakoula/HP-EliteDesk-800-G2-6700) |  | i7-6700 (Skylake) |
+| HP EliteDesk 800 G3   | [链接](https://github.com/lavjamanxd/hp-elitedesk-g3-hackintosh) |          |                 |
 | HP EliteDesk 800 G3 DM | [链接](https://github.com/randyzhong/OS-X-HP-EliteDesk-800-G3-DM-Clover) | | |
 | HP EliteDesk 800 G3 Mini | [链接](https://github.com/francoisminh/Hackintosh-EliteDesk-800-G3-Mini-65W) | | |
 | HP EliteDesk 800 G4 DM | [链接](https://github.com/jerry31279/HP-EliteDesk-800-G4-DM-35W-RX560) | | |
 | HP EliteDesk 800 G4 Mini | [链接](https://github.com/itskaizad/Elitedesk-800-G4-Hackintosh) | | |
 | HP EliteDesk 800 G5 Mini | [链接](https://github.com/Haveacry/OpenCore_HP-EliteDesk-800-G5-DM) | | |
 | HP Prodesk 400 G4 MT  | [链接](https://github.com/3rr0rists/EFI-OpenCore-HP-Prodesk-400-G4-MT) |          |                 |
+| HP Prodesk 400 G6 | [链接](https://github.com/duccnv-1684/OC_HP_Prodesk_400_G6) | | |
 | HP ProDesk 480 G4     | [链接](https://github.com/SummerEmber/HP-ProDesk-480-G4)     |          |                 |
 | HP Prodesk 600 G1 DM  | [链接](https://github.com/ZqinKing/EFI-HP-ProDesk-600-G1-DM) |          |                 |
 | HP Prodesk 600 G1 SFF | [链接](https://github.com/kidddjh/HP-Prodesk-600-G1-SFF)     |          |                 |
@@ -1092,6 +1105,7 @@
 | Huanan X79 E5-2670, GTX650 | [链接](https://github.com/cheneyveron/clover-x79-e5-2670-gtx650) | [链接](https://github.com/cheneyveron/clover-x79-e5-2670-gtx650/blob/master/README.md) | 华南 x79 V2      |
 | Ant Country X79 Basic      | [链接](https://github.com/m1qnet/X79-Hackintosh-Catalina)    |                                                              |                  |
 | X79 E5-2696-v2             | [链接](https://github.com/cmd2001/X79-E5-2696-v2-R9-Nano-Clover-EFI) |                                                              | R9 Nano          |
+| X99                        | [链接](https://github.com/Cclown98/X99-OPENCORE-EFI-CATALINA-BIGSUR) |                                                              |                  |
 
 ## 硬件兼容列表
 
