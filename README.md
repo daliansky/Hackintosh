@@ -162,6 +162,7 @@
 | Acer F5-573G-55PJ        | [链接](https://github.com/zoothz/Hackintosh-acer-f5-573g-55pj) |                                                              |                             |
 | Acer F5-573g-75A3        | [链接](https://github.com/vinicioslc/HACKINTOSH-ACER-F5-573G-75A3) |                                                              |                             |
 | Acer Nitro 5 AN515-52 | [链接](https://github.com/tien191web/Acer-Nitro5-AN515-52-EFIhackintosh) | | |
+| Acer Nitro 5 AN515-54 | [链接](https://github.com/jigarpatel7600/Acer-Nitro5) | | |
 | Acer Nitro 5-an515-54-58CL | [链接](https://github.com/YuryRegis/Acer-Nitro5-AN515-54-58CL) | | |
 | Acer nitro 5 an517-51    | [链接](https://github.com/SaeedHaidar/Nitro-5-an517-51-Hackintosh) |                                                              |                             |
 | Acer Predator Helios 300 | [链接](https://github.com/PruvostMaxime/Hackintosh-Predator-300) [链接](https://github.com/KadeReolance/Predator-Helios-300-OpenCore-0.6.2) |                                                              |                             |
@@ -222,7 +223,7 @@
 | Asus ROG GX701                    | [链接](https://github.com/laeo/hackintosh-rog-gx701-efi)     |                                                              |                                                              |
 | ASUS S4000VA                      | [链接](https://github.com/stonexing/Asus-S4000VA8550-Hackintosh) |                                                              | 华硕灵耀 i7-8550U                                            |
 | Asus S4100V                       | [链接](https://github.com/loong1992/Asus_S4100VN8250U_Hackintosh) |                                                              |                                                              |
-| Asus S510UQ                       | [链接](https://github.com/KINGKONG2808/Hackintosh_ASUSS510UQ) [链接](https://github.com/JoK3rLeE/Asus-S510UQ-BQ178T) |                                                              |                                                              |
+| Asus S510UQ                       | [链接](https://github.com/KINGKONG2808/Hackintosh_ASUSS510UQ) [链接](https://github.com/JoK3rLeE/Asus-S510UQ-BQ178T) |                                                              | Asus VivoBook S150UQ-BQ178T |
 | Asus S5300FN                      | [链接](https://github.com/Jie2GG/Hackintosh-ASUS-S5300FN)    |                                                              | 华硕灵耀2代                                                  |
 | Asus S530UN                       | [链接](https://github.com/tunglamvghy/AsusS530UN-hackintosh) |                                                              |                                                              |
 | Asus TP300LD                      | [链接](https://github.com/danang-id/ASUS-TP300LD-ESP)        |                                                              |                                                              |
@@ -487,7 +488,7 @@
 | 暗影精灵I (惠普PAVILION Gaming NB 15-ak039TX) | [链接](https://github.com/lgs3137/PAVILION_Gaming_NB-macOS)  |                                                              | 除了独显、Intel无线网卡，其他功能模块正常(包括HDMI视频)      |
 | HP Pavillion Gaming Laptop 15-cx0xxx          | [链接](https://github.com/mechtifs/hackintosh-clover-hp-pavillion-15-cx0xxx) |                                                              | 光影精靈4代                                                  |
 | HP PAVILION Gaming NB 15-cx0172tx             | [链接OC](https://github.com/ExodazTH/Opencore-on-HP-Pavilion-Gaming-15-cx0172tx) [链接CV](https://github.com/ExodazTH/Hackintosh-on-HP-Pavilion-Gaming-15-cx0172tx) |                                                              | non-working:GPU(Nvidia 1050TI/GTX)/WiFi( Intel® Wireless-AC 9560 802.11b/g/n/ac) |
-| 惠普光影精靈5                                 | [链接](https://github.com/Tonymiugrey/Garden-by-miugrey)     |                                                              | 內含搞定PM981的補丁，可以試試                                |
+| 惠普光影精靈5                                 | [链接](https://github.com/Tonymiugrey/Garden-by-miugrey) [链接](https://github.com/hibobmaster/HP-15-dc1010nr-hackintosh) |                                                              | 內含搞定PM981的補丁，可以試試                                |
 | HP Omen 15 DC                                 | [链接](https://github.com/kirainmoe/hp-omen15-dc-macos)      |                                                              | 暗影精灵 4 GTX1060 144Hz 版，由于物理屏蔽核显，只能安装 10.13.6 |
 
 ### Huawei 华为
@@ -878,6 +879,7 @@
 | Asus B460m Plus                | [链接](https://github.com/CasperNan/opencore-ASUS-B460m-plus-10400) |          | Intel 10400 / AMD 5500XT                                     |
 | Asus ROG Strix B460-I          | [链接](https://github.com/jalalabdulaziz/ROG-Strix-B460-I) [链接](https://github.com/intihyan/OC-b460i-strix-i7-10700)<br />[链接](https://github.com/lqsahut/ROG_B460i_Hackintosh) |          | I7-10700 / RX570                                             |
 | Asus TUF Gaming B460M PLUS     | [链接](https://github.com/Swayyyyy/ASUS-TUF-GAMING-B460M-PLUS-RX570-Hackintosh-Opencore) |          |                                                              |
+| Asus H370i                     | [链接](https://github.com/HuaHuaY/Hackintosh-H370i-Big-Sur-EFI) |          |                                                              |
 | Asus Sabertooth z87            | [链接](https://github.com/cmspeedau/Opencore-efi)            |          |                                                              |
 | Asus Z97K 4980HQ               | [链接](https://github.com/efsg/ASUS-Z97K-4980HQ-Hackintosh)  |          | I7-4980HQ                                                    |
 | Asus Z170-P                    | [链接](https://github.com/Sharlion/z170_6700k_hackintosh)    |          | 华硕Z170-P+6700K+RX470                                       |
@@ -886,7 +888,7 @@
 | Asus ROG STRIX H370-I GAMING   | [链接](https://github.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide) [链接](https://github.com/sheva007/H370i_RX580_OC0.6.1) |          | mini-ITX H370 motherboard                                    |
 | Asus STRIX Z270-E              | [链接](https://github.com/BradenM/Hackintosh-7700k-R9_390-iGPU) |          | Asus STRIX Z270-E                                            |
 | Asus ROG Strix Z390-E          | [链接](https://github.com/xiedonghang/hackintosh) [链接](https://github.com/lbrdev/asus_z390e_opencore_hackintosh) |          | Intel i9-9900k+UHD630核显                                    |
-| ASUS ROG STRIX Z390-E GAMING   | [链接](https://github.com/xinsui01/hackintosh_ASUS_ROG_Z390) |          |                                                              |
+| ASUS ROG STRIX Z390-E GAMING   | [链接](https://github.com/xinsui01/hackintosh_ASUS_ROG_Z390) [链接](https://github.com/xiedonghang/hackintosh) |          |                                                              |
 | Asus Prime Z370-P              | [链接](https://github.com/mint-made/asus-z370p-opencore-hackintosh) |          | `强制RGB模式（EDID覆盖）`                                    |
 | Asus-PRIME-Z390                | [链接](https://github.com/dhckdgjs/ASUS-PRIME-Z390-A-HACKINTOSH-Clover-iGPU-with-dGPU-UHD630-RX580) |          | ASUS-PRIME-Z390                                              |
 | Asus Prime Z390-A              | [链接](https://github.com/ErickAgrazal/hackinstosh-efi) [链接](https://github.com/DiZhou92/ROG-STRIX-Z490-G-WIFI-ASUS) |          |                                                              |
@@ -986,6 +988,7 @@
 | Gigabyte Z390 AORUS PRO WIFI    | [链接](https://github.com/shiruken/hackintosh)               |                                                              | i7-9700K + Radeon RX 5700 XT                                 |
 | Gigabyte Z390 Master            | [链接](https://github.com/felixyin/clover-z390master-i99900k-rx580-970pro) |                                                              |                                                              |
 | Gigabyte Z390 AORUS MASTER ATX  | [链接](https://github.com/vmzhivetyev/hackintosh-efi)        |                                                              |                                                              |
+| Gigabyte Z390 I Aorus Pro WiFi  | [链接](https://github.com/vfalanis/opencore-aorus-z390i-pro-wifi) |                                                              |                                                              |
 | Gigabyte Z390 M Gaming          | [链接](https://github.com/tspng/gigabyte-z390-m-gaming-hackintosh) |                                                              | 技嘉 Z390m                                                   |
 | Gigabyte Z390 gaming            | [链接](https://github.com/dbv/hackintosh_9600k_Z390_RX580)   | 小辉自用: i5-9600k RX580 2304sp矿                            |                                                              |
 | Gigabyte Z390 Gaming X          | [链接](https://github.com/wqh0109663/Gigabyte-Z390-Gaming-X-Hackintosh) |                                                              |                                                              |
