@@ -134,6 +134,11 @@
   - 新增机型：HP EliteDesk 800 G1/G2/G3/G4/G5
 - 2020年11月24日
   - 新增机型：`Ice Lake`等部分机型
+- 2020年11月26日
+  - 新增机型：
+    - `Acer Nitro 5 AN515-54`
+    - `Asus H370i`
+    - `Gigabyte Z390 I Aorus Pro WiFi`
 
 </details>
 
