@@ -139,6 +139,14 @@
     - `Acer Nitro 5 AN515-54`
     - `Asus H370i`
     - `Gigabyte Z390 I Aorus Pro WiFi`
+- 2020年12月2日
+  - 新增机型：
+    - `Lenovo Yoga C740-14IML`
+    - `HP Notebook 15ac001tx`
+    - `Dell Optiplex 5040`
+    - `Acer TravelMate TX520-G2-MG`
+    - `HP ProDesk 600 G2 DM`
+    - …… 
 
 </details>
 
