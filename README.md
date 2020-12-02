@@ -257,6 +257,7 @@
 | Asus VivoBook S15 S510UA          | [链接](https://github.com/tctien342/Asus-Vivobook-S510UA-High-Sierra-10.13-Hackintosh) | [链接](https://github.com/tctien342/Asus-Vivobook-S510UA-High-Sierra-10.13-Hackintosh/blob/master/README.md) | Vivobook S510UA                                              |
 | Asus Vivobook S530UA BQ100T       | [链接](https://github.com/superzeldalink/Asus-Vivobook-S530-hackintosh) |                                                              |                                                              |
 | Asus Vivobook S510UNR - BQ114     | [链接](https://github.com/dayfly/Asus-S510UN-EFI)            |                                                              |                                                              |
+| Asus VivoBook S150UQ-BQ178T | [链接](https://github.com/JoK3rLeE/Asus-S510UQ-BQ178T) | | |
 | Asus VivoBook X510UQR             | [链接](https://github.com/nguyentrucxinh/Asus-VivoBook-X510UQR-Hackintosh) | [链接](https://github.com/nguyentrucxinh/Asus-VivoBook-X510UQR-Hackintosh/blob/master/README.md) |                                                              |
 | Asus VivoBook Y5000U (X507UBR)    | [链接](https://github.com/lgs3137/ASUS_Y5000U_X507UBR-macOS) |                                                              |                                                              |
 | Asus W419LD                       | [链接](https://github.com/Yasin27878/Hackintosh-ASUS-W419LD) |                                                              |                                                              |
@@ -861,6 +862,7 @@
 | R7 3700x/MSI B450/5700XT                                     | [链接](https://github.com/harpsword/hackintosh-ryzen)        |                                                              |                                                              |
 | AMD Ryzen安装教程                                            | [链接](https://github.com/MrNegativeTW/Ryzen-Hackintosh-Tutorial) [链接](https://github.com/doesprintfwork/Intel-AMD-Hackintosh-Guide) | [链接](https://kb.hackintoshisfun.ml/vanilla/v/traditional-chinese/) [链接](https://mtwstudio.gitbook.io/ryzentosh/) | 适用于`10.12` `10.13` `10.14`                                |
 | AMD FX 6300/NVIDIA GTX 650                                   | [链接](https://github.com/pexcn/hackintosh-amd)              |                                                              | 主板：Asus M5A97 LE R2.0                                     |
+| Colorful CVN X570M GAMING PRO V14                            | [链接](https://github.com/TroyJim/ryzen-x570-hackintosh)     |                                                              |                                                              |
 | Gigabyte AB350 Gaming 1                                      | [链接](https://github.com/ThatsNiceGuy/ab350-gaming-hack)    |                                                              | AMD Ryzen 5 1600                                             |
 | Gigabyte Aorus Pro wifi B450 MITX                            | [链接](https://github.com/zarboz/Open-Core-GB-b450)          |                                                              |                                                              |
 | Gigabyte B450M DS3H                                          | [链接](https://github.com/AbhijithGo/Hackintosh-BigSur-11.0.1-EFI) |                                                              |                                                              |
@@ -887,7 +889,6 @@
 | AMD Vanilla Clover Patches                                   | [链接](https://github.com/AMD-OSX/AMD_Vanilla)               | [链接](https://github.com/cheneyveron/hackintosh-clover-tachi-x370-1700x-rx570) | AMD Clover补丁，以后可以<br />直接刻盘安装，10.14.5我会同步<br />更新针对AMD平台的配置文件<br />敬请期待 |
 | Clover-Ryzen-MSI-B450I                                       | [链接](https://github.com/portrayer/Clover-Ryzen-MSI-B450I)  |                                                              |                                                              |
 | Gigabyte X399 Aorus Extreme                                  | [链接](https://github.com/SchmockLord/Hackintosh-Threadripper-1950x-Gigabyte-X399-Aorus-Extreme) |                                                              | Threadripper 1950x@4.0Ghz                                    |
-| ASRock-B365M-ITX                                             | [链接](https://github.com/imzhengziyi/ASRock-B365M-ITX-AC-opencore/releases) |                                                              |                                                              |
 
 ## INTEL CPU系列
 
