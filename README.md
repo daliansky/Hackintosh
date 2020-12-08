@@ -380,6 +380,7 @@
 | Dell Vostro 3578                           | [链接](https://github.com/ABCDFAS/dell-vostro-3578-hackintosh-clover-efi) |                                                              |                                                              |
 | Dell Vostro 5370                           | [链接](https://github.com/hellmonky/Hackintosh/tree/master/dell-vostro-5370) |                                                              |                                                              |
 | Dell Vostro 5471                           | [链接](https://github.com/Hackintoshlifeit/DELL-Vostro-5471) |                                                              |                                                              |
+| Dell Vostro 5401 (ICE-LAKE)                | [链接](https://github.com/Lorys89/Dell_Vostro_5401-ICE-LAKE) |                                                              |                                                              |
 | Dell Vostro 14 5490                      | [链接](https://github.com/msdnna/Dell-Vostro-14-5490-Hackintosh) |                                                              | i5-10210U / **i7-10510U**                                    |
 | Dell Vostro 5568 | [链接](https://github.com/dungnt11/dell-5568-efi-10.15.6) | |  |
 | Dell Vostro 5581                           | [链接](https://github.com/nghetienhiep/Dell-Vostro-5581-Hackintosh) |                                                              |                                                              |
