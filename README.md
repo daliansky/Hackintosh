@@ -158,7 +158,19 @@
     - `Dell  Optiplex 7010`
     - `ASRock deskmini H470`
     - `Gigabyte H110M S2HP`
-    - …...
+- 2020年12月23日
+  - 新增机型：
+    - Acer Swift 3 SF314-54
+    - Asus N551JK
+    - ASUS ZenBook UX305FA
+    - Lenovo Legion Y520
+    - Gigabyte X570 UD
+    - ASRock B460m HDV
+    - Gigabyte Z370 HD3
+    - MSI B360M Bazooka
+    - MSI H410M BOMBER
+    - 七彩虹CVN B460i
+    - ......
 
 </details>
 
