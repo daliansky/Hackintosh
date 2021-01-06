@@ -839,6 +839,8 @@
 | Toshiba L55W C5320             | [链接](https://github.com/martinmenchon/Hackintosh-Toshiba-L55W-C5320) |                                                              |                                                              |
 | Toshiba C805                   | [链接](https://github.com/nan1jueze/TOSHIBA-C805-HM76-CLOVER-Hackintosh) |                                                              |                                                              |
 | MONSTER Tulpar T7 V20.1        | [链接](https://github.com/sutsurup/MONSTER-Hackintosh)       | [链接](https://github.com/sutsurup/MONSTER-Hackintosh/blob/master/README.md) |                                                              |
+| 壹号本 OneMix3 Pro              | [链接](https://github.com/lulujyc/OneMix3Pro-OpenCore) |                                                              |                                                              |
+| 松下 Let's Note CF-SZ5         | [链接](https://github.com/lulujyc/Panasonic-CF-SZ5-Catalina-EFI) |                                                              |                                                              |
 | 机械师 F117B1                  | [链接](https://github.com/Lusior/F117B-Hackintosh)           |                                                              |                                                              |
 
 
