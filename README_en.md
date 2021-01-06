@@ -457,6 +457,8 @@
 | MSI ProBox23                       | [link]( https://github.com/Twilightlee/MSI_ProBox23_hackintosh) |                                                              |                                                              |
 | MaiBenBen_Damai5                   | [link](https://github.com/jasminebd/MaiBenBen-Damai5)        |                                                              |                                                              |
 | Sony VAIO pro13                    | [link](https://github.com/raydoom/hackintosh-sony-vaio-pro13) |                                                              |                                                              |
+| ONE-NETBOOK OneMix3 Pro              | [link](https://github.com/lulujyc/OneMix3Pro-OpenCore) |                                                              |                                                              |
+| Panasonic Let's Note CF-SZ5         | [link](https://github.com/lulujyc/Panasonic-CF-SZ5-Catalina-EFI) |                                                              |                                                              |
 | Terrans Force/Devil Rays  DR7      | [link](https://github.com/Jie2GG/Hackintosh-Devil-Rays-DR7)  |                                                              | 魔鬼鱼/未来人类                                              |
 
 #### Notebook related resources
