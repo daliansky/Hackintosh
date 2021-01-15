@@ -458,6 +458,7 @@
 | MaiBenBen_Damai5                   | [link](https://github.com/jasminebd/MaiBenBen-Damai5)        |                                                              |                                                              |
 | Sony VAIO pro13                    | [link](https://github.com/raydoom/hackintosh-sony-vaio-pro13) |                                                              |                                                              |
 | Terrans Force/Devil Rays  DR7      | [link](https://github.com/Jie2GG/Hackintosh-Devil-Rays-DR7)  |                                                              | 魔鬼鱼/未来人类                                              |
+| Terrans Force X599(Old)                 | [link](https://github.com/WarsFeng/P750ZM-Hackintosh)           |                                                              |                   Clevo P750ZM                                           |
 
 #### Notebook related resources
 
