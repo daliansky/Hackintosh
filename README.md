@@ -974,19 +974,21 @@
 | ASUS ROG STRIX Z390-E GAMING   | [链接](https://github.com/xinsui01/hackintosh_ASUS_ROG_Z390) [链接](https://github.com/xiedonghang/hackintosh) |          | 网卡推荐：[BCM94360CD](https://blog.daliansky.net/uploads/WeChatandShop.png) |
 | Asus Prime Z370-P              | [链接](https://github.com/mint-made/asus-z370p-opencore-hackintosh) |          | `强制RGB模式（EDID覆盖）`                                    |
 | Asus-PRIME-Z390                | [链接](https://github.com/dhckdgjs/ASUS-PRIME-Z390-A-HACKINTOSH-Clover-iGPU-with-dGPU-UHD630-RX580) |          | ASUS-PRIME-Z390                                              |
-| Asus Prime Z390-A              | [链接](https://github.com/ErickAgrazal/hackinstosh-efi) [链接](https://github.com/DiZhou92/ROG-STRIX-Z490-G-WIFI-ASUS) |          | 网卡推荐：[BCM94360CD](https://blog.daliansky.net/uploads/WeChatandShop.png) |
-| ASUS Prime Z390M PLUS          | [链接](https://github.com/Lyrance/ASUS-Prime-Z390M-PLUS-EFI) [链接](https://github.com/LHB6540/Asus-R414-Hackintosh-10.15.7)<br />[链接](https://github.com/Asphyxia-m/Asus-Z390m-plus-efi) [链接](https://github.com/liuzy88/PRIME-Z390M-PLUS-5700XT-EFI) |          | 网卡推荐：[BCM94360CD](https://blog.daliansky.net/uploads/WeChatandShop.png) |
-| Asus Prime Z490-A              | [链接](https://github.com/yilmazca/intel-i9-10900K-Asus-prime-Z490A-hackintosh) [链接](https://github.com/evenlinyf/hackintosh-EFI-Z490A-i710700k-5700xt) |          | OC: Intel i9-10900K 核显DP<br />网卡推荐：[BCM94360CD](https://blog.daliansky.net/uploads/WeChatandShop.png) |
-| Asus Z490 A GAMING             | [链接](https://github.com/ngocdoan/hackintosh-z490-A-Gaming-10900k-5700) [链接](https://github.com/evenlinyf/hackintosh-EFI-Z490A-i710700k-5700xt) |          | 网卡推荐：[BCM94360CD](https://blog.daliansky.net/uploads/WeChatandShop.png) |
-| Asus ROG Here                  | [链接](https://github.com/kreactnative/EFI-z490-rog-hero-XII-10900k-bigSur) |          | 网卡推荐：[BCM94360CD](https://blog.daliansky.net/uploads/WeChatandShop.png) |
-| Asus ROG STRIX Z490-E          | [链接](https://github.com/taoche/Z490-E-Hackintosh)          |          | i7-10700k + RX5700XT<br />网卡推荐：[BCM94360CD](https://blog.daliansky.net/uploads/WeChatandShop.png) |
-| Asus ROG STRIZX Z490I          | [链接](https://github.com/jergoo/Hackintosh-ROG-STRIX-Z490I) |          | OC: i7-10700k + Radeon VII<br />网卡推荐：[BCM94360Z4](https://blog.daliansky.net/uploads/WeChatandShop.png) |
-| Asus ROG STRIX Z490-G WIFI     | [链接](https://github.com/DiZhou92/ROG-STRIX-Z490-G-WIFI-ASUS) |          | 网卡推荐：[BCM94360CD](https://blog.daliansky.net/uploads/WeChatandShop.png) |
-| Asus Z490 MAXIMUS XII FORMULA  | [链接](https://github.com/shijij/OSX_EFI_Asus_Z490_MAXIMUS_FORMULA) |          | i7-10700k + RX5700XT<br />网卡推荐：[BCM94360CD](https://blog.daliansky.net/uploads/WeChatandShop.png) |
-| Asus TUF Z490 Plus             | [链接](https://github.com/horphi/Asus-TUF-Z490-Plus) [链接](https://github.com/raofeng/ASUS_TUF_Z490_PLUS_WIFI_EFI) |          | 网卡推荐：[BCM94360CD](https://blog.daliansky.net/uploads/WeChatandShop.png) |
-| Asus X299 PRIME DELUXE II      | [链接](https://github.com/yifan-gu/hackintosh)               |          | i9 7980XE + Radeon VII<br />网卡推荐：[BCM94360CD](https://blog.daliansky.net/uploads/WeChatandShop.png) |
-| Asus X299                      | [链接](https://github.com/shinoki7/Asus-X299-Hackintosh)     |          | 网卡推荐：[BCM94360CD](https://blog.daliansky.net/uploads/WeChatandShop.png) |
-| Asus ROG STRIX X299-E GAMING   | [链接](https://github.com/Fansaly/X299-STRIX-macOS)          |          | INTEL® CORE™ i7-7800X<br />网卡推荐：[BCM94360CD](https://blog.daliansky.net/uploads/WeChatandShop.png) |
+| Asus Prime Z390-A              | [链接](https://github.com/ErickAgrazal/hackinstosh-efi) [链接](https://github.com/DiZhou92/ROG-STRIX-Z490-G-WIFI-ASUS) |          |                                                              |
+| Asus-PRIME-Z390-P              | [链接](https://github.com/vastxie/ASUS-PRIME-Z390-P_i5-9600K_RX5500XT) |          | i5-9600K + RX5500XT                                                          |
+| ASUS Prime Z390M PLUS          | [链接](https://github.com/Lyrance/ASUS-Prime-Z390M-PLUS-EFI) [链接](https://github.com/LHB6540/Asus-R414-Hackintosh-10.15.7)<br />[链接](https://github.com/Asphyxia-m/Asus-Z390m-plus-efi) [链接](https://github.com/liuzy88/PRIME-Z390M-PLUS-5700XT-EFI) |          |                                                              |
+| Asus Prime Z490-A              | [链接](https://github.com/yilmazca/intel-i9-10900K-Asus-prime-Z490A-hackintosh) [链接](https://github.com/evenlinyf/hackintosh-EFI-Z490A-i710700k-5700xt) |          | OC: Intel i9-10900K 核显DP                                   |
+| Asus Z490 A GAMING             | [链接](https://github.com/ngocdoan/hackintosh-z490-A-Gaming-10900k-5700) [链接](https://github.com/evenlinyf/hackintosh-EFI-Z490A-i710700k-5700xt) |          |                                                              |
+| Asus ROG Here                  | [链接](https://github.com/kreactnative/EFI-z490-rog-hero-XII-10900k-bigSur) |          |                                                              |
+| Asus ROG STRIX Z490-E          | [链接](https://github.com/taoche/Z490-E-Hackintosh)          |          | i7-10700k + RX5700XT                                         |
+| Asus ROG STRIZX Z490I          | [链接](https://github.com/jergoo/Hackintosh-ROG-STRIX-Z490I) |          | OC: i7-10700k + Radeon VII                                   |
+| Asus ROG STRIX Z490-G WIFI     | [链接](https://github.com/DiZhou92/ROG-STRIX-Z490-G-WIFI-ASUS) |          |                                                              |
+| Asus Z490 MAXIMUS XII FORMULA  | [链接](https://github.com/shijij/OSX_EFI_Asus_Z490_MAXIMUS_FORMULA) |          | i7-10700k + RX5700XT                                         |
+| Asus TUF Z490 Plus             | [链接](https://github.com/horphi/Asus-TUF-Z490-Plus) [链接](https://github.com/raofeng/ASUS_TUF_Z490_PLUS_WIFI_EFI) |          |                                                              |
+| Asus X299 PRIME DELUXE II      | [链接](https://github.com/yifan-gu/hackintosh)               |          | i9 7980XE + Radeon VII                                       |
+| Asus X299                      | [链接](https://github.com/shinoki7/Asus-X299-Hackintosh)     |          |                                                              |
+| Asus ROG STRIX X299-E GAMING   | [链接](https://github.com/Fansaly/X299-STRIX-macOS)          |          | INTEL® CORE™ i7-7800X                                        |
+
 
 ### ASRock 华擎
 
