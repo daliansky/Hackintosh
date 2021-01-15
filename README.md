@@ -1273,26 +1273,48 @@
 ## QQ群列表：
 
 553283949 [黑果小兵黑苹果技术群6](https://qm.qq.com/cgi-bin/qm/qr?k=kr_hZc5pKK4TCDRaFPwRlfAiB4528InP&jump_from=webapi) 2000人收费群 新开群
+
 630724380 [黑果小兵黑苹果技术群7](https://qm.qq.com/cgi-bin/qm/qr?k=JyGkfKK7U3Xq3TDtpqKOTq_gW7SBg4Uh&jump_from=webapi) 2000人收费群，新开群
+
 713810838 [黑果小兵黑苹果技术群8](https://qm.qq.com/cgi-bin/qm/qr?k=e8E-1Ge2lCoBSTlj8Y4zMxX7l7-V63Iv&jump_from=webapi) 2000人收费群，新开群
+
 688324116 [一起黑苹果](https://qm.qq.com/cgi-bin/qm/qr?k=Fp4HZ5e8A61oCu0GMS5YUqP6COc43-AO&jump_from=webapi) 2000人收费群，请加6群
+
 331686786 [一起吃苹果](https://qm.qq.com/cgi-bin/qm/qr?k=No8zvDfvDicT-GfSApw1RMBI-3MQ7zM3&jump_from=webapi) 2000人收费群，请加6群
+
 257995340 [一起啃苹果](https://qm.qq.com/cgi-bin/qm/qr?k=acztqL9efoqAOoptc_3moZ9b3Sgczu9_&jump_from=webapi) 2000人群 远景报备群
+
 875482673 [黑果小兵黑苹果技术群](https://qm.qq.com/cgi-bin/qm/qr?k=aZNyoRum_er2mruqmnbX_93ncHNgsyak&jump_from=webapi) 2000人收费群 已满员，请加6群
+
 1058822256 [黑果小兵黑苹果技术群2](https://qm.qq.com/cgi-bin/qm/qr?k=1sIT0BDaejgr9t1Hlw16cMnw_Z96zleV&jump_from=webapi) 2000人收费群 已满员，请加6群
+
 819662911 [黑果小兵黑苹果技术群3](https://qm.qq.com/cgi-bin/qm/qr?k=aJx9xO7vAmyslCuOdK0bRMmDLpvOCeRw&jump_from=webapi) 2000人收费群，请加6群
+
 954098809 [黑果小兵黑苹果技术群4](https://qm.qq.com/cgi-bin/qm/qr?k=iu042k0X5snr--dzAxOzcsvD9Zft9yx7&jump_from=webapi) 2000人收费群，请加6群
+
 1161377948 [黑果小兵黑苹果技术群5](https://qm.qq.com/cgi-bin/qm/qr?k=kBV9vCnz-NqtXXJiwnUhaLyJN1D7G0n6&jump_from=webapi) 2000人收费群，请加6群
+
 701278330 [黑苹果无线网卡交流群](https://qm.qq.com/cgi-bin/qm/qr?k=x57TlUmxz88oXGDWjMOOsWokYi8klE11&jump_from=webapi) 1000人群 DW1820A技术支持群
+
 891434070 [Catalina黑苹果交流群](https://qm.qq.com/cgi-bin/qm/qr?k=TUAxSUUtw_T1N62V0kF1sWvMcDr_eoxc&jump_from=webapi) 2000人群 远景报备群
+
 939122730 [Catalina黑苹果交流II群](https://qm.qq.com/cgi-bin/qm/qr?k=g_rpf7m0LJllE6WHY9c0gVvCTBm1MtuN&jump_from=webapi) 2000人群
+
 891677227 [黑果小兵高级群](https://qm.qq.com/cgi-bin/qm/qr?k=xsuIOzF7RXYaRTTbJ5o_UjzohRDUx5UY&jump_from=webapi) 2000人群
+
 943307869 [黑果小兵高级群II](https://qm.qq.com/cgi-bin/qm/qr?k=aoSvqrbysdjPo0Wa_XvvPuMG9NMEtOie&jump_from=webapi) 2000人群
+
 538643249 [OpenCore技术交流群](https://qm.qq.com/cgi-bin/qm/qr?k=si7f9Mfzs82wHGvKLVhBLmW87YA31y92&jump_from=webapi) 2000人群 大神众多非OC适配者慎入
+
 942112153 [天逸510s Mini黑苹果交流群](https://qm.qq.com/cgi-bin/qm/qr?k=N5cjw5ksrnmk-RMQ4fPCOo5D_Dxiu47B&jump_from=webapi) 1000人群 非专用机型请勿加入
+
 673294583 [小新Pro黑苹果技术群](https://qm.qq.com/cgi-bin/qm/qr?k=GgcMJM5-98yB-fc6zyGcTI3OuesrSBRk&jump_from=webapi) 2000人群 非专用机型请勿加入
+
 946132482 [小新Pro黑苹果](https://qm.qq.com/cgi-bin/qm/qr?k=r-m99xC-BPIRdVkEjU6duvqXMJ-1FOwA&jump_from=webapi) 500人群 非专用机型请勿加入
+
 943181023 [联想小新Air黑苹果交流群](https://qm.qq.com/cgi-bin/qm/qr?k=OGO_GSX9ZhtbQ_HNns57Vdxm5pR1wH6V&jump_from=webapi) 500人群 非专用机型请勿加入
+
+247451054 [小米PRO黑苹果高级群](https://qm.qq.com/cgi-bin/qm/qr?k=mnawqS-p0Djpx-B1sgjJPtMfUtVpn-2-&jump_from=webapi) 2000人群，限小米机型
 
 
 
@@ -1300,7 +1322,6 @@
 
 黑果小兵的部落阁 [http://t.me/daliansky](https://t.me/daliansky)
 黑果小兵的部落阁 #安装问题讨论 [https://t.me/macos_installer](https://t.me/macos_installer) 
-
 
 
 
