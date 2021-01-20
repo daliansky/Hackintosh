@@ -179,6 +179,16 @@
     - Mi Notebook 14 2020
     - Gigabyte H110M H
     - Gigabyte Z390 DESIGNARE
+- 2021年1月20日
+  - 新增机型：
+    - HP 15 BS661TX
+    - MSI GL62M 7RDX
+    - FUJITSU 富士通 S762
+    - ASUS ROG Strix X570-F Gaming
+    - ASUS-Z490M-PLUS
+    - Gigabyte Z490I AORUS ULTRA
+    - Lenovo 天逸510S
+    - Lenovo B360
 
 </details>
 
