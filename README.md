@@ -828,7 +828,8 @@
 | Surface Pro 3                                       | [链接](https://github.com/hacker1024/Hackintosh-Clover-SurfacePro3) |                                                              |                                                     |
 | Surface Pro 4                                       | [链接](https://github.com/Neil-Steven/SurfacePro4-Hackintosh) [链接](https://github.com/bigsadan/surface-pro-4-hackintosh-10.14.3) | [链接](https://github.com/Neil-Steven/SurfacePro4-Hackintosh/blob/master/README.md) | surfacePro 4                                        |
 | Surface Pro 6                                       | [链接](https://github.com/molie34/Surface-Pro-6-macOS)       | [教程](https://github.com/molie34/Surface-Pro-6-macOS)       |                                                     |
-| NUC10i7                                                    |  [链接](https://github.com/HawkysCC/Hackintosh-NUC10i7)                                                            |                                                              |   支持 BigSur                                                  |
+| NUC10i7                                                    |  [链接](https://github.com/HawkysCC/Hackintosh-NUC10i7)                                                            |                                                              |   支持 BigSur     
+| NUC10i7                                                    |  [链接](https://github.com/nuc-hackintosh/nuc10-efi)                                                            |                                                              |   支持 BigSur, 支持最新的AirportItlwm
 
 ### Other 其它
 
