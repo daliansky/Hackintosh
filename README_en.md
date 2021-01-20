@@ -92,6 +92,7 @@
 | Asus X455LJ                       | [link](https://github.com/umarhadi/asus-x455lj-mojave)       |                                                              |                                                  |
 | Asus X550JX                       | [link](https://github.com/gaoliang/Asus-X550JX-Hackintosh)   |                                                              |                                                  |
 | Asus X555LB                       | [link](https://github.com/emre1393/Asus-x555lb-mojave-efi)   |                                                              |                                                  |
+| Asus X555UQ | [link](https://github.com/loyio/Asus-X555UQ-hackintosh) | | OpenCore Config supported to Big Sur |
 | Asus X556UV                       | [link](https://github.com/Amview/ASUS-X556UV-Hackintosh)     |                                                              |                                                  |
 | Asus X75VC-TY056D                 | [link](https://github.com/Jesterjke/ASUS-X75VC-Hackintosh)   |                                                              |                                                  |
 | Asus X751LJ                       | [link](https://github.com/leandro1988n/ASUS-X751LJ-Hackintosh) |                                                              |                                                  |

@@ -309,6 +309,7 @@
 | Asus X550VXK                      | [链接](https://github.com/Giovix92/efi_x550vxk)              |                                                              |                                                              |
 | Asus X555LB                       | [链接](https://github.com/emre1393/Asus-x555lb-mojave-efi)   |                                                              |                                                              |
 | Asus X555UA | [链接](https://github.com/trinhdvt/OpenCore-EFI) | | |
+| Asus X555UQ | [链接](https://github.com/loyio/Asus-X555UQ-hackintosh) | | 网卡使用博通 BCM94360HMB,OC支持Big Sur |
 | Asus X556UAK | [链接](https://github.com/sumukshashidhar/asus-x556-uak-efi-configuration) | | |
 | Asus X556UJ | [链接](https://github.com/milanista18/ASUSX556UJ) | | |
 | Asus X556UQ                       | [链接](https://github.com/IlhamSevensky/ASUS-X556UQ-HACKINTOSH) |                                                              | A556U                                                        |
