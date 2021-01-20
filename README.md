@@ -310,6 +310,7 @@
 | Asus X550VXK                      | [链接](https://github.com/Giovix92/efi_x550vxk)              |                                                              |                                                              |
 | Asus X555LB                       | [链接](https://github.com/emre1393/Asus-x555lb-mojave-efi)   |                                                              |                                                              |
 | Asus X555UA | [链接](https://github.com/trinhdvt/OpenCore-EFI) | | |
+| Asus X555UQ | [链接](https://github.com/loyio/Asus-X555UQ-hackintosh) | | 网卡使用博通 BCM94360HMB,OC支持Big Sur |
 | Asus X556UAK | [链接](https://github.com/sumukshashidhar/asus-x556-uak-efi-configuration) | | |
 | Asus X556UJ | [链接](https://github.com/milanista18/ASUSX556UJ) | | |
 | Asus X556UQ                       | [链接](https://github.com/IlhamSevensky/ASUS-X556UQ-HACKINTOSH) |                                                              | A556U                                                        |
@@ -409,7 +410,7 @@
 | Dell Latitude E7490                        | [链接](https://github.com/Swung0x48/Dell-Latitude-7490-Hackintosh-EFI) |                                                              |                                                              |
 | Dell OptiPlex 3050                         | [链接](https://github.com/Leif160519/Dell-OptiPlex-3050-EFI) [链接](https://github.com/superleeyom/Hackintosh-Dell-OptiPlex-3050-OpenCore)<br />[链接](https://github.com/Xhichn/Hackbook_MECHREVO_Umi_Pro_II) | [链接](https://github.com/Leif160519/Dell-OptiPlex-3050-EFI/blob/master/README.md) |                                                              |
 | Dell OptiPlex 3060                         | [链接](https://github.com/Drovosek01/hackintosh_DELL_OptiPlex_3060_i5-8500) |                                                              |                                                              |
-| Dell OptiPlex 3060 MFF                     | [链接](https://github.com/Hackintoshlifeit/DELL-Optiplex-3060-MFF) |                                                              |                                                              |
+| Dell OptiPlex 3060 MFF                     | [链接](https://github.com/Lorys89/DELL_OPTIPLEX_3060_MFF) |                                                              |                                                              |
 | Dell Optiplex 5040 | [链接](https://github.com/lsc1978/Optiplex-5040-EFI-OC) [链接](https://github.com/lsc1978/Optiplex-5040-EFI-CLOVER) | | |
 | Dell Optiplex 7020                         | [链接](https://github.com/zearp/optimac)                     |                                                              |                                                              |
 | Dell OptiPlex 7070 mff                     | [链接](https://github.com/liaoyudong2/Dell-7070-mff-hackintosh) |                                                              |                                                              |
@@ -825,28 +826,31 @@
 | Surface Pro 3                                       | [链接](https://github.com/hacker1024/Hackintosh-Clover-SurfacePro3) |                                                              |                                                     |
 | Surface Pro 4                                       | [链接](https://github.com/Neil-Steven/SurfacePro4-Hackintosh) [链接](https://github.com/bigsadan/surface-pro-4-hackintosh-10.14.3) | [链接](https://github.com/Neil-Steven/SurfacePro4-Hackintosh/blob/master/README.md) | surfacePro 4                                        |
 | Surface Pro 6                                       | [链接](https://github.com/molie34/Surface-Pro-6-macOS)       | [教程](https://github.com/molie34/Surface-Pro-6-macOS)       |                                                     |
-| NUC10i7                                                    |  [链接](https://github.com/HawkysCC/Hackintosh-NUC10i7)                                                            |                                                              |   支持 BigSur                                                  |
+| NUC10i7                                                    |  [链接](https://github.com/HawkysCC/Hackintosh-NUC10i7)                                                            |                                                              |   支持 BigSur     
+| NUC10i7                                                    |  [链接](https://github.com/nuc-hackintosh/nuc10-efi)                                                            |                                                              |   支持 BigSur, 支持最新的AirportItlwm
 
 ### Other 其它
 
-| 机型名称                      | 发布地址                                                     | 教程地址                                                     | 备注                                                         |
-| ----------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| Clevo P950HR                  | [链接](https://github.com/MegaCookie/Clevo-P950HR-Hackintosh) |                                                              | 蓝天 P950HR，猜的                                            |
-| 火影地狱火X6                  | [链接](https://github.com/gaofeicm/DiYuHuo-X6-MacOS-Mojave-10.14.3-Hackintosh) |                                                              |                                                              |
-| Thunderobot 911 Air           | [链接](https://github.com/athlonreg/Thunderobot-911-Air-i7-9750h) |                                                              |                                                              |
-| Thunderobot 911 Air2          | [链接](https://github.com/athlonreg/Thunderobot-911-Air-i7-9750h) |                                                              |                                                              |
-| 雷神笔记本黑苹果套件          | [链接](https://github.com/athlonreg/Thunderobot-Hackintosh)  |                                                              |                                                              |
-| Airbook                       | [链接](https://github.com/nabaonan/airbook-6200u-efi)        |                                                              | 网卡推荐：[DW1820A](https://blog.daliansky.net/uploads/WeChatandShop.png) |
-| 同方 GI5CN5E                  | [链接](https://github.com/rodgomesc/AVELL-G1513-FOX-7-TONG-FANG-GI5CN5E-HACKINTOSH) |                                                              |                                                              |
-| GPD P2 MAX                    | [链接](https://github.com/Azkali/GPD-P2-MAX-Hackintosh)      |                                                              |                                                              |
-| 微星准系统ProBox23            | [链接]( https://github.com/Twilightlee/MSI_ProBox23_hackintosh) |                                                              |                                                              |
-| MaiBenBen_Damai5              | [链接](https://github.com/jasminebd/MaiBenBen-Damai5)        |                                                              | 麦本本-大麦5                                                 |
-| Sony VAIO pro13               | [链接](https://github.com/raydoom/hackintosh-sony-vaio-pro13) |                                                              |                                                              |
-| toshiba-B654L                 | [链接](https://github.com/yxb2018/toshiba-B654L-clover-efi)  |                                                              |                                                              |
-| Terrans Force/Devil Rays  DR7 | [链接](https://github.com/Jie2GG/Hackintosh-Devil-Rays-DR7)  |                                                              | 未来人类                                                     |
-| Toshiba L55W C5320            | [链接](https://github.com/martinmenchon/Hackintosh-Toshiba-L55W-C5320) |                                                              |                                                              |
-| Toshiba C805                  | [链接](https://github.com/nan1jueze/TOSHIBA-C805-HM76-CLOVER-Hackintosh) |                                                              |                                                              |
-| MONSTER Tulpar T7 V20.1       | [链接](https://github.com/sutsurup/MONSTER-Hackintosh)       | [链接](https://github.com/sutsurup/MONSTER-Hackintosh/blob/master/README.md) |                                                              |
+| 机型名称                       | 发布地址                                                     | 教程地址                                                     | 备注                                                         |
+| ------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| Clevo P950HR                   | [链接](https://github.com/MegaCookie/Clevo-P950HR-Hackintosh) |                                                              | 蓝天 P950HR，猜的                                            |
+| 火影地狱火X6                   | [链接](https://github.com/gaofeicm/DiYuHuo-X6-MacOS-Mojave-10.14.3-Hackintosh) |                                                              |                                                              |
+| Thunderobot 911 Air            | [链接](https://github.com/athlonreg/Thunderobot-911-Air-i7-9750h) |                                                              |                                                              |
+| Thunderobot 911 Air2           | [链接](https://github.com/athlonreg/Thunderobot-911-Air-i7-9750h) |                                                              |                                                              |
+| 雷神笔记本黑苹果套件           | [链接](https://github.com/athlonreg/Thunderobot-Hackintosh)  |                                                              |                                                              |
+| Airbook                        | [链接](https://github.com/nabaonan/airbook-6200u-efi)        |                                                              | 网卡推荐：[DW1820A](https://blog.daliansky.net/DW1820A_BCM94350ZAE-driver-inserts-the-correct-posture.html) |
+| 同方 GI5CN5E                   | [链接](https://github.com/rodgomesc/AVELL-G1513-FOX-7-TONG-FANG-GI5CN5E-HACKINTOSH) |                                                              |                                                              |
+| GPD P2 MAX                     | [链接](https://github.com/Azkali/GPD-P2-MAX-Hackintosh)      |                                                              |                                                              |
+| 微星准系统ProBox23             | [链接]( https://github.com/Twilightlee/MSI_ProBox23_hackintosh) |                                                              |                                                              |
+| MaiBenBen_Damai5               | [链接](https://github.com/jasminebd/MaiBenBen-Damai5)        |                                                              | 麦本本-大麦5                                                 |
+| Sony VAIO pro13                | [链接](https://github.com/raydoom/hackintosh-sony-vaio-pro13) |                                                              |                                                              |
+| toshiba-B654L                  | [链接](https://github.com/yxb2018/toshiba-B654L-clover-efi)  |                                                              |                                                              |
+| Terrans Force/Devil Rays  DR7  | [链接](https://github.com/Jie2GG/Hackintosh-Devil-Rays-DR7)  |                                                              | 未来人类                                                     |
+| Toshiba L55W C5320             | [链接](https://github.com/martinmenchon/Hackintosh-Toshiba-L55W-C5320) |                                                              |                                                              |
+| Toshiba C805                   | [链接](https://github.com/nan1jueze/TOSHIBA-C805-HM76-CLOVER-Hackintosh) |                                                              |                                                              |
+| MONSTER Tulpar T7 V20.1        | [链接](https://github.com/sutsurup/MONSTER-Hackintosh)       | [链接](https://github.com/sutsurup/MONSTER-Hackintosh/blob/master/README.md) |                                                              |
+| 壹号本 OneMix3 Pro              | [链接](https://github.com/lulujyc/OneMix3Pro-OpenCore) |                                                              |                                                              |
+| 松下 Let's Note CF-SZ5         | [链接](https://github.com/lulujyc/Panasonic-CF-SZ5-Catalina-EFI) |                                                              |                                                              |
 | 机械师 F117B1                 | [链接](https://github.com/Lusior/F117B-Hackintosh)           |                                                              |                                                              |
 | 未来人类 X599 初款                 | [链接](https://github.com/WarsFeng/P750ZM-Hackintosh)           |                                                              |                   关联蓝天 P750ZM                                           |
 
@@ -986,6 +990,7 @@
 | Asus X299 PRIME DELUXE II      | [链接](https://github.com/yifan-gu/hackintosh)               |          | i9 7980XE + Radeon VII                                       |
 | Asus X299                      | [链接](https://github.com/shinoki7/Asus-X299-Hackintosh)     |          |                                                              |
 | Asus ROG STRIX X299-E GAMING   | [链接](https://github.com/Fansaly/X299-STRIX-macOS)          |          | INTEL® CORE™ i7-7800X                                        |
+| ASUS-Z490M-PLUS   | [链接](https://github.com/stevenliuit/Hackintosh-Intel-i7-10700k-ASUS-Z490m-plus-5500xt)          |          | INTEL® CORE™ i7-10700k + RX5500XT                                        |
 
 
 ### ASRock 华擎
