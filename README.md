@@ -281,6 +281,7 @@
 | Asus TP300LD                      | [链接](https://github.com/danang-id/ASUS-TP300LD-ESP)        |                                                              |                                                              |
 | Asus TUF Gaming FX504             | [链接](https://github.com/PoomSmart/Asus-FX504GE-Hackintosh) [链接](https://github.com/angeljavan/AUSU-FX80GE-FX504Ge-efi) | [链接](https://github.com/PoomSmart/Asus-FX504GE-Hackintosh/blob/master/README.md) | 华硕 FX80GE FX504GE                                          |
 | ASUS TUF504GD                     | [链接](https://github.com/zzNuAzz/EFI-hackintosh-tuf-504gd-Clover) |                                                              |                                                              |
+| Asus TUF 15 FX506L | [链接](https://github.com/VGerris/asus-tuf-15-opencore) | | |
 | Asus UX461UA                      | [链接](https://github.com/UdaraWanasinghe/Asus-UX461UA-OpenCore-EFI) |                                                              |                                                              |
 | Asus UX501JW                      | [链接](https://github.com/firefly917/Hackintosh_Asus-UX501JW_Mojave) |                                                              |                                                              |
 | Asus VivoBook 15 X510UQ / S5100UQ | [链接](https://github.com/wishayne/hackintosh-Asus-S5100UQ-X510UQ) |                                                              | |
@@ -731,32 +732,29 @@
 
 ### MSI 微星
 
-| 机型名称                               | 发布地址                                                     | 教程地址                                                     | 备注            |
-| -------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | --------------- |
-| MSI GE60 2OC/2OD/2OE                   | [链接](https://github.com/xusos/Hackintosh-EFI)              |                                                              |                 |
-| MSI GE60 2PL-403XCN                    | [链接](https://github.com/ice-black-tea/MSI-GE60) [链接](https://github.com/cs950809/MSI-GE60-2PL-403XCN-Hackintosh) |                                                              |                 |
-| MSI GE63 Raider RGB 8RE                | [链接](https://github.com/skyline75489/Hackintosh-MSI-GE63-Raider-RGB-8RE) |                                                              |                 |
-| MSI GE70 2PC                           | [链接](https://github.com/alxzoomer/msi-ge70-2pc-hackintosh) |                                                              |                 |
-| MSI GE72VR Apache Pro-416              | [链接](https://github.com/tbrautaset/msi-ge72vr-7rf)         |                                                              |                 |
-| MSI GF63                               | [链接](https://github.com/oscarrock/hackintosh-msi-gf63-thin-9SC) |                                                              |                 |
-| MSI GF63 thin 9sc                      | [链接](https://github.com/LongBody/EFi-Hackintosh-MSi-GF63-thin-9sc) |                                                              |                 |
-| MSI GL62M-7REX                         | [链接](https://github.com/rlindsberg/Hackintosh-On-MSI-GL62m-7REX) |                                                              |                 |
-| MSI GL 63-8RC                          | [链接](https://github.com/devendramilmile121/msigl638rc-hackintosh-efi) |                                                              |                 |
-| MSI GL63-8RE                           | [链接](https://github.com/iAmineOHN/Hackintosh-MSI-GL63-8RE) |                                                              |                 |
-| MSI GL72M-7RDX                         | [链接](https://github.com/jbwharris/hackintosh-msi-GL72M-7RDX) | [链接](https://github.com/jbwharris/hackintosh-msi-GL72M-7RDX/blob/master/README.md) |                 |
-| MSI GP62 6QG-1071XCN                   | [链接](https://github.com/chuxubank/MSI-GP62-Hackintosh)     | [链接](https://github.com/chuxubank/MSI-GP62-Hackintosh/blob/master/README.md) | 微星 GP62       |
-| MSI GS65 Stealth Thin 8RF              | [链接](https://github.com/vladichimescu/msi-gs65-hackintosh) |                                                              |                 |
-| MSI GS65 8SE                           | [链接](https://github.com/ErrorErrorError/msi-gs65-8SE-hackintosh) |                                                              |                 |
-| MSI GS73VR 7RF                         | [链接](https://github.com/dogukanoksuz/msi-gs73vr-7rf-macOS) |                                                              |                 |
-| MSI GV62 7RE                           | [链接](https://github.com/amogh-w/Hackintosh-MSI-GV62-7RE)   |                                                              |                 |
-| MSI modern 15                          | [链接](https://github.com/hla63/Msi-modern-15-Hackintosh) [链接](https://github.com/AndresGarciaSobrado91/MSI-Modern15-Hackintosh) |                                                              |                 |
-| MSI PL62 7RC                           | [链接](https://github.com/juanlatorre/MSI-PL62-7RC-OC-Hackintosh) |                                                              | Intel i5-7300HQ |
-| MSI Prestige 15                        | [链接](https://github.com/KerKerOgh/MSI-Prestige-15-Hackintosh) [链接](https://github.com/wgjas2/MSI-Prestige-15-Hackintosh)<br />[链接](https://github.com/naturalBlacksmith/hackintosh-msi-prestige-15) |                                                              |                 |
-| MSI PS63 Modern 8RC                    |                                                              |                                                              |                 |
-| MSI-Z77A-G45                           | [链接](https://github.com/ac1ra/MSI-Z77A-G45-Hackintosh)     |                                                              |                 |
-| clover-z390-aorus-pro-wifi-9700k-rx580 | [链接](https://github.com/cheneyveron/hackintosh-clover-z390-aorus-pro-wifi-9700k-rx580) | [链接](https://github.com/cheneyveron/hackintosh-clover-z390-aorus-pro-wifi-9700k-rx580/blob/master/README.md) |                 |
-| MSI Z390                               | [链接](https://github.com/MonkeySdkCom/EFI-MSI-Z390-Tomahawk) |                                                              |                 |
-| MSI B450                               | [链接](https://github.com/jinhaozcp/Hackintosh-Ryzen-MSI-B450-Gaming-Pro-carbon-ac) |                                                              |                 |
+| 机型名称                  | 发布地址                                                     | 教程地址                                                     | 备注            |
+| ------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | --------------- |
+| MSI GE60 2OC/2OD/2OE      | [链接](https://github.com/xusos/Hackintosh-EFI)              |                                                              |                 |
+| MSI GE60 2PL-403XCN       | [链接](https://github.com/ice-black-tea/MSI-GE60) [链接](https://github.com/cs950809/MSI-GE60-2PL-403XCN-Hackintosh) |                                                              |                 |
+| MSI GE63 Raider RGB 8RE   | [链接](https://github.com/skyline75489/Hackintosh-MSI-GE63-Raider-RGB-8RE) |                                                              |                 |
+| MSI GE70 2PC              | [链接](https://github.com/alxzoomer/msi-ge70-2pc-hackintosh) |                                                              |                 |
+| MSI GE72VR Apache Pro-416 | [链接](https://github.com/tbrautaset/msi-ge72vr-7rf)         |                                                              |                 |
+| MSI GF63                  | [链接](https://github.com/oscarrock/hackintosh-msi-gf63-thin-9SC) |                                                              |                 |
+| MSI GF63 thin 9sc         | [链接](https://github.com/LongBody/EFi-Hackintosh-MSi-GF63-thin-9sc) |                                                              |                 |
+| MSI GL62M 7RD             | [链接](https://github.com/0ranko0P/GL62M-7RD-Hackintosh)     |                                                              |                 |
+| MSI GL62M 7REX            | [链接](https://github.com/rlindsberg/Hackintosh-On-MSI-GL62m-7REX) |                                                              |                 |
+| MSI GL 63-8RC             | [链接](https://github.com/devendramilmile121/msigl638rc-hackintosh-efi) |                                                              |                 |
+| MSI GL63-8RE              | [链接](https://github.com/iAmineOHN/Hackintosh-MSI-GL63-8RE) |                                                              |                 |
+| MSI GL72M-7RDX            | [链接](https://github.com/jbwharris/hackintosh-msi-GL72M-7RDX) | [链接](https://github.com/jbwharris/hackintosh-msi-GL72M-7RDX/blob/master/README.md) |                 |
+| MSI GP62 6QG-1071XCN      | [链接](https://github.com/chuxubank/MSI-GP62-Hackintosh)     | [链接](https://github.com/chuxubank/MSI-GP62-Hackintosh/blob/master/README.md) | 微星 GP62       |
+| MSI GS65 Stealth Thin 8RF | [链接](https://github.com/vladichimescu/msi-gs65-hackintosh) |                                                              |                 |
+| MSI GS65 8SE              | [链接](https://github.com/ErrorErrorError/msi-gs65-8SE-hackintosh) |                                                              |                 |
+| MSI GS73VR 7RF            | [链接](https://github.com/dogukanoksuz/msi-gs73vr-7rf-macOS) |                                                              |                 |
+| MSI GV62 7RE              | [链接](https://github.com/amogh-w/Hackintosh-MSI-GV62-7RE)   |                                                              |                 |
+| MSI modern 15             | [链接](https://github.com/hla63/Msi-modern-15-Hackintosh) [链接](https://github.com/AndresGarciaSobrado91/MSI-Modern15-Hackintosh) |                                                              |                 |
+| MSI PL62 7RC              | [链接](https://github.com/juanlatorre/MSI-PL62-7RC-OC-Hackintosh) |                                                              | Intel i5-7300HQ |
+| MSI Prestige 15           | [链接](https://github.com/KerKerOgh/MSI-Prestige-15-Hackintosh) [链接](https://github.com/wgjas2/MSI-Prestige-15-Hackintosh)<br />[链接](https://github.com/naturalBlacksmith/hackintosh-msi-prestige-15) |                                                              |                 |
+| MSI PS63 Modern 8RC       |                                                              |                                                              |                 |
 
 ### Razer Blade 雷蛇
 
