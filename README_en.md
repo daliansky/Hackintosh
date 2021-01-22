@@ -227,6 +227,7 @@
 | HP ProBook 650 G1 | [link](https://github.com/Hologos/hackintosh-hp-probook-650-g1) | | |
 | HP 840-G1                              | [link](https://github.com/blint01/hackintosh-mojave-HP-840-G1) | [link](https://github.com/blint01/hackintosh-mojave-HP-840-G1/blob/master/README.md) |                                                              |
 | HP Elitebook 840 G2 | [link](https://github.com/AktasC/Hackintosh-Elitebook-840-G2-Broadwell) |  | |
+| HP Elitebook 840 G3 | [link](https://github.com/Innoxious/hackintosh-hp-840-g3-intel-ac8260) |  | |
 | HP Pavilion 15-au028ur | [link](https://github.com/Drovosek01/hackintosh_HP_Pavilion_15-au028ur_i5-6200U/blob/master/docs/ENG/README.md) |  | |
 | HP Pavilion 15 au067tx | [link](https://github.com/FzeNiX/HPPavilion15-au067tx-Mojave-Hackintosh) |  | |
 | HP Pavilion15 AU157TX | [link](https://github.com/sxrhd/HP-AU157TX-EFI) | | |
