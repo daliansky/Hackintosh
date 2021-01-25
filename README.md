@@ -189,6 +189,18 @@
     - Gigabyte Z490I AORUS ULTRA
     - Lenovo 天逸510S
     - Lenovo B360
+- 2021年1月25日
+  - 新增机型：
+    - Asus ROG GL703ge
+    - 战神Z7-SP7S2
+    - HP Pavilion 15an051dx
+    - Lenovo G40-80
+    - Lenovo V110-15ISK
+    - Shinelon T50TI
+    - Asus P8P67 EVO
+    - ASRock B85 Pro4
+    - Gigabyte B150M-VP
+    - Gigabyte Z490 UD
 
 </details>
 
@@ -1208,7 +1220,6 @@
 | MSI B360M i3-8100/rx570   | [链接](https://github.com/shm007g/hackintosh-msi-b360m-i3-8100-rx570) |                                                              | 网卡推荐：[BCM94360CD](https://blog.daliansky.net/uploads/WeChatandShop.png) |
 | MSI B360M MORTAR OpenCore | [链接](https://github.com/GeQ1an/MSI-B360M-MORTAR-HACKINTOSH-OPENCORE-EFI) [链接](https://github.com/CeuiLiSA/Opencore-EFI) | [链接](https://github.com/GeQ1an/MSI-B360M-MORTAR-HACKINTOSH-OPENCORE-EFI/blob/master/README.md) | 网卡推荐：[BCM94360CD](https://blog.daliansky.net/uploads/WeChatandShop.png) |
 | MSI B460M MORTAR          | [链接](https://github.com/josways/B460M-MORTAR) [链接](https://github.com/IlikemacOS/B460M-MORTAR-Comet-Lake-IGPU-AGPU)<br />[链接](https://github.com/cheneyxx/Hackintosh-10400-B460M-MORTAR) |                                                              | I5-10400 / RX550<br />网卡推荐：[BCM94360CD](https://blog.daliansky.net/uploads/WeChatandShop.png) |
-|  |  | |  |
 | MSI H410M-A PRO | [链接](https://github.com/goomadao/MSI-H410M-A-PRO-OpenCore-EFI) | |  |
 | MSI H410M BOMBER | [链接](https://github.com/dakezi/i3-10100-MSI-H410M-BOOMER-UHD630-Hackintosh-EFI) | | i3-10100 |
 | MSI H81M-IE35 | [链接](https://github.com/MoeGuoH/EFI-MSI-H81M-IE35) | |  |
