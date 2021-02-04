@@ -883,6 +883,7 @@
 | 机械师 F117B1                 | [链接](https://github.com/Lusior/F117B-Hackintosh)           |                                                              |                                                              |
 | 未来人类 X599 初款                 | [链接](https://github.com/WarsFeng/P750ZM-Hackintosh)           |                                                              |                   关联蓝天 P750ZM                                           |
 | FUJITSU 富士通 S762 | [链接](https://github.com/hongweizhu163/Hackintosh-EFI-for-FUJITSU-S762) | |  |
+| 51nb X210 ThinkPad副厂主板 | [链接](https://github.com/lulujyc/51nb-X210-Hackintosh) | |  |
 
 
 ### 笔记本更多的机型
