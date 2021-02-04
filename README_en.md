@@ -464,6 +464,7 @@
 | Panasonic Let's Note CF-SZ5         | [link](https://github.com/lulujyc/Panasonic-CF-SZ5-Catalina-EFI) |                                                              |                                                              |
 | Terrans Force/Devil Rays  DR7      | [link](https://github.com/Jie2GG/Hackintosh-Devil-Rays-DR7)  |                                                              | 魔鬼鱼/未来人类                                              |
 | Terrans Force X599(Old)                 | [link](https://github.com/WarsFeng/P750ZM-Hackintosh)           |                                                              |                   Clevo P750ZM                                           |
+| 51nb X210 3rd Party ThinkPad Motherboard      | [link](https://github.com/lulujyc/51nb-X210-Hackintosh) |                                                              |                                                              |
 
 #### Notebook related resources
 
