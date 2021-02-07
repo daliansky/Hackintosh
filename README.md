@@ -386,6 +386,7 @@
 | Dell Inspiron 5447               | [链接](https://github.com/SinhLv/Dell-Ins-14-5447-hackintosh) [链接](https://github.com/Jay-Wang-zechong/inspiron-14-5447-hacintosh-EFI-clover) |                                                              |                                                              |
 | Dell Inspiron 5459               | [链接](https://github.com/lzhoang2601/Dell-Insprison-5459-Hackintosh) |                                                              |                                                              |
 | Dell Inspiron 5488               | [链接](https://github.com/daggeryu/DELL-inspiron-5488)       |                                                              |                                                              |
+| Dell Inspiron 5491 2in1          | [链接](https://github.com/Speeedo83/Dell-Inspiron-5491-2in1-Hakintosh)       |                                                              |                                                              |
 | Dell Inspiron 5537               | [链接](https://github.com/thedeadfish59/Dell_Inspiron_5537-Hackintosh) |                                                              |                                                              |
 | Dell Inspiron 5548(4528S)        | [链接](https://github.com/yuppiesnotzhuhao/Hackintosh-Dell-Inspiron-5548) |                                                              |                                                              |
 | Dell Inspiron 5558	|[链接](https://github.com/jance-hui/DELL-5558-EFI)		|		|		|
