@@ -353,7 +353,8 @@
 | 华硕A407UB                        | [链接](https://github.com/xinguisoft/Hackintosh-EFI-Asus-A407UB/) |                                                              |                                                              |
 | 华硕玩家国度ROG魔霸2 | [链接](https://github.com/664235822/EFI-OpenCore) | | |
 | 玩家国度枪神3                     | [链接](https://github.com/DongLinghe/ROG-SCAR-III-Hackintosh-EFI) |                                                              | 这个应该是华硕的吧                                           |
-|                                   |                                                              |                                                              |                                                              |
+|                                   |            
+| 华硕玩家国度ROG魔霸3 | [链接]（https://github.com/JOJOJ812/G531-hackintosh）                                                            |                                                              |
 
 ### DELL 戴尔
 
