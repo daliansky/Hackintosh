@@ -92,6 +92,7 @@
 | Asus X455LJ                       | [link](https://github.com/umarhadi/asus-x455lj-mojave)       |                                                              |                                                  |
 | Asus X550JX                       | [link](https://github.com/gaoliang/Asus-X550JX-Hackintosh)   |                                                              |                                                  |
 | Asus X555LB                       | [link](https://github.com/emre1393/Asus-x555lb-mojave-efi)   |                                                              |                                                  |
+| Asus X555UQ | [link](https://github.com/loyio/Asus-X555UQ-hackintosh) | | OpenCore Config supported to Big Sur |
 | Asus X556UV                       | [link](https://github.com/Amview/ASUS-X556UV-Hackintosh)     |                                                              |                                                  |
 | Asus X75VC-TY056D                 | [link](https://github.com/Jesterjke/ASUS-X75VC-Hackintosh)   |                                                              |                                                  |
 | Asus X751LJ                       | [link](https://github.com/leandro1988n/ASUS-X751LJ-Hackintosh) |                                                              |                                                  |
@@ -116,7 +117,7 @@
 | **More Alienware models**                  | [link](https://github.com/RockJesus/Alienware-Hackintosh)    |                                                              | Ref：RockJesus 's repo                                       |
 |                                            |                                                              |                                                              |                                                              |
 | Dell G3 3579                               | [link](https://github.com/JiangHoumin/Dell_G3_3579_Hackintosh) [link](https://github.com/CerteKim/Dell-G3-3579-Hackintosh-Clover) [link](https://github.com/CerteKim/Dell-G3-3579-Hackintosh-OpenCore) [link](https://github.com/tonyleelyy/OpenCore-Hackintosh-Dell-G3-3579) |                                                              | Recommended network card: [DW1820A](https://blog.daliansky.net/DW1820A_BCM94350ZAE-driver-inserts-the-correct-posture.html); link3,4 includes `OpenCore` |
-| Dell G7 7588                               | [link](https://github.com/geraldoandradee/Hackintosh-Dell-G7-7588) [link](https://github.com/flyfeng2002/FYQ-Hackintosh) [link](https://github.com/Juan-VC/Hackintosh-macOS-Catalina-on-Dell-G7-7588) |                                                              | link 2 and link 3 include `OpenCore`                                    |
+| Dell G7 7588                               | [link](https://github.com/geraldoandradee/Hackintosh-Dell-G7-7588) [link](https://github.com/flyfeng2002/FYQ-Hackintosh) [link](https://github.com/Juan-VC/Hackintosh-macOS-Catalina-on-Dell-G7-7588) [link](https://github.com/kumakumalina/Dell_G7_7588_OpenCore_Hackintosh) |                                                              | link 2 and link 3 and link 4 include `OpenCore`                                    |
 | Dell Inspiron 14 5447                      | [link](https://github.com/SinhLv/Dell-Ins-14-5447-hackintosh) | [link](https://github.com/SinhLv/Dell-Ins-14-5447-hackintosh/blob/master/README.md) | Dell-Ins-14-5447                                             |
 | Dell Inspiron 14 7447                      | [link](https://github.com/Am1nCmd/Dell-Inspiron-14-7447-Pandora-Hackintosh) | [link](https://github.com/Am1nCmd/Dell-Inspiron-14-7447-Pandora-Hackintosh/blob/master/README.md) | Dell-Inspiron-14-7447                                        |
 | Dell Inspiron 15 7000 (i7-8550U)           | [link](https://github.com/athlonreg/Dell-Inspiron-15-7000-i7-8550u) |                                                              |                                                              |
@@ -226,6 +227,7 @@
 | HP ProBook 650 G1 | [link](https://github.com/Hologos/hackintosh-hp-probook-650-g1) | | |
 | HP 840-G1                              | [link](https://github.com/blint01/hackintosh-mojave-HP-840-G1) | [link](https://github.com/blint01/hackintosh-mojave-HP-840-G1/blob/master/README.md) |                                                              |
 | HP Elitebook 840 G2 | [link](https://github.com/AktasC/Hackintosh-Elitebook-840-G2-Broadwell) |  | |
+| HP Elitebook 840 G3 | [link](https://github.com/Innoxious/hackintosh-hp-840-g3-intel-ac8260) |  | |
 | HP Pavilion 15-au028ur | [link](https://github.com/Drovosek01/hackintosh_HP_Pavilion_15-au028ur_i5-6200U/blob/master/docs/ENG/README.md) |  | |
 | HP Pavilion 15 au067tx | [link](https://github.com/FzeNiX/HPPavilion15-au067tx-Mojave-Hackintosh) |  | |
 | HP Pavilion15 AU157TX | [link](https://github.com/sxrhd/HP-AU157TX-EFI) | | |
@@ -262,7 +264,8 @@
 | ------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | Lenovo Flex 15                       | [link](https://github.com/aytic/Lenovo-Flex-15-Hackintosh)   | [link](https://github.com/aytic/Lenovo-Flex-15-Hackintosh/blob/master/README.md) | Lenovo Flex 15                                               |
 | Lenovo Ideapad 310-14IKB             | [link](https://github.com/29satnam/LenovoHackintosh)         | [link](https://github.com/29satnam/LenovoHackintosh/blob/master/README.md) |                                                              |
-| Lenovo Ideapad 320-15ISK             | [link](https://github.com/gajjartejas/Lenovo-Ideapad-320-15ISK-Laptop-Hackintosh) |                                                              |                                                              |
+| Lenovo Ideapad 330-15IKB             | [link](https://github.com/theerha2/lenovo-330-15-ikb-hackintosh) |                                                              |
+| Lenovo Ideapad 320-15ISK             | [link](https://github.com/chrisru26/LenovoIdeapad330s-14ikb-Hackintosh) |                                                              |                                                              |
 | Lenovo Ideapad 330s-14IKB            | [link](https://github.com/chrisru26/LenovoIdeapad330s-14ikb-Hackintosh) |                                                              |                                                              |
 | Lenovo Ideapad 700-15ISK             | [link](https://github.com/athlonreg/Lenovo-XiaoXin700-15ISK) | [link](https://github.com/athlonreg/Lenovo-XiaoXin700-15ISK/blob/master/README.md) | Lenovo-XiaoXin700-15ISK                                      |
 | Lenovo Flex 3-1580                   | [link](https://github.com/gdllzkusi/Lenovo-Fex3-1580-hackintosh) |                                                              |                                                              |
@@ -390,6 +393,7 @@
 | MSI GL63-8RE              | [link](https://github.com/iAmineOHN/Hackintosh-MSI-GL63-8RE) |                                                              |           |
 | MSI GL72M-7RDX            | [link](https://github.com/jbwharris/hackintosh-msi-GL72M-7RDX) | [link](https://github.com/jbwharris/hackintosh-msi-GL72M-7RDX/blob/master/README.md) |           |
 | MSI GP62 6QG-1071XCN      | [link](https://github.com/chuxubank/MSI-GP62-Hackintosh)     | [link](https://github.com/chuxubank/MSI-GP62-Hackintosh/blob/master/README.md) | 微星 GP62 |
+| MSI GS63VR-7RF            | [link](https://github.com/guitaoliu/MSI-GS63VR-Hackintosh)   | | |
 | MSI GS65 Stealth Thin 8RF | [link](https://github.com/vladichimescu/msi-gs65-hackintosh) |                                                              |           |
 | MSI GS65 8SE              | [link](https://github.com/ErrorErrorError/msi-gs65-8SE-hackintosh) |                                                              |           |
 | MSI GS73VR 7RF            | [link](https://github.com/dogukanoksuz/msi-gs73vr-7rf-macOS) |                                                              |           |
@@ -457,8 +461,11 @@
 | MSI ProBox23                       | [link]( https://github.com/Twilightlee/MSI_ProBox23_hackintosh) |                                                              |                                                              |
 | MaiBenBen_Damai5                   | [link](https://github.com/jasminebd/MaiBenBen-Damai5)        |                                                              |                                                              |
 | Sony VAIO pro13                    | [link](https://github.com/raydoom/hackintosh-sony-vaio-pro13) |                                                              |                                                              |
+| ONE-NETBOOK OneMix3 Pro              | [link](https://github.com/lulujyc/OneMix3Pro-OpenCore) |                                                              |                                                              |
+| Panasonic Let's Note CF-SZ5         | [link](https://github.com/lulujyc/Panasonic-CF-SZ5-Catalina-EFI) |                                                              |                                                              |
 | Terrans Force/Devil Rays  DR7      | [link](https://github.com/Jie2GG/Hackintosh-Devil-Rays-DR7)  |                                                              | 魔鬼鱼/未来人类                                              |
 | Terrans Force X599(Old)                 | [link](https://github.com/WarsFeng/P750ZM-Hackintosh)           |                                                              |                   Clevo P750ZM                                           |
+| 51nb X210 3rd Party ThinkPad Motherboard      | [link](https://github.com/lulujyc/51nb-X210-Hackintosh) |                                                              |                                                              |
 
 #### Notebook related resources
 
