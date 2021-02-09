@@ -353,7 +353,8 @@
 | 华硕A407UB                        | [链接](https://github.com/xinguisoft/Hackintosh-EFI-Asus-A407UB/) |                                                              |                                                              |
 | 华硕玩家国度ROG魔霸2 | [链接](https://github.com/664235822/EFI-OpenCore) | | |
 | 玩家国度枪神3                     | [链接](https://github.com/DongLinghe/ROG-SCAR-III-Hackintosh-EFI) |                                                              | 这个应该是华硕的吧                                           |
-|                                   |                                                              |                                                              |                                                              |
+|                                   |            
+| 华硕玩家国度ROG魔霸3 | [链接]（https://github.com/JOJOJ812/G531-hackintosh）                                                            |                                                              |
 
 ### DELL 戴尔
 
@@ -617,6 +618,7 @@
 | Lenovo G50-80                      | [链接](https://github.com/upupming/Lenovo-G50-80-Clover)     |                                                              |                                                              |
 | Lenovo G510                        | [链接](https://github.com/Z39/G510-OS-X-Clover-Hotpatch)     | [链接](https://github.com/Z39/G510-OS-X-Clover-Hotpatch/blob/master/README-CN.md) | 感谢：[39军小兵张](http://i.pcbeta.com/space-uid-4472739.html) |
 | 联想flex3-1470/i5 5200u-hd5500     | [链接](https://github.com/xl120022/FLEX-3-1470-Mac-10.15.3-efi) |                                                              |                                                              |
+| ThinkPad E40                       | [链接](https://github.com/mendax1234/ThinkPadE40-Clover-EFI) | [链接](http://bbs.pcbeta.com/viewthread-1851317-1-1.html)    |           ThinkPad E40                                         |
 | ThinkPad E440                      | [链接](https://github.com/ZzMark/Thinkpad-E440-Hackintosh)   |                                                              |                                                              |
 | ThinkPad E450C                     | [链接](https://github.com/zhangxuan1340/Hackintosh_E450C)    |                                                              |                                                              |
 | ThinkPad E470                      | [链接](https://github.com/y010204025/E470-clover)            |                                                              |                                                              |
@@ -688,7 +690,8 @@
 | ThinkPad X230i                     | [链接](https://github.com/fivestrong/Hackintosh-X230i-macOS) |                                                              |                                                              |
 | ThinkPad X250                      | [链接](https://github.com/Janolan/x250-hackintosh) [链接](https://github.com/qwerty12/X250-Hackintosh) [链接10.15](https://github.com/teddytaod/mac-catalina-thinkpad-x250) [链接](https://github.com/banhbaoxamlan/X250-Hackintosh)  [链接](https://github.com/CLAY-BIOS/Lenovo-ThinkPad-T450s-Hackintosh-Big-Sur-OpenCore) |                                                              |                                                              |
 | ThinkPad X260 系列                 | [链接](https://github.com/daliansky/ThinkPad-X260-hackintosh) | [链接](https://github.com/daliansky/ThinkPad-X260-hackintosh/blob/master/README.md) | ThinkPad X260<br />网卡推荐：[DW1820A](https://blog.daliansky.net/uploads/WeChatandShop.png) |
-| Thinkpad x390-yoga                 | [链接](https://github.com/Liu-wenxiang/Thinkpad-X390-Yoga-Clover) [链接](https://github.com/mendax1234/ThinkpadX390-Opencore-EFI) |                                                              |                                                              |
+| Thinkpad x390-yoga                 | [链接](https://github.com/Liu-wenxiang/Thinkpad-X390-Yoga-Clover)  |                                                              |                                                              |
+| ThinkPad X390                      | [链接](https://github.com/mendax1234/ThinkpadX390-Opencore-EFI)    | [链接](http://bbs.pcbeta.com/viewthread-1852139-1-1.html)    |       ThinkPad X390(39CD)                                      |
 | Lenovo Y50(70) 系列                | [链接](https://github.com/RehabMan/Lenovo-Y50-DSDT-Patch) [链接](https://github.com/Destro706/OpenCore-EFI-LenovoY50-70-UHD)<br />[链接](https://github.com/GeekyCoder7/OpenCore-EFI-Lenovo-Y50-70) | [链接](https://www.tonymacx86.com/threads/guide-lenovo-y50-uhd-or-1080p-using-clover-uefi.261723/) | Y50(70)1080P 和 4K 版本<br />网卡推荐：[DW1820A](https://blog.daliansky.net/uploads/WeChatandShop.png) |
 | Lenovo IdeaPad 530s                | [链接](https://github.com/corint1/Hackintosh-Lenovo-IdeaPad-530s-14ikb) |                                                              | 感谢：[39军小兵张](http://i.pcbeta.com/space-uid-4472739.html) |
 | Lenovo Ideapad S340/S540           | [链接](https://github.com/IvanAleksandrov94/Lenovo-s340-s540-Big-Sur-OpenCore-i5-8265u) |                                                              |                                                              |
@@ -887,7 +890,7 @@
 | 未来人类 X599 初款                 | [链接](https://github.com/WarsFeng/P750ZM-Hackintosh)           |                                                              |                   关联蓝天 P750ZM                                           |
 | FUJITSU 富士通 S762 | [链接](https://github.com/hongweizhu163/Hackintosh-EFI-for-FUJITSU-S762) | |  |
 | 51nb X210 ThinkPad副厂主板 | [链接](https://github.com/lulujyc/51nb-X210-Hackintosh) | |  |
-
+| Toshiba L840                        | [链接](https://github.com/dickymuliafiqri/EFI-Toshiba-L840-OC)                        |
 
 ### 笔记本更多的机型
 
