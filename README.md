@@ -1142,6 +1142,7 @@
 | MSI H410M-PRO-VH | [链接](https://github.com/Abhinavcs7/EFI-For-MSI-H41OM-PRO---VH-MacOS-big-sur-) | | i3-10100 |
 | MSI H410M BOMBER | [链接](https://github.com/dakezi/i3-10100-MSI-H410M-BOOMER-UHD630-Hackintosh-EFI) | | i3-10100 |
 | MSI H81M-IE35 | [链接](https://github.com/MoeGuoH/EFI-MSI-H81M-IE35) | |  |
+| MSI H270 GAMING M3 + Thunderbolt 3 GC Titan Ridge | [链接](https://github.com/basett1/OPENCORE-EFI-MSI-H270-GC-TITAN-RIDGE) | | |
 | MSI Z270 PC-MATE | [链接](https://github.com/koscakdomen/Hackintosh_EFI) | | |
 | MSI Z370-A                | [链接](https://github.com/daliansky/Z370-Hackintosh)         | [链接](https://github.com/daliansky/Z370-Hackintosh)         | 小兵自用，长期维护<br />网卡推荐：[BCM94360CD](https://blog.daliansky.net/uploads/WeChatandShop.png) |
 | MSI Z370m mortar | [链接](https://github.com/JackyCZJ/Z370M-MORTAR-I7-9700K-M9PEG-CLOVER) |                                                              | 网卡推荐：[BCM94360CD](https://blog.daliansky.net/uploads/WeChatandShop.png) |
