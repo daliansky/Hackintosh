@@ -497,6 +497,7 @@
 | AMD FX 6300/NVIDIA GTX 650                                   | [link](https://github.com/pexcn/hackintosh-amd)              |                                                              | 主板：Asus M5A97 LE R2.0                                     |
 | Gigabyte B450M Aorus Elite + Ryzen5 R3600 + Gigabyte RX580 MacOS 11.0 Bigsur Working with OC 0.6.3   | [link](https://github.com/ExodazTH/RyzenHackintosh)    |
 | MSI B350M Gaming Pro                                         | [link](https://github.com/nghuunghiaa111/Hackintosh-IMac)    |
+| MSI X470 Gaming Pro                                          | [link](https://github.com/Przeblysk/MSI_X470_GAMING_PRO_AMD_2700X_NVIDIA_1070Ti_MacOS-High-Sierra) | |Nvidia 1070Ti High-Sierra 10.13.6  
 | AMD Ryzen 5 1400<br />MSI RX580 8GB Armor                    |
 | AMD Ryzen 1700/Asus B350 Plus                                | [link](https://github.com/mikigal/ryzen-hackintosh)          |                                                              | MSI GTX 1080 Gaming X                                        |
 | AMD Vanilla Clover Patches                                   | [link](https://github.com/AMD-OSX/AMD_Vanilla)               | [link](https://github.com/cheneyveron/hackintosh-clover-tachi-x370-1700x-rx570) | AMD Clover补丁，以后可以<br />直接刻盘安装，10.14.5我会同步<br />更新针对AMD平台的配置文件<br />敬请期待 |
