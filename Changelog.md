@@ -252,59 +252,51 @@
   - 新增机型：
 
     - Asus FL5900U
-
-    - Asus ROG Strix G15 - G512LV
-
+- Asus ROG Strix G15 - G512LV
     - Asus TUF 505GE
-
-    - Asus VivoBook X509FB
-
+- Asus VivoBook X509FB
     - Dell Latitude E5280
-
-    - HP EliteBook 840 G4
-
+- HP EliteBook 840 G4
     - HP EliteBook 840 G6
-
-    - HP ZHAN99 zbook 15v g5
-
+- HP ZHAN99 zbook 15v g5
     - HP ZHAN 99 Pro G1 MT
-
-    - Lenovo 昭阳 E49
-
+- Lenovo 昭阳 E49
     - Lenovo V730-15IKB
-
-    - Lenovo XiaoXin V4000
-
+- Lenovo XiaoXin V4000
     - Thinkpad X1 Carbon Gen 8
-
-    - Lenovo Legion 5i
-
+- Lenovo Legion 5i
     - LG Gram 14Z990
-
-    - LG Gram17 Z90n
-
+- LG Gram17 Z90n
     - Redmibook14增强版
-
-    - Xiaomi Redmibook 16
-
+- Xiaomi Redmibook 16
     - 未来人类T5
-
-    - CHUWI Minibook
-
+- CHUWI Minibook
     - Asus X470 Pro
-
-    - ASRock H61M-S1 Plus
-
+- ASRock H61M-S1 Plus
     - Gigabyte H170 HD3
-
-    - HP Compaq Pro 4300
-
+- HP Compaq Pro 4300
     - MSI B460I GAMING EDGE WIFI
-
-    - MSI H270 GAMING M3
-
+- MSI H270 GAMING M3
     - MSI H410M-PRO-VH
+- ONDA H410 SD4
 
-    - ONDA H410 SD4
+- 2021年1月19日
+  - 新增机型：
+    - Acer Aspire V 15 V5-591G
+    - Dell Latitude 5411
+    - Dell Latitude 5511
+    - 暗影精灵5 dc1010nr
+    - Lenovo Ideapad S145-15IWL
+    - 拯救者R720
+    - MSI GE70 2OE
+    - MSI GE72 2QE
+    - ASUS B250M
+    - Asus Prime H410M
+    - ASRock Z390M-ITX/ac
+    - Gigabyte B365M Aorus Elite
+    - Gigabyte H87M-D3H
+    - Gigabyte GA-Z170XP-SLI
+    - MSI Z390-A PRO
 
-      
+
+
