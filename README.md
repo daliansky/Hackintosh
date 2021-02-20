@@ -1097,7 +1097,8 @@
 | HP Z420               | [链接](https://github.com/yansheng1003/Hackintosh) [链接](https://github.com/joepool/Hackintosh-HP-Z420-OpenCore) |          | E5 1650v2       |
 | HP Z600 Workstation   |         |          | Mac-Mini-Killer |
 | HP Z620 Workstation   | [链接](https://github.com/d4vinder/HP-Z620-Hackintosh-macOS-Catalina) [链接](https://github.com/mokiii/HP-Z620-Hackintosh-macOS_10.13-10.15) | ||
-| HP ZHAN 99 Pro G1 MT  | [链接](https://github.com/Z-fly/HP-ZHAN-99-Pro-G1-MT-Hackintosh) [链接](https://github.com/MacsedProtoss/hackintosh)|          | UHD630 |
+| HP ZHAN99 WorkStation G1  | [链接](https://github.com/MacsedProtoss/hackintosh)|          |  |
+| HP ZHAN 99 Pro G1 MT  | [链接](https://github.com/Z-fly/HP-ZHAN-99-Pro-G1-MT-Hackintosh)|          | UHD630 |
 
 ### Intel 英特尔
 
