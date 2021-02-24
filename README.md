@@ -80,6 +80,8 @@
     - MSI H270 GAMING M3
     - MSI H410M-PRO-VH
     - ONDA H410 SD4
+- 2021年2月24日
+  - 删除已失效的repo
 
 完整的更新日志：[更新日志](./Changelog.md)
 
