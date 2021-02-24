@@ -7,101 +7,105 @@
 - 2019 年 01 月 15 日
 
 - 2019 年 3 月 1 日 by 黑果小兵
+
   - 按机型重新排版
   - 将该文档上传到仓库，方便其它人提交合并，共同维护
-  
+
 - 2019年4月2日
+
   - 添加部分新机型
   - 将多于2个机型的品牌独立出来，方便检索
-  
+
 - 2019年5月9日
-  
+
   - 新增机型：`Mechrevo X9Ti R` / `Mechrevo Z2 G` 等
-  
+
 - 2019年5月10日 by [明城](https://github.com/mingcheng)
-  
+
   - 新增机型：`Lenovo M93P` / `Dell 9020m` 等机型
-  
+
 - 2019年7月3日 by [Cruii](https://github.com/Cruii)
-  
+
   - 新增机型：`暗影精灵2Pro`(HP OMEN 15-ax225TX)
-  
+
 - 2019年7月19日 by [lgs3137](https://github.com/lgs3137)
-  
+
   - 新增机型：`暗影精灵I`(惠普PAVILION Gaming NB 15-ak039TX)
-  
+
 - 2019年8月15日
-  
+
   - 新增机型：ASUS X299 PRIME DELUXE II + i9 7980XE + Radeon VII
-  
+
 - 2019年8月16日
+
   - 新增机型：MSI X370 KRAIT GAMING + 1700X + RADEON VEGA64
   - 新增机型：ASROCK X570 TAICHI + 3700X + RADEON VEGA64，兼容ASROCK X570 TAICHI(BIOS<=1.21) + 1700X + RADEON VEGA64
-  
+
 - 2019年9月1日 by [lgs3137](https://github.com/lgs3137)
-  
+
   - 新增机型：`ASUS Y5000U`(X507UBR)
-  
+
 - 2019年9月7日 by [lgs3137](https://github.com/lgs3137)
-  
+
   - 新增机型：`Acer P258-MG`
-  
+
 - 2019年9月17日 by [skyline75489](https://github.com/skyline75489)
-  
+
   - 新增机型：`MSI GE63 Raider RGB 8RE`
-  
+
 - 2019年10月5日 by [sarkrui](https://github.com/sarkrui)
-  
+
   - 新增机型：ASRock Z390M Pro4 + i7-9700K + Sapphire RX580 Nitro+ 8G
-  
+
 - 2019年10月5日 by [我意](https://github.com/y010204025)
-  
+
   - 新增机型：lenovo miix4(700)、miix510、E470
-  
+
 - 2019年10月19日 by [kongbg](https://github.com/kongbg)
-  
+
   - 新增机型：ASUS K555LD
-  
+
 - 2019年10月28日 by [W-MS](https://github.com/W-MS)
+
   - 新增机型：Dell OptiPlex 7060 and 7070
   - 增加新版本支持： Dell OptiPlex 9020
-  
+
 - 2019年11月4日 by [YGQ8988](https://github.com/YGQ8988)
-  
+
   - 新增机型：HP ProBook 430 G6
-  
+
 - 2019年11月14日
-  
+
   - 新增机型：Lenovo Y9000X
-  
+
 - 2019年11月21日
 
   - 新增机型：Dell XPS 15 7590
-  
+
 - 2020年1月18日
-  
+
   - 新增机型：DELL系列/Lenovo系列等机型
-  
+
 - 2020年2月15日
-  
+
   - 新增机型：ASUS VivoBook FL8000UQ
-  
+
 - 2020年3月8日
 
   - 新增机型：华为Matebook 14 2020款
 
 - 2020年3月14日
-  
+
   - 新增机型：Lenovo G400
-  
+
 - 2020年4月8日
 
   - 新增机型：联想Miix 720/YOGA 910等机型
 
 - 2020年4月22日
-  
+
   - 新增机型：光影精靈4代/MSI-MPG-Z390-Gaming-EDGE-AC
-  
+
 - 2020年5月5日
 
   - 新增机型：联想M710Q等
@@ -221,6 +225,25 @@
     - Gigabyte H110M H
     - Gigabyte Z390 DESIGNARE
 
+- 2021年1月19日
+
+  - 新增机型：
+    - Acer Aspire V 15 V5-591G
+    - Dell Latitude 5411
+    - Dell Latitude 5511
+    - 暗影精灵5 dc1010nr
+    - Lenovo Ideapad S145-15IWL
+    - 拯救者R720
+    - MSI GE70 2OE
+    - MSI GE72 2QE
+    - ASUS B250M
+    - Asus Prime H410M
+    - ASRock Z390M-ITX/ac
+    - Gigabyte B365M Aorus Elite
+    - Gigabyte H87M-D3H
+    - Gigabyte GA-Z170XP-SLI
+    - MSI Z390-A PRO
+
 - 2021年1月20日
 
   - 新增机型：
@@ -252,51 +275,36 @@
   - 新增机型：
 
     - Asus FL5900U
-- Asus ROG Strix G15 - G512LV
+    - Asus ROG Strix G15 - G512LV
     - Asus TUF 505GE
-- Asus VivoBook X509FB
+    - Asus VivoBook X509FB
     - Dell Latitude E5280
-- HP EliteBook 840 G4
+    - HP EliteBook 840 G4
     - HP EliteBook 840 G6
-- HP ZHAN99 zbook 15v g5
+    - HP ZHAN99 zbook 15v g5
     - HP ZHAN 99 Pro G1 MT
-- Lenovo 昭阳 E49
+    - Lenovo 昭阳 E49
     - Lenovo V730-15IKB
-- Lenovo XiaoXin V4000
+    - Lenovo XiaoXin V4000
     - Thinkpad X1 Carbon Gen 8
-- Lenovo Legion 5i
+    - Lenovo Legion 5i
     - LG Gram 14Z990
-- LG Gram17 Z90n
+    - LG Gram17 Z90n
     - Redmibook14增强版
-- Xiaomi Redmibook 16
+    - Xiaomi Redmibook 16
     - 未来人类T5
-- CHUWI Minibook
+    - CHUWI Minibook
     - Asus X470 Pro
-- ASRock H61M-S1 Plus
+    - ASRock H61M-S1 Plus
     - Gigabyte H170 HD3
-- HP Compaq Pro 4300
+    - HP Compaq Pro 4300
     - MSI B460I GAMING EDGE WIFI
-- MSI H270 GAMING M3
+    - MSI H270 GAMING M3
     - MSI H410M-PRO-VH
-- ONDA H410 SD4
+    - ONDA H410 SD4
 
-- 2021年1月19日
-  - 新增机型：
-    - Acer Aspire V 15 V5-591G
-    - Dell Latitude 5411
-    - Dell Latitude 5511
-    - 暗影精灵5 dc1010nr
-    - Lenovo Ideapad S145-15IWL
-    - 拯救者R720
-    - MSI GE70 2OE
-    - MSI GE72 2QE
-    - ASUS B250M
-    - Asus Prime H410M
-    - ASRock Z390M-ITX/ac
-    - Gigabyte B365M Aorus Elite
-    - Gigabyte H87M-D3H
-    - Gigabyte GA-Z170XP-SLI
-    - MSI Z390-A PRO
+ - 2021年2月24日
 
+   - 删除已失效的repo
 
-
+     
