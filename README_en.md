@@ -268,6 +268,7 @@
 | Lenovo Ideapad 310-14IKB             | [link](https://github.com/29satnam/LenovoHackintosh)         | [link](https://github.com/29satnam/LenovoHackintosh/blob/master/README.md) |                                                              |
 | Lenovo Ideapad 330-15IKB             | [link](https://github.com/theerha2/lenovo-330-15-ikb-hackintosh) |                                                              |
 | Lenovo Ideapad 320-15ISK             | [link](https://github.com/chrisru26/LenovoIdeapad330s-14ikb-Hackintosh) |                                                              |                                                              |
+| Lenovo Ideapad 320-14ISK             | [link](https://github.com/dickymuliafiqri/Lenovo-Ideapad-320-14ISK-Hackintosh)       |         |           |
 | Lenovo Ideapad 330s-14IKB            | [link](https://github.com/chrisru26/LenovoIdeapad330s-14ikb-Hackintosh) |                                                              |                                                              |
 | Lenovo Ideapad 700-15ISK             | [link](https://github.com/athlonreg/Lenovo-XiaoXin700-15ISK) | [link](https://github.com/athlonreg/Lenovo-XiaoXin700-15ISK/blob/master/README.md) | Lenovo-XiaoXin700-15ISK                                      |
 | Lenovo Flex 3-1580                   | [link](https://github.com/gdllzkusi/Lenovo-Fex3-1580-hackintosh) |                                                              |                                                              |
