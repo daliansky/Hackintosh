@@ -50,7 +50,9 @@ kextstat | grep Brcm43 | awk '{for(i=6;i<=7;i++){to=to" "$i};print to}' | sed "s
 ioreg -l | grep "IO80211CountryCode" | sed 's/|//g' | sed 's/ //g'
 echo "\033[34m ${BT} \033[0m"
 echo "==========================================================="
-system_profiler SPUSBDataType | grep BCM2045A0 | grep -v SPUSBDevice | sed 's/ //g'
+#system_profiler SPUSBDataType | grep BCM2045A0 | grep -v SPUSBDevice | sed 's/ //g'
+system_profiler SPUSBDataType | grep "0a5c" && system_profiler SPUSBDataType | grep 22be
+system_profiler SPUSBDataType | grep "eeba" && system_profiler SPUSBDataType | grep 03e
 ioreg -l | grep "FirmwareVersionString" | sed "s/|//g" | sed "s/ //g" 
 kextstat | grep -v com.apple | grep -y brcm | awk '{print $6,$7}'
 
