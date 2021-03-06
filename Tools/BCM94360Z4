@@ -8,7 +8,7 @@
 # 
 # @command call： [ sh -c "$(curl -fsSL https://raw.githubusercontent.com/daliansky/Hackintosh/master/Tools/BCM94360Z4)" ]
 # 国内调用加速：
-# @command call： [ sh -c "$(curl -fsSL https://cdnjs.jsdelivr.net/gh/daliansky/Hackintosh/Tools/BCM94360Z4)"]
+# @command call： [ sh -c "$(curl -fsSL https://cdn.jsdelivr.net/gh/daliansky/Hackintosh/Tools/BCM94360Z4)"]
 # str="字符串"
 # echo -e "\033[30m ${str}\033[0m"      ## 黑色字体
 # echo -e "\033[31m ${str}\033[0m"      ## 红色
@@ -24,7 +24,7 @@ bootargs="引导参数:"
 MB="机型或主板:"
 WIFI="网卡信息："
 BT="蓝牙信息："
-curl -fsSL https://cdnjs.jsdelivr.net/gh/daliansky/Hackintosh/master/Tools/bdmesg -o /tmp/bdmesg && chmod +x /tmp/bdmesg
+curl -fsSL https://cdn.jsdelivr.net/gh/daliansky/Hackintosh/master/Tools/bdmesg -o /tmp/bdmesg && chmod +x /tmp/bdmesg
 
 echo "  ######   #####  #     #  #####  #        #####   #####    ###   ####### #"
 echo "  #     # #     # ##   ## #     # #    #  #     # #     #  #   #       #  #    #"
@@ -43,7 +43,7 @@ echo "\033[33m ${MB} \033[0m \c" && sh -c /tmp/bdmesg | grep Running | awk '{for
 # sh -c /tmp/bdmesg | grep PCI | grep -v IGPU | grep -v USBXHCI | grep -v PCI0
 echo "\033[32m ${WIFI} \033[0m"
 echo "==========================================================="
-curl -fsSL https://cdnjs.jsdelivr.net/gh/daliansky/Hackintosh/master/Tools/gfxutil -o /tmp/gfxutil && chmod +x /tmp/gfxutil && sh -c /tmp/gfxutil | grep ARPT | awk '{print $3}'
+curl -fsSL https://cdn.jsdelivr.net/gh/daliansky/Hackintosh/master/Tools/gfxutil -o /tmp/gfxutil && chmod +x /tmp/gfxutil && sh -c /tmp/gfxutil | grep ARPT | awk '{print $3}'
 sh -c /tmp/bdmesg  | grep -y aspm | awk '{for(i=3;i<=NF;i++){to=to" "$i};print to}'
 ioreg -l | grep "14e4,43" | grep "compatible" | sed "s/|//g" | sed "s/ //g" 
 system_profiler SPAirPortDataType | grep "Card Type"
