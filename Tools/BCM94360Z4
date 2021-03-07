@@ -1,0 +1,63 @@
+#!/bin/sh
+# 
+# @desc [Get BCM94360Z4 device information script]
+# @author [DalianSky]
+# @email [daliansky2008@mail.com]
+# @create date 2021-03-5 05:12:13
+# @modify date 2021-03-5 12:57:02
+# 
+# @command call： [ sh -c "$(curl -fsSL https://raw.githubusercontent.com/daliansky/Hackintosh/master/Tools/BCM94360Z4)" ]
+# 国内调用加速：
+# @command call： [ sh -c "$(curl -fsSL https://cdn.jsdelivr.net/gh/daliansky/Hackintosh/Tools/BCM94360Z4)"]
+# str="字符串"
+# echo -e "\033[30m ${str}\033[0m"      ## 黑色字体
+# echo -e "\033[31m ${str}\033[0m"      ## 红色
+# echo -e "\033[32m ${str}\033[0m"      ## 绿色
+# echo -e "\033[33m ${str}\033[0m"      ## ×××
+# echo -e "\033[34m ${str}\033[0m"      ## 蓝色
+# echo -e "\033[35m ${str}\033[0m"      ## 紫色
+# echo -e "\033[36m ${str}\033[0m"      ## 青色
+# echo -e "\033[37m ${str}\033[0m"      ## 白色
+DW1820A="BCM94360Z4驱动信息："
+ver="macOS版本:"
+bootargs="引导参数:"
+MB="机型或主板:"
+WIFI="网卡信息："
+BT="蓝牙信息："
+# bdmesg download url
+curl -fsSL https://cdn.jsdelivr.net/gh/daliansky/Hackintosh/Tools/bdmesg -o /tmp/bdmesg && chmod +x /tmp/bdmesg
+
+echo "  ######   #####  #     #  #####  #        #####   #####    ###   ####### #"
+echo "  #     # #     # ##   ## #     # #    #  #     # #     #  #   #       #  #    #"
+echo "  #     # #       # # # # #     # #    #        # #       # #   #     #   #    #"
+echo "  ######  #       #  #  #  ###### #######  #####  ######  #  #  #    #    #######"
+echo "  #     # #       #     #       #      #        # #     # #   # #   #          #"
+echo "  #     # #     # #     # #     #      #  #     # #     #  #   #   #           #"
+echo "  ######   #####  #     #  #####       #   #####   #####    ###   #######      #"
+
+echo "\033[31m ${DW1820A} \033[0m"
+echo "\033[33m ${ver} \033[0m \c" && sw_vers -productVersion
+echo "\033[36m ${bootargs} \033[0m \c" && ioreg -l | grep -y boot-args | awk '{for(i=4;i<=NF;i++){to=to" " $i};print to}'
+echo "==========================================================="
+echo "\033[33m ${MB} \033[0m \c" && sh -c /tmp/bdmesg | grep Running | awk '{for(i=5;i<=NF;i++){to=to" "$i};print to}'
+# echo "=== [ GetDevices ] ========================================"
+# sh -c /tmp/bdmesg | grep PCI | grep -v IGPU | grep -v USBXHCI | grep -v PCI0
+echo "\033[32m ${WIFI} \033[0m"
+echo "==========================================================="
+# gfxutil download url
+curl -fsSL https://cdn.jsdelivr.net/gh/daliansky/Hackintosh/Tools/gfxutil -o /tmp/gfxutil && chmod +x /tmp/gfxutil && sh -c /tmp/gfxutil | grep ARPT | awk '{print $3}'
+sh -c /tmp/bdmesg  | grep -y aspm | awk '{for(i=3;i<=NF;i++){to=to" "$i};print to}'
+ioreg -l | grep "14e4,43" | grep "compatible" | sed "s/|//g" | sed "s/ //g" 
+system_profiler SPAirPortDataType | grep "Card Type"
+system_profiler SPAirPortDataType | grep "MAC Address"
+kextstat | grep Brcm43 | awk '{for(i=6;i<=7;i++){to=to" "$i};print to}' | sed "s/ //g" 
+ioreg -l | grep "IO80211CountryCode" | sed 's/|//g' | sed 's/ //g'
+echo "\033[34m ${BT} \033[0m"
+echo "==========================================================="
+#system_profiler SPUSBDataType | grep BCM2045A0 | grep -v SPUSBDevice | sed 's/ //g'
+#system_profiler SPUSBDataType | grep "0a5c" && system_profiler SPUSBDataType | grep 22be # 内测版
+system_profiler SPUSBDataType | grep "33ba" && system_profiler SPUSBDataType | grep 03e # 量产版
+ioreg -l | grep "FirmwareVersionString" | sed "s/|//g" | sed "s/ //g" 
+kextstat | grep -v com.apple | grep -y brcm | awk '{print $6,$7}'
+
+

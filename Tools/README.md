@@ -1,5 +1,13 @@
 # 常用工具
 
+## 一键提取 BCM94360Z4网卡信息
+
+```bash
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/daliansky/Hackintosh/master/Tools/BCM94360Z4)"
+```
+
+
+
 ## Nvidia Web Driver下载/更新
 
 提供以下几种方式，总有一款适合你
