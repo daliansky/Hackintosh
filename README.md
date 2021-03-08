@@ -50,38 +50,29 @@
 <summary>更新日志</summary>
 
 更新日期：
-- 2021年2月15日
-  - 新增机型：
-    - Asus FL5900U
-    - Asus ROG Strix G15 - G512LV
-    - Asus TUF 505GE
-    - Asus VivoBook X509FB
-    - Dell Latitude E5280
-    - HP EliteBook 840 G4
-    - HP EliteBook 840 G6
-    - HP ZHAN99 zbook 15v g5
-    - HP ZHAN 99 Pro G1 MT
-    - Lenovo 昭阳 E49
-    - Lenovo V730-15IKB
-    - Lenovo XiaoXin V4000
-    - Thinkpad X1 Carbon Gen 8
-    - Lenovo Legion 5i
-    - LG Gram 14Z990
-    - LG Gram17 Z90n
-    - Redmibook14增强版
-    - Xiaomi Redmibook 16
-    - 未来人类T5
-    - CHUWI Minibook
-    - Asus X470 Pro
-    - ASRock H61M-S1 Plus
-    - Gigabyte H170 HD3
-    - HP Compaq Pro 4300
-    - MSI B460I GAMING EDGE WIFI
-    - MSI H270 GAMING M3
-    - MSI H410M-PRO-VH
-    - ONDA H410 SD4
-- 2021年2月24日
-  - 删除已失效的repo
+- 2021年3月8日
+  - 新增机型
+    - Acer Aspire E5-575G
+    - Acer Predator G3-571
+    - Asus N550JK
+    - Asus N550JV
+    - 战神 G8-CU7NA
+    - HP Elitebook 830 G7
+    - HP Elitebook 840 G7
+    - HP Elitebook 850 G7
+    - Thinkpad X1 Carbon Gen 7
+    - Lenovo Z410
+    - LG 14U530
+    - MSI GF63-10
+    - 火影金刚GTX
+    - MSI MAG B550M MORTAR WIFI
+    - Asus H110M-C2 MoBo
+    - Asus ROG STRIX H370-I GAMING
+    - Asus Z170-Pro
+    - ASUS ROG Z390-F Gaming
+    - Dell Optiplex 5070mff
+    - Gigabyte mdh11ki
+    - MSI B250M MORTAR
 
 完整的更新日志：[更新日志](./Changelog.md)
 

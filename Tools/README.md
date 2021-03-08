@@ -6,6 +6,8 @@
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/daliansky/Hackintosh/master/Tools/BCM94360Z4)"
 ```
 
+输出结果如下：
+
 
 
 ## Nvidia Web Driver下载/更新
@@ -228,14 +230,30 @@ curl -fsSL https://raw.githubusercontent.com/daliansky/Hackintosh/master/Tools/i
 
 ```bash
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/daliansky/Hackintosh/master/Tools/DW1820A)"
-
 ```
+
+输出结果如下：
+
+![DW1820A驱动信息](http://7.daliansky.net/DW1820A/DW1820A_Bug_Report.png)
 
 ## 一键提取`macOS 三码`
 
 ```bash
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/daliansky/Hackintosh/master/Tools/sn.sh)"
 ```
+
+输出结果如下：
+
+```bash
+SystemProductName: MacPro7,1
+SystemUUID: AF9CB0AC-DE74-4BE8-A59C-8BA4639D0BDD
+SystemSerialNumber: F5KGD7Y5P7QM
+Valid: Unlikely
+ROM: FCFFFF28FCFF
+MLB: F5K137404J9K3F7CB
+```
+
+
 
 ## 一条命令提取`EDID`
 
