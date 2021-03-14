@@ -833,6 +833,7 @@
 
 | **台式**                                                     | 发布地址                                                     | 教程地址                                                     | 备注                                                         |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| AMD Vanilla Clover Patches                                   | [链接](https://github.com/AMD-OSX/AMD_Vanilla)               | [链接](https://github.com/cheneyveron/hackintosh-clover-tachi-x370-1700x-rx570) | AMD 通用安装补丁 |
 | ASRock B450 Gaming-ITX/ac                                    | [链接](https://github.com/LemoFire/OpenCore-ASRock-B450-Gaming-ITX-ac) |                                                              |                                                              |
 | ASRock B450M Pro4                                            | [链接](https://github.com/dr03m/ASRock-B450M-Pro4-USB-Patch) |                                                              |                                                              |
 | AsRock B450M Steel Legend                                    | [链接](https://github.com/marcustut/Hackintosh)              |                                                              |                                                              |
@@ -895,7 +896,6 @@
 | MSI MAG X570 TOMAHAWK WIFI                                   | [链接](https://github.com/theHari08/MSI-MAG-X570-TOMAHAWK-WIFI-Hackintosh) |                                                              |                                                              |
 | MSI MPG X570 GAMING PLUS                                     | [链接](https://github.com/SuperY/OpenCore-EFI-for-MSI-MPG-X570-Gaming-Plus) |                                                              |                                                              |
 | AMD Ryzen 1700/Asus B350 Plus                                | [链接](https://github.com/mikigal/ryzen-hackintosh)          |                                                              | MSI GTX 1080 Gaming X                                        |
-| AMD Vanilla Clover Patches                                   | [链接](https://github.com/AMD-OSX/AMD_Vanilla)               | [链接](https://github.com/cheneyveron/hackintosh-clover-tachi-x370-1700x-rx570) | AMD Clover补丁，以后可以<br />直接刻盘安装，10.14.5我会同步<br />更新针对AMD平台的配置文件<br />敬请期待 |
 | Clover-Ryzen-MSI-B450I                                       | [链接](https://github.com/portrayer/Clover-Ryzen-MSI-B450I)  |                                                              |                                                              |
 | Gigabyte X399 Aorus Extreme                                  | [链接](https://github.com/SchmockLord/Hackintosh-Threadripper-1950x-Gigabyte-X399-Aorus-Extreme) |                                                              | Threadripper 1950x@4.0Ghz                                    |
 
