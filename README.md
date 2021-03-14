@@ -954,6 +954,7 @@
 
 | **台式（部分）**                   | 发布地址                                                     | 教程地址 | 备注                                                         |
 | ---------------------------------- | ------------------------------------------------------------ | -------- | ------------------------------------------------------------ |
+| ASRock B150M-HDV                   | [链接](https://github.com/Z-fly/ASRock-B150M-HDV-OpenCore-Hackintosh)               |          |                                                              |
 | ASRock deskmini 110                | [链接](https://github.com/suxiaogang/asrock-deskmini-110-hackintosh) |          |                                                              |
 | ASRock deskmini 310                | [链接](https://github.com/liminghuang/asrock_deskmini310_hackintosh) [链接](https://github.com/huangyanan/Hackintosh-EFI-for-deskmini-310-dw1820)<br />[链接](https://github.com/vainhope/Hackintosh-Deskmini310-EFI) |          | 网卡推荐：[BCM94360Z4](https://blog.daliansky.net/uploads/WeChatandShop.png) |
 | ASRock deskmini H470               | [链接](https://github.com/lugeek/Asrock-Deskmini-H470-Opencore) |          |                                                              |
