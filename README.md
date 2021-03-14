@@ -284,7 +284,6 @@
 | Dell Inspiron 5570               | [链接](https://github.com/Mateo1234454545/Dell-5570-hackintosh) [链接](https://github.com/stayboogy/Hackintosh_Dell-Inspiron-5570_Catalina) |                                                              |                                                              |
 | Dell Inspiron 5577               | [链接](https://github.com/imAmouse/Clover-EFI-For-Dell-5577)  |                                                              |                                                              |
 | Dell Inspiron 5584               | [链接](https://github.com/Hackintoshlifeit/DELL-Inspiron-5584) |                                                              |                                                              |
-|  |  | | |
 | Dell Inspiron 5680 |  | | 网卡推荐：[DW1820A](https://blog.daliansky.net/uploads/WeChatandShop.png)； |
 | Dell Inspiron 7000 系列          | [链接](https://github.com/daliansky/dell7000)                | [链接](https://github.com/daliansky/dell7000/blob/master/README.md) | Dell Inspiron 7000 I/II (7x60/7x72)<br />网卡推荐：[DW1820A](https://blog.daliansky.net/uploads/WeChatandShop.png) |
 | Dell Inspiron 7348               | [链接](https://github.com/MoozIiSP/dell-7348-hackintosh)     |                                                              |                                                              |
