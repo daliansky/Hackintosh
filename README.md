@@ -759,7 +759,7 @@
 | XiaoMi Air          | [链接](https://github.com/hevervie/Hackintosh_XIAOMI_AIR-13.3) |                                                              | 喜欢买小米的，自己区分去吧，我是分不清楚了                   |
 | XiaoMi Air          | [链接](https://github.com/wilsonnkwan/Hackintosh-Xiaomi-Air-13.3-2018-Catalina) |                                                              |                                                              |
 | XiaoMi Air 13.3     | [链接](https://github.com/teojs/Xiaomi-Air-i7-8550u-EFI)     |                                                              | i7-8550U                                                     |
-| 红米redmibook mx250 |           | i5-8265u、i7-8650u                                           |                                                              |
+| 红米redmibook mx250 |           |                             | i5-8265u、i7-8650u                                                             |
 | 红米G               | [链接](https://github.com/Xhichn/Hackbook_Redmi_G)           |                                                              |                                                              |
 | Redmibook14增强版   | [链接](https://github.com/haoey/-)                           |                                                              |                                                              |
 | Xiaomi Redmibook 16 | [链接](https://github.com/elishevatavori/Xiaomi-Redmibook-16-Hackintosh) |                                                              | i7-1065G7                                                    |
