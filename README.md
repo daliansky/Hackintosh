@@ -833,7 +833,7 @@
 
 | **台式**                                                     | 发布地址                                                     | 教程地址                                                     | 备注                                                         |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| AMD Vanilla Clover Patches                                   | [链接](https://github.com/AMD-OSX/AMD_Vanilla)               | [链接](https://github.com/cheneyveron/hackintosh-clover-tachi-x370-1700x-rx570) | AMD 通用安装补丁 |
+| AMD Vanilla Clover Patches                                   | [链接](https://github.com/AMD-OSX/AMD_Vanilla)               | [链接](https://amd-osx.com/) | AMD 通用安装补丁 |
 | ASRock B450 Gaming-ITX/ac                                    | [链接](https://github.com/LemoFire/OpenCore-ASRock-B450-Gaming-ITX-ac) |                                                              |                                                              |
 | ASRock B450M Pro4                                            | [链接](https://github.com/dr03m/ASRock-B450M-Pro4-USB-Patch) |                                                              |                                                              |
 | AsRock B450M Steel Legend                                    | [链接](https://github.com/marcustut/Hackintosh)              |                                                              |                                                              |
