@@ -408,7 +408,7 @@
 | Hases-z7-kp7sc              | [链接](https://github.com/Bluestar-coder/Hases-z7-kp7sc-10.15.4-OC) |                                    |                             |
 | 精盾 T96E                   | [链接](https://github.com/L0ngxhn/Hackintosh-Hasee-T96E)     |                                                    | 准系统型号：蓝天 P950EP6                                     |
 | 精盾 K590S                  | [链接](https://github.com/JokerHYC/K590S-HACKINTOSH)         |                                                    | 准系统型号：	蓝天 W350ET                                  |
-| 战神Z7(M)-CT7(5NA/NK/NT)/G7/G8-CT7-NA-NK                 | [链接](https://github.com/MichaelPan1026/Clevo-NH50-NH70-Hackintosh)         |                                                    | 准系统型号：	蓝天 NH50,NH70Rx系列，这命名太他喵的乱了                                  |
+| 战神Z7(M)-CT7(5NA/NK/NT)/G7/G8-CT7-NA-NK                 | [链接](https://github.com/MichaelPan1026/Clevo-NH50-NH70-Hackintosh)         |                                                    | 准系统型号：	蓝天 NH50,NH70Rx系列                                 |
 | 战神Z7-SP7S2 | [链接](https://github.com/tilkofjin/blackMac) | |  |
 
 
@@ -465,17 +465,17 @@
 | HP ZHAN99 zbook 15v g5                        | [链接](https://github.com/rote66/Hackintosh_HP_ZBOOK15VG5)   |                                                              |                                                              |
 | HP ZHAN99 WorkStation G1                      | [链接](https://github.com/MacsedProtoss/hackintosh)|          |  |
 | 暗影精灵5 dc1010nr                            | [链接](https://github.com/hibobmaster/HP-15-dc1010nr-hackintosh) | [链接](https://blog.hibobmaster.com/hp-15-dc1010nr-hackintosh/) |                                                              |
-| 暗影精灵4 i5-8300H GTX1050Ti                  | [链接](https://github.com/canwdev/omen15dc-hackintosh) [OC版](https://github.com/ReekyStive/hp-omen-15-hackintosh) |                                                              |                                                              |
+| 暗影精灵4 i5-8300H GTX1050Ti                  | [链接](https://github.com/ReekyStive/hp-omen-15-hackintosh) |                                                              |                                                              |
 | 暗影精灵2                                     | [链接](https://github.com/Arecall/-Mac-os)                   |                                                              |                                                              |
 | 惠普暗影精灵2 15-ax015TX                      | [链接](https://github.com/a13134455667/HP-15-ax015TX-MAC10.15.4-OC-EFI) |                                                              | OpenCore 0.6.0 / Big Sur                                     |
 | 暗影精灵 II 代Pro <br />HP OMEN 15-ax214TX    | [链接](https://github.com/ZGGSONG/HP-OMEN-15-ax214TX-Hackintosh) |                                                              |                                                              |
 | 暗影精灵2 Pro HP OMEN 15-ax225TX              | [链接](https://github.com/Cruii/HP-OMEN-15-ax225TX) [链接](https://github.com/XStar-Dev/HP_OMEN-2Pro_Hackintosh)<br />[链接](https://github.com/sve1r/OMEN-By-HP-15-ax225TX-Hackintosh-EFI) |                                                              |                                                              |
-| HP暗影精灵3                                   |       |                                                              | 还有挖坑的，看看啥时候能埋人                                 |
+| 惠普暗影精灵3                                   |       |                                                              | 还有挖坑的，看看啥时候能埋人                                 |
 | 惠普光影精灵3(HP Pavilion 15-cb0xx)           | [链接](https://github.com/zty199/HP_Pavilion_15-cb073tx_Hackintosh) |                                                              | 希望能继续维护                                               |
 | 暗影精灵I (惠普PAVILION Gaming NB 15-ak039TX) | [链接](https://github.com/lgs3137/PAVILION_Gaming_NB-macOS)  |                                                              | 除了独显、Intel无线网卡，其他功能模块正常(包括HDMI视频)      |
-| HP Pavillion Gaming Laptop 15-cx0xxx          | [链接](https://github.com/mechtifs/hackintosh-clover-hp-pavillion-15-cx0xxx) |                                                              | 光影精靈4代                                                  |
+| HP Pavillion Gaming Laptop 15-cx0xxx          | [链接](https://github.com/mechtifs/hackintosh-clover-hp-pavillion-15-cx0xxx) |                                                              | 惠普光影精灵5                                                  |
 | HP PAVILION Gaming NB 15-cx0172tx             | [链接OC](https://github.com/ExodazTH/Opencore-on-HP-Pavilion-Gaming-15-cx0172tx) [链接CV](https://github.com/ExodazTH/Hackintosh-on-HP-Pavilion-Gaming-15-cx0172tx) |                                                              | non-working:GPU(Nvidia 1050TI/GTX)/WiFi( Intel® Wireless-AC 9560 802.11b/g/n/ac) |
-| 惠普光影精靈5                                 | [链接](https://github.com/Tonymiugrey/Garden-by-miugrey) [链接](https://github.com/hibobmaster/HP-15-dc1010nr-hackintosh) |                                                              | 內含搞定PM981的補丁，可以試試                                |
+| 惠普光影精灵5                                 | [链接](https://github.com/Tonymiugrey/Garden-by-miugrey) [链接](https://github.com/hibobmaster/HP-15-dc1010nr-hackintosh) |                                                              | 内含搞定PM981的补丁，可以试试                               |
 | HP Omen 15 DC                                 | [链接](https://github.com/kirainmoe/hp-omen15-dc-macos)      |                                                              | 暗影精灵 4 GTX1060 144Hz 版，由于物理屏蔽核显，只能安装 10.13.6 |
 
 ### Huawei 华为
@@ -820,7 +820,7 @@
 | OC-little            | [链接](https://github.com/daliansky/OC-little)             | `OpenCore` 部件热修复(hotpatch)                              | 感谢：@宪武                                                  |
 |                      | **触摸板**                                                 |                                                              |                                                              |
 | VoodooI2C-PreRelease |  | [触摸设备 DSDT 修补补充](https://github.com/williambj1/VoodooI2C-PreRelease/blob/master/%E8%A7%A6%E6%91%B8%E6%9D%BF%E8%A1%A5%E5%85%85.md) | [Bat.bat](https://github.com/williambj1)搞的                 |
-| GenI2C               | [link](https://github.com/williambj1/GenI2C)               | 生成SSDT触摸板的热修复补丁(hotpatch)，以便支持`VoodooI2C`    |                                                              |
+| GenI2C               | [链接](https://github.com/williambj1/GenI2C)               | 生成SSDT触摸板的热修复补丁(hotpatch)，以便支持`VoodooI2C`    |                                                              |
 |                      | **无线网卡**                                               |                                                              |                                                              |
 | 推荐无线网卡         | **MiniPCIe** 接口(推荐 BCM4352HMB、DW1510)                 | **博通**：BCM94322HM8L、Asus BCM94352、AzureWave AW-CE123H、AzureWave AW-NB290H、DW1510、DW1520、DW1550、 | **高通**：DW1515、DW1705、AR5BHB92、AR5BHB112 AR9285 芯片在 10.14 将不再被支持 |
 |                      | **PCIe** 接口                                              | **博通**：BCM94331CD、BCM94322MC、BCM94360CD                 | **高通**：AR5BXB72、AR5BXB92、AR5BXB112                      |
@@ -1196,7 +1196,7 @@
 | X99                        | [链接](https://github.com/Cclown98/X99-OPENCORE-EFI-CATALINA-BIGSUR) |                                                              |                  |
 | PANSHI X99D4               | [链接](https://github.com/Andywyh/PANSHI-X99-D4-OC-EFI)      |                                                              |                  |
 | 七彩虹CVN B460i            | [链接](https://github.com/AlphaGHX/Hackintosh-CVN-b460i-efi) |                                                              |                  |
-| ONDA H410 SD4              | 链接                                                         |                                                              |                  |
+| ONDA H410 SD4              | [链接](https://github.com/yinxianwei/ONDA-H410SD4-Hackintosh) |                                                              |                  |
 
 ## 硬件兼容列表
 
