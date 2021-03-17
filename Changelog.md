@@ -279,4 +279,34 @@
     - Dell Optiplex 5070mff
     - Gigabyte mdh11ki
     - MSI B250M MORTAR
+- 2021年3月17日
+  - 新增机型：
+    - Asus X542u
+    - Asus ZenBook UX305UA
+    - Dell Inspriron 14 3467
+    - Dell Inspiron 7391
+    - Dell Inspiron 7560
+    - Dell Latitude E5270
+    - 战神K670C-g6a1
+    - HP Probook 450 G5
+    - HP Pavilion ce3034nl
+    - Lenovo IdeaPad 320S 14IKB
+    - 三星Samsung NP350U-2B
+    - 海尔Haier Y11C
+    - Asrock B365M Pro4
+    - ASRock Z170 Gaming K4
+    - Asus H170M-PLUS
+    - Asus Z170 Deluxe
+    - Asus TUF Z390-PLUS GAMING
+    - Dell Optiplex 5040
+    - Dell Optiplex 5060MFF
+    - Dell Optiplex 5070mff
+    - Dell Optiplex 7020 SFF/MT
+    - Dell XPS 8940 
+    - Gigabyte H370m D3h
+    - Lenovo v410z
+    - MSI B250 GAMING PRO CARBON
+    - MSI H61-P31/W8
+    - MSI Z490 Gaming Plus
+    - Onda P75U
 
