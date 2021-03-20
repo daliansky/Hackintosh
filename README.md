@@ -125,9 +125,8 @@
 | Acer Aspire V5-573P | [链接](https://github.com/xtrs84zk/Aspire-V5-573P-Hackintosh) |  | |
 | Acer VN7-793g            | [链接](https://github.com/cedric-bour/Acer-VN7-793g-Hackintosh) |                                                              |                             |
 | Acer-K50-10-525V         | [链接](https://github.com/mingslife/Acer-K50-10-525V-Hackintosh) |                                                              |                             |
-| 宏碁暗影骑士3            | [链接](https://github.com/Chakid/Acer-VX15-Hackintosh)       |                                                              |                             |
-| ACER-ASPIRE-C24-865      |  |                                                              |                             |
-| ACER Travelmate P248     | [链接](https://github.com/jamesciq/Acer-Travelmate-P248-hackintosh-EFI) |                                                              |                             |
+| Acer VX5-591G           | [链接](https://github.com/Chakid/Acer-VX15-Hackintosh)       |                                                              |            宏碁暗影骑士3                |
+| Acer Travelmate P248     | [链接](https://github.com/jamesciq/Acer-Travelmate-P248-hackintosh-EFI) |                                                           |                             |
 | Acer TravelMate TX520-G2-MG | [链接](https://github.com/zqlovezone/ACER-TX520-Hackintosh-Opencore) | | |
 | Acer P258-MG             | [链接](https://github.com/lgs3137/ACER_P258_MG-macOS)        |                                                              |                             |
 
@@ -150,7 +149,7 @@
 | Asus F556U (X556UQK)              | [链接](https://github.com/systemfaliure/Asus-X556UQK-hackintosh#Asus-f556u-x556uqk---high-sierra-hackintosh) | [链接](https://github.com/systemfaliure/Asus-X556UQK-hackintosh/blob/master/README.md) | Asus F556U (X556UQK)                                         |
 | Asus FX50J                        | [链接](https://github.com/Xc2333/Hackintosh-Asus-FX50J)      |                                                              |                                                              |
 | Asus FX50V                        | [链接](https://github.com/Cyberhan123/Hackintosh-ASUS--FX50V) |                                                              |                                                              |
-| FX86FE（FX505GE）                 | [链接](https://github.com/EricCui2333/FX86FE-OpenCore-0.5.5) |                                                              |                                                              |
+| Asus FX86FE（FX505GE）                 | [链接](https://github.com/EricCui2333/FX86FE-OpenCore-0.5.5) |                                                              |                                                              |
 | Asus FX533VD                      |    |                                                              |                                                              |
 | Asus GL503GE                      | [链接](https://github.com/Bimoaryo5/ASUS-GL503GE-Hackintosh-master) |                                                              |                                                              |
 | Asus FX86FE（飞行堡垒6）                      | [链接](https://github.com/MEMUZE-Hackintosh/ASUS-FX86FE-OC) |                                                              |                                                              |
@@ -158,7 +157,7 @@
 | Asus GL552VW                      | [链接](https://github.com/originman521/Hackintosh-ASUS-FXPRO-GL552VW) |                                                              | 飞行堡垒2016 FXPRO                                           |
 | Asus G60VW                        |             |                                                              |                                                              |
 | Asus K501LB                       | [链接](https://github.com/ApolloRisky/EFI_Clover-Asus-K501LB-Mojave) |                                                              |                                                              |
-| ASUS K555UB Series                | [链接](https://github.com/sutsurup/ASUS-K555UB-Hackintosh)   | [链接](https://github.com/sutsurup/ASUS-K555UB-Hackintosh/blob/master/README.md) | XO092T - XO093T - XO096T - XO097T<br />XO066T - XO198T - XO266T - XO099D - XO227D |
+| Asus K555UB Series                | [链接](https://github.com/sutsurup/ASUS-K555UB-Hackintosh)   | [链接](https://github.com/sutsurup/ASUS-K555UB-Hackintosh/blob/master/README.md) | XO092T - XO093T - XO096T - XO097T<br />XO066T - XO198T - XO266T - XO099D - XO227D |
 | Asus K55VD                        | [链接](https://github.com/southernvevo/Asus-K55VD-HACKINTOSH) | [链接](https://github.com/southernvevo/Asus-K55VD-HACKINTOSH/blob/master/README.md) | Asus K55VD                                                   |
 | Asus K555LD                       | [链接](https://github.com/kongbg/asus-k555ld-4210U)          | [链接](https://github.com/kongbg/asus-k555ld-4210U/blob/master/README.md) | Asus K555LD                                                  |
 | Asus N550JK | [链接](https://github.com/AlirezaH320/asus-n550jk-hackintosh) |  |  |
@@ -177,20 +176,20 @@
 | Asus ROG Zephyrus S GX531GS       |  |                                                              | 华硕玩家国度冰刃 3                                           |
 | Asus ROG GL703ge |  | | |
 | Asus ROG GX701                    | [链接](https://github.com/laeo/hackintosh-rog-gx701-efi)     |                                                              |                                                              |
-| ASUS S4000VA                      | [链接](https://github.com/stonexing/Asus-S4000VA8550-Hackintosh) |                                                              | 华硕灵耀 i7-8550U                                            |
+| Asus S4000VA                      | [链接](https://github.com/stonexing/Asus-S4000VA8550-Hackintosh) |                                                              | 华硕灵耀 i7-8550U                                            |
 | Asus S4100V                       | [链接](https://github.com/loong1992/Asus_S4100VN8250U_Hackintosh) |                                                              |                                                              |
 | Asus S510UQ                       | [链接](https://github.com/KINGKONG2808/Hackintosh_ASUSS510UQ) [链接](https://github.com/JoK3rLeE/Asus-S510UQ-BQ178T) |                                                              | Asus VivoBook S150UQ-BQ178T |
 | Asus S5300FN                      | [链接](https://github.com/Jie2GG/Hackintosh-ASUS-S5300FN)    |                                                              | 华硕灵耀2代                                                  |
 | Asus S530UN                       | [链接](https://github.com/tunglamvghy/AsusS530UN-hackintosh) |                                                              |                                                              |
 | Asus TP300LD                      | [链接](https://github.com/danang-id/ASUS-TP300LD-ESP)        |                                                              |                                                              |
 | Asus TUF Gaming FX504             | [链接](https://github.com/PoomSmart/Asus-FX504GE-Hackintosh) [链接](https://github.com/angeljavan/AUSU-FX80GE-FX504Ge-efi) | [链接](https://github.com/PoomSmart/Asus-FX504GE-Hackintosh/blob/master/README.md) | 华硕 FX80GE FX504GE                                          |
-| ASUS TUF504GD                     |  |                                                              |                                                              |
+| Asus TUF504GD                     |  |                                                              |                                                              |
 | Asus TUF 505GE | [链接](https://github.com/SonHai32/TUF_505GE_EFI_OC_0.6.6_SP_BigSur) | | |
 | Asus TUF 15 FX506L | [链接](https://github.com/VGerris/asus-tuf-15-opencore) | | |
 | Asus UX461UA                      | [链接](https://github.com/UdaraWanasinghe/Asus-UX461UA-OpenCore-EFI) |                                                              |                                                              |
 | Asus UX501JW                      | [链接](https://github.com/firefly917/Hackintosh_Asus-UX501JW_Mojave) |                                                              |                                                              |
 | Asus VivoBook 15 X510UQ / S5100UQ | [链接](https://github.com/wishayne/hackintosh-Asus-S5100UQ-X510UQ) |                                                              | |
-| ASUS Vivobook S13 S330FN		| [链接](https://github.com/deniro98/s330fn) |                                                              | |
+| Asus Vivobook S13 S330FN		| [链接](https://github.com/deniro98/s330fn) |                                                              | |
 | Asus X441U                        |  |                                                              | 华硕 adol I330FN                                                             |
 | Asus X441UB                       |  |                                                              |                                                              |
 | Asus X441UV                       | [链接](https://github.com/MinorityCode/asus-x441uv-hackintosh-files) |                                                              |                                                              |
@@ -212,7 +211,7 @@
 | Asus X542u | [链接](https://github.com/nguyencuongit96/efi-asus-x542-hackintosh) | | |
 | Asus X542UN                       | [链接](https://github.com/yCatDev/asus_x542un-hackintosh)    |                                                              |                                                              |
 | Asus X550JX                       | [链接](https://github.com/gaoliang/Asus-X550JX-Hackintosh)   |                                                              |                                                              |
-| ASUS X550VC |  | | |
+| Asus X550VC |  | | |
 | Asus X550VX                       | [链接](https://github.com/lramadhan/hackintosh-asus-x550vx)  |                                                              |                                                              |
 | Asus X550VXK                      | [链接](https://github.com/Giovix92/efi_x550vxk)              |                                                              |                                                              |
 | Asus X555LB                       | [链接](https://github.com/emre1393/Asus-x555lb-mojave-efi)   |                                                              |                                                              |
@@ -227,7 +226,7 @@
 | Asus ZenBook 系列                 | [链接](https://github.com/hieplpvip/Asus-ZENBOOK-HACKINTOSH) | [链接](https://www.tonymacx86.com/threads/guide-Asus-zenbook-using-clover-uefi-hotpatch.257448/) | 支持型号: UX310 - UX330 - UX330<br />UX410 - UX430 - UX430   |
 | Asus ZenBook Flip UX360UAK        | [链接](https://github.com/Frizz925/UX360UAK-Hackintosh)      | [链接](https://github.com/Frizz925/UX360UAK-Hackintosh/blob/master/README.md) |                                                              |
 | Asus ZenBook UX32VD               | [链接](https://github.com/rafaelmaeuer/Asus-UX32VD-Hackintosh) | [链接](https://github.com/rafaelmaeuer/Asus-UX32VD-Hackintosh/blob/master/readme.md) | Asus UX32VD                                                  |
-| ASUS ZenBook UX305FA | [链接](https://github.com/nganhquoc95/clover-ux305fa) [链接](https://github.com/lehoa1806/UX305FA-OpenCore) |                                                              |                                                              |
+| Asus ZenBook UX305FA | [链接](https://github.com/nganhquoc95/clover-ux305fa) [链接](https://github.com/lehoa1806/UX305FA-OpenCore) |                                                              |                                                              |
 | Asus ZenBook UX305UA | [链接](https://github.com/aryamawb/asus-ux305ua-hackintosh) | | |
 | Asus ZenBook UX330UAK             | [链接](https://github.com/Rybo713/UX330UA-macOS)             | [链接](https://github.com/Rybo713/UX330UA-macOS/blob/master/README.md) | Asus UX330UAK (Kabylake）                                    |
 | Asus Zenbook UX331 | [链接](https://github.com/VortexisTV/Asus-Zenbook-UX331-Hackintosh) |  |  |
