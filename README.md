@@ -962,10 +962,12 @@
 | **台式（部分）**               | 发布地址                                                     | 教程地址 | 备注                                                         |
 | ------------------------------ | ------------------------------------------------------------ | -------- | ------------------------------------------------------------ |
 | Asus B85 Pro Gamer             | [链接](https://github.com/xl120022/ASUS-B85PG-E3-RX570-MAC10.15) |          | e3-1231v3 / rx570                                            |
+| Asus B85MG | [链接](https://github.com/samleong123/i5-4570-B85MG-HD4600-BigSur-Opencore-EFI) | | i5-4570 |
 | Asus P8P67 EVO | [链接](https://github.com/Qraxin/Asus-P8P67-OpenCore-EFI) | | i7-2600k |
 | ASUS Chromebox CN62            | [链接](https://github.com/waldoxhm/asus-chromebox-cn62-guado-hackintosh) |          |                                                              |
 | ASUS B250M                     | [链接](https://github.com/zsyshuyang/Hackintosh-EFI-For-ASUS-B250M-PLUS-i5-7500-RX580) [链接](https://github.com/laijingwei/CLOVER-EFI) |          |                                                              |
 | Asus Prime H310I-M             | [链接](https://github.com/xLidoni/i3-8100-H310I-Hackintosh_OC) |          |                                                              |
+| Asus Prime H310M-F R2.0 | [链接](https://github.com/hanandjun/Hackintosh-Pentium-G5420) | | 网卡推荐：[BCM94360CD](https://blog.daliansky.net/uploads/WeChatandShop.png) |
 | Asus ROG Strix B360-i          | [链接](https://github.com/jiangwweie/ROG-B360I-EFI) [链接](https://github.com/NEEPUCS/Ausu-ROG-Strix-B360i-HACKINTOSH-OPENCORE-EFI) |          |                                                              |
 | Asus TUF B360M-PLUS-S          | [链接](https://github.com/Zerah64/hackintosh_9400f_b360_vega56) [链接](https://github.com/swlfigo/HackintoshEFI) |          |                                                              |
 | ASUS TUF B460M                 | [链接](https://github.com/SmallKi-d/ASUS-B460M-TUF-I5-10500ES-RX5700) [链接](https://github.com/SeanChan0901/ASUS-B460M-TUF-HACKINTOSH-OPENCORE-EFI) |          | 网卡推荐：[BCM94360CD](https://blog.daliansky.net/uploads/WeChatandShop.png) |
