@@ -62,6 +62,9 @@
 | Asus K501LB                       | [link](https://github.com/ApolloRisky/EFI_Clover-Asus-K501LB-Mojave) |                                                              |                                                  |
 | Asus K55VD                        | [link](https://github.com/southernvevo/Asus-K55VD-HACKINTOSH) | [link](https://github.com/southernvevo/Asus-K55VD-HACKINTOSH/blob/master/README.md) | Asus K55VD                                       |
 | Asus K555LD                       | [link](https://github.com/kongbg/asus-k555ld-4210U) | [link](https://github.com/kongbg/asus-k555ld-4210U/blob/master/README.md) | Asus K555LD |
+| Asus N550JK | [link](https://github.com/AlirezaH320/asus-n550jk-hackintosh) |  |  |
+| Asus N550JV | [link](https://github.com/bakedpotato191/asusn550jv-hackintosh) |  |  |
+| Asus N551JK | [link](https://github.com/basett1/Asus-N551JK-OC-EFI) |  |  |
 | Asus Laptop N56VZ                 | [link](https://github.com/signxer/N56VZ-Hackintosh)          |                                                              |                                                  |
 | Asus P8P67 PRO                    | [link](https://github.com/rafaelmaeuer/Asus-P8P67Pro-Hackintosh) | [link](https://github.com/rafaelmaeuer/Asus-P8P67Pro-Hackintosh/blob/master/readme.md) |                                                  |
 | Asus ROG GL552JX                  | [link](https://github.com/javanesse/Asus-ROG-GL552JX-High-Sierra-10.13-Hackintosh) | [link](https://github.com/javanesse/Asus-ROG-GL552JX-High-Sierra-10.13-Hackintosh/blob/master/README.md) | Asus ROG GL552JX                                 |
