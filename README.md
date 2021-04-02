@@ -49,29 +49,17 @@ _希望整个黑苹果领域能够进入良性循环状态，不用再重复造�
 
 更新日期：
 
-- 2021 年 3 月 8 日
-  - 新增机型
-    - Acer Aspire E5-575G
-    - Acer Predator G3-571
-    - Asus N550JK
-    - Asus N550JV
-    - 战神 G8-CU7NA
-    - HP Elitebook 830 G7
-    - HP Elitebook 840 G7
-    - HP Elitebook 850 G7
-    - Thinkpad X1 Carbon Gen 7
-    - Lenovo Z410
-    - LG 14U530
-    - MSI GF63-10
-    - 火影金刚 GTX
-    - MSI MAG B550M MORTAR WIFI
-    - Asus H110M-C2 MoBo
-    - Asus ROG STRIX H370-I GAMING
-    - Asus Z170-Pro
-    - ASUS ROG Z390-F Gaming
-    - Dell Optiplex 5070mff
-    - Gigabyte mdh11ki
-    - MSI B250M MORTAR
+- `2021年4月2日`
+  - 新增机型：
+    - Asus VivoBook FL8000u
+    - Dell Inspiron 3568
+    - Dell Latitude E7370
+    - Dell Vostro 3468
+    - Dell Vostro 5581
+    - HP Pavilion 15 au624tx
+    - HP Pavilion 15G BR011TX
+    - Lenovo Ideapad S540 14IWL
+    - Gigabyte H410M S2H
 
 完整的更新日志：[更新日志](./Changelog.md)
 

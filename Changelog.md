@@ -371,14 +371,24 @@
   - 新增机型：
 
     - Asus X540LJ
-
-    - HP 15 da0004tu
-
+- HP 15 da0004tu
     - HP 15G BR011TX
-
-    - Asus Z490 AORUS PRO AX
-
+- Asus Z490 AORUS PRO AX
     - Huananzhi x99 f8
 
-      
+- 2021年4月2日
+
+  - 新增机型：
+  - Asus VivoBook FL8000u
+    - Dell Inspiron 3568
+    - Dell Latitude E7370
+    - Dell Vostro 3468
+    - Dell Vostro 5581
+    - HP Pavilion 15 au624tx
+    - HP Pavilion 15G BR011TX
+    - Lenovo Ideapad S540 14IWL
+    - Gigabyte H410M S2H
+    - 
+  
+  
 
