@@ -62,6 +62,9 @@
 | Asus K501LB                       | [link](https://github.com/ApolloRisky/EFI_Clover-Asus-K501LB-Mojave) |                                                              |                                                  |
 | Asus K55VD                        | [link](https://github.com/southernvevo/Asus-K55VD-HACKINTOSH) | [link](https://github.com/southernvevo/Asus-K55VD-HACKINTOSH/blob/master/README.md) | Asus K55VD                                       |
 | Asus K555LD                       | [link](https://github.com/kongbg/asus-k555ld-4210U) | [link](https://github.com/kongbg/asus-k555ld-4210U/blob/master/README.md) | Asus K555LD |
+| Asus N550JK | [link](https://github.com/AlirezaH320/asus-n550jk-hackintosh) |  |  |
+| Asus N550JV | [link](https://github.com/bakedpotato191/asusn550jv-hackintosh) |  |  |
+| Asus N551JK | [link](https://github.com/basett1/Asus-N551JK-OC-EFI) |  |  |
 | Asus Laptop N56VZ                 | [link](https://github.com/signxer/N56VZ-Hackintosh)          |                                                              |                                                  |
 | Asus P8P67 PRO                    | [link](https://github.com/rafaelmaeuer/Asus-P8P67Pro-Hackintosh) | [link](https://github.com/rafaelmaeuer/Asus-P8P67Pro-Hackintosh/blob/master/readme.md) |                                                  |
 | Asus ROG GL552JX                  | [link](https://github.com/javanesse/Asus-ROG-GL552JX-High-Sierra-10.13-Hackintosh) | [link](https://github.com/javanesse/Asus-ROG-GL552JX-High-Sierra-10.13-Hackintosh/blob/master/README.md) | Asus ROG GL552JX                                 |
@@ -229,6 +232,7 @@
 | HP 840-G1                              | [link](https://github.com/blint01/hackintosh-mojave-HP-840-G1) | [link](https://github.com/blint01/hackintosh-mojave-HP-840-G1/blob/master/README.md) |                                                              |
 | HP Elitebook 840 G2 | [link](https://github.com/AktasC/Hackintosh-Elitebook-840-G2-Broadwell) |  | |
 | HP Elitebook 840 G3 | [link](https://github.com/Innoxious/hackintosh-hp-840-g3-intel-ac8260) |  | |
+| HP Pavilion 14-CE2072NL | [link](https://github.com/1alessandro1/HP-Pavilion-CE2072NL-macOS/blob/main/README.md) |  | |
 | HP Pavilion 15-au028ur | [link](https://github.com/Drovosek01/hackintosh_HP_Pavilion_15-au028ur_i5-6200U/blob/master/docs/ENG/README.md) |  | |
 | HP Pavilion 15 au067tx | [link](https://github.com/FzeNiX/HPPavilion15-au067tx-Mojave-Hackintosh) |  | |
 | HP Pavilion15 AU157TX | [link](https://github.com/sxrhd/HP-AU157TX-EFI) | | |
@@ -576,4 +580,3 @@ If you approve my work, please support me for subsequent updates.
 | [![paypal_daliansky](http://7.daliansky.net/paypal_daliansky.png)](https://www.paypal.me/daliansky) | ![wechatpay_160](http://7.daliansky.net/wechatpay_160.jpg)   | ![alipay_160](http://7.daliansky.net/alipay_160.jpg) |
 
 [![img](https://img.shields.io/github/stars/daliansky/Hackintosh.svg?color=ff69b4&label=%E7%82%B9%E8%B5%9E&logoColor=ff69b4&style=social)](https://github.com/daliansky/Hackintosh) [![img](https://img.shields.io/github/followers/daliansky.svg?label=%E7%B2%89%E4%B8%9D&logoColor=success&style=social)](https://github.com/daliansky/Hackintosh) ![img](https://img.shields.io/github/contributors/daliansky/Hackintosh.svg?color=red&label=%E8%B4%A1%E7%8C%AE%E4%BA%BA%E6%95%B0) [![img](https://img.shields.io/github/last-commit/daliansky/Hackintosh.svg?color=orange&label=%E6%9C%80%E8%BF%91%E6%8F%90%E4%BA%A4)](https://github.com/daliansky/Hackintosh) [![img](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu/)
-
