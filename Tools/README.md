@@ -1,35 +1,19 @@
 # 常用工具
 
-## Nvidia Web Driver下载/更新
-
-提供以下几种方式，总有一款适合你
-
-- Webdriver All Versions.app![WebdriverDownload](WebdriverDownload.png)
-
-- [WebDD v1.7](WebDD.command)
-
-- webdriver.sh 项目仓库：<https://github.com/vulgo/webdriver.sh>
-
-  Nvidia webdriver驱动下载：<https://vulgo.github.io/nvidia-drivers/>
-
-  ```bash
-  brew tap vulgo/repo
-  brew install webdriver.sh
-  webdriver -a list
-  ```
-
-  ![webdriver.png](webdriver.png)
-
-- 一条命令17G66 Nvidia Web Driver驱动：
+## 一键提取 BCM94360Z4网卡信息
 
 ```bash
-bash < (curl -s https://vulgo.github.io/webdriver) 387.10.10.10.40.113
+sh -c "$(curl -fsSL https://cdn.jsdelivr.net/gh/daliansky/Hackintosh/Tools/BCM94360Z4)"
 ```
 
-## 一键安装`Catalina`下缺失的`PPTP`驱动及相关文件，以使用`PPTP clientfor Catalina`
+输出结果如下：
+
+
+
+## 一键安装`Catalina`下缺失的`PPTP`驱动及相关文件，以使用`PPTP client for Catalina`
 
 ```bash
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/daliansky/Hackintosh/master/Tools/PPTP_for_Catalina.sh)"
+sh -c "$(curl -fsSL https://cdn.jsdelivr.net/gh/daliansky/Hackintosh/Tools/PPTP_for_Catalina.sh)"
 ```
 
 
@@ -39,7 +23,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/daliansky/Hackintosh/maste
 打开终端，输入命令：
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/daliansky/Hackintosh/master/Tools/bdmesg -o /tmp/bdmesg && chmod +x /tmp/bdmesg && sh -c /tmp/bdmesg | grep Running
+curl -fsSL https://cdn.jsdelivr.net/gh/daliansky/Hackintosh/Tools/bdmesg -o /tmp/bdmesg && chmod +x /tmp/bdmesg && sh -c /tmp/bdmesg | grep Running
 ```
 
 输出如下：
@@ -51,7 +35,7 @@ curl -fsSL https://raw.githubusercontent.com/daliansky/Hackintosh/master/Tools/b
 或者：显示更多的信息：
 
 ```bash
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/daliansky/Hackintosh/master/Tools/archey)"
+sh -c "$(curl -fsSL https://cdn.jsdelivr.net/gh/daliansky/Hackintosh/Tools/archey)"
 ```
 
 输出效果见上图
@@ -74,17 +58,17 @@ Reg add HKLM\SYSTEM\CurrentControlSet\Control\TimeZoneInformation /v RealTimeIsU
 打开终端，输入命令：
 
 ```bash
-sudo sh -c "$(curl -kfsSL https://raw.githubusercontent.com/hieplpvip/LocalTime-Toggle/master/fix_time_osx.sh)"
+sudo sh -c "$(curl -kfsSL https://cdn.jsdelivr.net/gh/daliansky/LocalTime-Toggle/fix_time_osx.sh)"
 ```
 
-
+备注：不适用于`Big Sur`系统
 
 ## 微信小助手
 
 打开终端，输入命令：
 
 ```bash
-curl -o- -L https://raw.githubusercontent.com/lmk123/oh-my-wechat/master/install.sh | bash -s
+curl -o- -L https://cdn.jsdelivr.net/gh/lmk123/oh-my-wechat/install.sh | bash -s
 ```
 
 ## 微信助手
@@ -102,7 +86,7 @@ cd ~/Downloads && rm -rf MacWeChatPlugin && git clone https://github.com/cuiyu85
 打开终端，输入命令：
 
 ```bash
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/daliansky/Hackintosh/master/Tools/usb_Ports)"
+sh -c "$(curl -fsSL https://cdn.jsdelivr.net/gh/daliansky/Hackintosh/Tools/usb_Ports)"
 ```
 
 输出如下：
@@ -141,7 +125,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/daliansky/Hackintosh/maste
 打开终端，输入命令：
 
 ```bash
-[[ ! -x "/tmp/msss" ]] && (curl -fsSL -o /tmp/msss https://raw.githubusercontent.com/daliansky/Hackintosh/master/Tools/msss && chmod a+x /tmp/msss && open $(/tmp/msss -v)) || open $(/tmp/msss -v)
+[[ ! -x "/tmp/msss" ]] && (curl -fsSL -o /tmp/msss https://cdn.jsdelivr.net/gh/daliansky/Hackintosh/Tools/msss && chmod a+x /tmp/msss && open $(/tmp/msss -v)) || open $(/tmp/msss -v)
 ```
 
 也可以下载到本地执行：
@@ -161,7 +145,7 @@ $ msss -f 手动指定截图文件名和保存路径，比如：`msss -f ~/Deskt
 - 在终端输入以下命令并回车：
 
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/stevezhengshiqi/one-key-cpufriend/master/one-key-cpufriend.sh)"
+bash -c "$(curl -fsSL https://cdn.jsdelivr.net/gh/stevezhengshiqi/one-key-cpufriend/one-key-cpufriend.sh)"
 ```
 
 - 把桌面上的 `CPUFriend.kext` 和 `CPUFriendDataProvider.kext` 复制进 `/CLOVER/kexts/Other/` 并重启。
@@ -205,7 +189,7 @@ cat /etc/hosts
 打开终端，输入命令：
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/daliansky/Hackintosh/master/Tools/iasl-RM -o /tmp/iasl-RM && chmod +x /tmp/iasl-RM && sh -c /tmp/iasl-RM -l <dsl文件路径>
+curl -fsSL https://cdn.jsdelivr.net/gh/daliansky/Hackintosh/Tools/iasl-RM -o /tmp/iasl-RM && chmod +x /tmp/iasl-RM && sh -c /tmp/iasl-RM -l <dsl文件路径>
 ```
 
 ### 使用ACPICA的iasl63（ACPI标准6.3）
@@ -213,21 +197,37 @@ curl -fsSL https://raw.githubusercontent.com/daliansky/Hackintosh/master/Tools/i
 打开终端，输入命令：
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/daliansky/Hackintosh/master/Tools/iasl63 -o /tmp/iasl63 && chmod +x /tmp/iasl63 && sh -c /tmp/iasl63 -l <dsl文件路径>
+curl -fsSL https://cdn.jsdelivr.net/gh/daliansky/Hackintosh/Tools/iasl63 -o /tmp/iasl63 && chmod +x /tmp/iasl63 && sh -c /tmp/iasl63 -l <dsl文件路径>
 ```
 
 ## 一键提取DW1820A所需的信息：
 
 ```bash
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/daliansky/Hackintosh/master/Tools/DW1820A)"
-
+sh -c "$(curl -fsSL https://cdn.jsdelivr.net/gh/daliansky/Hackintosh/Tools/DW1820A)"
 ```
+
+输出结果如下：
+
+![DW1820A驱动信息](http://7.daliansky.net/DW1820A/DW1820A_Bug_Report.png)
 
 ## 一键提取`macOS 三码`
 
 ```bash
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/daliansky/Hackintosh/master/Tools/sn.sh)"
+sh -c "$(curl -fsSL https://cdn.jsdelivr.net/gh/daliansky/Hackintosh/Tools/sn.sh)"
 ```
+
+输出结果如下：
+
+```bash
+SystemProductName: MacPro7,1
+SystemUUID: AF9CB0AC-DE74-4BE8-A59C-8BA4639D0BDD
+SystemSerialNumber: F5KGD7Y5P7QM
+Valid: Unlikely
+ROM: FCFFFF28FCFF
+MLB: F5K137404J9K3F7CB
+```
+
+
 
 ## 一条命令提取`EDID`
 
