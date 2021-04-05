@@ -483,6 +483,7 @@ _希望整个黑苹果领域能够进入良性循环状态，不用再重复造�
 | 惠普光影精灵 5                                  | [链接](https://github.com/Tonymiugrey/Garden-by-miugrey) [链接](https://github.com/hibobmaster/HP-15-dc1010nr-hackintosh) |                                                              | 内含 PM981 的补丁                                            |
 | HP Omen 15 DC                                   | [链接](https://github.com/kirainmoe/hp-omen15-dc-macos)      |                                                              | 暗影精灵 4 GTX1060 144Hz 版，由于物理屏蔽核显，只能安装 10.13.6 |
 | HP合集                                          | [链接](https://github.com/Baio1977/EFI-Varie-Hackintosh/tree/main/EFI%20Laptop%20/HP) |                                                              |                                                              |
+| HP Elite X2 G4 平板                             | [链接](https://github.com/lulujyc/EliteX2G4-OpenCore) |                                                              |                                                              |
 
 ### Huawei 华为
 
