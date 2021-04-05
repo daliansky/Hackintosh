@@ -249,6 +249,7 @@
 | 暗影精灵2 Pro HP OMEN 15-ax225TX       | [link](https://github.com/Cruii/HP-OMEN-15-ax225TX) [link](https://github.com/XStar-Dev/HP_OMEN-2Pro_Hackintosh) |                                                              |                                                              |
 | HP PAVILION Gaming NB 15-ak039TX   | [link](https://github.com/lgs3137/PAVILION_Gaming_NB-macOS)   | | Non-working:GPU(Nvidia 950M/GTX)/WiFi(Intel® Dual Band Wireless-AC 3165)   |
 | HP PAVILION Gaming NB 15-cx0172tx  | [linkOC](https://github.com/ExodazTH/Opencore-on-HP-Pavilion-Gaming-15-cx0172tx) [linkCV](https://github.com/ExodazTH/Hackintosh-on-HP-Pavilion-Gaming-15-cx0172tx)  | | non-working:GPU(Nvidia 1050TI/GTX)/WiFi( Intel® Wireless-AC 9560 802.11b/g/n/ac)   |
+| HP Elite X2 G4 Tablet                          | [链接](https://github.com/lulujyc/EliteX2G4-OpenCore) |                                                              |                                                              |
 
 #### Huawei 华为
 
