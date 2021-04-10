@@ -268,6 +268,7 @@ _希望整个黑苹果领域能够进入良性循环状态，不用再重复造�
 | Dell Inspiron 5491 2in1                    | [链接](https://github.com/Speeedo83/Dell-Inspiron-5491-2in1-Hakintosh) |                                                              |                                                              |
 | Dell Inspiron 5537                         | [链接](https://github.com/thedeadfish59/Dell_Inspiron_5537-Hackintosh) |                                                              |                                                              |
 | Dell Inspiron 5548(4528S)                  | [链接](https://github.com/yuppiesnotzhuhao/Hackintosh-Dell-Inspiron-5548) |                                                              |                                                              |
+| Dell Inspiron 5557                         | [链接](https://github.com/Mr-Zhang-1/dell5557-bigsur-OC)     |                                                              | i5-6200U 网卡推荐：[BCM94360Z4](https://blog.daliansky.net/uploads/WeChatandShop.png) |
 | Dell Inspiron 5558                         | [链接](https://github.com/jance-hui/DELL-5558-EFI)           |                                                              |                                                              |
 | Dell Inspiron 5559                         | [链接](https://github.com/YuZhangWang/Dell-Inspiron-i5-5559-Clover) |                                                              | Dell 5559                                                    |
 | Dell Inspiron 5566                         | [链接](https://github.com/matheusliraofficial/inspiron-5566-hackintosh) |                                                              |                                                              |
@@ -1121,32 +1122,32 @@ _希望整个黑苹果领域能够进入良性循环状态，不用再重复造�
 
 ### HP 惠普
 
-| **台式（部分）**             | 发布地址                                                                                                                                     | 教程地址 | 备注              |
-| ---------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ----------------- |
-| HP Compaq Pro 4300           | [链接](https://github.com/ichelash/HP4300EFI)                                                                                                |          |                   |
-| HP EliteDesk 400 G1 DM       |                                                                                                                                              |          |                   |
-| HP EliteDesk 800 G1 DM/USDT  |                                                                                                                                              |          |                   |
-| HP EliteDesk 800 G2          | [链接](https://github.com/taitran91095/HP800-G2-Mini-OpenCore) [链接](https://github.com/impulse/OpenCore-EliteDesk-800-G2SFF)               |          |                   |
-| HP EliteDesk 800 G2 DM       | [链接](https://github.com/randyzhong/HP-EliteDesk-800-G2-DM-Hackintosh)                                                                      |          |                   |
-| HP EliteDesk 800 G2 Tower PC | [链接](https://github.com/sakoula/HP-EliteDesk-800-G2-6700)                                                                                  |          | i7-6700 (Skylake) |
-| HP EliteDesk 800 G3          | [链接](https://github.com/lavjamanxd/hp-elitedesk-g3-hackintosh)                                                                             |          |                   |
-| HP EliteDesk 800 G3 DM       | [链接](https://github.com/randyzhong/OS-X-HP-EliteDesk-800-G3-DM-Clover)                                                                     |          |                   |
-| HP EliteDesk 800 G3 Mini     | [链接](https://github.com/francoisminh/Hackintosh-EliteDesk-800-G3-Mini-65W)                                                                 |          |                   |
-| HP EliteDesk 800 G4 DM       | [链接](https://github.com/jerry31279/HP-EliteDesk-800-G4-DM-35W-RX560)                                                                       |          |                   |
-| HP EliteDesk 800 G4 Mini     | [链接](https://github.com/itskaizad/Elitedesk-800-G4-Hackintosh)                                                                             |          |                   |
-| HP EliteDesk 800 G5 Mini     | [链接](https://github.com/Haveacry/OpenCore_HP-EliteDesk-800-G5-DM)                                                                          |          |                   |
-| Hp Prodesk 400G2 DM          | [链接](https://github.com/july929/Hackintosh-Hp-Prodesk-400G2-DM-EFI)                                                                        |          |                   |
-| HP Prodesk 400 G4 MT         |                                                                                                                                              |          |                   |
-| HP Prodesk 400 G6            | [链接](https://github.com/duccnv-1684/OC_HP_Prodesk_400_G6)                                                                                  |          |                   |
-| HP ProDesk 480 G4            | [链接](https://github.com/SummerEmber/HP-ProDesk-480-G4)                                                                                     |          |                   |
-| HP Prodesk 600 G1 DM         | [链接](https://github.com/ZqinKing/EFI-HP-ProDesk-600-G1-DM)                                                                                 |          |                   |
-| HP Prodesk 600 G1 SFF        | [链接](https://github.com/kidddjh/HP-Prodesk-600-G1-SFF)                                                                                     |          |                   |
-| HP ProDesk 600 G2 DM         | [链接](https://github.com/wcjxixi/HP-ProDesk-600G2-DM-Hackintosh) [链接](https://github.com/ningye2012/HP-600G2-DM-Hackintosh)               |          |                   |
-| HP ProDesk 600 G4            |                                                                                                                                              |          |                   |
-| HP Z420                      | [链接](https://github.com/yansheng1003/Hackintosh) [链接](https://github.com/joepool/Hackintosh-HP-Z420-OpenCore)                            |          | E5 1650v2         |
-| HP Z600 Workstation          |                                                                                                                                              |          | Mac-Mini-Killer   |
+| **台式（部分）**             | 发布地址                                                     | 教程地址 | 备注              |
+| ---------------------------- | ------------------------------------------------------------ | -------- | ----------------- |
+| HP Compaq Pro 4300           | [链接](https://github.com/ichelash/HP4300EFI)                |          |                   |
+| HP EliteDesk 400 G1 DM       |                                                              |          |                   |
+| HP EliteDesk 800 G1 DM/USDT  |                                                              |          |                   |
+| HP EliteDesk 800 G2          | [链接](https://github.com/taitran91095/HP800-G2-Mini-OpenCore) [链接](https://github.com/impulse/OpenCore-EliteDesk-800-G2SFF) |          |                   |
+| HP EliteDesk 800 G2 DM       | [链接](https://github.com/randyzhong/HP-EliteDesk-800-G2-DM-Hackintosh) |          |                   |
+| HP EliteDesk 800 G2 Tower PC | [链接](https://github.com/sakoula/HP-EliteDesk-800-G2-6700)  |          | i7-6700 (Skylake) |
+| HP EliteDesk 800 G3          | [链接](https://github.com/lavjamanxd/hp-elitedesk-g3-hackintosh) |          |                   |
+| HP EliteDesk 800 G3 DM       | [链接](https://github.com/randyzhong/OS-X-HP-EliteDesk-800-G3-DM-Clover) |          |                   |
+| HP EliteDesk 800 G3 Mini     | [链接](https://github.com/francoisminh/Hackintosh-EliteDesk-800-G3-Mini-65W) |          |                   |
+| HP EliteDesk 800 G4 DM       | [链接](https://github.com/jerry31279/HP-EliteDesk-800-G4-DM-35W-RX560) |          |                   |
+| HP EliteDesk 800 G4 Mini     | [链接](https://github.com/itskaizad/Elitedesk-800-G4-Hackintosh) |          |                   |
+| HP EliteDesk 800 G5 Mini     | [链接](https://github.com/Haveacry/OpenCore_HP-EliteDesk-800-G5-DM) |          |                   |
+| Hp Prodesk 400G2 DM          | [链接](https://github.com/july929/Hackintosh-Hp-Prodesk-400G2-DM-EFI) |          |                   |
+| HP Prodesk 400 G4 MT         |                                                              |          |                   |
+| HP Prodesk 400 G6            | [链接](https://github.com/duccnv-1684/OC_HP_Prodesk_400_G6)  |          |                   |
+| HP ProDesk 480 G4            | [链接](https://github.com/SummerEmber/HP-ProDesk-480-G4)     |          |                   |
+| HP Prodesk 600 G1 DM         | [链接](https://github.com/ZqinKing/EFI-HP-ProDesk-600-G1-DM) [链接](https://github.com/Mr-Zhang-1/600G1-DM-BigSur-OC) |          |                   |
+| HP Prodesk 600 G1 SFF        | [链接](https://github.com/kidddjh/HP-Prodesk-600-G1-SFF)     |          |                   |
+| HP ProDesk 600 G2 DM         | [链接](https://github.com/wcjxixi/HP-ProDesk-600G2-DM-Hackintosh) [链接](https://github.com/ningye2012/HP-600G2-DM-Hackintosh) |          |                   |
+| HP ProDesk 600 G4            |                                                              |          |                   |
+| HP Z420                      | [链接](https://github.com/yansheng1003/Hackintosh) [链接](https://github.com/joepool/Hackintosh-HP-Z420-OpenCore) |          | E5 1650v2         |
+| HP Z600 Workstation          |                                                              |          | Mac-Mini-Killer   |
 | HP Z620 Workstation          | [链接](https://github.com/d4vinder/HP-Z620-Hackintosh-macOS-Catalina) [链接](https://github.com/mokiii/HP-Z620-Hackintosh-macOS_10.13-10.15) |          |                   |
-| HP ZHAN 99 Pro G1 MT         | [链接](https://github.com/Z-fly/HP-ZHAN-99-Pro-G1-MT-Hackintosh)                                                                             |          | UHD630            |
+| HP ZHAN 99 Pro G1 MT         | [链接](https://github.com/Z-fly/HP-ZHAN-99-Pro-G1-MT-Hackintosh) |          | UHD630            |
 
 ### Intel 英特尔
 
