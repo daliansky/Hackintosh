@@ -819,6 +819,8 @@ _希望整个黑苹果领域能够进入良性循环状态，不用再重复造�
 | Toshiba L840                 | [链接](https://github.com/dickymuliafiqri/EFI-Toshiba-L840-OC)                      |                                                                              |                                                                                                             |
 | CHUWI Minibook               | [链接](https://github.com/THEDEVIOUS1/CHUWI-MINIBOOK-HACKINTOSH)                    |                                                                              |                                                                                                             |
 | 海尔 Haier Y11C              | [链接](https://github.com/HussainTaj-W/haier-y11c-efi-oc-hackintosh-big-sur)        |                                                                              |                                                                                                             |
+| 51nb T70 ThinkPad 副厂主板  | [链接](https://github.com/51nbT70CLOVER/51nb-T70-Hackintosh)                         |                                                                              |                                                                                                             |
+
 
 ### 笔记本更多的机型
 

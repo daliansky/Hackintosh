@@ -473,6 +473,7 @@
 | Terrans Force X599(Old)                 | [link](https://github.com/WarsFeng/P750ZM-Hackintosh)           |                                                              |                   Clevo P750ZM                                           |
 | 51nb X210 3rd Party ThinkPad Motherboard      | [link](https://github.com/lulujyc/51nb-X210-Hackintosh) |                                                              |                                                              |
 | Toshiba L840                        | [link](https://github.com/dickymuliafiqri/EFI-Toshiba-L840-OC)                        |
+| 51nb T70 3rd Party ThinkPad Motherboard  | [link](https://github.com/51nbT70CLOVER/51nb-T70-Hackintosh)                         |                                                                              |                                                                                                             |
 
 #### Notebook related resources
 
