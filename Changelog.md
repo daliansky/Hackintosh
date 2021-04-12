@@ -368,16 +368,16 @@
   
 - 2021年3月22日
   - 新增机型：
-  - Asus X540LJ
-  - HP 15 da0004tu
-  - HP 15G BR011TX
-  - Asus Z490 AORUS PRO AX
-  - Huananzhi x99 f8
+    - Asus X540LJ
+    - HP 15 da0004tu
+    - HP 15G BR011TX
+    - Asus Z490 AORUS PRO AX
+    - Huananzhi x99 f8
 
 - 2021年4月2日
 
   - 新增机型：
-  - Asus VivoBook FL8000u
+    - Asus VivoBook FL8000u
     - Dell Inspiron 3568
     - Dell Latitude E7370
     - Dell Vostro 3468
@@ -385,8 +385,18 @@
     - HP Pavilion 15 au624tx
     - Lenovo Ideapad S540 14IWL
     - Gigabyte H410M S2H
-    
-    
   
+- 2021年4月12日
+
+  - 新增机型：
+    - Dell Inspirion 15 3576
+    - HP Elite X2 G4 平板
+    - Lenovo IdeaPad Gaming 3i
+    - ASUS PRIME B250M-K
+    - ASROCK B560 STEEL LEGEND
+    - 51nb T70 ThinkPad 副厂主板
+
+  
+
   
 
