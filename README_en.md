@@ -62,6 +62,9 @@
 | Asus K501LB                       | [link](https://github.com/ApolloRisky/EFI_Clover-Asus-K501LB-Mojave) |                                                              |                                                  |
 | Asus K55VD                        | [link](https://github.com/southernvevo/Asus-K55VD-HACKINTOSH) | [link](https://github.com/southernvevo/Asus-K55VD-HACKINTOSH/blob/master/README.md) | Asus K55VD                                       |
 | Asus K555LD                       | [link](https://github.com/kongbg/asus-k555ld-4210U) | [link](https://github.com/kongbg/asus-k555ld-4210U/blob/master/README.md) | Asus K555LD |
+| Asus N550JK | [link](https://github.com/AlirezaH320/asus-n550jk-hackintosh) |  |  |
+| Asus N550JV | [link](https://github.com/bakedpotato191/asusn550jv-hackintosh) |  |  |
+| Asus N551JK | [link](https://github.com/basett1/Asus-N551JK-OC-EFI) |  |  |
 | Asus Laptop N56VZ                 | [link](https://github.com/signxer/N56VZ-Hackintosh)          |                                                              |                                                  |
 | Asus P8P67 PRO                    | [link](https://github.com/rafaelmaeuer/Asus-P8P67Pro-Hackintosh) | [link](https://github.com/rafaelmaeuer/Asus-P8P67Pro-Hackintosh/blob/master/readme.md) |                                                  |
 | Asus ROG GL552JX                  | [link](https://github.com/javanesse/Asus-ROG-GL552JX-High-Sierra-10.13-Hackintosh) | [link](https://github.com/javanesse/Asus-ROG-GL552JX-High-Sierra-10.13-Hackintosh/blob/master/README.md) | Asus ROG GL552JX                                 |
@@ -229,6 +232,7 @@
 | HP 840-G1                              | [link](https://github.com/blint01/hackintosh-mojave-HP-840-G1) | [link](https://github.com/blint01/hackintosh-mojave-HP-840-G1/blob/master/README.md) |                                                              |
 | HP Elitebook 840 G2 | [link](https://github.com/AktasC/Hackintosh-Elitebook-840-G2-Broadwell) |  | |
 | HP Elitebook 840 G3 | [link](https://github.com/Innoxious/hackintosh-hp-840-g3-intel-ac8260) |  | |
+| HP Pavilion 14-CE2072NL | [link](https://github.com/1alessandro1/HP-Pavilion-CE2072NL-macOS/blob/main/README.md) |  | |
 | HP Pavilion 15-au028ur | [link](https://github.com/Drovosek01/hackintosh_HP_Pavilion_15-au028ur_i5-6200U/blob/master/docs/ENG/README.md) |  | |
 | HP Pavilion 15 au067tx | [link](https://github.com/FzeNiX/HPPavilion15-au067tx-Mojave-Hackintosh) |  | |
 | HP Pavilion15 AU157TX | [link](https://github.com/sxrhd/HP-AU157TX-EFI) | | |
@@ -245,6 +249,7 @@
 | 暗影精灵2 Pro HP OMEN 15-ax225TX       | [link](https://github.com/Cruii/HP-OMEN-15-ax225TX) [link](https://github.com/XStar-Dev/HP_OMEN-2Pro_Hackintosh) |                                                              |                                                              |
 | HP PAVILION Gaming NB 15-ak039TX   | [link](https://github.com/lgs3137/PAVILION_Gaming_NB-macOS)   | | Non-working:GPU(Nvidia 950M/GTX)/WiFi(Intel® Dual Band Wireless-AC 3165)   |
 | HP PAVILION Gaming NB 15-cx0172tx  | [linkOC](https://github.com/ExodazTH/Opencore-on-HP-Pavilion-Gaming-15-cx0172tx) [linkCV](https://github.com/ExodazTH/Hackintosh-on-HP-Pavilion-Gaming-15-cx0172tx)  | | non-working:GPU(Nvidia 1050TI/GTX)/WiFi( Intel® Wireless-AC 9560 802.11b/g/n/ac)   |
+| HP Elite X2 G4 Tablet                          | [链接](https://github.com/lulujyc/EliteX2G4-OpenCore) |                                                              |                                                              |
 
 #### Huawei 华为
 
@@ -469,6 +474,7 @@
 | Terrans Force X599(Old)                 | [link](https://github.com/WarsFeng/P750ZM-Hackintosh)           |                                                              |                   Clevo P750ZM                                           |
 | 51nb X210 3rd Party ThinkPad Motherboard      | [link](https://github.com/lulujyc/51nb-X210-Hackintosh) |                                                              |                                                              |
 | Toshiba L840                        | [link](https://github.com/dickymuliafiqri/EFI-Toshiba-L840-OC)                        |
+| 51nb T70 3rd Party ThinkPad Motherboard  | [link](https://github.com/51nbT70CLOVER/51nb-T70-Hackintosh)                         |                                                                              |                                                                                                             |
 
 #### Notebook related resources
 
@@ -506,6 +512,7 @@
 | INTEL Tutorial                                               | [link](https://github.com/doesprintfwork/Intel-AMD-Hackintosh-Guide) |                                                              |                                                              |
 | ASRock  deskmini 110                                         | [link](https://github.com/suxiaogang/asrock-deskmini-110-hackintosh) |                                                              |                                                              |
 | Asrock deskmini 310                                          | [link](https://github.com/liminghuang/asrock_deskmini310_hackintosh) |                                                              |                                                              |
+| ASROCK B560 STEEL LEGEND with Intel I5-11400                 | [link](https://github.com/ExodazTH/ASROCK-B560-STEEL-LEGEND-INTEL-CORE-I5-11400-BIG-SUR) |
 | ASRock B360M-HDV                                             | [link](https://github.com/RealKiro/Hackintosh)               |                                                              |                                                              |
 | ASRock Z370 Pro4                                             | [link](https://github.com/athlonreg/ASRock-Z370-Pro4-Hackintosh) |                                                              | [套路](https://github.com/athlonreg) 自用机型                |
 | ASRock Z370M Pro4                                            | [link](https://github.com/HouCoder/asrock-z370m-pro4-hackintosh) [link](https://github.com/ljllili23/Hackintosh) | [link](https://github.com/HouCoder/asrock-z370m-pro4-hackintosh/blob/master/README.md) |                                                              |
@@ -576,4 +583,3 @@ If you approve my work, please support me for subsequent updates.
 | [![paypal_daliansky](http://7.daliansky.net/paypal_daliansky.png)](https://www.paypal.me/daliansky) | ![wechatpay_160](http://7.daliansky.net/wechatpay_160.jpg)   | ![alipay_160](http://7.daliansky.net/alipay_160.jpg) |
 
 [![img](https://img.shields.io/github/stars/daliansky/Hackintosh.svg?color=ff69b4&label=%E7%82%B9%E8%B5%9E&logoColor=ff69b4&style=social)](https://github.com/daliansky/Hackintosh) [![img](https://img.shields.io/github/followers/daliansky.svg?label=%E7%B2%89%E4%B8%9D&logoColor=success&style=social)](https://github.com/daliansky/Hackintosh) ![img](https://img.shields.io/github/contributors/daliansky/Hackintosh.svg?color=red&label=%E8%B4%A1%E7%8C%AE%E4%BA%BA%E6%95%B0) [![img](https://img.shields.io/github/last-commit/daliansky/Hackintosh.svg?color=orange&label=%E6%9C%80%E8%BF%91%E6%8F%90%E4%BA%A4)](https://github.com/daliansky/Hackintosh) [![img](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu/)
-
