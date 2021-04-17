@@ -932,12 +932,11 @@ _希望整个黑苹果领域能够进入良性循环状态，不用再重复造�
 | ASRock deskmini H470               | [链接](https://github.com/lugeek/Asrock-Deskmini-H470-Opencore) |          |                                                              |
 | ASRock B85 Pro4                    | [链接](https://github.com/VidocqH/Hackintosh-EFI-E3-1230v3-RX580) |          | Intel Xeon E3-1230 v3                                        |
 | ASRock B360-ITX/ac                 | [链接](https://github.com/jhelgert/hackintosh)               |          |                                                              |
-| ASRock B360M/ac-itx                | [链接](https://github.com/jhelgert/hackintosh)               |          |                                                              |
 | ASRock B360M-HDV                   | [链接](https://github.com/RealKiro/Hackintosh)               |          |                                                              |
 | ASRock B360M Pro4                  | [链接](https://github.com/Joehaivo/hackintosh)               |          |                                                              |
 | ASRock Fatal1ty B360M              | [链接](https://github.com/osx86-ijb/ASRock-Fatal1ty-B360M-Performance-macOS-Catalina) |          |                                                              |
 | ASRock B365M                       | [链接](https://github.com/punjasin/Opencore-EFI-AsrockB365M) |          | 网卡推荐：[BCM94360CD](https://blog.daliansky.net/uploads/WeChatandShop.png) |
-| ASRock-B365M-ITX                   | [链接](https://github.com/imzhengziyi/ASRock-B365M-ITX-AC-opencore/releases) |          |                                                              |
+| ASRock B365M-ITX                   | [链接](https://github.com/imzhengziyi/ASRock-B365M-ITX-AC-opencore/releases) |          |                                                              |
 | ASRock B365M Pro4                  | [链接](https://github.com/andynvt/hackintosh-asrock-b365m-pro4-i7-8700-rx-580) |          | 网卡推荐：[BCM94360CD](https://blog.daliansky.net/uploads/WeChatandShop.png) |
 | ASRock B460m HDV                   | [链接](https://github.com/aditnanda/EFI-Asrock-B460m-HDV-Core-i5-10400F) |          | 网卡推荐：[BCM94360CD](https://blog.daliansky.net/uploads/WeChatandShop.png) |
 | ASRock B460M-ITX/AC                | [链接](https://github.com/ansonliao/Asrock-B460m-ITX-AC-OC-EFI) |          |                                                              |
@@ -1004,7 +1003,7 @@ _希望整个黑苹果领域能够进入良性循环状态，不用再重复造�
 | Asus Prime Z370-P              |  |          | `强制RGB模式（EDID覆盖）`                                    |
 | Asus PRIME Z390                | [链接](https://github.com/dhckdgjs/ASUS-PRIME-Z390-A-HACKINTOSH-Clover-iGPU-with-dGPU-UHD630-RX580) |          | ASUS-PRIME-Z390<br />网卡推荐：[BCM94360CD](https://blog.daliansky.net/uploads/WeChatandShop.png) |
 | Asus Prime Z390-A              | [链接](https://github.com/ErickAgrazal/hackinstosh-efi) [链接](https://github.com/DiZhou92/ROG-STRIX-Z490-G-WIFI-ASUS) |          | 网卡推荐：[BCM94360CD](https://blog.daliansky.net/uploads/WeChatandShop.png) |
-| Asus-PRIME-Z390-P              | [链接](https://github.com/vastxie/ASUS-PRIME-Z390-P_i5-9600K_RX5500XT) [链接](https://github.com/igarashikenshin/Hackintosh-Asus-Prime-Z390P_i9-9900K_UHD630_DualScreens) |          | i5-9600K + RX5500XT<br />网卡推荐：[BCM94360CD](https://blog.daliansky.net/uploads/WeChatandShop.png) |
+| Asus Prime Z390-P              | [链接](https://github.com/vastxie/ASUS-PRIME-Z390-P_i5-9600K_RX5500XT) [链接](https://github.com/igarashikenshin/Hackintosh-Asus-Prime-Z390P_i9-9900K_UHD630_DualScreens) |          | i5-9600K + RX5500XT<br />网卡推荐：[BCM94360CD](https://blog.daliansky.net/uploads/WeChatandShop.png) |
 | ASUS Prime Z390M PLUS          | [链接](https://github.com/Lyrance/ASUS-Prime-Z390M-PLUS-EFI) [链接](https://github.com/LHB6540/Asus-R414-Hackintosh-10.15.7)<br />  |          | 网卡推荐：[BCM94360CD](https://blog.daliansky.net/uploads/WeChatandShop.png) |
 | Asus TUF Z390-PLUS GAMING (WI-FI) | [链接](https://github.com/zpengcom/opencore-efi) | | 网卡推荐：[BCM94360CD](https://blog.daliansky.net/uploads/WeChatandShop.png) |
 | Asus Z490 AORUS PRO AX | [链接](https://github.com/zxyboy/i9-10850K-Z490-AORUS-PRO-AX) | | 网卡推荐：[BCM94360CD](https://blog.daliansky.net/uploads/WeChatandShop.png) |
