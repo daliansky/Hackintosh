@@ -361,7 +361,8 @@ _希望整个黑苹果领域能够进入良性循环状态，不用再重复造�
 | Gigabyte Aero 15X  | [链接](https://github.com/zacmks/Hackintosh-Aero-15X)    | [链接](https://github.com/zacmks/Hackintosh-Aero-15X/blob/master/README.md) |      |
 | Gigabyte Aero 15W  | [链接](https://github.com/Errrneist/Hackintosh-Aero-15W) |                                                                             |      |
 | Gigabyte Sabre 15K | [链接](https://github.com/gnehs/Sabre15KClover)          |                                                                             |      |
-
+| Gigabyte-Z390M-GAMING | [链接](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING)          |                                                                             |      |
+f
 ### Hasee 神舟
 
 | 机型名称                                  | 发布地址                                                                                                                                                                           | 教程地址                                           | 备注                                                                                          |
@@ -919,6 +920,8 @@ _希望整个黑苹果领域能够进入良性循环状态，不用再重复造�
 | MSI MPG X570 GAMING PLUS                                                                                       | [链接](https://github.com/SuperY/OpenCore-EFI-for-MSI-MPG-X570-Gaming-Plus)                                                                                                                                                                                                                                                                                                                                                                                                                                          |                                                                     |                                                                                                               |
 | MSI B450I Gaming Plus AC                                      | [链接](https://github.com/portrayer/Hackintosh-Ryzen-MSI-B450I)                                                                                                                                                                                                                                                                                                                                                                                                                                                          |                                                                     |                                                                                                               |
 | Gigabyte X399 Aorus Extreme                                                                                    | [链接](https://github.com/SchmockLord/Hackintosh-Threadripper-1950x-Gigabyte-X399-Aorus-Extreme)                                                                                                                                                                                                                                                                                                                                                                                                                     |                                                                     | Threadripper 1950x@4.0Ghz                                                                                     |
+| B450F   | [链接](https://github.com/Desousak/macOS-strix-b450F) | | |
+
 
 ## INTEL CPU 系列
 
