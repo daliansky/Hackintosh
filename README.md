@@ -1151,7 +1151,7 @@
 | HP Z600 Workstation          |                                                              |          | Mac-Mini-Killer   |
 | HP Z620 Workstation          | [链接](https://github.com/d4vinder/HP-Z620-Hackintosh-macOS-Catalina) [链接](https://github.com/mokiii/HP-Z620-Hackintosh-macOS_10.13-10.15) |          |                   |
 | HP ZBook G1	|[链接](https://github.com/bangmaple/HP-ZBook-G1-OpenCore)	|		|		|
-| EliteBook 850G3	|[链接](https://github.com/lucasrequile/OCEliteBook850G3)	|		|		|
+| HP EliteBook 850G3	|[链接](https://github.com/lucasrequile/OCEliteBook850G3)	|		|		|
 | HP Z230 SFF Workstation	|[链接](https://github.com/keczejo/HP-Z230-Hackintosh)	|		|		|
 | HP ZHAN 99 Pro G1 MT         | [链接](https://github.com/Z-fly/HP-ZHAN-99-Pro-G1-MT-Hackintosh) |          | UHD630            |
 
@@ -1276,7 +1276,7 @@
 | Gigabyte Z170X-Gaming	|[链接](https://github.com/barijaona/OpenCore_GA-Z170X-Gaming5)	|		|		|
 | Asus Prime Z390A	|[链接](https://github.com/m4ary/OpenCore-Big-Sur-Asus-Prime-Z390A_i7-9700K_RX580)	|		|		|
 | Gigabyte Z390 GAMING X	|[链接](https://github.com/extric99/Hackintosh-Gigabyte-Z390-GAMING-X-i9-9900k-5700XT)	|		|		|
-| ASUS Prime B460i-PLUS 	|[链接](https://github.com/vulgo/prime-b460i-plus-hackintosh)	|		|		|
+| Asus PRIME B460I-PLUS 	|[链接](https://github.com/vulgo/prime-b460i-plus-hackintosh)	|		|		|
 | MSI Prestige 15 A10SC		|[链接](https://github.com/wgjas2/MSI-Prestige-15-Hackintosh)	|		|		|
 | Gigabyte B360M D3H	|[链接](https://github.com/samuelcarreira/Hackintosh-Big-Sur-Gigabyte-B360M-D3H-i3-8100-RX580-BCM943602CS-4K-monitor-OpenCore)	|		|		|
 
