@@ -9,13 +9,13 @@
   
       (1)拆分文档：拆分成笔记本和台式机两份文件,readme文档内将厂商链接过去，这样再更新文件的时候会轻松一些。
   
-      (2).自动化脚本：目前更新的方式还是靠人去对，筛出新增的然后再增加进去，比较费时间。从我自己找的方式看，是可以通过脚本实现的，这个可以节省很多时间和精力。
+      (2)自动化脚本：目前更新的方式还是靠人去对，筛出新增的然后再增加进去，比较费时间。从我自己找的方式看，是可以通过脚本实现的，这个可以节省很多时间和精力。
                范围：github.com，
                更新时间：最近3个月，
                限制条件：commit的提交次数大于20次的。（另外的一点将已经在清单里面的去掉,不去也行，直接更换清单）
                其他：排序和合并，排序后需要人工将命名不规范的补齐。
                
-      (3).搜索引擎：当然，能够做到一个搜索引擎，专门针对黑苹果优化的，这或许就是这份清单的终点，也就失去了一些意义，变为纯粹的白嫖工具了。
+      (3)搜索引擎：当然，能够做到一个搜索引擎，专门针对黑苹果优化的，这或许就是这份清单的终点，也就失去了一些意义，变为纯粹的白嫖工具了。
 大家有更好的思路也可以提出来，一起完成，虽然我不确定现在继续做这些的意义还有多少。
 ------
 - 黑苹果论坛：
@@ -107,9 +107,9 @@
 | Acer Travelmate P248     | [链接](https://github.com/jamesciq/Acer-Travelmate-P248-hackintosh-EFI) |                                                           |                             |
 | Acer TravelMate TX520-G2-MG | [链接](https://github.com/zqlovezone/ACER-TX520-Hackintosh-Opencore) |                                                              |                                                  |
 | Acer P258-MG                | [链接](https://github.com/lgs3137/ACER_P258_MG-macOS)        |                                                              |    |
-| A315-55G	|[链接](https://github.com/tkkinn/opencore-a315-55g)	|		|		|
+| Acer A315-55G	|[链接](https://github.com/tkkinn/opencore-a315-55g)	|		|		|
 
-| Aspire VX15	|[链接](https://github.com/dongcodebmt/VX5-591G-OpenCore)	|		|		|
+| Acer Aspire VX15	|[链接](https://github.com/dongcodebmt/VX5-591G-OpenCore)	|		|		|
 
 ### Asus 华硕
 
@@ -251,7 +251,7 @@
 | Dell Inspiron 3568                         | [链接](https://github.com/YGQ8988/dell-3568)                 | [链接](https://github.com/YGQ8988/dell-3568)                 | Dell Inspiron 3568                                           |
 | Dell Inspirion 15 3576                     | [链接](https://github.com/rootpx404/Dell-Inspirion-15-3576-OPenCore-efi) |                                                              |                                                              |
 | Dell Inspiron 3583                         | [链接](https://github.com/Dhroko/HackintoshDell3583)         |                                                              |                                                              |
-| Dell Inspiron 3670                         |                                                              |                                                              |                                                              |
+| Dell Inspiron 3670                         | [链接](https://github.com/gopnikak47/Vostro3670_OpenCore)                                                             |                                                              |                                                              |
 | Dell Inspiron 5370                         | [链接](https://github.com/dreamwhite/dell-inspiron-5370-hackintosh) |                                                              |                                                              |
 | Dell Inspiron 14 5400 2-in-1               | [链接](https://github.com/robmagario/DELL-Inspiron-14-5400-2-in-1-LAPTOP-EFI) |                                                              | i3-1005G1                                                    |
 | Dell Inspiron 5420                         | [链接](https://github.com/jasper-wan/Dell-Inspiron-5420-Hackintosh) |                                                              |                                                              |
@@ -347,14 +347,8 @@
 | Dell XPS 9560                              | [链接](https://github.com/gunslinger23/XPS15-9560-High-Sierra) | [链接](https://github.com/gunslinger23/XPS15-9560-High-Sierra/blob/master/README.md) | 网卡推荐：[BCM94360Z4](https://blog.daliansky.net/uploads/WeChatandShop.png) |
 | Dell XPS 9570                              | [链接](https://github.com/Xigtun/xps-9570-mojave) [链接](https://github.com/bavariancake/XPS9570-macOS) <br />[链接](https://github.com/LuletterSoul/Dell-XPS-15-9570-macOS-Mojave) |                                                              | 感谢：[LuletterSoul](https://github.com/LuletterSoul) 网卡推荐：[BCM94360Z4](https://blog.daliansky.net/uploads/WeChatandShop.png) |
 | Dell XPS 13 9300                           | [链接](https://github.com/leon0410898/XPS13-9300-hackintosh) |                                                              | i7-1065G7                                                    |
-| Dell-PowerEdge-T30	|[链接](https://github.com/cstrouse/Dell-PowerEdge-T30-Hackintosh)	|		|		|
-
-| Dell-Inspiron-7586	|[链接](https://github.com/hacker1024/Dell-Inspiron-7586-Hackintosh)	|		|		|
-
-| Vostro3670	|[链接](https://github.com/gopnikak47/Vostro3670_OpenCore)	|		|		|
-
-| Dell-G7-7588	|[链接](https://github.com/rex-lapis/Hackintosh-Dell-G7-7588-OpenCore)	|		|		|
-
+| Dell Inspiron 7586                           | [链接](https://github.com/hacker1024/Dell-Inspiron-7586-Hackintosh) |                                                              |                                                    |
+| Dell G7 7588                              | [链接](https://github.com/rex-lapis/Hackintosh-Dell-G7-7588-OpenCore) |                                                              |                                                              |
 
 ### Gigabyte 技嘉
 
@@ -364,7 +358,7 @@
 | Gigabyte Aero 15W  | [链接](https://github.com/Errrneist/Hackintosh-Aero-15W) |                                                                             |      |
 | Gigabyte Sabre 15K | [链接](https://github.com/gnehs/Sabre15KClover)          |                                                                             |      |
 | Gigabyte-Z390M-GAMING | [链接](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING)          |                                                                             |      |
-f
+
 ### Hasee 神舟
 
 | 机型名称                                  | 发布地址                                                                                                                                                                           | 教程地址                                           | 备注                                                                                          |
@@ -485,8 +479,8 @@ f
 | HP PAVILION Gaming NB 15-cx0172tx | [链接](https://github.com/ExodazTH/Opencore-on-HP-Pavilion-Gaming-15-cx0172tx) [链接](https://github.com/ExodazTH/Hackintosh-on-HP-Pavilion-Gaming-15-cx0172tx) | | non-working:GPU(Nvidia 1050TI/GTX)/WiFi( Intel® Wireless-AC 9560 802.11b/g/n/ac) |
 | 惠普光影精灵 5                                  | [链接](https://github.com/Tonymiugrey/Garden-by-miugrey) [链接](https://github.com/hibobmaster/HP-15-dc1010nr-hackintosh) |                                                              | 内含 PM981 的补丁                                            |
 | HP Omen 15 DC                                   | [链接](https://github.com/kirainmoe/hp-omen15-dc-macos)      |                                                              | 暗影精灵 4 GTX1060 144Hz 版，由于物理屏蔽核显，只能安装 10.13.6 |
-| HP合集                                          | [链接](https://github.com/Baio1977/EFI-Varie-Hackintosh/tree/main/EFI%20Laptop%20/HP) |                                                              |                                                              |
 | HP Elite X2 G4 平板                             | [链接](https://github.com/lulujyc/EliteX2G4-OpenCore) |                                                              |                                                              |
+| HP合集                                          | [链接](https://github.com/Baio1977/EFI-Varie-Hackintosh/tree/main/EFI%20Laptop%20/HP) |                                                              |                                                              |
 
 ### Huawei 华为
 
@@ -718,7 +712,7 @@ f
 | MSI PL62 7RC              | [链接](https://github.com/juanlatorre/MSI-PL62-7RC-OC-Hackintosh)                                                                                                                                         |                                                                                      | Intel i5-7300HQ |
 | MSI Prestige 15           | [链接](https://github.com/KerKerOgh/MSI-Prestige-15-Hackintosh) [链接](https://github.com/wgjas2/MSI-Prestige-15-Hackintosh)<br />[链接](https://github.com/naturalBlacksmith/hackintosh-msi-prestige-15) |                                                                                      |                 |
 | MSI PS63 Modern 8RC       |                                                                                                                                                                                                           |                                                                                      |                 |
-| msi-gs65	|[链接](https://github.com/charlesSheep/-gs65-opencore-eif#msi-gs65-261n-opencore-eif)	|[GS75](https://github.com/ErrorErrorError/msi-gs65-gs75-hackintosh) [GS75](https://github.com/ErrorErrorError/msi-gs65-8se-opencore-macos)	|		|
+| MSI GS65	|[链接](https://github.com/charlesSheep/-gs65-opencore-eif#msi-gs65-261n-opencore-eif)	|[GS75](https://github.com/ErrorErrorError/msi-gs65-gs75-hackintosh) [GS75](https://github.com/ErrorErrorError/msi-gs65-8se-opencore-macos)	|		|
 
 ### Razer Blade 雷蛇
 
@@ -1158,12 +1152,10 @@ f
 | HP Z420                      | [链接](https://github.com/yansheng1003/Hackintosh) [链接](https://github.com/joepool/Hackintosh-HP-Z420-OpenCore) |          | E5 1650v2         |
 | HP Z600 Workstation          |                                                              |          | Mac-Mini-Killer   |
 | HP Z620 Workstation          | [链接](https://github.com/d4vinder/HP-Z620-Hackintosh-macOS-Catalina) [链接](https://github.com/mokiii/HP-Z620-Hackintosh-macOS_10.13-10.15) |          |                   |
-| HP ZHAN 99 Pro G1 MT         | [链接](https://github.com/Z-fly/HP-ZHAN-99-Pro-G1-MT-Hackintosh) |          | UHD630            |
-| HP-ZBook-G1	|[链接](https://github.com/bangmaple/HP-ZBook-G1-OpenCore)	|		|		|
-
+| HP ZBook G1	|[链接](https://github.com/bangmaple/HP-ZBook-G1-OpenCore)	|		|		|
 | EliteBook 850G3	|[链接](https://github.com/lucasrequile/OCEliteBook850G3)	|		|		|
-
-| HP-Z230	|[链接](https://github.com/keczejo/HP-Z230-Hackintosh)	|		|		|
+| HP Z230 SFF Workstation	|[链接](https://github.com/keczejo/HP-Z230-Hackintosh)	|		|		|
+| HP ZHAN 99 Pro G1 MT         | [链接](https://github.com/Z-fly/HP-ZHAN-99-Pro-G1-MT-Hackintosh) |          | UHD630            |
 
 ### Intel 英特尔
 
@@ -1274,23 +1266,23 @@ f
 | 七彩虹 CVN B460i                 | [链接](https://github.com/AlphaGHX/Hackintosh-CVN-b460i-efi) |                                                              |                  |
 | ONDA H410 SD4                    | [链接](https://github.com/yinxianwei/ONDA-H410SD4-Hackintosh) |                                                              |                  |
 | Onda P75U                        | [链接](https://github.com/hunanhjx/E3-1230v2_GTX760_OpenCore) |                                                              | E3-1230 v2       |
-| B450F	|[链接](https://github.com/Desousak/macOS-strix-b450F)	|		|		|
-| Asrock-Z390M-ITX-AC	|[链接](https://github.com/Good0007/Asrock-Z390M-ITX-AC-Hackintosh-OC)	|		|		|
-| ROG-B460G	|[链接](https://github.com/JhonsonT/ROG-B460G-10400-UHD630-OPENCORE-BIGSUR)	|		|		|
-| Gigabyte-B460M-Aorus-Pro	|[链接](https://github.com/hendraanggrian/OpenCore-Gigabyte-B460M-Aorus-Pro)	|		|		|
-| gigabyte-z390-aorus-pro	|[链接](https://github.com/blacklizard/gigabyte-z390-aorus-pro-wifi-hackintosh-opencore)	|		|		|
-| ASRock-B460-PG4	|[链接](https://github.com/Forne/oc-ASRock-B460-PG4)	|		|		|
-| GIGABYTE-Z390M	|[链接](https://github.com/revunix/GIGABYTE-Z390M)	|		|		|
-| AMD Ryzen 7 2700	|[链接](https://github.com/sileshn/Ryzentosh)	|		|		|
+| Asus ROG Strix B450-F Gaming	|[链接](https://github.com/Desousak/macOS-strix-b450F)	|		|		|
+| Asrock Z390M ITX AC	|[1链接](https://github.com/Good0007/Asrock-Z390M-ITX-AC-Hackintosh-OC)	|		|		|
+| Asus ROG STRIX B460-G GAMING	|[链接](https://github.com/JhonsonT/ROG-B460G-10400-UHD630-OPENCORE-BIGSUR)	|		|		|
+| Gigabyte B460M Aorus Pro	|[链接](https://github.com/hendraanggrian/OpenCore-Gigabyte-B460M-Aorus-Pro)	|		|		|
+| Gigabyte Z390 Aorus Pro	|[链接](https://github.com/blacklizard/gigabyte-z390-aorus-pro-wifi-hackintosh-opencore)	|		|		|
+| ASRock B460 PG4	|[链接](https://github.com/Forne/oc-ASRock-B460-PG4)	|		|		|
+| Gigabyte Z390M	|[链接](https://github.com/revunix/GIGABYTE-Z390M)	|		|		|
+| MSI Pro VDH Max	|[链接](https://github.com/sileshn/Ryzentosh)	|		|		|
 | Asus Strix X570-I	|[链接](https://github.com/aluveitie/RyzenMacPro)	|		|		|
-| z390i	|[链接](https://github.com/k0Iry/opencore_z390i-pro-wifi_i7-9700k_rx580)	|		|		|
-| MSI-B460M	|[链接](https://github.com/maemual/MSI-B460M-10700-5500XT)	|		|		|
-| GA-Z170X	|[链接](https://github.com/barijaona/OpenCore_GA-Z170X-Gaming5)	|		|		|
-| Asus-Prime-Z390A	|[链接](https://github.com/m4ary/OpenCore-Big-Sur-Asus-Prime-Z390A_i7-9700K_RX580)	|		|		|
-| Gigabyte-Z390-GAMING-X	|[链接](https://github.com/extric99/Hackintosh-Gigabyte-Z390-GAMING-X-i9-9900k-5700XT)	|		|		|
-| prime-b460i-plus	|[链接](https://github.com/vulgo/prime-b460i-plus-hackintosh)	|		|		|
-| MSI-Prestige-15	|[链接](https://github.com/wgjas2/MSI-Prestige-15-Hackintosh)	|		|		|
-| Gigabyte-B360M-D3H	|[链接](https://github.com/samuelcarreira/Hackintosh-Big-Sur-Gigabyte-B360M-D3H-i3-8100-RX580-BCM943602CS-4K-monitor-OpenCore)	|		|		|
+| Gigabytes Z390i Pro Wifi	|[链接](https://github.com/k0Iry/opencore_z390i-pro-wifi_i7-9700k_rx580)	|		|		|
+| MSI MAG B460M MORTAR|[链接](https://github.com/maemual/MSI-B460M-10700-5500XT)	|		|		|
+| Gigabyte Z170X-Gaming	|[链接](https://github.com/barijaona/OpenCore_GA-Z170X-Gaming5)	|		|		|
+| Asus Prime Z390A	|[链接](https://github.com/m4ary/OpenCore-Big-Sur-Asus-Prime-Z390A_i7-9700K_RX580)	|		|		|
+| Gigabyte Z390 GAMING X	|[链接](https://github.com/extric99/Hackintosh-Gigabyte-Z390-GAMING-X-i9-9900k-5700XT)	|		|		|
+| ASUS Prime B460i-PLUS 	|[链接](https://github.com/vulgo/prime-b460i-plus-hackintosh)	|		|		|
+| MSI Prestige 15 A10SC		|[链接](https://github.com/wgjas2/MSI-Prestige-15-Hackintosh)	|		|		|
+| Gigabyte B360M D3H	|[链接](https://github.com/samuelcarreira/Hackintosh-Big-Sur-Gigabyte-B360M-D3H-i3-8100-RX580-BCM943602CS-4K-monitor-OpenCore)	|		|		|
 
 ## 硬件兼容列表
 
