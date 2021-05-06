@@ -108,7 +108,6 @@
 | Acer TravelMate TX520-G2-MG | [链接](https://github.com/zqlovezone/ACER-TX520-Hackintosh-Opencore) |                                                              |                                                  |
 | Acer P258-MG                | [链接](https://github.com/lgs3137/ACER_P258_MG-macOS)        |                                                              |    |
 | Acer A315-55G	|[链接](https://github.com/tkkinn/opencore-a315-55g)	|		|		|
-
 | Acer Aspire VX15	|[链接](https://github.com/dongcodebmt/VX5-591G-OpenCore)	|		|		|
 
 ### Asus 华硕
@@ -917,7 +916,7 @@
 | MSI MPG X570 GAMING PLUS                                                                                       | [链接](https://github.com/SuperY/OpenCore-EFI-for-MSI-MPG-X570-Gaming-Plus)                                                                                                                                                                                                                                                                                                                                                                                                                                          |                                                                     |                                                                                                               |
 | MSI B450I Gaming Plus AC                                      | [链接](https://github.com/portrayer/Hackintosh-Ryzen-MSI-B450I)                                                                                                                                                                                                                                                                                                                                                                                                                                                          |                                                                     |                                                                                                               |
 | Gigabyte X399 Aorus Extreme                                                                                    | [链接](https://github.com/SchmockLord/Hackintosh-Threadripper-1950x-Gigabyte-X399-Aorus-Extreme)                                                                                                                                                                                                                                                                                                                                                                                                                     |                                                                     | Threadripper 1950x@4.0Ghz                                                                                     |
-| B450F   | [链接](https://github.com/Desousak/macOS-strix-b450F) | | |
+| Asus ROG Strix B450-F Gaming	|[链接](https://github.com/Desousak/macOS-strix-b450F)	|		|		|
 
 
 ## INTEL CPU 系列
@@ -1192,9 +1191,8 @@
 | Lenovo Thinkpad P1 <br />MobileWorkStation | [链接](https://github.com/p455555555/Thinkpad-P1-EFI)        |                                                              | 网卡推荐：[BCM94360Z4](https://blog.daliansky.net/uploads/WeChatandShop.png) |
 | Lenovo B360                                | [链接](https://github.com/ThrRip/OpenCore-EFI-Lenovo-B360-i5-8400) |                                                              | RX5500XT<br />                                               |
 | Lenovo v410z                               | [链接](https://github.com/harriedgemusic/macOS_Catalina_Lenovo_v410z_CLOVER_EFI) |                                                              | |
-| x1c-g3	|[链接](https://github.com/mlebd/x1c-g3-oc)	|		|		|
+| Lenovo Thinkpad T450/T450s	|[链接](https://github.com/racka98/Lenovo-Thinkpad-T450-T450s-Hackintosh-Guide-Opencore)	|		|		|
 
-| T450/T450s	|[链接](https://github.com/racka98/Lenovo-Thinkpad-T450-T450s-Hackintosh-Guide-Opencore)	|		|		|
 
 
 ### MSI 微星
@@ -1266,7 +1264,6 @@
 | 七彩虹 CVN B460i                 | [链接](https://github.com/AlphaGHX/Hackintosh-CVN-b460i-efi) |                                                              |                  |
 | ONDA H410 SD4                    | [链接](https://github.com/yinxianwei/ONDA-H410SD4-Hackintosh) |                                                              |                  |
 | Onda P75U                        | [链接](https://github.com/hunanhjx/E3-1230v2_GTX760_OpenCore) |                                                              | E3-1230 v2       |
-| Asus ROG Strix B450-F Gaming	|[链接](https://github.com/Desousak/macOS-strix-b450F)	|		|		|
 | Asrock Z390M ITX AC	|[1链接](https://github.com/Good0007/Asrock-Z390M-ITX-AC-Hackintosh-OC)	|		|		|
 | Asus ROG STRIX B460-G GAMING	|[链接](https://github.com/JhonsonT/ROG-B460G-10400-UHD630-OPENCORE-BIGSUR)	|		|		|
 | Gigabyte B460M Aorus Pro	|[链接](https://github.com/hendraanggrian/OpenCore-Gigabyte-B460M-Aorus-Pro)	|		|		|
