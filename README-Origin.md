@@ -4,20 +4,21 @@
 
 ## English Version: [Hackintosh long-term maintenance model EFI and installation tutorial](README_en.md)
 
-    今天采用关键词OPENCORE搜索的方式，采用最近更新排序，搜索了前10页的维护信息，再筛出未进入清单，但维护得不错得REPO,更新时间只是最近2天得，肯定又很多漏的，一一核对很费精力，readme文档内内容太多，整理了一下思路,列出列出了以下几个点，希望大家一起看看如何整理比较方便。
-  
-  
-      (1)拆分文档：拆分成笔记本和台式机两份文件,readme文档内将厂商链接过去，这样再更新文件的时候会轻松一些。
-  
-      (2).自动化脚本：目前更新的方式还是靠人去对，筛出新增的然后再增加进去，比较费时间。从我自己找的方式看，是可以通过脚本实现的，这个可以节省很多时间和精力。
-               范围：github.com，
-               更新时间：最近3个月，
-               限制条件：commit的提交次数大于20次的。（另外的一点将已经在清单里面的去掉,不去也行，直接更换清单）
-               其他：排序和合并，排序后需要人工将命名不规范的补齐。
-               
-      (3).搜索引擎：当然，能够做到一个搜索引擎，专门针对黑苹果优化的，这或许就是这份清单的终点，也就失去了一些意义，变为纯粹的白嫖工具了。
-大家有更好的思路也可以提出来，一起完成，虽然我不确定现在继续做这些的意义还有多少。
-------
+## 黑苹果长期维护机型整理
+
+
+> by @[我意](https://github.com/y010204025)
+>
+> 整理这份清单的目的：在于给想体验黑苹果的人一个方向，也想减少大家重复造轮子，节约大家的时间。
+>
+> 所有文件均归属于原作者，本清单只列出链接。如果您不希望你的链接被这份清单收录，请发送邮件到 [y010204025@126.com](mailto:y010204025@126.com),我将移除链接
+> 清单收录了 4 个月以内的有人长期维护并更新过 EFI 的机型链接，如果有新的链接希望收录到这份清单，请发送邮件到 [y010204025@126.com](mailto:y010204025@126.com)
+>
+> 致谢：感谢一直为黑苹果进行开发的各位开发者和愿意共享出 EFI 文件的开发者，谢谢！
+> 最近有部分 github 作者删除了 repo,有失效的请大家反馈，我会及时跟进删除相关链接。
+
+- 建议大家使用[yandex 搜索引擎](https://yandex.ru)、[github](https://github.com)先搜索下有没有自己的机型，型号一样，机型配置有差异可以忽略，使用你的机器型号+clover、型号+EFI、型号+mac、型号+Hackintosh 等进行搜索。例如我最近更新了 elitebook840g3、840g4 等几个机型的 EFI，就可以使用 840g3+clover 840g3+EFI 等关键词进行搜索。
+
 - 黑苹果论坛：
 
   - **国内** [远景论坛](http://bbs.pcbeta.com)、[威锋论坛](http://bbs.feng.com)
@@ -29,6 +30,16 @@
 - _[Vit9696](https://github.com/acidanthera)_ lilu 和相关插件、applealc 的主要开发或维护者
 - _[Clover 更新地址](https://sourceforge.net/projects/cloverefiboot/)_ Clover 团队更新 clover 的主要发布渠道
 - _[常用软件和驱动清单](./LinkList.md)_ 整理了常用软件和驱动的主要发布地址，持续修改……
+
+  _关于黑苹果，希望大家能摆正心态，容忍小问题的存在，某些功能无法实现或者是体验不好「触摸板、指点杆、触摸屏、雷电端口等等」，系统运行不稳定，容易卡机或者死机或者是开机不认引导、升级系统失败等都属于正常现象。 **每次升级前请先从各种驱动了解本次升级有没有大的改动，在升级前首先升级 Clover 和相关的 kext 驱动，需要添加补丁或者是更新补丁的请做好相关工作，不要等著出了问题再去寻找解决方案。** 在自己遇到问题的时候，请先通过网络寻找解决办法，无法解决再询问别人，请别人帮忙解决问题的时候，首先端正自己的态度，把问题描述清楚，能提供 log 日志或者是相关文件的先提供文件，提供不了文件的拍照拍清楚。_
+
+**解决问题，需要努力的是自己，不是让别人帮你努力；帮你解答是情分，不是义务**
+
+**为了感谢这份清单内机型的维护人员的长期的付出，希望大家在下载 EFI 的时候点一下 'star',顺便可以点一下 'watch',这样你将会收到你关注机型 efi 的更新提醒，这是对维护人员的一种肯定和鼓励。**
+
+**感谢各位维护人员的辛勤付出，希望在更新时能够提供必要的更新内容说明，在引用别人的补丁、或者是某些特殊版本的驱动是给出驱动的来源链接，必要时还请加入一些 credit，黑苹果更多的是大家群策群力、开放共享努力的结果。**
+
+_希望整个黑苹果领域能够进入良性循环状态，不用再重复造很多轮子，也希望那些使用别人成果收费的人，必要时还请留出文件来源和相关致谢。_
 
 ## 同步更新：[黑果小兵的部落阁](https://blog.daliansky.net/Hackintosh-long-term-maintenance-model-checklist.html)
 
@@ -308,7 +319,6 @@
 | Dell Latitude E7390                        | [链接](https://github.com/Swung0x48/Dell-Latitude-7490-Hackintosh-EFI) [链接](https://github.com/PurpleCrumpets/Hackintosh-Dell-Latitude-7390-2-in-1-OpenCore-EFI) [链接](https://github.com/guozenghuang/latitude-E7390-hackintosh) |                                                              | 基于 Latitude 7490。 不保证 7390 可用。（可在 issue 中提出 7390 的问题） |
 | Dell Latitude E7440                        | [链接](https://github.com/ameeno/Dell-E7440-Hackintosh)      |                                                              |                                                              |
 | Dell Latitude E7450                        | [链接](https://github.com/rahmadsandy/Dell-E7450-DW1530-Catalina) |                                                              |                                                              |
-| Dell Latitude E7470                        | [链接](https://github.com/adityabakare/macOS-Dell-Latitude-E7470) |                                                              | PRECISION 7710可用      |
 | Dell Latitude E7480                        | [链接](https://github.com/TranNgocKhoa/Dell-Latitude-7480-Hackintosh) |                                                              |                                                              |
 | Dell Latitude E7490                        | [链接](https://github.com/Swung0x48/Dell-Latitude-7490-Hackintosh-EFI) |                                                              |                                                              |
 | Dell OptiPlex 3050                         | [链接](https://github.com/Leif160519/Dell-OptiPlex-3050-EFI) [链接](https://github.com/superleeyom/Hackintosh-Dell-OptiPlex-3050-OpenCore)<br />[链接](https://github.com/Xhichn/Hackbook_MECHREVO_Umi_Pro_II) | [链接](https://github.com/Leif160519/Dell-OptiPlex-3050-EFI/blob/master/README.md) |                                                              |
