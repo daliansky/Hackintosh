@@ -397,11 +397,21 @@
     - ASROCK B560 STEEL LEGEND
     - 51nb T70 ThinkPad 副厂主板
   
+- 2021年5月12日
+
+  - 新增机型：
+
+    - Dell Latitude 5310
+    - Asrock deskmini H470m
+    - ONDA B460 SD4
+
+    
+
   
+
   
+
   
-  
-  
-  
+
   
 
