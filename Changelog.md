@@ -392,11 +392,16 @@
     - Dell Inspirion 15 3576
     - HP Elite X2 G4 平板
     - Lenovo IdeaPad Gaming 3i
+    - minisforum U820
     - ASUS PRIME B250M-K
     - ASROCK B560 STEEL LEGEND
     - 51nb T70 ThinkPad 副厂主板
-
   
-
+  
+  
+  
+  
+  
+  
   
 
