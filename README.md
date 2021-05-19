@@ -1383,6 +1383,7 @@
 
 黑果小兵的部落阁 [http://t.me/daliansky](https://t.me/daliansky)
 黑果小兵的部落阁 #安装问题讨论 [https://t.me/macos_installer](https://t.me/macos_installer)
+其他推荐
 安装和安装后支持小组 [https://t.me/HackintoshLife_it](https://t.me/HackintoshLife_it)
 
 
