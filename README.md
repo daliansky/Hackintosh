@@ -1330,6 +1330,8 @@
 - [远景论坛](http://bbs.pcbeta.com)
 - [applelife.ru](https://applelife.ru/)
 - [olarila.com](https://www.olarila.com/)
+- [Hackintoshlifeit](https://github.com/Hackintoshlifeit)
+
 
 ## QQ 群列表：
 
@@ -1381,6 +1383,8 @@
 
 黑果小兵的部落阁 [http://t.me/daliansky](https://t.me/daliansky)
 黑果小兵的部落阁 #安装问题讨论 [https://t.me/macos_installer](https://t.me/macos_installer)
+安装和安装后支持小组 [https://t.me/HackintoshLife_it](https://t.me/HackintoshLife_it)
+
 
 ## 微信扫一扫，订阅/直达【黑果小兵的部落阁】
 
