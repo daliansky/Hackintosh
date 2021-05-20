@@ -957,7 +957,7 @@
 | ASRock Z390M Pro4                  | [链接](https://github.com/XiongMing/ASRock-Z390M-Pro4-EFI)   |          | 网卡推荐：[BCM94360CD](https://blog.daliansky.net/uploads/WeChatandShop.png) |
 | ASRock Z390 Phantom Gaming itx     | [链接](https://github.com/haiyang1992/Hackintosh-Opencore-Asrock_Z390_Phantom_Gaming_ITX) [链接](https://github.com/icyleaf/EFI-ASRock-Z390-Phantom-Gaming-ITX) [链接](https://github.com/bydavy/EFI-ASRock-Z390-Phantom-Gaming) <br />[链接](https://github.com/kcunanan/Jared-PC/) [链接](https://github.com/befuture/EFI-ASRock-Z390-Phantom-Gaming) [链接](https://github.com/ansonliao/EFI-ASRock-Z390-Phantom-Gaming-ITX) |          | 华擎 Z390 Phantom Gaming itx/ac                              |
 | ASRock Z390 Phantom ITX            | [链接](https://github.com/zanderzhng/EFI_Asrock_Z390_Phantom_ITX) [链接](https://github.com/seanzhang98/ASRock-Z390-Phantom-ITX-OpenCore-Hackintosh-2020) |          |                                                              |
-| ASRock Z490M ITX/ac                | [链接](https://github.com/Old-Black-Dog/Hackintosh-ASRock-Z490M-ITX-ac) [链接](https://github.com/huijiewei/ASRock-Z390m-ITX-ac-Opencore)<br />[链接](https://github.com/ruibeard/OpenCore-ASRock-Z490M-ITX-ac) |          |                                                              |
+| ASRock Z490M ITX/ac                | [链接](https://github.com/Lorys89/ASROCK_Z490M-ITX-AC) [链接](https://github.com/Old-Black-Dog/Hackintosh-ASRock-Z490M-ITX-ac) [链接](https://github.com/huijiewei/ASRock-Z390m-ITX-ac-Opencore)<br />[链接](https://github.com/ruibeard/OpenCore-ASRock-Z490M-ITX-ac) |          |                                                              |
 | Asrock Z490M Pro4m                 | [链接](https://github.com/xuanquydsr/z490m-pro4-10700k-hackintosh) |          | 网卡推荐：[BCM94360CD](https://blog.daliansky.net/uploads/WeChatandShop.png) |
 | ASRock Z490 ITX/TB3                | [链接](https://github.com/kreactnative/EFI-ASRock-Z490-ITX-TB3-RX580) |          |                                                              |
 | ASRock Z490 Phantom Gaming ITX/TB3 | [链接](https://github.com/papadiche/10900K-ASRock-Z490-Phantom-Gaming-ITX-TB3-RX-5600-XT) |          |                                                              |
@@ -1330,6 +1330,8 @@
 - [远景论坛](http://bbs.pcbeta.com)
 - [applelife.ru](https://applelife.ru/)
 - [olarila.com](https://www.olarila.com/)
+- [Hackintoshlifeit](https://github.com/Hackintoshlifeit)
+
 
 ## QQ 群列表：
 
@@ -1381,6 +1383,9 @@
 
 黑果小兵的部落阁 [http://t.me/daliansky](https://t.me/daliansky)
 黑果小兵的部落阁 #安装问题讨论 [https://t.me/macos_installer](https://t.me/macos_installer)
+
+其他推荐 :
+安装和安装后支持小组 [https://t.me/HackintoshLife_it](https://t.me/HackintoshLife_it)
 
 ## 微信扫一扫，订阅/直达【黑果小兵的部落阁】
 
