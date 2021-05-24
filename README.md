@@ -658,7 +658,7 @@
 | LG Gram 14z980         | [链接](https://github.com/ShiningXu/LG-Gram-macOS)        |          |           |
 | LG Gram14 Z990         | [链接](https://github.com/myd986/LG-gram-14z990)          |          |           |
 | LG Gram 15Z980-G.AA52C | [链接](https://github.com/ice-black-tea/LG-15Z980)        |          |           |
-| LG Gram17 Z90n         | [链接](https://github.com/whca/lg-gram-17z90n-EFI)        |          | i7-1065G7 |
+| LG Gram17 Z90n         | [链接](https://github.com/whca/lg-gram-17z90n-EFI) [链接](https://github.com/AskDavis/LG-Gram-17Z90N)        |          | OC 0.6.9  |
 | LG Gram Z980           | [链接](https://github.com/ShiningXu/LG-Gram-macOS)        |          |           |
 
 ### Mechrevo 机械革命
