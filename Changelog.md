@@ -405,7 +405,21 @@
     - Asrock deskmini H470m
     - ONDA B460 SD4
 
-    
+- 2021年5月28日
+
+  - 新增机型：
+    - HP Probook 430 G3
+    - ThinkPad e490s
+    - Lenovo Yoga X390
+    - 三星 Samsung NP350XAA-KF3BR
+    - ASRock B560M-HDV
+    - ASRock B560M-ITX
+    - ASRock B560 Steel Legend
+    - Asus TUF Gaming B560M PLUS
+    - Asus Z590 ROG MAXIMUS XIII HERO
+    - HP Omen 30L
+
+  
 
   
 
