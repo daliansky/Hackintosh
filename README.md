@@ -12,6 +12,7 @@
 
 
 
+
       (1)拆分文档：拆分成笔记本和台式机两份文件,readme文档内将厂商链接过去，这样再更新文件的时候会轻松一些。
       
       (2)自动化脚本：目前更新的方式还是靠人去对，筛出新增的然后再增加进去，比较费时间。从我自己找的方式看，是可以通过脚本实现的，这个可以节省很多时间和精力。
@@ -406,6 +407,7 @@
 | 战神 TX7-CT5DS                            | [链接](http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1843619&highlight=%C9%F1%D6%DB) |                                                    | 准系统型号：蓝天 N960TC                                      |
 | 战神 Z7M-KP7GT                            | [链接](https://github.com/Xin9912/Hackintosh)                |                                                    |                                                              |
 | Hases-z7-kp7sc                            | [链接](https://github.com/Bluestar-coder/Hases-z7-kp7sc-10.15.4-OC) |                                                    |                                                              |
+| 精盾 U47T1                                | [链接](https://github.com/zhuchuanwu/haseeu47t1)             |                                                    |                                                              |
 | 精盾 T96E                                 | [链接](https://github.com/L0ngxhn/Hackintosh-Hasee-T96E)     |                                                    | 准系统型号：蓝天 P950EP6                                     |
 | 精盾 K590S                                | [链接](https://github.com/JokerHYC/K590S-HACKINTOSH)         |                                                    | 准系统型号： 蓝天 W350ET                                     |
 | 战神 Z7(M)-CT7(5NA/NK/NT)/G7/G8-CT7-NA-NK | [链接](https://github.com/MichaelPan1026/Clevo-NH50-NH70-Hackintosh) |                                                    | 准系统型号： 蓝天 NH50,NH70Rx 系列                           |
