@@ -136,7 +136,6 @@
 | Dell Inspiron 5559                         | [link](https://github.com/cbabb/dell-5559)                   |                                                              | Dell 5559                                                    |
 | Dell Inspiron 5567                         | [link](https://github.com/MuntashirAkon/HackintoshDellInspiron5567) |                                                              | i3-7100u, Intel HD620                                        |
 | Dell Inspiron 5370                         | [link](https://github.com/dreamwhite/dell-inspiron-5370-hackintosh) |                                                              |                                                              |
-
 | Dell Inspiron 5570                         | [link](https://github.com/Mateo1234454545/Dell-5570-hackintosh) |                                                              |                                                              |
 | Dell Inspiron 5577                         | [link](https://github.com/imAmouse/Clover-EFI-For-Dell-5577) |                                                              |                                                              |
 | Dell Inspiron 5584                         | [link](https://github.com/Hackintoshlifeit/DELL-Inspiron-5584) |                                                              |                                                              |
