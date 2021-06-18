@@ -230,7 +230,8 @@
 | HP Omen Laptop 15-ce0xx | [link](https://github.com/shimakazechan/OMEN-by-HP-Laptop-15-ce007TX-Hackintosh) | | |
 | HP 348 G5 | [link](https://github.com/zsakvo/hp-348-g5-hackintosh) | | |
 | HP ProBook 650 G1 | [link](https://github.com/Hologos/hackintosh-hp-probook-650-g1) | | |
-| HP 840-G1                              | [link](https://github.com/blint01/hackintosh-mojave-HP-840-G1) | [link](https://github.com/blint01/hackintosh-mojave-HP-840-G1/blob/master/README.md) |                                                              |
+| HP 840-G1                              | [link](https://github.com/blint01/hackintosh-mojave-HP-840-G1) | [link](https://github.com/blint01/hackintosh-mojave-HP-840-G1/blob/master/README.md) |  
+| HP Probook 430 G3 | [link](https://github.com/Human7900/macOS-HP-Probook-430-G3-Resources)
 | HP Elitebook 840 G2 | [link](https://github.com/AktasC/Hackintosh-Elitebook-840-G2-Broadwell) |  | |
 | HP Elitebook 840 G3 | [link](https://github.com/Innoxious/hackintosh-hp-840-g3-intel-ac8260) |  | |
 | HP Pavilion 14-CE2072NL | [link](https://github.com/1alessandro1/HP-Pavilion-CE2072NL-macOS/blob/main/README.md) |  | |
