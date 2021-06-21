@@ -13,6 +13,7 @@
 
 
 
+
       (1)拆分文档：拆分成笔记本和台式机两份文件,readme文档内将厂商链接过去，这样再更新文件的时候会轻松一些。
       
       (2)自动化脚本：目前更新的方式还是靠人去对，筛出新增的然后再增加进去，比较费时间。从我自己找的方式看，是可以通过脚本实现的，这个可以节省很多时间和精力。
@@ -958,7 +959,7 @@
 | ASRock B460M Steel Legend          | [链接](https://github.com/ducnm9/Hackintosh-Intel-i5-10400-Asrock-B460M-Steel-Legend) [链接](https://github.com/VictorZheng1010/Hackintosh_EFI) |          | 网卡推荐：[BCM94360CD](https://blog.daliansky.net/uploads/WeChatandShop.png) |
 | ASRock B560M-HDV                   | [链接](https://github.com/kreactnative/asrock-b560-hdv-11400-rx-560-big-sur) |          |                                                              |
 | ASRock B560M-ITX                   | [链接](https://github.com/yohan8901/ASRock-B560M-ITX-Hackintosh) [链接](https://github.com/jalalabdulaziz/Asrock-B560M-ITX-ac) |          |                                                              |
-| ASRock B560 Steel Legend           | [链接](https://github.com/ExodazTH/ASROCK-B560-STEEL-LEGEND-INTEL-CORE-I5-11400-BIG-SUR) |          |                                                              |
+| ASRock B560 Steel Legend           | [链接](https://github.com/ExodazTH/ASROCK-B560-STEEL-LEGEND-INTEL-CORE-I5-11400-BIG-SUR) [链接](https://github.com/asumi233/Asrock-b560m-steel-6800xt-OC) |          |                                                              |
 | ASRock H410M-ITX/AC                | [链接](https://github.com/lishican/OpenCore6.4-EFI-AsRock-H410M-ITX-AC-i3-10100-igpu) [链接](https://github.com/vlazhuv/OpenCore-0.6.8-EFI-AsRock-H410M-ITX-AC-10500ES-iGPU) |          |                                                              |
 | ASRock H61M-S1 Plus                | [链接](https://github.com/SanjayRavindran/HackintoshCatalina-Aug2020) |          |                                                              |
 | ASRock X99 Extreme3                | [链接](https://github.com/stefan2225/Asrock-X99-Extreme3-Opencore-Hackintosh) |          |                                                              |
