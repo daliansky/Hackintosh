@@ -793,6 +793,7 @@ f
 | 红米 G               | [链接](https://github.com/Xhichn/Hackbook_Redmi_G)                                                                                      |                                                                                                             |                                                                                                             |
 | Redmibook14 增强版   | [链接](https://github.com/haoey/-)                                                                                                      |                                                                                                             |                                                                                                             |
 | Xiaomi Redmibook 16  | [链接](https://github.com/elishevatavori/Xiaomi-Redmibook-16-Hackintosh)                                                                |                                                                                                             | i7-1065G7                                                                                                   |
+| Redmibook 14 XMA1901-AI | [链接](https://github.com/THLIVSQAZ/Redmibook14-XMA1901-AI-OpenCore) |    | i5-8250u
 
 ### Intel 英特尔
 
