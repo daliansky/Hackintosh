@@ -419,6 +419,20 @@
     - Asus Z590 ROG MAXIMUS XIII HERO
     - HP Omen 30L
 
+- 2021年6月22日
+
+  - 新增机型：
+    - Acer Aspire V3-371
+    - Asus X411UF
+    - Dell Latitude E6230
+    - HP Zbook G1
+    - HP Zbook 15 G2
+    - HP Pavilion 15-cs0093ca
+    - avita liver v-14
+    - Dell ChengMing 3991
+    - HP 288 Pro G5
+    - Lenovo Ideacenter A340
+
   
 
   
