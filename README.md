@@ -14,6 +14,7 @@
 
 
 
+
       (1)拆分文档：拆分成笔记本和台式机两份文件,readme文档内将厂商链接过去，这样再更新文件的时候会轻松一些。
       
       (2)自动化脚本：目前更新的方式还是靠人去对，筛出新增的然后再增加进去，比较费时间。从我自己找的方式看，是可以通过脚本实现的，这个可以节省很多时间和精力。
@@ -87,6 +88,7 @@
 | Acer Aspire E1-572G         | [链接](https://github.com/TonyStark10006/Acer_E1-572G_Hackintosh_EFI) |                                                              |                                                  |
 | Acer Aspire E5-575G         | [链接](https://github.com/Davone98/Hackintosh-Acer-Aspire-E5-575G) |                                                              |                                                  |
 | Acer Aspire V 15 V5-591G    | [链接](https://github.com/kushwavez/acer-aspire-v5-591g-clover-efi) |                                                              |                                                  |
+| Acer Aspire V3-371 | [链接](https://github.com/WhosPix3l/Aspire-V3-EFI) | | |
 | Acer Aspire VN7-591G        | [链接](https://github.com/zhangyan56/acer-vn7-591G-i5-4210H-macos-10.15.5-EFI) |                                                              |                                                  |
 | Acer ES1-572-37pz           | [链接](https://github.com/joodrew/hackintosh-acer-es1-572-37pz) |                                                              |                                                  |
 | Acer F5-573G                |                                                              |                                                              |                                                  |
@@ -179,6 +181,7 @@
 | Asus Vivobook S13 S330FN          | [链接](https://github.com/deniro98/s330fn)                   |                                                              |                                                              |
 | Asus X441U                        | [链接](https://github.com/Bach0409/EFI-Asusx441u)            |                                                              | 华硕 adol I330FN                                             |
 | Asus X441UB                       |                                                              |                                                              |                                                              |
+| Asus X411UF | [链接](https://github.com/itsluquis/ASUS-S14-X411-OpenCore) | | |
 | Asus X441UV                       | [链接](https://github.com/MinorityCode/asus-x441uv-hackintosh-files) |                                                              |                                                              |
 | Asus A442URR                      |                                                              |                                                              |                                                              |
 | Asus VivoBook FL8000u             | [链接](https://github.com/jacid233/hackintosh-for-fl8000u)   |                                                              |                                                              |
@@ -307,6 +310,7 @@
 | Dell Latitude E5470                        | [链接](https://github.com/txt1994/dell_latitude5470_i7-6820hq) |                                                              |                                                              |
 | Dell Latitude E5490                        | [链接](https://github.com/lijun215021/DELL-5490-hackintosh) [链接](https://github.com/novseje/dell-latitude-5490-hackintosh-clover) |                                                              |                                                              |
 | Dell Latitude E5591                        | [链接](https://github.com/geowoden/DELL-Latitude-5591_osx-clover) |                                                              |                                                              |
+| Dell Latitude E6230 | [链接](https://github.com/Hayafumi/dell-latitude-e6230-opencore) | | |
 | Dell Latitude E6330                        |                                                              |                                                              |                                                              |
 | Dell Latitude E6430                        | [链接](https://github.com/kinoute/Hack-Dell-Latitude-E6430)  |                                                              |                                                              |
 | Dell Latitude E7250                        | [链接](https://github.com/SkyrilHD/Dell-E7250-Hackintosh)    |                                                              |                                                              |
@@ -423,6 +427,8 @@
 | HP 15 BS661TX                                   | [链接](https://github.com/sortedcord/hp15bs661tx-hackintosh) |                                                              |                                                              |
 | HP 15 D062TU                                    | [链接](https://github.com/khanhtran-cse/hp-15-d062tu-hackintosh) |                                                              |                                                              |
 | HP 15 da0004tu                                  | [链接](https://github.com/Flashminat0/hp-15-da0004tu-notbook-big-sur-efi) |                                                              |                                                              |
+| HP Zbook G1                                     | [链接](https://github.com/Thatisjigen/OC_Zbook-G1-Big-Sur)   |                                                              |                                                              |
+| HP Zbook 15 G2                                  | [链接](https://github.com/cmc3svn/opencore-zbook-15-g2)      |                                                              |                                                              |
 | HP 15G BR011TX                                  | [链接](https://github.com/SahilSonar/hackintosh-hp-15g-br011tx) |                                                              |                                                              |
 | HP Laptop 14S-DQ1013TU                          |                                                              |                                                              |                                                              |
 | HP Laptop 15-da0233ur                           | [链接](https://github.com/DmitriyyyyS/Hackintosh-HP-Laptop-15-da0233ur) |                                                              | i3-7020U                                                     |
@@ -441,7 +447,7 @@
 | HP 250 G2                                       | [链接](https://github.com/MrPotatoBobx/hp250g2opencore)      |                                                              |                                                              |
 | HP 250 G6                                       | [链接](https://github.com/snajdovski/HP-250-G6-Mojave-EFI)   |                                                              |                                                              |
 | HP 348 G5                                       | [链接](https://github.com/zsakvo/hp-348-g5-hackintosh)       |                                                              |                                                              |
-| HP Probook 430 G3                               | [链接](https://github.com/mdraan1/HP-Probook-430-G3-macos)   |  [链接](https://github.com/Human7900/macOS-HP-Probook-430-G3-Resources)       |                                                           |                                                              |
+| HP Probook 430 G3                               | [链接](https://github.com/mdraan1/HP-Probook-430-G3-macos)   | [链接](https://github.com/Human7900/macOS-HP-Probook-430-G3-Resources) |                                                              |
 | HP Probook 430 G5                               |                                                              |                                                              |                                                              |
 | HP ProBook 430 G6                               | [链接](https://github.com/YGQ8988/HP-ProBook430G6)           |                                                              | i5-8265U 已卸载内置镁光 nvme SSD(此硬盘不识别)               |
 | HP ProBook 440 G2                               |                                                              |                                                              |                                                              |
@@ -467,6 +473,7 @@
 | HP Pavilion 15G BR011TX                         | [链接](https://github.com/SahilSonar/hackintosh-hp-15g-br011tx) |                                                              |                                                              |
 | HP Pavilion ce3034nl                            | [链接](https://github.com/Gaggu097/HP-pavillion-ce3034nl-EFI) |                                                              |                                                              |
 | HP Pavillion ck069tx                            | [链接](https://github.com/Blizzard57/Hackintosh)             |                                                              |                                                              |
+| HP Pavilion 15-cs0093ca                         |                                                              |                                                              |                                                              |
 | HP Pavilion 15 cs1xxx                           | [链接](https://github.com/JaeSeoKim/HP-Pavilion-Laptop-15-cs1xxx-Hackintosh) |                                                              |                                                              |
 | Hp Spectre X360                                 | [链接](https://github.com/Just-maple/Hp-spectre-X360-hackintosh) |                                                              |                                                              |
 | HP Spectre X360 15-bl112dx                      | [链接](https://github.com/WoadZS/HP-Spectre-X360-15-Hackintosh) |                                                              |                                                              |
@@ -804,6 +811,7 @@
 
 | 机型名称                     | 发布地址                                                                            | 教程地址                                                                     | 备注                                                                                                        |
 | ---------------------------- | ----------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
+| avita liver v-14 |  |  |  |
 | Clevo P950HR                 | [链接](https://github.com/MegaCookie/Clevo-P950HR-Hackintosh)                       |                                                                              | 蓝天 P950HR，猜的                                                                                           |
 | 火影地狱火 X6                | [链接](https://github.com/gaofeicm/DiYuHuo-X6-MacOS-Mojave-10.14.3-Hackintosh)      |                                                                              |                                                                                                             |
 | 火影金刚 GTX                 | [链接](https://github.com/Sherlockouo/Hackintosh)                                   |                                                                              |                                                                                                             |
@@ -1048,6 +1056,7 @@
 
 | **台式（部分）**                           | 发布地址                                                     | 教程地址 | 备注                                                         |
 | ------------------------------------------ | ------------------------------------------------------------ | -------- | ------------------------------------------------------------ |
+| Dell ChengMing 3991                        | [链接](https://github.com/istarmeow/Hackintosh-Dell.ChengMing.3991-OpenCore.0.7.0-macOS.Big.Sur.11.4) |          |                                                              |
 | Dell OptiPlex 760                          |                                                              |          |                                                              |
 | Dell OptiPlex 3050                         | [链接](https://github.com/Leif160519/Dell-OptiPlex-3050-EFI) [链接](https://github.com/fgprodigal/Optiplex-3050-EFI-OC)<br />[链接](https://github.com/mxltxt/Dell-OptiPlex-3050-OC-EFI) |          |                                                              |
 | Dell OptiPlex 3070                         | [链接](https://github.com/bfrorum10/DELL-3070-MFF-Catalina-10.15.6-OC-0.5.9) [链接](https://github.com/zzkenkashjzz/Dell3070SFF-EFI-OpenCore) |          | 网卡推荐：[BCM94360Z4](https://blog.daliansky.net/uploads/WeChatandShop.png) |
@@ -1149,6 +1158,7 @@
 
 | **台式（部分）**             | 发布地址                                                     | 教程地址 | 备注              |
 | ---------------------------- | ------------------------------------------------------------ | -------- | ----------------- |
+| HP 288 Pro G5 | [链接](https://github.com/liuqqqhuan/HP-288PRO-G5-EFI) |  |  |
 | HP Compaq Pro 4300           | [链接](https://github.com/ichelash/HP4300EFI)                |          |                   |
 | HP EliteDesk 400 G1 DM       |                                                              |          |                   |
 | HP EliteDesk 800 G1 DM/USDT  |                                                              |          |                   |
@@ -1201,6 +1211,7 @@
 | Lenovo TianQi M420                         | [链接](https://github.com/july929/Lenovo-QiTian-M420-i3-8100-UHD630-OpenCore-EFI) |                                                              |                                                              |
 | Lenovo 天逸 510S                           | [链接](https://github.com/274860460/lenovo-510s-i5-9400_HUD630_Hackintosh_EFI) |                                                              | i5-9400 网卡推荐：[BCM94360Z4](https://blog.daliansky.net/uploads/WeChatandShop.png) |
 | Lenovo 天逸 510S Mini                      | [链接](https://github.com/daliansky/Lenovo-TianYi-510S-Mini-Hackintosh) |                                                              | 联想天逸 510S Mini 小主机<br />小兵自用，长期维护<br />网卡推荐：[BCM94360Z4](https://blog.daliansky.net/uploads/WeChatandShop.png) |
+| Lenovo Ideacenter A340 | [链接](https://github.com/comp-labs/macOS-Kexts-for-Lenovo-Ideacenter-A340) | |  |
 | Lenovo ThinkCentre M4500q                  | [链接](https://github.com/samawong/hackintosh-clover-configure-for-lenovo-m4500q-n000-model) |                                                              |                                                              |
 | Lenovo ThinkCentre M710Q                   | [链接](https://github.com/daliansky/Lenovo-M710Q-Hackintosh) |                                                              | 小兵自用，长期维护<br />网卡推荐：[BCM94360Z4](https://blog.daliansky.net/uploads/WeChatandShop.png) |
 | Lenovo ThinkCentre M720Q                   | [链接](https://github.com/fronttang/Lenovo-ThinkCentre-M720Q-Hackintosh) [链接](https://github.com/tobagin/m720q-OpenCore-Catalina/)<br />[链接](https://github.com/revunix/ThinkCentre-M720Q) |                                                              | 网卡推荐：[BCM94360Z4](https://blog.daliansky.net/uploads/WeChatandShop.png) |
