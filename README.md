@@ -521,8 +521,6 @@
 | Lenovo ideapad 3 14iil05           | [链接](https://github.com/DagerDW/Lenovo-ideapad-3-14iil05-Hackintosh) |                                                              | i5-1035G4 Ice Lake-U                                         |
 | Lenovo Ideapad 310-14IKB           | [链接](https://github.com/29satnam/LenovoHackintosh)         | [链接](https://github.com/29satnam/LenovoHackintosh/blob/master/README.md) |                                                              |
 | Lenovo Ideapad 320-14IKB           | [链接](https://github.com/Ab2774/Lenovo-IdeaPad-320-14-IKB-Hackintosh)         | [链接](https://github.com/Ab2774/Lenovo-IdeaPad-320-14-IKB-Hackintosh/blob/master/README.md) |                                                              |
-
-https://github.com/Ab2774/Lenovo-IdeaPad-320-14-IKB-Hackintosh
 | Lenovo Ideapad 330-15ICH           | [链接](https://github.com/Baio1977/EFI-Varie-Hackintosh/tree/main/EFI%20Laptop%20/LENOVO/Lenovo%20ideapad%20330-15ICH%20-%20i5%208300H%20-%20GTX%201050) |                                                              |                                                              |
 | Lenovo Ideapad 330-15IKB           |                                                              |                                                              |                                                              |
 | Lenovo Ideapad 320-15ISK           | [链接](https://github.com/gajjartejas/Lenovo-Ideapad-320-15ISK-Laptop-Hackintosh) |                                                              |                                                              |
