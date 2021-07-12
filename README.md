@@ -15,6 +15,7 @@
 
 
 
+
       (1)拆分文档：拆分成笔记本和台式机两份文件,readme文档内将厂商链接过去，这样再更新文件的时候会轻松一些。
       
       (2)自动化脚本：目前更新的方式还是靠人去对，筛出新增的然后再增加进去，比较费时间。从我自己找的方式看，是可以通过脚本实现的，这个可以节省很多时间和精力。
@@ -818,7 +819,7 @@
 | Thunderobot 911 Air          | [链接](https://github.com/athlonreg/Thunderobot-911-Air-i7-9750h)                   |                                                                              |                                                                                                             |
 | Thunderobot 911 Air2         | [链接](https://github.com/athlonreg/Thunderobot-911-Air-i7-9750h)                   |                                                                              |                                                                                                             |
 | 雷神笔记本黑苹果套件         | [链接](https://github.com/athlonreg/Thunderobot-Hackintosh)                         |                                                                              |                                                                                                             |
-| Airbook                      | [链接](https://github.com/nabaonan/airbook-6200u-efi)                               |                                                                              | 网卡推荐：[DW1820A](https://blog.daliansky.net/DW1820A_BCM94350ZAE-driver-inserts-the-correct-posture.html) |
+| Airbook 颜值版 i5 6200u     | [链接](https://github.com/nabaonan/airbook-6200u-efi)  [oc版链接](https://github.com/nabaonan/airbook-6200u-efi/tree/oc) | [教程](https://juejin.cn/post/6983945097658253320) | 网卡推荐：[DW1820A](https://blog.daliansky.net/DW1820A_BCM94350ZAE-driver-inserts-the-correct-posture.html)  OC 0.7.0 系统：10.14.6 |
 | 同方 GI5CN5E                 | [链接](https://github.com/rodgomesc/AVELL-G1513-FOX-7-TONG-FANG-GI5CN5E-HACKINTOSH) |                                                                              |                                                                                                             |
 | GPD P2 MAX                   | [链接](https://github.com/Azkali/GPD-P2-MAX-Hackintosh)                             |                                                                              |                                                                                                             |
 | 微星准系统 ProBox23          | [链接](https://github.com/Twilightlee/MSI_ProBox23_hackintosh)                      |                                                                              |                                                                                                             |
