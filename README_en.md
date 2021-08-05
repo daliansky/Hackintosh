@@ -181,6 +181,8 @@
 | Dell XPS 9550                              | [link](https://github.com/wmchris/DellXPS15-9550-OSX) [link](https://github.com/corenel/XPS9550-macOS) | [link](https://github.com/wmchris/DellXPS15-9550-OSX/blob/10.14/README.md) [link](https://github.com/corenel/XPS9550-macOS/blob/master/README.md) | Dell XPS 9550 Recommended network card: [DW1820A](https://blog.daliansky.net/DW1820A_BCM94350ZAE-driver-inserts-the-correct-posture.html) |
 | Dell XPS 9560                              | [link](https://github.com/gunslinger23/XPS15-9560-High-Sierra) | [link](https://github.com/gunslinger23/XPS15-9560-High-Sierra/blob/master/README.md) | Dell XPS 9560 Recommended network card: [DW1820A](https://blog.daliansky.net/DW1820A_BCM94350ZAE-driver-inserts-the-correct-posture.html) |
 | Dell XPS 9570                              | [link](https://github.com/Xigtun/xps-9570-mojave) [link](https://github.com/bavariancake/XPS9570-macOS) <br />[link](https://github.com/LuletterSoul/Dell-XPS-15-9570-macOS-Mojave) |                                                              | credit：[LuletterSoul](https://github.com/LuletterSoul)<br />Recommended network card: [DW1820A](https://blog.daliansky.net/DW1820A_BCM94350ZAE-driver-inserts-the-correct-posture.html) |
+| Dell Precision 7530 7540 7730 7740                  | [link](https://github.com/lulu-gh/Dell-Precision-E7530-Prototype-OpenCore) |                                                              |       This is tested on a prototype of 7530, read the instructions for usage on production models; by default the configuration supports AMD dGPU, for other dGPUs change your dGPU board or disable it yourself        |
+
 
 #### Gigabyte 技嘉
 
