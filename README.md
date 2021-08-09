@@ -361,6 +361,7 @@
 | Dell XPS 13 9300                           | [链接](https://github.com/leon0410898/XPS13-9300-hackintosh) |                                                              | i7-1065G7                                                    |
 | Dell Inspiron 7586                           | [链接](https://github.com/hacker1024/Dell-Inspiron-7586-Hackintosh) |                                                              |                                                    |
 | Dell G7 7588                              | [链接](https://github.com/rex-lapis/Hackintosh-Dell-G7-7588-OpenCore) |                                                              |                                                              |
+| Dell Precision 7530 7540 7730 7740                  | [链接](https://github.com/lulu-gh/Dell-Precision-E7530-Prototype-OpenCore) |                                                              |       默认是7530工程机EFI，用于量产机型先看说明再安装；默认配置支持AMD独显，用集显自行屏蔽或者换硬件        |
 
 ### Gigabyte 技嘉
 
