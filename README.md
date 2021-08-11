@@ -16,6 +16,7 @@
 
 
 
+
       (1)拆分文档：拆分成笔记本和台式机两份文件,readme文档内将厂商链接过去，这样再更新文件的时候会轻松一些。
       
       (2)自动化脚本：目前更新的方式还是靠人去对，筛出新增的然后再增加进去，比较费时间。从我自己找的方式看，是可以通过脚本实现的，这个可以节省很多时间和精力。
@@ -1246,6 +1247,7 @@
 | MSI B365M Pro-VDH                                 | [链接](https://github.com/suggested-username/MSI-B365M-PRO-VDH-OPENCORE-HACKINTOSH) |                                                              |                                                              |
 | MSI B460I GAMING EDGE WIFI                        | [链接](https://github.com/zhaxingyu/MSI-B460i-Hackintosh)    |                                                              |                                                              |
 | MSI B460M MORTAR                                  | [链接](https://github.com/josways/B460M-MORTAR) <br />[链接](https://github.com/cheneyxx/Hackintosh-10400-B460M-MORTAR) |                                                              | I5-10400 / RX550<br />网卡推荐：[BCM94360CD](https://blog.daliansky.net/uploads/WeChatandShop.png) |
+| MSI MAG B560M MORTAR WIF                          | [链接](https://github.com/sqlsec/MSI-MAG-B560M-MORTAR-i7-10700) |                                                              | 网卡推荐：[BCM94360CD](https://blog.daliansky.net/uploads/WeChatandShop.png) |
 | MSI H270 GAMING M3                                | [链接](https://github.com/basett1/OPENCORE-EFI-MSI-H270-GC-TITAN-RIDGE) |                                                              | 网卡推荐：[BCM94360CD](https://blog.daliansky.net/uploads/WeChatandShop.png) |
 | MSI H410M-A PRO                                   | [链接](https://github.com/goomadao/MSI-H410M-A-PRO-OpenCore-EFI) [链接](https://github.com/jkimieck/MSI440_CATALINA) |                                                              |                                                              |
 | MSI H410M-PRO-VH                                  | [链接](https://github.com/Abhinavcs7/EFI-For-MSI-H41OM-PRO---VH-MacOS-big-sur-) |                                                              | i3-10100                                                     |
