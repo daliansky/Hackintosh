@@ -1154,7 +1154,7 @@
 | Gigabyte Z77X D3H               | [链接](https://github.com/nickw444/opencore-efi)             |                                                              |                                                              |
 | Gigabyte GA-Z77X-DS3            | [链接](https://github.com/tdyn2000/GIGA-Z77X-DS3-Catalina-EFI) |                                                              |                                                              |
 | Gigabyte Z97n WiFi              | [链接](https://github.com/POP3UR/EFI-Opencore-z97n-Big-Sur)  |                                                              |                                                              |
-| Gigabyte Z97 D3H                | [链接](https://github.com/q4e/GA-Z97-D3H-Hackintosh-OpenCore-EFI) |                                                              | GIGABYTE Z97n WiFi                                           |
+| Gigabyte Z97 D3H                | [链接](https://github.com/betteray/OpenCore-EFI-Actions) |                                                              | GIGABYTE Z97n WiFi                                           |
 | Gigabyte Z97X Gaming 5          | [链接](https://github.com/amogh-w/Hackintosh-4790K-Z97X-GTX-960) [链接](https://github.com/maximum-maxness/Z97MX-Gaming-5-4790K-Hackintosh) |                                                              |                                                              |
 | Gigabyte 合集                   | [链接](https://github.com/Baio1977/EFI-Varie-Hackintosh/tree/main/EFI%20Desktop/GIGABYTE) |                                                              |                                                              |
 
