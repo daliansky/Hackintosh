@@ -18,6 +18,7 @@
 
 
 
+
       (1)拆分文档：拆分成笔记本和台式机两份文件,readme文档内将厂商链接过去，这样再更新文件的时候会轻松一些。
       
       (2)自动化脚本：目前更新的方式还是靠人去对，筛出新增的然后再增加进去，比较费时间。从我自己找的方式看，是可以通过脚本实现的，这个可以节省很多时间和精力。
@@ -341,7 +342,7 @@
 | Dell Vostro 3468                           | [链接](https://github.com/ahianf/dell-vostro-3468-hackintosh) |                                                              |                                                              |
 | Dell Vostro 3490                           | [链接](https://github.com/FaneCH/Vostro-3490-hackintosh) [链接](https://github.com/StefanChimu/Vostro-3490-hackintosh) |                                                              | I5-10210u                                                    |
 | Dell Vostro 3568                           | [链接](https://github.com/hsed-sys/vostro-3568-clover-efi)   |                                                              |                                                              |
-| Dell Vostro 3578                           | [链接](https://github.com/ABCDFAS/dell-vostro-3578-hackintosh-clover-efi) |                                                              |                                                              |
+| Dell Vostro 3578                           | [链接](https://github.com/ABCDFAS/dell-vostro-3578-hackintosh-clover-efi) [链接](https://github.com/ABCDFAS/hackintosh-vostro-3578-opencore-EFI) |                                                              |                                                              |
 | Dell Vostro 5370                           | [链接](https://github.com/hellmonky/Hackintosh/tree/master/dell-vostro-5370) |                                                              |                                                              |
 | Dell Vostro 5471                           | [链接](https://github.com/Lorys89/DELL_VOSTRO_5471)          |                                                              |                                                              |
 | Dell Vostro 5401 (ICE-LAKE)                | [链接](https://github.com/Lorys89/Dell_Vostro_5401-ICE-LAKE) |                                                              |                                                              |
