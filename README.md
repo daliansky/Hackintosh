@@ -1023,6 +1023,7 @@
 | Asus H170M-PLUS | [链接](https://github.com/riccardo4zan/Opencore-EFI) | | 网卡推荐：[BCM94360CD](https://blog.daliansky.net/uploads/WeChatandShop.png) |
 | Asus H370i                     | [链接](https://github.com/HuaHuaY/Hackintosh-H370i-Big-Sur-EFI) |          |                                                              |
 | Asus ROG STRIX H370-I GAMING | [链接](https://github.com/HuaHuaY/Hackintosh-H370i-Big-Sur-EFI) | | |
+| Asus ROG STRIX H370-F GAMING | [链接](https://github.com/ChengYen-Tang/ROG-STRIX-H370-F-GAMING-Hackintosh) | | |
 | Asus Sabertooth z87            |             |          |                                                              |
 | Asus Z97K 4980HQ               | [链接](https://github.com/efsg/ASUS-Z97K-4980HQ-Hackintosh)  |          | I7-4980HQ                                                    |
 | Asus Z170 Deluxe | [链接](https://github.com/kushwavez/asus-z170-deluxe-clover-efi) | |  |
