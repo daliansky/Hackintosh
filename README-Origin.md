@@ -1010,6 +1010,7 @@ f
 | Asus ROG Maximus X Hero Z370   | [链接](https://github.com/RainshawGao/Hackintosh) [链接](https://github.com/Urufu19/EFI-OPENCORE-BIG-SUR-ASUS-z370) |          | Vega 56 <br />网卡推荐：[DW1820A](https://blog.daliansky.net/uploads/WeChatandShop.png) / [BCM94360CD](https://blog.daliansky.net/uploads/WeChatandShop.png) |
 | ROG Maximus XI Hero Wi-Fi M11H | [链接](https://github.com/ttdevs/EFI-Z390-ROG-MAXIMUS-XI-HERO-WIFI-i7-8700K) |          |                                                              |
 | Asus ROG STRIX H370-I GAMING   | [链接](https://github.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide) [链接](https://github.com/sheva007/H370i_RX580_OC0.6.1) |          | mini-ITX H370 motherboard                                    |
+| Asus ROG STRIX H370-F GAMING | [链接](https://github.com/ChengYen-Tang/ROG-STRIX-H370-F-GAMING-Hackintosh) | | |
 | Asus STRIX Z270-E              | [链接](https://github.com/BradenM/Hackintosh-7700k-R9_390-iGPU) |          | Asus STRIX Z270-E                                            |
 | Asus ROG Strix Z270G Gaming    | [链接](https://github.com/marknotton/OpenCore-EFI)           |          |                                                              |
 | Asus ROG Strix Z390-E          | [链接](https://github.com/xiedonghang/hackintosh) [链接](https://github.com/lbrdev/asus_z390e_opencore_hackintosh) |          | Intel i9-9900k+UHD630核显                                    |
