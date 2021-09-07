@@ -21,6 +21,7 @@
 
 
 
+
       (1)拆分文档：拆分成笔记本和台式机两份文件,readme文档内将厂商链接过去，这样再更新文件的时候会轻松一些。
       
       (2)自动化脚本：目前更新的方式还是靠人去对，筛出新增的然后再增加进去，比较费时间。从我自己找的方式看，是可以通过脚本实现的，这个可以节省很多时间和精力。
@@ -224,9 +225,10 @@
 | Asus ZenBook UX305UA              | [链接](https://github.com/aryamawb/asus-ux305ua-hackintosh)  |                                                              |                                                              |
 | Asus ZenBook UX330UAK             | [链接](https://github.com/Rybo713/UX330UA-macOS)             | [链接](https://github.com/Rybo713/UX330UA-macOS/blob/master/README.md) | Asus UX330UAK (Kabylake）                                    |
 | Asus Zenbook UX331                | [链接](https://github.com/VortexisTV/Asus-Zenbook-UX331-Hackintosh) |                                                              |                                                              |
+| Asus Zenbook UX433FN              | [链接](https://github.com/letanga/UX433FN-OpenCore-EFI)      |                                                              |                                                              |
 | Asus Zenbook UX450FDX             | [链接](https://github.com/xvAcid/Hackintosh_Zenbook_UX450FDX) |                                                              |                                                              |
+| Asus Zenbook UX463F | [链接](https://github.com/MSzturc/ASUS-Zenbook-Flip-UX463-OpenCore) | | |
 | Asus Zenbook 3 UX490              | [链接](https://github.com/VillenaDeveloper/asus-ux490-hackintosh) |                                                              |                                                              |
-| Asus UX433FN                      | [链接](https://github.com/letanga/UX433FN-OpenCore-EFI)      |                                                              |                                                              |
 | 华硕 zx50jx4200                   | [链接](https://github.com/sxz799/zx50jx4200_hackintosh)      |                                                              |                                                              |
 | 华硕 A407UB                       | [链接](https://github.com/xinguisoft/Hackintosh-EFI-Asus-A407UB/) |                                                              |                                                              |
 | 华硕玩家国度 ROG 魔霸 2           | [链接](https://github.com/664235822/EFI-OpenCore)            |                                                              |                                                              |
