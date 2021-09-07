@@ -19,6 +19,7 @@
 
 
 
+
       (1)拆分文档：拆分成笔记本和台式机两份文件,readme文档内将厂商链接过去，这样再更新文件的时候会轻松一些。
       
       (2)自动化脚本：目前更新的方式还是靠人去对，筛出新增的然后再增加进去，比较费时间。从我自己找的方式看，是可以通过脚本实现的，这个可以节省很多时间和精力。
@@ -824,7 +825,8 @@
 | Thunderobot 911 Air          | [链接](https://github.com/athlonreg/Thunderobot-911-Air-i7-9750h)                   |                                                                              |                                                                                                             |
 | Thunderobot 911 Air2         | [链接](https://github.com/athlonreg/Thunderobot-911-Air-i7-9750h)                   |                                                                              |                                                                                                             |
 | 雷神笔记本黑苹果套件         | [链接](https://github.com/athlonreg/Thunderobot-Hackintosh)                         |                                                                              |                                                                                                             |
-| Airbook 颜值版 i5 6200u  (Mojave) | [clover版链接](https://github.com/nabaonan/airbook-6200u-efi/tree/master)  [oc版链接](https://github.com/nabaonan/airbook-6200u-efi/tree/oc) | [教程](https://juejin.cn/post/6983945097658253320)  | 网卡推荐：[DW1820A](https://blog.daliansky.net/DW1820A_BCM94350ZAE-driver-inserts-the-correct-posture.html)  OC 0.7.0 系统：10.14.6 |
+| Airbook 颜值版 i5 6200u  (Mojave) | [clover版链接](https://github.com/nabaonan/airbook-6200u-efi/tree/master)  [oc版链接](https://github.com/nabaonan/airbook-6200u-efi/tree/oc) | [教程](https://juejin.cn/post/6983945097658253320)  | 网卡推荐：[DW1820A](https://blog.daliansky.net/DW1820A_BCM94350ZAE-driver-inserts-the-correct-posture.html)  OC 0.7.2 系统：10.14.6 |
+| Airbook 颜值版 i5 6200u  (Catalina) | [链接](https://github.com/nabaonan/airbook-6200u-efi/tree/catalina) |  | OC: 0.7.2 系统：Catalina 10.15.7 |
 | Airbook 颜值版 i5 6200u（BigSur） | [链接](https://github.com/nabaonan/airbook-6200u-efi/tree/bigsur) |  | OC：0.7.2   系统：BigSur 11.5.1 |
 | 同方 GI5CN5E                 | [链接](https://github.com/rodgomesc/AVELL-G1513-FOX-7-TONG-FANG-GI5CN5E-HACKINTOSH) |                                                                              |                                                                                                             |
 | GPD P2 MAX                   | [链接](https://github.com/Azkali/GPD-P2-MAX-Hackintosh)                             |                                                                              |                                                                                                             |
