@@ -20,6 +20,7 @@
 
 
 
+
       (1)拆分文档：拆分成笔记本和台式机两份文件,readme文档内将厂商链接过去，这样再更新文件的时候会轻松一些。
       
       (2)自动化脚本：目前更新的方式还是靠人去对，筛出新增的然后再增加进去，比较费时间。从我自己找的方式看，是可以通过脚本实现的，这个可以节省很多时间和精力。
@@ -52,18 +53,12 @@
 
 更新日期：
 
-- 2021年6月22日
+- 2021年9月7日
   - 新增机型：
-    - Acer Aspire V3-371
-    - Asus X411UF
-    - Dell Latitude E6230
-    - HP Zbook G1
-    - HP Zbook 15 G2
-    - HP Pavilion 15-cs0093ca
-    - avita liver v-14
-    - Dell ChengMing 3991
-    - HP 288 Pro G5
-    - Lenovo Ideacenter A340
+    - Acer Aspire A515-55
+    - Asus FX55VD DM001D
+    - Dell Latitude 3400
+    - MSI GF63 8RD
 
 完整的更新日志：[更新日志](./Changelog.md)
 
