@@ -13,6 +13,7 @@
 | Model Name              | Depot                                                        | Tutorial                                                     | Remarks                     |
 | ----------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | --------------------------- |
 | Acer Aspire 3 A315-51   | [link](https://github.com/ZeroInfinityXDA/Acer-A315-51-Hackintosh) |                                                              |                             |
+| Acer Aspire 3 A315-54K-34P6 | [link](https://github.com/velickovicdj/A315-54K-34P6_OpenCore_Big_Sur) |                                                              |                                                  |
 | Acer Aspire A515-51G    | [link](https://github.com/h-okon/Acer-Aspire-A515-Hackintosh) |                                                              |                             |
 | Acer Aspire A515-51G    | [link](https://github.com/Siddhesh1197/Acer-A515-51G-Hackintosh) | [link](https://github.com/Siddhesh1197/Acer-A515-51G-Hackintosh/blob/master/README.md) |                             |
 | Acer A515-51G-58VH      | [link](https://github.com/Rodrigmatrix/Acer-A515-51G-58VH)   |                                                              |                             |
