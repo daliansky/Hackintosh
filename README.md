@@ -5,7 +5,7 @@
 ## English Version: [Hackintosh long-term maintenance model EFI and installation tutorial](README_en.md)
 
     今天采用关键词OPENCORE搜索的方式，采用最近更新排序，搜索了前10页的维护信息，再筛出未进入清单，但维护得不错得REPO,更新时间只是最近2天得，肯定又很多漏的，一一核对很费精力，readme文档内内容太多，整理了一下思路,列出列出了以下几个点，希望大家一起看看如何整理比较方便。
-
+    
       (1)拆分文档：拆分成笔记本和台式机两份文件,readme文档内将厂商链接过去，这样再更新文件的时候会轻松一些。
       
       (2)自动化脚本：目前更新的方式还是靠人去对，筛出新增的然后再增加进去，比较费时间。从我自己找的方式看，是可以通过脚本实现的，这个可以节省很多时间和精力。
@@ -56,6 +56,7 @@
 | 机型名称                    | 发布地址                                                     | 教程地址                                                     | 备注                                             |
 | --------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------ |
 | Acer A315-53G               | [链接](https://github.com/hanngoc1406/ACER-A315-53G-Hackintosh-Opencore) |                                                              |                                                  |
+| Acer Aspire 5741G | [链接](https://github.com/AlexHackintosh/Acer-Aspire-5741G-High-Sierra) | | |
 | Acer Aspire 3 A315-51       | [链接](https://github.com/ZeroInfinityXDA/Acer-A315-51-Hackintosh) |                                                              |                                                  |
 | Acer Aspire 3 A315-54K-34P6 | [链接](https://github.com/velickovicdj/A315-54K-34P6_OpenCore_Big_Sur) |                                                              |                                                  |
 | Acer Aspire A514-51G        | [链接](https://github.com/yosisetiawan/EFI-Hackintosh-Acer-A514-51G) |                                                              |                                                  |
@@ -115,7 +116,7 @@
 | Asus A411UF                       | [链接](https://github.com/faizauthar12/Asus_A411UF_Hackintosh) |                                                              |                                                              |
 | Asus A442UF                       | [链接](https://github.com/ryansat/Hackintosh-A442UF)         |                                                              |                                                              |
 | Asus A442URR                      |                                                              |                                                              | 网卡推荐：[DW1820A](https://blog.daliansky.net/uploads/WeChatandShop.png) |
-| Asus A455LA                       |                                                              |                                                              | Asus S455LA                                                  |
+| Asus A455LA                       | [链接](https://github.com/Semutbanyak/Semutbanyak-Asus-A455LA-WX668D-hackintosh-OpenCore) |                                                              | Asus S455LA                                                  |
 | Asus A455LF-WX039D Series         | [链接](https://github.com/asepms92/Hackintosh-Asus-A455LF-Notebook) |                                                              |                                                              |
 | Asus A456UF(X456UF)               |                                                              |                                                              |                                                              |
 | Asus A550JK4200                   | [链接](https://github.com/hehuapei/ASUS-a550jk-4200---macOS) |                                                              |                                                              |
@@ -135,6 +136,7 @@
 | Asus GL552VW                      | [链接](https://github.com/originman521/Hackintosh-ASUS-FXPRO-GL552VW) [链接](https://github.com/Armageddon95/ASUS-GL552VW-OC-EFI) |                                                              | 飞行堡垒 2016 FXPRO                                          |
 | Asus G60VW                        |                                                              |                                                              |                                                              |
 | Asus K501LB                       | [链接](https://github.com/ApolloRisky/EFI_Clover-Asus-K501LB-Mojave) |                                                              |                                                              |
+| Asus K550J | [链接](https://github.com/BrandTime/Asus-K550J-Hackintosh) | | |
 | Asus K555UB Series                | [链接](https://github.com/sutsurup/ASUS-K555UB-Hackintosh)   | [链接](https://github.com/sutsurup/ASUS-K555UB-Hackintosh/blob/master/README.md) | XO092T - XO093T - XO096T - XO097T<br />XO066T - XO198T - XO266T - XO099D - XO227D |
 | Asus K55VD                        | [链接](https://github.com/southernvevo/Asus-K55VD-HACKINTOSH) | [链接](https://github.com/southernvevo/Asus-K55VD-HACKINTOSH/blob/master/README.md) | Asus K55VD                                                   |
 | Asus K555LD                       | [链接](https://github.com/kongbg/asus-k555ld-4210U)          | [链接](https://github.com/kongbg/asus-k555ld-4210U/blob/master/README.md) | Asus K555LD                                                  |
@@ -510,6 +512,7 @@
 | Lenovo Flex 15                     | [链接](https://github.com/aytic/Lenovo-Flex-15-Hackintosh)   | [链接](https://github.com/aytic/Lenovo-Flex-15-Hackintosh/blob/master/README.md) | Lenovo Flex 15                                               |
 | Lenovo Ideapad S145-15IWL          | [链接](https://github.com/boffik/LenovoS145-15IWL_OpenCore) [链接](https://github.com/Ninjacornix/Lenovo-S145-15IWL-Big-sur-OC-EFI) |                                                              |                                                              |
 | Lenovo ideapad 3 14iil05           | [链接](https://github.com/DagerDW/Lenovo-ideapad-3-14iil05-Hackintosh) |                                                              | i5-1035G4 Ice Lake-U                                         |
+| Lenovo IdeaPad 100-15IBY | [链接](https://github.com/BugsMover/Hackintosh_IdeaPad-100-15IBY) | |  |
 | Lenovo Ideapad 310-14IKB           | [链接](https://github.com/29satnam/LenovoHackintosh)         | [链接](https://github.com/29satnam/LenovoHackintosh/blob/master/README.md) |                                                              |
 | Lenovo Ideapad 320-14IKB           | [链接](https://github.com/Ab2774/Lenovo-IdeaPad-320-14-IKB-Hackintosh)         | [链接](https://github.com/Ab2774/Lenovo-IdeaPad-320-14-IKB-Hackintosh/blob/master/README.md) |                                                              |
 | Lenovo Ideapad 330-15ICH           | [链接](https://github.com/Baio1977/EFI-Varie-Hackintosh/tree/main/EFI%20Laptop%20/LENOVO/Lenovo%20ideapad%20330-15ICH%20-%20i5%208300H%20-%20GTX%201050) |                                                              |                                                              |
@@ -532,6 +535,7 @@
 | Lenovo G50-80                      | [链接](https://github.com/upupming/Lenovo-G50-80-Clover)     |                                                              |                                                              |
 | Lenovo G510                        | [链接](https://github.com/Z39/G510-OS-X-Clover-Hotpatch)     |                                                              | 感谢：[39 军小兵张](http://i.pcbeta.com/space-uid-4472739.html) |
 | 联想 flex3-1470/i5 5200u-hd5500    | [链接](https://github.com/xl120022/FLEX-3-1470-Mac-10.15.3-efi) |                                                              |                                                              |
+| Thinkpad E14 Gen 1 | [链接](https://github.com/AniKulkarn/Hackintosh-ThinkPad-E14) | | |
 | ThinkPad E40                       | [链接](https://github.com/mendax1234/ThinkPadE40-Clover-EFI) | [链接](http://bbs.pcbeta.com/viewthread-1851317-1-1.html)    | ThinkPad E40                                                 |
 | Lenovo 昭阳 E49                    | [链接](https://github.com/pangdahaiNo1/lenovo-E49-macos-efi) |                                                              |                                                              |
 | ThinkPad E440                      | [链接](https://github.com/ZzMark/Thinkpad-E440-Hackintosh)   |                                                              |                                                              |
