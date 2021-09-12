@@ -13,6 +13,7 @@
 | Model Name              | Depot                                                        | Tutorial                                                     | Remarks                     |
 | ----------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | --------------------------- |
 | Acer Aspire 3 A315-51   | [link](https://github.com/ZeroInfinityXDA/Acer-A315-51-Hackintosh) |                                                              |                             |
+| Acer Aspire 3 A315-54K-34P6 | [link](https://github.com/velickovicdj/A315-54K-34P6_OpenCore_Big_Sur) |                                                              |                                                  |
 | Acer Aspire A515-51G    | [link](https://github.com/h-okon/Acer-Aspire-A515-Hackintosh) |                                                              |                             |
 | Acer Aspire A515-51G    | [link](https://github.com/Siddhesh1197/Acer-A515-51G-Hackintosh) | [link](https://github.com/Siddhesh1197/Acer-A515-51G-Hackintosh/blob/master/README.md) |                             |
 | Acer A515-51G-58VH      | [link](https://github.com/Rodrigmatrix/Acer-A515-51G-58VH)   |                                                              |                             |
@@ -62,7 +63,7 @@
 | Asus K501LB                       | [link](https://github.com/ApolloRisky/EFI_Clover-Asus-K501LB-Mojave) |                                                              |                                                  |
 | Asus K55VD                        | [link](https://github.com/southernvevo/Asus-K55VD-HACKINTOSH) | [link](https://github.com/southernvevo/Asus-K55VD-HACKINTOSH/blob/master/README.md) | Asus K55VD                                       |
 | Asus K555LD                       | [link](https://github.com/kongbg/asus-k555ld-4210U) | [link](https://github.com/kongbg/asus-k555ld-4210U/blob/master/README.md) | Asus K555LD |
-| Asus N550JK | [link](https://github.com/AlirezaH320/asus-n550jk-hackintosh) |  |  |
+| Asus N550JK | [link](https://github.com/AlirezaTheH/asus-n550jk-hackintosh) |  |  |
 | Asus N550JV | [link](https://github.com/bakedpotato191/asusn550jv-hackintosh) |  |  |
 | Asus N551JK | [link](https://github.com/basett1/Asus-N551JK-OC-EFI) |  |  |
 | Asus Laptop N56VZ                 | [link](https://github.com/signxer/N56VZ-Hackintosh)          |                                                              |                                                  |
@@ -531,6 +532,7 @@
 | ASUS Z97K 4980HQ                                             | [link](https://github.com/efsg/ASUS-Z97K-4980HQ-Hackintosh)  |                                                              | I7-4980HQ                                                    |
 | Asus Z170-P                                                  | [link](https://github.com/Sharlion/z170_6700k_hackintosh)    |                                                              | 华硕Z170-P+6700K+RX470                                       |
 | Asus ROG STRIX H370-I GAMING                                 | [link](https://github.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide) |                                                              | mini-ITX H370 motherboard                                    |
+| Asus ROG STRIX H370-F GAMING | [link](https://github.com/ChengYen-Tang/ROG-STRIX-H370-F-GAMING-Hackintosh) | | |
 | Asus STRIX Z270-E                                            | [link](https://github.com/BradenM/Hackintosh-7700k-R9_390-iGPU) |                                                              | Asus STRIX Z270-E                                            |
 | Asus ROG Strix Z390-E                                        | [link](https://github.com/xiedonghang/hackintosh)            |                                                              | Intel i9-9900k+UHD630核显                                    |
 | Asus Prime Z390m plus                                        | [link](https://github.com/Asphyxia-m/Asus-Z390m-plus-efi)    |                                                              | OC                                                           |

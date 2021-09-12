@@ -5,23 +5,9 @@
 ## English Version: [Hackintosh long-term maintenance model EFI and installation tutorial](README_en.md)
 
     今天采用关键词OPENCORE搜索的方式，采用最近更新排序，搜索了前10页的维护信息，再筛出未进入清单，但维护得不错得REPO,更新时间只是最近2天得，肯定又很多漏的，一一核对很费精力，readme文档内内容太多，整理了一下思路,列出列出了以下几个点，希望大家一起看看如何整理比较方便。
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
+    
       (1)拆分文档：拆分成笔记本和台式机两份文件,readme文档内将厂商链接过去，这样再更新文件的时候会轻松一些。
-      
+
       (2)自动化脚本：目前更新的方式还是靠人去对，筛出新增的然后再增加进去，比较费时间。从我自己找的方式看，是可以通过脚本实现的，这个可以节省很多时间和精力。
                范围：github.com，
                更新时间：最近3个月，
@@ -52,18 +38,12 @@
 
 更新日期：
 
-- 2021年6月22日
+- 2021年9月7日
   - 新增机型：
-    - Acer Aspire V3-371
-    - Asus X411UF
-    - Dell Latitude E6230
-    - HP Zbook G1
-    - HP Zbook 15 G2
-    - HP Pavilion 15-cs0093ca
-    - avita liver v-14
-    - Dell ChengMing 3991
-    - HP 288 Pro G5
-    - Lenovo Ideacenter A340
+    - Acer Aspire A515-55
+    - Asus FX55VD DM001D
+    - Dell Latitude 3400
+    - MSI GF63 8RD
 
 完整的更新日志：[更新日志](./Changelog.md)
 
@@ -76,11 +56,14 @@
 | 机型名称                    | 发布地址                                                     | 教程地址                                                     | 备注                                             |
 | --------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------ |
 | Acer A315-53G               | [链接](https://github.com/hanngoc1406/ACER-A315-53G-Hackintosh-Opencore) |                                                              |                                                  |
+| Acer Aspire 5741G | [链接](https://github.com/AlexHackintosh/Acer-Aspire-5741G-High-Sierra) | | |
 | Acer Aspire 3 A315-51       | [链接](https://github.com/ZeroInfinityXDA/Acer-A315-51-Hackintosh) |                                                              |                                                  |
+| Acer Aspire 3 A315-54K-34P6 | [链接](https://github.com/velickovicdj/A315-54K-34P6_OpenCore_Big_Sur) |                                                              |                                                  |
 | Acer Aspire A514-51G        | [链接](https://github.com/yosisetiawan/EFI-Hackintosh-Acer-A514-51G) |                                                              |                                                  |
 | Acer Aspire A514-52-37H1    | [链接](https://github.com/samleong123/Acer-Aspire-A514-52-37H1-macOS-Catalina-Clover-EFI) |                                                              |                                                  |
 | Acer Aspire A515-51G        | [链接](https://github.com/h-okon/Acer-Aspire-A515-Hackintosh) [链接](https://github.com/AnshulRaghav/Acer-Big-Sur-Hackintosh) |                                                              |                                                  |
 | Acer Aspire A515-51G        | [链接](https://github.com/Siddhesh1197/Acer-A515-51G-Hackintosh) | [链接](https://github.com/Siddhesh1197/Acer-A515-51G-Hackintosh/blob/master/README.md) |                                                  |
+| Acer Aspire A515-55 | [链接](https://github.com/hanlywijaya/Acer-Aspire-A515-55-Opencore) |  | |
 | Acer A515-51G-58VH          |                                                              |                                                              |                                                  |
 | Acer A715                   | [链接](https://github.com/WangGang-a1/Acer-A715-EFI)         |                                                              |                                                  |
 | Acer Aspire E1-471G         | [链接](https://github.com/matthew728960/Clover-ACER-E1-471G) | [链接](https://github.com/matthew728960/Clover-ACER-E1-471G/blob/master/README.md) | ACER Aspire E1-471g                              |
@@ -139,6 +122,7 @@
 | Asus A550JK4200                   | [链接](https://github.com/hehuapei/ASUS-a550jk-4200---macOS) |                                                              |                                                              |
 | Asus F455LD                       | [链接](https://github.com/athlonreg/Asus-F455LD-i5-4210u)    |                                                              |                                                              |
 | Asus FL5900U                      | [链接](https://github.com/rjm521/asus-fl5900u-hackintosh-oc) |                                                              |                                                              |
+| Asus FX55VD DM001D | [链接](https://github.com/fikriardyant/ASUS-fx553vd-dm001d-hackintosh-OC) | | |
 | Asus FX504GE-ES72                 | [链接](https://github.com/MegaStood/Hackintosh-FX504GE-ES72) |                                                              |                                                              |
 | Asus FX505GD                      | [链接](https://github.com/kreactnative/hackintosh-mojave-fx505gd) |                                                              | ASUS TUF GAMING FX505GD-BQ071T                               |
 | Asus F556U (X556UQK)              | [链接](https://github.com/systemfaliure/Asus-X556UQK-hackintosh#Asus-f556u-x556uqk---high-sierra-hackintosh) | [链接](https://github.com/systemfaliure/Asus-X556UQK-hackintosh/blob/master/README.md) | Asus F556U (X556UQK)                                         |
@@ -152,10 +136,11 @@
 | Asus GL552VW                      | [链接](https://github.com/originman521/Hackintosh-ASUS-FXPRO-GL552VW) [链接](https://github.com/Armageddon95/ASUS-GL552VW-OC-EFI) |                                                              | 飞行堡垒 2016 FXPRO                                          |
 | Asus G60VW                        |                                                              |                                                              |                                                              |
 | Asus K501LB                       | [链接](https://github.com/ApolloRisky/EFI_Clover-Asus-K501LB-Mojave) |                                                              |                                                              |
+| Asus K550J | [链接](https://github.com/BrandTime/Asus-K550J-Hackintosh) | | |
 | Asus K555UB Series                | [链接](https://github.com/sutsurup/ASUS-K555UB-Hackintosh)   | [链接](https://github.com/sutsurup/ASUS-K555UB-Hackintosh/blob/master/README.md) | XO092T - XO093T - XO096T - XO097T<br />XO066T - XO198T - XO266T - XO099D - XO227D |
 | Asus K55VD                        | [链接](https://github.com/southernvevo/Asus-K55VD-HACKINTOSH) | [链接](https://github.com/southernvevo/Asus-K55VD-HACKINTOSH/blob/master/README.md) | Asus K55VD                                                   |
 | Asus K555LD                       | [链接](https://github.com/kongbg/asus-k555ld-4210U)          | [链接](https://github.com/kongbg/asus-k555ld-4210U/blob/master/README.md) | Asus K555LD                                                  |
-| Asus N550JK                       | [链接](https://github.com/AlirezaH320/asus-n550jk-hackintosh) |                                                              |                                                              |
+| Asus N550JK                       | [链接](https://github.com/AlirezaTheH/asus-n550jk-hackintosh) |                                                              |                                                              |
 | Asus N550JV                       | [链接](https://github.com/bakedpotato191/asusn550jv-hackintosh) |                                                              |                                                              |
 | Asus N551JK                       | [链接](https://github.com/basett1/Asus-N551JK-OC-EFI)        |                                                              |                                                              |
 | Asus Laptop N56VZ                 | [链接](https://github.com/signxer/N56VZ-Hackintosh)          |                                                              |                                                              |
@@ -227,9 +212,10 @@
 | Asus ZenBook UX305UA              | [链接](https://github.com/aryamawb/asus-ux305ua-hackintosh)  |                                                              |                                                              |
 | Asus ZenBook UX330UAK             | [链接](https://github.com/Rybo713/UX330UA-macOS)             | [链接](https://github.com/Rybo713/UX330UA-macOS/blob/master/README.md) | Asus UX330UAK (Kabylake）                                    |
 | Asus Zenbook UX331                | [链接](https://github.com/VortexisTV/Asus-Zenbook-UX331-Hackintosh) |                                                              |                                                              |
+| Asus Zenbook UX433FN              | [链接](https://github.com/letanga/UX433FN-OpenCore-EFI)      |                                                              |                                                              |
 | Asus Zenbook UX450FDX             | [链接](https://github.com/xvAcid/Hackintosh_Zenbook_UX450FDX) |                                                              |                                                              |
+| Asus Zenbook UX463F | [链接](https://github.com/MSzturc/ASUS-Zenbook-Flip-UX463-OpenCore) | | |
 | Asus Zenbook 3 UX490              | [链接](https://github.com/VillenaDeveloper/asus-ux490-hackintosh) |                                                              |                                                              |
-| Asus UX433FN                      | [链接](https://github.com/letanga/UX433FN-OpenCore-EFI)      |                                                              |                                                              |
 | 华硕 zx50jx4200                   | [链接](https://github.com/sxz799/zx50jx4200_hackintosh)      |                                                              |                                                              |
 | 华硕 A407UB                       | [链接](https://github.com/xinguisoft/Hackintosh-EFI-Asus-A407UB/) |                                                              |                                                              |
 | 华硕玩家国度 ROG 魔霸 2           | [链接](https://github.com/664235822/EFI-OpenCore)            |                                                              |                                                              |
@@ -300,6 +286,7 @@
 | Dell Inspiron 7580 | [链接](https://github.com/queensferryme/Hackintosh-Dell-7580) [链接](https://github.com/ppjjhh/Hackintosh-Dell-Inspiron-7580) | | 链接1和链接2支持`Big Sur`|
 | Dell Inspiron 7590                         | [链接](https://github.com/lcyf9102s/dell-inspiron7590-i5-1050-hackintosh-cloverEFI) [链接](https://github.com/Pinming/Dell-Inspiron-7590-Hackintosh-Opencore) |                                                              | 链接 2 支持`Big Sur`                                         |
 | Dell Inspiron 7591                         | [链接](https://github.com/tctien342/Dell-Inspiron-7591-Hackintosh) [链接](https://github.com/Skimige/Inspiron-759x-Hackintosh) [链接](https://github.com/Pinming/Dell-Inspiron-7590-Hackintosh-Opencore) |                                                              | 链接 3 支持`Big Sur`                                         |
+| Dell Latitude 3400 | [链接](https://github.com/davidfreitas-dev/EFI-Dell-Latitude-3400) | | 网卡推荐：[BCM94360Z4](https://blog.daliansky.net/uploads/WeChatandShop.png) |
 | Dell Latitude 3440                         | [链接](https://github.com/Yash-Garg/OpenCore-Latitude3440-EFI) |                                                              |                                                              |
 | Dell Latitude E5270                        | [链接](https://github.com/ijiki16/Dell-Latitude-E5270-OpenCore) |                                                              |                                                              |
 | Dell Latitude 5310 | [链接](https://github.com/daniel-pro/Latitude-5310-EFI) | | |
@@ -525,6 +512,7 @@
 | Lenovo Flex 15                     | [链接](https://github.com/aytic/Lenovo-Flex-15-Hackintosh)   | [链接](https://github.com/aytic/Lenovo-Flex-15-Hackintosh/blob/master/README.md) | Lenovo Flex 15                                               |
 | Lenovo Ideapad S145-15IWL          | [链接](https://github.com/boffik/LenovoS145-15IWL_OpenCore) [链接](https://github.com/Ninjacornix/Lenovo-S145-15IWL-Big-sur-OC-EFI) |                                                              |                                                              |
 | Lenovo ideapad 3 14iil05           | [链接](https://github.com/DagerDW/Lenovo-ideapad-3-14iil05-Hackintosh) |                                                              | i5-1035G4 Ice Lake-U                                         |
+| Lenovo IdeaPad 100-15IBY | [链接](https://github.com/BugsMover/Hackintosh_IdeaPad-100-15IBY) | |  |
 | Lenovo Ideapad 310-14IKB           | [链接](https://github.com/29satnam/LenovoHackintosh)         | [链接](https://github.com/29satnam/LenovoHackintosh/blob/master/README.md) |                                                              |
 | Lenovo Ideapad 320-14IKB           | [链接](https://github.com/Ab2774/Lenovo-IdeaPad-320-14-IKB-Hackintosh)         | [链接](https://github.com/Ab2774/Lenovo-IdeaPad-320-14-IKB-Hackintosh/blob/master/README.md) |                                                              |
 | Lenovo Ideapad 330-15ICH           | [链接](https://github.com/Baio1977/EFI-Varie-Hackintosh/tree/main/EFI%20Laptop%20/LENOVO/Lenovo%20ideapad%20330-15ICH%20-%20i5%208300H%20-%20GTX%201050) |                                                              |                                                              |
@@ -547,6 +535,7 @@
 | Lenovo G50-80                      | [链接](https://github.com/upupming/Lenovo-G50-80-Clover)     |                                                              |                                                              |
 | Lenovo G510                        | [链接](https://github.com/Z39/G510-OS-X-Clover-Hotpatch)     |                                                              | 感谢：[39 军小兵张](http://i.pcbeta.com/space-uid-4472739.html) |
 | 联想 flex3-1470/i5 5200u-hd5500    | [链接](https://github.com/xl120022/FLEX-3-1470-Mac-10.15.3-efi) |                                                              |                                                              |
+| Thinkpad E14 Gen 1 | [链接](https://github.com/AniKulkarn/Hackintosh-ThinkPad-E14) | | |
 | ThinkPad E40                       | [链接](https://github.com/mendax1234/ThinkPadE40-Clover-EFI) | [链接](http://bbs.pcbeta.com/viewthread-1851317-1-1.html)    | ThinkPad E40                                                 |
 | Lenovo 昭阳 E49                    | [链接](https://github.com/pangdahaiNo1/lenovo-E49-macos-efi) |                                                              |                                                              |
 | ThinkPad E440                      | [链接](https://github.com/ZzMark/Thinkpad-E440-Hackintosh)   |                                                              |                                                              |
@@ -674,15 +663,15 @@
 
 ### LG
 
-| 机型名称               | 发布地址                                                  | 教程地址 | 备注      |
-| ---------------------- | --------------------------------------------------------- | -------- | --------- |
-| LG Gram 13z980         | [链接](https://github.com/suzuke/LG-Gram-13z980-Opencore) |          | OC        |
-| LG 14U530              | [链接](https://github.com/vivzero/LG14u53-hackintosh)     |          |           |
-| LG Gram 14z980         | [链接](https://github.com/ShiningXu/LG-Gram-macOS)        |          |           |
-| LG Gram14 Z990         | [链接](https://github.com/myd986/LG-gram-14z990)          |          |           |
-| LG Gram 15Z980-G.AA52C | [链接](https://github.com/ice-black-tea/LG-15Z980)        |          |           |
-| LG Gram17 Z90n         | [链接](https://github.com/whca/lg-gram-17z90n-EFI) [链接](https://github.com/AskDavis/LG-Gram-17Z90N)        |          | OC 0.6.9  |
-| LG Gram Z980           | [链接](https://github.com/ShiningXu/LG-Gram-macOS)        |          |           |
+| 机型名称               | 发布地址                                                     | 教程地址 | 备注     |
+| ---------------------- | ------------------------------------------------------------ | -------- | -------- |
+| LG Gram 13z980         | [链接](https://github.com/suzuke/LG-Gram-13z980-Opencore)    |          | OC       |
+| LG 14U53               | [链接](https://github.com/vivzero/LG14u53-hackintosh)        |          |          |
+| LG Gram 14z980         | [链接](https://github.com/ShiningXu/LG-Gram-macOS)           |          |          |
+| LG Gram14 Z990         | [链接](https://github.com/myd986/LG-gram-14z990)             |          |          |
+| LG Gram 15Z980-G.AA52C | [链接](https://github.com/ice-black-tea/LG-15Z980)           |          |          |
+| LG Gram17 Z90n         | [链接](https://github.com/whca/lg-gram-17z90n-EFI) [链接](https://github.com/AskDavis/LG-Gram-17Z90N) |          | OC 0.6.9 |
+| LG Gram Z980           | [链接](https://github.com/ShiningXu/LG-Gram-macOS)           |          |          |
 
 ### Mechrevo 机械革命
 
@@ -719,6 +708,7 @@
 | MSI GE72 2QE              | [链接](https://github.com/ksmrp/msi-ge70-2qe-hackintosh)                                                                                                                                                  |                                                                                      |                 |
 | MSI GE72VR Apache Pro-416 |                                                                                                                                                                                                           |                                                                                      |                 |
 | MSI GF63                  | [链接](https://github.com/oscarrock/hackintosh-msi-gf63-thin-9SC)                                                                                                                                         |                                                                                      |                 |
+| MSI GF63 8RD | 链[接](https://github.com/yasinerarslan/GF63.8RD.Hackintosh.OpenCore) | | |
 | MSI GF63-10               | [链接](https://github.com/rohanbojja/MSI-GF-63-10)                                                                                                                                                        |                                                                                      |                 |
 | MSI GF63 thin 9sc         | [链接](https://github.com/LongBody/EFi-Hackintosh-MSi-GF63-thin-9sc)                                                                                                                                      |                                                                                      |                 |
 | MSI GL62M 7RD             | [链接](https://github.com/0ranko0P/GL62M-7RD-Hackintosh)                                                                                                                                                  |                                                                                      |                 |
@@ -826,7 +816,8 @@
 | Thunderobot 911 Air          | [链接](https://github.com/athlonreg/Thunderobot-911-Air-i7-9750h)                   |                                                                              |                                                                                                             |
 | Thunderobot 911 Air2         | [链接](https://github.com/athlonreg/Thunderobot-911-Air-i7-9750h)                   |                                                                              |                                                                                                             |
 | 雷神笔记本黑苹果套件         | [链接](https://github.com/athlonreg/Thunderobot-Hackintosh)                         |                                                                              |                                                                                                             |
-| Airbook 颜值版 i5 6200u  (Mojave) | [clover版链接](https://github.com/nabaonan/airbook-6200u-efi/tree/master)  [oc版链接](https://github.com/nabaonan/airbook-6200u-efi/tree/oc) | [教程](https://juejin.cn/post/6983945097658253320)  | 网卡推荐：[DW1820A](https://blog.daliansky.net/DW1820A_BCM94350ZAE-driver-inserts-the-correct-posture.html)  OC 0.7.0 系统：10.14.6 |
+| Airbook 颜值版 i5 6200u  (Mojave) | [clover版链接](https://github.com/nabaonan/airbook-6200u-efi/tree/master)  [oc版链接](https://github.com/nabaonan/airbook-6200u-efi/tree/oc) | [教程](https://juejin.cn/post/6983945097658253320)  | 网卡推荐：[DW1820A](https://blog.daliansky.net/DW1820A_BCM94350ZAE-driver-inserts-the-correct-posture.html)  OC 0.7.2 系统：10.14.6 |
+| Airbook 颜值版 i5 6200u  (Catalina) | [链接](https://github.com/nabaonan/airbook-6200u-efi/tree/catalina) |  | OC: 0.7.2 系统：Catalina 10.15.7 |
 | Airbook 颜值版 i5 6200u（BigSur） | [链接](https://github.com/nabaonan/airbook-6200u-efi/tree/bigsur) |  | OC：0.7.2   系统：BigSur 11.5.1 |
 | 同方 GI5CN5E                 | [链接](https://github.com/rodgomesc/AVELL-G1513-FOX-7-TONG-FANG-GI5CN5E-HACKINTOSH) |                                                                              |                                                                                                             |
 | GPD P2 MAX                   | [链接](https://github.com/Azkali/GPD-P2-MAX-Hackintosh)                             |                                                                              |                                                                                                             |
@@ -1025,6 +1016,7 @@
 | Asus H170M-PLUS | [链接](https://github.com/riccardo4zan/Opencore-EFI) | | 网卡推荐：[BCM94360CD](https://blog.daliansky.net/uploads/WeChatandShop.png) |
 | Asus H370i                     | [链接](https://github.com/HuaHuaY/Hackintosh-H370i-Big-Sur-EFI) |          |                                                              |
 | Asus ROG STRIX H370-I GAMING | [链接](https://github.com/HuaHuaY/Hackintosh-H370i-Big-Sur-EFI) | | |
+| Asus ROG STRIX H370-F GAMING | [链接](https://github.com/ChengYen-Tang/ROG-STRIX-H370-F-GAMING-Hackintosh) | | |
 | Asus Sabertooth z87            |             |          |                                                              |
 | Asus Z97K 4980HQ               | [链接](https://github.com/efsg/ASUS-Z97K-4980HQ-Hackintosh)  |          | I7-4980HQ                                                    |
 | Asus Z170 Deluxe | [链接](https://github.com/kushwavez/asus-z170-deluxe-clover-efi) | |  |
@@ -1072,7 +1064,7 @@
 | Dell ChengMing 3991                        | [链接](https://github.com/istarmeow/Hackintosh-Dell.ChengMing.3991-OpenCore.0.7.0-macOS.Big.Sur.11.4) |          |                                                              |
 | Dell OptiPlex 760                          |                                                              |          |                                                              |
 | Dell OptiPlex 3050                         | [链接](https://github.com/Leif160519/Dell-OptiPlex-3050-EFI) [链接](https://github.com/fgprodigal/Optiplex-3050-EFI-OC)<br />[链接](https://github.com/mxltxt/Dell-OptiPlex-3050-OC-EFI) |          |                                                              |
-| Dell OptiPlex 3070                         | [链接](https://github.com/bfrorum10/DELL-3070-MFF-Catalina-10.15.6-OC-0.5.9) [链接](https://github.com/zzkenkashjzz/Dell3070SFF-EFI-OpenCore) |          | 网卡推荐：[BCM94360Z4](https://blog.daliansky.net/uploads/WeChatandShop.png) |
+| Dell OptiPlex 3070                         | [链接](https://github.com/bfrorum10/DELL-3070-MFF-Catalina-10.15.6-OC-0.5.9) [链接](https://github.com/zzkenkashjzz/Dell3070SFF-EFI-OpenCore)<br />[链接](https://github.com/pdff/Hackintosh-Dell-Optiplex3070SFF) |          | 网卡推荐：[BCM94360Z4](https://blog.daliansky.net/uploads/WeChatandShop.png) |
 | Dell Optiplex 5040                         | [链接](https://github.com/PeckishLeopard/OPTIPLEX-5040-Catalina-Big-Sur-EFI) |          |                                                              |
 | Dell Optiplex 5060MFF                      | [链接](https://github.com/uouuou/OpenCore_DELL_5060MFF_EFI)  |          | 网卡推荐：[BCM94360Z4](https://blog.daliansky.net/uploads/WeChatandShop.png) |
 | Dell Optiplex 5070mff                      | [链接](https://github.com/WingLim/Dell-Optiplex-5070mff-Hackintosh) |          | 网卡推荐：[BCM94360Z4](https://blog.daliansky.net/uploads/WeChatandShop.png) |
@@ -1142,7 +1134,7 @@
 | Gigabyte Z390 AORUS PRO WIFI    | [链接](https://github.com/shiruken/hackintosh) [链接](https://github.com/FlopRe/hackintosh-Z390-gigabyte-aorus-pro-wifi-OpenCore-9600K-iGPU) |                                                              | i7-9700K + Radeon RX 5700 XT                                 |
 | Gigabyte Z390 Master            | [链接](https://github.com/felixyin/clover-z390master-i99900k-rx580-970pro) |                                                              | 网卡推荐：[BCM94360CD](https://blog.daliansky.net/uploads/WeChatandShop.png) |
 | Gigabyte Z390 AORUS MASTER ATX  | [链接](https://github.com/vmzhivetyev/hackintosh-efi)        |                                                              | 网卡推荐：[BCM94360CD](https://blog.daliansky.net/uploads/WeChatandShop.png) |
-| Gigabyte Z390 DESIGNARE         | [链接](https://github.com/joostiphone/Z390-Hackintosh-Joost) |                                                              | 网卡推荐：[BCM94360CD](https://blog.daliansky.net/uploads/WeChatandShop.png) |
+| Gigabyte Z390 DESIGNARE         | [链接](https://github.com/joostiphone/Z390-Hackintosh-Joost) [链接](https://github.com/Mac944/Opencore-i9-9900K-Z390-Designare-RX-6800XT) |                                                              | 网卡推荐：[BCM94360CD](https://blog.daliansky.net/uploads/WeChatandShop.png) |
 | Gigabyte Z390 I Aorus Pro WiFi  | [链接](https://github.com/vfalanis/opencore-aorus-z390i-pro-wifi) [链接](https://github.com/WJingC/Gigabyte-Z390-I-Hackintosh-OpenCore) |                                                              |                                                              |
 | Gigabyte Z390 M Gaming          | [链接](https://github.com/tspng/gigabyte-z390-m-gaming-hackintosh) |                                                              | 技嘉 Z390m<br />网卡推荐：[BCM94360CD](https://blog.daliansky.net/uploads/WeChatandShop.png) |
 | Gigabyte Z390 gaming            |                                                              | 小辉自用: i5-9600k RX580 2304sp 矿                           | 网卡推荐：[BCM94360CD](https://blog.daliansky.net/uploads/WeChatandShop.png) |

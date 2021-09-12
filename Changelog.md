@@ -433,7 +433,19 @@
     - HP 288 Pro G5
     - Lenovo Ideacenter A340
 
-  
+- 2021年9月7日
+
+  - 新增机型：
+
+    - Acer Aspire A515-55
+
+    - Asus FX55VD DM001D
+
+    - Dell Latitude 3400
+
+    - MSI GF63 8RD
+
+      
 
   
 
