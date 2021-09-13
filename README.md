@@ -7,7 +7,7 @@
     今天采用关键词OPENCORE搜索的方式，采用最近更新排序，搜索了前10页的维护信息，再筛出未进入清单，但维护得不错得REPO,更新时间只是最近2天得，肯定又很多漏的，一一核对很费精力，readme文档内内容太多，整理了一下思路,列出列出了以下几个点，希望大家一起看看如何整理比较方便。
     
       (1)拆分文档：拆分成笔记本和台式机两份文件,readme文档内将厂商链接过去，这样再更新文件的时候会轻松一些。
-
+    
       (2)自动化脚本：目前更新的方式还是靠人去对，筛出新增的然后再增加进去，比较费时间。从我自己找的方式看，是可以通过脚本实现的，这个可以节省很多时间和精力。
                范围：github.com，
                更新时间：最近3个月，
@@ -1373,27 +1373,27 @@
 
 ## QQ 群列表：
 
-553283949 [黑果小兵黑苹果技术群 6](https://qm.qq.com/cgi-bin/qm/qr?k=kr_hZc5pKK4TCDRaFPwRlfAiB4528InP&jump_from=webapi) 2000 人收费群 新开群
+553283949 [黑果小兵黑苹果技术群 6](https://qm.qq.com/cgi-bin/qm/qr?k=kr_hZc5pKK4TCDRaFPwRlfAiB4528InP&jump_from=webapi) 2000 人群
 
-630724380 [黑果小兵黑苹果技术群 7](https://qm.qq.com/cgi-bin/qm/qr?k=JyGkfKK7U3Xq3TDtpqKOTq_gW7SBg4Uh&jump_from=webapi) 2000 人收费群，新开群
+630724380 [黑果小兵黑苹果技术群 7](https://qm.qq.com/cgi-bin/qm/qr?k=JyGkfKK7U3Xq3TDtpqKOTq_gW7SBg4Uh&jump_from=webapi) 2000 人群
 
-713810838 [黑果小兵黑苹果技术群 8](https://qm.qq.com/cgi-bin/qm/qr?k=e8E-1Ge2lCoBSTlj8Y4zMxX7l7-V63Iv&jump_from=webapi) 2000 人收费群，新开群
+713810838 [黑果小兵黑苹果技术群 8](https://qm.qq.com/cgi-bin/qm/qr?k=e8E-1Ge2lCoBSTlj8Y4zMxX7l7-V63Iv&jump_from=webapi) 2000 人群
 
-688324116 [一起黑苹果](https://qm.qq.com/cgi-bin/qm/qr?k=Fp4HZ5e8A61oCu0GMS5YUqP6COc43-AO&jump_from=webapi) 2000 人收费群，请加 6 群
+688324116 [一起黑苹果](https://qm.qq.com/cgi-bin/qm/qr?k=Fp4HZ5e8A61oCu0GMS5YUqP6COc43-AO&jump_from=webapi) 2000 人群
 
-331686786 [一起吃苹果](https://qm.qq.com/cgi-bin/qm/qr?k=No8zvDfvDicT-GfSApw1RMBI-3MQ7zM3&jump_from=webapi) 2000 人收费群，请加 6 群
+331686786 [一起吃苹果](https://qm.qq.com/cgi-bin/qm/qr?k=No8zvDfvDicT-GfSApw1RMBI-3MQ7zM3&jump_from=webapi) 2000 人 群
 
 257995340 [一起啃苹果](https://qm.qq.com/cgi-bin/qm/qr?k=acztqL9efoqAOoptc_3moZ9b3Sgczu9_&jump_from=webapi) 2000 人群 远景报备群
 
-875482673 [黑果小兵黑苹果技术群](https://qm.qq.com/cgi-bin/qm/qr?k=aZNyoRum_er2mruqmnbX_93ncHNgsyak&jump_from=webapi) 2000 人收费群 已满员，请加 6 群
+875482673 [黑果小兵黑苹果技术群](https://qm.qq.com/cgi-bin/qm/qr?k=aZNyoRum_er2mruqmnbX_93ncHNgsyak&jump_from=webapi) 2000 人群 已满员
 
-1058822256 [黑果小兵黑苹果技术群 2](https://qm.qq.com/cgi-bin/qm/qr?k=1sIT0BDaejgr9t1Hlw16cMnw_Z96zleV&jump_from=webapi) 2000 人收费群 已满员，请加 6 群
+1058822256 [黑果小兵黑苹果技术群 2](https://qm.qq.com/cgi-bin/qm/qr?k=1sIT0BDaejgr9t1Hlw16cMnw_Z96zleV&jump_from=webapi) 2000 人群 已满员
 
-819662911 [黑果小兵黑苹果技术群 3](https://qm.qq.com/cgi-bin/qm/qr?k=aJx9xO7vAmyslCuOdK0bRMmDLpvOCeRw&jump_from=webapi) 2000 人收费群，请加 6 群
+819662911 [黑果小兵黑苹果技术群 3](https://qm.qq.com/cgi-bin/qm/qr?k=aJx9xO7vAmyslCuOdK0bRMmDLpvOCeRw&jump_from=webapi) 2000 人群
 
-954098809 [黑果小兵黑苹果技术群 4](https://qm.qq.com/cgi-bin/qm/qr?k=iu042k0X5snr--dzAxOzcsvD9Zft9yx7&jump_from=webapi) 2000 人收费群，请加 6 群
+954098809 [黑果小兵黑苹果技术群 4](https://qm.qq.com/cgi-bin/qm/qr?k=iu042k0X5snr--dzAxOzcsvD9Zft9yx7&jump_from=webapi) 2000 人群
 
-1161377948 [黑果小兵黑苹果技术群 5](https://qm.qq.com/cgi-bin/qm/qr?k=kBV9vCnz-NqtXXJiwnUhaLyJN1D7G0n6&jump_from=webapi) 2000 人收费群，请加 6 群
+1161377948 [黑果小兵黑苹果技术群 5](https://qm.qq.com/cgi-bin/qm/qr?k=kBV9vCnz-NqtXXJiwnUhaLyJN1D7G0n6&jump_from=webapi) 2000 人群
 
 701278330 [黑苹果无线网卡交流群](https://qm.qq.com/cgi-bin/qm/qr?k=x57TlUmxz88oXGDWjMOOsWokYi8klE11&jump_from=webapi) 1000 人群 DW1820A 技术支持群
 
@@ -1406,6 +1406,8 @@
 943307869 [黑果小兵高级群 II](https://qm.qq.com/cgi-bin/qm/qr?k=aoSvqrbysdjPo0Wa_XvvPuMG9NMEtOie&jump_from=webapi) 2000 人群
 
 538643249 [OpenCore 技术交流群](https://qm.qq.com/cgi-bin/qm/qr?k=si7f9Mfzs82wHGvKLVhBLmW87YA31y92&jump_from=webapi) 2000 人群 大神众多非 OC 适配者慎入
+
+869792897 [minisforum U820黑苹果交流群](https://qm.qq.com/cgi-bin/qm/qr?k=TdIS59sEdBCjbz8NbdrQ2IyPG6bMza3_&jump_from=webapi) 500 人群 非专用机型请勿加入
 
 942112153 [天逸 510s Mini 黑苹果交流群](https://qm.qq.com/cgi-bin/qm/qr?k=N5cjw5ksrnmk-RMQ4fPCOo5D_Dxiu47B&jump_from=webapi) 1000 人群 非专用机型请勿加入
 
