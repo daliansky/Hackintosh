@@ -1107,6 +1107,7 @@
 | Gigabyte C246 WU4               | [链接](https://github.com/SeonMe/Gigabyte-C246-WU4-Hackintosh-OC) |                                                              | Intel Xeon E-2278G / Sapphire RX 5500XT<br />网卡推荐：[BCM94360CD](https://blog.daliansky.net/uploads/WeChatandShop.png) |
 | Gigabyte Designaire Z390        | [链接](https://github.com/baughmann/designaire-z390-intel-i9-9900k-opencore) |                                                              | 网卡推荐：[BCM94360CD](https://blog.daliansky.net/uploads/WeChatandShop.png) |
 | G1 sniper M7 intel B150M        | [链接](https://github.com/infonekingdom/G1M7)                |                                                              |                                                              |
+| Gigabyte H81M-D2 | [链接](https://github.com/cmd2001/GA-H81M-D2-i5_4590-GT730-Opencore-BigSur) | | |
 | Gigabyte H110M-H                | [链接](https://github.com/suggested-username/EFI-GIGABYTE-H110M-H-BIGSUR-OPENCORE) |                                                              | 网卡推荐：[BCM94360CD](https://blog.daliansky.net/uploads/WeChatandShop.png) |
 | Gigabyte mdh11ki                | [链接](https://github.com/wtsjw/Gigabyte-mdh11ki-hackinosh-EFI) |                                                              | 也适用于 Gigabyte mdh11hi                                    |
 | Gigabyte H110m sh2              | [链接](https://github.com/DMNerd/Hackintosh_EFI)             |                                                              | 网卡推荐：[BCM94360CD](https://blog.daliansky.net/uploads/WeChatandShop.png) |
