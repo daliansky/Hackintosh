@@ -7,7 +7,7 @@
     今天采用关键词OPENCORE搜索的方式，采用最近更新排序，搜索了前10页的维护信息，再筛出未进入清单，但维护得不错得REPO,更新时间只是最近2天得，肯定又很多漏的，一一核对很费精力，readme文档内内容太多，整理了一下思路,列出列出了以下几个点，希望大家一起看看如何整理比较方便。
     
       (1)拆分文档：拆分成笔记本和台式机两份文件,readme文档内将厂商链接过去，这样再更新文件的时候会轻松一些。
-      
+
       (2)自动化脚本：目前更新的方式还是靠人去对，筛出新增的然后再增加进去，比较费时间。从我自己找的方式看，是可以通过脚本实现的，这个可以节省很多时间和精力。
                范围：github.com，
                更新时间：最近3个月，
@@ -649,7 +649,7 @@
 | Lenovo Yoga 720                    | [链接](https://github.com/bugprogrammer/hackintosh/tree/Lenovo-yoga-720-13ikb-7200u) |                                                              | Lenovo Yoga 720-13IKB                                        |
 | Lenovo Yoga 720                    |                                                              |                                                              | Lenovo Yoga 720-12IKB                                        |
 | Lenovo Yoga 730                    | [链接](https://github.com/dragonflylee/Yoga-730-hackintosh)  |                                                              | Lenovo Yoga 730-13IKB                                        |
-| Lenovo Yoga C740-14IML             | [链接](https://github.com/ThrRip/OpenCore-EFI-Laptop-Lenovo-YOGA-C740-14IML) |                                                              |                                                              |
+| Lenovo Yoga C740-14IML             | [链接](https://github.com/ThrRip/OpenCore-EFI-Laptop-Lenovo-YOGA-C740-14IML) [链接](https://github.com/Carlosjavierdlp/C740-14iml-BigSur) |                                                              |                                                              |
 | Lenovo Yoga S740                   | [链接](https://github.com/frozenzero123/YOGA-S740)           |                                                              | i7 1065G7                                                    |
 | Lenovo Yoga 910 13IKB              | [链接](https://github.com/wjz304/Hackintosh-EFI-Lenovo-Yoga-910-13IKB) |                                                              |                                                              |
 | Lenovo Z50(40)/70 系列             | [链接](https://github.com/the-braveknight/Lenovo-X50-macOS)  | [链接](https://www.tonymacx86.com/threads/guide-lenovo-z50-70-z40-70-g50-70-g40-70-using-clover-uefi.261787/) | Lenovo Z50-70/Z40-70 Lenovo G50-70/G40-70                    |
@@ -721,6 +721,7 @@
 | MSI GS63VR-7RF            | [链接](https://github.com/guitaoliu/MSI-GS63VR-Hackintosh)                                                                                                                                                |                                                                                      |                 |
 | MSI GS65 Stealth Thin 8RF | [链接](https://github.com/vladichimescu/msi-gs65-hackintosh)                                                                                                                                              |                                                                                      |                 |
 | MSI GS65 8SE              | [链接](https://github.com/ErrorErrorError/msi-gs65-8SE-hackintosh)                                                                                                                                        |                                                                                      |                 |
+| MSI GS66 Stealth | [链接](https://github.com/zhujinle/MSI-GS66-Stealth-OC-Hackintosh) | | |
 | MSI GS73VR 7RF            | [链接](https://github.com/dogukanoksuz/msi-gs73vr-7rf-macOS)                                                                                                                                              |                                                                                      |                 |
 | MSI GV62 7RE              | [链接](https://github.com/amogh-w/Hackintosh-MSI-GV62-7RE)                                                                                                                                                |                                                                                      |                 |
 | MSI modern 15             | [链接](https://github.com/hla63/Msi-modern-15-Hackintosh) [链接](https://github.com/AndresGarciaSobrado91/MSI-Modern15-Hackintosh)                                                                        |                                                                                      |                 |
@@ -1151,6 +1152,7 @@
 | Gigabyte Z490 Vision G          | [链接](https://github.com/georgetree/hackintosh-10700k-Gigabyte-Z490-Vision-g) [链接](https://github.com/samuel21119/Intel-i9-10900-Gigabyte-Z490-Vision-G-Hackintosh)<br />[链接](https://github.com/5T33Z0/Gigabyte-Z490-Vision-G-Hackintosh-OpenCore) |                                                              | 网卡推荐：[BCM94360CD](https://blog.daliansky.net/uploads/WeChatandShop.png) |
 | Gigabyte Z490 Gaming X          | [链接](https://github.com/weiyien/Hackintosh_GIGABYTE_Z-490_I5-10400) [链接](https://github.com/SwimmingPig/Hackintosh-Intel-i5-10400-Gigabyte-Z490M-Gaming-X) |                                                              | OC:10400+RX5500XT(核显没驱动,另外处理)<br />网卡推荐：[BCM94360CD](https://blog.daliansky.net/uploads/WeChatandShop.png) |
 | Gigabyte Z490I AORUS ULTRA      | [链接](https://github.com/abing258/z490i-i9-10850k-5500xt)   |                                                              | i9-10850k RX5500XT                                           |
+| Gigabyte Z590 Aorus  Master | [链接](https://github.com/Cam396/Aorus-Z590-Master-EFI) | |  |
 | Gigabyte Z77P D3                | [链接](https://github.com/cloverkits/GA-Z77P-D3-EFI)         |                                                              | GA-Z77P-D3                                                   |
 | Gigabyte Z77X D3H               | [链接](https://github.com/nickw444/opencore-efi)             |                                                              |                                                              |
 | Gigabyte GA-Z77X-DS3            | [链接](https://github.com/tdyn2000/GIGA-Z77X-DS3-Catalina-EFI) |                                                              |                                                              |
