@@ -103,6 +103,7 @@
 | Acer VN7-793g               | [链接](https://github.com/cedric-bour/Acer-VN7-793g-Hackintosh) |                                                              |                                                  |
 | Acer-K50-10-525V            | [链接](https://github.com/mingslife/Acer-K50-10-525V-Hackintosh) |                                                              |                                                  |
 | Acer VX5-591G           | [链接](https://github.com/Chakid/Acer-VX15-Hackintosh)       |                                                              |            宏碁暗影骑士3                |
+| Acer TravelMate P246-MG | [链接](https://github.com/sebasrock156/Acer-TravelMate-P246-MG-OpenCore) | | |
 | Acer Travelmate P248     | [链接](https://github.com/jamesciq/Acer-Travelmate-P248-hackintosh-EFI) |                                                           |                             |
 | Acer TravelMate TX520-G2-MG | [链接](https://github.com/zqlovezone/ACER-TX520-Hackintosh-Opencore) |                                                              |                                                  |
 | Acer P258-MG                | [链接](https://github.com/lgs3137/ACER_P258_MG-macOS)        |                                                              |    |
