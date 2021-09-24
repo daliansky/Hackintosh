@@ -173,6 +173,7 @@
 | Asus VivoBook 15 X510UQ / S5100UQ | [链接](https://github.com/wishayne/hackintosh-Asus-S5100UQ-X510UQ) |                                                              |                                                              |
 | Asus Vivobook S13 S330FN          | [链接](https://github.com/deniro98/s330fn)                   |                                                              |                                                              |
 | Asus X441U                        | [链接](https://github.com/Bach0409/EFI-Asusx441u)            |                                                              | 华硕 adol I330FN                                             |
+| Asus X441UA-GA348T | [链接](https://github.com/nu99etz/ASUS-X441UA-GA348T-Hackintosh-EFI-OpenCore) | |  |
 | Asus X441UB                       |                                                              |                                                              |                                                              |
 | Asus X411UF | [链接](https://github.com/itsluquis/ASUS-S14-X411-OpenCore) | | |
 | Asus X441UV                       | [链接](https://github.com/MinorityCode/asus-x441uv-hackintosh-files) |                                                              |                                                              |
@@ -305,6 +306,7 @@
 | Dell Latitude E5440                        | [链接](https://github.com/alf45tar/Latitude-E5440-EFI-Partition) |                                                              | Dell E5440                                                   |
 | Dell Latitude E5470                        | [链接](https://github.com/txt1994/dell_latitude5470_i7-6820hq) |                                                              |                                                              |
 | Dell Latitude E5490                        | [链接](https://github.com/lijun215021/DELL-5490-hackintosh) [链接](https://github.com/novseje/dell-latitude-5490-hackintosh-clover) |                                                              |                                                              |
+| Dell Latitude E5590 | [链接](https://github.com/marousis/Dell-5590-MacOS) | | |
 | Dell Latitude E5591                        | [链接](https://github.com/geowoden/DELL-Latitude-5591_osx-clover) |                                                              |                                                              |
 | Dell Latitude E6230 | [链接](https://github.com/Hayafumi/dell-latitude-e6230-opencore) | | |
 | Dell Latitude E6330                        |                                                              |                                                              |                                                              |
@@ -804,8 +806,9 @@
 | 红米 redmibook mx250 | [链接](https://github.com/ming1234jpi/hackintosh_redmibook)                                                                             |                                                                                                             | i5-8265u、i7-8650u                                                                                          |
 | 红米 G               | [链接](https://github.com/Xhichn/Hackbook_Redmi_G)                                                                                      |                                                                                                             |                                                                                                             |
 | Redmibook14 增强版   | [链接](https://github.com/haoey/-)                                                                                                      |                                                                                                             |                                                                                                             |
+| RedmiBook14II | [链接](https://github.com/codeMauguin/RedmiBook14II-i5-1035G1-EFI) | | i5-1035G1 |
 | Xiaomi Redmibook 16  | [链接](https://github.com/elishevatavori/Xiaomi-Redmibook-16-Hackintosh)                                                                |                                                                                                             | i7-1065G7                                                                                                   |
-| Redmibook 14 XMA1901-AI | [链接](https://github.com/THLIVSQAZ/Redmibook14-XMA1901-AI-OpenCore) |            | i5-8250u
+| Redmibook 14 XMA1901-AI | [链接](https://github.com/THLIVSQAZ/Redmibook14-XMA1901-AI-OpenCore) |            | i5-8250u|
 
 ### Intel 英特尔
 
