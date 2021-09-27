@@ -311,6 +311,7 @@
 | Dell Latitude E6230 | [链接](https://github.com/Hayafumi/dell-latitude-e6230-opencore) | | |
 | Dell Latitude E6330                        |                                                              |                                                              |                                                              |
 | Dell Latitude E6430                        | [链接](https://github.com/kinoute/Hack-Dell-Latitude-E6430)  |                                                              |                                                              |
+| Dell Latitude E6440 | [链接](https://github.com/afzl-wtu/Dell-E6440-Opencore-EFI) | | |
 | Dell Latitude E7250                        | [链接](https://github.com/SkyrilHD/Dell-E7250-Hackintosh)    |                                                              |                                                              |
 | Dell Latitude E7280                        | [链接](https://github.com/conradlyn/Hackintosh-EFI-Dell-Latitude_7280) |                                                              |                                                              |
 | Dell Latitude E7370                        | [链接](https://github.com/mikeTOliu/dell-latitude7370-Hackintosh-EFI-backup) [链接](https://github.com/gazzmanzx6/OC_Dell_Latitude_7370) |                                                              |                                                              |
@@ -498,6 +499,7 @@
 | HP PAVILION Gaming NB 15-cx0172tx               | [链接](https://github.com/ExodazTH/Opencore-on-HP-Pavilion-Gaming-15-cx0172tx) [链接](https://github.com/ExodazTH/Hackintosh-on-HP-Pavilion-Gaming-15-cx0172tx) |                                                              | non-working:GPU(Nvidia 1050TI/GTX)/WiFi( Intel® Wireless-AC 9560 802.11b/g/n/ac) |
 | 惠普光影精灵 5                                  | [链接](https://github.com/Tonymiugrey/Garden-by-miugrey) [链接](https://github.com/hibobmaster/HP-15-dc1010nr-hackintosh) |                                                              | 内含 PM981 的补丁                                            |
 | HP Omen 15 DC                                   | [链接](https://github.com/kirainmoe/hp-omen15-dc-macos)      |                                                              | 暗影精灵 4 GTX1060 144Hz 版，由于物理屏蔽核显，只能安装 10.13.6 |
+| HP Omen 15 dc0003la                             | [链接](https://github.com/rocadavel/HPOmenDC0003LAHackintoshCatalinaOpenCore) |                                                              |                                                              |
 | HP Elite X2 G4 平板                             | [链接](https://github.com/lulujyc/EliteX2G4-OpenCore)        |                                                              |                                                              |
 | HP合集                                          | [链接](https://github.com/Baio1977/EFI-Varie-Hackintosh/tree/main/EFI%20Laptop%20/HP) |                                                              |                                                              |
 
@@ -1078,6 +1080,7 @@
 | **台式（部分）**                           | 发布地址                                                     | 教程地址 | 备注                                                         |
 | ------------------------------------------ | ------------------------------------------------------------ | -------- | ------------------------------------------------------------ |
 | Dell ChengMing 3991                        | [链接](https://github.com/istarmeow/Hackintosh-Dell.ChengMing.3991-OpenCore.0.7.0-macOS.Big.Sur.11.4) |          |                                                              |
+| Dell Inspirion 3670                        | [链接](https://github.com/trunglemobiledev/oc_dell_inspiron_3670) |          |                                                              |
 | Dell OptiPlex 760                          |                                                              |          |                                                              |
 | Dell OptiPlex 3050                         | [链接](https://github.com/Leif160519/Dell-OptiPlex-3050-EFI) [链接](https://github.com/fgprodigal/Optiplex-3050-EFI-OC)<br />[链接](https://github.com/mxltxt/Dell-OptiPlex-3050-OC-EFI) |          |                                                              |
 | Dell OptiPlex 3070                         | [链接](https://github.com/bfrorum10/DELL-3070-MFF-Catalina-10.15.6-OC-0.5.9) [链接](https://github.com/zzkenkashjzz/Dell3070SFF-EFI-OpenCore)<br />[链接](https://github.com/pdff/Hackintosh-Dell-Optiplex3070SFF) |          | 网卡推荐：[BCM94360Z4](https://blog.daliansky.net/uploads/WeChatandShop.png) |
