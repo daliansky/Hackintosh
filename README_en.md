@@ -6,6 +6,27 @@
 
 ### Synchronized Update：[黑果小兵的部落阁](<https://blog.daliansky.net/Hackintosh-long-term-maintenance-model-checklist.html>)
 
+## Contents
+Laptop
+- [Acer 宏碁](#acer-宏碁)
+- [Asus 华硕](#asus-华硕)
+- [DELL 戴尔](#dell-戴尔)
+- [Gigabyte 技嘉](#gigabyte-技嘉)
+- [Hasee 神舟](#hasee-神舟)
+- [HP 惠普](#hp-惠普)
+- [Huawei 华为](#huawei-华为)
+- [Lenovo 联想](#lenovo-联想)
+- [LG](#lg)
+- [Mechrevo 机械革命](#mechrevo-机械革命)
+- [MSI 微星](#msi-微星)
+- [Razer Blade 雷蛇](#razer-blade-雷蛇)
+- [XiaoMi 小米](#xiaomi-小米)
+- [Intel 英特尔](#intel-英特尔)
+- [Other 其它](#other-其它)
+- [Notebook related resources](#notebook-related-resources)
+
+[Desktop](#desktop)
+
 ### Laptop
 
 #### Acer 宏碁
@@ -193,7 +214,7 @@
 | Gigabyte Aero 15W  | [link](https://github.com/Errrneist/Hackintosh-Aero-15W) |                                                              |         |
 | Gigabyte Sabre 15K | [link](https://github.com/gnehs/Sabre15KClover)          |                                                              |         |
 
-#### Hasse 神舟
+#### Hasee 神舟
 
 | Model Name             | Depot                                                        | Tutorial                                                     | Remarks                          |
 | ---------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | -------------------------------- |
@@ -590,6 +611,6 @@ If you approve my work, please support me for subsequent updates.
 
 | paypal                                                       | [WeChat Pay](https://pay.weixin.qq.com/index.php/public/wechatpay) | [Alipay](https://intl.alipay.com/?locale=zh_CN)      |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------------------------------------------------- |
-| [![paypal_daliansky](http://7.daliansky.net/paypal_daliansky.png)](https://www.paypal.me/daliansky) | ![wechatpay_160](http://7.daliansky.net/wechatpay_160.jpg)   | ![alipay_160](http://7.daliansky.net/alipay_160.jpg) |
+| [![paypal_daliansky](http://7.daliansky.net/paypal_daliansky.png)](https://www.paypal.me/daliansky) | ![wechatpay_160](http://7.daliansky.net/wechatpay_160.jpg) | ![alipay_160](http://7.daliansky.net/alipay_160.jpg) |
 
 [![img](https://img.shields.io/github/stars/daliansky/Hackintosh.svg?color=ff69b4&label=%E7%82%B9%E8%B5%9E&logoColor=ff69b4&style=social)](https://github.com/daliansky/Hackintosh) [![img](https://img.shields.io/github/followers/daliansky.svg?label=%E7%B2%89%E4%B8%9D&logoColor=success&style=social)](https://github.com/daliansky/Hackintosh) ![img](https://img.shields.io/github/contributors/daliansky/Hackintosh.svg?color=red&label=%E8%B4%A1%E7%8C%AE%E4%BA%BA%E6%95%B0) [![img](https://img.shields.io/github/last-commit/daliansky/Hackintosh.svg?color=orange&label=%E6%9C%80%E8%BF%91%E6%8F%90%E4%BA%A4)](https://github.com/daliansky/Hackintosh) [![img](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu/)

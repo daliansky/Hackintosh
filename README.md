@@ -49,6 +49,42 @@
 
 </details>
 
+## 目录
+笔记本
+- [Acer 宏碁](#acer-宏碁)
+- [Asus 华硕](#asus-华硕)
+- [DELL 戴尔](#dell-戴尔)
+- [Gigabyte 技嘉](#gigabyte-技嘉)
+- [Hasee 神舟](#hasee-神舟)
+- [HP 惠普](#hp-惠普)
+- [Huawei 华为](#huawei-华为)
+- [Lenovo 联想](#lenovo-联想)
+- [LG](#lg)
+- [Mechrevo 机械革命](#mechrevo-机械革命)
+- [MSI 微星](#msi-微星)
+- [Razer Blade 雷蛇](#razer-blade-雷蛇)
+- [Samsung 三星](#samsung-三星)
+- [Shinelon 炫龙](#shinelon-炫龙)
+- [XiaoMi 小米](#xiaomi-小米)
+- [Intel 英特尔](#intel-英特尔)
+- [Other 其它](#other-其它)
+- [笔记本更多的机型](#笔记本更多的机型)
+- [笔记本相关资源](#笔记本相关资源)
+
+台式机
+- [AMD Ryzen](#amd-ryzen)
+- [ASRock 华擎](#asrock-华擎)
+- [ASUS 华硕](#asus-华硕-1)
+- [Dell 戴尔](#dell-戴尔-1)
+- [Gigabyte 技嘉](#gigabyte-技嘉-1)
+- [HP 惠普](#hp-惠普-1)
+- [Intel 英特尔](#intel-英特尔-1)
+- [Lenovo 联想](#lenovo-联想-1)
+- [MSI 微星](#msi-微星-1)
+- [Mini 迷你系列](#mini-迷你系列)
+- [台式机其它机型](#台式机其它机型)
+- [硬件兼容列表](#硬件兼容列表)
+
 ## 笔记本部分机型
 
 ### Acer 宏碁
