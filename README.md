@@ -1080,6 +1080,7 @@
 
 | **台式（部分）**                           | 发布地址                                                     | 教程地址 | 备注                                                         |
 | ------------------------------------------ | ------------------------------------------------------------ | -------- | ------------------------------------------------------------ |
+| Dell ChengMing 3980                        | [链接](https://github.com/Triment/efi-hackintosh-chengming3980) |          | 网卡推荐：[BCM94360CD](https://blog.daliansky.net/uploads/WeChatandShop.png) |
 | Dell ChengMing 3991                        | [链接](https://github.com/istarmeow/Hackintosh-Dell.ChengMing.3991-OpenCore.0.7.0-macOS.Big.Sur.11.4) |          |                                                              |
 | Dell Inspirion 3670                        | [链接](https://github.com/trunglemobiledev/oc_dell_inspiron_3670) |          |                                                              |
 | Dell OptiPlex 760                          |                                                              |          |                                                              |
@@ -1282,6 +1283,7 @@
 | MSI H61-P31/W8                                    | [链接](https://github.com/rahmanhadi/EFI-CLOVER_MSI-H61)     |                                                              |                                                              |
 | MSI H81M-IE35                                     | [链接](https://github.com/MoeGuoH/EFI-MSI-H81M-IE35)         |                                                              |                                                              |
 | MSI H270 GAMING M3 + Thunderbolt 3 GC Titan Ridge | [链接](https://github.com/basett1/OPENCORE-EFI-MSI-H270-GC-TITAN-RIDGE) |                                                              |                                                              |
+| MSI X99A Sli Plus                                 | [链接](https://github.com/gemini64/opencore-msi-x99a)        |                                                              |                                                              |
 | MSI Z270 PC-MATE                                  |                                                              |                                                              |                                                              |
 | MSI Z370-A                                        | [链接](https://github.com/daliansky/Z370-Hackintosh)<br />[链接](https://github.com/FrostMiKu/msi-z370-hackintosh) | [链接](https://github.com/daliansky/Z370-Hackintosh)         | 小兵自用，长期维护<br />网卡推荐：[BCM94360CD](https://blog.daliansky.net/uploads/WeChatandShop.png) |
 | MSI Z370 OC Gaming                                | [链接](https://github.com/FrostMiKu/msi-z370-hackintosh)     |                                                              | LTS                                                          |
