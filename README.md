@@ -1361,7 +1361,6 @@
 | Huanan X79 E5-2670, GTX650       | [链接](https://github.com/cheneyveron/clover-x79-e5-2670-gtx650) | [链接](https://github.com/cheneyveron/clover-x79-e5-2670-gtx650/blob/master/README.md) | 华南 x79 V2      |
 | Huananzhi x99 f8                 | [链接](https://github.com/oscaroum/huananzhi_x99_f8)         |                                                              |                  |
 | 华南B85-ITX 黑苹果                 | [链接](https://github.com/Mustang-Sun/HUANANZHI-B85-ITX-Hackintosh) |                                                              | i5-4690+16G、无独显、未安装wifi，声卡正常  |
-
 | Ant Country X79 Basic            | [链接](https://github.com/m1qnet/X79-Hackintosh-Catalina)    |                                                              |                  |
 | Supermicro x8dai                 |                                                              |                                                              | Xeon x5680       |
 | X79 E5-2696-v2                   | [链接](https://github.com/cmd2001/X79-E5-2696-v2-R9-Nano-Clover-EFI) |                                                              | R9 Nano          |
