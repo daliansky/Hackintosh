@@ -371,6 +371,7 @@
 | Dell Precision 5510                        | [链接](https://github.com/soulomoon/Dell-Precision-5510-OSX) [链接](https://github.com/PLChinDev/Dell-Precision-5510-Mojave) |                                                              | Dell-Precision-5510<br />链接 2 支持`Catalina`               |
 | Dell Precision 5591                        | [链接](https://github.com/n0faith/Dell-Precision-5591-Hackintosh) |                                                              |                                                              |
 | Dell Precision M3800<br />Dell XPS 15-9530 | [链接](https://github.com/syscl/M3800)                       | [链接](https://github.com/syscl/M3800/blob/M3800/README.md)  | Dell M3800 和 XPS 9530                                       |
+| Dell Precision 7520 | [链接](https://github.com/TECHNIKVERBOT/Dell-Precision-7520-OpenCore) |  |  |
 | Dell Vostro 3468                           | [链接](https://github.com/ahianf/dell-vostro-3468-hackintosh) |                                                              |                                                              |
 | Dell Vostro 3490                           | [链接](https://github.com/FaneCH/Vostro-3490-hackintosh) [链接](https://github.com/StefanChimu/Vostro-3490-hackintosh) |                                                              | I5-10210u                                                    |
 | Dell Vostro 3568                           | [链接](https://github.com/hsed-sys/vostro-3568-clover-efi)   |                                                              |                                                              |
@@ -512,6 +513,7 @@
 | HP Pavilion 15 au624tx                          | [链接](https://github.com/kumarayush2104/OC-Hackintosh)      |                                                              |                                                              |
 | HP Pavillion 15 da0596                          | [链接](https://github.com/melkyfb/efi-hp-da0596)             |                                                              |                                                              |
 | HP Pavilion 15G BR011TX                         | [链接](https://github.com/SahilSonar/hackintosh-hp-15g-br011tx) |                                                              |                                                              |
+| HP Pavilion 15-cc107nt                          | [链接](https://github.com/ufukynz/HP-Pavilion-15-CC107NT)    |                                                              |                                                              |
 | HP Pavilion ce3034nl                            | [链接](https://github.com/Gaggu097/HP-pavillion-ce3034nl-EFI) |                                                              |                                                              |
 | HP Pavillion ck069tx                            | [链接](https://github.com/Blizzard57/Hackintosh)             |                                                              |                                                              |
 | HP Pavilion 15-cs0093ca                         |                                                              |                                                              |                                                              |
@@ -1139,6 +1141,7 @@
 | Dell Pricision 3520                        | [链接](https://github.com/sdh0618/Pricision-3520-EFI-Catalina) |          |                                                              |
 | Dell Precision T3610                       | [链接](https://github.com/cstrouse/Dell-T3610-Hackintosh)    |          |                                                              |
 | Dell Precision T3620                       | [链接](https://github.com/fivestrong/Hackintosh-Dell-Precision-T-3620) |          |                                                              |
+|                                            |                                                              |          |                                                              |
 | Dell Vostro 3267                           | [链接](https://github.com/Drovosek01/hackintosh_DELL_Vostro_3267_i5-6400/blob/master/docs/ENG/README.md) |          |                                                              |
 | Dell Vostro 3669                           | [链接](https://github.com/daliansky/Dell_Vostro_3669_Hackintosh) |          |                                                              |
 | Dell Vostro 3470                           | [链接](https://github.com/sunnycityf/Dell-Vostro-3470-OpenCore-EFI) |          |                                                              |
@@ -1175,6 +1178,7 @@
 | Gigabyte H110M S2HP             | [链接](https://github.com/teodorcucu/Hackintosh-Skilake-GA-H110M-S2HP-EFI) |                                                              | 网卡推荐：[BCM94360CD](https://blog.daliansky.net/uploads/WeChatandShop.png) |
 | Gigabyte H170 HD3               | [链接](https://github.com/yrambler2001/Hackintosh-Intel-Core-i5-6500-Gigabyte-GA-H170-HD3-iGPU-OpenCore) |                                                              | 网卡推荐：[BCM94360CD](https://blog.daliansky.net/uploads/WeChatandShop.png) |
 | Gigabyte H310M A 2.0 R1 | [链接](https://github.com/dclive/H310MA20r1) | |  |
+| Gigabyte H310M DS2 2.0 | [链接](https://github.com/hid0/efi-oc-hackintosh-coffeelake-i3-9100f) | | |
 | Gigabyte H370m D3h              | [链接](https://github.com/ahmedrafayat/OC-EFI-i7-8700)       |                                                              | 网卡推荐：[BCM94360CD](https://blog.daliansky.net/uploads/WeChatandShop.png) |
 | Gigabyte H370 HD3               | [链接](https://github.com/ktg5/H370-HD3-Hackintosh-OC)       |                                                              | 网卡推荐：[BCM94360CD](https://blog.daliansky.net/uploads/WeChatandShop.png) |
 | Gigabyte H410MH                 | [链接](https://github.com/aspisklov/EFI_i3-10100-Gigabyte-H410M-H) |                                                              | 网卡推荐：[BCM94360CD](https://blog.daliansky.net/uploads/WeChatandShop.png) |
@@ -1240,6 +1244,7 @@
 | HP EliteDesk 800 G4 DM       | [链接](https://github.com/jerry31279/HP-EliteDesk-800-G4-DM-35W-RX560) |          |                   |
 | HP EliteDesk 800 G4 Mini     | [链接](https://github.com/itskaizad/Elitedesk-800-G4-Hackintosh) [链接](https://github.com/Shadowghost/elitedesk-800-g4-mini-macos-efi) |          |                   |
 | HP EliteDesk 800 G5 Mini     | [链接](https://github.com/Haveacry/OpenCore_HP-EliteDesk-800-G5-DM) |          |                   |
+| HP Hamar-powered PC | [链接](https://github.com/QuanTrieuPCYT/HPHamar_Hackintosh) | | |
 | HP Omen 30L                                     | [链接](https://github.com/ethlocker/hp_omen_30L_big_sur_hackintosh) |                                                              | CPU: Core i9-10000k Comet lake<br />AMD Radeon RX 580        |
 | Hp Prodesk 400G2 DM          | [链接](https://github.com/july929/Hackintosh-Hp-Prodesk-400G2-DM-EFI) |          |                   |
 | HP Prodesk 400 G4 MT         |                                                              |          |                   |
