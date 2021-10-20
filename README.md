@@ -1358,7 +1358,10 @@
 | CM238 i7-8950H UHD630 ALC269 | [链接](https://github.com/kkzzhizhou/S200H_I7-8750H_Hackintosh)                                                      |          | S200H_I7-8750H 小主机 |
 | I7-8850H 迷你主机            | [链接](https://github.com/n0jack/i78850h-minipc-hackintosh)                                                          |          |                       |
 | DQ77KB                       | [链接](https://github.com/siwilizhao/DQ77KB-I7-3770S-Hackintosh)                                                     |          |                       |
-| minisforum U820 | [链接](https://github.com/daliansky/minisforum-u820-hackintosh) | | 小兵长期维护机型<br />网卡推荐：[BCM94360Z4](https://blog.daliansky.net/uploads/WeChatandShop.png) |
+| morefine S500                | [链接](https://github.com/daliansky/morefine-S500-Hackintosh) |          | 小兵长期维护机型<br />网卡推荐：[BCM94360Z3](https://blog.daliansky.net/uploads/WeChatandShop.png) |
+| minisforum U820              | [链接](https://github.com/daliansky/minisforum-u820-hackintosh) |          | 小兵长期维护机型<br />网卡推荐：[BCM94360Z4](https://blog.daliansky.net/uploads/WeChatandShop.png) |
+| TinyMonster ECO              | [链接](https://github.com/daliansky/TinyMonsterECO-Hackintosh) |          | 小兵长期维护机型<br />网卡推荐：[BCM94360Z4](https://blog.daliansky.net/uploads/WeChatandShop.png) |
+| TinyMonster PRO              | [链接](https://github.com/daliansky/TinyMonsterPro-Hackintosh) |          | 小兵长期维护机型<br />网卡推荐：[BCM94360Z4](https://blog.daliansky.net/uploads/WeChatandShop.png) |
 
 ### 台式机其它机型
 
