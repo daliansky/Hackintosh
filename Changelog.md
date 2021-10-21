@@ -438,20 +438,27 @@
   - 新增机型：
 
     - Acer Aspire A515-55
-
-    - Asus FX55VD DM001D
-
+  - Asus FX55VD DM001D
     - Dell Latitude 3400
-
-    - MSI GF63 8RD
-
-      
-
+  - MSI GF63 8RD
   
+- 2021年10月21日
 
+  - 新增机型：
+    - Asus FX505GT
+    - Dell Inspiron 3647
+    - HP ProBook 440 G3
+    - MSI GF63 9SCSR 846VN
+    - Gigabytes B560M AORUS Pro AX
+    - morefine S500
   
-
   
-
+  
+  
+  
+  
+  
+  
+  
   
 
