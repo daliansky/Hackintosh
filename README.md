@@ -164,6 +164,7 @@
 | Asus FX55VD DM001D | [链接](https://github.com/fikriardyant/ASUS-fx553vd-dm001d-hackintosh-OC) | | |
 | Asus FX504GE-ES72                 | [链接](https://github.com/MegaStood/Hackintosh-FX504GE-ES72) |                                                              |                                                              |
 | Asus FX505GD                      | [链接](https://github.com/kreactnative/hackintosh-mojave-fx505gd) |                                                              | ASUS TUF GAMING FX505GD-BQ071T                               |
+| Asus FX505GT | [链接](https://github.com/XIONGBAB/ASUS_FX505_EFI) | |  |
 | Asus F556U (X556UQK)              | [链接](https://github.com/systemfaliure/Asus-X556UQK-hackintosh#Asus-f556u-x556uqk---high-sierra-hackintosh) | [链接](https://github.com/systemfaliure/Asus-X556UQK-hackintosh/blob/master/README.md) | Asus F556U (X556UQK)                                         |
 | Asus FX50J                        | [链接](https://github.com/Xc2333/Hackintosh-Asus-FX50J)      |                                                              |                                                              |
 | Asus FX50V                        | [链接](https://github.com/Cyberhan123/Hackintosh-ASUS--FX50V) |                                                              |                                                              |
@@ -291,13 +292,14 @@
 | Dell Inspiron 3568                         | [链接](https://github.com/YGQ8988/dell-3568)                 | [链接](https://github.com/YGQ8988/dell-3568)                 | Dell Inspiron 3568                                           |
 | Dell Inspirion 15 3576                     | [链接](https://github.com/rootpx404/Dell-Inspirion-15-3576-OPenCore-efi) |                                                              |                                                              |
 | Dell Inspiron 3583                         | [链接](https://github.com/Dhroko/HackintoshDell3583)         |                                                              |                                                              |
+| Dell Inspiron 3647 | [链接](https://github.com/renanjoppert1/EFI_DELL_INSPIRON_3647_I5) | | |
 | Dell Inspiron 3670                         | [链接](https://github.com/gopnikak47/Vostro3670_OpenCore)                                                             |                                                              |                                                              |
 | Dell Inspiron 15R N5110 | [链接](https://github.com/Doregon/Inspiron-N5110-SNDB-Hackintosh) | | |
 | Dell Inspiron 5370                         | [链接](https://github.com/dreamwhite/dell-inspiron-5370-hackintosh) |                                                              |                                                              |
 | Dell Inspiron 14 5400 2-in-1               | [链接](https://github.com/robmagario/DELL-Inspiron-14-5400-2-in-1-LAPTOP-EFI) |                                                              | i3-1005G1                                                    |
 | Dell Inspiron 5420                         | [链接](https://github.com/jasper-wan/Dell-Inspiron-5420-Hackintosh) |                                                              |                                                              |
 | Dell Inspiron 5447                         | [链接](https://github.com/SinhLv/Dell-Ins-14-5447-hackintosh) [链接](https://github.com/Jay-Wang-zechong/inspiron-14-5447-hacintosh-EFI-clover) |                                                              |                                                              |
-| Dell Inspiron 5459                         | [链接](https://github.com/lzhoang2601/Dell-Insprison-5459-Hackintosh) |                                                              |                                                              |
+| Dell Inspiron 5459                         | [链接](https://github.com/lzhoang2601/Dell-Insprison-5459-Hackintosh) [链接](https://github.com/juanxcueva/Dell-inspiron-5459-EFI) |                                                              |                                                              |
 | Dell Inspiron 5488                         | [链接](https://github.com/daggeryu/DELL-inspiron-5488)       |                                                              |                                                              |
 | Dell Inspiron 5491 2in1                    | [链接](https://github.com/Speeedo83/Dell-Inspiron-5491-2in1-Hakintosh) |                                                              |                                                              |
 | Dell Inspiron 5537                         | [链接](https://github.com/thedeadfish59/Dell_Inspiron_5537-Hackintosh) |                                                              |                                                              |
@@ -485,12 +487,13 @@
 | Hp Omen Ce020tx                                 | [链接](https://github.com/thanatath/hp-omen-ce020tx-mojave-osx) |                                                              |                                                              |
 | HP Omen Laptop 15-ce0xx                         | [链接](https://github.com/t-shao/-Hackintosh-OMEN_by_HP_Laptop_15-ce0xx) |                                                              |                                                              |
 | HP 250 G2                                       | [链接](https://github.com/MrPotatoBobx/hp250g2opencore)      |                                                              |                                                              |
-| HP 250 G6                                       | [链接](https://github.com/snajdovski/HP-250-G6-Mojave-EFI)   |                                                              |                                                              |
+| HP 250 G6                                       | [链接](https://github.com/snajdovski/HP-250-G6-Mojave-EFI) [链接](https://github.com/Baio1977/HP-250-G6-Kabylake) |                                                              |                                                              |
 | HP 348 G5                                       | [链接](https://github.com/zsakvo/hp-348-g5-hackintosh)       |                                                              |                                                              |
 | HP Probook 430 G3                               | [链接](https://github.com/mdraan1/HP-Probook-430-G3-macos)   | [链接](https://github.com/Human7900/macOS-HP-Probook-430-G3-Resources) |                                                              |
 | HP Probook 430 G5                               |                                                              |                                                              |                                                              |
 | HP ProBook 430 G6                               | [链接](https://github.com/YGQ8988/HP-ProBook430G6)           |                                                              | i5-8265U 已卸载内置镁光 nvme SSD(此硬盘不识别)               |
 | HP ProBook 440 G2                               |                                                              |                                                              |                                                              |
+| HP ProBook 440 G3                               | [链接](https://github.com/code0Artuh/EFI-Probook-440-G3)     |                                                              |                                                              |
 | HP Probook 450 G5                               | [链接](https://github.com/Flashminat0/hp-probook-450-g5-big-sur-opencore-efi-files) |                                                              |                                                              |
 | HP ProBook 470 G1                               | [链接](https://github.com/mavethee/Hackintosh-OpenCore-HP-ProBook-470-G1) |                                                              |                                                              |
 | HP ProBook 650 G1                               | [链接](https://github.com/Hologos/hackintosh-hp-probook-650-g1) |                                                              |                                                              |
@@ -763,6 +766,7 @@
 | MSI GE72VR Apache Pro-416 |                                                                                                                                                                                                           |                                                                                      |                 |
 | MSI GF63                  | [链接](https://github.com/oscarrock/hackintosh-msi-gf63-thin-9SC)                                                                                                                                         |                                                                                      |                 |
 | MSI GF63 8RD | [链接](https://github.com/yasinerarslan/GF63.8RD.Hackintosh.OpenCore) | | |
+| MSI GF63 9SCSR 846VN | [链接](https://github.com/estherowo/MSI-GF63-9SCSR-846VN-OpenCore) | | |
 | MSI GF63-10               | [链接](https://github.com/rohanbojja/MSI-GF-63-10)                                                                                                                                                        |                                                                                      |                 |
 | MSI GF63 thin 9sc         | [链接](https://github.com/LongBody/EFi-Hackintosh-MSi-GF63-thin-9sc)                                                                                                                                      |                                                                                      |                 |
 | MSI GL62M 7RD             | [链接](https://github.com/0ranko0P/GL62M-7RD-Hackintosh)                                                                                                                                                  |                                                                                      |                 |
@@ -1001,6 +1005,7 @@
 | MSI B450I Gaming Plus AC           | [链接](https://github.com/portrayer/Hackintosh-Ryzen-MSI-B450I) |                                                              |                                                              |
 | Gigabyte X399 Aorus Extreme        | [链接](https://github.com/SchmockLord/Hackintosh-Threadripper-1950x-Gigabyte-X399-Aorus-Extreme) |                                                              | Threadripper 1950x@4.0Ghz                                    |
 | Asus ROG Strix B450-F Gaming       | [链接](https://github.com/Desousak/macOS-strix-b450F)        |                                                              |                                                              |
+| MS-iCraft B550M WIFI               | [链接](https://github.com/wuwuwu223/Hackintosh-Opencore-MS-iCraft-B550M-WIFI-EFI) |                                                              |                                                              |
 
 
 ## INTEL CPU 系列
@@ -1169,6 +1174,7 @@
 | Gigabyte B460M Aorus Pro        | [链接](https://github.com/dovtuan/Gigabyte-B460M-Aorus-Pro-Hackintosh-Open-Core) [链接](https://github.com/duongnguyensr/opencore-efi)<br />[链接](https://github.com/nhd2106/EFI-Hackintosh-B460M-Aorus-Pro-Core-i5-10400-RX-580-wifi-intel-AX200) |                                                              | i5-10400 / RX570<br />网卡推荐：[BCM94360CD](https://blog.daliansky.net/uploads/WeChatandShop.png) |
 | Gigabyte B460M-DS3H             | [链接](https://github.com/bangbaew/Gigabyte-B460M-DS3H-Hackintosh) |                                                              | i5-10400 / RX480<br />网卡推荐：[BCM94360CD](https://blog.daliansky.net/uploads/WeChatandShop.png) |
 | Gigabyte B560M AORUS PRO        | [链接](https://github.com/Vepoe/Gigabyte_B560m_Aorus_Pro-10400-5500xt-EFI) |                                                              | 网卡推荐：[BCM94360CD](https://blog.daliansky.net/uploads/WeChatandShop.png) |
+| Gigabytes B560M AORUS Pro AX | [链接](https://github.com/geminiwen/Gigabyte_B560m_AORUS_PRO_AX_i5_11600K) [链接](https://github.com/imcczy/Gigabyte_B560m_AORUS_PRO_AX_10850K_6900XT_EFI) | | 网卡推荐：[BCM94360CD](https://blog.daliansky.net/uploads/WeChatandShop.png) |
 | Gigabyte C246 WU4               | [链接](https://github.com/SeonMe/Gigabyte-C246-WU4-Hackintosh-OC) |                                                              | Intel Xeon E-2278G / Sapphire RX 5500XT<br />网卡推荐：[BCM94360CD](https://blog.daliansky.net/uploads/WeChatandShop.png) |
 | Gigabyte Designaire Z390        | [链接](https://github.com/baughmann/designaire-z390-intel-i9-9900k-opencore) |                                                              | 网卡推荐：[BCM94360CD](https://blog.daliansky.net/uploads/WeChatandShop.png) |
 | G1 sniper M7 intel B150M        | [链接](https://github.com/infonekingdom/G1M7)                |                                                              |                                                              |
@@ -1282,7 +1288,7 @@
 | **台式（部分）**                           | 发布地址                                                     | 教程地址                                                     | 备注                                                         |
 | ------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | 联想 Lenovo 启天 M415-D339                 | [链接](https://github.com/static-host/Hackintosh-OpenCore)   |                                                              |                                                              |
-| 联想 Lenovo 启天 M420-D046(C)              | [链接](https://github.com/crysehillmes/Hackintosh-Lenovo-M420-D046-C) | [链接](https://github.com/crysehillmes/Hackintosh-Lenovo-M420-D046-C/blob/main/README.cn.md) |                                                              |
+| 联想 Lenovo 启天 M420-D046(C)              | [链接](https://github.com/crysehillmes/Hackintosh-Lenovo-M420-D046-C) [链接](https://github.com/july929/Lenovo-QiTian-M420-i3-8100-UHD630-OpenCore-EFI) | [链接](https://github.com/crysehillmes/Hackintosh-Lenovo-M420-D046-C/blob/main/README.cn.md) |                                                              |
 | Lenovo TianQi M420                         | [链接](https://github.com/july929/Lenovo-QiTian-M420-i3-8100-UHD630-OpenCore-EFI) |                                                              |                                                              |
 | 联想启天M425-N050 | [链接](https://github.com/bpefei/Lenovo-QiTian-M425-N050-OpenCore-EFI) | | |
 | Lenovo 天逸 510S                           | [链接](https://github.com/274860460/lenovo-510s-i5-9400_HUD630_Hackintosh_EFI) |                                                              | i5-9400 网卡推荐：[BCM94360Z4](https://blog.daliansky.net/uploads/WeChatandShop.png) |
@@ -1481,7 +1487,7 @@
 
 943307869 [黑果小兵高级群 II](https://qm.qq.com/cgi-bin/qm/qr?k=aoSvqrbysdjPo0Wa_XvvPuMG9NMEtOie&jump_from=webapi) 2000 人群
 
-538643249 [OpenCore 技术交流群](https://qm.qq.com/cgi-bin/qm/qr?k=si7f9Mfzs82wHGvKLVhBLmW87YA31y92&jump_from=webapi) 2000 人群 大神众多非 OC 适配者慎入
+275356796 [morefine 黑苹果交流群](https://qm.qq.com/cgi-bin/qm/qr?k=H7hFwiVkZq71L7se6rz3hE9QcacqL-dV&jump_from=webapi) 500 人群 非专用机型请勿加入
 
 869792897 [minisforum U820黑苹果交流群](https://qm.qq.com/cgi-bin/qm/qr?k=TdIS59sEdBCjbz8NbdrQ2IyPG6bMza3_&jump_from=webapi) 500 人群 非专用机型请勿加入
 
