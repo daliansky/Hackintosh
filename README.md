@@ -1376,7 +1376,7 @@
 | 机型名称                         | 发布地址                                                     | 教程地址                                                     | 备注             |
 | -------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------------- |
 | ACER Veriton D430                | [链接](https://github.com/SummerEmber/ACER-Veriton-D430)     |                                                              |                  |
-| 华南金牌 B75                     | [链接](https://github.com/LeUKi/Hackintosh-EFI-huanan_B75)   |                                                              | e3-1230-v2 RX460 |
+| 华南金牌 B75                     | [链接](https://github.com/ic005k/HUANAN-B75) [链接](https://github.com/LeUKi/Hackintosh-EFI-huanan_B75) |                                                              | e3-1230-v2 RX460 |
 | Huanan X79 E5-2670, GTX650       | [链接](https://github.com/cheneyveron/clover-x79-e5-2670-gtx650) | [链接](https://github.com/cheneyveron/clover-x79-e5-2670-gtx650/blob/master/README.md) | 华南 x79 V2      |
 | Huananzhi x99 f8                 | [链接](https://github.com/oscaroum/huananzhi_x99_f8)         |                                                              |                  |
 | 华南B85-ITX 黑苹果                 | [链接](https://github.com/Mustang-Sun/HUANANZHI-B85-ITX-Hackintosh) |                                                              | i5-4690+16G、无独显、未安装wifi，声卡正常  |
@@ -1428,6 +1428,7 @@
 - [Acidanthera](https://github.com/acidanthera) 维护的项目：[OpenCorePkg](https://github.com/acidanthera/OpenCorePkg) [lilu](https://github.com/acidanthera/Lilu) [AirportBrcmFixup](https://github.com/acidanthera/AirportBrcmFixup) [WhateverGreen](https://github.com/acidanthera/WhateverGreen) [VirtualSMC](https://github.com/acidanthera/VirtualSMC) [AppleALC](https://github.com/acidanthera/AppleALC) [BrcmPatchRAM](https://github.com/acidanthera/BrcmPatchRAM) [MaciASL](https://github.com/acidanthera/MaciASL) 等
 - [headkaze](https://www.insanelymac.com/forum/profile/1364628-headkaze/) 提供的工具：[hackintool](https://github.com/headkaze/Hackintool) [PinConfigurator](https://github.com/headkaze/PinConfigurator) [BrcmPatchRAM](https://www.insanelymac.com/forum/topic/339175-brcmpatchram2-for-1015-catalina-broadcom-bluetooth-firmware-upload/)
 - [CloverHackyColor](https://github.com/CloverHackyColor)维护的项目：[CloverBootloader](https://github.com/CloverHackyColor/CloverBootloader) [CloverThemes](https://github.com/CloverHackyColor/CloverThemes)
+- [ic005k](https://github.com/ic005k/)维护的项目：[OpenCore Auxiliary Tools OpenCore Configurator OCAT](https://github.com/ic005k/QtOpenCoreConfig)
 - 宪武整理的：[P-little](https://github.com/daliansky/P-little) [OC-little](https://github.com/daliansky/OC-little)
 - [chris1111](https://github.com/chris1111)维护的项目：[VoodooHDA](https://github.com/chris1111/VoodooHDA-2.9.2-Clover-V15) [Wireless USB Adapter Clover](https://github.com/chris1111/Wireless-USB-Adapter-Clover)
 - [zxystd](https://github.com/zxystd)开发的[itlwm](https://github.com/zxystd/itlwm) [IntelBluetoothFirmware](https://github.com/zxystd/IntelBluetoothFirmware)
@@ -1435,6 +1436,8 @@
 - [xzhih](https://github.com/xzhih)提供的工具：[one-key-hidpi](https://github.com/xzhih/one-key-hidpi)
 - [Bat.bat](https://github.com/williambj1)更新维护的[精解 OpenCore](https://blog.daliansky.net/OpenCore-BootLoader.html)
 - [athlonreg](https://github.com/athlonreg)更新维护的[OpenCore 0.5+ 部件补丁](https://blog.cloudops.ml/ocbook/) [Common-patches-for-hackintosh](https://github.com/athlonreg/Common-patches-for-hackintosh)
+- [stevezhengshiqi](https://github.com/stevezhengshiqi) 更新维护的 [XiaoMi NoteBook Pro Hackintosh](https://github.com/daliansky/XiaoMi-Pro-Hackintosh) 和 [one-key-cpufriend](https://github.com/stevezhengshiqi/one-key-cpufriend)
+- [Miracle-Sakuno](https://github.com/Miracle-Sakuno) 整理的各平台配置文件
 - [github.com](github.com)
 - [码云 gitee.io](gitee.io)
 - [扣钉 coding.net](coding.net)
