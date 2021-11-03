@@ -342,11 +342,13 @@
 | Dell Latitude E5280                        | [链接](https://github.com/xx569029747/EFI-For-Dell-Latitude-5280) |                                                              |                                                              |
 | Dell Latitude E5290                        | [链接](https://github.com/laelsirus/Dell-Latitude-5290-2-in-1-UHD620-iGPU-CLOVER) | [链接](https://github.https://github.com/laelsirus/Dell-Latitude-5290-2-in-1-UHD620-iGPU-CLOVER/blob/master/README.md) | Dell-Latitude-5290                                           |
 | Dell Latitude 5290 2-in-1                  | [链接](https://github.com/laelsirus/Dell-Latitude-5290-2-in-1-UHD620-iGPU-CLOVER) |                                                              |                                                              |
+| Dell Latitude 5300 | [链接](https://github.com/ahianf/dell-latitude-5300-hackintosh) | | |
 | Dell Latitude E5400                        | [链接](https://github.com/gouiferda/dell-5400-hackintoch)    |                                                              |                                                              |
 | Dell Latitude E5430                        | [链接](https://github.com/osx86-ijb/Dell-Latitude-e5430-3rd-Gen-Core-i5-3210m-macOS-BigSur) |                                                              |                                                              |
 | Dell Latitude E5440                        | [链接](https://github.com/alf45tar/Latitude-E5440-EFI-Partition) |                                                              | Dell E5440                                                   |
 | Dell Latitude E5470                        | [链接](https://github.com/txt1994/dell_latitude5470_i7-6820hq) |                                                              |                                                              |
 | Dell Latitude E5490                        | [链接](https://github.com/lijun215021/DELL-5490-hackintosh) [链接](https://github.com/novseje/dell-latitude-5490-hackintosh-clover) |                                                              |                                                              |
+| Dell Latitude E5570 | [链接](https://github.com/misa198/dell-latitude-e5570-hackintosh) | | |
 | Dell Latitude E5590 | [链接](https://github.com/marousis/Dell-5590-MacOS) | | |
 | Dell Latitude E5591                        | [链接](https://github.com/geowoden/DELL-Latitude-5591_osx-clover) |                                                              |                                                              |
 | Dell Latitude E6230 | [链接](https://github.com/Hayafumi/dell-latitude-e6230-opencore) | | |
@@ -1119,6 +1121,7 @@
 | Asus Z490 MAXIMUS XII FORMULA  | [链接](https://github.com/shijij/OSX_EFI_Asus_Z490_MAXIMUS_FORMULA) |          | i7-10700k + RX5700XT<br />网卡推荐：[BCM94360CD](https://blog.daliansky.net/uploads/WeChatandShop.png) |
 | Asus TUF Z490 Plus             | [链接](https://github.com/horphi/Asus-TUF-Z490-Plus) [链接](https://github.com/raofeng/ASUS_TUF_Z490_PLUS_WIFI_EFI) |          | 网卡推荐：[BCM94360CD](https://blog.daliansky.net/uploads/WeChatandShop.png) |
 | Asus ROG MAXIMUS XIII HERO | [链接](https://github.com/Dave1482/Maximus-XIII-Hero-Z590-11900K-6800XT-OpenCore-EFI-Public) | |  |
+| ASUS PRIME Z590-P | [链接](https://github.com/rafaelmaeuer/Asus-Z590-P-Hackintosh) | | 网卡推荐：[BCM94360CD](https://blog.daliansky.net/uploads/WeChatandShop.png) |
 | Asus X299 PRIME DELUXE II      | [链接](https://github.com/yifan-gu/hackintosh)               |          | i9 7980XE + Radeon VII<br />网卡推荐：[BCM94360CD](https://blog.daliansky.net/uploads/WeChatandShop.png) |
 | Asus X299                      |      |          |                                                              |
 | Asus ROG STRIX X299-E GAMING   | [链接](https://github.com/Fansaly/X299-STRIX-macOS)          |          | INTEL® CORE™ i7-7800X<br />网卡推荐：[BCM94360CD](https://blog.daliansky.net/uploads/WeChatandShop.png) |
