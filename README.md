@@ -103,6 +103,7 @@
 | Acer Aspire A515-51G        | [链接](https://github.com/Siddhesh1197/Acer-A515-51G-Hackintosh) | [链接](https://github.com/Siddhesh1197/Acer-A515-51G-Hackintosh/blob/master/README.md) |                                                  |
 | Acer Aspire A515-55 | [链接](https://github.com/hanlywijaya/Acer-Aspire-A515-55-Opencore) |  | |
 | Acer A515-51G-58VH          |                                                              |                                                              |                                                  |
+| Acer A515-52G-58LZ | [链接](https://github.com/tucano3000/ACER-A515-52G-58LZ-HACKINTOSH-OPENCORE) | | |
 | Acer A715                   | [链接](https://github.com/WangGang-a1/Acer-A715-EFI)         |                                                              |                                                  |
 | Acer Aspire 7 A715-75G-50SA | [链接](https://github.com/AbhaySingh15/Acer-aspire-7-A715-75G-Opencore-EFI) | | |
 | Acer Aspire E1-471G         | [链接](https://github.com/matthew728960/Clover-ACER-E1-471G) | [链接](https://github.com/matthew728960/Clover-ACER-E1-471G/blob/master/README.md) | ACER Aspire E1-471g                              |
@@ -329,6 +330,7 @@
 | Dell Inspiron 7570                         | [链接](https://github.com/duongle305/Dell-7570-Hackintosh)   |                                                              |                                                              |
 | Dell Inspiron 7577                         | [链接](https://github.com/yakimka/Hackintosh-Dell-7577) [链接](https://github.com/lersy/Dell-7577-Hackintosh-macos-Opencore) |                                                              |                                                              |
 | Dell Inspiron 7580 | [链接](https://github.com/queensferryme/Hackintosh-Dell-7580) [链接](https://github.com/ppjjhh/Hackintosh-Dell-Inspiron-7580) | | 链接1和链接2支持`Big Sur`|
+| Dell Inspiron 7586 | [链接](https://github.com/hacker1024/Dell-Inspiron-7586-Hackintosh) | | |
 | Dell Inspiron 7590                         | [链接](https://github.com/lcyf9102s/dell-inspiron7590-i5-1050-hackintosh-cloverEFI) [链接](https://github.com/Pinming/Dell-Inspiron-7590-Hackintosh-Opencore) |                                                              | 链接 2 支持`Big Sur`                                         |
 | Dell Inspiron 7591                         | [链接](https://github.com/tctien342/Dell-Inspiron-7591-Hackintosh) [链接](https://github.com/Skimige/Inspiron-759x-Hackintosh) [链接](https://github.com/Pinming/Dell-Inspiron-7590-Hackintosh-Opencore) |                                                              | 链接 3 支持`Big Sur`                                         |
 | Dell Latitude 3400 | [链接](https://github.com/davidfreitas-dev/EFI-Dell-Latitude-3400) | | 网卡推荐：[BCM94360Z4](https://blog.daliansky.net/uploads/WeChatandShop.png) |
@@ -1394,7 +1396,7 @@
 | PANSHI X99D4                     | [链接](https://github.com/Andywyh/PANSHI-X99-D4-OC-EFI)      |                                                              |                  |
 | 七彩虹 Battle_Axe_C.B250M-HD     | [链接](https://github.com/liuoneping/Battle_Axe_C.B250M-HD-I5-7400-HD630-EFI) |                                                              |                  |
 | 七彩虹 战斧C.B360M-HD 魔音版 V20 | [链接](https://github.com/swjtuhyq/colorful-b360m-efi)       |                                                              |                  |
-| 七彩虹 CVN B460i                 | [链接](https://github.com/AlphaGHX/Hackintosh-CVN-b460i-efi) |                                                              |                  |
+| 七彩虹 CVN B460i                 | [链接](https://github.com/AlphaGHX/Hackintosh-CVN-b460i-efi) [链接](https://github.com/Coceki/CVN-B460i-EFI-Opencore) |                                                              |                  |
 | 七彩虹 C.H110M-K D3 PRO | [链接](https://github.com/wecy-chen/C.H110M-K_D3_PRO) | | |
 | ONDA B460 SD4 | [链接](https://github.com/it1580/Hackintosh-ONDA-B460SD4-EFI) | | |
 | ONDA H410 SD4                    | [链接](https://github.com/yinxianwei/ONDA-H410SD4-Hackintosh) |                                                              |                  |
