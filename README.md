@@ -287,6 +287,7 @@
 | Dell Inspiron 3421                         | [链接](https://github.com/LocTran016/EFI)                    |                                                              |                                                              |
 | Dell Inspiron 3442                         | [链接](https://github.com/kkzzhizhou/Dell-3443-Hackintosh)   | [链接](https://github.com/kkzzhizhou/Dell-3443-Hackintosh/blob/master/README.md) | Dell 3443                                                    |
 | Dell Inspiron 3443                         | [链接](https://github.com/kkzzhizhou/Dell-3443-Hackintosh)   |                                                              |                                                              |
+| Dell Inspriron 3459 | [链接](https://github.com/DUr3n/Dell-3459-OC) | | |
 | Dell Inspriron 14 3467                     | [链接](https://github.com/b4iterdev/opencore-dell-inspriron-14-3467) |                                                              |                                                              |
 | Dell Inspiron 3481                         | [链接](https://github.com/M3ggy-NX/Dell-Inspiron-3481-EFI-Opencore) |                                                              |                                                              |
 | Dell Inspiron 3543                         | [链接](https://github.com/meikeeit/Hackintosh_Dell3543)      |                                                              |                                                              |
@@ -349,6 +350,7 @@
 | Dell Latitude E5430                        | [链接](https://github.com/osx86-ijb/Dell-Latitude-e5430-3rd-Gen-Core-i5-3210m-macOS-BigSur) |                                                              |                                                              |
 | Dell Latitude E5440                        | [链接](https://github.com/alf45tar/Latitude-E5440-EFI-Partition) |                                                              | Dell E5440                                                   |
 | Dell Latitude E5470                        | [链接](https://github.com/txt1994/dell_latitude5470_i7-6820hq) |                                                              |                                                              |
+| Dell Latitude E5480 | [链接](https://github.com/anunna/Dell_Latitude_5480_EFI_OC) | | |
 | Dell Latitude E5490                        | [链接](https://github.com/lijun215021/DELL-5490-hackintosh) [链接](https://github.com/novseje/dell-latitude-5490-hackintosh-clover) |                                                              |                                                              |
 | Dell Latitude E5570 | [链接](https://github.com/misa198/dell-latitude-e5570-hackintosh) | | |
 | Dell Latitude E5590 | [链接](https://github.com/marousis/Dell-5590-MacOS) | | |
