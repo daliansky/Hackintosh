@@ -10,175 +10,175 @@
 
   - 按机型重新排版
   - 将该文档上传到仓库，方便其它人提交合并，共同维护
-  
+
 - 2019年4月2日
 
   - 添加部分新机型
   - 将多于2个机型的品牌独立出来，方便检索
-  
+
 - 2019年5月9日
 
   - 新增机型：`Mechrevo X9Ti R` / `Mechrevo Z2 G` 等
-  
+
 - 2019年5月10日 by [明城](https://github.com/mingcheng)
 
   - 新增机型：`Lenovo M93P` / `Dell 9020m` 等机型
-  
+
 - 2019年7月3日 by [Cruii](https://github.com/Cruii)
 
   - 新增机型：`暗影精灵2Pro`(HP OMEN 15-ax225TX)
-  
+
 - 2019年7月19日 by [lgs3137](https://github.com/lgs3137)
 
   - 新增机型：`暗影精灵I`(惠普PAVILION Gaming NB 15-ak039TX)
-  
+
 - 2019年8月15日
 
   - 新增机型：ASUS X299 PRIME DELUXE II + i9 7980XE + Radeon VII
-  
+
 - 2019年8月16日
 
   - 新增机型：MSI X370 KRAIT GAMING + 1700X + RADEON VEGA64
   - 新增机型：ASROCK X570 TAICHI + 3700X + RADEON VEGA64，兼容ASROCK X570 TAICHI(BIOS<=1.21) + 1700X + RADEON VEGA64
-  
+
 - 2019年9月1日 by [lgs3137](https://github.com/lgs3137)
 
   - 新增机型：`ASUS Y5000U`(X507UBR)
-  
+
 - 2019年9月7日 by [lgs3137](https://github.com/lgs3137)
 
   - 新增机型：`Acer P258-MG`
-  
+
 - 2019年9月17日 by [skyline75489](https://github.com/skyline75489)
 
   - 新增机型：`MSI GE63 Raider RGB 8RE`
-  
+
 - 2019年10月5日 by [sarkrui](https://github.com/sarkrui)
 
   - 新增机型：ASRock Z390M Pro4 + i7-9700K + Sapphire RX580 Nitro+ 8G
-  
+
 - 2019年10月5日 by [我意](https://github.com/y010204025)
 
   - 新增机型：lenovo miix4(700)、miix510、E470
-  
+
 - 2019年10月19日 by [kongbg](https://github.com/kongbg)
 
   - 新增机型：ASUS K555LD
-  
+
 - 2019年10月28日 by [W-MS](https://github.com/W-MS)
 
   - 新增机型：Dell OptiPlex 7060 and 7070
   - 增加新版本支持： Dell OptiPlex 9020
-  
+
 - 2019年11月4日 by [YGQ8988](https://github.com/YGQ8988)
 
   - 新增机型：HP ProBook 430 G6
-  
+
 - 2019年11月14日
 
   - 新增机型：Lenovo Y9000X
-  
+
 - 2019年11月21日
 
   - 新增机型：Dell XPS 15 7590
-  
+
 - 2020年1月18日
 
   - 新增机型：DELL系列/Lenovo系列等机型
-  
+
 - 2020年2月15日
 
   - 新增机型：ASUS VivoBook FL8000UQ
-  
+
 - 2020年3月8日
 
   - 新增机型：华为Matebook 14 2020款
-  
+
 - 2020年3月14日
 
   - 新增机型：Lenovo G400
-  
+
 - 2020年4月8日
 
   - 新增机型：联想Miix 720/YOGA 910等机型
-  
+
 - 2020年4月22日
 
   - 新增机型：光影精靈4代/MSI-MPG-Z390-Gaming-EDGE-AC
-  
+
 - 2020年5月5日
 
   - 新增机型：联想M710Q等
   - 将台式机品牌重新分类、整理，便于查看相关信息
-  
+
 - 2020年6月8日
 
   - 新增机型：新增Z490等部分台式机型
-  
+
 - 2020年6月10日
 
   - 新增机型：新增Lenovo Thinkcentre M910x等部分新机型
-  
+
 - 2020年6月12日
 
   - 新增机型：新增DELL 9020 MT/SFF/USFF/Micro机型，基于OpenCore
-  
+
 - 2020年6月19日
 
   - 新增机型：新增部分台式机型，基于OpenCore
-  
+
 - 2020年6月23日
 
   - 新增机型：新增Dell Latitude E7390等部分新机型
-  
+
 - 2020年6月30日
 
   - 新增机型：B460 / Z490 以及其它笔记本机型
-  
+
 - 2020年7月5日
 
   - 新增机型：新增ThinkPad T470p、ASUS-Prime-Z390M-PLUS、神舟战神z7-kp7sc、ASRock-B365M-ITX-AC等部分新机型
-  
+
 - 2020年7月31日
 
   - 新增机型：新增对`Big Sur`等机型的支持，新增部分新机型
-  
+
 - 2020年8月6日
 
   - 新增机型：新增B460/Z490等新机型
-  
+
 - 2020年8月17日
 
   - 新增机型：新增B450等部分机型
-  
+
 - 2020年8月31日
 
   - 新增机型：新增战神Z7、G8系列部分机型，具体请看commit
-  
+
 - 2020年9月15日
 
   - 新增机型：Lenovo 天逸 510S Mini
-  
+
 - 2020年10月29日
 
   - 新增N多机型：包括 `AMD`  /  `INTEL`等部分台式机型
-  
+
 - 2020年11月23日
 
   - 新增机型：Acer Aspire A514-52-37H1/ Gygabyte B550i Aorus Pro AX 等新机型
   - 新增机型：HP EliteDesk 800 G1/G2/G3/G4/G5
-  
+
 - 2020年11月24日
 
   - 新增机型：`Ice Lake`等部分机型
-  
+
 - 2020年11月26日
 
   - 新增机型：
     - `Acer Nitro 5 AN515-54`
     - `Asus H370i`
     - `Gigabyte Z390 I Aorus Pro WiFi`
-  
+
 - 2020年12月2日
 
   - 新增机型：
@@ -188,7 +188,7 @@
     - `Acer TravelMate TX520-G2-MG`
     - `HP ProDesk 600 G2 DM`
     - …… 
-  
+
 - 2020年12月14日
 
   - 新增机型：
@@ -201,7 +201,7 @@
     - `Dell  Optiplex 7010`
     - `ASRock deskmini H470`
     - `Gigabyte H110M S2HP`
-  
+
 - 2020年12月23日
 
   - 新增机型：
@@ -216,7 +216,7 @@
     - MSI H410M BOMBER
     - 七彩虹CVN B460i
     - ......
-  
+
 - 2021年1月15日
 
   - 新增机型：
@@ -224,7 +224,7 @@
     - Mi Notebook 14 2020
     - Gigabyte H110M H
     - Gigabyte Z390 DESIGNARE
-  
+
 - 2021年1月19日
 
   - 新增机型：
@@ -243,7 +243,7 @@
     - Gigabyte H87M-D3H
     - Gigabyte GA-Z170XP-SLI
     - MSI Z390-A PRO
-  
+
 - 2021年1月20日
 
   - 新增机型：
@@ -255,7 +255,7 @@
     - Gigabyte Z490I AORUS ULTRA
     - Lenovo 天逸510S
     - Lenovo B360
-  
+
 - 2021年1月25日
 
   - 新增机型：
@@ -269,7 +269,7 @@
     - ASRock B85 Pro4
     - Gigabyte B150M-VP
     - Gigabyte Z490 UD
-  
+
 - 2021年2月15日
 
   - 新增机型：
@@ -302,15 +302,15 @@
     - MSI H270 GAMING M3
     - MSI H410M-PRO-VH
     - ONDA H410 SD4
-  
- - 2021年2月24日
+
+- 2021年2月24日
 
    - 删除已失效的repo
-   
+
 - 2021年3月7日
-  
+
   - 重新排版
-  
+
 - 2021年3月8日
   - 新增机型
     - Acer Aspire E5-575G
@@ -334,7 +334,7 @@
     - Dell Optiplex 5070mff
     - Gigabyte mdh11ki
     - MSI B250M MORTAR
-  
+
 - 2021年3月17日
   - 新增机型：
     - Asus X542u
@@ -365,7 +365,7 @@
     - MSI H61-P31/W8
     - MSI Z490 Gaming Plus
     - Onda P75U
-  
+
 - 2021年3月22日
   - 新增机型：
     - Asus X540LJ
@@ -385,7 +385,7 @@
     - HP Pavilion 15 au624tx
     - Lenovo Ideapad S540 14IWL
     - Gigabyte H410M S2H
-  
+
 - 2021年4月12日
 
   - 新增机型：
@@ -396,7 +396,7 @@
     - ASUS PRIME B250M-K
     - ASROCK B560 STEEL LEGEND
     - 51nb T70 ThinkPad 副厂主板
-  
+
 - 2021年5月12日
 
   - 新增机型：
@@ -441,7 +441,7 @@
   - Asus FX55VD DM001D
     - Dell Latitude 3400
   - MSI GF63 8RD
-  
+
 - 2021年10月21日
 
   - 新增机型：
@@ -451,14 +451,23 @@
     - MSI GF63 9SCSR 846VN
     - Gigabytes B560M AORUS Pro AX
     - morefine S500
+
+- 2021年11月8日
+
+  - 新增机型：
+    - Dell Inspiron 5493/5593
+    - Lenovo Ideapad S540 14IWL
+    - Lenovo Ideapad Flex 5 14IIL05
+    - Lenovo Yoga Duet 2020
+    - Chuwi CoreBookX 14
+
   
+
   
+
   
+
   
-  
-  
-  
-  
-  
+
   
 

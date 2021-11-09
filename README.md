@@ -38,14 +38,13 @@
 
 更新日期：
 
-- 2021年10月21日
+- 2021年11月8日
   - 新增机型：
-    - Asus FX505GT
-    - Dell Inspiron 3647
-    - HP ProBook 440 G3
-    - MSI GF63 9SCSR 846VN
-    - Gigabytes B560M AORUS Pro AX
-    - morefine S500
+    - Dell Inspiron 5493/5593
+    - Lenovo Ideapad S540 14IWL
+    - Lenovo Ideapad Flex 5 14IIL05
+    - Lenovo Yoga Duet 2020
+    - Chuwi CoreBookX 14
 
 完整的更新日志：[更新日志](./Changelog.md)
 
