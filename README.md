@@ -38,13 +38,11 @@
 
 更新日期：
 
-- 2021年11月8日
+- 2021年11月10日
   - 新增机型：
-    - Dell Inspiron 5493/5593
-    - Lenovo Ideapad S540 14IWL
-    - Lenovo Ideapad Flex 5 14IIL05
-    - Lenovo Yoga Duet 2020
-    - Chuwi CoreBookX 14
+    - Dell Inspiron 5458
+    - Sony VAIO SVS1512X9E/SVS1512X9EB
+    - MSI Z490-A PRO
 
 完整的更新日志：[更新日志](./Changelog.md)
 
