@@ -95,6 +95,8 @@ mem_wired="$(vm_stat | awk '/wired/ { print $4 }')"
 mem_active="$(vm_stat | awk '/active / { printf $3 }')"
 mem_compressed="$(vm_stat | awk '/occupied/ { printf $5 }')"
 mem_used="$(((${mem_wired//.} + ${mem_active//.} + ${mem_compressed//.}) * 4 / 1024))"
+ssd="$(system_profiler SPNVMeDataType | grep Model | awk '{print $2}' | xargs -n2)"
+ssd_size="$(system_profiler SPNVMeDataType | grep -E '(Model|Capacity)' | sed  -n '1p' | awk '{print $2 $3}')"
 
 cores="$(sysctl -n hw.logicalcpu_max)"
 
@@ -134,7 +136,7 @@ else
 fi
 
 # Mainboard
-mb="$(bdmesg | grep Running | awk '{print $5,$6,$7,$8,$9,$10}' | sed "s/\'//g")"
+# mb="$(bdmesg | grep Running | awk '{print $5,$6,$7,$8,$9,$10}' | sed "s/\'//g")"
 
 # System Variables
 # User="$(osascript -e "computer name of (system info)")"
@@ -179,6 +181,7 @@ gpu="$(system_profiler SPDisplaysDataType 2>/dev/null|awk -F': ' '/^\ *Chipset M
 vram="$(system_profiler SPDisplaysDataType 2>/dev/null| grep VRAM | cut -b 7-)"
 # extension resolution
 displayext="$(system_profiler SPDisplaysDataType  2>/dev/null| grep Resolution | awk 'NF+=1' | sed 's/Resolution://g' | cut -b 2- | sed -e 's/, /\n/g' | sed -n 2p)"
+displayext2="$(system_profiler SPDisplaysDataType  2>/dev/null| grep Resolution | awk 'NF+=1' | sed 's/Resolution://g' | cut -b 2- | sed -e 's/, /\n/g' | sed -n 3p)"
 #if [[ -z $displayext ]] ; then 
 #  displayext=$resolution
 #fi
@@ -277,24 +280,25 @@ then
   normal=$(tput    sgr0 2>/dev/null)
 fi
 
-fieldlist[${#fieldlist[@]}]="${textColor}主板型号 :${normal} ${mb}${normal}"
+fieldlist[${#fieldlist[@]}]="${textColor}机    型 :${normal} ${model}${normal}"
 fieldlist[${#fieldlist[@]}]="${textColor}操作系统 :${normal} ${System_version}${normal}"
 fieldlist[${#fieldlist[@]}]="${textColor}内核版本 :${normal} ${Kernel_version}${normal}"
 fieldlist[${#fieldlist[@]}]="${textColor}开机时间 :${normal} ${uptime}${normal}"
 fieldlist[${#fieldlist[@]}]="${textColor}Shell    :${normal} ${Shell}${normal}"
 fieldlist[${#fieldlist[@]}]="${textColor}当前时间 :${normal} ${Date}${normal}"
-fieldlist[${#fieldlist[@]}]="${textColor}处理器   :${normal} ${Cpu}${normal}"
-fieldlist[${#fieldlist[@]}]="${textColor}内存     :${normal} ${memory}${normal}"
-fieldlist[${#fieldlist[@]}]="${textColor}磁盘     :${normal} ${Disk}${normal}"
+fieldlist[${#fieldlist[@]}]="${textColor}处 理 器 :${normal} ${Cpu}${normal}"
+fieldlist[${#fieldlist[@]}]="${textColor}内    存 :${normal} ${memory}${normal}"
+fieldlist[${#fieldlist[@]}]="${textColor}磁盘型号 :${normal} ${ssd} ${ssd_size}${normal}"
+fieldlist[${#fieldlist[@]}]="${textColor}磁盘空间 :${normal} ${Disk}${normal}"
 if [[ ! -z $Battery ]]; then
     fieldlist[${#fieldlist[@]}]="${textColor}剩余电量 :${normal} ${Battery}%  /  ${batterystatus}${normal}"
 fi
-fieldlist[${#fieldlist[@]}]="${textColor}IP 地址  :${normal} 公网 ${Public} / 内网 ${Intranet}${normal}"
+fieldlist[${#fieldlist[@]}]="${textColor}IP 地 址 :${normal} 公网 ${Public} / 内网 ${Intranet}${normal}"
 fieldlist[${#fieldlist[@]}]="${textColor}当前终端 :${normal} ${Terminal}${normal}"
 fieldlist[${#fieldlist[@]}]="${textColor}显卡设备 :${normal} ${gpu}/ $vram${normal}"
 fieldlist[${#fieldlist[@]}]="${textColor}主显示器 :${normal} ${resolution}${normal}"
 fieldlist[${#fieldlist[@]}]="${textColor}扩展显示 :${normal} ${displayext}${normal}"
-
+fieldlist[${#fieldlist[@]}]="${textColor}扩展显示 :${normal} ${displayext2}${normal}"
 logofile=${ARCHEY_LOGO_FILE:-"${HOME}/.config/archey-logo"}
 if [ -a "$logofile" ]
   then
@@ -320,6 +324,7 @@ ${PURPLE# }      ####################            ${fieldlist[11]}
 ${BLUE#   }        ################              ${fieldlist[12]}
 ${BLUE#   }         ####     #####               ${fieldlist[13]}
 ${BLUE#   }                                      ${fieldlist[14]}
+${BLUE#   }                                      ${fieldlist[15]}
 ${normal}                                      
 "
 fi
