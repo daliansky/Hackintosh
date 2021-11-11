@@ -461,13 +461,28 @@
     - Lenovo Yoga Duet 2020
     - Chuwi CoreBookX 14
 
-  
+- 2021年11月11日
 
-  
+   - 新增机型：
 
-  
+      - Asus ROG Strix G17 G712LW
 
-  
+      - HP Probook 440 G6
 
-  
+      - Gigabyte X399 Aorus Extreme
+
+      - MSI B550 A-Pro
+
+         
+
+
+   
+
+   
+
+   
+
+   
+
+   
 
