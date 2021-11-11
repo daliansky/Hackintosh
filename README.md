@@ -1370,7 +1370,7 @@
 | MSI Z490M Gaming Edge                             | [链接](https://github.com/redcweed/z490)                     |                                                              | Intel i7-10700 / XFX RX590<br />网卡推荐：[BCM94360CD](https://blog.daliansky.net/uploads/WeChatandShop.png) |
 | MSI Z490 Gaming Plus                              | [链接](https://github.com/Flop88/opencore) [链接](https://github.com/ianchb/Hackintosh_EFI_OpenCore_MSI_Z490A_PRO_MS7C75) |                                                              | i5-10400f / RX550<br />网卡推荐：[BCM94360CD](https://blog.daliansky.net/uploads/WeChatandShop.png) |
 | MSI Z490i Unify                                   | [链接](https://github.com/kingwood77/MSI-Z490i-Unify-Hackintosh) [链接](https://github.com/wjz304/Hackintosh-EFI-MSI-Z490i-Unify)<br />[链接](https://github.com/diskerror/EFI) |                                                              | i5-10400 / RX580                                             |
-|                                                   |                                                              |                                                              |                                                              |
+| MSI Z490 S01                                      | [链接](https://github.com/jdjxk/Hackintosh_OpenCore_Z490_i9_10850K_RX5500XT) |                                                              | 网卡推荐：[BCM94360CD](https://blog.daliansky.net/uploads/WeChatandShop.png) |
 | MSI Z97 Gaming 5                                  | [链接](https://github.com/plcharriere/Hackintosh/blob/master/Z97G5/) |                                                              | i5-4690K                                                     |
 
 ### Mini 迷你系列
