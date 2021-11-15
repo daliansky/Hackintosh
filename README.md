@@ -219,6 +219,7 @@
 | Asus VivoBook FL8000u             | [链接](https://github.com/jacid233/hackintosh-for-fl8000u)   |                                                              |                                                              |
 | Asus VivoBook FL8000UQ            | [链接](https://github.com/alexanderkin/ASUS-FL8000UQ-Hackintosh/releases) | [链接](https://github.com/alexanderkin/ASUS-FL8000UQ-Hackintosh) | ASUS FL8000UQ i7-8550U GeForce 940MX  |
 | Asus VivoBook Max X441UVK         | [链接](https://alfinauzikri.github.io/Asus-Vivobook-Max-X441UVK-Hackintosh/) |                                                              |                                                              |
+| ASUS Vivobook Pro 15 N580GD | [链接](https://github.com/Iwantwater1116/EFI_Hackintosh_ASUS_VivoBook_Pro_15_N580GD_OC7.3) | | |
 | Asus VivoBook S15 S510UA          | [链接](https://github.com/tctien342/Asus-Vivobook-S510UA-High-Sierra-10.13-Hackintosh) | [链接](https://github.com/tctien342/Asus-Vivobook-S510UA-High-Sierra-10.13-Hackintosh/blob/master/README.md) | Vivobook S510UA                                              |
 | Asus Vivobook S530UA BQ100T       | [链接](https://github.com/superzeldalink/Asus-Vivobook-S530-hackintosh) |                                                              |                                                              |
 | Asus Vivobook S510UNR - BQ114     | [链接](https://github.com/dayfly/Asus-S510UN-EFI)            |                                                              |                                                              |
@@ -401,6 +402,7 @@
 | Dell XPS 9360                              | [链接](https://github.com/ymmshi/XPS-9360) [链接](https://github.com/MasonGao/XPS-9360-Hackintosh) <br />[链接](https://github.com/the-marcus/XPS-9360-hackintosh) [链接](https://github.com/the-darkvoid/XPS9360-macOS) <br />[链接](https://github.com/0xHJK/XPS13-9360-i5-8250U-macOS) [链接](https://github.com/samuelshi/XPS13-9360) | [链接](https://github.com/ymmshi/XPS-9360/blob/master/README.md) | Dell XPS 9360，网卡推荐：[DW1820A](https://blog.daliansky.net/uploads/WeChatandShop.png) |
 | Dell XPS 9370                              | [链接](https://github.com/jieelin/XPS9370-Hackintosh)        |                                                              |                                                              |
 | Dell XPS 9380                              | [链接](https://github.com/wdubaiyu/Hackintosh-Dell-XPS-9380) |                                                              |                                                              |
+| Dell XPS 15 9500 | [链接](https://github.com/zspherez/Dell-XPS-9500-4K-UHD-Monterey) | | |
 | Dell XPS 9530                              | [链接](https://github.com/the-darkvoid/XPS9530-OSX/tree/10.13) | [链接](https://www.tonymacx86.com/threads/guide-dell-xps-9530-clover-uefi-hotpatch.235558/) | XPS 9530                                                     |
 | Dell XPS 9550                              | [链接](https://github.com/wmchris/DellXPS15-9550-OSX) [链接](https://github.com/corenel/XPS9550-macOS)[链接](https://github.com/xxxzc/xps15-9550-macos) | [链接](https://github.com/wmchris/DellXPS15-9550-OSX/blob/10.14/README.md) [链接](https://github.com/corenel/XPS9550-macOS/blob/master/README.md) | Dell XPS 9550                                                |
 | Dell XPS 9559                              | [链接](https://github.com/darwinboaventura/Dell-XPS-9559-EFIs) |                                                              |                                                              |
@@ -617,11 +619,13 @@
 | ThinkPad E550                      | [链接](https://github.com/the-braveknight/Lenovo-ThinkPad-E550-DSDT-Patch) | [链接](https://www.tonymacx86.com/threads/guide-lenovo-thinkpad-e550-haswell-using-clover-uefi-10-11.214675/) | E550 四代 CPU                                                |
 | ThinkPad E560                      | [链接](https://github.com/rsdev69/Lenovo-E560-Clover)        | [链接](https://www.tonymacx86.com/threads/stable-lenovo-e560-full-work.248842/) |                                                              |
 | ThinkPad E570                      | [链接](https://github.com/SysConKonn/E570-Hackintosh)        | [链接](https://www.tonymacx86.com/threads/stable-lenovo-e560-full-work.248842/) |                                                              |
+| Lenovo ThinkPad L14 Gen1 | [链接](https://github.com/soft98-top/Lenovo-ThinkPad-L14-Gen1-i7-10510u-Hackintosh) |  | |
 | ThinkPad L430                      | [链接](https://github.com/yaza-putu/lenovo-thinkpad-l430)    |                                                              |                                                              |
 | ThinkPad L440                      |                                                              |                                                              |                                                              |
 | ThinkPad L490                      | [链接](https://github.com/twislyn/Hackintosh-ThinkPad-L490)  | [链接](https://github.com/twislyn/Hackintosh-ThinkPad-L490/blob/master/README.md) |                                                              |
 | Lenovo miix 520                    | [链接](https://github.com/acai66/lenovo-miix-520-hackintosh-10.14-CLOVER) |                                                              |                                                              |
 | Lenovo Rescuer R720-15IKBN         | [链接](https://github.com/happylzyy/Hackintosh-Lenovo-R720)  |                                                              |                                                              |
+| Lenovo Thinkpad P1 Gen1 | [链接](https://github.com/p455555555/Thinkpad-P1-EFI) | | |
 | ThinkPad P51                       | [链接](https://github.com/MirkoCovizzi/thinkpad-p51-hackintosh) | [链接](https://github.com/MirkoCovizzi/thinkpad-p51-hackintosh/blob/master/README.md) | Thinkpad P51                                                 |
 | ThinkPad P52 | [链接](https://github.com/liuyishengalan/ThinkPad-P52-Hackintosh-10.14.X-) [链接](https://github.com/liuyishengalan/ThinkPad-P52-P53-P72-P73-Hackintosh-10.15.x) | | 链接2=P52-P53-P72-P73<br />网卡推荐：[BCM94360Z4](https://blog.daliansky.net/uploads/WeChatandShop.png) |
 | 拯救者 R720                        | [链接](https://github.com/Licoded/R720-15IKBN-EFI)           |                                                              |                                                              |
@@ -710,7 +714,7 @@
 | Lenovo Yoga3 14                    |                                                              |                                                              |                                                              |
 | Lenovo Yoga3 11                    |                                                              |                                                              |                                                              |
 | Lenovo Yoga 13IKB                  | [链接](https://github.com/dragonflylee/Yoga13-Hackintosh)    |                                                              |                                                              |
-| Lenovo Yoga 370                    | [链接](https://github.com/ouxuebo/YOGA370-clover)            |                                                              |                                                              |
+| Lenovo Yoga 370                    | [链接](https://github.com/ouxuebo/YOGA370-clover) [链接](https://github.com/geoleonsh/clover-EFI-yoga-370) |                                                              |                                                              |
 | Lenovo Yoga X390 | [链接](https://github.com/Chitpixel/X390-OC-EFI) | | |
 |  |  | | |
 | Lenovo Yoga 520 14IKB              | [链接](https://github.com/gasperTheGhost/Yoga-520-Hackintosh) |                                                              |                                                              |
@@ -1135,6 +1139,7 @@
 | Asus TUF Z490 Plus             | [链接](https://github.com/horphi/Asus-TUF-Z490-Plus) [链接](https://github.com/raofeng/ASUS_TUF_Z490_PLUS_WIFI_EFI) |          | 网卡推荐：[BCM94360CD](https://blog.daliansky.net/uploads/WeChatandShop.png) |
 | Asus ROG MAXIMUS XIII HERO | [链接](https://github.com/Dave1482/Maximus-XIII-Hero-Z590-11900K-6800XT-OpenCore-EFI-Public) | |  |
 | ASUS PRIME Z590-P | [链接](https://github.com/rafaelmaeuer/Asus-Z590-P-Hackintosh) | | 网卡推荐：[BCM94360CD](https://blog.daliansky.net/uploads/WeChatandShop.png) |
+| Asus Prime Z690M Plus | [链接](https://github.com/Xmingbai/ASUS-Z690M-PLUS-hackintosh) | |  |
 | Asus X299 PRIME DELUXE II      | [链接](https://github.com/yifan-gu/hackintosh)               |          | i9 7980XE + Radeon VII<br />网卡推荐：[BCM94360CD](https://blog.daliansky.net/uploads/WeChatandShop.png) |
 | Asus X299                      |      |          |                                                              |
 | Asus ROG STRIX X299-E GAMING   | [链接](https://github.com/Fansaly/X299-STRIX-macOS)          |          | INTEL® CORE™ i7-7800X<br />网卡推荐：[BCM94360CD](https://blog.daliansky.net/uploads/WeChatandShop.png) |
