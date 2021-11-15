@@ -38,11 +38,13 @@
 
 更新日期：
 
-- 2021年11月10日
+- 2021年11月15日
   - 新增机型：
-    - Dell Inspiron 5458
-    - Sony VAIO SVS1512X9E/SVS1512X9EB
-    - MSI Z490-A PRO
+    - ASUS Vivobook Pro 15 N580GD
+    - Dell XPS 15 9500
+    - Lenovo ThinkPad L14 Gen1
+    - Lenovo Thinkpad P1 Gen1
+    - Asus Prime Z690M Plus
 
 完整的更新日志：[更新日志](./Changelog.md)
 

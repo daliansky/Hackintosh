@@ -466,23 +466,29 @@
    - 新增机型：
 
       - Asus ROG Strix G17 G712LW
-
       - HP Probook 440 G6
-
       - Gigabyte X399 Aorus Extreme
-
       - MSI B550 A-Pro
 
-         
+- 2021年11月15日
+
+   - 新增机型：
+      - ASUS Vivobook Pro 15 N580GD
+      - Dell XPS 15 9500
+      - Lenovo ThinkPad L14 Gen1
+      - Lenovo Thinkpad P1 Gen1
+      - Asus Prime Z690M Plus
 
 
-   
+    
 
-   
 
-   
 
-   
 
-   
+
+
+
+
+
+
 
