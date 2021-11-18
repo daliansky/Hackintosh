@@ -100,6 +100,7 @@
 | Acer Aspire A514-52-37H1    | [链接](https://github.com/samleong123/Acer-Aspire-A514-52-37H1-macOS-Catalina-Clover-EFI) |                                                              |                                                  |
 | Acer Aspire A515-51G        | [链接](https://github.com/h-okon/Acer-Aspire-A515-Hackintosh) [链接](https://github.com/AnshulRaghav/Acer-Big-Sur-Hackintosh) |                                                              |                                                  |
 | Acer Aspire A515-51G        | [链接](https://github.com/Siddhesh1197/Acer-A515-51G-Hackintosh) | [链接](https://github.com/Siddhesh1197/Acer-A515-51G-Hackintosh/blob/master/README.md) |                                                  |
+| Acer Aspire A515-53G-5269 | [链接](https://github.com/TristanListanco/Acer-A515-53G-5269-Opencore-EFI)  |  | |
 | Acer Aspire A515-55 | [链接](https://github.com/hanlywijaya/Acer-Aspire-A515-55-Opencore) |  | |
 | Acer A515-51G-58VH          |                                                              |                                                              |                                                  |
 | Acer A515-52G-58LZ | [链接](https://github.com/tucano3000/ACER-A515-52G-58LZ-HACKINTOSH-OPENCORE) | | |
