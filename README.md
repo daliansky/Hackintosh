@@ -1103,6 +1103,7 @@
 | Asus ROG Strix B460-I          | [链接](https://github.com/jalalabdulaziz/ROG-Strix-B460-I) [链接](https://github.com/intihyan/OC-b460i-strix-i7-10700)<br />[链接](https://github.com/lqsahut/ROG_B460i_Hackintosh) |          | I7-10700 / RX570<br />网卡推荐：[BCM94360Z4](https://blog.daliansky.net/uploads/WeChatandShop.png) |
 | Asus TUF Gaming B460M PLUS     | [链接](https://github.com/Swayyyyy/ASUS-TUF-GAMING-B460M-PLUS-RX570-Hackintosh-Opencore) |          | 网卡推荐：[BCM94360CD](https://blog.daliansky.net/uploads/WeChatandShop.png) |
 | Asus TUF GAMING B460M-PRO | [链接](https://github.com/SourceLink/ASUS-TUF-GAMING-B460M-PRO-RX570-Hackintosh-Opencore) | |  |
+| Asus ROG STRIX B560-I GAMING WIFI | [链接](https://github.com/NOXCIS/OpenCore-ROG-B560I) | | |
 | Asus TUF Gaming B560M PLUS | [链接](https://github.com/JoveYu/ASUS-TUF-GAMING-B560M-PLUS-WIFI-EFI) | |  |
 | Asus H110M-C2 MoBo | [链接](https://github.com/mrmac189/OpenCore-H110M-HD530) | |  |
 | Asus H170M-PLUS | [链接](https://github.com/riccardo4zan/Opencore-EFI) | | 网卡推荐：[BCM94360CD](https://blog.daliansky.net/uploads/WeChatandShop.png) |
