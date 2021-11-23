@@ -60,7 +60,7 @@ echo "==========================================================="
 system_profiler SPUSBDataType | grep "33ba" && system_profiler SPUSBDataType | grep 03e # 量产版
 ioreg -l | grep "FirmwareVersionString" | sed "s/|//g" | sed "s/ //g" 
 
-if [[ "$os_ver" == 12.*.* ]]; then
+if [[ "$os_ver" == 12.* ]]; then
     kextstat | grep -v com.apple | grep -y blue | awk '{print $6,$7}'
 else
     kextstat | grep -v com.apple | grep -y brcm | awk '{print $6,$7}'
