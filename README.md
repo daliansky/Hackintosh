@@ -38,13 +38,18 @@
 
 更新日期：
 
-- 2021年11月15日
+- 2021年11月23日
   - 新增机型：
-    - ASUS Vivobook Pro 15 N580GD
-    - Dell XPS 15 9500
-    - Lenovo ThinkPad L14 Gen1
-    - Lenovo Thinkpad P1 Gen1
-    - Asus Prime Z690M Plus
+    - Toshiba Satelite Pro L850-1UJ
+    - Lenovo ThinkCentre M920X
+    - Dell Vostro 5590
+    - Dell Inspiron 5593
+    - Dell OptiPlex 3080
+    - Asus ROG STRIX B560-I GAMING WIFI
+    - Acer Aspire A515-53G-5269
+    - HP Elitebook 9480m
+    - Asus ROG STRIX B550-A GAMING  
+    - Gigabyte Z490M
 
 完整的更新日志：[更新日志](./Changelog.md)
 
