@@ -66,6 +66,7 @@
 - [Razer Blade 雷蛇](#razer-blade-雷蛇)
 - [Samsung 三星](#samsung-三星)
 - [Shinelon 炫龙](#shinelon-炫龙)
+- [Toshiba 东芝](#toshiba-东芝)
 - [XiaoMi 小米](#xiaomi-小米)
 - [Intel 英特尔](#intel-英特尔)
 - [Other 其它](#other-其它)
@@ -850,6 +851,17 @@
 | 炫龙 DC2/DD2                   | [链接](https://github.com/bavelee/DC2_Hackintosh) [链接](https://github.com/yuedashen88/DC2_EFI) | [链接](https://bavelee.cn/index.php/archives/60/)                                       | 准系统型号：蓝天 NB50/60 TJ1/TK1 <br> yuedashen88 基于大佬 BaveLee 之前的 EFI 的修改版本,修复了 HDMI 热插拔问题 |
 | 炫龙 KP3 Plus                  | [链接](http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1843619&highlight=%C9%F1%D6%DB)        |                                                                                         | 准系统型号：蓝天 N960TC                                                                                         |
 
+### Toshiba 东芝 
+
+| 机型名称                      | 发布地址                                                     | 教程地址 | 备注 |
+| ----------------------------- | ------------------------------------------------------------ | -------- | ---- |
+| Toshiba B654L                 | [链接](https://github.com/yxb2018/toshiba-B654L-clover-efi)  |          |      |
+| Toshiba L55W C5320            | [链接](https://github.com/martinmenchon/Hackintosh-Toshiba-L55W-C5320) |          |      |
+| Toshiba Satellite C805        | [链接](https://github.com/nan1jueze/TOSHIBA-C805-HM76-CLOVER-Hackintosh) |          |      |
+| Toshiba L840                  | [链接](https://github.com/dickymuliafiqri/EFI-Toshiba-L840-OC) |          |      |
+| Toshiba Satelite Pro L850-1UJ | [链接](https://github.com/soup-bowl/Toshiba-L850-macOS-EFI)  |          |      |
+
+
 ### XiaoMi 小米
 
 | 机型名称             | 发布地址                                                                                                                                | 教程地址                                                                                                    | 备注                                                                                                        |
@@ -909,10 +921,7 @@
 | MaiBenBen_Damai5             | [链接](https://github.com/jasminebd/MaiBenBen-Damai5)                               |                                                                              | 麦本本-大麦 5                                                                                               |
 | Sony VAIO pro13              | [链接](https://github.com/raydoom/hackintosh-sony-vaio-pro13)                       |                                                                              |                                                                                                             |
 | Sony VAIO SVS1512X9E/SVS1512X9EB | [链接](https://github.com/huhugh221/Efi-Hackintosh-SVS1512X9E-B-VAIO) | | |
-| toshiba-B654L                | [链接](https://github.com/yxb2018/toshiba-B654L-clover-efi)                         |                                                                              |                                                                                                             |
 | Terrans Force/Devil Rays DR7 | [链接](https://github.com/Jie2GG/Hackintosh-Devil-Rays-DR7)                         |                                                                              | 未来人类                                                                                                    |
-| Toshiba L55W C5320           | [链接](https://github.com/martinmenchon/Hackintosh-Toshiba-L55W-C5320)              |                                                                              |                                                                                                             |
-| Toshiba C805                 | [链接](https://github.com/nan1jueze/TOSHIBA-C805-HM76-CLOVER-Hackintosh)            |                                                                              |                                                                                                             |
 | MONSTER Tulpar T7 V20.1      | [链接](https://github.com/sutsurup/MONSTER-Hackintosh)                              | [链接](https://github.com/sutsurup/MONSTER-Hackintosh/blob/master/README.md) |                                                                                                             |
 | 壹号本 OneMix3 Pro           | [链接](https://github.com/lulujyc/OneMix3Pro-OpenCore)                              |                                                                              |                                                                                                             |
 | 松下 Let's Note CF-SZ5       | [链接](https://github.com/lulujyc/Panasonic-CF-SZ5-Catalina-EFI)                    |                                                                              |                                                                                                             |
@@ -921,17 +930,11 @@
 | 未来人类 X599 初款           | [链接](https://github.com/WarsFeng/P750ZM-Hackintosh)                               |                                                                              | 关联蓝天 P750ZM                                                                                             |
 | FUJITSU 富士通 S762          | [链接](https://github.com/hongweizhu163/Hackintosh-EFI-for-FUJITSU-S762)            |                                                                              |                                                                                                             |
 | 51nb X210 ThinkPad 副厂主板  | [链接](https://github.com/lulujyc/51nb-X210-Hackintosh)                             |                                                                              |                                                                                                             |
-| Toshiba L840                 | [链接](https://github.com/dickymuliafiqri/EFI-Toshiba-L840-OC)                      |                                                                              |                                                                                                             |
-| Toshiba Satelite Pro L850-1UJ | [链接](https://github.com/soup-bowl/Toshiba-L850-macOS-EFI) | | |
 | CHUWI Minibook               | [链接](https://github.com/THEDEVIOUS1/CHUWI-MINIBOOK-HACKINTOSH)                    |                                                                              |                                                                                                             |
 | Chuwi CoreBookX 14 | [链接](https://github.com/weachy/CoreBookX-14-Hackintosh) | | |
 | 海尔 Haier Y11C              | [链接](https://github.com/HussainTaj-W/haier-y11c-efi-oc-hackintosh-big-sur)        |                                                                              |                                                                                                             |
 | 51nb T70 ThinkPad 副厂主板  | [链接](https://github.com/51nbT70CLOVER/51nb-T70-Hackintosh)                         |                                                                              |                                                                                                             |
 | Medion Erazer P7647 | [链接](https://github.com/axemre/OpenCore-Medion-Erazer-P7647) | | |
-
-
-
-
 
 
 ### 笔记本更多的机型
