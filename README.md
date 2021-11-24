@@ -1306,6 +1306,7 @@
 | HP ProDesk 600 G2 DM         | [链接](https://github.com/wcjxixi/HP-ProDesk-600G2-DM-Hackintosh) [链接](https://github.com/ningye2012/HP-600G2-DM-Hackintosh) |          |                   |
 | HP ProDesk 600 G4            |                                                              |          |                   |
 | HP Z420                      | [链接](https://github.com/yansheng1003/Hackintosh) [链接](https://github.com/joepool/Hackintosh-HP-Z420-OpenCore) |          | E5 1650v2         |
+| HP ProDesk 680 G3 Mt         | [链接](https://github.com/ivan19871002/HP-ProDeks-680-G3-MT-Hackintosh)	|		|		|
 | HP Z600 Workstation          |                                                              |          | Mac-Mini-Killer   |
 | HP Z620 Workstation          | [链接](https://github.com/d4vinder/HP-Z620-Hackintosh-macOS-Catalina) [链接](https://github.com/mokiii/HP-Z620-Hackintosh-macOS_10.13-10.15) |          |                   |
 | HP ZBook G1	|[链接](https://github.com/bangmaple/HP-ZBook-G1-OpenCore)	|		|		|
