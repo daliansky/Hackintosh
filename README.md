@@ -1403,14 +1403,15 @@
 
 ### Mini 迷你系列
 
-| **台式（部分）**             | 发布地址                                                                                                             | 教程地址 | 备注                  |
-| ---------------------------- | -------------------------------------------------------------------------------------------------------------------- | -------- | --------------------- |
-| Cloud Hin H170               | [链接](https://github.com/kdwycz/cloud-hin-h170-stx-hackintosh) [链接](https://github.com/matri/hipda-h170-opencore) |          | 云轩 H170             |
-| Deskmini-310                 | [链接](https://github.com/yuqi/Deskmini-310-Hackintosh)                                                              |          | Deskmini-310          |
-| Soarsea mini PC              | [链接](https://github.com/EngLearnsh/Soarsea-i9-8950HK-Hackintosh)                                                   |          | S200H                 |
-| CM238 i7-8950H UHD630 ALC269 | [链接](https://github.com/kkzzhizhou/S200H_I7-8750H_Hackintosh)                                                      |          | S200H_I7-8750H 小主机 |
-| I7-8850H 迷你主机            | [链接](https://github.com/n0jack/i78850h-minipc-hackintosh)                                                          |          |                       |
-| DQ77KB                       | [链接](https://github.com/siwilizhao/DQ77KB-I7-3770S-Hackintosh)                                                     |          |                       |
+| **台式（部分）**             | 发布地址                                                     | 教程地址 | 备注                                                         |
+| ---------------------------- | ------------------------------------------------------------ | -------- | ------------------------------------------------------------ |
+| Asus PN62                    | [链接](https://github.com/cuteribs/hackintosh/tree/master/ASUS_PN62) |          |                                                              |
+| Cloud Hin H170               | [链接](https://github.com/kdwycz/cloud-hin-h170-stx-hackintosh) [链接](https://github.com/matri/hipda-h170-opencore) |          | 云轩 H170                                                    |
+| Deskmini-310                 | [链接](https://github.com/yuqi/Deskmini-310-Hackintosh)      |          | Deskmini-310                                                 |
+| Soarsea mini PC              | [链接](https://github.com/EngLearnsh/Soarsea-i9-8950HK-Hackintosh) |          | S200H                                                        |
+| CM238 i7-8950H UHD630 ALC269 | [链接](https://github.com/kkzzhizhou/S200H_I7-8750H_Hackintosh) |          | S200H_I7-8750H 小主机                                        |
+| I7-8850H 迷你主机            | [链接](https://github.com/n0jack/i78850h-minipc-hackintosh)  |          |                                                              |
+| DQ77KB                       | [链接](https://github.com/siwilizhao/DQ77KB-I7-3770S-Hackintosh) |          |                                                              |
 | morefine S500                | [链接](https://github.com/daliansky/morefine-S500-Hackintosh) |          | 小兵长期维护机型<br />网卡推荐：[BCM94360Z3](https://blog.daliansky.net/uploads/WeChatandShop.png) |
 | minisforum U820              | [链接](https://github.com/daliansky/minisforum-u820-hackintosh) |          | 小兵长期维护机型<br />网卡推荐：[BCM94360Z4](https://blog.daliansky.net/uploads/WeChatandShop.png) |
 | TinyMonster ECO              | [链接](https://github.com/daliansky/TinyMonsterECO-Hackintosh) |          | 小兵长期维护机型<br />网卡推荐：[BCM94360Z4](https://blog.daliansky.net/uploads/WeChatandShop.png) |
