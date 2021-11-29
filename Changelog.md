@@ -424,18 +424,12 @@
       - HP Elitebook 9480m
       - Asus ROG STRIX B550-A GAMING  
       - Gigabyte Z490M
-
-
-
-​    
-
-
-
-
-
-
-
-
-
-
+- 2021年11月29日
+   - 新增机型：
+      - Acer Nitro 5 AN515-54-51NJ
+      - HP Pavilion 16 a000x
+      - HP Pavilion 550
+      - Dell OptiPlex 7080 MT
+      - Asus PN62
+      - HP ProDesk 680 G3 MT
 
