@@ -592,6 +592,7 @@
 
 | 机型名称                           | 发布地址                                                     | 教程地址                                                     | 备注                                                         |
 | ---------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| Lenovo B50-80 80EW | [链接](https://github.com/moneaalhad/LenovoB50.80_Hackintosh) |  |  |
 | Lenovo Flex 15                     | [链接](https://github.com/aytic/Lenovo-Flex-15-Hackintosh)   | [链接](https://github.com/aytic/Lenovo-Flex-15-Hackintosh/blob/master/README.md) | Lenovo Flex 15                                               |
 | Lenovo Ideapad S145-15IWL          | [链接](https://github.com/boffik/LenovoS145-15IWL_OpenCore) [链接](https://github.com/Ninjacornix/Lenovo-S145-15IWL-Big-sur-OC-EFI) |                                                              |                                                              |
 | Lenovo ideapad 3 14iil05           | [链接](https://github.com/DagerDW/Lenovo-ideapad-3-14iil05-Hackintosh) |                                                              | i5-1035G4 Ice Lake-U                                         |
