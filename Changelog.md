@@ -432,4 +432,11 @@
       - Dell OptiPlex 7080 MT
       - Asus PN62
       - HP ProDesk 680 G3 MT
+- 2021年12月3日
+   - 新增机型：
+      - Asus UX32VD
+      - ASRock H510M-HDV
+      - Asus ROG STRIX Z490-F GAMING
+      - Lenovo B50-80 80EW
+
 
