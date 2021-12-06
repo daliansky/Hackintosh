@@ -323,6 +323,7 @@
 | Dell Inspiron 5557                         | [链接](https://github.com/Mr-Zhang-1/dell5557-bigsur-OC)     |                                                              | i5-6200U 网卡推荐：[BCM94360Z4](https://blog.daliansky.net/uploads/WeChatandShop.png) |
 | Dell Inspiron 5558                         | [链接](https://github.com/jance-hui/DELL-5558-EFI)           |                                                              |                                                              |
 | Dell Inspiron 5559                         | [链接](https://github.com/YuZhangWang/Dell-Inspiron-i5-5559-Clover) |                                                              | Dell 5559                                                    |
+|  |  | |  |
 | Dell Inspiron 5566                         | [链接](https://github.com/matheusliraofficial/inspiron-5566-hackintosh) |                                                              |                                                              |
 | Dell Inspiron 5567                         | [链接](https://github.com/MuntashirAkon/HackintoshDellInspiron5567) |                                                              | i3-7100u, Intel HD620                                        |
 | Dell Inspiron 5570                         | [链接](https://github.com/Mateo1234454545/Dell-5570-hackintosh) [链接](https://github.com/stayboogy/Hackintosh_Dell-Inspiron-5570_Catalina) |                                                              |                                                              |
@@ -392,6 +393,7 @@
 | Dell OptiPlex 9020 USFF                    | [链接](https://github.com/Lorys89/DELL_OPTIPLEX_9020_USFF)   |                                                              |                                                              |
 | Dell OptiPlex 9020 OpenCore                | [链接](https://github.com/li3p/dell-optiplex-9020-hackintosh-opencore) | [链接](https://github.com/li3p/dell-optiplex-9020-hackintosh-opencore/blob/master/README.md) | 支持 MT/SFF/USFF/Micro 所有机型                              |
 | Dell Precision 5510                        | [链接](https://github.com/soulomoon/Dell-Precision-5510-OSX) [链接](https://github.com/PLChinDev/Dell-Precision-5510-Mojave) |                                                              | Dell-Precision-5510<br />链接 2 支持`Catalina`               |
+| Dell Precision 5560 | [链接](https://github.com/tueminh192/Dell-5560-Hackintosh) | |  |
 | Dell Precision 5591                        | [链接](https://github.com/n0faith/Dell-Precision-5591-Hackintosh) |                                                              |                                                              |
 | Dell Precision M3800<br />Dell XPS 15-9530 | [链接](https://github.com/syscl/M3800)                       | [链接](https://github.com/syscl/M3800/blob/M3800/README.md)  | Dell M3800 和 XPS 9530                                       |
 | Dell Precision 7520 | [链接](https://github.com/TECHNIKVERBOT/Dell-Precision-7520-OpenCore) |  |  |
@@ -496,6 +498,7 @@
 | HP 15G BR011TX                                  | [链接](https://github.com/SahilSonar/hackintosh-hp-15g-br011tx) |                                                              |                                                              |
 | HP Laptop 14S-DQ1013TU                          |                                                              |                                                              |                                                              |
 | HP Laptop 15-da0233ur                           | [链接](https://github.com/DmitriyyyyS/Hackintosh-HP-Laptop-15-da0233ur) |                                                              | i3-7020U                                                     |
+| HP Notebook AY073TU                             | [链接](https://github.com/tueminh192/HP-AY073TU-Hackintosh)  |                                                              |                                                              |
 | HP Notebook bp1xx                               | [链接](https://github.com/XcHeeZTeam/hackintosh)             |                                                              |                                                              |
 | HP Notebook 15ac001tx                           | [链接](https://github.com/lehuutrung1412/Hackintosh-HP-Laptop) |                                                              |                                                              |
 | HP 17 BY0062ST                                  | [链接](https://github.com/emilevirus/HP-BY00000-HACKINTOSH)  |                                                              |                                                              |
@@ -718,6 +721,7 @@
 | Lenovo Legion Y520                 | [链接](https://github.com/adrianjagielak/lenovo_y520_efi)    |                                                              |                                                              |
 | Lenovo Legion Y530                 | [链接](https://github.com/adrianjagielak/lenovo_y530_efi)    |                                                              |                                                              |
 | Lenovo Legion Y545                 | [链接](https://github.com/indowebdeveloper/LegionY545_BigSur) |                                                              |                                                              |
+| Lenovo Y700-17ISK | [链接](https://github.com/thedaveesky/lenovo-y700-hackintosh) | | |
 | Lenovo Legion Y7000                | [链接](https://github.com/hnie-xwz/EFI)                      | [链接](https://github.com/hnie-xwz/EFI/blob/macOs10.14/readme.md) | 网卡推荐：[BCM94360Z4](https://blog.daliansky.net/uploads/WeChatandShop.png) |
 | Lenovo Legion Y7000-1060           | [链接](https://github.com/TioaTyan/Lenovo_Legion_Y7000-1060_Hackintosh) | [链接](https://github.com/TioaTyan/Lenovo_Legion_Y7000-1060_Hackintosh/blob/master/README.md) | Lenovo_Legion_Y7000-1060                                     |
 | Lenovo Legion Y7000<br />Y530 系列 | [链接](https://github.com/xiaoMGitHub/Lenovo_Y7000-Y530_Hackintosh/) [链接](https://github.com/ahossny/Legion-Y530-Hackintosh) |                                                              | 全新完美 EFI，舍弃了小键盘                                   |
