@@ -6,6 +6,27 @@
 
 ### Synchronized Update：[黑果小兵的部落阁](<https://blog.daliansky.net/Hackintosh-long-term-maintenance-model-checklist.html>)
 
+## Contents
+Laptop
+- [Acer 宏碁](#acer-宏碁)
+- [Asus 华硕](#asus-华硕)
+- [DELL 戴尔](#dell-戴尔)
+- [Gigabyte 技嘉](#gigabyte-技嘉)
+- [Hasee 神舟](#hasee-神舟)
+- [HP 惠普](#hp-惠普)
+- [Huawei 华为](#huawei-华为)
+- [Lenovo 联想](#lenovo-联想)
+- [LG](#lg)
+- [Mechrevo 机械革命](#mechrevo-机械革命)
+- [MSI 微星](#msi-微星)
+- [Razer Blade 雷蛇](#razer-blade-雷蛇)
+- [XiaoMi 小米](#xiaomi-小米)
+- [Intel 英特尔](#intel-英特尔)
+- [Other 其它](#other-其它)
+- [Notebook related resources](#notebook-related-resources)
+
+[Desktop](#desktop)
+
 ### Laptop
 
 #### Acer 宏碁
@@ -13,6 +34,7 @@
 | Model Name              | Depot                                                        | Tutorial                                                     | Remarks                     |
 | ----------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | --------------------------- |
 | Acer Aspire 3 A315-51   | [link](https://github.com/ZeroInfinityXDA/Acer-A315-51-Hackintosh) |                                                              |                             |
+| Acer Aspire 3 A315-54K-34P6 | [link](https://github.com/velickovicdj/A315-54K-34P6_OpenCore_Big_Sur) |                                                              |                                                  |
 | Acer Aspire A515-51G    | [link](https://github.com/h-okon/Acer-Aspire-A515-Hackintosh) |                                                              |                             |
 | Acer Aspire A515-51G    | [link](https://github.com/Siddhesh1197/Acer-A515-51G-Hackintosh) | [link](https://github.com/Siddhesh1197/Acer-A515-51G-Hackintosh/blob/master/README.md) |                             |
 | Acer A515-51G-58VH      | [link](https://github.com/Rodrigmatrix/Acer-A515-51G-58VH)   |                                                              |                             |
@@ -62,7 +84,7 @@
 | Asus K501LB                       | [link](https://github.com/ApolloRisky/EFI_Clover-Asus-K501LB-Mojave) |                                                              |                                                  |
 | Asus K55VD                        | [link](https://github.com/southernvevo/Asus-K55VD-HACKINTOSH) | [link](https://github.com/southernvevo/Asus-K55VD-HACKINTOSH/blob/master/README.md) | Asus K55VD                                       |
 | Asus K555LD                       | [link](https://github.com/kongbg/asus-k555ld-4210U) | [link](https://github.com/kongbg/asus-k555ld-4210U/blob/master/README.md) | Asus K555LD |
-| Asus N550JK | [link](https://github.com/AlirezaH320/asus-n550jk-hackintosh) |  |  |
+| Asus N550JK | [link](https://github.com/AlirezaTheH/asus-n550jk-hackintosh) |  |  |
 | Asus N550JV | [link](https://github.com/bakedpotato191/asusn550jv-hackintosh) |  |  |
 | Asus N551JK | [link](https://github.com/basett1/Asus-N551JK-OC-EFI) |  |  |
 | Asus Laptop N56VZ                 | [link](https://github.com/signxer/N56VZ-Hackintosh)          |                                                              |                                                  |
@@ -84,7 +106,7 @@
 | Asus X441U                        | [link](https://github.com/jundanaalbasyir/Hackintosh-Asus-X441U) |                                                              |                                                  |
 | Asus X441UB                       | [link](https://github.com/alfinauzikri/Asus-X441UB-Hackintosh) |                                                              |                                                  |
 | Asus X441UV                       | [link](https://github.com/MinorityCode/asus-x441uv-hackintosh-files) |                                                              |                                                  |
-| Asus VivoBook FL8000UQ            | [link](https://github.com/KKKIIINNN/ASUS-FL8000UQ-Hackintosh) |                                                              |    ASUS FL8000UQ i7-8550U GeForce 940MX                    |
+| Asus VivoBook FL8000UQ            | [link](https://github.com/alexanderkin/ASUS-FL8000UQ-Hackintosh/releases) | [link](https://github.com/alexanderkin/ASUS-FL8000UQ-Hackintosh/releases) |    ASUS FL8000UQ i7-8550U GeForce 940MX   |
 | Asus VivoBook Max X441UVK         | [link](https://github.com/alfinauzikri/Asus-Vivobook-Max-X441UVK-Hackintosh) |                                                              |                                                  |
 | Asus VivoBook S15 S510UA          | [link](https://github.com/tctien342/Asus-Vivobook-S510UA-High-Sierra-10.13-Hackintosh) | [link](https://github.com/tctien342/Asus-Vivobook-S510UA-High-Sierra-10.13-Hackintosh/blob/master/README.md) | Vivobook S510UA                                  |
 | Asus Vivobook S530UA BQ100T       | [link](https://github.com/superzeldalink/Asus-Vivobook-S530-hackintosh) |                                                              |                                                  |
@@ -119,7 +141,7 @@
 | DELL Latitude E7440                        | [link](https://github.com/ameeno/Dell-E7440-Hackintosh)      |                                                              |                                                              |
 | **More Alienware models**                  | [link](https://github.com/RockJesus/Alienware-Hackintosh)    |                                                              | Ref：RockJesus 's repo                                       |
 | Dell G3 3579                               | [link](https://github.com/JiangHoumin/Dell_G3_3579_Hackintosh) [link](https://github.com/CerteKim/Dell-G3-3579-Hackintosh-Clover) [link](https://github.com/CerteKim/Dell-G3-3579-Hackintosh-OpenCore) [link](https://github.com/tonyleelyy/OpenCore-Hackintosh-Dell-G3-3579) |                                                              | Recommended network card: [DW1820A](https://blog.daliansky.net/DW1820A_BCM94350ZAE-driver-inserts-the-correct-posture.html); link3,4 includes `OpenCore` |
-| Dell G7 7588                               | [link](https://github.com/geraldoandradee/Hackintosh-Dell-G7-7588) [link](https://github.com/flyfeng2002/FYQ-Hackintosh) [link](https://github.com/Juan-VC/Hackintosh-macOS-Catalina-on-Dell-G7-7588) [link](https://github.com/rex-lapis/Dell-Inspiron-G7-7588-Hackintosh) |                                                              | link 2 and link 3 and link 4 include `OpenCore`                                    |
+| Dell G7 7588                               | [link](https://github.com/geraldoandradee/Hackintosh-Dell-G7-7588) [link](https://github.com/flyfeng2002/FYQ-Hackintosh) [link](https://github.com/Juan-VC/Hackintosh-macOS-Catalina-on-Dell-G7-7588) [link](https://github.com/akisame-reiu/Dell-Inspiron-G7-7588-Hackintosh) |                                                              | link 2 and link 3 and link 4 include `OpenCore`                                    |
 | Dell Inspiron 14 5447                      | [link](https://github.com/SinhLv/Dell-Ins-14-5447-hackintosh) | [link](https://github.com/SinhLv/Dell-Ins-14-5447-hackintosh/blob/master/README.md) | Dell-Ins-14-5447                                             |
 | Dell Inspiron 14 7447                      | [link](https://github.com/Am1nCmd/Dell-Inspiron-14-7447-Pandora-Hackintosh) | [link](https://github.com/Am1nCmd/Dell-Inspiron-14-7447-Pandora-Hackintosh/blob/master/README.md) | Dell-Inspiron-14-7447                                        |
 | Dell Inspiron 15 7000 (i7-8550U)           | [link](https://github.com/athlonreg/Dell-Inspiron-15-7000-i7-8550u) |                                                              |                                                              |
@@ -155,7 +177,7 @@
 | Dell Latitude 5591                         | [link](https://github.com/geowoden/DELL-Latitude-5591_osx-clover) |                                                              |                                                              |
 | Dell Latitude E6330                        | [link](https://github.com/BladeScraper-Designs/Dell-Latitude-E6330-Mojave-Hackintosh-EFI) |                                                              |                                                              |
 | Dell Latitude E6430                        | [link](https://github.com/kinoute/Hack-Dell-Latitude-E6430)  |                                                              |                                                              |
-| Dell Latitude 7280                         | [link](https://github.com/conradlyn/Hackintosh-EFI-Dell-Latitude_7280) |                                                              |                                                              |
+| Dell Latitude 7280                         | [link](https://github.com/Lorys89/DELL_LATITUDE_7280) |                                                              |                                                              |
 | Dell Latitude 7370                         | [link](https://github.com/mikeTOliu/dell-latitude7370-Hackintosh-EFI-backup) |                                                              |                                                              |
 | Dell Latitude E7440                        | [link](https://github.com/ameeno/Dell-E7440-Hackintosh)      |                                                              |                                                              |
 | Dell Latitude 7490                         | [link](https://github.com/Swung0x48/Dell-Latitude-7490-Hackintosh-EFI) |                                                              |                                                              |
@@ -181,6 +203,8 @@
 | Dell XPS 9550                              | [link](https://github.com/wmchris/DellXPS15-9550-OSX) [link](https://github.com/corenel/XPS9550-macOS) | [link](https://github.com/wmchris/DellXPS15-9550-OSX/blob/10.14/README.md) [link](https://github.com/corenel/XPS9550-macOS/blob/master/README.md) | Dell XPS 9550 Recommended network card: [DW1820A](https://blog.daliansky.net/DW1820A_BCM94350ZAE-driver-inserts-the-correct-posture.html) |
 | Dell XPS 9560                              | [link](https://github.com/gunslinger23/XPS15-9560-High-Sierra) | [link](https://github.com/gunslinger23/XPS15-9560-High-Sierra/blob/master/README.md) | Dell XPS 9560 Recommended network card: [DW1820A](https://blog.daliansky.net/DW1820A_BCM94350ZAE-driver-inserts-the-correct-posture.html) |
 | Dell XPS 9570                              | [link](https://github.com/Xigtun/xps-9570-mojave) [link](https://github.com/bavariancake/XPS9570-macOS) <br />[link](https://github.com/LuletterSoul/Dell-XPS-15-9570-macOS-Mojave) |                                                              | credit：[LuletterSoul](https://github.com/LuletterSoul)<br />Recommended network card: [DW1820A](https://blog.daliansky.net/DW1820A_BCM94350ZAE-driver-inserts-the-correct-posture.html) |
+| Dell Precision 7530 7540 7730 7740                  | [link](https://github.com/lulu-gh/Dell-Precision-E7530-Prototype-OpenCore) |                                                              |       This is tested on a prototype of 7530, read the instructions for usage on production models; by default the configuration supports AMD dGPU, for other dGPUs change your dGPU board or disable it yourself        |
+
 
 #### Gigabyte 技嘉
 
@@ -190,7 +214,7 @@
 | Gigabyte Aero 15W  | [link](https://github.com/Errrneist/Hackintosh-Aero-15W) |                                                              |         |
 | Gigabyte Sabre 15K | [link](https://github.com/gnehs/Sabre15KClover)          |                                                              |         |
 
-#### Hasse 神舟
+#### Hasee 神舟
 
 | Model Name             | Depot                                                        | Tutorial                                                     | Remarks                          |
 | ---------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | -------------------------------- |
@@ -258,7 +282,7 @@
 | Model Name                 | Depot                                                        | Tutorial                                                     | Remarks                                 |
 | -------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | --------------------------------------- |
 | Huawei Matebook X Pro 2019 | [link](https://github.com/laozhiang/MateBook_X_Pro_2019-Hackintosh) | [link](https://github.com/laozhiang/MateBook_X_Pro_2019-Hackintosh) | Huawei Matebook X Pro 2019              |
-| Huawei Matebook X Pro      | [link](https://github.com/gnodipac886/MatebookXPro-hackintosh) [link](https://github.com/gnodipac886/MatebookXPro-hackintosh) | [link](https://github.com/gnodipac886/MatebookXPro-hackintosh/blob/master/README-CN.md) | Huawei Matebook X Pro                   |
+| Huawei Matebook X Pro      | [link](https://github.com/gnodipac886/MatebookXPro-hackintosh) [link](https://github.com/profzei/Matebook-X-Pro-2018) | [link](https://github.com/gnodipac886/MatebookXPro-hackintosh/blob/master/README-CN.md) | Huawei Matebook X Pro                   |
 | Huawei Matebook X          | [link](https://github.com/4323770/Hackintosh-For-Matebook-X) |                                                              |                                         |
 | Huawei Matebook 13         | [link](https://github.com/FIU001/huawei-matebook-13-) [link](https://github.com/Edoardo001/Matebook-13-Hackintosh) |                                                              |                                         |
 | Huawei Matebook 14         | [link](https://github.com/frezs/MateBook14-Hackintosh)       |                                                              |                                         |
@@ -450,7 +474,7 @@
 | NUC7i7BNH                                  | [link](https://github.com/calebchow9/Intel-NUC7i7BNH-Hackintosh) |                                                              |                                            |
 | NUC10i7/i5/i3                              | [link](https://github.com/mbarbierato/Intel-NUC10i3FNK) |                                                              |                                            |
 | Surface Pro 3                              | [link](https://github.com/hacker1024/Hackintosh-Clover-SurfacePro3) |                                                              |                                            |
-| Surface Pro 4                              | [link](https://github.com/Neil-Steven/SurfacePro4-Hackintosh) [link](https://github.com/bigsadan/surface-pro-4-hackintosh-10.14.3) | [link](https://github.com/Neil-Steven/SurfacePro4-Hackintosh/blob/master/README.md) | surfacePro 4                               |
+| Surface Pro 4                              | [link](https://github.com/Neil-Steven/SurfacePro4-Hackintosh) [link](https://github.com/bigsadan/surface-pro-4-hackintosh-10.14.3) [link](https://github.com/Afanyiyu/surface-pro-4-hackintosh-big-sur) | [link](https://github.com/Neil-Steven/SurfacePro4-Hackintosh/blob/master/README.md) [link](https://github.com/Afanyiyu/surface-pro-4-hackintosh-big-sur/blob/master/README.md) | surfacePro 4                               |
 | Surface Pro 6                              | [link](https://github.com/molie34/Surface-Pro-6-macOS)       | [教程](https://github.com/molie34/Surface-Pro-6-macOS)       |                                            |
 | Gigabyte GB-BXi5H-4200                     | [link](https://github.com/RehabMan/Gigabyte-BRIX-s-DSDT-Patch) | [link](https://www.tonymacx86.com/threads/guide-gigabyte-brix-using-clover-uefi-gb-bxi5h-4200-gb-bxi5-4570r-gb-bxi7-4770r.261710/) |                                            |
 
@@ -529,12 +553,14 @@
 | ASUS Z97K 4980HQ                                             | [link](https://github.com/efsg/ASUS-Z97K-4980HQ-Hackintosh)  |                                                              | I7-4980HQ                                                    |
 | Asus Z170-P                                                  | [link](https://github.com/Sharlion/z170_6700k_hackintosh)    |                                                              | 华硕Z170-P+6700K+RX470                                       |
 | Asus ROG STRIX H370-I GAMING                                 | [link](https://github.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide) |                                                              | mini-ITX H370 motherboard                                    |
+| Asus ROG STRIX H370-F GAMING | [link](https://github.com/ChengYen-Tang/ROG-STRIX-H370-F-GAMING-Hackintosh) | | |
 | Asus STRIX Z270-E                                            | [link](https://github.com/BradenM/Hackintosh-7700k-R9_390-iGPU) |                                                              | Asus STRIX Z270-E                                            |
 | Asus ROG Strix Z390-E                                        | [link](https://github.com/xiedonghang/hackintosh)            |                                                              | Intel i9-9900k+UHD630核显                                    |
 | Asus Prime Z390m plus                                        | [link](https://github.com/Asphyxia-m/Asus-Z390m-plus-efi)    |                                                              | OC                                                           |
 | ASUS X299 PRIME DELUXE II                                    | [link](https://github.com/yifan-gu/hackintosh)               |                                                              | i9 7980XE + Radeon VII                                       |
 | Asus X299                                                    | [link](https://github.com/shinoki7/Asus-X299-Hackintosh)     |                                                              |                                                              |
 | Asus ROG STRIX X299-E GAMING                                 | [link](https://github.com/Fansaly/X299-STRIX-macOS)          |                                                              | INTEL® CORE™ i7-7800X                                        |
+| Asus Prime B450M-A                                                                                     | [链接](https://github.com/hwangmin88/macOS-Asus-Prime-B450M-A)                                                                                                                                                                                                                                                                                                                                                                                                                                                        |                                                                     |                                                                                                               |
 | CM238 i7-8950H UHD630 ALC269                                 | [link](https://github.com/kkzzhizhou/S200H_I7-8750H_Hackintosh) |                                                              | S200H_I7-8750H 小主机                                        |
 | Dell OptiPlex 3050                                           | [link](https://github.com/Leif160519/Dell-OptiPlex-3050-EFI) |                                                              |                                                              |
 | Dell OptiPlex 9020M                                          | [link](https://github.com/mingcheng/dell-optiplex-9020m-hackintosh) [link](https://github.com/JimLee1996/Hackintosh_OptiPlex_9020) |                                                              | Disable MSR 0xE2 (i.e. cfg lock) `setup_var 0xDA2 0x00`<br /> Increase DVMT to 96M `setup_var 0x263 0x03` |
@@ -585,6 +611,6 @@ If you approve my work, please support me for subsequent updates.
 
 | paypal                                                       | [WeChat Pay](https://pay.weixin.qq.com/index.php/public/wechatpay) | [Alipay](https://intl.alipay.com/?locale=zh_CN)      |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------------------------------------------------- |
-| [![paypal_daliansky](http://7.daliansky.net/paypal_daliansky.png)](https://www.paypal.me/daliansky) | ![wechatpay_160](http://7.daliansky.net/wechatpay_160.jpg)   | ![alipay_160](http://7.daliansky.net/alipay_160.jpg) |
+| [![paypal_daliansky](http://7.daliansky.net/paypal_daliansky.png)](https://www.paypal.me/daliansky) | ![wechatpay_160](http://7.daliansky.net/wechatpay_160.jpg) | ![alipay_160](http://7.daliansky.net/alipay_160.jpg) |
 
 [![img](https://img.shields.io/github/stars/daliansky/Hackintosh.svg?color=ff69b4&label=%E7%82%B9%E8%B5%9E&logoColor=ff69b4&style=social)](https://github.com/daliansky/Hackintosh) [![img](https://img.shields.io/github/followers/daliansky.svg?label=%E7%B2%89%E4%B8%9D&logoColor=success&style=social)](https://github.com/daliansky/Hackintosh) ![img](https://img.shields.io/github/contributors/daliansky/Hackintosh.svg?color=red&label=%E8%B4%A1%E7%8C%AE%E4%BA%BA%E6%95%B0) [![img](https://img.shields.io/github/last-commit/daliansky/Hackintosh.svg?color=orange&label=%E6%9C%80%E8%BF%91%E6%8F%90%E4%BA%A4)](https://github.com/daliansky/Hackintosh) [![img](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu/)
