@@ -1282,6 +1282,9 @@
 | Gigabyte Z490M Gigabyte Z490 | [链接](https://github.com/Matt-dere/Hackintosh-Intel-i9-10850k-Gigabyte-Z490-AirDrop-AMD-580-IGPU) | | 网卡推荐：[BCM94360CD](https://blog.daliansky.net/uploads/WeChatandShop.png) |
 | Gigabyte Z490I AORUS ULTRA      | [链接](https://github.com/abing258/z490i-i9-10850k-5500xt)   |                                                              | i9-10850k RX5500XT                                           |
 | Gigabyte Z590 Aorus  Master | [链接](https://github.com/Cam396/Aorus-Z590-Master-EFI) | |  |
+| Gigabyte Z590 Vision D | [链接](https://github.com/luchina-gabriel/GIGABYTE-Z590-VISION-D-10900K-RX-6900XT) | | |
+| Gigabyte Z590M Gaming X | [链接](https://github.com/luchina-gabriel/EFI-GIGABYTE-Z590M-GAMING-X-11900K-ES-QV1K-RX6900XT) | | |
+| Gigabyte Z690I Aorus | [链接](https://github.com/glekner/Z690I-AORUS-OC-EFI) | | |
 | Gigabyte Z77P D3                | [链接](https://github.com/cloverkits/GA-Z77P-D3-EFI)         |                                                              | GA-Z77P-D3                                                   |
 | Gigabyte Z77X D3H               | [链接](https://github.com/nickw444/opencore-efi)             |                                                              |                                                              |
 | Gigabyte GA-Z77X-DS3            | [链接](https://github.com/tdyn2000/GIGA-Z77X-DS3-Catalina-EFI) |                                                              |                                                              |
