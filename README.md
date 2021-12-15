@@ -38,18 +38,16 @@
 
 更新日期：
 
-- 2021年11月23日
+- 2021年12月16日
   - 新增机型：
-    - Toshiba Satelite Pro L850-1UJ
-    - Lenovo ThinkCentre M920X
-    - Dell Vostro 5590
-    - Dell Inspiron 5593
-    - Dell OptiPlex 3080
-    - Asus ROG STRIX B560-I GAMING WIFI
-    - Acer Aspire A515-53G-5269
-    - HP Elitebook 9480m
-    - Asus ROG STRIX B550-A GAMING  
-    - Gigabyte Z490M
+    - Acer Aspire 3 A315-56
+    - Asus TP412FA
+    - LG Gram 14Z90N
+    - Samsung NT350XCR-AD5AS
+    - HP Pavilion15 au146TX 
+    - Gigabyte Z590 Vision D
+    - Gigabyte Z590M Gaming X 
+    - Gigabyte Z690I Aorus
 
 完整的更新日志：[更新日志](./Changelog.md)
 
