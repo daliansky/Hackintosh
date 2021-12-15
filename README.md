@@ -102,6 +102,7 @@
 | Acer Aspire 5741G | [链接](https://github.com/AlexHackintosh/Acer-Aspire-5741G-High-Sierra) | | |
 | Acer Aspire 3 A315-51       | [链接](https://github.com/ZeroInfinityXDA/Acer-A315-51-Hackintosh) |                                                              |                                                  |
 | Acer Aspire 3 A315-54K-34P6 | [链接](https://github.com/velickovicdj/A315-54K-34P6_OpenCore_Big_Sur) |                                                              |                                                  |
+| Acer Aspire 3 A315-56 | [链接](https://github.com/NaseelNiyas/Acer-a315-56-Opencore) | | |
 | Acer Aspire A514-51G        | [链接](https://github.com/yosisetiawan/EFI-Hackintosh-Acer-A514-51G) |                                                              |                                                  |
 | Acer Aspire A514-52-37H1    | [链接](https://github.com/samleong123/Acer-Aspire-A514-52-37H1-macOS-Catalina-Clover-EFI) |                                                              |                                                  |
 | Acer Aspire A515-51G        | [链接](https://github.com/h-okon/Acer-Aspire-A515-Hackintosh) [链接](https://github.com/AnshulRaghav/Acer-Big-Sur-Hackintosh) |                                                              |                                                  |
@@ -213,6 +214,7 @@
 | Asus S5300FN                      | [链接](https://github.com/Jie2GG/Hackintosh-ASUS-S5300FN)    |                                                              | 华硕灵耀 2 代                                                |
 | Asus S530UN                       | [链接](https://github.com/tunglamvghy/AsusS530UN-hackintosh) |                                                              |                                                              |
 | Asus TP300LD                      | [链接](https://github.com/danang-id/ASUS-TP300LD-ESP)        |                                                              |                                                              |
+| Asus TP412FA | [链接](https://github.com/danang-id/ASUS-TP412FA-ESP) | | |
 | Asus TUF Gaming FX504             | [链接](https://github.com/PoomSmart/Asus-FX504GE-Hackintosh) [链接](https://github.com/angeljavan/AUSU-FX80GE-FX504Ge-efi) | [链接](https://github.com/PoomSmart/Asus-FX504GE-Hackintosh/blob/master/README.md) | 华硕 FX80GE FX504GE                                          |
 | Asus TUF 505GE                    | [链接](https://github.com/SonHai32/TUF_505GE_EFI_OC_0.6.6_SP_BigSur) |                                                              |                                                              |
 | Asus TUF 15 FX506L                | [链接](https://github.com/VGerris/asus-tuf-15-opencore)      |                                                              |                                                              |
@@ -763,6 +765,7 @@
 | ---------------------- | ------------------------------------------------------------ | -------- | -------- |
 | LG Gram 13z980         | [链接](https://github.com/suzuke/LG-Gram-13z980-Opencore)    |          | OC       |
 | LG 14U53               | [链接](https://github.com/vivzero/LG14u53-hackintosh)        |          |          |
+| LG Gram 14Z90N         | [链接](https://github.com/vivzero/LG-14Z90N-hackintosh)      |          |          |
 | LG Gram 14z980         | [链接](https://github.com/ShiningXu/LG-Gram-macOS)           |          |          |
 | LG Gram14 Z990         | [链接](https://github.com/myd986/LG-gram-14z990)             |          |          |
 | LG Gram 15Z980-G.AA52C | [链接](https://github.com/ice-black-tea/LG-15Z980)           |          |          |
@@ -848,6 +851,7 @@
 | 三星 Samsung NP350U-2B          | [链接](https://github.com/rahmanhadi/EFI-Clover_SAMSUNG-NP350U) |          |      |
 | 三星 Samsung NP350XAA-KF3BR     | [链接](https://github.com/augustoperes1/Hackintosh-Essentials-E30-Open-Core) |          |      |
 | 三星 Samsung NP900X3L(NT900X3L) | [链接](https://github.com/justiceserv/NT900X3L-Hackintosh)   |          |      |
+| Samsung NT350XCR-AD5AS          | [链接](https://github.com/PKRN0/Samsung-NT350XCR-AD5AS-Opencore) |          |      |
 | 三星 Samsung NP950XCR-G58A      | [链接](https://github.com/wei756/NT950XCR-G58A-Hackintosh/blob/master/README-en.md) |          |      |
 
 ### Shinelon 炫龙
