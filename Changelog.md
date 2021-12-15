@@ -438,5 +438,10 @@
       - ASRock H510M-HDV
       - Asus ROG STRIX Z490-F GAMING
       - Lenovo B50-80 80EW
-
+- 2021年12月16日
+   - 新增机型：
+      - Acer Aspire 3 A315-56
+      - Asus TP412FA
+      - LG Gram 14Z90N
+      - Samsung NT350XCR-AD5AS
 
