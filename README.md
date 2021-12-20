@@ -1287,6 +1287,7 @@
 | Gigabyte Z590 Aorus  Master | [链接](https://github.com/Cam396/Aorus-Z590-Master-EFI) | |  |
 | Gigabyte Z590 Vision D | [链接](https://github.com/luchina-gabriel/GIGABYTE-Z590-VISION-D-10900K-RX-6900XT) | | |
 | Gigabyte Z590M Gaming X | [链接](https://github.com/luchina-gabriel/EFI-GIGABYTE-Z590M-GAMING-X-11900K-ES-QV1K-RX6900XT) | | |
+| Gigabyte Z690 Aorus Elite AX | [链接](https://github.com/luchina-gabriel/EFI-GA-Z690-AORUS-ELITE-AX-12900K-RX6900XT) | | |
 | Gigabyte Z690I Aorus | [链接](https://github.com/glekner/Z690I-AORUS-OC-EFI) | | |
 | Gigabyte Z77P D3                | [链接](https://github.com/cloverkits/GA-Z77P-D3-EFI)         |                                                              | GA-Z77P-D3                                                   |
 | Gigabyte Z77X D3H               | [链接](https://github.com/nickw444/opencore-efi)             |                                                              |                                                              |
