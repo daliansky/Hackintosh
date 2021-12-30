@@ -352,6 +352,7 @@
 | Dell Latitude 3440                         | [链接](https://github.com/Yash-Garg/OpenCore-Latitude3440-EFI) |                                                              |                                                              |
 | Dell Latitude 5175 | [链接](https://github.com/Shaw-fung/dell-5175-efi-opencore-oc) | | |
 | Dell Latitude E5270                        | [链接](https://github.com/ijiki16/Dell-Latitude-E5270-OpenCore) |                                                              |                                                              |
+| Dell Latitude 5300 | [链接](https://github.com/ahianf/dell-latitude-5300-hackintosh) | | |
 | Dell Latitude 5310 | [链接](https://github.com/daniel-pro/Latitude-5310-EFI) | | |
 | Dell Latitude 5411                         | [链接](https://github.com/MokkaSchnalle/macOS-Dell-5411-5511) |                                                              |                                                              |
 | Dell Latitude 5511                         | [链接](https://github.com/MokkaSchnalle/macOS-Dell-5411-5511) |                                                              |                                                              |
