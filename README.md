@@ -204,6 +204,7 @@
 | Asus ROG Zephyrus M GM501GS       | [链接](https://github.com/kylergib/Asus-Zephyrus-M-gm501gs-Mojave) |                                                              |                                                              |
 | Asus ROG Zephyrus S GX531GS       |                                                              |                                                              | 华硕玩家国度冰刃 3                                           |
 | Asus ROG GL703ge                  |                                                              |                                                              |                                                              |
+| ASUS ROG GL753VD | [链接](https://github.com/namxg6626/Asus-GL753VD-hackintosh-opencore) | | |
 | Asus ROG Strix G17 G712LW | [链接](https://github.com/tueminh192/Asus-g712lw-prebuilt-efi) | | |
 | Asus ROG GX701                    | [链接](https://github.com/laeo/hackintosh-rog-gx701-efi)     |                                                              |                                                              |
 | Asus S4000VA                      | [链接](https://github.com/stonexing/Asus-S4000VA8550-Hackintosh) |                                                              | 华硕灵耀 i7-8550U                                            |

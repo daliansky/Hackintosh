@@ -444,4 +444,20 @@
       - Asus TP412FA
       - LG Gram 14Z90N
       - Samsung NT350XCR-AD5AS
+- 2022年1月12日
+   - 新增机型：
+      - Dell OptiPlex 7080 MT
+      - Gigabyte Z690 Aorus Elite AX 
+      - HP Pavilion 15 cb008nt
+      - Asus ROG STRIX B350-I GAMING
+      - Dell Latitude 5300
+      - MSI B450M MORTAR
+      - MSI B350M Gaming Pro
+      - MSI X370 Krait Gaming
+      - X99 K9 v2 Machinist
+      - Gigabyte Z690 Aorus Pro
+      - 华为 Matebook X Pro 2020
+      - Asus PRIME X570-P 
+      - Dell Inspiron 7501
+   
 
