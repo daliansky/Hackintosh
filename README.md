@@ -327,6 +327,7 @@
 |  |  | |  |
 | Dell Inspiron 5566                         | [链接](https://github.com/matheusliraofficial/inspiron-5566-hackintosh) |                                                              |                                                              |
 | Dell Inspiron 5567                         | [链接](https://github.com/MuntashirAkon/HackintoshDellInspiron5567) |                                                              | i3-7100u, Intel HD620                                        |
+| Dell Inspiron 15-5567                         | [链接](https://github.com/DellZHackintosh/Dell-Inspiron-5567-BigSur) |                                                              |                                                              |
 | Dell Inspiron 5570                         | [链接](https://github.com/Mateo1234454545/Dell-5570-hackintosh) [链接](https://github.com/stayboogy/Hackintosh_Dell-Inspiron-5570_Catalina) |                                                              |                                                              |
 | Dell Inspiron 5577                         | [链接](https://github.com/imAmouse/Clover-EFI-For-Dell-5577) |                                                              |                                                              |
 | Dell Inspiron 5579 | [链接](https://github.com/trytosleep-354/Dell-Inspiron5579-2in1-Laptop-Hackintosh-BigSur11.1) | | |
