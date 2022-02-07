@@ -19,6 +19,7 @@
 # echo -e "\033[36m ${str}\033[0m"      ## 青色
 # echo -e "\033[37m ${str}\033[0m"      ## 白色
 DW1820A="BCM94360Z4驱动信息："
+os_ver=$(sw_vers -productVersion  | /usr/bin/cut -d . -f 1)
 ver="macOS版本:"
 bootargs="引导参数:"
 MB="机型或主板:"
@@ -58,6 +59,11 @@ echo "==========================================================="
 #system_profiler SPUSBDataType | grep "0a5c" && system_profiler SPUSBDataType | grep 22be # 内测版
 system_profiler SPUSBDataType | grep "33ba" && system_profiler SPUSBDataType | grep 03e # 量产版
 ioreg -l | grep "FirmwareVersionString" | sed "s/|//g" | sed "s/ //g" 
-kextstat | grep -v com.apple | grep -y brcm | awk '{print $6,$7}'
+
+if [[ "$os_ver" == 12 ]]; then
+    kextstat | grep -v com.apple | grep -y blue | awk '{print $6,$7}'
+else
+    kextstat | grep -v com.apple | grep -y brcm | awk '{print $6,$7}' | grep -v "No variant specified, falling back to release"
+fi
 
 
