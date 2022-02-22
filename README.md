@@ -353,6 +353,7 @@
 | Dell Inspiron 7590                         | [链接](https://github.com/lcyf9102s/dell-inspiron7590-i5-1050-hackintosh-cloverEFI) [链接](https://github.com/Pinming/Dell-Inspiron-7590-Hackintosh-Opencore) |                                                              | 链接 2 支持`Big Sur`                                         |
 | Dell Inspiron 7591                         | [链接](https://github.com/tctien342/Dell-Inspiron-7591-Hackintosh) [链接](https://github.com/Skimige/Inspiron-759x-Hackintosh) [链接](https://github.com/Pinming/Dell-Inspiron-7590-Hackintosh-Opencore) |                                                              | 链接 3 支持`Big Sur`                                         |
 | Dell Latitude 3400 | [链接](https://github.com/davidfreitas-dev/EFI-Dell-Latitude-3400) | | 网卡推荐：[BCM94360Z4](https://hackintosher.taobao.com) |
+| Dell Latitude 3410 | [链接](https://github.com/WHCMrShi/Dell-Latitude-3410_Hackintosh) | |  |
 | Dell Latitude 3440                         | [链接](https://github.com/Yash-Garg/OpenCore-Latitude3440-EFI) |                                                              |                                                              |
 | Dell Latitude 5175 | [链接](https://github.com/Shaw-fung/dell-5175-efi-opencore-oc) | | |
 | Dell Latitude E5270                        | [链接](https://github.com/ijiki16/Dell-Latitude-E5270-OpenCore) |                                                              |                                                              |
@@ -1434,6 +1435,7 @@
 | MSI Z490i Unify                                   | [链接](https://github.com/kingwood77/MSI-Z490i-Unify-Hackintosh) [链接](https://github.com/wjz304/Hackintosh-EFI-MSI-Z490i-Unify)<br />[链接](https://github.com/diskerror/EFI) |                                                              | i5-10400 / RX580                                             |
 | MSI Z490 S01                                      | [链接](https://github.com/jdjxk/Hackintosh_OpenCore_Z490_i9_10850K_RX5500XT) |                                                              | 网卡推荐：[BCM94360CD](https://hackintosher.taobao.com)      |
 | MSI Z590i Unify                                   | [链接](https://github.com/malibio/msi-z590i-unify-opencore)  |                                                              |                                                              |
+| MSI MPG Z690 EDGE TI                              | [链接](https://github.com/igarashikenshin/Hackintosh-MSI-Z690-EDGE-TWD4_i7-12700K_RX6800XT) |                                                              |                                                              |
 | MSI Z97 Gaming 5                                  | [链接](https://github.com/plcharriere/Hackintosh/blob/master/Z97G5/) |                                                              | i5-4690K                                                     |
 
 ### Mini 迷你系列
