@@ -459,5 +459,14 @@
       - 华为 Matebook X Pro 2020
       - Asus PRIME X570-P 
       - Dell Inspiron 7501
-   
+
+- 2022年4月22日
+   - 新增机型：
+     - Acer Nitro 5 an517-51-55NT 
+     - HP ENVY x360 - 15-bp103tx 
+     - HP Elitebook 820 G3 
+     - HP Pavilion Laptop 14-ce3xxx 
+     - MSI GT60 16F4
+     - Asus ROG Strix X570-E Gaming
+     - HP Prodesk 600 G3
 

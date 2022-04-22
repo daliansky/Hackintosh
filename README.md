@@ -38,16 +38,15 @@
 
 更新日期：
 
-- 2021年12月16日
+- 2022年4月22日
   - 新增机型：
-    - Acer Aspire 3 A315-56
-    - Asus TP412FA
-    - LG Gram 14Z90N
-    - Samsung NT350XCR-AD5AS
-    - HP Pavilion15 au146TX 
-    - Gigabyte Z590 Vision D
-    - Gigabyte Z590M Gaming X 
-    - Gigabyte Z690I Aorus
+    - Acer Nitro 5 an517-51-55NT 
+    - HP ENVY x360 - 15-bp103tx 
+    - HP Elitebook 820 G3 
+    - HP Pavilion Laptop 14-ce3xxx 
+    - MSI GT60 16F4
+    - Asus ROG Strix X570-E Gaming
+    - HP Prodesk 600 G3
 
 完整的更新日志：[更新日志](./Changelog.md)
 
