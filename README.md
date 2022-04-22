@@ -120,6 +120,7 @@
 | Acer Aspire E1-571G         | [链接](https://github.com/DiogoSilva48/Acer-E1-571G-Hackintosh) |                                                              |                                                  |
 | Acer Aspire E1-572G         | [链接](https://github.com/TonyStark10006/Acer_E1-572G_Hackintosh_EFI) |                                                              |                                                  |
 | Acer Aspire E5-575G         | [链接](https://github.com/Davone98/Hackintosh-Acer-Aspire-E5-575G) |                                                              |                                                  |
+| Acer Aspire P3-171 | [链接](https://github.com/youheng7185/aspire-p3-171-opencore-efi) | | |
 | Acer Aspire V 15 V5-591G    | [链接](https://github.com/kushwavez/acer-aspire-v5-591g-clover-efi) |                                                              |                                                  |
 | Acer Aspire V3-371 | [链接](https://github.com/WhosPix3l/Aspire-V3-EFI) | | |
 | Acer Aspire VN7-591G        | [链接](https://github.com/zhangyan56/acer-vn7-591G-i5-4210H-macos-10.15.5-EFI) |                                                              |                                                  |
@@ -831,8 +832,10 @@
 | MSI GL72M-7RDX            | [链接](https://github.com/jbwharris/hackintosh-msi-GL72M-7RDX)                                                                                                                                            | [链接](https://github.com/jbwharris/hackintosh-msi-GL72M-7RDX/blob/master/README.md) |                 |
 | MSI GP62 6QG-1071XCN      | [链接](https://github.com/chuxubank/MSI-GP62-Hackintosh)                                                                                                                                                  |                                                                                      | 微星 GP62       |
 | MSI GS63VR-7RF            | [链接](https://github.com/guitaoliu/MSI-GS63VR-Hackintosh)                                                                                                                                                |                                                                                      |                 |
+| MSI GS65	|[链接](https://github.com/charlesSheep/-gs65-opencore-eif#msi-gs65-261n-opencore-eif)	|[GS75](https://github.com/ErrorErrorError/msi-gs65-gs75-hackintosh) [GS75](https://github.com/ErrorErrorError/msi-gs65-8se-opencore-macos)	|		|
 | MSI GS65 Stealth Thin 8RF | [链接](https://github.com/vladichimescu/msi-gs65-hackintosh)                                                                                                                                              |                                                                                      |                 |
 | MSI GS65 8SE              | [链接](https://github.com/ErrorErrorError/msi-gs65-8SE-hackintosh)                                                                                                                                        |                                                                                      |                 |
+| MSI GS65 9SE | [链接](https://github.com/gkShine/MSI_GS65_9SE_EFI) | | |
 | MSI GS66 Stealth | [链接](https://github.com/zhujinle/MSI-GS66-Stealth-OC-Hackintosh) | | |
 | MSI GS73VR 7RF            | [链接](https://github.com/dogukanoksuz/msi-gs73vr-7rf-macOS)                                                                                                                                              |                                                                                      |                 |
 | MSI GT60 16F4 | [链接](https://github.com/lakent/MSI-16F4-Hackintosh) | | |
@@ -841,7 +844,6 @@
 | MSI PL62 7RC              | [链接](https://github.com/juanlatorre/MSI-PL62-7RC-OC-Hackintosh)                                                                                                                                         |                                                                                      | Intel i5-7300HQ |
 | MSI Prestige 15           | [链接](https://github.com/KerKerOgh/MSI-Prestige-15-Hackintosh) [链接](https://github.com/wgjas2/MSI-Prestige-15-Hackintosh)<br />[链接](https://github.com/naturalBlacksmith/hackintosh-msi-prestige-15) |                                                                                      |                 |
 | MSI PS63 Modern 8RC       |                                                                                                                                                                                                           |                                                                                      |                 |
-| MSI GS65	|[链接](https://github.com/charlesSheep/-gs65-opencore-eif#msi-gs65-261n-opencore-eif)	|[GS75](https://github.com/ErrorErrorError/msi-gs65-gs75-hackintosh) [GS75](https://github.com/ErrorErrorError/msi-gs65-8se-opencore-macos)	|		|
 
 ### Razer Blade 雷蛇
 
