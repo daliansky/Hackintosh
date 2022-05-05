@@ -661,6 +661,7 @@
 | Lenovo Thinkpad P1 Gen1 | [链接](https://github.com/p455555555/Thinkpad-P1-EFI) | | |
 | ThinkPad P51                       | [链接](https://github.com/MirkoCovizzi/thinkpad-p51-hackintosh) | [链接](https://github.com/MirkoCovizzi/thinkpad-p51-hackintosh/blob/master/README.md) | Thinkpad P51                                                 |
 | ThinkPad P52 | [链接](https://github.com/liuyishengalan/ThinkPad-P52-Hackintosh-10.14.X-) [链接](https://github.com/liuyishengalan/ThinkPad-P52-P53-P72-P73-Hackintosh-10.15.x) | | 链接2=P52-P53-P72-P73<br />网卡推荐：[BCM94360Z4](https://hackintosher.taobao.com) |
+| ThinkPad P15V Gen1                | [链接](https://github.com/ivan19871002/Thinkpad-P15V-Gen1-Hackintosh) |                                                              |                                                              |
 | 拯救者 R720                        | [链接](https://github.com/Licoded/R720-15IKBN-EFI)           |                                                              |                                                              |
 | 锐 7000                            | [链接](https://github.com/839891627/Lenovo_RUI7000_Hackintosh) |                                                              | 联想 80WB 笔记本电脑                                         |
 | ThinkPad S1 2017                   | [链接](https://github.com/bugprogrammer/hackintosh/tree/ThinkPad-S1-2017) |                                                              | ThinkPad S1 2017                                             |
