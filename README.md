@@ -1523,6 +1523,8 @@
 | MSI Prestige 15 A10SC        | [链接](https://github.com/wgjas2/MSI-Prestige-15-Hackintosh)                                                                  |                                                                                      |                              |
 | Gigabyte B360M D3H           | [链接](https://github.com/samuelcarreira/Hackintosh-Big-Sur-Gigabyte-B360M-D3H-i3-8100-RX580-BCM943602CS-4K-monitor-OpenCore) |                                                                                      |                              |
 
+
+
 ## 硬件兼容列表
 
 | 机型名称       | 发布地址                                                                           | 教程地址                                                                                          | 备注                                                  |
