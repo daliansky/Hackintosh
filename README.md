@@ -1417,7 +1417,7 @@
 | Lenovo v410z                               | [链接](https://github.com/harriedgemusic/macOS_Catalina_Lenovo_v410z_CLOVER_EFI)                                                                                                                                                                                                   |                                                                                            |                                                                                           |
 | Lenovo Thinkpad T450/T450s                 | [链接](https://github.com/racka98/Lenovo-Thinkpad-T450-T450s-Hackintosh-Guide-Opencore)                                                                                                                                                                                            |                                                                                            |                                                                                           |
 
-### MSI 微星
+### MSI 微星台式
 
 | **台式（部分）**                                  | 发布地址                                                     | 教程地址                                                     | 备注                                                         |
 | ------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -1630,6 +1630,7 @@
 ## 微信扫一扫，订阅/直达【黑果小兵的部落阁】
 
 ![WeChat](https://blog.daliansky.net/uploads/WeChatandShop.png)
+
 
 ## 关于打赏
 
