@@ -1626,6 +1626,7 @@
 其他推荐 :
 安装和安装后支持小组 [https://t.me/HackintoshLife_it](https://t.me/HackintoshLife_it)
 
+
 ## 微信扫一扫，订阅/直达【黑果小兵的部落阁】
 
 ![WeChat](https://blog.daliansky.net/uploads/WeChatandShop.png)
