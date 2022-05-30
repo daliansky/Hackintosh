@@ -16,7 +16,7 @@
     
       (3)搜索引擎：当然，能够做到一个搜索引擎，专门针对黑苹果优化的，这或许就是这份清单的终点，也就失去了一些意义，变为纯粹的白嫖工具了。
 
-大家有更好的思路也可以提出来，一起完成，虽然我不确定现在继续做这些的意义还有多少。
+大家有更好的思路也可以提出来，一起完成，虽然我不确定现在继续做这些的意义还有多少
 ------
 
 - 黑苹果论坛：
@@ -45,10 +45,10 @@
 
 - 2022年4月22日
   - 新增机型：
-    - Acer Nitro 5 an517-51-55NT 
-    - HP ENVY x360 - 15-bp103tx 
-    - HP Elitebook 820 G3 
-    - HP Pavilion Laptop 14-ce3xxx 
+    - Acer Nitro 5 an517-51-55NT
+    - HP ENVY x360 - 15-bp103tx
+    - HP Elitebook 820 G3
+    - HP Pavilion Laptop 14-ce3xxx
     - MSI GT60 16F4
     - Asus ROG Strix X570-E Gaming
     - HP Prodesk 600 G3
@@ -1249,7 +1249,7 @@
 | Dell Vostro 3470                           | [链接](https://github.com/sunnycityf/Dell-Vostro-3470-OpenCore-EFI) |                                                              |                                                              |
 | Dell XPS 8940                              | [链接](https://github.com/daniyo27/XPS8940-OpenCore)         |                                                              | 可能也支持 Dell G5 5090 Gaming Desktop<br />网卡推荐：[BCM94360Z4](https://hackintosher.taobao.com) |
 
-### Gigabyte 技嘉
+### Gigabyte 技嘉台式
 
 | **台式（部分）**                | 发布地址                                                     | 教程地址                                                     | 备注                                                         |
 | ------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -1337,7 +1337,7 @@
 | Gigabyte Z97X Gaming 5          | [链接](https://github.com/amogh-w/Hackintosh-4790K-Z97X-GTX-960) [链接](https://github.com/maximum-maxness/Z97MX-Gaming-5-4790K-Hackintosh) |                                                              |                                                              |
 | Gigabyte 合集                   | [链接](https://github.com/Baio1977/EFI-Varie-Hackintosh/tree/main/EFI%20Desktop/GIGABYTE) |                                                              |                                                              |
 
-### HP 惠普
+### HP 惠普台式
 
 | **台式（部分）**                   | 发布地址                                                                                                                                     | 教程地址 | 备注                                                    |
 | ---------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- | ---- | ----------------------------------------------------- |
@@ -1375,7 +1375,7 @@
 | HP Z230 SFF Workstation      | [链接](https://github.com/keczejo/HP-Z230-Hackintosh)                                                                                      |      |                                                       |
 | HP ZHAN 99 Pro G1 MT         | [链接](https://github.com/Z-fly/HP-ZHAN-99-Pro-G1-MT-Hackintosh)                                                                           |      | UHD630                                                |
 
-### Intel 英特尔
+### Intel 英特尔台式
 
 | **台式（部分）**           | 发布地址                                                                                                                                                                                                                  | 教程地址                                                                                                                            | 备注                                     |
 | -------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------- |
@@ -1523,8 +1523,6 @@
 | MSI Prestige 15 A10SC        | [链接](https://github.com/wgjas2/MSI-Prestige-15-Hackintosh)                                                                  |                                                                                      |                              |
 | Gigabyte B360M D3H           | [链接](https://github.com/samuelcarreira/Hackintosh-Big-Sur-Gigabyte-B360M-D3H-i3-8100-RX580-BCM943602CS-4K-monitor-OpenCore) |                                                                                      |                              |
 
-
-
 ## 硬件兼容列表
 
 | 机型名称       | 发布地址                                                                           | 教程地址                                                                                          | 备注                                                  |
@@ -1557,13 +1555,13 @@
 - [码云 gitee.io](gitee.io)
 - [扣钉 coding.net](coding.net)
 
-## 参考及引用：
+## 参考及引用
 
-- https://deviwiki.com/wiki/Dell
-- https://deviwiki.com/wiki/Dell_Wireless_1820A_(DW1820A)
-- [Hervé](<[https://osxlatitude.com/profile/4953-herv%C3%A9/](https://osxlatitude.com/profile/4953-hervé/)>) 更新的 Broadcom 4350:https://osxlatitude.com/forums/topic/12169-bcm4350-cards-registry-of-cardslaptops-interop/
-- [Hervé](<[https://osxlatitude.com/profile/4953-herv%C3%A9/](https://osxlatitude.com/profile/4953-hervé/)>) 更新的 DW1820A 支持机型列表:https://osxlatitude.com/forums/topic/11322-broadcom-bcm4350-cards-under-high-sierramojave/
-- [nickhx](https://osxlatitude.com/profile/129953-nickhx/) 提供的蓝牙驱动：https://osxlatitude.com/forums/topic/11540-dw1820a-for-7490-help/?do=findComment&comment=92833
+- <https://deviwiki.com/wiki/Dell>
+- <https://deviwiki.com/wiki/Dell_Wireless_1820A_(DW1820A>)
+- [Hervé](<[https://osxlatitude.com/profile/4953-herv%C3%A9/](https://osxlatitude.com/profile/4953-hervé/)>) 更新的 Broadcom 4350:<https://osxlatitude.com/forums/topic/12169-bcm4350-cards-registry-of-cardslaptops-interop/>
+- [Hervé](<[https://osxlatitude.com/profile/4953-herv%C3%A9/](https://osxlatitude.com/profile/4953-hervé/)>) 更新的 DW1820A 支持机型列表:<https://osxlatitude.com/forums/topic/11322-broadcom-bcm4350-cards-under-high-sierramojave/>
+- [nickhx](https://osxlatitude.com/profile/129953-nickhx/) 提供的蓝牙驱动：<https://osxlatitude.com/forums/topic/11540-dw1820a-for-7490-help/?do=findComment&comment=92833>
 - [xjn819](https://blog.xjn819.com/)： [使用 OpenCore 引导黑苹果](https://blog.xjn819.com/?p=543) [300 系列主板正确使用 AptioMemoryFix.efi 的姿势(重写版）](https://blog.xjn819.com/?p=317)
 - [insanelymac.com](https://www.insanelymac.com/)
 - [tonymacx86.com](https://www.tonymacx86.com/)
@@ -1572,7 +1570,7 @@
 - [olarila.com](https://www.olarila.com/)
 - [Hackintoshlifeit](https://github.com/Hackintoshlifeit)
 
-## QQ 群列表：
+## QQ 群列表
 
 553283949 [黑果小兵黑苹果技术群 6](https://qm.qq.com/cgi-bin/qm/qr?k=kr_hZc5pKK4TCDRaFPwRlfAiB4528InP&jump_from=webapi) 2000 人群
 
@@ -1620,7 +1618,7 @@
 
 247451054 [小米 PRO 黑苹果高级群](https://qm.qq.com/cgi-bin/qm/qr?k=mnawqS-p0Djpx-B1sgjJPtMfUtVpn-2-&jump_from=webapi) 2000 人群，限小米机型
 
-## Telegram 群：
+## Telegram 群
 
 黑果小兵的部落阁 [http://t.me/daliansky](https://t.me/daliansky)
 黑果小兵的部落阁 #安装问题讨论 [https://t.me/macos_installer](https://t.me/macos_installer)
