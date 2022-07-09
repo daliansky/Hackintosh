@@ -1196,7 +1196,7 @@
 | Asus ROG STRIX Z490-E          | [链接](https://github.com/taoche/Z490-E-Hackintosh)          |          | i7-10700k + RX5700XT<br />网卡推荐：[BCM94360CD](https://hackintosher.taobao.com) |
 | Asus ROG STRIX Z490-F GAMING | [链接](https://github.com/ocean-bee/asus-strix-z490f-hackintosh) | | 网卡推荐：[BCM94360CD](https://hackintosher.taobao.com) |
 | Asus ROG STRIZX Z490I          | [链接](https://github.com/jergoo/Hackintosh-ROG-STRIX-Z490I) |          | OC: i7-10700k + Radeon VII                                   |
-| Asus ROG STRIX Z490-G WIFI     | [链接](https://github.com/DiZhou92/ROG-STRIX-Z490-G-WIFI-ASUS) |          |                                                              |
+| Asus ROG STRIX Z490-G WIFI     | [链接](https://github.com/DiZhou92/ROG-STRIX-Z490-G-WIFI-ASUS) [链接](https://github.com/tienthanght96/Asus-Rog-Z490-G-Hackintosh) [链接](https://github.com/LightFocus/ASUS-ROG-STRIX-Z490G-Hackintosh) |          |                                                              |
 | ASUS Z490M Plus   | [链接](https://github.com/stevenliuit/Hackintosh-Intel-i7-10700k-ASUS-Z490m-plus-5500xt)          |          | INTEL® CORE™ i7-10700k + RX5500XT<br />网卡推荐：[BCM94360CD](https://hackintosher.taobao.com) |
 | Asus Z490 MAXIMUS XII FORMULA  | [链接](https://github.com/shijij/OSX_EFI_Asus_Z490_MAXIMUS_FORMULA) |          | i7-10700k + RX5700XT<br />网卡推荐：[BCM94360CD](https://hackintosher.taobao.com) |
 | Asus TUF Z490 Plus             | [链接](https://github.com/horphi/Asus-TUF-Z490-Plus) [链接](https://github.com/raofeng/ASUS_TUF_Z490_PLUS_WIFI_EFI) |          | 网卡推荐：[BCM94360CD](https://hackintosher.taobao.com) |
