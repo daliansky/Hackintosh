@@ -1463,6 +1463,7 @@
 | MSI Z590i Unify                                   | [链接](https://github.com/malibio/msi-z590i-unify-opencore)  |                                                              |                                                              |
 | MSI MPG Z690 EDGE TI                              | [链接](https://github.com/igarashikenshin/Hackintosh-MSI-Z690-EDGE-TWD4_i7-12700K_RX6800XT) |                                                              |                                                              |
 | MSI Z97 Gaming 5                                  | [链接](https://github.com/plcharriere/Hackintosh/blob/master/Z97G5/) |                                                              | i5-4690K                                                     |
+| MSI H81M P33                                  | [链接](https://github.com/inokoe/MSI-H81M-P33-Hackintosh-EFI) |                                                              | E3 1246 V3                                                     |
 
 ### Mini 迷你系列
 
