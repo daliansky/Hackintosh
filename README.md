@@ -960,6 +960,7 @@
 | Airbook 颜值版 i5 6200u  (Catalina) | [链接](https://github.com/nabaonan/airbook-6200u-efi/tree/catalina) |  | OC: 0.7.2 系统：Catalina 10.15.7 |
 | Airbook 颜值版 i5 6200u（BigSur） | [链接](https://github.com/nabaonan/airbook-6200u-efi/tree/bigsur) |  | OC：0.7.2   系统：BigSur 11.5.1 |
 | Airbook 颜值版 i5 6200u（Monterey） | [链接](https://github.com/nabaonan/airbook-6200u-efi/tree/monterey) | | OC: 0.7.5  系统:  Monterey12.0.1 及以上 |
+| Airbook 颜值版 i5 6200u（Ventura） | [链接](https://github.com/nabaonan/airbook-6200u-efi/tree/ventura) | | OC: 0.8.3  系统: Ventura 13.0及以上 |
 | 同方 GI5CN5E                 | [链接](https://github.com/rodgomesc/AVELL-G1513-FOX-7-TONG-FANG-GI5CN5E-HACKINTOSH) |                                                                              |                                                                                                             |
 | GPD P2 MAX                   | [链接](https://github.com/Azkali/GPD-P2-MAX-Hackintosh)                             |                                                                              |                                                                                                             |
 | 微星准系统 ProBox23          | [链接](https://github.com/Twilightlee/MSI_ProBox23_hackintosh)                      |                                                                              |                                                                                                             |
