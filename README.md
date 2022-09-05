@@ -669,6 +669,7 @@
 | Lenovo ThinkPad L14 Gen1 | [链接](https://github.com/soft98-top/Lenovo-ThinkPad-L14-Gen1-i7-10510u-Hackintosh) |  | |
 | ThinkPad L430                      | [链接](https://github.com/yaza-putu/lenovo-thinkpad-l430)    |                                                              |                                                              |
 | ThinkPad L440                      |                                                              |                                                              |                                                              |
+| ThinkPad L470                      | [链接](https://github.com/SquarePeace/ThinkPadL470-OpenCoreEFI)  | [链接](https://github.com/SquarePeace/ThinkPadL470-OpenCoreEFI/blob/master/README.md) | 
 | ThinkPad L490                      | [链接](https://github.com/twislyn/Hackintosh-ThinkPad-L490)  | [链接](https://github.com/twislyn/Hackintosh-ThinkPad-L490/blob/master/README.md) |                                                              |
 | Lenovo miix 520                    | [链接](https://github.com/acai66/lenovo-miix-520-hackintosh-10.14-CLOVER) |                                                              |                                                              |
 | Lenovo Rescuer R720-15IKBN         | [链接](https://github.com/happylzyy/Hackintosh-Lenovo-R720)  |                                                              |                                                              |
