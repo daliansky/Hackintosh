@@ -1333,6 +1333,7 @@
 | Gigabyte Z490I AORUS ULTRA      | [链接](https://github.com/abing258/z490i-i9-10850k-5500xt)   |                                                              | i9-10850k RX5500XT                                           |
 | Gigabyte Z590 Aorus  Master | [链接](https://github.com/Cam396/Aorus-Z590-Master-EFI) | |  |
 | Gigabyte Z590 Vision D | [链接](https://github.com/luchina-gabriel/GIGABYTE-Z590-VISION-D-10900K-RX-6900XT) | | |
+| Gigabyte Z590 Vision G | [链接](https://github.com/chuihairu/GIGABYTE-Z590-G-i510500-RX5600XT-Hackintosh)| | i510500K + RX5600XT + 网卡推荐：[BCM94360CD](https://hackintosher.taobao.com)  |
 | Gigabyte Z590M Gaming X | [链接](https://github.com/luchina-gabriel/EFI-GIGABYTE-Z590M-GAMING-X-11900K-ES-QV1K-RX6900XT) | | |
 | Gigabyte Z690 Aorus Elite AX | [链接](https://github.com/luchina-gabriel/EFI-GA-Z690-AORUS-ELITE-AX-12900K-RX6900XT) | | |
 | Gigabyte Z690 Aorus Pro | [链接](https://github.com/kreactnative/Z690-12900K-RX6600XT-DDR5-Monterey) | | 网卡推荐：[BCM94360CD](https://hackintosher.taobao.com) |
