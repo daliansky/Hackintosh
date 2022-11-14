@@ -1213,6 +1213,7 @@
 | Asus TUF Z490 Plus             | [链接](https://github.com/horphi/Asus-TUF-Z490-Plus) [链接](https://github.com/raofeng/ASUS_TUF_Z490_PLUS_WIFI_EFI) |          | 网卡推荐：[BCM94360CD](https://hackintosher.taobao.com) |
 | Asus ROG MAXIMUS XIII HERO | [链接](https://github.com/Dave1482/Maximus-XIII-Hero-Z590-11900K-6800XT-OpenCore-EFI-Public) | |  |
 | ASUS PRIME Z590-P | [链接](https://github.com/rafaelmaeuer/Asus-Z590-P-Hackintosh) | | 网卡推荐：[BCM94360CD](https://hackintosher.taobao.com) |
+| ASUS ROG Z590-A-Gaming-WIFI-II | [链接](https://github.com/chuihairu/ROG-STRIX-Z590-A-i910900K-RX6600-Hackintosh) | | i9-10900k + RX6600 <br />网卡推荐：[BCM94360CD](https://hackintosher.taobao.com) |
 | Asus Prime Z690M Plus | [链接](https://github.com/Xmingbai/ASUS-Z690M-PLUS-hackintosh) | |  |
 | Asus X299 PRIME DELUXE II      | [链接](https://github.com/yifan-gu/hackintosh)               |          | i9 7980XE + Radeon VII<br />网卡推荐：[BCM94360CD](https://hackintosher.taobao.com) |
 | Asus X299                      |      |          |                                                              |
