@@ -459,7 +459,6 @@
       - 华为 Matebook X Pro 2020
       - Asus PRIME X570-P 
       - Dell Inspiron 7501
-
 - 2022年4月22日
    - 新增机型：
      - Acer Nitro 5 an517-51-55NT 
@@ -469,4 +468,23 @@
      - MSI GT60 16F4
      - Asus ROG Strix X570-E Gaming
      - HP Prodesk 600 G3
+- 2022年11月21日
+   - 新增机型：
+     - Gigabyte B360M AORUS PRO 
+     - Lenovo IdeaPad 300-15ISK  
+     - MSI Z490-A PRO
+     - MSI H81M P33   
+     - Airbook 颜值版 i5 6200u（Ventura）
+     - Infinix INBook X1
+     - MSI X470 gaming PRO MAX 
+     - MAG B660M MORTAR WIFI DDR4
+     - DELL VOSTRO 14 3401
+     - Alienware M15R2
+     - Asus Vivobook X515JA
+     - Asus VivoBook A412F
+     - Acer Nitro 5 AN515-52-593F
+     - ThinkPad L470 
+     - Dell G5 5500 
+     - ASUS ROG Z590-A-Gaming-WIFI-II
+     - Gigabyte Z590 Vision G
 
