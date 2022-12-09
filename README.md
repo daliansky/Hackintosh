@@ -1548,6 +1548,7 @@
 | Asus PRIME B460I-PLUS 	|[链接](https://github.com/vulgo/prime-b460i-plus-hackintosh)	|		|		|
 | MSI Prestige 15 A10SC		|[链接](https://github.com/wgjas2/MSI-Prestige-15-Hackintosh)	|		|		|
 | Gigabyte B360M D3H	|[链接](https://github.com/samuelcarreira/Hackintosh-Big-Sur-Gigabyte-B360M-D3H-i3-8100-RX580-BCM943602CS-4K-monitor-OpenCore)	|		|		|
+| MSI-B250M PRO-VDH-i5-7500	|[1链接](https://gitee.com/akwangl/msi-b250-m-pro-vdh-i5-7500)	|		|		|
 
 ## 硬件兼容列表
 
