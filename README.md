@@ -1226,6 +1226,7 @@
 | ASUS PRIME Z590-P | [链接](https://github.com/rafaelmaeuer/Asus-Z590-P-Hackintosh) | | 网卡推荐：[BCM94360CD](https://hackintosher.taobao.com) |
 | ASUS ROG Z590-A-Gaming-WIFI-II | [链接](https://github.com/chuihairu/ROG-STRIX-Z590-A-i910900K-RX6600-Hackintosh) | | i9-10900k + RX6600 <br />网卡推荐：[BCM94360CD](https://hackintosher.taobao.com) |
 | Asus Prime Z690M Plus | [链接](https://github.com/Xmingbai/ASUS-Z690M-PLUS-hackintosh) | |  |
+| ASUS PRIME Z790 P WIFI D4 | [链接](https://github.com/Fu-Yuxuan-hub/ASUS-PRIME-Z790-P-WIFI-D4-HACKINTOSH) | | |
 | Asus X299 PRIME DELUXE II      | [链接](https://github.com/yifan-gu/hackintosh)               |          | i9 7980XE + Radeon VII<br />网卡推荐：[BCM94360CD](https://hackintosher.taobao.com) |
 | Asus X299                      |      |          |                                                              |
 | Asus ROG STRIX X299-E GAMING   | [链接](https://github.com/Fansaly/X299-STRIX-macOS)          |          | INTEL® CORE™ i7-7800X<br />网卡推荐：[BCM94360CD](https://hackintosher.taobao.com) |
@@ -1347,10 +1348,12 @@
 | Gigabyte Z590 Vision D | [链接](https://github.com/luchina-gabriel/GIGABYTE-Z590-VISION-D-10900K-RX-6900XT) | | |
 | Gigabyte Z590 Vision G | [链接](https://github.com/chuihairu/GIGABYTE-Z590-G-i510500-RX5600XT-Hackintosh)| | i510500K + RX5600XT + 网卡推荐：[BCM94360CD](https://hackintosher.taobao.com)  |
 | Gigabyte Z590M Gaming X | [链接](https://github.com/luchina-gabriel/EFI-GIGABYTE-Z590M-GAMING-X-11900K-ES-QV1K-RX6900XT) | | |
-| Gigabyte Z690 Aorus Elite AX | [链接](https://github.com/luchina-gabriel/EFI-GA-Z690-AORUS-ELITE-AX-12900K-RX6900XT) | | |
+| Gigabyte Z690 Aorus Elite AX | [链接](https://github.com/luchina-gabriel/EFI-GA-Z690-AORUS-ELITE-AX-12900K-RX6900XT) [链接](https://github.com/rursache/Hackintosh-13900k-Z690-AORUS-ELITE-AX-DDR5-AMD-6900XT) | | 链接2为Intel 13900k |
 | Gigabyte Z690 Aorus Pro | [链接](https://github.com/kreactnative/Z690-12900K-RX6600XT-DDR5-Monterey) | | 网卡推荐：[BCM94360CD](https://hackintosher.taobao.com) |
 | Gigabyte Z690I Aorus | [链接](https://github.com/glekner/Z690I-AORUS-OC-EFI) | | |
 | Gigabyte Z690 Gaming X          | [链接](https://github.com/bestplay9384/EFI-GIGABYTE-Z690-Gaming-X-DDR4-12700K-RX5700XT-Hackintosh) |                                                              | 网卡推荐：[BCM94360CD](https://hackintosher.taobao.com)      |
+| Gigabyte Z790 Aorus Elite | [链接](https://github.com/Xmingbai/Gigabyte-Z790-Aorus-Elite-13900KF-hackintosh) | | 网卡推荐：[BCM94360CD](https://hackintosher.taobao.com) |
+| Gigabyte Z790 Aorus Master | [链接](https://github.com/casstsai/13900k-z790-aorus-master) | | 网卡推荐：[BCM94360CD](https://hackintosher.taobao.com) |
 | Gigabyte Z77P D3                | [链接](https://github.com/cloverkits/GA-Z77P-D3-EFI)         |                                                              | GA-Z77P-D3                                                   |
 | Gigabyte Z77X D3H               | [链接](https://github.com/nickw444/opencore-efi)             |                                                              |                                                              |
 | Gigabyte GA-Z77X-DS3            | [链接](https://github.com/tdyn2000/GIGA-Z77X-DS3-Catalina-EFI) |                                                              |                                                              |
@@ -1488,6 +1491,7 @@
 | MSI Z490 S01                                      | [链接](https://github.com/jdjxk/Hackintosh_OpenCore_Z490_i9_10850K_RX5500XT) |                                                              | 网卡推荐：[BCM94360CD](https://hackintosher.taobao.com)      |
 | MSI Z590i Unify                                   | [链接](https://github.com/malibio/msi-z590i-unify-opencore)  |                                                              |                                                              |
 | MSI MPG Z690 EDGE TI                              | [链接](https://github.com/igarashikenshin/Hackintosh-MSI-Z690-EDGE-TWD4_i7-12700K_RX6800XT) |                                                              |                                                              |
+| MSI Z790i EDGE                                    | [链接](https://github.com/conversun/Hackintosh-MSI-Z790i-EDGE-13900K-6900XT-OpenCore) |                                                              |                                                              |
 | MSI Z97 Gaming 5                                  | [链接](https://github.com/plcharriere/Hackintosh/blob/master/Z97G5/) |                                                              | i5-4690K                                                     |
 | MSI H81M P33                                      | [链接](https://github.com/inokoe/MSI-H81M-P33-Hackintosh-EFI) |                                                              | E3 1246 V3                                                   |
 
@@ -1548,7 +1552,8 @@
 | Asus PRIME B460I-PLUS 	|[链接](https://github.com/vulgo/prime-b460i-plus-hackintosh)	|		|		|
 | MSI Prestige 15 A10SC		|[链接](https://github.com/wgjas2/MSI-Prestige-15-Hackintosh)	|		|		|
 | Gigabyte B360M D3H	|[链接](https://github.com/samuelcarreira/Hackintosh-Big-Sur-Gigabyte-B360M-D3H-i3-8100-RX580-BCM943602CS-4K-monitor-OpenCore)	|		|		|
-| MSI-B250M PRO-VDH-i5-7500	|[1链接](https://gitee.com/akwangl/msi-b250-m-pro-vdh-i5-7500)	|		|		|
+| MSI-B250M PRO-VDH-i5-7500	|[链接](https://gitee.com/akwangl/msi-b250-m-pro-vdh-i5-7500)	|		|		|
+| 铭瑄z790m	|[链接](https://github.com/xxy6910/13700k_z790m_EFI)	|	|	|
 
 ## 硬件兼容列表
 
