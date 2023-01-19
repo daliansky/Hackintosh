@@ -38,26 +38,13 @@
 
 更新日期：
 
-- 2022年11月21日
+- 2023年1月19日
   - 新增机型：
-    - Gigabyte B360M AORUS PRO 
-    - Lenovo IdeaPad 300-15ISK  
-    - MSI Z490-A PRO
-    - MSI H81M P33   
-    - Airbook 颜值版 i5 6200u（Ventura）
-    - Infinix INBook X1
-    - MSI X470 gaming PRO MAX 
-    - MAG B660M MORTAR WIFI DDR4
-    - DELL VOSTRO 14 3401
-    - Alienware M15R2
-    - Asus Vivobook X515JA
-    - Asus VivoBook A412F
-    - Acer Nitro 5 AN515-52-593F
-    - ThinkPad L470 
-    - Dell G5 5500 
-    - ASUS ROG Z590-A-Gaming-WIFI-II
-    - Gigabyte Z590 Vision G
-  
+    - ASUS PRIME Z790 P WIFI D4
+    - Gigabyte Z790 Aorus Elite
+    - Gigabyte Z790 Aorus Master
+    - MSI Z790i EDGE
+    - 铭瑄z790m
 
 完整的更新日志：[更新日志](./Changelog.md)
 

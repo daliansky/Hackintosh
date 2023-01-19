@@ -487,4 +487,12 @@
      - Dell G5 5500 
      - ASUS ROG Z590-A-Gaming-WIFI-II
      - Gigabyte Z590 Vision G
+- 2023年1月19日
+   - 新增机型：
+      - ASUS PRIME Z790 P WIFI D4
+      - Gigabyte Z790 Aorus Elite
+      - Gigabyte Z790 Aorus Master
+      - MSI Z790i EDGE
+      - 铭瑄z790m
+   
 
