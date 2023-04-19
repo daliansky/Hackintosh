@@ -1508,6 +1508,7 @@
 | 华南金牌 B75                     | [链接](https://github.com/ic005k/HUANAN-B75) [链接](https://github.com/LeUKi/Hackintosh-EFI-huanan_B75) |                                                              | e3-1230-v2 RX460 |
 | Huanan X79 E5-2670, GTX650       | [链接](https://github.com/cheneyveron/clover-x79-e5-2670-gtx650) | [链接](https://github.com/cheneyveron/clover-x79-e5-2670-gtx650/blob/master/README.md) | 华南 x79 V2      |
 | Huananzhi x99 f8                 | [链接](https://github.com/oscaroum/huananzhi_x99_f8)         |                                                              |                  |
+| 华南X99TF | [链接](https://github.com/KGDJudy/HUANNA-X99TF-OC-9.1-EFI) | | |
 | 华南B85-ITX 黑苹果                 | [链接](https://github.com/Mustang-Sun/HUANANZHI-B85-ITX-Hackintosh) |                                                              | i5-4690+16G、无独显、未安装wifi，声卡正常  |
 | Ant Country X79 Basic            | [链接](https://github.com/m1qnet/X79-Hackintosh-Catalina)    |                                                              |                  |
 | Supermicro x8dai                 |                                                              |                                                              | Xeon x5680       |
