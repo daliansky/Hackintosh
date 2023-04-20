@@ -1487,15 +1487,18 @@
 | **台式（部分）**             | 发布地址                                                     | 教程地址 | 备注                                                         |
 | ---------------------------- | ------------------------------------------------------------ | -------- | ------------------------------------------------------------ |
 | Asus PN62                    | [链接](https://github.com/cuteribs/hackintosh/tree/master/ASUS_PN62) |          |                                                              |
-| Beelink SEi8                 | [链接](https://github.com/daliansky/Beelink-SEI8-Hackintosh)                                                       |      | 小兵长期维护机型<br />网卡推荐：[BCM94360Z3](https://hackintosher.taobao.com) |
+| **Beelink SEi8**             | [链接](https://github.com/daliansky/Beelink-SEI8-Hackintosh) |          | 小兵长期维护机型<br />网卡推荐：[BCM94360Z3](https://hackintosher.taobao.com) |
 | Cloud Hin H170               | [链接](https://github.com/kdwycz/cloud-hin-h170-stx-hackintosh) [链接](https://github.com/matri/hipda-h170-opencore) |          | 云轩 H170                                                    |
 | Deskmini-310                 | [链接](https://github.com/yuqi/Deskmini-310-Hackintosh)      |          | Deskmini-310                                                 |
-| GMKTEC NucBox2               | [链接](https://github.com/laggykiller/hackintosh-gmk-nucbox2)                                                      |      | 网卡推荐：[BCM94360Z3](https://hackintosher.taobao.com)               |
+| GMKTEC NucBox2               | [链接](https://github.com/laggykiller/hackintosh-gmk-nucbox2) |          | 网卡推荐：[BCM94360Z3](https://hackintosher.taobao.com)      |
 | Soarsea mini PC              | [链接](https://github.com/EngLearnsh/Soarsea-i9-8950HK-Hackintosh) |          | S200H                                                        |
+| **Soarsea S210H**            | [链接](https://github.com/daliansky/SoarSea-S210H-Hackintosh) |          | 小兵长期维护机型<br />网卡推荐：[BCM94360Z3](https://hackintosher.taobao.com) |
+| **Soarsea P310S**            | [链接](https://github.com/daliansky/SoarSea-P310S-Hackintosh) |          | 小兵长期维护机型<br />网卡推荐：[BCM94360Z3](https://hackintosher.taobao.com) |
 | CM238 i7-8950H UHD630 ALC269 | [链接](https://github.com/kkzzhizhou/S200H_I7-8750H_Hackintosh) |          | S200H_I7-8750H 小主机                                        |
 | I7-8850H 迷你主机            | [链接](https://github.com/n0jack/i78850h-minipc-hackintosh)  |          |                                                              |
 | DQ77KB                       | [链接](https://github.com/siwilizhao/DQ77KB-I7-3770S-Hackintosh) |          |                                                              |
 | morefine S500                | [链接](https://github.com/daliansky/morefine-S500-Hackintosh) |          | 小兵长期维护机型<br />网卡推荐：[BCM94360Z3](https://hackintosher.taobao.com) |
+| **minisforum HX80G / HX90G** | [链接](https://github.com/daliansky/minisforum-HX90G-Hackintosh) |          | 小兵长期维护机型<br />网卡推荐：[BCM94360Z3](https://hackintosher.taobao.com) |
 | minisforum U820              | [链接](https://github.com/daliansky/minisforum-u820-hackintosh) |          | 小兵长期维护机型<br />网卡推荐：[BCM94360Z4](https://hackintosher.taobao.com) |
 | TinyMonster ECO              | [链接](https://github.com/daliansky/TinyMonsterECO-Hackintosh) |          | 小兵长期维护机型<br />网卡推荐：[BCM94360Z4](https://hackintosher.taobao.com) |
 | TinyMonster PRO              | [链接](https://github.com/daliansky/TinyMonsterPro-Hackintosh) |          | 小兵长期维护机型<br />网卡推荐：[BCM94360Z4](https://hackintosher.taobao.com) |
@@ -1521,6 +1524,7 @@
 | 七彩虹 战斧C.B360M-HD 魔音版 V20 | [链接](https://github.com/swjtuhyq/colorful-b360m-efi)       |                                                              |                  |
 | 七彩虹 CVN B460i                 | [链接](https://github.com/AlphaGHX/Hackintosh-CVN-b460i-efi) [链接](https://github.com/Coceki/CVN-B460i-EFI-Opencore) |                                                              |                  |
 | 七彩虹 C.H110M-K D3 PRO | [链接](https://github.com/wecy-chen/C.H110M-K_D3_PRO) | | |
+| Colorful CVN B760I FROZEN | [链接](https://github.com/Heming-Zhong/Colorful_CVN_B760I_FROZEN_WIFI_V20_hackintosh) | | |
 | ONDA B460 SD4 | [链接](https://github.com/it1580/Hackintosh-ONDA-B460SD4-EFI) | | |
 | ONDA H410 SD4                    | [链接](https://github.com/yinxianwei/ONDA-H410SD4-Hackintosh) |                                                              |                  |
 | Onda P75U                        | [链接](https://github.com/hunanhjx/E3-1230v2_GTX760_OpenCore) |                                                              | E3-1230 v2       |
@@ -1541,7 +1545,11 @@
 | MSI Prestige 15 A10SC		|[链接](https://github.com/wgjas2/MSI-Prestige-15-Hackintosh)	|		|		|
 | Gigabyte B360M D3H	|[链接](https://github.com/samuelcarreira/Hackintosh-Big-Sur-Gigabyte-B360M-D3H-i3-8100-RX580-BCM943602CS-4K-monitor-OpenCore)	|		|		|
 | MSI-B250M PRO-VDH-i5-7500	|[链接](https://gitee.com/akwangl/msi-b250-m-pro-vdh-i5-7500)	|		|		|
+| 铭瑄B760M 终结者 D4	|[链接](https://github.com/nsinm/13400F-B760M-EFI)	|	| 网卡推荐：[BCM94360CD](https://hackintosher.taobao.com) |
+| 铭瑄 MS-B760ITX	|[链接](https://github.com/rbongIO/rbongIO-MaxSun-B760ITX-EFI)	|	|  |
 | 铭瑄z790m	|[链接](https://github.com/xxy6910/13700k_z790m_EFI)	|	|	|
+| MAXSUN Terminator-Z790M-D5	|[链接](https://github.com/sonojo/Terminator-Z790M-D5)	|	|	|
+| 精粤B760i Snow Dream	|[链接](https://github.com/zhongjiachao/JingyueB760i-hackintosh-Opentcore-EFI)	|	|	|
 
 ## 硬件兼容列表
 
