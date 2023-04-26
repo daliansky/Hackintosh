@@ -1667,4 +1667,8 @@
 | ---------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
 | [![paypal_daliansky](https://pics.daliansky.net/d/xD0Ar91B/blog/paypal_daliansky.png?download=1)](https://www.paypal.me/daliansky) | ![wechatpay_160](https://pics.daliansky.net/d/xD0Ar91B/blog/wechatpay_160.jpg?download=1) | ![alipay_160](https://pics.daliansky.net/d/xD0Ar91B/blog/alipay_160.jpg?download=1) |
 
+## 项目 Star 数增长趋势
+
+[![Stargazers over time](https://starchart.cc/daliansky/Hackintosh.svg)](https://starchart.cc/daliansky/Hackintosh) 
+
 [![img](https://img.shields.io/github/stars/daliansky/Hackintosh.svg?color=ff69b4&label=%E7%82%B9%E8%B5%9E&logoColor=ff69b4&style=social)](https://github.com/daliansky/Hackintosh) [![img](https://img.shields.io/github/followers/daliansky.svg?label=%E7%B2%89%E4%B8%9D&logoColor=success&style=social)](https://github.com/daliansky/Hackintosh) ![img](https://img.shields.io/github/contributors/daliansky/Hackintosh.svg?color=red&label=%E8%B4%A1%E7%8C%AE%E4%BA%BA%E6%95%B0) [![img](https://img.shields.io/github/last-commit/daliansky/Hackintosh.svg?color=orange&label=%E6%9C%80%E8%BF%91%E6%8F%90%E4%BA%A4)](https://github.com/daliansky/Hackintosh)
