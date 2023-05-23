@@ -1546,7 +1546,7 @@
 | MSI Prestige 15 A10SC		|[链接](https://github.com/wgjas2/MSI-Prestige-15-Hackintosh)	|		|		|
 | Gigabyte B360M D3H	|[链接](https://github.com/samuelcarreira/Hackintosh-Big-Sur-Gigabyte-B360M-D3H-i3-8100-RX580-BCM943602CS-4K-monitor-OpenCore)	|		|		|
 | MSI-B250M PRO-VDH-i5-7500	|[链接](https://gitee.com/akwangl/msi-b250-m-pro-vdh-i5-7500)	|		|		|
-| 铭瑄B760M 终结者 D4	|[链接](https://github.com/nsinm/13400F-B760M-EFI)	|	| 网卡推荐：[BCM94360CD](https://hackintosher.taobao.com) |
+| 铭瑄B760M 终结者 D4	|[链接](https://github.com/nsinm/13400F-B760M-EFI) 	[链接](https://github.com/xiecang/Hackintosh-B760M-12490F-6600xt)	|	| 网卡推荐：[BCM94360CD](https://hackintosher.taobao.com) |
 | 铭瑄 MS-B760ITX	|[链接](https://github.com/rbongIO/rbongIO-MaxSun-B760ITX-EFI)	|	|  |
 | 铭瑄z790m	|[链接](https://github.com/xxy6910/13700k_z790m_EFI)	|	|	|
 | MAXSUN Terminator-Z790M-D5	|[链接](https://github.com/sonojo/Terminator-Z790M-D5)	|	|	|
