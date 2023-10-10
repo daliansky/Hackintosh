@@ -38,13 +38,13 @@
 
 更新日期：
 
-- 2023年1月19日
+- 2023年10月10日
   - 新增机型：
-    - ASUS PRIME Z790 P WIFI D4
-    - Gigabyte Z790 Aorus Elite
-    - Gigabyte Z790 Aorus Master
-    - MSI Z790i EDGE
-    - 铭瑄z790m
+    - HP OMEN 15 2017 15-ax218TX
+    - 华南X99TF
+    - NUC8-BEH/BEK
+    - NUC9QNX
+    - morefine M600s
 
 完整的更新日志：[更新日志](./Changelog.md)
 

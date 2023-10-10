@@ -495,4 +495,12 @@
       - MSI Z790i EDGE
       - 铭瑄z790m
    
+- 2023年10月10日
+   - 新增机型：
+      - HP OMEN 15 2017 15-ax218TX
+      - 华南X99TF
+      - NUC8-BEH/BEK
+      - NUC9QNX
+      - morefine M600s
+   
 
