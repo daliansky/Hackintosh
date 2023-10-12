@@ -989,7 +989,7 @@
 | 51nb T70 ThinkPad 副厂主板  | [链接](https://github.com/51nbT70CLOVER/51nb-T70-Hackintosh)                         |                                                                              |                                                                                                             |
 | Medion Erazer P7647 | [链接](https://github.com/axemre/OpenCore-Medion-Erazer-P7647) | | |
 | Infinix INBook X1 | [链接](https://github.com/devboloji/Infinix-Hackintosh-Guide-Opencore_INBook_X1_XL11_i3-) | | |
-
+| Intel 610 杂牌 i5-12400F | [链接](https://github.com/chuihairu/H610-i5-12400F-RX5600XT-Hackintosh/) | | |
 
 ### 笔记本更多的机型
 
