@@ -1213,7 +1213,7 @@
 | Asus TUF Z490 Plus             | [链接](https://github.com/horphi/Asus-TUF-Z490-Plus) [链接](https://github.com/raofeng/ASUS_TUF_Z490_PLUS_WIFI_EFI) |          | 网卡推荐：[BCM94360CD](https://hackintosher.taobao.com) |
 | Asus ROG MAXIMUS XIII HERO | [链接](https://github.com/Dave1482/Maximus-XIII-Hero-Z590-11900K-6800XT-OpenCore-EFI-Public) | |  |
 | ASUS PRIME Z590-P | [链接](https://github.com/rafaelmaeuer/Asus-Z590-P-Hackintosh) | | 网卡推荐：[BCM94360CD](https://hackintosher.taobao.com) |
-| ASUS ROG Z590-A-Gaming-WIFI-II | [链接](https://github.com/chuihairu/ROG-STRIX-Z590-A-i910900K-RX6600-Hackintosh) | | i9-10900k + RX6600 <br />网卡推荐：[BCM94360CD](https://hackintosher.taobao.com) |
+| ASUS ROG Z590-A-Gaming-WIFI-II | [链接](https://github.com/cuihairu/ROG-STRIX-Z590-A-i910900K-RX6900XT-Hackintosh) | | i9-10900k + RX6900XT <br />网卡推荐：[BCM94360CD](https://hackintosher.taobao.com) |
 | Asus Prime Z690M Plus | [链接](https://github.com/Xmingbai/ASUS-Z690M-PLUS-hackintosh) | |  |
 | ASUS PRIME Z790 P WIFI D4 | [链接](https://github.com/Fu-Yuxuan-hub/ASUS-PRIME-Z790-P-WIFI-D4-HACKINTOSH) | | |
 | Asus X299 PRIME DELUXE II      | [链接](https://github.com/yifan-gu/hackintosh)               |          | i9 7980XE + Radeon VII<br />网卡推荐：[BCM94360CD](https://hackintosher.taobao.com) |
@@ -1405,6 +1405,7 @@
 | NUC7i7BNH                 | [链接](https://github.com/calebchow9/Intel-NUC7i7BNH-Hackintosh)                                                                                                                 |                                                                                                                                   |                                                 |
 | NUC7i5BEK                 | [链接](https://github.com/331296441/NUC7i5BEK)                                                                                                                                   |                                                                                                                                   |                                                 |
 | NUC10i7/i5/i3             | [链接](https://github.com/mbarbierato/Intel-NUC10i3FNK) [链接](https://github.com/HawkysCC/Hackintosh-NUC10i7) [链接](https://github.com/nuc-hackintosh/nuc10-efi)<br />[链接](https://github.com/hackintosh-efi/intel-nuc10)            |                                                                                                                                   | 支持 BigSur<br />链接 2 支持最新的 AirportItlwm |
+| H610 | [链接](https://github.com/cuihairu/H610-i5-12400F-RX5600XT-Hackintosh) | | i5-12400F + RX5600XT + Intel AX210 |
 
 ### Lenovo 联想
 
@@ -1480,6 +1481,7 @@
 | MSI Z490 Gaming Plus                              | [链接](https://github.com/Flop88/opencore) [链接](https://github.com/ianchb/Hackintosh_EFI_OpenCore_MSI_Z490A_PRO_MS7C75) |                                                              | i5-10400f / RX550<br />网卡推荐：[BCM94360CD](https://hackintosher.taobao.com) |
 | MSI Z490i Unify                                   | [链接](https://github.com/kingwood77/MSI-Z490i-Unify-Hackintosh) [链接](https://github.com/wjz304/Hackintosh-EFI-MSI-Z490i-Unify)<br />[链接](https://github.com/diskerror/EFI) |                                                              | i5-10400 / RX580                                             |
 | MSI Z490 S01                                      | [链接](https://github.com/jdjxk/Hackintosh_OpenCore_Z490_i9_10850K_RX5500XT) |                                                              | 网卡推荐：[BCM94360CD](https://hackintosher.taobao.com)      |
+| MSI Z490 GODLIKE                                  | [链接](https://github.com/cuihairu/MEG-Z490-GODLIKE-i910900K-RX6900XT-Hackintosh) |                                                              | i9-10900k + RX6900XT <br />网卡推荐：[BCM94360CD](https://hackintosher.taobao.com) |
 | MSI Z590i Unify                                   | [链接](https://github.com/malibio/msi-z590i-unify-opencore)  |                                                              |                                                              |
 | MSI MPG Z690 EDGE TI                              | [链接](https://github.com/igarashikenshin/Hackintosh-MSI-Z690-EDGE-TWD4_i7-12700K_RX6800XT) |                                                              |                                                              |
 | MSI Z790i EDGE                                    | [链接](https://github.com/conversun/Hackintosh-MSI-Z790i-EDGE-13900K-6900XT-OpenCore) |                                                              |                                                              |
