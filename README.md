@@ -28,8 +28,79 @@
 - _[Vit9696](https://github.com/acidanthera)_ lilu 和相关插件、applealc 的主要开发或维护者
 - _[Clover 更新地址](https://sourceforge.net/projects/cloverefiboot/)_ Clover 团队更新 clover 的主要发布渠道
 - _[常用软件和驱动清单](./LinkList.md)_ 整理了常用软件和驱动的主要发布地址，持续修改……
+- **OPENCORE参考文档**[中文版](https://sumingyd.github.io/OpenCore-Post-Install/)、[英文版](https://dortania.github.io/Getting-Started-With-ACPI/)
+- [英特尔无线网卡驱动文档](https://openintelwireless.github.io/itlwm/)、[英特尔蓝牙驱动文档](https://openintelwireless.github.io/IntelBluetoothFirmware/)
 
 ## 同步更新：[黑果小兵的部落阁](https://blog.daliansky.net/Hackintosh-long-term-maintenance-model-checklist.html)
+## 博通蓝牙驱动选用地图
+<table>
+  <td height="21" class="xl65" width="87" style="height:16.0pt;width:65pt">PatchRAM
+  device</td>
+  <td class="xl65" width="117" style="border-left:none;width:88pt">macOS Vision</td>
+  <td class="xl65" width="204" style="border-left:none;width:153pt">Firmware</td>
+  <td class="xl65" width="269" style="border-left:none;width:202pt">BluetoothInjector</td>
+  <td class="xl65" width="187" style="border-left:none;width:140pt">firmware upload</td>
+ </tr>
+ <tr height="21" style="height:16.0pt">
+  <td rowspan="4" height="84" class="xl66" width="87" style="height:64.0pt;border-top:
+  none;width:65pt">PatchRAM</td>
+  <td class="xl65" style="border-top:none;border-left:none">≤10.10</td>
+  <td class="xl67" style="border-top:none;border-left:none">BrcmPatchRAM.kext</td>
+  <td class="xl67" style="border-top:none;border-left:none">N/A</td>
+  <td rowspan="8" class="xl67" style="border-top:none">BrcmFirmwareData.kext</td>
+ </tr>
+ <tr height="21" style="height:16.0pt">
+  <td height="21" class="xl65" style="height:16.0pt;border-top:none;border-left:
+  none">10.11 - 10.14</td>
+  <td class="xl67" style="border-top:none;border-left:none">BrcmPatchRAM2.kext</td>
+  <td class="xl67" style="border-top:none;border-left:none">BrcmBluetoothInjectorLegacy.kext</td>
+ </tr>
+ <tr height="21" style="height:16.0pt">
+  <td height="21" class="xl65" style="height:16.0pt;border-top:none;border-left:
+  none">10.15-12.0</td>
+  <td rowspan="2" class="xl67" style="border-top:none">BrcmPatchRAM3.kext</td>
+  <td class="xl67" style="border-top:none;border-left:none">BrcmBluetoothInjector.kext</td>
+ </tr>
+ <tr height="21" style="height:16.0pt">
+  <td height="21" class="xl65" style="height:16.0pt;border-top:none;border-left:
+  none">≥12.0</td>
+  <td class="xl67" style="border-top:none;border-left:none">BlueToolFixup.kext</td>
+ </tr>
+ <tr height="21" style="height:16.0pt">
+  <td rowspan="4" height="84" class="xl66" width="87" style="height:64.0pt;border-top:
+  none;width:65pt">nonPatchRAM</td>
+  <td class="xl65" style="border-top:none;border-left:none">≤10.10</td>
+  <td class="xl67" style="border-top:none;border-left:none">BrcmNonPatchRAM.kext</td>
+  <td class="xl67" style="border-top:none;border-left:none">N/A</td>
+ </tr>
+ <tr height="21" style="height:16.0pt">
+  <td height="21" class="xl65" style="height:16.0pt;border-top:none;border-left:
+  none">10.11 - 10.14</td>
+  <td rowspan="3" class="xl67" style="border-top:none">BrcmNonPatchRAM2.kext</td>
+  <td class="xl67" style="border-top:none;border-left:none">BrcmBluetoothInjectorLegacy.kext</td>
+ </tr>
+ <tr height="21" style="height:16.0pt">
+  <td height="21" class="xl65" style="height:16.0pt;border-top:none;border-left:
+  none">10.15-12.0</td>
+  <td class="xl67" style="border-top:none;border-left:none">BrcmBluetoothInjector.kext</td>
+ </tr>
+ <tr height="21" style="height:16.0pt">
+  <td height="21" class="xl65" style="height:16.0pt;border-top:none;border-left:
+  none">≥12.0</td>
+  <td class="xl67" style="border-top:none;border-left:none">BlueToolFixup.kext</td>
+ </tr>
+ <!--[if supportMisalignedColumns]-->
+ <tr height="0" style="display:none">
+  <td width="87" style="width:65pt"></td>
+  <td width="117" style="width:88pt"></td>
+  <td width="204" style="width:153pt"></td>
+  <td width="269" style="width:202pt"></td>
+  <td width="187" style="width:140pt"></td>
+ </tr>
+ <!--[endif]-->
+</tbody>
+</table>
+
 
 ## 机型讨论：[远景 pcbeta.com](http://bbs.pcbeta.com/viewthread-1795904-1-1.html)
 
