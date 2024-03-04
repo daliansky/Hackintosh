@@ -1507,6 +1507,18 @@
 
 
 
+## Minisforum 铭凡
+
+| **台式（部分）** | 发布地址 | 教程地址 | 备注 |
+| ---------------- | -------- | -------- | ---- |
+| minisforum B550 | [链接](https://github.com/daliansky/minisforum-Elitemini-B550-Hackintosh) |  | 小兵长期维护机型<br />网卡推荐：[BCM94360Z3](https://hackintosher.taobao.com) |
+| **minisforum HX80G / HX90G** | [链接](https://github.com/daliansky/minisforum-HX90G-Hackintosh) |                                                          | 小兵长期维护机型<br />网卡推荐：[BCM94360Z3](https://hackintosher.taobao.com) |
+| minisforum NAG6              | [链接](https://github.com/daliansky/minisforum-NAG6-Hackintosh) |                                                          | 小兵长期维护机型<br />网卡推荐：[BCM94360Z3](https://hackintosher.taobao.com) |
+| minisforum U820              | [链接](https://github.com/daliansky/minisforum-u820-hackintosh) |                                                          | 小兵长期维护机型<br />网卡推荐：[BCM94360Z4](https://hackintosher.taobao.com) |
+| minisforum UM480XT           | [链接](https://github.com/daliansky/minisforum-UM480XT-Hackintosh) |                                                          | 小兵长期维护机型<br />网卡推荐：[BCM94360Z3](https://hackintosher.taobao.com) |
+| minisforum UM560XT           | [链接](https://github.com/daliansky/minisforum-UM560XT-Hackintosh) |                                                          | 小兵长期维护机型<br />网卡推荐：[BCM94360Z3](https://hackintosher.taobao.com) |
+| minisforum UM580D/UM590      | 链接                                                         |                                                          | 小兵长期维护机型<br />网卡推荐：[BCM94360Z3](https://hackintosher.taobao.com) |
+
 ### MSI 微星
 
 | **台式（部分）**                                  | 发布地址                                                     | 教程地址                                                     | 备注                                                         |
@@ -1568,6 +1580,7 @@
 | **Beelink SEi8**             | [链接](https://github.com/daliansky/Beelink-SEI8-Hackintosh) |                                                          | 小兵长期维护机型<br />网卡推荐：[BCM94360Z3](https://hackintosher.taobao.com) |
 | **Beelink SER5**             | [链接](https://github.com/daliansky/Beelink-SER5-Hackintosh) |                                                          | 小兵长期维护机型<br />网卡推荐：[BCM94360Z3](https://hackintosher.taobao.com) |
 | Cloud Hin H170               | [链接](https://github.com/kdwycz/cloud-hin-h170-stx-hackintosh) [链接](https://github.com/matri/hipda-h170-opencore) |                                                          | 云轩 H170                                                    |
+| FEVM FN60G                   | [链接](https://github.com/daliansky/FEVM-FN60G-Hackintosh)   |                                                          | 小兵长期维护机型<br />网卡推荐：[BCM94360Z4](https://hackintosher.taobao.com) |
 | Deskmini-310                 | [链接](https://github.com/yuqi/Deskmini-310-Hackintosh)      |                                                          | Deskmini-310                                                 |
 | GMKTEC NucBox2               | [链接](https://github.com/laggykiller/hackintosh-gmk-nucbox2) |                                                          | 网卡推荐：[BCM94360Z3](https://hackintosher.taobao.com)      |
 | Soarsea mini PC              | [链接](https://github.com/EngLearnsh/Soarsea-i9-8950HK-Hackintosh) |                                                          | S200H                                                        |
@@ -1578,8 +1591,6 @@
 | DQ77KB                       | [链接](https://github.com/siwilizhao/DQ77KB-I7-3770S-Hackintosh) |                                                          |                                                              |
 | morefine S500                | [链接](https://github.com/daliansky/morefine-S500-Hackintosh) |                                                          | 小兵长期维护机型<br />网卡推荐：[BCM94360Z3](https://hackintosher.taobao.com) |
 | **morefine M600s**           | [链接](https://github.com/daliansky/morefine-M600s-Hackintosh) | [链接](https://item.taobao.com/item.htm?id=659725057885) | 小兵长期维护机型<br />网卡推荐：[BCM94360Z3](https://hackintosher.taobao.com) |
-| **minisforum HX80G / HX90G** | [链接](https://github.com/daliansky/minisforum-HX90G-Hackintosh) |                                                          | 小兵长期维护机型<br />网卡推荐：[BCM94360Z3](https://hackintosher.taobao.com) |
-| minisforum U820              | [链接](https://github.com/daliansky/minisforum-u820-hackintosh) |                                                          | 小兵长期维护机型<br />网卡推荐：[BCM94360Z4](https://hackintosher.taobao.com) |
 | TinyMonster ECO              | [链接](https://github.com/daliansky/TinyMonsterECO-Hackintosh) |                                                          | 小兵长期维护机型<br />网卡推荐：[BCM94360Z4](https://hackintosher.taobao.com) |
 | TinyMonster PRO              | [链接](https://github.com/daliansky/TinyMonsterPro-Hackintosh) |                                                          | 小兵长期维护机型<br />网卡推荐：[BCM94360Z4](https://hackintosher.taobao.com) |
 
