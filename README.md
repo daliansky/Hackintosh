@@ -85,7 +85,7 @@
 - [HP 惠普](#hp-惠普-1)
 - [Intel 英特尔](#intel-英特尔-1)
 - [Lenovo 联想](#lenovo-联想-1)
-- [minisforum 铭凡](#minisforum-铭凡-1)
+- [minisforum 铭凡](#minisforum-铭凡)
 - [MSI 微星](#msi-微星-1)
 - [Mini 迷你系列](#mini-迷你系列)
 - [台式机其它机型](#台式机其它机型)
