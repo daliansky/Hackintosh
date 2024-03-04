@@ -494,7 +494,6 @@
       - Gigabyte Z790 Aorus Master
       - MSI Z790i EDGE
       - 铭瑄z790m
-   
 - 2023年10月10日
    - 新增机型：
       - HP OMEN 15 2017 15-ax218TX
@@ -503,4 +502,11 @@
       - NUC9QNX
       - morefine M600s
    
+- 2024年3月4日
+   - 新增机型：
+     - FEVM FN60G
+     - minisforum UM480XT
+     - minisforum UM560XT
+     - minisforum UM580D/UM590
+     - minisforum NAG6
 
