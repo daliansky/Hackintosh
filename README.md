@@ -622,6 +622,7 @@
 | 荣耀 Magicbook           | [链接](https://github.com/hjmmc/Honor-Magicbook) [链接](https://github.com/buseQ/magicbook-hackintosh-opencore-i7-8550u) | [链接](https://github.com/hjmmc/Honor-Magicbook/blob/master/README_CN.md) | 网卡推荐：[BCM94360Z4](https://hackintosher.taobao.com)      |
 | 荣耀 Magicbook-Pro-16.1  | [链接](https://github.com/GatesYang/Magicbook-Pro-16.1-Hackintosh) |                                                              |                                                              |
 | 华为 Matebook 14 2020 款 | [链接](https://github.com/Zero-zer0/Matebook_13_14_2020_Hackintosh_OpenCore) |                                                              | 华为 Matebook 13 / 14 2020 十代 通用                         |
+| 荣耀 Magicbook Pro 2020 R7-4800H| [链接](https://github.com/Pinghigh/Magicbook-Pro-2020-R7-4800H-Hackintosh) |                                                              | 荣耀 Magicbook Pro 2020 R7-4800H (aka. HLYL-WXX9)   |
 
 ### Lenovo 联想
 
@@ -853,6 +854,7 @@
 | MSI GL65 Leopard 9SCXR | [链接](https://github.com/dushan12k/msi-gl65-leopard-9scxr-) | | |
 | MSI GL72M-7RDX            | [链接](https://github.com/jbwharris/hackintosh-msi-GL72M-7RDX)                                                                                                                                            | [链接](https://github.com/jbwharris/hackintosh-msi-GL72M-7RDX/blob/master/README.md) |                 |
 | MSI GP62 6QG-1071XCN      | [链接](https://github.com/chuxubank/MSI-GP62-Hackintosh)                                                                                                                                                  |                                                                                      | 微星 GP62       |
+| MSI GP76 10th      | [链接](https://github.com/y010204025/MSI_GP76_10th_macOS)  |                                                                                      | 微星 GP76 10th,可能还适用于GT76、GE76、GE66、GS66等9代、10代机型，未测试，可以尝试在这基础上修改       |
 | MSI GS63VR-7RF            | [链接](https://github.com/guitaoliu/MSI-GS63VR-Hackintosh)                                                                                                                                                |                                                                                      |                 |
 | MSI GS65	|[链接](https://github.com/charlesSheep/-gs65-opencore-eif#msi-gs65-261n-opencore-eif)	|[GS75](https://github.com/ErrorErrorError/msi-gs65-gs75-hackintosh) [GS75](https://github.com/ErrorErrorError/msi-gs65-8se-opencore-macos)	|		|
 | MSI GS65 Stealth Thin 8RF | [链接](https://github.com/vladichimescu/msi-gs65-hackintosh)                                                                                                                                              |                                                                                      |                 |
