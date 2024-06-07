@@ -195,6 +195,7 @@
 | Asus K555UB Series                | [链接](https://github.com/sutsurup/ASUS-K555UB-Hackintosh)   | [链接](https://github.com/sutsurup/ASUS-K555UB-Hackintosh/blob/master/README.md) | XO092T - XO093T - XO096T - XO097T<br />XO066T - XO198T - XO266T - XO099D - XO227D |
 | Asus K55VD                        | [链接](https://github.com/southernvevo/Asus-K55VD-HACKINTOSH) | [链接](https://github.com/southernvevo/Asus-K55VD-HACKINTOSH/blob/master/README.md) | Asus K55VD                                                   |
 | Asus K555LD                       | [链接](https://github.com/kongbg/asus-k555ld-4210U)          | [链接](https://github.com/kongbg/asus-k555ld-4210U/blob/master/README.md) | Asus K555LD                                                  |
+| Asus VivoBook M413IA | [链接](https://github.com/AppleOSX/M413IA) |  | R5-4500U |
 | Asus N550JK                       | [链接](https://github.com/AlirezaTheH/asus-n550jk-hackintosh) |                                                              |                                                              |
 | Asus N550JV                       | [链接](https://github.com/bakedpotato191/asusn550jv-hackintosh) |                                                              |                                                              |
 | Asus N551JK                       | [链接](https://github.com/basett1/Asus-N551JK-OC-EFI)        |                                                              |                                                              |
