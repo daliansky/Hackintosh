@@ -870,7 +870,8 @@
 | MSI PL62 7RC              | [链接](https://github.com/juanlatorre/MSI-PL62-7RC-OC-Hackintosh)                                                                                                                                         |                                                                                      | Intel i5-7300HQ |
 | MSI Prestige 15           | [链接](https://github.com/KerKerOgh/MSI-Prestige-15-Hackintosh) [链接](https://github.com/wgjas2/MSI-Prestige-15-Hackintosh)<br />[链接](https://github.com/naturalBlacksmith/hackintosh-msi-prestige-15) |                                                                                      |                 |
 | MSI PS63 Modern 8RC       |                                                                                                                                                                                                           |                                                                                      |                 |
-| MSI PS63 Modern 8RC       |                                                                                                                                                                                                           |                                                                                      |                 |
+                                                                                  |                 |
+| MSI PRO H610M-E           | [链接](https://github.com/cuihairu/MSI-PRO-H610M-E-i3-12100F-RX580-Hackintosh) | Intel i3-12100F RX580                                                              |                                                              |
 
 ### Razer Blade 雷蛇
 
@@ -1108,7 +1109,6 @@
 | MSI MPG X570 GAMING PLUS           | [链接](https://github.com/SuperY/OpenCore-EFI-for-MSI-MPG-X570-Gaming-Plus) |                                                              |                                                              |
 | Asus ROG Strix B450-F Gaming       | [链接](https://github.com/Desousak/macOS-strix-b450F)        |                                                              |                                                              |
 | MS-iCraft B550M WIFI               | [链接](https://github.com/wuwuwu223/Hackintosh-Opencore-MS-iCraft-B550M-WIFI-EFI) |                                                              |                                                              |
-| MSI PRO H610M-E                    | [链接](https://github.com/cuihairu/MSI-PRO-H610M-E-i3-12100F-RX580-Hackintosh) |                                                              |                                                              |
 
 
 ## INTEL CPU 系列
@@ -1226,8 +1226,8 @@
 | ASUS ROG Z590-A-Gaming-WIFI-II | [链接](https://github.com/cuihairu/ROG-STRIX-Z590-A-i910900K-RX6900XT-Hackintosh) | | i9-10900k + RX6900XT <br />网卡推荐：[BCM94360CD](https://hackintosher.taobao.com) |
 | ASUS ROG STRIX Z690-A GAMING WIFI | [链接](https://github.com/cuihairu/ROG-STRIX-Z690-A-GAMING-WIFI-i513600KF-RX6600XT-Hackintosh) | | i5-13600kF + RX6600XT <br />网卡推荐：[BCM94360CD](https://hackintosher.taobao.com) |
 | Asus Prime Z690M Plus | [链接](https://github.com/Xmingbai/ASUS-Z690M-PLUS-hackintosh) | |  |
-| ASUS PRIME Z790 P WIFI D4 | [链接](https://github.com/Fu-Yuxuan-hub/ASUS-PRIME-Z790-P-WIFI-D4-HACKINTOSH) | | |
 | ASUS TUF GAMING B760M-PLUS WIFI | [链接](https://github.com/cuihairu/TUF-GAMING-B760M-PLUS-WIFI-i714700KF-RX6950XT-Hackintosh) | | i7-14700kF + RX6950XT <br />网卡推荐：[BCM94360CD](https://hackintosher.taobao.com) |
+| ASUS PRIME Z790 P WIFI D4 | [链接](https://github.com/Fu-Yuxuan-hub/ASUS-PRIME-Z790-P-WIFI-D4-HACKINTOSH) | | |
 | Asus X299 PRIME DELUXE II      | [链接](https://github.com/yifan-gu/hackintosh)               |          | i9 7980XE + Radeon VII<br />网卡推荐：[BCM94360CD](https://hackintosher.taobao.com) |
 | Asus X299                      |      |          |                                                              |
 | Asus ROG STRIX X299-E GAMING   | [链接](https://github.com/Fansaly/X299-STRIX-macOS)          |          | INTEL® CORE™ i7-7800X<br />网卡推荐：[BCM94360CD](https://hackintosher.taobao.com) |
