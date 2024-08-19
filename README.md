@@ -870,8 +870,7 @@
 | MSI PL62 7RC              | [链接](https://github.com/juanlatorre/MSI-PL62-7RC-OC-Hackintosh)                                                                                                                                         |                                                                                      | Intel i5-7300HQ |
 | MSI Prestige 15           | [链接](https://github.com/KerKerOgh/MSI-Prestige-15-Hackintosh) [链接](https://github.com/wgjas2/MSI-Prestige-15-Hackintosh)<br />[链接](https://github.com/naturalBlacksmith/hackintosh-msi-prestige-15) |                                                                                      |                 |
 | MSI PS63 Modern 8RC       |                                                                                                                                                                                                           |                                                                                      |                 |
-                                                                                  |                 |
-
+        
 
 ### Razer Blade 雷蛇
 
