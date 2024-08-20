@@ -1265,6 +1265,7 @@
 | Dell Vostro 3267                           | [链接](https://github.com/Drovosek01/hackintosh_DELL_Vostro_3267_i5-6400/blob/master/docs/ENG/README.md) |                                                              |                                                              |
 | Dell Vostro 3669                           | [链接](https://github.com/daliansky/Dell_Vostro_3669_Hackintosh) |                                                              |                                                              |
 | Dell Vostro 3470                           | [链接](https://github.com/sunnycityf/Dell-Vostro-3470-OpenCore-EFI) |                                                              |                                                              |
+| Dell Vostro 3681                           | [链接](https://github.com/wjx0912/dell_3681_hackintosh_opencore) |                                                              | i7-10700 + intel AX210                                       |
 | Dell XPS 8940                              | [链接](https://github.com/daniyo27/XPS8940-OpenCore)         |                                                              | 可能也支持 Dell G5 5090 Gaming Desktop<br />网卡推荐：[BCM94360Z4](https://hackintosher.taobao.com) |
 | Dell XPS 8940                              | [链接](https://github.com/LongTaiJun/Dell-XPS-8940-Hackintosh) |                                                              |                                                              |
 
