@@ -870,6 +870,7 @@
 | MSI PL62 7RC              | [链接](https://github.com/juanlatorre/MSI-PL62-7RC-OC-Hackintosh)                                                                                                                                         |                                                                                      | Intel i5-7300HQ |
 | MSI Prestige 15           | [链接](https://github.com/KerKerOgh/MSI-Prestige-15-Hackintosh) [链接](https://github.com/wgjas2/MSI-Prestige-15-Hackintosh)<br />[链接](https://github.com/naturalBlacksmith/hackintosh-msi-prestige-15) |                                                                                      |                 |
 | MSI PS63 Modern 8RC       |                                                                                                                                                                                                           |                                                                                      |                 |
+        
 
 ### Razer Blade 雷蛇
 
@@ -1222,7 +1223,9 @@
 | Asus ROG MAXIMUS XIII HERO | [链接](https://github.com/Dave1482/Maximus-XIII-Hero-Z590-11900K-6800XT-OpenCore-EFI-Public) | |  |
 | ASUS PRIME Z590-P | [链接](https://github.com/rafaelmaeuer/Asus-Z590-P-Hackintosh) | | 网卡推荐：[BCM94360CD](https://hackintosher.taobao.com) |
 | ASUS ROG Z590-A-Gaming-WIFI-II | [链接](https://github.com/cuihairu/ROG-STRIX-Z590-A-i910900K-RX6900XT-Hackintosh) | | i9-10900k + RX6900XT <br />网卡推荐：[BCM94360CD](https://hackintosher.taobao.com) |
+| ASUS ROG STRIX Z690-A GAMING WIFI | [链接](https://github.com/cuihairu/ROG-STRIX-Z690-A-GAMING-WIFI-i513600KF-RX6600XT-Hackintosh) | | i5-13600kF + RX6600XT <br />网卡推荐：[BCM94360CD](https://hackintosher.taobao.com) |
 | Asus Prime Z690M Plus | [链接](https://github.com/Xmingbai/ASUS-Z690M-PLUS-hackintosh) | |  |
+| ASUS TUF GAMING B760M-PLUS WIFI | [链接](https://github.com/cuihairu/TUF-GAMING-B760M-PLUS-WIFI-i714700KF-RX6950XT-Hackintosh) | | i7-14700kF + RX6950XT <br />网卡推荐：[BCM94360CD](https://hackintosher.taobao.com) |
 | ASUS PRIME Z790 P WIFI D4 | [链接](https://github.com/Fu-Yuxuan-hub/ASUS-PRIME-Z790-P-WIFI-D4-HACKINTOSH) | | |
 | Asus X299 PRIME DELUXE II      | [链接](https://github.com/yifan-gu/hackintosh)               |          | i9 7980XE + Radeon VII<br />网卡推荐：[BCM94360CD](https://hackintosher.taobao.com) |
 | Asus X299                      |      |          |                                                              |
@@ -1504,7 +1507,8 @@
 | MSI Z490i Unify                                   | [链接](https://github.com/kingwood77/MSI-Z490i-Unify-Hackintosh) [链接](https://github.com/wjz304/Hackintosh-EFI-MSI-Z490i-Unify)<br />[链接](https://github.com/diskerror/EFI) |                                                              | i5-10400 / RX580                                             |
 | MSI Z490 S01                                      | [链接](https://github.com/jdjxk/Hackintosh_OpenCore_Z490_i9_10850K_RX5500XT) |                                                              | 网卡推荐：[BCM94360CD](https://hackintosher.taobao.com)      |
 | MSI Z490 GODLIKE                                  | [链接](https://github.com/cuihairu/MEG-Z490-GODLIKE-i910900K-RX6900XT-Hackintosh) |                                                              | i9-10900k + RX6900XT <br />网卡推荐：[BCM94360CD](https://hackintosher.taobao.com) |
-| MSI Z590i Unify                                   | [链接](https://github.com/malibio/msi-z590i-unify-opencore)  |                                                              |                                                              |
+| MSI Z590i Unify                                   | [链接](https://github.com/malibio/msi-z590i-unify-opencore)  |                                                              |                                                              |                                                                                 |                 
+| MSI PRO H610M-E                                   | [链接](https://github.com/cuihairu/MSI-PRO-H610M-E-i3-12100F-RX580-Hackintosh) |                                            | Intel i3-12100F RX580  网卡推荐：[BCM94360CD](https://hackintosher.taobao.com)    ||                
 | MSI MPG Z690 EDGE TI                              | [链接](https://github.com/igarashikenshin/Hackintosh-MSI-Z690-EDGE-TWD4_i7-12700K_RX6800XT) |                                                              |                                                              |
 | MSI Z790i EDGE                                    | [链接](https://github.com/conversun/Hackintosh-MSI-Z790i-EDGE-13900K-6900XT-OpenCore) |                                                              |                                                              |
 | MSI Z97 Gaming 5                                  | [链接](https://github.com/plcharriere/Hackintosh/blob/master/Z97G5/) |                                                              | i5-4690K                                                     |
