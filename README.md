@@ -111,6 +111,7 @@
 | Acer A515-51G-58VH          |                                                              |                                                              |                                                  |
 | Acer A515-52G-58LZ | [链接](https://github.com/tucano3000/ACER-A515-52G-58LZ-HACKINTOSH-OPENCORE) | | |
 | Acer A715                   | [链接](https://github.com/WangGang-a1/Acer-A715-EFI)         |                                                              |                                                  |
+| Acer Aspire 7 Gaming | [链接](https://github.com/long5436/Ryzentosh-Acer-aspire-7-A715-42G-Opencore-EFI) | | AMD Ryzen 5 5500U |
 | Acer Aspire 7 A715-75G-50SA | [链接](https://github.com/AbhaySingh15/Acer-aspire-7-A715-75G-Opencore-EFI) | | |
 | Acer Aspire 7 A715-75G-50TA | [链接](https://github.com/ambujs89/acer-aspire-7-A715-75G-50TA-Opencore-EFI)                                                                                                                                     |                                                                                      |                                            |
 | Acer Aspire E1-471G         | [链接](https://github.com/matthew728960/Clover-ACER-E1-471G) | [链接](https://github.com/matthew728960/Clover-ACER-E1-471G/blob/master/README.md) | ACER Aspire E1-471g                              |
@@ -131,6 +132,7 @@
 | Acer F5-573G                |                                                              |                                                              |                                                  |
 | Acer F5-573G-55PJ           |                                                              |                                                              |                                                  |
 | Acer F5-573g-75A3           | [链接](https://github.com/vinicioslc/HACKINTOSH-ACER-F5-573G-75A3) |                                                              |                                                  |
+| Acer Nitro 5 AN515-44-R99Q | [链接](https://github.com/myusernameisvista/Acer-Nitro-5-AN515-44-Ryzentosh-EFI) | | AMD Ryzen 5 4600H |
 | Acer Nitro 5 AN515-50U2     | [链接](https://github.com/Lojhan/EFI-ASPIRE-5-NITRO-AN515-50U2) |                                                              |                                                  |
 | Acer Nitro 5 AN515-52       | [链接](https://github.com/tien191web/Acer-Nitro5-AN515-52-EFIhackintosh) |                                                              |                                                  |
 | Acer Nitro 5 AN515-52-593F | [链接](https://github.com/ezyway/EFI-AN515-52-593F) | | |
@@ -209,9 +211,11 @@
 | Asus ROG GL552VX                  | [链接](https://github.com/xuanquydsr/Gl552VX-Mojave) [链接](https://github.com/ifuncoding/EFI-OC-ROG-gl552vx) |                                                              |                                                              |
 | Asus ROG GL553VD                  | [链接](https://github.com/MohammadtaghiFarkhondekar/macOS-Mojave-For-Asus-ROG-GL553VD) |                                                              |                                                              |
 | Asus ROG Strix Hero II GL504GM    | [链接](https://github.com/664235822/EFI-OpenCore)            |                                                              | 华硕玩家国度 ROG 魔霸 2                                      |
+| Asus ROG X13 Flow | [链接](https://github.com/zabdottler/ROG-X13-Flow-hackintosh) | | 华硕幻 13 AMD Ryzen 9 5900HS |
 | Asus ROG Zephyrus M GM501GS       | [链接](https://github.com/kylergib/Asus-Zephyrus-M-gm501gs-Mojave) |                                                              |                                                              |
 | Asus ROG Zephyrus M15 GU502LW     | [链接](https://github.com/RmondJone/ROG-Zephyrus-M15-Hackintosh-GU502LW) |                                                              | 华硕玩家国度幻15                                             |
 | Asus ROG Zephyrus S GX531GS       |                                                              |                                                              | 华硕玩家国度冰刃 3                                           |
+| Asus ROG-Zephyrus-G14-GA401(2020-2021) | [链接](https://github.com/PIut02/ROG-Zephyrus-G14-GA401-Hackintosh) | | 华硕幻14<br />AMD Ryzen 7 4800HS/5800HS |
 | Asus ROG GL703ge                  |                                                              |                                                              |                                                              |
 | ASUS ROG GL753VD | [链接](https://github.com/namxg6626/Asus-GL753VD-hackintosh-opencore) | | |
 | Asus ROG Strix G17 G712LW | [链接](https://github.com/tueminh192/Asus-g712lw-prebuilt-efi) | | |
@@ -512,6 +516,7 @@
 | ----------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | HP ProBook/EliteBook<br />ZBook 系列            | [链接](https://github.com/RehabMan/HP-ProBook-4x30s-DSDT-Patch) | [链接](https://www.tonymacx86.com/threads/guide-hp-probook-elitebook-zbook-using-clover-uefi-hotpatch.261719/) | 除 8x60W,8x70W 系列之外的机型，<br />二代 CPU 及之前的机型仅支持到 10.13.x |
 | HP Envy Haswell J/K/Q/N<br />系列笔记本         | [链接](https://github.com/RehabMan/HP-Envy-DSDT-Patch)       | [链接](https://www.tonymacx86.com/threads/guide-hp-envy-haswell-series-j-k-q-n-using-clover-uefi.261724/) | 仅 4 代 envy 机型                                            |
+| HP 14S-FQ1000NA                                 | [链接](https://github.com/vijinho/OpenCore-HP14S-FQ1000NA)   |                                                              | AMD Ryzen 5500U                                              |
 | HP 15 BS661TX                                   | [链接](https://github.com/sortedcord/hp15bs661tx-hackintosh) |                                                              |                                                              |
 | HP 15 D062TU                                    | [链接](https://github.com/khanhtran-cse/hp-15-d062tu-hackintosh) |                                                              |                                                              |
 | HP 15 da0004tu                                  | [链接](https://github.com/Flashminat0/hp-15-da0004tu-notbook-big-sur-efi) |                                                              |                                                              |
@@ -588,6 +593,7 @@
 | HP Spectre X360 15-bl112dx                      | [链接](https://github.com/WoadZS/HP-Spectre-X360-15-Hackintosh) |                                                              |                                                              |
 | HP Spectre X360 13 late 2018                    | [链接](https://github.com/SeptemberHX/HP-Spectre-X360-13-late-2018-Hackintosh) |                                                              |                                                              |
 | HP EliteDesk 800-G3-Mini                        | [链接](https://github.com/francoisminh/Hackintosh-EliteDesk-800-G3-Mini-65W) | [链接](https://github.com/francoisminh/Hackintosh-EliteDesk-800-G3-Mini-65W/blob/master/README.md) |                                                              |
+| HP Zhan 66 AMD                                  | [链接](https://github.com/fangqiangfly/HP-ZHAN66-AMD-hackintosh) |                                                              | AMD Ryzen 7 3700U                                            |
 | HP Zhan 66 Pro G1                               | [链接](https://github.com/A-Linz/Hackintosh-HP-Zhan-66-Pro-G1) [链接](https://github.com/RenAmamiya/HP-Zhan-66-Pro-G1) |                                                              |                                                              |
 | HP ZHAN 66 PRO 14 G2                            | [链接](https://github.com/peihexian/HP-ZHAN-66-Pro-14-G2)    |                                                              |                                                              |
 | HP ZHAN99 zbook 15v g5                          | [链接](https://github.com/rote66/Hackintosh_HP_ZBOOK15VG5)   |                                                              |                                                              |
@@ -598,7 +604,7 @@
 | 惠普暗影精灵 2 15-ax015TX                       | [链接](https://github.com/a13134455667/HP-15-ax015TX-MAC10.15.4-OC-EFI) |                                                              | OpenCore 0.6.0 / Big Sur                                     |
 | 暗影精灵 II 代 Pro <br />HP OMEN 15-ax214TX     | [链接](https://github.com/ZGGSONG/HP-OMEN-15-ax214TX-Hackintosh) |                                                              |                                                              |
 | 暗影精灵 2 Pro HP OMEN 15-ax225TX               | [链接](https://github.com/Cruii/HP-OMEN-15-ax225TX) [链接](https://github.com/XStar-Dev/HP_OMEN-2Pro_Hackintosh)<br />[链接](https://github.com/sve1r/OMEN-By-HP-15-ax225TX-Hackintosh-EFI) |                                                              |                                                              |
-| 暗影精灵 2 Pro HP OMEN 15-ax218TX               | [链接](https://github.com/liyafe1997/hackintosh-hp-omen-15-2017-EFI)  |                                                              | 基于Clover 5151，自用macOS 13 Ventura<br>能往下兼容到10.15甚至更低<br>理论上HP暗影2Pro系列各细分型号通用<br>（ax225TX/218TX/214TX等等） |
+| 暗影精灵 2 Pro HP OMEN 15-ax218TX               | [链接](https://github.com/liyafe1997/hackintosh-hp-omen-15-2017-EFI) |                                                              | 基于Clover 5151，自用macOS 13 Ventura<br>能往下兼容到10.15甚至更低<br>理论上HP暗影2Pro系列各细分型号通用<br>（ax225TX/218TX/214TX等等） |
 | 惠普光影精灵 3(HP Pavilion 15-cb0xx)            | [链接](https://github.com/zty199/HP_Pavilion_15-cb073tx_Hackintosh) |                                                              | 希望能继续维护                                               |
 | 暗影精灵 I (惠普 PAVILION Gaming NB 15-ak039TX) | [链接](https://github.com/lgs3137/PAVILION_Gaming_NB-macOS)  |                                                              | 除了独显、Intel 无线网卡，其他功能模块正常(包括 HDMI 视频)   |
 | HP Pavillion Gaming Laptop 15-cx0xxx            | [链接](https://github.com/mechtifs/hackintosh-clover-hp-pavillion-15-cx0xxx) |                                                              | 惠普光影精灵 4                                               |
@@ -620,6 +626,7 @@
 | 华为 Matebook 13         | [链接](https://github.com/Edoardo001/Matebook-13-Hackintosh) [链接](https://github.com/ske1996/matebook-13-2019-oc-efi) |                                                              |                                                              |
 | 华为 Matebook 14         | [链接](https://github.com/frezs/MateBook14-Hackintosh)       |                                                              |                                                              |
 | 华为 Matebook D          | [链接](https://github.com/MOJUNSHOU/MateBooK-D) [链接](https://github.com/Zero-zer0/Matebook_D_2018_Hackintosh_OpenCore) |                                                              | 华为 MateBook D2018 i5-8250U 15.6 寸<br />网卡推荐：[BCM94360Z4](https://hackintosher.taobao.com) |
+| Huawei Matebook D14 AMD (2020) | [链接](https://github.com/herrnst/HuaweiMatebookD14AMD-OpenCore) | | AMD Ryzen 5 3500U |
 | 荣耀 Magicbook           | [链接](https://github.com/hjmmc/Honor-Magicbook) [链接](https://github.com/buseQ/magicbook-hackintosh-opencore-i7-8550u) | [链接](https://github.com/hjmmc/Honor-Magicbook/blob/master/README_CN.md) | 网卡推荐：[BCM94360Z4](https://hackintosher.taobao.com)      |
 | 荣耀 Magicbook-Pro-16.1  | [链接](https://github.com/GatesYang/Magicbook-Pro-16.1-Hackintosh) |                                                              |                                                              |
 | 华为 Matebook 14 2020 款 | [链接](https://github.com/Zero-zer0/Matebook_13_14_2020_Hackintosh_OpenCore) |                                                              | 华为 Matebook 13 / 14 2020 十代 通用                         |
@@ -633,6 +640,7 @@
 | Lenovo Flex 15                     | [链接](https://github.com/aytic/Lenovo-Flex-15-Hackintosh)   | [链接](https://github.com/aytic/Lenovo-Flex-15-Hackintosh/blob/master/README.md) | Lenovo Flex 15                                               |
 | Lenovo Ideapad S145-15IWL          | [链接](https://github.com/boffik/LenovoS145-15IWL_OpenCore) [链接](https://github.com/Ninjacornix/Lenovo-S145-15IWL-Big-sur-OC-EFI) |                                                              |                                                              |
 | Lenovo ideapad 3 14iil05           | [链接](https://github.com/DagerDW/Lenovo-ideapad-3-14iil05-Hackintosh) |                                                              | i5-1035G4 Ice Lake-U                                         |
+| Lenovo IdeaPad 3 15ALC6 | [链接](https://github.com/mariolandossa/hackintosh_EFI) | | AMD Ryzen 7 5700U |
 | Lenovo IdeaPad 100-15IBY | [链接](https://github.com/BugsMover/Hackintosh_IdeaPad-100-15IBY) | |  |
 | Lenovo IdeaPad 300-15ISK           | [链接](https://github.com/reaink/lenovo-ideapad-300-15isk-hackintosh)         | [链接](https://github.com/reaink/lenovo-ideapad-300-15isk-hackintosh) |                                                              |
 | Lenovo Ideapad 310-14IKB           | [链接](https://github.com/29satnam/LenovoHackintosh)         | [链接](https://github.com/29satnam/LenovoHackintosh/blob/master/README.md) |                                                              |
@@ -644,6 +652,7 @@
 | Lenovo Ideapad 320-14ISK           | [链接](https://github.com/dickymuliafiqri/Lenovo-Ideapad-320-14ISK-Hackintosh) |                                                              |                                                              |
 | Lenovo Ideapad 330s-14IKB          | [链接](https://github.com/chrisru26/LenovoIdeapad330s-14ikb-Hackintosh) |                                                              |                                                              |
 | Lenovo Ideapad S340                | [链接](https://github.com/4mitabh/Ideapad_S340) [链接](https://github.com/IvanAleksandrov94/Lenovo-s340-Big-Sur-OpenCore-i5-8265u) |                                                              |                                                              |
+| Lenovo Ideapad s340 14api | [链接](https://github.com/ho1yspirt/ideapad-s340-14api-hackintosh) | | AMD  Ryzen 5 3500U |
 | Lenovo Ideapad 510-15IKB           | [链接](https://github.com/trgcyln/Lenovo-Hackintosh)         |                                                              |                                                              |
 | Lenovo Ideapad S540 14IWL          | [链接](https://github.com/Baio1977/EFI-Varie-Hackintosh/tree/main/EFI%20Laptop%20/LENOVO/Ideapad%20S540%2014IWL) |                                                              |                                                              |
 | Lenovo Ideapad 700-15ISK           | [链接](https://github.com/athlonreg/Lenovo-XiaoXin700-15ISK) | [链接](https://github.com/athlonreg/Lenovo-XiaoXin700-15ISK/blob/master/README.md) | Lenovo-XiaoXin700-15ISK                                      |
@@ -675,7 +684,7 @@
 | Lenovo ThinkPad L14 Gen1 | [链接](https://github.com/soft98-top/Lenovo-ThinkPad-L14-Gen1-i7-10510u-Hackintosh) |  | |
 | ThinkPad L430                      | [链接](https://github.com/yaza-putu/lenovo-thinkpad-l430)    |                                                              |                                                              |
 | ThinkPad L440                      |                                                              |                                                              |                                                              |
-| ThinkPad L470                      | [链接](https://github.com/SquarePeace/ThinkPadL470-OpenCoreEFI)  | [链接](https://github.com/SquarePeace/ThinkPadL470-OpenCoreEFI/blob/master/README.md) | 
+| ThinkPad L470                      | [链接](https://github.com/SquarePeace/ThinkPadL470-OpenCoreEFI)  | [链接](https://github.com/SquarePeace/ThinkPadL470-OpenCoreEFI/blob/master/README.md) ||
 | ThinkPad L490                      | [链接](https://github.com/twislyn/Hackintosh-ThinkPad-L490)  | [链接](https://github.com/twislyn/Hackintosh-ThinkPad-L490/blob/master/README.md) |                                                              |
 | Lenovo miix 520                    | [链接](https://github.com/acai66/lenovo-miix-520-hackintosh-10.14-CLOVER) |                                                              |                                                              |
 | Lenovo Rescuer R720-15IKBN         | [链接](https://github.com/happylzyy/Hackintosh-Lenovo-R720)  |                                                              |                                                              |
@@ -687,6 +696,7 @@
 | 锐 7000                            | [链接](https://github.com/839891627/Lenovo_RUI7000_Hackintosh) |                                                              | 联想 80WB 笔记本电脑                                         |
 | ThinkPad S1 2017                   | [链接](https://github.com/bugprogrammer/hackintosh/tree/ThinkPad-S1-2017) |                                                              | ThinkPad S1 2017                                             |
 | ThinkPad S1 2018                   | [链接](https://github.com/bugprogrammer/hackintosh/tree/ThinkPad-S1-2018) |                                                              | ThinkPad S1 2018                                             |
+| Thinkpad T14 | [链接](https://github.com/nguyenminhhao9988/EFI-thinkpad-T14-gen-2-AMD) | | AMD Ryzen 7 5850U |
 | ThinkPad T420 系列                 | [链接](https://github.com/tluck/Lenovo-T420-Clover)          | [链接](https://www.insanelymac.com/forum/topic/285678-lenovo-thinkpad-t420-with-uefi-only/?page=20&tab=comments#comment-1952283) | 包含 T420、T420s、T520、X220X220，<br />可通过修改支持到 10.14.x |
 | ThinkPad T430                      | [链接](https://github.com/hai666l/T430-EFI)                  |                                                              |                                                              |
 | ThinkPad T430s                     | [链接](https://github.com/hunga1ok/hackintosh-t430si7vga-clover-config) [链接](https://github.com/Xiaoheixu/Thinkpad-T430-s-OpenCorteBootloader) |                                                              |                                                              |
@@ -726,6 +736,8 @@
 | Lenovo XiaoXin Rui 7000            | [链接](https://github.com/Erf172/Lenovo_XiaoXin_Rui7000_Hackintosh) | [链接](https://github.com/Erf172/Lenovo_XiaoXin_Rui7000_Hackintosh/blob/10.12/README.md) |                                                              |
 | Lenovo XiaoXin Chao 7000           | [链接](https://github.com/periky/lenovo-xiaoxinchao7000-14ikbr-efi) |                                                              | 联想小新潮 7000，已支持 14 寸、<br />12.5 寸、13.3 寸，15 寸以及 <br />13.3 寸的完美支持后续会添加，<br />请期待…… |
 | Lenovo XiaoXin V4000               | [链接](https://github.com/IBeliveDream/i7-5500u-macos)       |                                                              |                                                              |
+| Lenovo Xiaoxin-15ARE 2020 | [链接](https://github.com/Zrc00/Lenovo-Xiaoxin-15ARE-AMD-4800U-Hackintosh) | | AMD 4800U |
+| ThinkBook 13s G3 | [链接](https://github.com/HornHon/ThinkBook-13s-G3-ACN-OpenCore) | | AMD 5600U |
 | ThinkPad X1 3rd                    | [链接](https://github.com/shockingpants/ThinkpadX1Y3) [链接](https://github.com/daipham31/ThinkPadX1-Gen3-EFI-Catalina)<br />[链接](https://github.com/CLAY-BIOS/Lenovo-ThinkPad-T450s-Hackintosh-Big-Sur-OpenCore) | [链接](https://www.tonymacx86.com/threads/guide-thinkpad-x1-yoga-3rd-gen-20ld-with-mojave.261823/) | ThinkPad X1 3 代                                             |
 | ThinkPad X1 Carbon 2015            | [链接](https://github.com/transtone/hackintosh/tree/master/x1c-2015) [链接](https://github.com/Derekxxzzyy/Thinkpad-X1-Carbon-3rd-Hackintosh-OC-EFI) <br />[链接](https://github.com/CLAY-BIOS/Lenovo-ThinkPad-T450s-Hackintosh-Big-Sur-OpenCore) |                                                              |                                                              |
 | ThinkPad X1 Carbon 2016            | [链接](https://github.com/lzjqsdd/Thinkpad-X1C4-Hackintosh)  |                                                              | ThinkPad X1 Carbon 4th Gen                                   |
@@ -754,7 +766,9 @@
 | Lenovo IdeaPad Y430P               | [链接](https://github.com/Z39/Y430p-OS-X-Clover-Hotpatch)    |                                                              | 感谢：[39 军小兵张](http://i.pcbeta.com/space-uid-4472739.html) |
 | Lenovo IdeaPad Y510P               | [链接](https://github.com/Z39/Y510p-OS-X-Clover-Hotpatch)    |                                                              | 感谢：[39 军小兵张](http://i.pcbeta.com/space-uid-4472739.html) |
 | Lenovo Y520/Y720                   | [链接](https://github.com/the-braveknight/Lenovo-Y520-macOS) [链接](https://github.com/adrianjagielak/lenovo_y520_efi) | [链接](https://www.tonymacx86.com/threads/guide-lenovo-legion-y520-y720-using-clover-uefi.261009/) | 联想 Y520 及 Y720                                            |
+| Lenovo Legion 5 17ACH6H | [链接](https://github.com/danielrumata/Legion-5800H-Hackintosh) |  | AMD Ryzen 5800H & NVIDIA RTX 3060 |
 | Legion 5 15IMH05a                | [链接](https://github.com/abhishek110022/Legion-5-15IMH05a-Hackintosh)                                                                                                                                                                                                                                                              |                                                                                                                                                               |                                                                                   |
+| Legion 5 15ARH05H | [链接](https://github.com/Aliezan/Legion-5-15ARH05H-EFI) | | **AMD RYZEN7 4800H** |
 | Lenovo Legion 5i                   | [链接](https://github.com/LuckyCrack/Legion-5i-EFI) [链接](https://github.com/abhishek110022/Legion-5-15IMH05a-Hackintosh) |                                                              | i5-10300H                                                    |
 | Lenovo Legion Y520                 | [链接](https://github.com/adrianjagielak/lenovo_y520_efi)    |                                                              |                                                              |
 | Lenovo Legion Y530                 | [链接](https://github.com/adrianjagielak/lenovo_y530_efi)    |                                                              |                                                              |
@@ -765,6 +779,7 @@
 | Lenovo Legion Y7000<br />Y530 系列 | [链接](https://github.com/xiaoMGitHub/Lenovo_Y7000-Y530_Hackintosh/) [链接](https://github.com/ahossny/Legion-Y530-Hackintosh) |                                                              | 全新完美 EFI，舍弃了小键盘                                   |
 | Lenovo Y7000P 81T1                 | [链接](https://github.com/gclm/Hackintosh-LEGION-Y7000P-I7-9750H) |                                                              | I7-9750H                                                     |
 | Lenovo Y9000X                      | [链接](https://github.com/programbw/y9000x) [链接](https://github.com/hsd815/Y9000X-4K-hackintosh) [链接](https://github.com/WangRicky/Y9000X-HACKINTOSH) [链接](https://github.com/snxiang/Y9000X-Hackintosh-FHD-OpenCore) |                                                              | 支持 CNVi 直插 m.2 网卡，网卡推荐：[BCM94360Z4](https://hackintosher.taobao.com) |
+| Lenovo R9000P | [链接](https://github.com/EricMoin/R9000P2021-AMD5800H-Hackintosh) | | AMD 5800H |
 | Lenovo Y9000X 2020                 | [链接](https://github.com/Corazon0513/Y9000X-2020-i9-Hackintosh) |                                                              | 网卡推荐：[BCM94360Z4](https://hackintosher.taobao.com) |
 | Lenovo Yoga 3 Pro 1370             | [链接](https://github.com/gdllzkusi/hackintosh--lenovo-Yoga-3-Pro-1370) | [链接](https://github.com/gdllzkusi/hackintosh--lenovo-Yoga-3-Pro-1370/blob/master/README.md) | 联想 yaga3/pro                                               |
 | ThinkPad Yoga 12                   | [链接](https://github.com/gartempe/MacOS-Thinkpad-Yoga-12) [链接](https://github.com/kymodoke/MacOS-Thinkpad-Yoga-12) | [链接](https://github.com/gartempe/MacOS-Thinkpad-Yoga-12/blob/master/README.md) [链接](https://github.com/kymodoke/MacOS-Thinkpad-Yoga-12/blob/master/README.md) |                                                              |
@@ -866,11 +881,11 @@
 | MSI GT60 16F4 | [链接](https://github.com/lakent/MSI-16F4-Hackintosh) | | |
 | MSI GV62 7RE              | [链接](https://github.com/amogh-w/Hackintosh-MSI-GV62-7RE)                                                                                                                                                |                                                                                      |                 |
 | MSI Modern 15 A10M        | [链接](https://github.com/hla63/Msi-modern-15-Hackintosh) [链接](https://github.com/AndresGarciaSobrado91/MSI-Modern15-Hackintosh)                                                                        |                                                                                      |                 |
-| MSI Modern 15 A5M         | [链接](https://github.com/saeidex/ryzentosh-msi-modern-15)                                                                                                                                                |                                                                                      | Ryzen 5 5500u   |
+| MSI Modern 15 A5M         | [链接](https://github.com/saeidex/ryzentosh-msi-modern-15)                                                                                                                                                |                                                                                      | AMD Ryzen 5 5500u |
 | MSI PL62 7RC              | [链接](https://github.com/juanlatorre/MSI-PL62-7RC-OC-Hackintosh)                                                                                                                                         |                                                                                      | Intel i5-7300HQ |
 | MSI Prestige 15           | [链接](https://github.com/KerKerOgh/MSI-Prestige-15-Hackintosh) [链接](https://github.com/wgjas2/MSI-Prestige-15-Hackintosh)<br />[链接](https://github.com/naturalBlacksmith/hackintosh-msi-prestige-15) |                                                                                      |                 |
 | MSI PS63 Modern 8RC       |                                                                                                                                                                                                           |                                                                                      |                 |
-        
+
 
 ### Razer Blade 雷蛇
 
@@ -998,6 +1013,7 @@
 | 51nb T70 ThinkPad 副厂主板  | [链接](https://github.com/51nbT70CLOVER/51nb-T70-Hackintosh)                         |                                                                              |                                                                                                             |
 | Medion Erazer P7647 | [链接](https://github.com/axemre/OpenCore-Medion-Erazer-P7647) | | |
 | Infinix INBook X1 | [链接](https://github.com/devboloji/Infinix-Hackintosh-Guide-Opencore_INBook_X1_XL11_i3-) | | |
+| Mechrevo Jiaolon-76Q | [链接](https://github.com/top1Ashier/Mechrevo-Jiaolong-76Q-Hackintosh) | | AMD Ryzen 7 5800h |
 
 
 ### 笔记本更多的机型
