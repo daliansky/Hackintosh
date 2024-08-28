@@ -1243,6 +1243,7 @@
 | Asus Prime Z690M Plus | [链接](https://github.com/Xmingbai/ASUS-Z690M-PLUS-hackintosh) | |  |
 | ASUS TUF GAMING B760M-PLUS WIFI | [链接](https://github.com/cuihairu/TUF-GAMING-B760M-PLUS-WIFI-i714700KF-RX6950XT-Hackintosh) | | i7-14700kF + RX6950XT <br />网卡推荐：[BCM94360CD](https://hackintosher.taobao.com) |
 | ASUS PRIME Z790 P WIFI D4 | [链接](https://github.com/Fu-Yuxuan-hub/ASUS-PRIME-Z790-P-WIFI-D4-HACKINTOSH) | | |
+| ASUS ProArt Z790 CREATOR WIFI | [链接]([https://github.com/cuihairu/ROG-STRIX-Z590-A-i910900K-RX6900XT-Hackintosh](https://github.com/cuihairu/ProArt-Z790-CREATOR-WIFI-RX6950XT-i914900K-Hackintosh)) | | i9-14900k + RX6950XT <br />网卡推荐：[BCM94360CD](https://hackintosher.taobao.com) |
 | Asus X299 PRIME DELUXE II      | [链接](https://github.com/yifan-gu/hackintosh)               |          | i9 7980XE + Radeon VII<br />网卡推荐：[BCM94360CD](https://hackintosher.taobao.com) |
 | Asus X299                      |      |          |                                                              |
 | Asus ROG STRIX X299-E GAMING   | [链接](https://github.com/Fansaly/X299-STRIX-macOS)          |          | INTEL® CORE™ i7-7800X<br />网卡推荐：[BCM94360CD](https://hackintosher.taobao.com) |
