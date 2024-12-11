@@ -676,7 +676,9 @@
 | ThinkPad E470                      | [链接(CLOVER)](https://github.com/y010204025/E470-clover) [链接(OC)](https://github.com/ihwf/Lenovo_ThinkPad_E470_Hackintosh)            |                                                              |                                                              |
 | ThinkPad E480                      | [链接](https://github.com/aliyoge/Hackintosh-ThinkPad-E480) [链接](https://github.com/SukkaW/ThinkPad-E480-Hackintosh) | [链接](https://github.com/aliyoge/Hackintosh-ThinkPad-E480/blob/master/README.md) |                                                              |
 | ThinkPad E490                      | [链接](https://github.com/dievdmitry/Thinkpad-E490-hackintosh) |                                                              |                                                              |
-| ThinkPad e490s | [链接](https://github.com/KrauseKurt/e490s-opencore-hackintosh) | | |
+| ThinkPad E490s | [链接](https://github.com/KrauseKurt/e490s-opencore-hackintosh) | | |
+| Thinkpad E495 | [链接](https://github.com/EraserCN/ThinkPad-E495-Hackintosh) | | |
+| Thinkpad E595 | [链接](https://github.com/EraserCN/ThinkPad-E595-Hackintosh) | | |
 | ThinkPad E540                      | [链接](https://github.com/wwbhl/E540)                        |                                                              |                                                              |
 | ThinkPad E550                      | [链接](https://github.com/the-braveknight/Lenovo-ThinkPad-E550-DSDT-Patch) | [链接](https://www.tonymacx86.com/threads/guide-lenovo-thinkpad-e550-haswell-using-clover-uefi-10-11.214675/) | E550 四代 CPU                                                |
 | ThinkPad E560                      | [链接](https://github.com/rsdev69/Lenovo-E560-Clover)        | [链接](https://www.tonymacx86.com/threads/stable-lenovo-e560-full-work.248842/) |                                                              |
@@ -714,6 +716,7 @@
 | ThinkPad T480s                     | [链接](https://github.com/kk1987/T480s-hackintosh) [链接](https://github.com/bdragonh/T480S-BIGSUR-EFI)<br />[链接](https://github.com/bdragonh/T480S-BIGSUR-EFI) | [链接](https://github.com/kk1987/T480s-hackintosh/blob/master/README.md) | 网卡推荐：[DW1820A](https://hackintosher.taobao.com) |
 | ThinkPad T480s                     | [链接](https://github.com/kk1987/T480s-hackintosh) <br /> | [链接](https://github.com/kk1987/T480s-hackintosh/blob/master/README.md) | ThinkPad T480s<br />网卡推荐：[DW1820A](https://hackintosher.taobao.com) |
 | ThinkPad T490                      | [链接](https://github.com/yusifsalam/t490-macos)             |                                                              |                                                              |
+| Thinkpad T495 | [链接](https://github.com/EraserCN/ThinkPad-T495-Hackintosh) | | |
 | ThinkPad T530                      | [链接](https://github.com/m1qnet/ThinkPad-T530-Hackintosh) [链接](https://github.com/5T33Z0/Lenovo-T530-Hackinosh-OpenCore) |                                                              |                                                              |
 | ThinkPad T570                      | [链接](https://github.com/zxr615/ThinkPadT570_EFI)           |                                                              |                                                              |
 | ThinkPad T580                      | [链接](https://github.com/CrazyPegAsus/ThinkPad-T580-Hackintosh) |                                                              | 鸣谢：[CrazyPegasus](https://github.com/CrazyPegasus)        |
