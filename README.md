@@ -676,7 +676,9 @@
 | ThinkPad E470                      | [链接(CLOVER)](https://github.com/y010204025/E470-clover) [链接(OC)](https://github.com/ihwf/Lenovo_ThinkPad_E470_Hackintosh)            |                                                              |                                                              |
 | ThinkPad E480                      | [链接](https://github.com/aliyoge/Hackintosh-ThinkPad-E480) [链接](https://github.com/SukkaW/ThinkPad-E480-Hackintosh) | [链接](https://github.com/aliyoge/Hackintosh-ThinkPad-E480/blob/master/README.md) |                                                              |
 | ThinkPad E490                      | [链接](https://github.com/dievdmitry/Thinkpad-E490-hackintosh) |                                                              |                                                              |
-| ThinkPad e490s | [链接](https://github.com/KrauseKurt/e490s-opencore-hackintosh) | | |
+| ThinkPad E490s | [链接](https://github.com/KrauseKurt/e490s-opencore-hackintosh) | | |
+| Thinkpad E495 | [链接](https://github.com/EraserCN/ThinkPad-E495-Hackintosh) | | |
+| Thinkpad E595 | [链接](https://github.com/EraserCN/ThinkPad-E595-Hackintosh) | | |
 | ThinkPad E540                      | [链接](https://github.com/wwbhl/E540)                        |                                                              |                                                              |
 | ThinkPad E550                      | [链接](https://github.com/the-braveknight/Lenovo-ThinkPad-E550-DSDT-Patch) | [链接](https://www.tonymacx86.com/threads/guide-lenovo-thinkpad-e550-haswell-using-clover-uefi-10-11.214675/) | E550 四代 CPU                                                |
 | ThinkPad E560                      | [链接](https://github.com/rsdev69/Lenovo-E560-Clover)        | [链接](https://www.tonymacx86.com/threads/stable-lenovo-e560-full-work.248842/) |                                                              |
@@ -714,6 +716,7 @@
 | ThinkPad T480s                     | [链接](https://github.com/kk1987/T480s-hackintosh) [链接](https://github.com/bdragonh/T480S-BIGSUR-EFI)<br />[链接](https://github.com/bdragonh/T480S-BIGSUR-EFI) | [链接](https://github.com/kk1987/T480s-hackintosh/blob/master/README.md) | 网卡推荐：[DW1820A](https://hackintosher.taobao.com) |
 | ThinkPad T480s                     | [链接](https://github.com/kk1987/T480s-hackintosh) <br /> | [链接](https://github.com/kk1987/T480s-hackintosh/blob/master/README.md) | ThinkPad T480s<br />网卡推荐：[DW1820A](https://hackintosher.taobao.com) |
 | ThinkPad T490                      | [链接](https://github.com/yusifsalam/t490-macos)             |                                                              |                                                              |
+| Thinkpad T495 | [链接](https://github.com/EraserCN/ThinkPad-T495-Hackintosh) | | |
 | ThinkPad T530                      | [链接](https://github.com/m1qnet/ThinkPad-T530-Hackintosh) [链接](https://github.com/5T33Z0/Lenovo-T530-Hackinosh-OpenCore) |                                                              |                                                              |
 | ThinkPad T570                      | [链接](https://github.com/zxr615/ThinkPadT570_EFI)           |                                                              |                                                              |
 | ThinkPad T580                      | [链接](https://github.com/CrazyPegAsus/ThinkPad-T580-Hackintosh) |                                                              | 鸣谢：[CrazyPegasus](https://github.com/CrazyPegasus)        |
@@ -1073,7 +1076,7 @@
 | Asus ROG STRIX B550-A GAMING       | [链接](https://github.com/jerryhan77/asus-strix-b550-a-opencore) |                                                              |                                                              |
 | Asus ROG Strix B550-F Gaming       | [链接](https://github.com/FloridaMan7588/MacOS-efi)          |                                                              |                                                              |
 | Asus Rog Strix B550i               | [链接](https://github.com/huukhai/hackintosh-rog-b550i) [链接](https://github.com/tahmid-H/Asus-ROG-B550I-EFI) |                                                              |                                                              |
-| Asus TUF Gaming B550M-Plus         | [链接](https://github.com/ahmetdereli/Hackintosh-Opencore-Asus-TUF-Gaming-B550M-Plus-WI-FI-RX570) [链接](https://github.com/Purple-CSGO/Hackintosh-OpenCore-B550M-TUF-PLUS-WIFI-MacOS-EFI) [RYZENTOSH-5600-550M-RX6600](https://github.com/goozyshi/RYZENTOSH-5600-550M-RX6600)|                                                              |                                                              |
+| Asus TUF Gaming B550M-Plus         | [链接](https://github.com/ahmetdereli/Hackintosh-Opencore-Asus-TUF-Gaming-B550M-Plus-WI-FI-RX570) [链接](https://github.com/Purple-CSGO/Hackintosh-OpenCore-B550M-TUF-PLUS-WIFI-MacOS-EFI) 或 [R5-5600-550M-RX6600-6750GRE](https://github.com/goozyshi/RYZENTOSH-5600-550M-RX6600-6750GRE)|                                                              |                                                              |
 | Asus ROG CROSSHAIR VI HERO         | [链接](https://github.com/YWQBX/RyzenProEFI)                 |                                                              |                                                              |
 | Asus Crosshair VIII Hero           | [链接](https://github.com/steeve/ryzentosh)                  |                                                              |                                                              |
 | Asus X470 Pro                      | [链接](https://github.com/danielskowronski/BigSur_Hackintosh_on_ASUS_X470-PRO) |                                                              | 网卡推荐：[BCM94360CD](https://hackintosher.taobao.com)      |
@@ -1240,9 +1243,11 @@
 | ASUS PRIME Z590-P | [链接](https://github.com/rafaelmaeuer/Asus-Z590-P-Hackintosh) | | 网卡推荐：[BCM94360CD](https://hackintosher.taobao.com) |
 | ASUS ROG Z590-A-Gaming-WIFI-II | [链接](https://github.com/cuihairu/ROG-STRIX-Z590-A-i910900K-RX6900XT-Hackintosh) | | i9-10900k + RX6900XT <br />网卡推荐：[BCM94360CD](https://hackintosher.taobao.com) |
 | ASUS ROG STRIX Z690-A GAMING WIFI | [链接](https://github.com/cuihairu/ROG-STRIX-Z690-A-GAMING-WIFI-i513600KF-RX6600XT-Hackintosh) | | i5-13600kF + RX6600XT <br />网卡推荐：[BCM94360CD](https://hackintosher.taobao.com) |
+| ASUS ProArt Z690 CREATOR WIFI | [链接](https://github.com/cuihairu/ProArt-Z690-CREATOR-WIFI-W5700-i912900K-Hackintosh/blob/main/README.md) | | i9-12900K + W5700 <br />网卡推荐：[BCM94360CD](https://hackintosher.taobao.com) |
 | Asus Prime Z690M Plus | [链接](https://github.com/Xmingbai/ASUS-Z690M-PLUS-hackintosh) | |  |
 | ASUS TUF GAMING B760M-PLUS WIFI | [链接](https://github.com/cuihairu/TUF-GAMING-B760M-PLUS-WIFI-i714700KF-RX6950XT-Hackintosh) | | i7-14700kF + RX6950XT <br />网卡推荐：[BCM94360CD](https://hackintosher.taobao.com) |
 | ASUS PRIME Z790 P WIFI D4 | [链接](https://github.com/Fu-Yuxuan-hub/ASUS-PRIME-Z790-P-WIFI-D4-HACKINTOSH) | | |
+| ASUS ProArt Z790 CREATOR WIFI | [链接](https://github.com/cuihairu/ProArt-Z790-CREATOR-WIFI-RX6950XT-i914900K-Hackintosh) | | i9-14900k + RX6950XT <br />网卡推荐：[BCM94360CD](https://hackintosher.taobao.com) |
 | Asus X299 PRIME DELUXE II      | [链接](https://github.com/yifan-gu/hackintosh)               |          | i9 7980XE + Radeon VII<br />网卡推荐：[BCM94360CD](https://hackintosher.taobao.com) |
 | Asus X299                      |      |          |                                                              |
 | Asus ROG STRIX X299-E GAMING   | [链接](https://github.com/Fansaly/X299-STRIX-macOS)          |          | INTEL® CORE™ i7-7800X<br />网卡推荐：[BCM94360CD](https://hackintosher.taobao.com) |
@@ -1535,10 +1540,11 @@
 | **台式（部分）**             | 发布地址                                                     | 教程地址                                                 | 备注                                                         |
 | ---------------------------- | ------------------------------------------------------------ | -------------------------------------------------------- | ------------------------------------------------------------ |
 | Asus PN62                    | [链接](https://github.com/cuteribs/hackintosh/tree/master/ASUS_PN62) |                                                          |                                                              |
-| **Beelink SEi8**             | [链接](https://github.com/daliansky/Beelink-SEI8-Hackintosh) |                                                          | 小兵长期维护机型<br />网卡推荐：[BCM94360Z3](https://hackintosher.taobao.com) |
-| **Beelink SER5**             | [链接](https://github.com/daliansky/Beelink-SER5-Hackintosh) |                                                          | 小兵长期维护机型<br />网卡推荐：[BCM94360Z3](https://hackintosher.taobao.com) |
+| **Beelink EQR5**             | [链接](https://github.com/daliansky/Beelink-EQR5-Hackintosh) |                                                          | 小兵长期维护机型<br />网卡推荐：[BCM94360Z3](                |
+| Beelink SEi8                 | [链接](https://github.com/daliansky/Beelink-SEI8-Hackintosh) |                                                          | 小兵长期维护机型<br />网卡推荐：[BCM94360Z3](https://hackintosher.taobao.com) |
+| Beelink SER5                 | [链接](https://github.com/daliansky/Beelink-SER5-Hackintosh) |                                                          | 小兵长期维护机型<br />网卡推荐：[BCM94360Z3](https://hackintosher.taobao.com) |
 | Cloud Hin H170               | [链接](https://github.com/kdwycz/cloud-hin-h170-stx-hackintosh) [链接](https://github.com/matri/hipda-h170-opencore) |                                                          | 云轩 H170                                                    |
-| FEVM FN60G                   | [链接](https://github.com/daliansky/FEVM-FN60G-Hackintosh)   |                                                          | 小兵长期维护机型<br />网卡推荐：[BCM94360Z4](https://hackintosher.taobao.com) |
+| FEVM FN60G & V2 & WE 水冷    | [链接](https://github.com/daliansky/FEVM-FN60G-Hackintosh)   |                                                          | 小兵长期维护机型<br />网卡推荐：[BCM94360Z4](https://hackintosher.taobao.com) |
 | Deskmini-310                 | [链接](https://github.com/yuqi/Deskmini-310-Hackintosh)      |                                                          | Deskmini-310                                                 |
 | **GEEKOM miniFun9**          | [链接](https://github.com/daliansky/Geekom-miniFun9-Hackintosh) |                                                          | 小兵长期维护机型<br />网卡推荐：[BCM94360Z3](https://hackintosher.taobao.com) |
 | **GEEKOM miniFun11**         | [链接](https://github.com/daliansky/Geekom-miniFun11-Hackintosh) |                                                          | 小兵长期维护机型<br />网卡推荐：[BCM94360Z3](https://hackintosher.taobao.com) |
