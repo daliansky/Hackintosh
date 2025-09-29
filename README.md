@@ -968,6 +968,7 @@
 | RedmiBook14II | [链接](https://github.com/codeMauguin/RedmiBook14II-i5-1035G1-EFI) | | i5-1035G1 |
 | Xiaomi Redmibook 16  | [链接](https://github.com/elishevatavori/Xiaomi-Redmibook-16-Hackintosh)                                                                |                                                                                                             | i7-1065G7                                                                                                   |
 | Redmibook 14 XMA1901-AI | [链接](https://github.com/THLIVSQAZ/Redmibook14-XMA1901-AI-OpenCore) |            | i5-8250u|
+| 小米 RedmiBook 16    | [链接](https://github.com/XingKong746/RedmiBook16-Hackintosh)                                                                            |                                                                                                            | i5-1035G1 RedmiBook14II配置是一样的也可以试试 <br/> Releases 里的较旧版本支持 i7-1065G7 后面进行了重构没测试过，应该也是支持的 |
 
 ### Intel 英特尔
 
