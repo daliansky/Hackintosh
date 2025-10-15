@@ -968,6 +968,7 @@
 | RedmiBook14II | [链接](https://github.com/codeMauguin/RedmiBook14II-i5-1035G1-EFI) | | i5-1035G1 |
 | Xiaomi Redmibook 16  | [链接](https://github.com/elishevatavori/Xiaomi-Redmibook-16-Hackintosh)                                                                |                                                                                                             | i7-1065G7                                                                                                   |
 | Redmibook 14 XMA1901-AI | [链接](https://github.com/THLIVSQAZ/Redmibook14-XMA1901-AI-OpenCore) |            | i5-8250u|
+| 小米RedmiBook16      | [链接](https://github.com/XingKong746/RedmiBook16_I5-1035G1_Hackintosh)                                                                 |                                                                                                             | `i5-1035G1`、`i7-1065G7`也支持RedmiBook14II(因为配置一样)                                                    |
 
 ### Intel 英特尔
 
