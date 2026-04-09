@@ -10,15 +10,19 @@
 <details>
 <summary>更新日志</summary>
 
-更新日期：
+更新日期：2026年4月9日
 
-- 2024年3月4日
-  - 新增机型：
-    - FEVM FN60G
-    - minisforum UM480XT
-    - minisforum UM560XT
-    - minisforum UM580D/UM590
-    - minisforum NAG6
+- 新增机型：
+  - ASRock Z890I Nova WiFi
+  - ASUS Z890 MAX GAMING WIFI7 
+  - Asus PRIME Z890M-PLUS WIFI
+  - ASUS PRIME Z890-P
+  - Asus ROG Strix Z890-A Gaming WiFi S
+  - Gigabyte B860M AORUS ELITE WIFI6E ICE
+  - Z890M AORUS ELITE WIFI7 ICE
+  - MSI MPG Z890I EDGE WIFI 
+  - MSI Z890-P Wifi 7
+  - MSI Z890 EDGE TI
 
 完整的更新日志：[更新日志](./Changelog.md)
 

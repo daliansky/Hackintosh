@@ -501,7 +501,6 @@
       - NUC8-BEH/BEK
       - NUC9QNX
       - morefine M600s
-   
 - 2024年3月4日
    - 新增机型：
      - FEVM FN60G
@@ -509,4 +508,16 @@
      - minisforum UM560XT
      - minisforum UM580D/UM590
      - minisforum NAG6
+- 2026年 4月 9日
+   - 新增机型：
+     - ASRock Z890I Nova WiFi
+     - ASUS Z890 MAX GAMING WIFI7 
+     - Asus PRIME Z890M-PLUS WIFI
+     - ASUS PRIME Z890-P
+     - Asus ROG Strix Z890-A Gaming WiFi S
+     - Gigabyte B860M AORUS ELITE WIFI6E ICE
+     - Z890M AORUS ELITE WIFI7 ICE
+     - MSI MPG Z890I EDGE WIFI 
+     - MSI Z890-P Wifi 7
+     - MSI Z890 EDGE TI
 
