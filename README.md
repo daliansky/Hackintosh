@@ -4,35 +4,6 @@
 
 ## English Version: [Hackintosh long-term maintenance model EFI and installation tutorial](README_en.md)
 
-    今天采用关键词OPENCORE搜索的方式，采用最近更新排序，搜索了前10页的维护信息，再筛出未进入清单，但维护得不错得REPO,更新时间只是最近2天得，肯定又很多漏的，一一核对很费精力，readme文档内内容太多，整理了一下思路,列出列出了以下几个点，希望大家一起看看如何整理比较方便。
-    
-      (1)拆分文档：拆分成笔记本和台式机两份文件,readme文档内将厂商链接过去，这样再更新文件的时候会轻松一些。
-    
-      (2)自动化脚本：目前更新的方式还是靠人去对，筛出新增的然后再增加进去，比较费时间。从我自己找的方式看，是可以通过脚本实现的，这个可以节省很多时间和精力。
-               范围：github.com，
-               更新时间：最近3个月，
-               限制条件：commit的提交次数大于20次的。（另外的一点将已经在清单里面的去掉,不去也行，直接更换清单）
-               其他：排序和合并，排序后需要人工将命名不规范的补齐。
-               
-      (3)搜索引擎：当然，能够做到一个搜索引擎，专门针对黑苹果优化的，这或许就是这份清单的终点，也就失去了一些意义，变为纯粹的白嫖工具了。
-大家有更好的思路也可以提出来，一起完成，虽然我不确定现在继续做这些的意义还有多少。
-------
-- 黑苹果论坛：
-
-  - **国内** [远景论坛](http://bbs.pcbeta.com)、[威锋论坛](http://bbs.feng.com)
-  - **国外** [insanelymac 论坛](https://www.insanelymac.com/forum/)、[tonymacx86 论坛](https://www.tonymacx86.com/)、[德国黑苹果论坛](https://www.hackintosh-forum.de/)、[俄罗斯黑苹果论坛](https://www.applelife.ru)、[法国黑苹果论坛](https://www.hackintosh-montreal.com)、 [osxlatitude 论坛](https://osxlatitude.com/forums/)
-
-- 一些黑苹果常用的软件或者驱动开发者的主页，希望大家能及时更新驱动和软件，驱动需要自己去对应驱动开发者的主页去更新。
-
-- _[RehabMan](https://bitbucket.org/RehabMan/)_ 维护了很多黑苹果驱动和相关补丁
-- _[Vit9696](https://github.com/acidanthera)_ lilu 和相关插件、applealc 的主要开发或维护者
-- _[Clover 更新地址](https://sourceforge.net/projects/cloverefiboot/)_ Clover 团队更新 clover 的主要发布渠道
-- _[常用软件和驱动清单](./LinkList.md)_ 整理了常用软件和驱动的主要发布地址，持续修改……
-- **OPENCORE参考文档**[中文版](https://sumingyd.github.io/OpenCore-Post-Install/)、[英文版](https://dortania.github.io/Getting-Started-With-ACPI/)
-- [英特尔无线网卡驱动文档](https://openintelwireless.github.io/itlwm/)、[英特尔蓝牙驱动文档](https://openintelwireless.github.io/IntelBluetoothFirmware/)
-
-## 同步更新：[黑果小兵的部落阁](https://blog.daliansky.net/Hackintosh-long-term-maintenance-model-checklist.html)
-
 
 ## 机型讨论：[远景 pcbeta.com](http://bbs.pcbeta.com/viewthread-1795904-1-1.html)
 
@@ -1174,6 +1145,7 @@
 | ASRock Z490 ITX/TB3                | [链接](https://github.com/kreactnative/EFI-ASRock-Z490-ITX-TB3-RX580) |                                                              |                                                              |
 | ASRock Z490 Phantom Gaming ITX/TB3 | [链接](https://github.com/papadiche/10900K-ASRock-Z490-Phantom-Gaming-ITX-TB3-RX-5600-XT) |                                                              |                                                              |
 | ASRock Z490 Steel Legend           | [链接](https://github.com/sqlsec/AsRock-Z490-Steel-Legend-i7-10700)[链接](https://github.com/xiaoyaowx/Hackintosh-Z490-ASRock-Steel-Legend-Intel-10700) |                                                              | I7-10700 / 蓝宝石 RX 5600XT<br />网卡推荐：[BCM94360CD](https://hackintosher.taobao.com) |
+| ASRock Z890I Nova WiFi             | [链接](https://github.com/akinwale/asrock-z890i-nova-wifi-efi) |                                                              |                                                              |
 
 ### ASUS 华硕
 
@@ -1249,6 +1221,10 @@
 | ASUS TUF GAMING B760M-PLUS WIFI | [链接](https://github.com/cuihairu/TUF-GAMING-B760M-PLUS-WIFI-i714700KF-RX6950XT-Hackintosh) | | i7-14700kF + RX6950XT <br />网卡推荐：[BCM94360CD](https://hackintosher.taobao.com) |
 | ASUS PRIME Z790 P WIFI D4 | [链接](https://github.com/Fu-Yuxuan-hub/ASUS-PRIME-Z790-P-WIFI-D4-HACKINTOSH) | | |
 | ASUS ProArt Z790 CREATOR WIFI | [链接](https://github.com/cuihairu/ProArt-Z790-CREATOR-WIFI-RX6950XT-i914900K-Hackintosh) | | i9-14900k + RX6950XT <br />网卡推荐：[BCM94360CD](https://hackintosher.taobao.com) |
+| ASUS Z890 MAX GAMING WIFI7 | [链接](https://github.com/rodgomesc/hackintosh-z890-gaming-x-wifi7) | |  |
+| Asus PRIME Z890M-PLUS WIFI | [链接](https://github.com/WT2072861996/EFI-ASUS-PRIME-Z890M-PLUS-WIFI-CORE-ULTRA-7-265K-open-core1.04) | |  |
+| ASUS PRIME Z890-P | [链接](https://github.com/serhiicherepanov/ASUS-PRIME-Z890-P-OPENCORE-EFI) | |  |
+| Asus ROG Strix Z890-A Gaming WiFi S | [链接](https://github.com/alucard-dracula/hackintosh-intel-u7-265k-ASUS-ROG-STRIX-Z890-A-GAMING-WIFI-S) | |  |
 | Asus X299 PRIME DELUXE II      | [链接](https://github.com/yifan-gu/hackintosh)               |          | i9 7980XE + Radeon VII<br />网卡推荐：[BCM94360CD](https://hackintosher.taobao.com) |
 | Asus X299                      |      |          |                                                              |
 | Asus ROG STRIX X299-E GAMING   | [链接](https://github.com/Fansaly/X299-STRIX-macOS)          |          | INTEL® CORE™ i7-7800X<br />网卡推荐：[BCM94360CD](https://hackintosher.taobao.com) |
@@ -1315,7 +1291,8 @@
 | Gigabyte B460M Aorus Pro        | [链接](https://github.com/dovtuan/Gigabyte-B460M-Aorus-Pro-Hackintosh-Open-Core) [链接](https://github.com/duongnguyensr/opencore-efi)<br />[链接](https://github.com/nhd2106/EFI-Hackintosh-B460M-Aorus-Pro-Core-i5-10400-RX-580-wifi-intel-AX200) |                                                              | i5-10400 / RX570<br />网卡推荐：[BCM94360CD](https://hackintosher.taobao.com) |
 | Gigabyte B460M-DS3H             | [链接](https://github.com/bangbaew/Gigabyte-B460M-DS3H-Hackintosh) |                                                              | i5-10400 / RX480<br />网卡推荐：[BCM94360CD](https://hackintosher.taobao.com) |
 | Gigabyte B560M AORUS PRO        | [链接](https://github.com/Vepoe/Gigabyte_B560m_Aorus_Pro-10400-5500xt-EFI) |                                                              | 网卡推荐：[BCM94360CD](https://hackintosher.taobao.com) |
-| Gigabytes B560M AORUS Pro AX | [链接](https://github.com/geminiwen/Gigabyte_B560m_AORUS_PRO_AX_i5_11600K) [链接](https://github.com/imcczy/Gigabyte_B560m_AORUS_PRO_AX_10850K_6900XT_EFI) | | 网卡推荐：[BCM94360CD](https://hackintosher.taobao.com) |
+| Gigabyte B560M AORUS Pro AX |                                                              | | 网卡推荐：[BCM94360CD](https://hackintosher.taobao.com) |
+| Gigabyte B860M AORUS ELITE WIFI6E ICE | [链接](https://github.com/kreactnative/hackintosh-tahoe-285K-B860M) | |  |
 | Gigabyte C246 WU4               | [链接](https://github.com/SeonMe/Gigabyte-C246-WU4-Hackintosh-OC) |                                                              | Intel Xeon E-2278G / Sapphire RX 5500XT<br />网卡推荐：[BCM94360CD](https://hackintosher.taobao.com) |
 | Gigabyte Designaire Z390        | [链接](https://github.com/baughmann/designaire-z390-intel-i9-9900k-opencore) |                                                              | 网卡推荐：[BCM94360CD](https://hackintosher.taobao.com) |
 | G1 sniper M7 intel B150M        | [链接](https://github.com/infonekingdom/G1M7)                |                                                              |                                                              |
@@ -1377,6 +1354,7 @@
 | Gigabyte Z690 Gaming X          | [链接](https://github.com/bestplay9384/EFI-GIGABYTE-Z690-Gaming-X-DDR4-12700K-RX5700XT-Hackintosh) |                                                              | 网卡推荐：[BCM94360CD](https://hackintosher.taobao.com)      |
 | Gigabyte Z790 Aorus Elite | [链接](https://github.com/Xmingbai/Gigabyte-Z790-Aorus-Elite-13900KF-hackintosh) | | 网卡推荐：[BCM94360CD](https://hackintosher.taobao.com) |
 | Gigabyte Z790 Aorus Master | [链接](https://github.com/casstsai/13900k-z790-aorus-master) | | 网卡推荐：[BCM94360CD](https://hackintosher.taobao.com) |
+| Z890M AORUS ELITE WIFI7 ICE | [链接](https://github.com/7HE-W0R1D/Hackintosh-Z890M) [链接](https://github.com/kreactnative/hackintosh-tahoe-z890m-270k-plus) | |  |
 | Gigabyte Z77P D3                | [链接](https://github.com/cloverkits/GA-Z77P-D3-EFI)         |                                                              | GA-Z77P-D3                                                   |
 | Gigabyte Z77X D3H               | [链接](https://github.com/nickw444/opencore-efi)             |                                                              |                                                              |
 | Gigabyte GA-Z77X-DS3            | [链接](https://github.com/tdyn2000/GIGA-Z77X-DS3-Catalina-EFI) |                                                              |                                                              |
@@ -1532,6 +1510,9 @@
 | MSI PRO H610M-E                                   | [链接](https://github.com/cuihairu/MSI-PRO-H610M-E-i3-12100F-RX580-Hackintosh) |                                                              | Intel i3-12100F RX580  网卡推荐：[BCM94360CD](https://hackintosher.taobao.com) |
 | MSI MPG Z690 EDGE TI                              | [链接](https://github.com/igarashikenshin/Hackintosh-MSI-Z690-EDGE-TWD4_i7-12700K_RX6800XT) |                                                              |                                                              |
 | MSI Z790i EDGE                                    | [链接](https://github.com/conversun/Hackintosh-MSI-Z790i-EDGE-13900K-6900XT-OpenCore) |                                                              |                                                              |
+| MSI MPG Z890I EDGE WIFI                           | [链接](https://github.com/kreactnative/hackintosh-tahoe-265KF-z890i-edge-wifi) |                                                              |                                                              |
+| MSI Z890 EDGE TI                                  | [链接](https://github.com/xmpace/MSI-Z890-EDGE-TI-ULTRA-7-265k-HACKINTOSH-OPENCORE-EFI) |                                                              |                                                              |
+| MSI Z890-P Wifi 7                                 | [链接](https://github.com/sonojo/Hackintosh-MSI-PRO-Z890-P-WIFI) |                                                              |                                                              |
 | MSI Z97 Gaming 5                                  | [链接](https://github.com/plcharriere/Hackintosh/blob/master/Z97G5/) |                                                              | i5-4690K                                                     |
 | MSI H81M P33                                      | [链接](https://github.com/inokoe/MSI-H81M-P33-Hackintosh-EFI) |                                                              | E3 1246 V3                                                   |
 
