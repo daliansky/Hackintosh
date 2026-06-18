@@ -520,4 +520,10 @@
      - MSI MPG Z890I EDGE WIFI 
      - MSI Z890-P Wifi 7
      - MSI Z890 EDGE TI
+- 2026年 6月 18日
+   - 新增机型：
+     - Asus X550VQ
+     - Dell Latitude 7410
+     - Dell OptiPlex 7070 MFF
+     - ThinkPad E14 Gen2 AMD
 

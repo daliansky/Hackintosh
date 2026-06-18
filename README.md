@@ -10,19 +10,13 @@
 <details>
 <summary>更新日志</summary>
 
-更新日期：2026年4月9日
+更新日期：2026年6月18日
 
 - 新增机型：
-  - ASRock Z890I Nova WiFi
-  - ASUS Z890 MAX GAMING WIFI7 
-  - Asus PRIME Z890M-PLUS WIFI
-  - ASUS PRIME Z890-P
-  - Asus ROG Strix Z890-A Gaming WiFi S
-  - Gigabyte B860M AORUS ELITE WIFI6E ICE
-  - Z890M AORUS ELITE WIFI7 ICE
-  - MSI MPG Z890I EDGE WIFI 
-  - MSI Z890-P Wifi 7
-  - MSI Z890 EDGE TI
+  - Asus X550VQ
+  - Dell Latitude 7410
+  - Dell OptiPlex 7070 MFF
+  - ThinkPad E14 Gen2 AMD
 
 完整的更新日志：[更新日志](./Changelog.md)
 
@@ -240,7 +234,7 @@
 | Asus X542u                        | [链接](https://github.com/nguyencuongit96/efi-asus-x542-hackintosh) |                                                              |                                                              |
 | Asus X542UN                       | [链接](https://github.com/yCatDev/asus_x542un-hackintosh)    |                                                              |                                                              |
 | Asus X550JX                       | [链接](https://github.com/gaoliang/Asus-X550JX-Hackintosh)   |                                                              |                                                              |
-| Asus X550VC                       |                                                              |                                                              |                                                              |
+| Asus X550VQ                      | [链接](https://github.com/engsr6982/ASUS-X550VQ-Hackintosh) |                                                              |                                                              |
 | Asus X550VX                       | [链接](https://github.com/lramadhan/hackintosh-asus-x550vx)  |                                                              |                                                              |
 | Asus X550VXK                      | [链接](https://github.com/Giovix92/efi_x550vxk)              |                                                              |                                                              |
 | Asus X555LB                       | [链接](https://github.com/emre1393/Asus-x555lb-mojave-efi)   |                                                              |                                                              |
@@ -377,6 +371,7 @@
 | Dell Latitude E7280                        | [链接](https://github.com/Lorys89/DELL_LATITUDE_7280) |                                                              |                                                              |
 | Dell Latitude E7370                        | [链接](https://github.com/mikeTOliu/dell-latitude7370-Hackintosh-EFI-backup) [链接](https://github.com/gazzmanzx6/OC_Dell_Latitude_7370) |                                                              |                                                              |
 | Dell Latitude E7390                        | [链接](https://github.com/Swung0x48/Dell-Latitude-7490-Hackintosh-EFI) [链接](https://github.com/PurpleCrumpets/Hackintosh-Dell-Latitude-7390-2-in-1-OpenCore-EFI) [链接](https://github.com/guozenghuang/latitude-E7390-hackintosh) |                                                              | 基于 Latitude 7490。 不保证 7390 可用。（可在 issue 中提出 7390 的问题） |
+| Dell Latitude 7410 | [链接](https://github.com/abbasabidii/Dell-Latitude-7410-Hackintosh-OC) | |  |
 | Dell Latitude E7440                        | [链接](https://github.com/ameeno/Dell-E7440-Hackintosh)      |                                                              |                                                              |
 | Dell Latitude E7450                        | [链接](https://github.com/rahmadsandy/Dell-E7450-DW1530-Catalina) |                                                              |                                                              |
 | Dell Latitude E7470                        | [链接](https://github.com/adityabakare/macOS-Dell-Latitude-E7470) |                                                              | PRECISION 7710可用      |
@@ -387,7 +382,7 @@
 | Dell OptiPlex 3060 MFF                     | [链接](https://github.com/Lorys89/DELL_OPTIPLEX_3060_MFF)    |                                                              |                                                              |
 | Dell Optiplex 5040                         | [链接](https://github.com/lsc1978/Optiplex-5040-EFI-OC) [链接](https://github.com/lsc1978/Optiplex-5040-EFI-CLOVER) |                                                              |                                                              |
 | Dell Optiplex 7020                         | [链接](https://github.com/zearp/optimac)                     |                                                              |                                                              |
-| Dell OptiPlex 7070 MFF                     | [链接](https://github.com/liaoyudong2/Dell-7070-mff-hackintosh) | [链接](https://github.com/webleon/Hackintosh-OptiPlex-7070-MFF)                                                              |  OC引导，支持 Big Sur / Monterey                                                           |
+| Dell OptiPlex 7070 MFF                     | [链接](https://github.com/liaoyudong2/Dell-7070-mff-hackintosh) [链接](https://github.com/WT2072861996/DELL-OptiPlex-7070-OpenCore1.0) | [链接](https://github.com/webleon/Hackintosh-OptiPlex-7070-MFF)                                                              |  OC引导，支持 Big Sur / Monterey                                                           |
 | Dell OptiPlex 7070 SFF                     | [链接](https://github.com/webleon/Hackintosh-OptiPlex-7070-SFF) |                                                              | OC引导，支持 Big Sur / Monterey                                                             |
 | Dell OptiPlex 9020                         | [链接](https://github.com/kyroschow/Dell-Optiplex-9020-Hackintosh-Clover-EFI) |                                                              |                                                              |
 | Dell OptiPlex 9020 USFF                    | [链接](https://github.com/Lorys89/DELL_OPTIPLEX_9020_USFF)   |                                                              |                                                              |
@@ -643,6 +638,7 @@
 | Lenovo G580 | [链接](https://github.com/TECHNIKVERBOT/Lenovo-G580-OpenCore) | |  |
 | 联想 flex3-1470/i5 5200u-hd5500    | [链接](https://github.com/xl120022/FLEX-3-1470-Mac-10.15.3-efi) |                                                              |                                                              |
 | Thinkpad E14 Gen 1 | [链接](https://github.com/AniKulkarn/Hackintosh-ThinkPad-E14) | | |
+| ThinkPad E14 Gen2 AMD | [链接](https://github.com/mgjuc/ThinkPad-E14-Gen2-Hackintosh) | | |
 | ThinkPad E40                       | [链接](https://github.com/mendax1234/ThinkPadE40-Clover-EFI) | [链接](http://bbs.pcbeta.com/viewthread-1851317-1-1.html)    | ThinkPad E40                                                 |
 | Lenovo 昭阳 E49                    | [链接](https://github.com/pangdahaiNo1/lenovo-E49-macos-efi) |                                                              |                                                              |
 | ThinkPad E440                      | [链接](https://github.com/ZzMark/Thinkpad-E440-Hackintosh)   |                                                              |                                                              |
