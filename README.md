@@ -421,6 +421,7 @@
 | Dell Inspiron 7586                           | [链接](https://github.com/hacker1024/Dell-Inspiron-7586-Hackintosh) |                                                              |                                                    |
 | Dell G7 7588                              | [链接](https://github.com/rex-lapis/Hackintosh-Dell-G7-7588-OpenCore) |                                                              |                                                              |
 | Dell Precision 7530 7540 7730 7740                  | [链接](https://github.com/lulu-gh/Dell-Precision-E7530-Prototype-OpenCore) |                                                              |       默认是7530工程机EFI，用于量产机型先看说明再安装；默认配置支持AMD独显，用集显自行屏蔽或者换硬件        |
+| Dell Precision 7740 (量产) | [链接](https://github.com/lingion/Dell-Precision-7740-OpenCore-EFI) | [链接](https://github.com/lingion/Dell-Precision-7740-OpenCore-EFI/blob/main/README.md) | i7-9750H + AMD WX7130 混合显卡, S3 睡眠, OpenCore |
 
 ### Gigabyte 技嘉
 
