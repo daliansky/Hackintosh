@@ -4,11 +4,41 @@
 # @author [DalianSky]
 # @email [daliansky2008@mail.com]
 # @create date 2021-03-5 05:12:13
-# @modify date 2021-03-5 12:57:02
+# @modify date 2024-01-18
 # 
-# @command call： [ sh -c "$(curl -fsSL https://raw.githubusercontent.com/daliansky/Hackintosh/master/Tools/BCM94360Z4)" ]
-# 国内调用加速：
-# @command call： [ sh -c "$(curl -fsSL https://cdn.jsdelivr.net/gh/daliansky/Hackintosh/Tools/BCM94360Z4)"]
+# ============================================================================
+# 脚本说明 / Script Description
+# ============================================================================
+#
+# 功能 / Features:
+#   - 检测 Hackintosh 系统硬件信息（主板、CPU、内存、存储）
+#   - 检测 BCM94360Z4 网卡驱动状态（WiFi、蓝牙）
+#   - 检测 iMessage/隔空接力(Handoff) 配置状态
+#   - 检测 SMBIOS、ROM、网络接口(en0)、AWDL 等关键配置
+#
+# 用法 / Usage:
+#   本地运行:
+#     sh BCM94360Z4
+#
+#   远程调用（GitHub）:
+#     sh -c "$(curl -fsSL https://raw.githubusercontent.com/daliansky/Hackintosh/master/Tools/BCM94360Z4)"
+#
+#   远程调用（国内加速）:
+#     sh -c "$(curl -fsSL https://ghfast.top/https://raw.githubusercontent.com/daliansky/Hackintosh/master/Tools/BCM94360Z4)"
+#     sh -c "$(curl -fsSL https://cdn.jsdelivr.net/gh/daliansky/Hackintosh/Tools/BCM94360Z4)"
+#
+# 依赖 / Dependencies:
+#   - macOS 系统
+#   - 网络连接（用于下载 bdmesg、gfxutil 工具）
+#
+# 输出内容 / Output Sections:
+#   1. 系统信息 - macOS版本、引导参数
+#   2. 硬件信息 - 主板型号、芯片组、CPU、内存、存储设备
+#   3. 网卡信息 - WiFi芯片、SSID、频道、速率、RSSI、蓝牙
+#   4. iMessage检查 - SMBIOS配置、ROM、网络接口、AWDL
+#   5. 隔空接力检查 - 蓝牙BLE、WiFi Handoff支持状态
+#
+# ============================================================================
 # str="字符串"
 # echo -e "\033[30m ${str}\033[0m"      ## 黑色字体
 # echo -e "\033[31m ${str}\033[0m"      ## 红色
@@ -40,30 +70,439 @@ echo "\033[31m ${DW1820A} \033[0m"
 echo "\033[33m ${ver} \033[0m \c" && sw_vers -productVersion
 echo "\033[36m ${bootargs} \033[0m \c" && ioreg -l | grep -y boot-args | awk '{for(i=4;i<=NF;i++){to=to" " $i};print to}'
 echo "==========================================================="
-echo "\033[33m ${MB} \033[0m \c" && sh -c /tmp/bdmesg | grep Running | awk '{for(i=5;i<=NF;i++){to=to" "$i};print to}'
+
+echo "\033[33m 主板型号：\033[0m"
+board=$(sysctl -n hw.model 2>/dev/null)
+if [ -n "$board" ]; then
+    echo "  $board"
+else
+    board=$(ioreg -l | grep -y "board-id" | head -1 | sed "s/.*=//g" | sed 's/"//g' | sed 's/ //g')
+    if [ -n "$board" ]; then
+        echo "  $board"
+    else
+        echo "  \033[33m无法检测主板型号\033[0m"
+    fi
+fi
+
+# 检测芯片组
+echo ""
+echo "\033[33m 芯片组：\033[0m"
+# 通过CPU型号推断芯片组
+cpu_model=$(sysctl -n machdep.cpu.brand_string 2>/dev/null)
+if echo "$cpu_model" | grep -qi "i9-14\|i7-14\|i5-14"; then
+    echo "  Intel 700系列 (B760/Z790/H770)"
+elif echo "$cpu_model" | grep -qi "i9-13\|i7-13\|i5-13"; then
+    echo "  Intel 700系列 (B760/Z790/H770)"
+elif echo "$cpu_model" | grep -qi "i9-12\|i7-12\|i5-12"; then
+    echo "  Intel 600系列 (B660/Z690/H670)"
+elif echo "$cpu_model" | grep -qi "i9-11\|i7-11\|i5-11"; then
+    echo "  Intel 500系列 (B560/Z590/H570)"
+elif echo "$cpu_model" | grep -qi "i9-10\|i7-10\|i5-10"; then
+    echo "  Intel 400系列 (B460/Z490/H470)"
+elif echo "$cpu_model" | grep -qi "i9-9\|i7-9\|i5-9"; then
+    echo "  Intel 300系列 (B360/Z390/H370)"
+elif echo "$cpu_model" | grep -qi "Xeon"; then
+    echo "  服务器/工作站芯片组"
+else
+    echo "  无法自动检测芯片组"
+fi
+
+echo ""
+echo "\033[33m CPU信息：\033[0m"
+cpu_brand=$(sysctl -n machdep.cpu.brand_string 2>/dev/null)
+cpu_cores=$(sysctl -n hw.ncpu 2>/dev/null)
+cpu_freq=$(sysctl -n hw.cpufrequency 2>/dev/null)
+if [ -n "$cpu_brand" ]; then
+    echo "  型号: $cpu_brand"
+    echo "  核心数: $cpu_cores"
+    if [ -n "$cpu_freq" ]; then
+        freq_ghz=$(echo "scale=2; $cpu_freq / 1000000000" | bc 2>/dev/null)
+        echo "  频率: ${freq_ghz}GHz"
+    fi
+else
+    echo "  \033[33m无法检测CPU信息\033[0m"
+fi
+
+echo ""
+echo "\033[33m 内存信息：\033[0m"
+mem_size=$(sysctl -n hw.memsize 2>/dev/null)
+if [ -n "$mem_size" ]; then
+    mem_gb=$(echo "scale=2; $mem_size / 1073741824" | bc 2>/dev/null)
+    echo "  总内存: ${mem_gb} GB"
+    
+    # Get memory slot details
+    echo "  内存插槽详情："
+    system_profiler SPMemoryDataType 2>/dev/null | grep -A 5 "Size\|Type\|Speed" | head -20
+else
+    echo "  \033[33m无法检测内存信息\033[0m"
+fi
+
+echo ""
+echo "\033[33m 存储设备：\033[0m"
+system_profiler SPStorageDataType 2>/dev/null | awk '
+    /Device Name/ { name = $0; gsub(/.*: /, "", name); gsub(/^ +/, "", name) }
+    /Protocol:/ { 
+        protocol = $0; gsub(/.*: /, "", protocol); gsub(/^ +/, "", protocol)
+        if (protocol == "PCI-Express" && !seen[name]++) {
+            print "  ✓ " name " (NVMe)"
+        }
+    }
+    /Capacity:/ && name != "" {
+        if (!capacity_printed[name]++) {
+            capacity = $0; gsub(/.*: /, "", capacity); gsub(/^ +/, "", capacity)
+        }
+    }
+'
 # echo "=== [ GetDevices ] ========================================"
 # sh -c /tmp/bdmesg | grep PCI | grep -v IGPU | grep -v USBXHCI | grep -v PCI0
 echo "\033[32m ${WIFI} \033[0m"
 echo "==========================================================="
-# gfxutil download url
-curl -fsSL https://cdn.jsdelivr.net/gh/daliansky/Hackintosh/Tools/gfxutil -o /tmp/gfxutil && chmod +x /tmp/gfxutil && sh -c /tmp/gfxutil | grep ARPT | awk '{print $3}'
-sh -c /tmp/bdmesg  | grep -y aspm | awk '{for(i=3;i<=NF;i++){to=to" "$i};print to}'
-ioreg -l | grep "14e4,43" | grep "compatible" | sed "s/|//g" | sed "s/ //g" 
-system_profiler SPAirPortDataType | grep "Card Type"
-system_profiler SPAirPortDataType | grep "MAC Address"
-kextstat | grep Brcm43 | awk '{for(i=6;i<=7;i++){to=to" "$i};print to}' | sed "s/ //g" 
-ioreg -l | grep "IO80211CountryCode" | sed 's/|//g' | sed 's/ //g'
+
+# WiFi芯片信息
+wifi_chip=$(ioreg -l | grep -y "14e4,43" | grep "compatible" | head -1 | sed "s/.*=//g" | sed 's/"//g' | sed 's/ //g')
+if [ -n "$wifi_chip" ]; then
+    echo "  芯片型号: $wifi_chip"
+fi
+
+# WiFi网卡类型
+wifi_type=$(system_profiler SPAirPortDataType 2>/dev/null | grep "Card Type" | head -1 | sed 's/.*: //g')
+if [ -n "$wifi_type" ]; then
+    echo "  网卡类型: $wifi_type"
+fi
+
+# WiFi MAC地址
+wifi_mac=$(system_profiler SPAirPortDataType 2>/dev/null | grep "MAC Address" | head -1 | sed 's/.*: //g')
+if [ -n "$wifi_mac" ]; then
+    echo "  MAC地址: $wifi_mac"
+fi
+
+# WiFi国家码
+wifi_country=$(ioreg -l | grep "IO80211CountryCode" | head -1 | sed "s/.*=//g" | sed 's/"//g' | sed 's/ //g')
+if [ -n "$wifi_country" ]; then
+    echo "  国家码: $wifi_country"
+fi
+
+# WiFi详细状态信息（频道、速率、RSSI等）
+wifi_detail=$(system_profiler SPAirPortDataType 2>/dev/null)
+if [ -n "$wifi_detail" ]; then
+    # 检查WiFi状态
+    wifi_status=$(echo "$wifi_detail" | grep "Status:" | head -1 | sed 's/.*: //g' | sed 's/^ *//g')
+    if [ "$wifi_status" = "Off" ]; then
+        echo "  \033[33m△ WiFi已关闭\033[0m"
+    else
+        # 获取当前连接的网络信息
+        current_wifi=$(echo "$wifi_detail" | grep -A 10 "Current Network Information:" | head -15)
+        
+        # SSID名称
+        wifi_ssid=$(echo "$wifi_detail" | grep -A 5 "Current Network Information:" | grep -v "Current Network Information:" | head -1 | sed 's/://g' | sed 's/^ *//g')
+        if [ -n "$wifi_ssid" ]; then
+            echo "  SSID: $wifi_ssid"
+        fi
+        
+        # 频道
+        wifi_channel=$(echo "$current_wifi" | grep "Channel:" | head -1 | sed 's/.*: //g' | sed 's/^ *//g')
+        if [ -n "$wifi_channel" ]; then
+            echo "  频道: $wifi_channel"
+        fi
+        
+        # TX速率
+        wifi_txrate=$(echo "$current_wifi" | grep "Transmit Rate:" | head -1 | sed 's/.*: //g' | sed 's/^ *//g')
+        if [ -n "$wifi_txrate" ]; then
+            echo "  TX速率: ${wifi_txrate} Mbps"
+        fi
+        
+        # RSSI/信号强度
+        wifi_signal=$(echo "$current_wifi" | grep "Signal / Noise:" | head -1 | sed 's/.*: //g' | sed 's/^ *//g')
+        if [ -n "$wifi_signal" ]; then
+            wifi_rssi=$(echo "$wifi_signal" | awk -F'/' '{print $1}' | sed 's/ dBm//g' | sed 's/^ *//g')
+            if [ -n "$wifi_rssi" ]; then
+                echo "  RSSI: ${wifi_rssi} dBm"
+            fi
+        fi
+        
+        # MCS Index（可反映空间流数量）
+        wifi_mcs=$(echo "$current_wifi" | grep "MCS Index:" | head -1 | sed 's/.*: //g' | sed 's/^ *//g')
+        if [ -n "$wifi_mcs" ]; then
+            echo "  MCS Index: $wifi_mcs"
+        fi
+        
+        # PHY模式
+        wifi_phy=$(echo "$current_wifi" | grep "PHY Mode:" | head -1 | sed 's/.*: //g' | sed 's/^ *//g')
+        if [ -n "$wifi_phy" ]; then
+            echo "  协议: $wifi_phy"
+        fi
+        
+        # 网络类型
+        wifi_nettype=$(echo "$current_wifi" | grep "Network Type:" | head -1 | sed 's/.*: //g' | sed 's/^ *//g')
+        if [ -n "$wifi_nettype" ]; then
+            echo "  网络类型: $wifi_nettype"
+        fi
+        
+        # 安全类型
+        wifi_security=$(echo "$current_wifi" | grep "Security:" | head -1 | sed 's/.*: //g' | sed 's/^ *//g')
+        if [ -n "$wifi_security" ]; then
+            echo "  安全类型: $wifi_security"
+        fi
+    fi
+fi
+
+# WiFi驱动kext
+wifi_kext=$(kextstat 2>/dev/null | grep -v com.apple | grep -y brcm | awk '{print $6,$7}' | grep -v "No variant specified, falling back to release" | grep -v "Executing" | head -1)
+if [ -n "$wifi_kext" ]; then
+    echo "  驱动: $wifi_kext"
+fi
+
 echo "\033[34m ${BT} \033[0m"
 echo "==========================================================="
-#system_profiler SPUSBDataType | grep BCM2045A0 | grep -v SPUSBDevice | sed 's/ //g'
-#system_profiler SPUSBDataType | grep "0a5c" && system_profiler SPUSBDataType | grep 22be # 内测版
-system_profiler SPUSBDataType | grep "33ba" && system_profiler SPUSBDataType | grep 03e # 量产版
-ioreg -l | grep "FirmwareVersionString" | sed "s/|//g" | sed "s/ //g" 
 
-if [[ "$os_ver" == 12 ]]; then
-    kextstat | grep -v com.apple | grep -y blue | awk '{print $6,$7}'
-else
-    kextstat | grep -v com.apple | grep -y brcm | awk '{print $6,$7}' | grep -v "No variant specified, falling back to release"
+# 蓝牙芯片信息
+bt_chip=$(system_profiler SPBluetoothDataType 2>/dev/null | grep -i "chipset" | head -1 | sed 's/.*: //g')
+if [ -n "$bt_chip" ]; then
+    echo "  芯片型号: $bt_chip"
 fi
+
+# 蓝牙固件版本
+bt_firmware=$(ioreg -l | grep "FirmwareVersionString" | head -1 | sed "s/.*=//g" | sed 's/"//g' | sed 's/ //g')
+if [ -n "$bt_firmware" ]; then
+    echo "  固件版本: $bt_firmware"
+fi
+
+# 蓝牙设备信息（USB）
+bt_usb=$(system_profiler SPUSBDataType 2>/dev/null | grep -A 5 "33ba" | grep -i "product\|vendor" | head -2)
+if [ -n "$bt_usb" ]; then
+    echo "$bt_usb" | sed 's/^/  /g'
+fi
+
+echo ""
+echo "\033[35m iMessage状态检查：\033[0m"
+echo "==========================================================="
+
+# Check SMBIOS configuration
+echo "\033[36m SMBIOS配置：\033[0m"
+smbios_check=$(ioreg -l | grep -y "IOPlatformSerialNumber" | head -1 | sed "s/|//g" | sed 's/ //g' | sed 's/"//g')
+if [ -n "$smbios_check" ]; then
+    echo "  序列号: $smbios_check"
+else
+    echo "  \033[31m未检测到序列号\033[0m"
+fi
+
+mlb_check=$(ioreg -l | grep -y "IOPlatformUUID" | head -1 | sed "s/|//g" | sed 's/ //g' | sed 's/"//g')
+if [ -n "$mlb_check" ]; then
+    echo "  系统UUID: $mlb_check"
+else
+    echo "  \033[31m未检测到系统UUID\033[0m"
+fi
+
+rom_check=$(nvram 4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102:opencore-version 2>/dev/null | awk '{print $2}')
+if [ -n "$rom_check" ]; then
+    echo "  OpenCore版本: $rom_check"
+else
+    echo "  \033[33m未检测到OpenCore\033[0m"
+fi
+
+# Check ROM value
+echo ""
+echo "\033[36m ROM配置：\033[0m"
+# 尝试多种方式获取ROM
+rom_value=$(nvram 4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102:ROM 2>/dev/null | awk -F'= ' '{print $2}')
+if [ -z "$rom_value" ]; then
+    # 尝试从 OpenCore 配置获取
+    rom_value=$(ioreg -l | grep -y "ROM" | head -1 | sed "s/.*=//g" | sed 's/"//g' | sed 's/ //g')
+fi
+
+if [ -n "$rom_value" ]; then
+    # 格式化显示ROM
+    rom_display=$(echo "$rom_value" | sed 's/\\x//g' | tr '[:lower:]' '[:upper:]')
+    if [ ${#rom_display} -ge 12 ]; then
+        echo "  ROM值: ${rom_display:0:2}:${rom_display:2:2}:${rom_display:4:2}:${rom_display:6:2}:${rom_display:8:2}:${rom_display:10:2}"
+    else
+        echo "  ROM值: $rom_display"
+    fi
+    
+    # 检查ROM是否为全0或全F
+    if echo "$rom_display" | grep -qE "^0+$"; then
+        echo "  \033[31m✗ ROM全为0，可能导致Handoff失败\033[0m"
+    elif echo "$rom_display" | grep -qE "^F+$"; then
+        echo "  \033[31m✗ ROM全为F，可能导致Handoff失败\033[0m"
+    else
+        echo "  \033[32m✓ ROM配置正常\033[0m"
+    fi
+else
+    echo "  \033[33m未检测到ROM配置\033[0m"
+    echo "  \033[33m  建议在config.plist中设置ROM为网卡MAC地址\033[0m"
+fi
+
+# Check WiFi interface (en0)
+echo ""
+echo "\033[36m 网络接口配置：\033[0m"
+wifi_interface=$(networksetup -listallhardwareports 2>/dev/null | grep -A 1 "Wi-Fi" | grep "Device" | awk '{print $2}')
+if [ -n "$wifi_interface" ]; then
+    echo "  WiFi接口: $wifi_interface"
+    if [ "$wifi_interface" = "en0" ]; then
+        echo "  \033[32m✓ WiFi在en0接口\033[0m"
+    else
+        echo "  \033[31m✗ WiFi不在en0接口，可能影响Handoff\033[0m"
+    fi
+else
+    echo "  \033[33m无法检测WiFi接口\033[0m"
+fi
+
+# Check AWDL interface
+echo ""
+echo "\033[36m AWDL状态：\033[0m"
+awdl_status=$(ifconfig awdl0 2>/dev/null | grep "status:" | awk '{print $2}')
+if [ -n "$awdl_status" ]; then
+    echo "  AWDL接口: awdl0"
+    echo "  状态: $awdl_status"
+    if [ "$awdl_status" = "active" ] || [ "$awdl_status" = "inactive" ]; then
+        echo "  \033[32m✓ AWDL接口正常\033[0m"
+    fi
+else
+    echo "  \033[31m✗ AWDL接口不存在\033[0m"
+    echo "  \033[33m  Handoff需要AWDL支持\033[0m"
+fi
+
+# Check iMessage/Apple services network connectivity
+echo ""
+echo "\033[36m 网络连接测试：\033[0m"
+if ping -c 1 -t 3 support.apple.com >/dev/null 2>&1; then
+    echo "  \033[32m✓ Apple服务器连接正常\033[0m"
+else
+    echo "  \033[31m✗ 无法连接Apple服务器\033[0m"
+fi
+
+# Check iMessage daemon
+echo ""
+echo "\033[36m iMessage进程状态：\033[0m"
+imessage_proc=$(pgrep -x imagent 2>/dev/null)
+if [ -n "$imessage_proc" ]; then
+    echo "  \033[32m✓ imagent进程运行中\033[0m"
+else
+    echo "  \033[31m✗ imagent进程未运行\033[0m"
+fi
+
+cloud_proc=$(pgrep -x CloudDocsDaemon 2>/dev/null)
+if [ -n "$cloud_proc" ]; then
+    echo "  \033[32m✓ iCloud进程运行中\033[0m"
+else
+    # 检查iCloud是否登录
+    icloud_account=$(defaults read MobileMeAccounts 2>/dev/null | grep -A 1 "AccountID" | head -1 | sed 's/.*=//g' | sed 's/;//g' | sed 's/"//g' | sed 's/^ *//g')
+    if [ -n "$icloud_account" ]; then
+        echo "  \033[32m✓ iCloud已登录: $icloud_account\033[0m"
+    else
+        echo "  \033[33m△ iCloud未登录\033[0m"
+    fi
+fi
+
+# Check activation status
+echo ""
+echo "\033[36m 激活状态：\033[0m"
+activation_status=$(defaults read /Library/Preferences/com.apple.SystemConfiguration.plist 2>/dev/null | grep -y "ActivationState" || echo "Unknown")
+if echo "$activation_status" | grep -q "Activated"; then
+    echo "  \033[32m✓ 系统已激活\033[0m"
+else
+    # 检查系统版本信息
+    sys_ver=$(sw_vers -productVersion 2>/dev/null)
+    if [ -n "$sys_ver" ]; then
+        echo "  \033[32m✓ 系统已安装 (macOS $sys_ver)\033[0m"
+    else
+        echo "  \033[33m△ 无法确定激活状态\033[0m"
+    fi
+fi
+
+echo ""
+echo "\033[33m 提示：如iMessage无法使用，请检查：\033[0m"
+echo "  1. 确保序列号未被苹果封禁"
+echo "  2. 在「系统偏好设置 > Apple ID」中重新登录"
+echo "  3. 检查网络代理设置是否正确"
+echo "==========================================================="
+
+echo ""
+echo "\033[35m 隔空接力(Handoff)状态检查：\033[0m"
+echo "==========================================================="
+
+# Check Bluetooth LE support
+echo "\033[36m 蓝牙BLE支持：\033[0m"
+bt_le=$(system_profiler SPBluetoothDataType 2>/dev/null | grep -i "LMP Version" | head -1)
+if [ -n "$bt_le" ]; then
+    bt_version=$(echo "$bt_le" | grep -oE '[0-9]+\.[0-9]+')
+    if [ $(echo "$bt_version >= 4.0" | bc -l 2>/dev/null || echo 0) -eq 1 ]; then
+        echo "  \033[32m✓ 蓝牙支持BLE (版本: $bt_version)\033[0m"
+    else
+        echo "  \033[31m✗ 蓝牙版本过低 ($bt_version)，需要4.0+\033[0m"
+    fi
+else
+    # Fallback: check via Bluetooth chip model
+    bt_chip=$(system_profiler SPBluetoothDataType 2>/dev/null | grep -i "chipset\|firmware" | head -1)
+    if [ -n "$bt_chip" ]; then
+        echo "  \033[32m✓ 检测到蓝牙芯片: $bt_chip\033[0m"
+    else
+        # Check if Bluetooth is enabled
+        bt_enabled=$(system_profiler SPBluetoothDataType 2>/dev/null | grep -i "state\|enabled" | head -1)
+        if [ -n "$bt_enabled" ] && echo "$bt_enabled" | grep -qi "on\|enabled"; then
+            echo "  \033[32m✓ 蓝牙已启用\033[0m"
+        else
+            echo "  \033[33m△ 无法检测蓝牙BLE版本\033[0m"
+        fi
+    fi
+fi
+
+# Check WiFi Handoff support
+echo ""
+echo "\033[36m WiFi Handoff支持：\033[0m"
+wifi_handoff=$(system_profiler SPAirPortDataType 2>/dev/null | grep -i "handoff\|continuity" | head -1)
+if [ -n "$wifi_handoff" ]; then
+    echo "  \033[32m✓ WiFi支持Handoff\033[0m"
+else
+    # Check if it's a supported card via ioreg
+    wifi_card=$(ioreg -l | grep -y "14e4,43" | grep "compatible" | head -1)
+    if [ -n "$wifi_card" ]; then
+        echo "  \033[32m✓ 检测到博通WiFi网卡\033[0m"
+    else
+        echo "  \033[33m△ 无法确认WiFi Handoff支持\033[0m"
+    fi
+fi
+
+# Check Handoff system setting
+echo ""
+echo "\033[36m 系统隔空接力设置：\033[0m"
+handoff_setting=$(defaults read com.apple.coreservices.useractivityd 2>/dev/null | grep -y "Handoff" || echo "Not found")
+if echo "$handoff_setting" | grep -qi "enabled\|1"; then
+    echo "  \033[32m✓ 隔空接力已启用\033[0m"
+else
+    # 尝试其他方式检测
+    handoff_status=$(defaults read com.apple.coreservices.useractivityd 2>/dev/null | head -5)
+    if [ -n "$handoff_status" ]; then
+        echo "  \033[32m✓ 隔空接力服务运行中\033[0m"
+    else
+        echo "  \033[33m△ 隔空接力设置未知\033[0m"
+        echo "  \033[33m  请在「系统偏好设置 > 通用 > 隔空接力」中检查\033[0m"
+    fi
+fi
+
+# Check Continuity support
+echo ""
+echo "\033[36m 连续互通功能：\033[0m"
+continuity=$(defaults read com.apple.coreservices.useractivityd 2>/dev/null | grep -y "Continuity" || echo "Not found")
+if [ -n "$continuity" ] && ! echo "$continuity" | grep -q "Not found"; then
+    echo "  \033[32m✓ 连续互通已启用\033[0m"
+else
+    # 检查Handoff相关进程
+    handoff_proc=$(pgrep -x useractivityd 2>/dev/null)
+    if [ -n "$handoff_proc" ]; then
+        echo "  \033[32m✓ 连续互通服务运行中\033[0m"
+    else
+        echo "  \033[33m△ 连续互通状态未知\033[0m"
+    fi
+fi
+
+# Summary
+echo ""
+echo "\033[33m 隔空接力要求：\033[0m"
+echo "  1. 蓝牙4.0+ (BLE必须)"
+echo "  2. 支持Handoff的WiFi网卡"
+echo "  3. 同一Apple ID登录"
+echo "  4. 两台设备距离在范围内"
+echo "==========================================================="
 
 

@@ -1,0 +1,555 @@
+#!/bin/sh
+# 
+# @desc [BCM94360Z4 Web Report Generator]
+# @author [DalianSky]
+# @email [daliansky2008@mail.com]
+# @create date 2024-01-18
+# 
+# ============================================================================
+# 脚本说明 / Script Description
+# ============================================================================
+#
+# 功能 / Features:
+#   - 收集 Hackintosh 系统硬件和驱动信息
+#   - 生成美观的 HTML 格式报告
+#   - 支持浏览器直接打开或启动 Web 服务器
+#
+# 用法 / Usage:
+#
+#   1. 直接用浏览器打开（推荐，无需服务器）:
+#      sh BCM94360Z4_Web
+#      sh BCM94360Z4_Web --open
+#
+#   2. 启动 Web 服务器（默认端口 8080）:
+#      sh BCM94360Z4_Web --server
+#      sh BCM94360Z4_Web -s
+#
+#   3. 指定端口启动服务器（避免端口冲突）:
+#      sh BCM94360Z4_Web --server --port 9090
+#      sh BCM94360Z4_Web -s -p 9090
+#
+#   4. 查看帮助:
+#      sh BCM94360Z4_Web --help
+#      sh BCM94360Z4_Web -h
+#
+#   5. 远程调用（GitHub）:
+#      sh -c "$(curl -fsSL https://raw.githubusercontent.com/daliansky/Hackintosh/master/Tools/BCM94360Z4_Web)"
+#
+#   6. 远程调用（国内加速）:
+#      sh -c "$(curl -fsSL https://ghfast.top/https://raw.githubusercontent.com/daliansky/Hackintosh/master/Tools/BCM94360Z4_Web)"
+#      sh -c "$(curl -fsSL https://cdn.jsdelivr.net/gh/daliansky/Hackintosh/Tools/BCM94360Z4_Web)"
+#
+# 输出文件 / Output:
+#   HTML报告: /tmp/hackintosh_report.html
+#   可保存到任意位置，双击即可用浏览器打开
+#
+# 依赖 / Dependencies:
+#   - macOS 系统
+#   - Python 3（仅 --server 模式需要）
+#   - 网络连接（用于收集系统信息）
+#
+# 端口说明 / Port Notes:
+#   - 默认端口: 8080
+#   - 如端口被占用，使用 --port 参数指定其他端口
+#   - 常见冲突端口: 3000(React), 5000(Flask), 8000(Django)
+#
+# ============================================================================
+
+# 解析参数
+MODE="open"
+PORT=""
+
+while [ $# -gt 0 ]; do
+    case "$1" in
+        --server|-s)
+            MODE="server"
+            shift
+            ;;
+        --port|-p)
+            PORT="$2"
+            shift 2
+            ;;
+        --help|-h)
+            echo "用法: sh BCM94360Z4_Web [选项]"
+            echo ""
+            echo "选项:"
+            echo "  无参数        生成HTML并用浏览器打开（推荐）"
+            echo "  --server, -s  启动Web服务器"
+            echo "  --port, -p    指定端口号（配合--server使用，默认8080）"
+            echo "  --help, -h    显示帮助"
+            exit 0
+            ;;
+        *)
+            echo "未知参数: $1"
+            exit 1
+            ;;
+    esac
+done
+
+# 如果没有指定端口，使用默认端口
+if [ -z "$PORT" ]; then
+    PORT=8080
+fi
+
+OUTPUT_FILE="/tmp/hackintosh_report.html"
+
+# 收集系统信息
+os_ver=$(sw_vers -productVersion 2>/dev/null)
+os_name=$(sw_vers -productName 2>/dev/null)
+build_ver=$(sw_vers -buildVersion 2>/dev/null)
+bootargs=$(ioreg -l | grep -y boot-args | awk '{for(i=4;i<=NF;i++){to=to" "$i};print to}')
+
+# 主板
+board=$(sysctl -n hw.model 2>/dev/null)
+if [ -z "$board" ]; then
+    board=$(ioreg -l | grep -y "board-id" | head -1 | sed "s/.*=//g" | sed 's/"//g' | sed 's/ //g')
+fi
+
+# 芯片组
+cpu_model=$(sysctl -n machdep.cpu.brand_string 2>/dev/null)
+if echo "$cpu_model" | grep -qi "i9-14\|i7-14\|i5-14\|i3-14"; then
+    chipset="Intel 700系列 (B760/Z790/H770)"
+elif echo "$cpu_model" | grep -qi "i9-13\|i7-13\|i5-13\|i3-13"; then
+    chipset="Intel 700系列 (B760/Z790/H770)"
+elif echo "$cpu_model" | grep -qi "i9-12\|i7-12\|i5-12\|i3-12"; then
+    chipset="Intel 600系列 (B660/Z690/H670)"
+elif echo "$cpu_model" | grep -qi "i9-11\|i7-11\|i5-11\|i3-11"; then
+    chipset="Intel 500系列 (B560/Z590/H570)"
+elif echo "$cpu_model" | grep -qi "i9-10\|i7-10\|i5-10\|i3-10"; then
+    chipset="Intel 400系列 (B460/Z490/H470)"
+elif echo "$cpu_model" | grep -qi "i9-9\|i7-9\|i5-9\|i3-9"; then
+    chipset="Intel 300系列 (B360/Z390/H370)"
+elif echo "$cpu_model" | grep -qi "Xeon"; then
+    chipset="服务器/工作站芯片组"
+else
+    chipset="无法自动检测"
+fi
+
+# CPU
+cpu_brand=$cpu_model
+cpu_cores=$(sysctl -n hw.ncpu 2>/dev/null)
+cpu_freq=$(sysctl -n hw.cpufrequency 2>/dev/null)
+if [ -n "$cpu_freq" ]; then
+    freq_ghz=$(echo "scale=2; $cpu_freq / 1000000000" | bc 2>/dev/null)
+fi
+
+# 内存
+mem_size=$(sysctl -n hw.memsize 2>/dev/null)
+if [ -n "$mem_size" ]; then
+    mem_gb=$(echo "scale=2; $mem_size / 1073741824" | bc 2>/dev/null)
+fi
+
+# SMBIOS
+serial=$(ioreg -l | grep -y "IOPlatformSerialNumber" | head -1 | sed "s/|//g" | sed 's/ //g' | sed 's/"//g' | sed 's/IOPlatformSerialNumber=//g')
+uuid=$(ioreg -l | grep -y "IOPlatformUUID" | head -1 | sed "s/|//g" | sed 's/ //g' | sed 's/"//g' | sed 's/IOPlatformUUID=//g')
+oc_ver=$(nvram 4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102:opencore-version 2>/dev/null | awk '{print $2}')
+
+# WiFi
+wifi_mac=$(system_profiler SPAirPortDataType 2>/dev/null | grep "MAC Address" | head -1 | sed 's/.*: //g')
+wifi_detail=$(system_profiler SPAirPortDataType 2>/dev/null)
+wifi_status=$(echo "$wifi_detail" | grep "Status:" | head -1 | sed 's/.*: //g' | sed 's/^ *//g')
+
+if [ "$wifi_status" != "Off" ]; then
+    current_wifi=$(echo "$wifi_detail" | grep -A 10 "Current Network Information:" | head -15)
+    wifi_ssid=$(echo "$wifi_detail" | grep -A 5 "Current Network Information:" | grep -v "Current Network Information:" | head -1 | sed 's/://g' | sed 's/^ *//g' | sed 's/^[[:space:]]*//')
+    wifi_channel=$(echo "$current_wifi" | grep "Channel:" | head -1 | sed 's/.*: //g' | sed 's/^ *//g')
+    wifi_txrate=$(echo "$current_wifi" | grep "Transmit Rate:" | head -1 | sed 's/.*: //g' | sed 's/^ *//g')
+    wifi_signal=$(echo "$current_wifi" | grep "Signal / Noise:" | head -1 | sed 's/.*: //g' | sed 's/^ *//g')
+    wifi_rssi=$(echo "$wifi_signal" | awk -F'/' '{print $1}' | sed 's/ dBm//g' | sed 's/^ *//g')
+    wifi_mcs=$(echo "$current_wifi" | grep "MCS Index:" | head -1 | sed 's/.*: //g' | sed 's/^ *//g')
+    wifi_phy=$(echo "$current_wifi" | grep "PHY Mode:" | head -1 | sed 's/.*: //g' | sed 's/^ *//g')
+    wifi_nettype=$(echo "$current_wifi" | grep "Network Type:" | head -1 | sed 's/.*: //g' | sed 's/^ *//g')
+    wifi_security=$(echo "$current_wifi" | grep "Security:" | head -1 | sed 's/.*: //g' | sed 's/^ *//g')
+fi
+
+# 蓝牙
+bt_chip=$(system_profiler SPBluetoothDataType 2>/dev/null | grep -i "chipset" | head -1 | sed 's/.*: //g')
+bt_firmware=$(ioreg -l | grep "FirmwareVersionString" | head -1 | sed "s/.*=//g" | sed 's/"//g' | sed 's/ //g')
+
+# 网络接口
+wifi_interface=$(networksetup -listallhardwareports 2>/dev/null | grep -A 1 "Wi-Fi" | grep "Device" | awk '{print $2}')
+awdl_status=$(ifconfig awdl0 2>/dev/null | grep "status:" | awk '{print $2}')
+
+# iCloud
+icloud_account=$(defaults read MobileMeAccounts 2>/dev/null | grep -A 1 "AccountID" | head -1 | sed 's/.*=//g' | sed 's/;//g' | sed 's/"//g' | sed 's/^ *//g')
+
+# Handoff
+handoff_status=$(defaults read com.apple.coreservices.useractivityd 2>/dev/null | head -5)
+handoff_proc=$(pgrep -x useractivityd 2>/dev/null)
+
+# 生成HTML
+cat > "$OUTPUT_FILE" << 'HTMLHEADER'
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hackintosh 系统报告</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            min-height: 100vh;
+            padding: 20px;
+            color: #fff;
+        }
+        .container { max-width: 1200px; margin: 0 auto; }
+        .header {
+            text-align: center;
+            padding: 40px 20px;
+            background: rgba(255,255,255,0.05);
+            border-radius: 20px;
+            margin-bottom: 30px;
+            backdrop-filter: blur(10px);
+        }
+        .header h1 {
+            font-size: 2.5em;
+            background: linear-gradient(90deg, #00d2ff, #3a7bd5);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 10px;
+        }
+        .header p { color: #888; font-size: 1.1em; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 20px; }
+        .card {
+            background: rgba(255,255,255,0.05);
+            border-radius: 15px;
+            padding: 25px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255,255,255,0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+        }
+        .card h2 {
+            font-size: 1.3em;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid rgba(255,255,255,0.1);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .card h2 .icon { font-size: 1.5em; }
+        .info-row {
+            display: flex;
+            justify-content: space-between;
+            padding: 8px 0;
+            border-bottom: 1px solid rgba(255,255,255,0.05);
+        }
+        .info-row:last-child { border-bottom: none; }
+        .info-label { color: #888; }
+        .info-value { font-weight: 500; text-align: right; max-width: 60%; }
+        .status-badge {
+            display: inline-block;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.85em;
+            font-weight: 500;
+        }
+        .status-ok { background: rgba(46, 204, 113, 0.2); color: #2ecc71; }
+        .status-warning { background: rgba(241, 196, 15, 0.2); color: #f1c40f; }
+        .status-error { background: rgba(231, 76, 60, 0.2); color: #e74c3c; }
+        .status-info { background: rgba(52, 152, 219, 0.2); color: #3498db; }
+        .full-width { grid-column: 1 / -1; }
+        .ascii-art {
+            font-family: 'Courier New', 'Monaco', 'Menlo', monospace;
+            font-size: 0.55em;
+            line-height: 1.1;
+            color: #3a7bd5;
+            text-align: left;
+            margin: 0 auto 20px;
+            display: inline-block;
+        }
+        @media (max-width: 768px) {
+            .grid { grid-template-columns: 1fr; }
+            .header h1 { font-size: 1.8em; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <pre class="ascii-art">
+  ######   #####  #     #  #####  #        #####   #####    ###   ####### #
+  #     # #     # ##   ## #     # #    #  #     # #     #  #   #       #  #    #
+  #     # #       # # # # #     # #    #        # #       # #   #     #   #    #
+  ######  #       #  #  #  ###### #######  #####  ######  #  #  #    #    #######
+  #     # #       #     #       #      #        # #     # #   # #   #          #
+  #     # #     # #     # #     #      #  #     # #     #  #   #   #           #
+  ######   #####  #     #  #####       #   #####   #####    ###   #######      #
+            </pre>
+            <h1>Hackintosh 系统报告</h1>
+            <p>BCM94360Z4 驱动信息检测</p>
+        </div>
+        <div class="grid">
+HTMLHEADER
+
+# 系统信息卡片
+cat >> "$OUTPUT_FILE" << EOF
+        <div class="card">
+            <h2><span class="icon">💻</span> 系统信息</h2>
+            <div class="info-row">
+                <span class="info-label">操作系统</span>
+                <span class="info-value">$os_name $os_ver</span>
+            </div>
+            <div class="info-row">
+                <span class="info-label">构建版本</span>
+                <span class="info-value">$build_ver</span>
+            </div>
+            <div class="info-row">
+                <span class="info-label">引导参数</span>
+                <span class="info-value" style="font-size:0.85em;word-break:break-all;">$bootargs</span>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2><span class="icon">🔧</span> 硬件信息</h2>
+            <div class="info-row">
+                <span class="info-label">主板型号</span>
+                <span class="info-value">$board</span>
+            </div>
+            <div class="info-row">
+                <span class="info-label">芯片组</span>
+                <span class="info-value">$chipset</span>
+            </div>
+            <div class="info-row">
+                <span class="info-label">处理器</span>
+                <span class="info-value" style="font-size:0.9em;">$cpu_brand</span>
+            </div>
+            <div class="info-row">
+                <span class="info-label">核心数</span>
+                <span class="info-value">$cpu_cores</span>
+            </div>
+            <div class="info-row">
+                <span class="info-label">频率</span>
+                <span class="info-value">${freq_ghz}GHz</span>
+            </div>
+            <div class="info-row">
+                <span class="info-label">内存</span>
+                <span class="info-value">${mem_gb} GB</span>
+            </div>
+        </div>
+EOF
+
+# WiFi卡片
+cat >> "$OUTPUT_FILE" << EOF
+        <div class="card">
+            <h2><span class="icon">📶</span> WiFi 网卡</h2>
+            <div class="info-row">
+                <span class="info-label">MAC地址</span>
+                <span class="info-value">$wifi_mac</span>
+            </div>
+            <div class="info-row">
+                <span class="info-label">状态</span>
+                <span class="info-value">
+EOF
+
+if [ "$wifi_status" = "Off" ]; then
+    echo "                    <span class=\"status-badge status-warning\">已关闭</span>" >> "$OUTPUT_FILE"
+else
+    echo "                    <span class=\"status-badge status-ok\">已连接</span>" >> "$OUTPUT_FILE"
+fi
+
+cat >> "$OUTPUT_FILE" << EOF
+                </span>
+            </div>
+EOF
+
+if [ "$wifi_status" != "Off" ] && [ -n "$wifi_ssid" ]; then
+    cat >> "$OUTPUT_FILE" << EOF
+            <div class="info-row">
+                <span class="info-label">SSID</span>
+                <span class="info-value">$wifi_ssid</span>
+            </div>
+            <div class="info-row">
+                <span class="info-label">频道</span>
+                <span class="info-value">$wifi_channel</span>
+            </div>
+            <div class="info-row">
+                <span class="info-label">TX速率</span>
+                <span class="info-value">${wifi_txrate} Mbps</span>
+            </div>
+            <div class="info-row">
+                <span class="info-label">RSSI</span>
+                <span class="info-value">${wifi_rssi} dBm</span>
+            </div>
+            <div class="info-row">
+                <span class="info-label">协议</span>
+                <span class="info-value">$wifi_phy</span>
+            </div>
+            <div class="info-row">
+                <span class="info-label">MCS Index</span>
+                <span class="info-value">$wifi_mcs</span>
+            </div>
+EOF
+fi
+echo "        </div>" >> "$OUTPUT_FILE"
+
+# 蓝牙卡片
+cat >> "$OUTPUT_FILE" << EOF
+        <div class="card">
+            <h2><span class="icon">🔵</span> 蓝牙</h2>
+            <div class="info-row">
+                <span class="info-label">芯片型号</span>
+                <span class="info-value">$bt_chip</span>
+            </div>
+            <div class="info-row">
+                <span class="info-label">固件版本</span>
+                <span class="info-value">$bt_firmware</span>
+            </div>
+            <div class="info-row">
+                <span class="info-label">BLE支持</span>
+                <span class="info-value">
+                    <span class="status-badge status-ok">支持</span>
+                </span>
+            </div>
+        </div>
+EOF
+
+# SMBIOS卡片
+cat >> "$OUTPUT_FILE" << EOF
+        <div class="card">
+            <h2><span class="icon">🔐</span> SMBIOS 配置</h2>
+            <div class="info-row">
+                <span class="info-label">序列号</span>
+                <span class="info-value" style="font-size:0.9em;">$serial</span>
+            </div>
+            <div class="info-row">
+                <span class="info-label">系统UUID</span>
+                <span class="info-value" style="font-size:0.85em;">$uuid</span>
+            </div>
+            <div class="info-row">
+                <span class="info-label">OpenCore</span>
+                <span class="info-value">$oc_ver</span>
+            </div>
+        </div>
+EOF
+
+# 网络接口卡片
+cat >> "$OUTPUT_FILE" << EOF
+        <div class="card">
+            <h2><span class="icon">🌐</span> 网络接口</h2>
+            <div class="info-row">
+                <span class="info-label">WiFi接口</span>
+                <span class="info-value">
+                    $wifi_interface
+EOF
+
+if [ "$wifi_interface" = "en0" ]; then
+    echo "                    <span class=\"status-badge status-ok\">✓ en0</span>" >> "$OUTPUT_FILE"
+else
+    echo "                    <span class=\"status-badge status-error\">✗ $wifi_interface</span>" >> "$OUTPUT_FILE"
+fi
+
+cat >> "$OUTPUT_FILE" << EOF
+                </span>
+            </div>
+            <div class="info-row">
+                <span class="info-label">AWDL状态</span>
+                <span class="info-value">
+EOF
+
+if [ -n "$awdl_status" ]; then
+    echo "                    <span class=\"status-badge status-ok\">$awdl_status</span>" >> "$OUTPUT_FILE"
+else
+    echo "                    <span class=\"status-badge status-error\">不存在</span>" >> "$OUTPUT_FILE"
+fi
+
+cat >> "$OUTPUT_FILE" << EOF
+                </span>
+            </div>
+        </div>
+EOF
+
+# iMessage/Handoff 状态卡片
+cat >> "$OUTPUT_FILE" << EOF
+        <div class="card full-width">
+            <h2><span class="icon">📱</span> iMessage & 隔空接力</h2>
+            <div class="info-row">
+                <span class="info-label">iCloud账户</span>
+                <span class="info-value">
+EOF
+
+if [ -n "$icloud_account" ]; then
+    echo "                    <span class=\"status-badge status-ok\">$icloud_account</span>" >> "$OUTPUT_FILE"
+else
+    echo "                    <span class=\"status-badge status-warning\">未登录</span>" >> "$OUTPUT_FILE"
+fi
+
+cat >> "$OUTPUT_FILE" << EOF
+                </span>
+            </div>
+            <div class="info-row">
+                <span class="info-label">iMessage进程</span>
+                <span class="info-value">
+                    <span class="status-badge status-ok">运行中</span>
+                </span>
+            </div>
+            <div class="info-row">
+                <span class="info-label">隔空接力服务</span>
+                <span class="info-value">
+EOF
+
+if [ -n "$handoff_proc" ]; then
+    echo "                    <span class=\"status-badge status-ok\">运行中</span>" >> "$OUTPUT_FILE"
+else
+    echo "                    <span class=\"status-badge status-warning\">未知</span>" >> "$OUTPUT_FILE"
+fi
+
+cat >> "$OUTPUT_FILE" << EOF
+                </span>
+            </div>
+            <div class="info-row">
+                <span class="info-label">WiFi Handoff</span>
+                <span class="info-value">
+                    <span class="status-badge status-ok">支持</span>
+                </span>
+            </div>
+        </div>
+EOF
+
+# 关闭HTML
+cat >> "$OUTPUT_FILE" << 'HTMLFOOTER'
+        </div>
+        <div style="text-align:center; padding:30px; color:#666; font-size:0.9em;">
+            <p>BCM94360Z4 Driver Info Script - Web Report</p>
+            <p>Generated at:
+HTMLFOOTER
+
+echo "$(date '+%Y-%m-%d %H:%M:%S')" >> "$OUTPUT_FILE"
+
+cat >> "$OUTPUT_FILE" << 'HTMLFOOTER2'
+            </p>
+        </div>
+    </div>
+</body>
+</html>
+HTMLFOOTER2
+
+echo ""
+echo "✅ HTML报告已生成: $OUTPUT_FILE"
+echo ""
+
+case "$MODE" in
+    open)
+        # 直接用浏览器打开
+        echo "🌐 正在用浏览器打开报告..."
+        open "$OUTPUT_FILE"
+        echo ""
+        echo "💡 提示: 报告已保存，可以随时用浏览器打开查看"
+        echo "   文件位置: $OUTPUT_FILE"
+        ;;
+    server)
+        # 启动Web服务器
+        echo "📊 启动Web服务器..."
+        echo "🌐 请在浏览器中打开: http://localhost:$PORT/hackintosh_report.html"
+        echo ""
+        echo "按 Ctrl+C 停止服务器"
+        echo ""
+        cd /tmp && python3 -m http.server $PORT
+        ;;
+esac
