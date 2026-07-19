@@ -89,7 +89,9 @@ echo ""
 echo "\033[33m 芯片组：\033[0m"
 # 通过CPU型号推断芯片组
 cpu_model=$(sysctl -n machdep.cpu.brand_string 2>/dev/null)
-if echo "$cpu_model" | grep -qi "i9-14\|i7-14\|i5-14"; then
+if echo "$cpu_model" | grep -qi "Ultra 9\|Ultra 7\|Ultra 5"; then
+    echo "  Intel 800系列 (Z890/B860/H870)"
+elif echo "$cpu_model" | grep -qi "i9-14\|i7-14\|i5-14"; then
     echo "  Intel 700系列 (B760/Z790/H770)"
 elif echo "$cpu_model" | grep -qi "i9-13\|i7-13\|i5-13"; then
     echo "  Intel 700系列 (B760/Z790/H770)"
@@ -132,7 +134,26 @@ if [ -n "$mem_size" ]; then
     
     # Get memory slot details
     echo "  内存插槽详情："
-    system_profiler SPMemoryDataType 2>/dev/null | grep -A 5 "Size\|Type\|Speed" | head -20
+    system_profiler SPMemoryDataType 2>/dev/null | awk '
+/BANK [0-9]/ { 
+    if (size != "" && size != "Empty") {
+        printf "    %s [%s]: %s GB %s @ %s - %s (%s)\n", status, slot, size, type, speed, manuf, part
+    }
+    slot = $0; gsub(/^[[:space:]]+/, "", slot); gsub(/:$/, "", slot)
+    size=""; type=""; speed=""; status=""; manuf=""; part=""
+}
+/^[[:space:]]*Size:/ { size = $2 }
+/^[[:space:]]*Type:/ { type = $2 }
+/^[[:space:]]*Speed:/ { speed = $0; sub(/.*Speed:[[:space:]]*/, "", speed) }
+/^[[:space:]]*Status:/ { status = $2 }
+/^[[:space:]]*Manufacturer:/ { manuf = $0; sub(/.*Manufacturer:[[:space:]]*/, "", manuf) }
+/^[[:space:]]*Part Number:/ { part = $0; sub(/.*Part Number:[[:space:]]*/, "", part) }
+END {
+    if (size != "" && size != "Empty") {
+        printf "    %s [%s]: %s GB %s @ %s - %s (%s)\n", status, slot, size, type, speed, manuf, part
+    }
+}
+'
 else
     echo "  \033[33m无法检测内存信息\033[0m"
 fi
@@ -158,120 +179,111 @@ system_profiler SPStorageDataType 2>/dev/null | awk '
 echo "\033[32m ${WIFI} \033[0m"
 echo "==========================================================="
 
-# WiFi芯片信息
-wifi_chip=$(ioreg -l | grep -y "14e4,43" | grep "compatible" | head -1 | sed "s/.*=//g" | sed 's/"//g' | sed 's/ //g')
-if [ -n "$wifi_chip" ]; then
-    echo "  芯片型号: $wifi_chip"
-fi
-
-# WiFi网卡类型
-wifi_type=$(system_profiler SPAirPortDataType 2>/dev/null | grep "Card Type" | head -1 | sed 's/.*: //g')
-if [ -n "$wifi_type" ]; then
-    echo "  网卡类型: $wifi_type"
-fi
-
-# WiFi MAC地址
-wifi_mac=$(system_profiler SPAirPortDataType 2>/dev/null | grep "MAC Address" | head -1 | sed 's/.*: //g')
-if [ -n "$wifi_mac" ]; then
-    echo "  MAC地址: $wifi_mac"
-fi
-
-# WiFi国家码
-wifi_country=$(ioreg -l | grep "IO80211CountryCode" | head -1 | sed "s/.*=//g" | sed 's/"//g' | sed 's/ //g')
-if [ -n "$wifi_country" ]; then
-    echo "  国家码: $wifi_country"
-fi
-
-# WiFi详细状态信息（频道、速率、RSSI等）
-wifi_detail=$(system_profiler SPAirPortDataType 2>/dev/null)
-if [ -n "$wifi_detail" ]; then
-    # 检查WiFi状态
-    wifi_status=$(echo "$wifi_detail" | grep "Status:" | head -1 | sed 's/.*: //g' | sed 's/^ *//g')
-    if [ "$wifi_status" = "Off" ]; then
-        echo "  \033[33m△ WiFi已关闭\033[0m"
-    else
-        # 获取当前连接的网络信息
-        current_wifi=$(echo "$wifi_detail" | grep -A 10 "Current Network Information:" | head -15)
-        
-        # SSID名称
-        wifi_ssid=$(echo "$wifi_detail" | grep -A 5 "Current Network Information:" | grep -v "Current Network Information:" | head -1 | sed 's/://g' | sed 's/^ *//g')
-        if [ -n "$wifi_ssid" ]; then
-            echo "  SSID: $wifi_ssid"
-        fi
-        
-        # 频道
-        wifi_channel=$(echo "$current_wifi" | grep "Channel:" | head -1 | sed 's/.*: //g' | sed 's/^ *//g')
-        if [ -n "$wifi_channel" ]; then
-            echo "  频道: $wifi_channel"
-        fi
-        
-        # TX速率
-        wifi_txrate=$(echo "$current_wifi" | grep "Transmit Rate:" | head -1 | sed 's/.*: //g' | sed 's/^ *//g')
-        if [ -n "$wifi_txrate" ]; then
-            echo "  TX速率: ${wifi_txrate} Mbps"
-        fi
-        
-        # RSSI/信号强度
-        wifi_signal=$(echo "$current_wifi" | grep "Signal / Noise:" | head -1 | sed 's/.*: //g' | sed 's/^ *//g')
-        if [ -n "$wifi_signal" ]; then
-            wifi_rssi=$(echo "$wifi_signal" | awk -F'/' '{print $1}' | sed 's/ dBm//g' | sed 's/^ *//g')
-            if [ -n "$wifi_rssi" ]; then
-                echo "  RSSI: ${wifi_rssi} dBm"
+# 检测是否为博通网卡
+is_broadcom=$(ioreg -l | grep -y "14e4,43" | head -1)
+if [ -n "$is_broadcom" ]; then
+    # 博通网卡 - 显示详细信息
+    wifi_chip=$(ioreg -l | grep -y "14e4,43" | grep "compatible" | head -1 | sed "s/.*=//g" | sed 's/"//g' | sed 's/ //g')
+    if [ -n "$wifi_chip" ]; then
+        echo "  芯片型号: $wifi_chip"
+    fi
+    
+    wifi_type=$(system_profiler SPAirPortDataType 2>/dev/null | grep "Card Type" | head -1 | sed 's/.*: //g')
+    if [ -n "$wifi_type" ]; then
+        echo "  网卡类型: $wifi_type"
+    fi
+    
+    wifi_mac=$(system_profiler SPAirPortDataType 2>/dev/null | grep "MAC Address" | head -1 | sed 's/.*: //g')
+    if [ -n "$wifi_mac" ]; then
+        echo "  MAC地址: $wifi_mac"
+    fi
+    
+    wifi_country=$(ioreg -l | grep "IO80211CountryCode" | head -1 | sed "s/.*=//g" | sed 's/"//g' | sed 's/ //g')
+    if [ -n "$wifi_country" ]; then
+        echo "  国家码: $wifi_country"
+    fi
+    
+    wifi_detail=$(system_profiler SPAirPortDataType 2>/dev/null)
+    if [ -n "$wifi_detail" ]; then
+        wifi_status=$(echo "$wifi_detail" | grep "Status:" | head -1 | sed 's/.*: //g' | sed 's/^ *//g')
+        if [ "$wifi_status" = "Off" ]; then
+            echo "  \033[33m△ WiFi已关闭\033[0m"
+        else
+            current_wifi=$(echo "$wifi_detail" | grep -A 10 "Current Network Information:" | head -15)
+            
+            wifi_ssid=$(echo "$wifi_detail" | grep -A 5 "Current Network Information:" | grep -v "Current Network Information:" | head -1 | sed 's/://g' | sed 's/^ *//g')
+            if [ -n "$wifi_ssid" ]; then
+                echo "  SSID: $wifi_ssid"
+            fi
+            
+            wifi_channel=$(echo "$current_wifi" | grep "Channel:" | head -1 | sed 's/.*: //g' | sed 's/^ *//g')
+            if [ -n "$wifi_channel" ]; then
+                echo "  频道: $wifi_channel"
+            fi
+            
+            wifi_txrate=$(echo "$current_wifi" | grep "Transmit Rate:" | head -1 | sed 's/.*: //g' | sed 's/^ *//g')
+            if [ -n "$wifi_txrate" ]; then
+                echo "  TX速率: ${wifi_txrate} Mbps"
+            fi
+            
+            wifi_signal=$(echo "$current_wifi" | grep "Signal / Noise:" | head -1 | sed 's/.*: //g' | sed 's/^ *//g')
+            if [ -n "$wifi_signal" ]; then
+                wifi_rssi=$(echo "$wifi_signal" | awk -F'/' '{print $1}' | sed 's/ dBm//g' | sed 's/^ *//g')
+                if [ -n "$wifi_rssi" ]; then
+                    echo "  RSSI: ${wifi_rssi} dBm"
+                fi
+            fi
+            
+            wifi_mcs=$(echo "$current_wifi" | grep "MCS Index:" | head -1 | sed 's/.*: //g' | sed 's/^ *//g')
+            if [ -n "$wifi_mcs" ]; then
+                echo "  MCS Index: $wifi_mcs"
+            fi
+            
+            wifi_phy=$(echo "$current_wifi" | grep "PHY Mode:" | head -1 | sed 's/.*: //g' | sed 's/^ *//g')
+            if [ -n "$wifi_phy" ]; then
+                echo "  协议: $wifi_phy"
+            fi
+            
+            wifi_nettype=$(echo "$current_wifi" | grep "Network Type:" | head -1 | sed 's/.*: //g' | sed 's/^ *//g')
+            if [ -n "$wifi_nettype" ]; then
+                echo "  网络类型: $wifi_nettype"
+            fi
+            
+            wifi_security=$(echo "$current_wifi" | grep "Security:" | head -1 | sed 's/.*: //g' | sed 's/^ *//g')
+            if [ -n "$wifi_security" ]; then
+                echo "  安全类型: $wifi_security"
             fi
         fi
-        
-        # MCS Index（可反映空间流数量）
-        wifi_mcs=$(echo "$current_wifi" | grep "MCS Index:" | head -1 | sed 's/.*: //g' | sed 's/^ *//g')
-        if [ -n "$wifi_mcs" ]; then
-            echo "  MCS Index: $wifi_mcs"
-        fi
-        
-        # PHY模式
-        wifi_phy=$(echo "$current_wifi" | grep "PHY Mode:" | head -1 | sed 's/.*: //g' | sed 's/^ *//g')
-        if [ -n "$wifi_phy" ]; then
-            echo "  协议: $wifi_phy"
-        fi
-        
-        # 网络类型
-        wifi_nettype=$(echo "$current_wifi" | grep "Network Type:" | head -1 | sed 's/.*: //g' | sed 's/^ *//g')
-        if [ -n "$wifi_nettype" ]; then
-            echo "  网络类型: $wifi_nettype"
-        fi
-        
-        # 安全类型
-        wifi_security=$(echo "$current_wifi" | grep "Security:" | head -1 | sed 's/.*: //g' | sed 's/^ *//g')
-        if [ -n "$wifi_security" ]; then
-            echo "  安全类型: $wifi_security"
+    fi
+    
+    wifi_kext=$(kextstat 2>/dev/null | grep -v com.apple | grep -y brcm | awk '{print $6,$7}' | grep -v "No variant specified, falling back to release" | grep -v "Executing" | head -1)
+    if [ -n "$wifi_kext" ]; then
+        echo "  驱动: $wifi_kext"
+    fi
+else
+    # 非博通网卡（如Intel AX200等）
+    echo "  \033[31m✗ 未检测到博通WiFi网卡\033[0m"
+    
+    # 尝试识别当前网卡
+    other_wifi=$(system_profiler SPNetworkDataType 2>/dev/null | grep -A 3 "Wi-Fi" | head -10)
+    if [ -n "$other_wifi" ]; then
+        other_vendor=$(system_profiler SPNetworkDataType 2>/dev/null | grep -i "Vendor\|Hardware" | head -3)
+        if [ -n "$other_vendor" ]; then
+            echo "$other_vendor" | sed 's/^/  /g'
         fi
     fi
-fi
-
-# WiFi驱动kext
-wifi_kext=$(kextstat 2>/dev/null | grep -v com.apple | grep -y brcm | awk '{print $6,$7}' | grep -v "No variant specified, falling back to release" | grep -v "Executing" | head -1)
-if [ -n "$wifi_kext" ]; then
-    echo "  驱动: $wifi_kext"
+    
+    # 检查是否有Intel网卡
+    intel_wifi=$(system_profiler SPHardwareDataType 2>/dev/null; ioreg -l | grep -i "intel" | grep -i "wi-fi\|airport\|network" | head -3)
+    if [ -n "$intel_wifi" ]; then
+        echo "  \033[33m△ 检测到Intel无线网卡，不支持苹果隔空接力(Handoff)\033[0m"
+    fi
+    
+    echo "  \033[33m△ 非博通网卡不支持隔空接力(iMessage Handoff/Continuity)\033[0m"
+    echo "  \033[33m△ 如需完整隔空接力功能，请更换为BCM94360系列等支持方案\033[0m"
 fi
 
 echo "\033[34m ${BT} \033[0m"
-echo "==========================================================="
-
-# 蓝牙芯片信息
-bt_chip=$(system_profiler SPBluetoothDataType 2>/dev/null | grep -i "chipset" | head -1 | sed 's/.*: //g')
-if [ -n "$bt_chip" ]; then
-    echo "  芯片型号: $bt_chip"
-fi
-
-# 蓝牙固件版本
-bt_firmware=$(ioreg -l | grep "FirmwareVersionString" | head -1 | sed "s/.*=//g" | sed 's/"//g' | sed 's/ //g')
-if [ -n "$bt_firmware" ]; then
-    echo "  固件版本: $bt_firmware"
-fi
-
-# 蓝牙设备信息（USB）
-bt_usb=$(system_profiler SPUSBDataType 2>/dev/null | grep -A 5 "33ba" | grep -i "product\|vendor" | head -2)
-if [ -n "$bt_usb" ]; then
-    echo "$bt_usb" | sed 's/^/  /g'
-fi
 
 echo ""
 echo "\033[35m iMessage状态检查：\033[0m"
@@ -394,6 +406,13 @@ else
     fi
 fi
 
+# 非博通网卡额外提示
+if [ -z "$is_broadcom" ]; then
+    echo ""
+    echo "  \033[33m△ 注意：当前无线网卡非博通芯片，iMessage/Handoff功能受限\033[0m"
+    echo "  \033[33m   进程虽在运行，但无法完成蓝牙-WiFi配对，隔空接力不可用\033[0m"
+fi
+
 # Check activation status
 echo ""
 echo "\033[36m 激活状态：\033[0m"
@@ -450,17 +469,11 @@ fi
 # Check WiFi Handoff support
 echo ""
 echo "\033[36m WiFi Handoff支持：\033[0m"
-wifi_handoff=$(system_profiler SPAirPortDataType 2>/dev/null | grep -i "handoff\|continuity" | head -1)
-if [ -n "$wifi_handoff" ]; then
-    echo "  \033[32m✓ WiFi支持Handoff\033[0m"
+if [ -n "$is_broadcom" ]; then
+    echo "  \033[32m✓ 博通WiFi网卡，支持Handoff\033[0m"
 else
-    # Check if it's a supported card via ioreg
-    wifi_card=$(ioreg -l | grep -y "14e4,43" | grep "compatible" | head -1)
-    if [ -n "$wifi_card" ]; then
-        echo "  \033[32m✓ 检测到博通WiFi网卡\033[0m"
-    else
-        echo "  \033[33m△ 无法确认WiFi Handoff支持\033[0m"
-    fi
+    echo "  \033[31m✗ 非博通网卡，不支持Handoff\033[0m"
+    echo "  \033[33m   Intel AX200等网卡无法完成蓝牙-WiFi配对，隔空接力不可用\033[0m"
 fi
 
 # Check Handoff system setting
@@ -494,6 +507,14 @@ else
     else
         echo "  \033[33m△ 连续互通状态未知\033[0m"
     fi
+fi
+
+# 非博通网卡最终警告
+if [ -z "$is_broadcom" ]; then
+    echo ""
+    echo "  \033[31m✗ 重要提示：当前无线网卡非博通芯片\033[0m"
+    echo "  \033[31m   即使iMessage/Handoff进程在运行，也无法实际使用隔空接力功能\033[0m"
+    echo "  \033[31m   原因：Handoff需要蓝牙与WiFi网卡配对（同一厂商），Intel网卡无法与苹果蓝牙配对\033[0m"
 fi
 
 # Summary

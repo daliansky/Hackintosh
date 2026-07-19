@@ -107,7 +107,9 @@ fi
 
 # 芯片组
 cpu_model=$(sysctl -n machdep.cpu.brand_string 2>/dev/null)
-if echo "$cpu_model" | grep -qi "i9-14\|i7-14\|i5-14\|i3-14"; then
+if echo "$cpu_model" | grep -qi "Ultra 9\|Ultra 7\|Ultra 5"; then
+    chipset="Intel 800系列 (Z890/B860/H870)"
+elif echo "$cpu_model" | grep -qi "i9-14\|i7-14\|i5-14\|i3-14"; then
     chipset="Intel 700系列 (B760/Z790/H770)"
 elif echo "$cpu_model" | grep -qi "i9-13\|i7-13\|i5-13\|i3-13"; then
     chipset="Intel 700系列 (B760/Z790/H770)"
@@ -124,6 +126,26 @@ elif echo "$cpu_model" | grep -qi "Xeon"; then
 else
     chipset="无法自动检测"
 fi
+
+# 内存插槽
+mem_slots=$(system_profiler SPMemoryDataType 2>/dev/null | awk '
+/BANK [0-9]/ { 
+    if (size != "" && size != "Empty") {
+        printf "%s|%s|%s|%s|%s|%s\n", slot, size, type, speed, manuf, part
+    }
+    slot = $0; gsub(/^[[:space:]]+/, "", slot); gsub(/:$/, "", slot)
+    size=""; type=""; speed=""; manuf=""; part=""
+}
+/^[[:space:]]*Size:/ { size = $2 }
+/^[[:space:]]*Type:/ { type = $2 }
+/^[[:space:]]*Speed:/ { speed = $0; sub(/.*Speed:[[:space:]]*/, "", speed) }
+/^[[:space:]]*Manufacturer:/ { manuf = $0; sub(/.*Manufacturer:[[:space:]]*/, "", manuf) }
+/^[[:space:]]*Part Number:/ { part = $0; sub(/.*Part Number:[[:space:]]*/, "", part) }
+END {
+    if (size != "" && size != "Empty") {
+        printf "%s|%s|%s|%s|%s|%s", slot, size, type, speed, manuf, part
+    }
+}')
 
 # CPU
 cpu_brand=$cpu_model
@@ -145,11 +167,20 @@ uuid=$(ioreg -l | grep -y "IOPlatformUUID" | head -1 | sed "s/|//g" | sed 's/ //
 oc_ver=$(nvram 4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102:opencore-version 2>/dev/null | awk '{print $2}')
 
 # WiFi
-wifi_mac=$(system_profiler SPAirPortDataType 2>/dev/null | grep "MAC Address" | head -1 | sed 's/.*: //g')
-wifi_detail=$(system_profiler SPAirPortDataType 2>/dev/null)
-wifi_status=$(echo "$wifi_detail" | grep "Status:" | head -1 | sed 's/.*: //g' | sed 's/^ *//g')
+is_broadcom=$(ioreg -l | grep -y "14e4,43" | head -1)
+if [ -n "$is_broadcom" ]; then
+    wifi_chip=$(ioreg -l | grep -y "14e4,43" | grep "compatible" | head -1 | sed "s/.*=//g" | sed 's/"//g' | sed 's/ //g')
+    wifi_mac=$(system_profiler SPAirPortDataType 2>/dev/null | grep "MAC Address" | head -1 | sed 's/.*: //g')
+    wifi_detail=$(system_profiler SPAirPortDataType 2>/dev/null)
+    wifi_status=$(echo "$wifi_detail" | grep "Status:" | head -1 | sed 's/.*: //g' | sed 's/^ *//g')
+    wifi_type=$(system_profiler SPAirPortDataType 2>/dev/null | grep "Card Type" | head -1 | sed 's/.*: //g')
+    wifi_country=$(ioreg -l | grep "IO80211CountryCode" | head -1 | sed "s/.*=//g" | sed 's/"//g' | sed 's/ //g')
+    wifi_is_broadcom=true
+else
+    wifi_is_broadcom=false
+fi
 
-if [ "$wifi_status" != "Off" ]; then
+if [ "$wifi_is_broadcom" = true ] && [ "$wifi_status" != "Off" ]; then
     current_wifi=$(echo "$wifi_detail" | grep -A 10 "Current Network Information:" | head -15)
     wifi_ssid=$(echo "$wifi_detail" | grep -A 5 "Current Network Information:" | grep -v "Current Network Information:" | head -1 | sed 's/://g' | sed 's/^ *//g' | sed 's/^[[:space:]]*//')
     wifi_channel=$(echo "$current_wifi" | grep "Channel:" | head -1 | sed 's/.*: //g' | sed 's/^ *//g')
@@ -332,6 +363,26 @@ cat >> "$OUTPUT_FILE" << EOF
                 <span class="info-label">内存</span>
                 <span class="info-value">${mem_gb} GB</span>
             </div>
+EOF
+
+if [ -n "$mem_slots" ]; then
+    echo '            <div style="margin-top:15px; padding-top:15px; border-top:1px solid rgba(255,255,255,0.05);">' >> "$OUTPUT_FILE"
+    echo '                <div style="color:#888; font-size:0.9em; margin-bottom:10px;">内存插槽详情：</div>' >> "$OUTPUT_FILE"
+    IFS=$'\n'
+    for line in $mem_slots; do
+        slot=$(echo "$line" | cut -d'|' -f1)
+        size=$(echo "$line" | cut -d'|' -f2)
+        type=$(echo "$line" | cut -d'|' -f3)
+        speed=$(echo "$line" | cut -d'|' -f4)
+        manuf=$(echo "$line" | cut -d'|' -f5)
+        part=$(echo "$line" | cut -d'|' -f6)
+        echo "                <div style=\"padding:6px 0; border-bottom:1px solid rgba(255,255,255,0.03); font-size:0.9em;\">${slot}: ${size} GB ${type} @ ${speed} - ${manuf} (${part})</div>" >> "$OUTPUT_FILE"
+    done
+    unset IFS
+    echo '            </div>' >> "$OUTPUT_FILE"
+fi
+
+cat >> "$OUTPUT_FILE" << 'EOF'
         </div>
 EOF
 
@@ -339,28 +390,41 @@ EOF
 cat >> "$OUTPUT_FILE" << EOF
         <div class="card">
             <h2><span class="icon">📶</span> WiFi 网卡</h2>
+EOF
+
+if [ "$wifi_is_broadcom" = true ]; then
+    cat >> "$OUTPUT_FILE" << EOF
+            <div class="info-row">
+                <span class="info-label">芯片型号</span>
+                <span class="info-value">$wifi_chip</span>
+            </div>
+            <div class="info-row">
+                <span class="info-label">网卡类型</span>
+                <span class="info-value">$wifi_type</span>
+            </div>
             <div class="info-row">
                 <span class="info-label">MAC地址</span>
                 <span class="info-value">$wifi_mac</span>
             </div>
             <div class="info-row">
+                <span class="info-label">国家码</span>
+                <span class="info-value">$wifi_country</span>
+            </div>
+            <div class="info-row">
                 <span class="info-label">状态</span>
                 <span class="info-value">
 EOF
-
-if [ "$wifi_status" = "Off" ]; then
-    echo "                    <span class=\"status-badge status-warning\">已关闭</span>" >> "$OUTPUT_FILE"
-else
-    echo "                    <span class=\"status-badge status-ok\">已连接</span>" >> "$OUTPUT_FILE"
-fi
-
-cat >> "$OUTPUT_FILE" << EOF
+    if [ "$wifi_status" = "Off" ]; then
+        echo '                    <span class=\"status-badge status-warning\">已关闭</span>' >> "$OUTPUT_FILE"
+    else
+        echo '                    <span class=\"status-badge status-ok\">已连接</span>' >> "$OUTPUT_FILE"
+    fi
+    cat >> "$OUTPUT_FILE" << EOF
                 </span>
             </div>
 EOF
-
-if [ "$wifi_status" != "Off" ] && [ -n "$wifi_ssid" ]; then
-    cat >> "$OUTPUT_FILE" << EOF
+    if [ -n "$wifi_ssid" ]; then
+        cat >> "$OUTPUT_FILE" << EOF
             <div class="info-row">
                 <span class="info-label">SSID</span>
                 <span class="info-value">$wifi_ssid</span>
@@ -384,6 +448,21 @@ if [ "$wifi_status" != "Off" ] && [ -n "$wifi_ssid" ]; then
             <div class="info-row">
                 <span class="info-label">MCS Index</span>
                 <span class="info-value">$wifi_mcs</span>
+            </div>
+EOF
+    fi
+else
+    cat >> "$OUTPUT_FILE" << EOF
+            <div class="info-row">
+                <span class="info-label">网卡状态</span>
+                <span class="info-value">
+                    <span class="status-badge status-error">非博通网卡</span>
+                </span>
+            </div>
+            <div style="padding:15px; background:rgba(231,76,60,0.1); border-radius:10px; margin-top:10px;">
+                <p style="color:#e74c3c; font-size:0.9em; margin-bottom:8px;">✗ 未检测到博通WiFi网卡</p>
+                <p style="color:#f1c40f; font-size:0.85em; line-height:1.5;">当前无线网卡不支持苹果隔空接力(Handoff/Continuity)功能。</p>
+                <p style="color:#888; font-size:0.85em; margin-top:8px;">建议：如需完整隔空接力功能，请更换为BCM94360系列等博通芯片网卡。</p>
             </div>
 EOF
 fi
@@ -486,7 +565,16 @@ cat >> "$OUTPUT_FILE" << EOF
             <div class="info-row">
                 <span class="info-label">iMessage进程</span>
                 <span class="info-value">
-                    <span class="status-badge status-ok">运行中</span>
+EOF
+
+imessage_proc=$(pgrep -x imagent 2>/dev/null)
+if [ -n "$imessage_proc" ]; then
+    echo '                    <span class="status-badge status-ok">运行中</span>' >> "$OUTPUT_FILE"
+else
+    echo '                    <span class="status-badge status-error">未运行</span>' >> "$OUTPUT_FILE"
+fi
+
+cat >> "$OUTPUT_FILE" << EOF
                 </span>
             </div>
             <div class="info-row">
@@ -495,9 +583,9 @@ cat >> "$OUTPUT_FILE" << EOF
 EOF
 
 if [ -n "$handoff_proc" ]; then
-    echo "                    <span class=\"status-badge status-ok\">运行中</span>" >> "$OUTPUT_FILE"
+    echo '                    <span class="status-badge status-ok">运行中</span>' >> "$OUTPUT_FILE"
 else
-    echo "                    <span class=\"status-badge status-warning\">未知</span>" >> "$OUTPUT_FILE"
+    echo '                    <span class="status-badge status-warning">未知</span>' >> "$OUTPUT_FILE"
 fi
 
 cat >> "$OUTPUT_FILE" << EOF
@@ -506,11 +594,27 @@ cat >> "$OUTPUT_FILE" << EOF
             <div class="info-row">
                 <span class="info-label">WiFi Handoff</span>
                 <span class="info-value">
-                    <span class="status-badge status-ok">支持</span>
+EOF
+
+if [ "$wifi_is_broadcom" = true ]; then
+    echo '                    <span class="status-badge status-ok">支持</span>' >> "$OUTPUT_FILE"
+else
+    cat >> "$OUTPUT_FILE" << 'EOF'
+                    <span class="status-badge status-error">不支持</span>
+EOF
+    cat >> "$OUTPUT_FILE" << 'EOF'
                 </span>
             </div>
-        </div>
+            <div style="padding:15px; background:rgba(241,196,15,0.1); border-radius:10px; margin-top:10px;">
+                <p style="color:#f1c40f; font-size:0.9em; margin-bottom:8px;">⚠ 当前无线网卡非博通芯片，Handoff功能受限</p>
+                <p style="color:#888; font-size:0.85em; line-height:1.5;">即使iMessage/Handoff进程在运行，也无法实际使用隔空接力功能。</p>
+                <p style="color:#888; font-size:0.85em; line-height:1.5;">原因：Handoff需要蓝牙与WiFi网卡配对（同一厂商），Intel AX200等网卡无法与苹果蓝牙配对。</p>
+                <p style="color:#888; font-size:0.85em; margin-top:8px;">建议：如需完整隔空接力功能，请更换为BCM94360系列等博通芯片网卡。</p>
+            </div>
 EOF
+fi
+
+echo "        </div>" >> "$OUTPUT_FILE"
 
 # 关闭HTML
 cat >> "$OUTPUT_FILE" << 'HTMLFOOTER'
