@@ -169,7 +169,20 @@ oc_ver=$(nvram 4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102:opencore-version 2>/dev/null
 # WiFi
 is_broadcom=$(ioreg -l | grep -y "14e4,43" | head -1)
 if [ -n "$is_broadcom" ]; then
-    wifi_chip=$(ioreg -l | grep -y "14e4,43" | grep "compatible" | head -1 | sed "s/.*=//g" | sed 's/"//g' | sed 's/ //g')
+    # 获取芯片ID并映射为友好的型号名称
+    chip_id=$(ioreg -l | grep -y "14e4,43" | grep "compatible" | head -1 | grep -oE "14e4,43[a-f0-9]+" | sed 's/14e4,//')
+    case "$chip_id" in
+        43a0) wifi_chip="BCM94360" ;;
+        43ba) wifi_chip="BCM943602" ;;
+        43a3) wifi_chip="BCM94360CD" ;;
+        43b1) wifi_chip="BCM94360CS2" ;;
+        4353) wifi_chip="BCM94352" ;;
+        4357) wifi_chip="BCM94356" ;;
+        4331) wifi_chip="BCM94331" ;;
+        43a2) wifi_chip="BCM94360Z4" ;;
+        *)    wifi_chip="BCM$chip_id" ;;
+    esac
+    wifi_chip="$wifi_chip (0x$chip_id)"
     wifi_mac=$(system_profiler SPAirPortDataType 2>/dev/null | grep "MAC Address" | head -1 | sed 's/.*: //g')
     wifi_detail=$(system_profiler SPAirPortDataType 2>/dev/null)
     wifi_status=$(echo "$wifi_detail" | grep "Status:" | head -1 | sed 's/.*: //g' | sed 's/^ *//g')

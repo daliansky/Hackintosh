@@ -183,10 +183,20 @@ echo "==========================================================="
 is_broadcom=$(ioreg -l | grep -y "14e4,43" | head -1)
 if [ -n "$is_broadcom" ]; then
     # 博通网卡 - 显示详细信息
-    wifi_chip=$(ioreg -l | grep -y "14e4,43" | grep "compatible" | head -1 | sed "s/.*=//g" | sed 's/"//g' | sed 's/ //g')
-    if [ -n "$wifi_chip" ]; then
-        echo "  芯片型号: $wifi_chip"
-    fi
+    # 获取芯片ID并映射为友好的型号名称
+    chip_id=$(ioreg -l | grep -y "14e4,43" | grep "compatible" | head -1 | grep -oE "14e4,43[a-f0-9]+" | sed 's/14e4,//')
+    case "$chip_id" in
+        43a0) chip_name="BCM94360" ;;
+        43ba) chip_name="BCM943602" ;;
+        43a3) chip_name="BCM94360CD" ;;
+        43b1) chip_name="BCM94360CS2" ;;
+        4353) chip_name="BCM94352" ;;
+        4357) chip_name="BCM94356" ;;
+        4331) chip_name="BCM94331" ;;
+        43a2) chip_name="BCM94360Z4" ;;
+        *)    chip_name="BCM$chip_id" ;;
+    esac
+    echo "  芯片型号: $chip_name (0x$chip_id)"
     
     wifi_type=$(system_profiler SPAirPortDataType 2>/dev/null | grep "Card Type" | head -1 | sed 's/.*: //g')
     if [ -n "$wifi_type" ]; then
