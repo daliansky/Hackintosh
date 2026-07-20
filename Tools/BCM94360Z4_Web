@@ -191,6 +191,32 @@ if [ "$wifi_is_broadcom" = true ] && [ "$wifi_status" != "Off" ]; then
     wifi_phy=$(echo "$current_wifi" | grep "PHY Mode:" | head -1 | sed 's/.*: //g' | sed 's/^ *//g')
     wifi_nettype=$(echo "$current_wifi" | grep "Network Type:" | head -1 | sed 's/.*: //g' | sed 's/^ *//g')
     wifi_security=$(echo "$current_wifi" | grep "Security:" | head -1 | sed 's/.*: //g' | sed 's/^ *//g')
+    
+    # NSS（空间流数量，通过速率推断）
+    wifi_nss=""
+    if [ -n "$wifi_txrate" ] && [ -n "$wifi_phy" ]; then
+        if echo "$wifi_phy" | grep -qi "ac"; then
+            if [ "$wifi_txrate" -gt 400 ] 2>/dev/null; then
+                wifi_nss="2 (2x2 MIMO)"
+            elif [ "$wifi_txrate" -gt 200 ] 2>/dev/null; then
+                wifi_nss="1 (1x1 MIMO)"
+            else
+                wifi_nss="1"
+            fi
+        elif echo "$wifi_phy" | grep -qi "ax"; then
+            if [ "$wifi_txrate" -gt 600 ] 2>/dev/null; then
+                wifi_nss="2 (2x2 MIMO)"
+            else
+                wifi_nss="1 (1x1 MIMO)"
+            fi
+        else
+            if [ "$wifi_txrate" -gt 150 ] 2>/dev/null; then
+                wifi_nss="2 (2x2 MIMO)"
+            else
+                wifi_nss="1 (1x1 MIMO)"
+            fi
+        fi
+    fi
 fi
 
 # 蓝牙
@@ -450,6 +476,14 @@ EOF
                 <span class="info-value">$wifi_mcs</span>
             </div>
 EOF
+        if [ -n "$wifi_nss" ]; then
+            cat >> "$OUTPUT_FILE" << EOF
+            <div class="info-row">
+                <span class="info-label">NSS</span>
+                <span class="info-value">$wifi_nss</span>
+            </div>
+EOF
+        fi
     fi
 else
     cat >> "$OUTPUT_FILE" << EOF

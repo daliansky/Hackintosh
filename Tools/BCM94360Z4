@@ -244,6 +244,31 @@ if [ -n "$is_broadcom" ]; then
                 echo "  协议: $wifi_phy"
             fi
             
+            # NSS（空间流数量，通过速率推断）
+            if [ -n "$wifi_txrate" ] && [ -n "$wifi_phy" ]; then
+                if echo "$wifi_phy" | grep -qi "ac"; then
+                    if [ "$wifi_txrate" -gt 400 ] 2>/dev/null; then
+                        echo "  NSS: 2 (2x2 MIMO)"
+                    elif [ "$wifi_txrate" -gt 200 ] 2>/dev/null; then
+                        echo "  NSS: 1 (1x1 MIMO)"
+                    else
+                        echo "  NSS: 1"
+                    fi
+                elif echo "$wifi_phy" | grep -qi "ax"; then
+                    if [ "$wifi_txrate" -gt 600 ] 2>/dev/null; then
+                        echo "  NSS: 2 (2x2 MIMO)"
+                    else
+                        echo "  NSS: 1 (1x1 MIMO)"
+                    fi
+                else
+                    if [ "$wifi_txrate" -gt 150 ] 2>/dev/null; then
+                        echo "  NSS: 2 (2x2 MIMO)"
+                    else
+                        echo "  NSS: 1 (1x1 MIMO)"
+                    fi
+                fi
+            fi
+            
             wifi_nettype=$(echo "$current_wifi" | grep "Network Type:" | head -1 | sed 's/.*: //g' | sed 's/^ *//g')
             if [ -n "$wifi_nettype" ]; then
                 echo "  网络类型: $wifi_nettype"
