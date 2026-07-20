@@ -35,6 +35,10 @@ sh BCM94360Z4_Web --server --port 9090
 sh BCM94360Z4_Web --help
 ```
 
+输出效果如下：
+
+![BCM94360Z4 Web Report](https://raw.githubusercontent.com/daliansky/Hackintosh/master/Tools/BCM94360Z4_Web.png)
+
 
 
 ## 一键安装`Catalina`下缺失的`PPTP`驱动及相关文件，以使用`PPTP client for Catalina`
