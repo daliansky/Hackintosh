@@ -10,6 +10,33 @@ sh -c "$(curl -fsSL https://cdn.jsdelivr.net/gh/daliansky/Hackintosh/Tools/BCM94
 
 
 
+## 一键生成 BCM94360Z4 网卡信息 Web 报告
+
+> 生成美观的 HTML 格式报告，可直接在浏览器中查看
+
+```bash
+# 直接用浏览器打开（推荐）
+sh -c "$(curl -fsSL https://cdn.jsdelivr.net/gh/daliansky/Hackintosh/Tools/BCM94360Z4_Web)"
+
+# 国内加速
+sh -c "$(curl -fsSL https://ghfast.top/https://raw.githubusercontent.com/daliansky/Hackintosh/master/Tools/BCM94360Z4_Web)"
+```
+
+**更多用法：**
+
+```bash
+# 启动 Web 服务器（默认端口 8080）
+sh BCM94360Z4_Web --server
+
+# 指定端口启动（避免端口冲突）
+sh BCM94360Z4_Web --server --port 9090
+
+# 查看帮助
+sh BCM94360Z4_Web --help
+```
+
+
+
 ## 一键安装`Catalina`下缺失的`PPTP`驱动及相关文件，以使用`PPTP client for Catalina`
 
 ```bash
