@@ -37,7 +37,7 @@ sh BCM94360Z4_Web --help
 
 输出效果如下：
 
-![BCM94360Z4 Web Report](https://raw.githubusercontent.com/daliansky/Hackintosh/master/Tools/BCM94360Z4_Web.png)
+![BCM94360Z4 Web Report](./BCM94360Z4_Web.png)
 
 
 
