@@ -161,9 +161,7 @@ if [ -n "$mem_size" ]; then
     mem_gb=$(echo "scale=2; $mem_size / 1073741824" | bc 2>/dev/null)
 fi
 
-# SMBIOS
-serial=$(ioreg -l | grep -y "IOPlatformSerialNumber" | head -1 | sed "s/|//g" | sed 's/ //g' | sed 's/"//g' | sed 's/IOPlatformSerialNumber=//g')
-uuid=$(ioreg -l | grep -y "IOPlatformUUID" | head -1 | sed "s/|//g" | sed 's/ //g' | sed 's/"//g' | sed 's/IOPlatformUUID=//g')
+# SMBIOS (三码信息已隐藏，仅检测OpenCore版本)
 oc_ver=$(nvram 4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102:opencore-version 2>/dev/null | awk '{print $2}')
 
 # WiFi
@@ -374,6 +372,10 @@ cat >> "$OUTPUT_FILE" << EOF
                 <span class="info-label">引导参数</span>
                 <span class="info-value" style="font-size:0.85em;word-break:break-all;">$bootargs</span>
             </div>
+            <div class="info-row">
+                <span class="info-label">OpenCore</span>
+                <span class="info-value">$oc_ver</span>
+            </div>
         </div>
 
         <div class="card">
@@ -532,25 +534,6 @@ cat >> "$OUTPUT_FILE" << EOF
                 <span class="info-value">
                     <span class="status-badge status-ok">支持</span>
                 </span>
-            </div>
-        </div>
-EOF
-
-# SMBIOS卡片
-cat >> "$OUTPUT_FILE" << EOF
-        <div class="card">
-            <h2><span class="icon">🔐</span> SMBIOS 配置</h2>
-            <div class="info-row">
-                <span class="info-label">序列号</span>
-                <span class="info-value" style="font-size:0.9em;">$serial</span>
-            </div>
-            <div class="info-row">
-                <span class="info-label">系统UUID</span>
-                <span class="info-value" style="font-size:0.85em;">$uuid</span>
-            </div>
-            <div class="info-row">
-                <span class="info-label">OpenCore</span>
-                <span class="info-value">$oc_ver</span>
             </div>
         </div>
 EOF

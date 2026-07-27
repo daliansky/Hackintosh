@@ -328,14 +328,14 @@ echo "==========================================================="
 echo "\033[36m SMBIOS配置：\033[0m"
 smbios_check=$(ioreg -l | grep -y "IOPlatformSerialNumber" | head -1 | sed "s/|//g" | sed 's/ //g' | sed 's/"//g')
 if [ -n "$smbios_check" ]; then
-    echo "  序列号: $smbios_check"
+    echo "  \033[32m✓ 序列号已配置\033[0m"
 else
     echo "  \033[31m未检测到序列号\033[0m"
 fi
 
 mlb_check=$(ioreg -l | grep -y "IOPlatformUUID" | head -1 | sed "s/|//g" | sed 's/ //g' | sed 's/"//g')
 if [ -n "$mlb_check" ]; then
-    echo "  系统UUID: $mlb_check"
+    echo "  \033[32m✓ 系统UUID已配置\033[0m"
 else
     echo "  \033[31m未检测到系统UUID\033[0m"
 fi
@@ -358,15 +358,8 @@ if [ -z "$rom_value" ]; then
 fi
 
 if [ -n "$rom_value" ]; then
-    # 格式化显示ROM
+    # 检查ROM是否为全0或全F（不显示具体值）
     rom_display=$(echo "$rom_value" | sed 's/\\x//g' | tr '[:lower:]' '[:upper:]')
-    if [ ${#rom_display} -ge 12 ]; then
-        echo "  ROM值: ${rom_display:0:2}:${rom_display:2:2}:${rom_display:4:2}:${rom_display:6:2}:${rom_display:8:2}:${rom_display:10:2}"
-    else
-        echo "  ROM值: $rom_display"
-    fi
-    
-    # 检查ROM是否为全0或全F
     if echo "$rom_display" | grep -qE "^0+$"; then
         echo "  \033[31m✗ ROM全为0，可能导致Handoff失败\033[0m"
     elif echo "$rom_display" | grep -qE "^F+$"; then
