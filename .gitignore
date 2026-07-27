@@ -1,2 +1,10 @@
 .DS_Store
 Wechat.md
+
+# 本地测试脚本和配置
+scripts/
+config.yaml
+data/
+new_models.md
+requirements.txt
+*.bak

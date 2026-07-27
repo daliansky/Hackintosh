@@ -68,6 +68,9 @@
 | --------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------ |
 | Acer A315-53G               | [链接](https://github.com/hanngoc1406/ACER-A315-53G-Hackintosh-Opencore) |                                                              |                                                  |
 | Acer Aspire 5741G | [链接](https://github.com/AlexHackintosh/Acer-Aspire-5741G-High-Sierra) | | |
+| Acer Aspire VX5-591G | [链接](https://github.com/cleyton1986/Hackintosh-VX5-591G) |  | OpenCore | NVIDIA GTX 1050 |
+| Acer Aspire 3 | [链接](https://github.com/Sulaiman3352/Hackintosh_acer3) |  |  |
+| Acer aspire v3 | [链接](https://github.com/ValeriiCreates/EFI-for-acer-aspire-v3-772) |  |  |
 | Acer Aspire 3 A315-51       | [链接](https://github.com/ZeroInfinityXDA/Acer-A315-51-Hackintosh) |                                                              |                                                  |
 | Acer Aspire 3 A315-54K-34P6 | [链接](https://github.com/velickovicdj/A315-54K-34P6_OpenCore_Big_Sur) |                                                              |                                                  |
 | Acer Aspire 3 A315-56 | [链接](https://github.com/NaseelNiyas/Acer-a315-56-Opencore) | | |
@@ -131,11 +134,13 @@
 | Acer P258-MG                | [链接](https://github.com/lgs3137/ACER_P258_MG-macOS)        |                                                              |    |
 | Acer A315-55G	|[链接](https://github.com/tkkinn/opencore-a315-55g)	|		|		|
 | Acer Aspire VX15	|[链接](https://github.com/dongcodebmt/VX5-591G-OpenCore)	|		|		|
+| Hackintosh | [链接](https://github.com/daliansky/Hackintosh) |  |  |
 
 ### Asus 华硕
 
 | 机型名称                          | 发布地址                                                     | 教程地址                                                     | 备注                                                         |
 | --------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| ASRock B560M | [链接](https://github.com/QuanTrieuPCYT/ASRock-B560M-Pro4_Hackintosh) |  | OpenCore | i9-11900F | AMD Radeon RX 6600 |
 | Asus A43SJ                        | [链接](https://github.com/badruzeus/Hackintosh-Asus-A43SJ)   | [链接](https://github.com/badruzeus/Hackintosh-Asus-A43SJ/blob/master/README.md) | Asus A43SJ                                                   |
 | Asus A411UF                       | [链接](https://github.com/faizauthar12/Asus_A411UF_Hackintosh) |                                                              |                                                              |
 | Asus A441-A456 | [链接](https://github.com/DanteHub/hackintool-oc-ASUAA441-A456) | | |
@@ -257,6 +262,23 @@
 | Asus Zenbook UX450FDX             | [链接](https://github.com/xvAcid/Hackintosh_Zenbook_UX450FDX) |                                                              |                                                              |
 | Asus Zenbook UX463F | [链接](https://github.com/MSzturc/ASUS-Zenbook-Flip-UX463-OpenCore) | | |
 | Asus Zenbook 3 UX490              | [链接](https://github.com/VillenaDeveloper/asus-ux490-hackintosh) |                                                              |                                                              |
+| MSI B850M-G | [链接](https://github.com/icliberen/hackintosh-opencore-sequoia-tahoe-msi_b850m_g-ryzen5_9600x-rx570-rx5500xt) |  | OpenCore | ryzen5 | AMD Radeon rx5500 |
+| ThinkPad T470 | [链接](https://github.com/ShimotsukiMerin/T470-Hackintosh) |  | OpenCore | i5-6300U | Intel HD Graphics |
+| STRIX B550 | [链接](https://github.com/Emanuele-Chiummo/hackintosh-b550f-ryzen7-rx6900xt) |  | OpenCore | ryzen7 | AMD Radeon rx6900 |
+| PRIME Z390 | [链接](https://github.com/petrouv/Hackintosh-ASUS-PRIME-Z390-A-i3-8350K-UHD630) |  | OpenCore | i3-8350K |
+| PRIME Z370 | [链接](https://github.com/ratan-ops/EFI) |  | OpenCore | i7-9700F | Intel UHD Graphics |
+| Tahoe-OC Asus-TUF-A15-FA506IHRB | [链接](https://github.com/MiskaWasTaken/Tahoe-OC-EFI-Asus-TUF-A15-FA506IHRB) |  | OpenCore | Ryzen 5 4600H | NVIDIA GTX 1650 |
+| PRIME H310M | [链接](https://github.com/tuananh511/EFI-ASUS-PRIME-H310M-E-R2.0) |  | OpenCore | i3-9100F | NVIDIA GTX 1060 |
+| Asus-K53SC | [链接](https://github.com/MIAMIcooler/Asus-K53SC-OpenCore) |  | OpenCore |
+| s | [链接](https://github.com/PIKACHUIM/OpenCoreEFIs) |  | OpenCore | I9-10900K | AMD Radeon RX6900 |
+| CELSIUS J5012 | [链接](https://github.com/ljzxzxl/fujitsu-celsius-j5012-efi) |  | OpenCore | i5-13500 | Intel UHD Graphics |
+| Asus-Zenbook13 | [链接](https://github.com/brodsbytes/Asus-Zenbook13-Hackintosh-EFI) |  | OpenCore |
+| ASUS-TUF-FX504GE | [链接](https://github.com/Sanqing678/ASUS-TUF-FX504GE-Hackintosh) |  | OpenCore | i7-8750H | Intel UHD Graphics |
+| HP-Pavilion-Gaming-15-cx0xxx | [链接](https://github.com/ititrica/HP-Pavilion-Gaming-15-cx0xxx-Hackintosh) |  | OpenCore | i5-8300H | NVIDIA GTX 1050 |
+| RX550-Lexa | [链接](https://github.com/adambaylin21/EFI-Hackintosh-RX550-Lexa) |  |  |
+| ASUS-TUF-GAMING-FX506LH | [链接](https://github.com/vinzelato/ASUS-TUF-GAMING-FX506LH-HACKINTOSH) |  | OpenCore | i5-10300H | NVIDIA GTX 1650 |
+| Open | [链接](https://github.com/andreapieri151-afk/OpenHackintosh) |  |  |
+| Monterey-ASUS-GL552VX | [链接](https://github.com/aquistusfami/Monterey-ASUS-GL552VX-Hackintosh) |  | OpenCore | i5-6300HQ | Intel HD Graphics |
 | 华硕 zx50jx4200                   | [链接](https://github.com/sxz799/zx50jx4200_hackintosh)      |                                                              |                                                              |
 | 华硕 A407UB                       | [链接](https://github.com/xinguisoft/Hackintosh-EFI-Asus-A407UB/) |                                                              |                                                              |
 | 华硕玩家国度 ROG 魔霸 2           | [链接](https://github.com/664235822/EFI-OpenCore)            |                                                              |                                                              |
@@ -343,11 +365,14 @@
 | Dell Latitude 3400 | [链接](https://github.com/davidfreitas-dev/EFI-Dell-Latitude-3400) | | 网卡推荐：[BCM94360Z4](https://hackintosher.taobao.com) |
 | Dell Latitude 3410 | [链接](https://github.com/WHCMrShi/Dell-Latitude-3410_Hackintosh) | |  |
 | Dell Latitude 3440                         | [链接](https://github.com/Yash-Garg/OpenCore-Latitude3440-EFI) |                                                              |                                                              |
+| Dell Latitude 3940 | [链接](https://github.com/BAHaunt/Dell-Latitude-3490-i5-7200u-Hackintosh) |  | OpenCore | i5-7200u | Intel HD Graphics |
 | Dell Latitude 5175 | [链接](https://github.com/Shaw-fung/dell-5175-efi-opencore-oc) | | |
 | Dell Latitude E5270                        | [链接](https://github.com/ijiki16/Dell-Latitude-E5270-OpenCore) |                                                              |                                                              |
 | Dell Latitude 5300 | [链接](https://github.com/ahianf/dell-latitude-5300-hackintosh) | | |
 | Dell Latitude 5310 | [链接](https://github.com/daniel-pro/Latitude-5310-EFI) | | |
+| Dell Latitude 5410 | [链接](https://github.com/jixifydev/opencore-dell-latitude-5410) |  | OpenCore |
 | Dell Latitude 5411                         | [链接](https://github.com/MokkaSchnalle/macOS-Dell-5411-5511) |                                                              |                                                              |
+| Dell Latitude 5490 | [链接](https://github.com/BluePurplePro/Dell-Latitude-5490-8th-gen-Kaby-Lake-Refresh-Hackintosh) |  | OpenCore | i5-8250U | Intel UHD Graphics |
 | Dell Latitude 5511                         | [链接](https://github.com/MokkaSchnalle/macOS-Dell-5411-5511) |                                                              |                                                              |
 | Dell Latitude E5270                        | [链接](https://github.com/ijiki16/Dell-Latitude-E5270-OpenCore) |                                                              |                                                              |
 | Dell Latitude E5280                        | [链接](https://github.com/xx569029747/EFI-For-Dell-Latitude-5280) |                                                              |                                                              |
@@ -371,12 +396,18 @@
 | Dell Latitude E7280                        | [链接](https://github.com/Lorys89/DELL_LATITUDE_7280) |                                                              |                                                              |
 | Dell Latitude E7370                        | [链接](https://github.com/mikeTOliu/dell-latitude7370-Hackintosh-EFI-backup) [链接](https://github.com/gazzmanzx6/OC_Dell_Latitude_7370) |                                                              |                                                              |
 | Dell Latitude E7390                        | [链接](https://github.com/Swung0x48/Dell-Latitude-7490-Hackintosh-EFI) [链接](https://github.com/PurpleCrumpets/Hackintosh-Dell-Latitude-7390-2-in-1-OpenCore-EFI) [链接](https://github.com/guozenghuang/latitude-E7390-hackintosh) |                                                              | 基于 Latitude 7490。 不保证 7390 可用。（可在 issue 中提出 7390 的问题） |
+| Dell Latitude 7210 | [链接](https://github.com/catp123g/Dell-Latitude-7210-OpenCore-Monterey) |  | OpenCore | i7-10610U | Intel UHD Graphics |
+| Dell Latitude 5580 | [链接](https://github.com/ixmaelx/Dell-Latitude-5580-Hackintosh) |  | OpenCore | i7-7820HQ | Intel HD Graphics |
 | Dell Latitude 7410 | [链接](https://github.com/abbasabidii/Dell-Latitude-7410-Hackintosh-OC) | |  |
 | Dell Latitude E7440                        | [链接](https://github.com/ameeno/Dell-E7440-Hackintosh)      |                                                              |                                                              |
 | Dell Latitude E7450                        | [链接](https://github.com/rahmadsandy/Dell-E7450-DW1530-Catalina) |                                                              |                                                              |
 | Dell Latitude E7470                        | [链接](https://github.com/adityabakare/macOS-Dell-Latitude-E7470) |                                                              | PRECISION 7710可用      |
 | Dell Latitude E7480                        | [链接](https://github.com/TranNgocKhoa/Dell-Latitude-E7480-Hackintosh) [链接](https://github.com/Lovely-XPP/Dell-Latitude-E7480-Hackintosh)|                                                              |                                                              |
 | Dell Latitude E7490                        | [链接](https://github.com/Swung0x48/Dell-Latitude-7490-Hackintosh-EFI) |                                                              |                                                              |
+| Dell Latitude 7420 | [链接](https://github.com/log1cs/opencore-latitude7200) |  | OpenCore |
+| Dell OptiPlex 780 | [链接](https://github.com/Lost-Entrepreneur439/optiplex-780-mt-hackintosh) |  | OpenCore |
+| DELL Optiplex 3040 | [链接](https://github.com/Sanqing678/DELL-Optiplex-3040-Hackintosh) |  | OpenCore | i5-6600T | Intel HD Graphics |
+| Dell Latitude 7480 | [链接](https://github.com/agmonetti/Hackintosh-Dell-Latitude-7480) |  | OpenCore | i7-7600U | Intel HD Graphics |
 | Dell OptiPlex 3050                         | [链接](https://github.com/Leif160519/Dell-OptiPlex-3050-EFI) [链接](https://github.com/superleeyom/Hackintosh-Dell-OptiPlex-3050-OpenCore)<br />[链接](https://github.com/Xhichn/Hackbook_MECHREVO_Umi_Pro_II) | [链接](https://github.com/Leif160519/Dell-OptiPlex-3050-EFI/blob/master/README.md) |                                                              |
 | Dell OptiPlex 3060                         | [链接](https://github.com/Drovosek01/hackintosh_DELL_OptiPlex_3060_i5-8500) |                                                              |                                                              |
 | Dell OptiPlex 3060 MFF                     | [链接](https://github.com/Lorys89/DELL_OPTIPLEX_3060_MFF)    |                                                              |                                                              |
@@ -422,14 +453,27 @@
 | Dell G7 7588                              | [链接](https://github.com/rex-lapis/Hackintosh-Dell-G7-7588-OpenCore) |                                                              |                                                              |
 | Dell Precision 7530 7540 7730 7740                  | [链接](https://github.com/lulu-gh/Dell-Precision-E7530-Prototype-OpenCore) |                                                              |       默认是7530工程机EFI，用于量产机型先看说明再安装；默认配置支持AMD独显，用集显自行屏蔽或者换硬件        |
 | Dell Precision 7740 (量产) | [链接](https://github.com/lingion/Dell-Precision-7740-OpenCore-EFI) | [链接](https://github.com/lingion/Dell-Precision-7740-OpenCore-EFI/blob/main/README.md) | i7-9750H + AMD WX7130 混合显卡, S3 睡眠, OpenCore |
+| Dell-Optiplex-3020MT | [链接](https://github.com/mokk731/Dell-Optiplex-3020MT-OpenCore-EFI) |  | OpenCore | i5-4570S | Intel HD Graphics |
+| opencore-efi | [链接](https://github.com/silviuardeleann/opencore-efi) |  | OpenCore |
+| Dell-Inspiron-14-5490 | [链接](https://github.com/l1n-dev/Dell-Inspiron-14-5490-OpenCore) |  | OpenCore | i5-10210U | Intel UHD Graphics |
+| Dortania | [链接](https://github.com/IMAXZ/OpenCore-Dortania-EFI) |  | OpenCore | Ryzen 5 3600X |
+| Dell-Latitude-7490 | [链接](https://github.com/Spikesee3/Dell-Latitude-7490-EFI-Hackintosh) |  |  |
+| Gigabyte Z370XP | [链接](https://github.com/luchina-gabriel/EFI-GIGABYTE-Z370XP-SLI-i7-8700-RX-590-iGPU-BCM94360-20260710-PUBLIC) |  | OpenCore | i7-8700 | Intel UHD Graphics |
+| l7472 | [链接](https://github.com/kaelthasmanu/EFI-Hackintosh-Dell7472) |  |  |
+| Precision T1700 | [链接](https://github.com/Lost-Entrepreneur439/precision-t1700-hackintosh) |  | OpenCore | Xeon |
 
 ### Gigabyte 技嘉
 
 | 机型名称           | 发布地址                                                 | 教程地址                                                                    | 备注 |
 | ------------------ | -------------------------------------------------------- | --------------------------------------------------------------------------- | ---- |
+| for H310 | [链接](https://github.com/artsbyankit/hackintosh-opencore-guides) |  | OpenCore | i5-8400 | AMD Radeon RX 6600 |
+| Aorus Z790 | [链接](https://github.com/maxpicelli/EFI-Clover-5173-Aorus-Z790-Elite-AX-Aorus-RX-6900-XT) |  | Clover | i9-13900K | AMD Radeon RX 6900 |
 | Gigabyte Aero 15X  | [链接](https://github.com/zacmks/Hackintosh-Aero-15X)    | [链接](https://github.com/zacmks/Hackintosh-Aero-15X/blob/master/README.md) |      |
 | Gigabyte Aero 15W  | [链接](https://github.com/Errrneist/Hackintosh-Aero-15W) |                                                                             |      |
+| GIGABYTE B560M | [链接](https://github.com/krismint/GIGABYTE-B560M-11500-RX6800) |  | OpenCore | i5-11500 | AMD Radeon RX6800 |
+| GIGABYTE B650M-D3HP | [链接](https://github.com/akirakani-kei/7950X-6650XT-B650M-Hackintosh) |  | OpenCore | Ryzen 9 7950X |
 | Gigabyte Sabre 15K | [链接](https://github.com/gnehs/Sabre15KClover)          |                                                                             |      |
+| Gigabyte Z490 Visison | [链接](https://github.com/5T33Z0/Gigabyte-Z490-Vision-G-Hackintosh-OpenCore) |  | OpenCore | i9-10850K |
 | Gigabyte-Z390M-GAMING | [链接](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING)          |                                                                             |      |
 
 ### Hasee 神舟
@@ -484,6 +528,16 @@
 
 | 机型名称                                        | 发布地址                                                     | 教程地址                                                     | 备注                                                         |
 | ----------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| HP ProBook 4x30s | [链接](https://github.com/ubihazard/probook-4x30s-oc) |  | OpenCore |
+| HP ProBook 450 | [链接](https://github.com/ksajolaer/HP-ProBook-450-G1-EFI) |  | OpenCore |
+| Galaxy-Book-5-Ultra-7-NT750XHD | [链接](https://github.com/NiSeullent/EFI-Galaxy-Book-5-Ultra-7-NT750XHD) |  | OpenCore |
+| c1073d | [链接](https://github.com/br3zil/HP-Pavilion-Gaming-15-ec1073dx-EFI) |  | OpenCore | Ryzen 5 4600H | NVIDIA GTX 1650 |
+| HP ProBook 4x40s | [链接](https://github.com/ubihazard/probook-4x40s-oc) |  | OpenCore |
+| AIERXUAN-Z2 | [链接](https://github.com/Sanqing678/AIERXUAN-Z2-Hackintosh) |  | OpenCore | i7-8750H | NVIDIA GTX 1050 |
+| Amd-Ryzen-3500U | [链接](https://github.com/IM-SPYBOY/Amd-Ryzen-3500U-Hackintosh-) |  | OpenCore | Ryzen 3500U |
+| hckintosh_AMD 13 | [链接](https://github.com/luuconghoangnam/hckintosh_AMD_MacOS13) |  | OpenCore | Ryzen 7 5700U |
+| b0009a | [链接](https://github.com/fk0u/hp-victus-15-amd-hackintosh) |  | OpenCore | Ryzen 5 5600H | NVIDIA GTX 1650 |
+| For-ProDesk-600-G3-Mini | [链接](https://github.com/MaximilianoVorphal/OpenCore-Hackintosh-EFI-For-ProDesk-600-G3-Mini) |  | OpenCore | Intel HD Graphics |
 | HP ProBook/EliteBook<br />ZBook 系列            | [链接](https://github.com/RehabMan/HP-ProBook-4x30s-DSDT-Patch) | [链接](https://www.tonymacx86.com/threads/guide-hp-probook-elitebook-zbook-using-clover-uefi-hotpatch.261719/) | 除 8x60W,8x70W 系列之外的机型，<br />二代 CPU 及之前的机型仅支持到 10.13.x |
 | HP Envy Haswell J/K/Q/N<br />系列笔记本         | [链接](https://github.com/RehabMan/HP-Envy-DSDT-Patch)       | [链接](https://www.tonymacx86.com/threads/guide-hp-envy-haswell-series-j-k-q-n-using-clover-uefi.261724/) | 仅 4 代 envy 机型                                            |
 | HP 14S-FQ1000NA                                 | [链接](https://github.com/vijinho/OpenCore-HP14S-FQ1000NA)   |                                                              | AMD Ryzen 5500U                                              |
@@ -568,6 +622,19 @@
 | HP ZHAN 66 PRO 14 G2                            | [链接](https://github.com/peihexian/HP-ZHAN-66-Pro-14-G2)    |                                                              |                                                              |
 | HP ZHAN99 zbook 15v g5                          | [链接](https://github.com/rote66/Hackintosh_HP_ZBOOK15VG5)   |                                                              |                                                              |
 | HP ZHAN99 WorkStation G1                        | [链接](https://github.com/MacsedProtoss/hackintosh)          |                                                              |                                                              |
+| HP-EliteDesk-800-G2-TWR | [链接](https://github.com/steveologic/HP-EliteDesk-800-G2-TWR-OpenCore) |  | OpenCore | i5-6500 |
+| HP-S01-i7-10700-B460-Sonoma | [链接](https://github.com/licat233/HP-S01-i7-10700-B460-Sonoma-EFI) |  | OpenCore | i7-10700 | Intel UHD Graphics |
+| zbookpowerg7 | [链接](https://github.com/MYunFeiYang/zbookpowerg7) |  | OpenCore |
+| L8821C | [链接](https://github.com/arifianilhamnrr/opencore-infinix-bl51a5) |  | OpenCore | Ryzen 7 5825U |
+| HP-ProDesk-600-G4-SFF-9500T | [链接](https://github.com/deku772/HP-ProDesk-600-G4-SFF-9500T-OpenCore) |  | OpenCore | i5-9500T |
+| x360-15 | [链接](https://github.com/ElectricRamen1/HP-Envy-Hackintosh) |  |  |
+| HP-ProDesk-400-G5-SFF | [链接](https://github.com/Sanqing678/HP-ProDesk-400-G5-SFF-Hackintosh) |  | OpenCore | i3-8100 | Intel UHD Graphics |
+| HP-Elite-X2-1012-G2 | [链接](https://github.com/Sanqing678/HP-Elite-X2-1012-G2-Hackintosh) |  | OpenCore | i5-7200U | Intel HD Graphics |
+| PANASONIC-CFLV8-1T | [链接](https://github.com/Sanqing678/PANASONIC-CFLV8-1T-Hackintosh) |  | OpenCore | i5-8365U | Intel UHD Graphics |
+| Ideapad-330 for-Tahoe | [链接](https://github.com/lucmsilva651/Ideapad-330-Hackintosh-EFI-for-Tahoe) |  |  |
+| ryzen-7-5700u | [链接](https://github.com/pietrovieira/hackintosh-ryzen-7-5700u-opencore-efi) |  | OpenCore | Ryzen 7 5700U | AMD Radeon Radeon Vega |
+| HP-DV6 | [链接](https://github.com/hackintosh-user/HP-DV6-EFI) |  | OpenCore |
+| Lenovo ThinkPad L14 | [链接](https://github.com/Lucas-Souza-Barbosa-da-Silva/ThinkPad-L14-Gen-1-AMD-Hackintosh-EFI) |  | OpenCore | Ryzen 5 PRO |
 | 暗影精灵 5 dc1010nr                             | [链接](https://github.com/hibobmaster/HP-15-dc1010nr-hackintosh) | [链接](https://blog.hibobmaster.com/hp-15-dc1010nr-hackintosh/) |                                                              |
 | 暗影精灵 4 i5-8300H GTX1050Ti                   | [链接](https://github.com/sunmousn/OMEN-by-HP-Laptop-15-dc0xxx) | [链接](https://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1832126) | 15-DC0xxx                                                    |
 | 暗影精灵 2                                      | [链接](https://github.com/Arecall/-Mac-os)                   |                                                              |                                                              |
@@ -589,6 +656,8 @@
 
 | 机型名称                 | 发布地址                                                     | 教程地址                                                     | 备注                                                         |
 | ------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| HUAWEI MateBook D14 | [链接](https://github.com/HandsomeYDZ/HUAWEI-Matebook-D14-2020-Hackintosh-EFI) |  | OpenCore | i7-10510U |
+| MateStation B520 | [链接](https://github.com/Sanqing678/Huawei-MateStation-B520-Hackintosh) |  | OpenCore | i7-10700 | AMD Radeon RX 6750 |
 | 华为 Matebook X Pro 2020 | [链接](https://github.com/RepoWeaver/MateBook-X-Pro-2020-OpenCore) |                                                              |                                                              |
 | 华为 Matebook X Pro 2019 | [链接](https://github.com/laozhiang/MateBook_X_Pro_2019-Hackintosh) | [链接](https://github.com/laozhiang/MateBook_X_Pro_2019-Hackintosh) | 华为 Matebook X Pro 2019                                     |
 | 华为 Matebook X Pro      | [链接](https://github.com/gnodipac886/MatebookXPro-hackintosh) [链接](https://github.com/profzei/Matebook-X-Pro-2018) | [链接](https://github.com/gnodipac886/MatebookXPro-hackintosh/blob/master/README-CN.md) | 华为 Matebook X Pro 2018                                     |
@@ -606,9 +675,13 @@
 
 | 机型名称                           | 发布地址                                                     | 教程地址                                                     | 备注                                                         |
 | ---------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| I2000 | [链接](https://github.com/runofftheearth/lenovo-xiaoxinI2000-hackintosh-Catalina) |  | i7-5500U |
+| i510210u | [链接](https://github.com/unknxwnwxrld/Thinkpad-e15-i510210u-hackintosh) |  | i510210u |
 | Lenovo B50-80 80EW | [链接](https://github.com/moneaalhad/LenovoB50.80_Hackintosh) |  |  |
 | Lenovo Flex 15                     | [链接](https://github.com/aytic/Lenovo-Flex-15-Hackintosh)   | [链接](https://github.com/aytic/Lenovo-Flex-15-Hackintosh/blob/master/README.md) | Lenovo Flex 15                                               |
 | Lenovo Ideapad S145-15IWL          | [链接](https://github.com/boffik/LenovoS145-15IWL_OpenCore) [链接](https://github.com/Ninjacornix/Lenovo-S145-15IWL-Big-sur-OC-EFI) |                                                              |                                                              |
+| Lenovo Ideapad S540 | [链接](https://github.com/ConradZn/Lenovo-Ideapad-S540-OpenCore-EFI) |  | OpenCore | i3-8145U | Intel UHD Graphics |
+| lenovo ideapad slim | [链接](https://github.com/vivaloscarpinchos2001-jpg/EFI-HACKINTOSH-LENOVOIDEAPADSLIM3-15ABR8-RYZEN-7-5825U-works-with-sonoma-sequoia-and-more-not-tahoe-) |  | ryzen 7 5825U |
 | Lenovo ideapad 3 14iil05           | [链接](https://github.com/DagerDW/Lenovo-ideapad-3-14iil05-Hackintosh) |                                                              | i5-1035G4 Ice Lake-U                                         |
 | Lenovo IdeaPad 3 15ALC6 | [链接](https://github.com/mariolandossa/hackintosh_EFI) | | AMD Ryzen 7 5700U |
 | Lenovo IdeaPad 100-15IBY | [链接](https://github.com/BugsMover/Hackintosh_IdeaPad-100-15IBY) | |  |
@@ -637,6 +710,28 @@
 | Lenovo G50-80                      | [链接](https://github.com/upupming/Lenovo-G50-80-Clover)     |                                                              |                                                              |
 | Lenovo G510                        | [链接](https://github.com/Z39/G510-OS-X-Clover-Hotpatch)     |                                                              | 感谢：[39 军小兵张](http://i.pcbeta.com/space-uid-4472739.html) |
 | Lenovo G580 | [链接](https://github.com/TECHNIKVERBOT/Lenovo-G580-OpenCore) | |  |
+| Lenovo-ThinkBook-15-IIL | [链接](https://github.com/mumingluan/Lenovo-ThinkBook-15-IIL-OpenCore) |  | OpenCore | i5-1035G |
+| Lenovo ThinkPad E14 | [链接](https://github.com/5T33Z0/Lenovo-ThinkPad-E14-Gen-5-AMD-OpenCore) |  | OpenCore | Ryzen 7 CPU |
+| thinkpad-t420s | [链接](https://github.com/tylerbnobleday-cmyk/thinkpad-t420s-opencore-efi) |  | OpenCore | i5-2520M | Intel HD Graphics |
+| ThinkCentre M900z | [链接](https://github.com/Radion-MacOS/LENOVO-M900Z-EFI-FOR-CATALINA) |  | OpenCore | i5-6500 |
+| Lenovo T470S | [链接](https://github.com/Seeker-65/Thinkpad-T470S-OpenCore) |  | OpenCore |
+| thinkpad-p43s | [链接](https://github.com/bloomdevelop/thinkpad-p43s-macos) |  | OpenCore |
+| lenovo-thinkpad-c13-yoga-chromebook | [链接](https://github.com/bons027/efi-lenovo-thinkpad-c13-yoga-chromebook-hackintosh) |  | OpenCore | Ryzen 5 3500C | AMD Radeon Radeon Vega |
+| Lenovo-M73 | [链接](https://github.com/Yuuki2026/Lenovo-M73-Hackintosh-EFI) |  | i3-4170 | Intel HD Graphics |
+| ThinkCentre M920 | [链接](https://github.com/Sanqing678/Lenovo-ThinkCentre-M920-Hackintosh) |  | OpenCore | i7-9700T | Intel UHD Graphics |
+| Thinkpad L570 | [链接](https://github.com/mati4693/thinkpad_L570_hackintosh) |  | OpenCore | i5-7200U |
+| Thinkpad X1 | [链接](https://github.com/Eridani075/thinkpad-x1c6-hackintosh-efi) |  |  |
+| Thinkpad-t460s Sonoma | [链接](https://github.com/Asadexto/Thinkpad-t460s-hackintosh-Sonoma-EFI) |  |  |
+| Lenovo ThinkPad X280 | [链接](https://github.com/Sanqing678/Lenovo-ThinkPad-X280-Hackintosh) |  | OpenCore | i7-8550U | Intel UHD Graphics |
+| Lenovo-ThinkBook14IML | [链接](https://github.com/Karthik-kannekanti/Lenovo-ThinkBook14IML-EFI) |  | OpenCore | i5-10210U | Intel UHD Graphics |
+| ThinkCentre M710q | [链接](https://github.com/Sanqing678/Lenovo-ThinkCentre-M710q-Hackintosh) |  | OpenCore | Intel UHD Graphics |
+| ThinkPad-P53 Sequoia | [链接](https://github.com/cucu-labs/ThinkPad-P53-Hackintosh-Sequoia-EFI) |  | OpenCore | i7-9850H | Intel UHD Graphics |
+| Lenovo-Xiaoxin-Pro-13-2019 | [链接](https://github.com/2909177248-crypto/Lenovo-Xiaoxin-Pro-13-2019-Hackintosh-EFI) |  | OpenCore | i5-10210U | Intel UHD Graphics |
+| Thinkcentre M910X | [链接](https://github.com/xiaoran007/Thinkcentre-M910X-Hackintosh-OC-EFI) |  | OpenCore |
+| my T470s | [链接](https://github.com/userminer2/Thinkpad-T470s-Tahoe-OpenCore-EFI) |  | OpenCore | i7-6600u |
+| ThinkPad_L14_gen2a-5850u | [链接](https://github.com/hzyj377/EFI-ThinkPad_L14_gen2a-5850u-hackintosh) |  |  |
+| LENOVO-IDEAPAD-SLIM-3-15ABR8-ryzen-7-DONT-USE-THIS- | [链接](https://github.com/vivaloscarpinchos2001-jpg/EFI-HACKINTOSH-LENOVO-IDEAPAD-SLIM-3-15ABR8-ryzen-7-DONT-USE-THIS-) |  |  |
+| Lenovo-Xiaoxin-14IWL | [链接](https://github.com/QQXB-C/Lenovo-Xiaoxin-14IWL-Hackintosh) |  | OpenCore | i5-8265U | Intel UHD Graphics |
 | 联想 flex3-1470/i5 5200u-hd5500    | [链接](https://github.com/xl120022/FLEX-3-1470-Mac-10.15.3-efi) |                                                              |                                                              |
 | Thinkpad E14 Gen 1 | [链接](https://github.com/AniKulkarn/Hackintosh-ThinkPad-E14) | | |
 | ThinkPad E14 Gen2 AMD | [链接](https://github.com/mgjuc/ThinkPad-E14-Gen2-Hackintosh) | | |
@@ -787,6 +882,7 @@
 
 | 机型名称               | 发布地址                                                     | 教程地址 | 备注     |
 | ---------------------- | ------------------------------------------------------------ | -------- | -------- |
+| 14Z980-GA50K | [链接](https://github.com/sesnowra/14Z980-GA50K_Hackintosh_EFI) |  | I5-8250U |
 | LG Gram 13z980         | [链接](https://github.com/suzuke/LG-Gram-13z980-Opencore)    |          | OC       |
 | LG 14U53               | [链接](https://github.com/vivzero/LG14u53-hackintosh)        |          |          |
 | LG Gram 14Z90N         | [链接](https://github.com/vivzero/LG-14Z90N-hackintosh)      |          |          |
@@ -795,6 +891,7 @@
 | LG Gram 15Z980-G.AA52C | [链接](https://github.com/ice-black-tea/LG-15Z980)           |          |          |
 | LG Gram17 Z90n         | [链接](https://github.com/whca/lg-gram-17z90n-EFI) [链接](https://github.com/AskDavis/LG-Gram-17Z90N) |          | OC 0.6.9 |
 | LG Gram Z980           | [链接](https://github.com/ShiningXu/LG-Gram-macOS)           |          |          |
+| MSI B650M | [链接](https://github.com/Sanqing678/MSI-B650M-GAMING-PLUS-WIFI-Hackintosh) |  | OpenCore | Ryzen 7 7800X |
 
 ### Mechrevo 机械革命
 
@@ -823,6 +920,7 @@
 
 | 机型名称                  | 发布地址                                                                                                                                                                                                  | 教程地址                                                                             | 备注            |
 | ------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ | --------------- |
+| MAG B460M | [链接](https://github.com/Sanqing678/MSI-MAG-B460M-MORTAR-Hackintosh) |  | OpenCore | i5-10400F | AMD Radeon RX 5500 |
 | MSI GE60 2OC/2OD/2OE      | [链接](https://github.com/xusos/Hackintosh-EFI)                                                                                                                                                           |                                                                                      |                 |
 | MSI GE60 2PL-403XCN       | [链接](https://github.com/ice-black-tea/MSI-GE60) [链接](https://github.com/cs950809/MSI-GE60-2PL-403XCN-Hackintosh)                                                                                      |                                                                                      |                 |
 | MSI GE63 Raider RGB 8RE   | [链接](https://github.com/skyline75489/Hackintosh-MSI-GE63-Raider-RGB-8RE)                                                                                                                                |                                                                                      |                 |
@@ -854,11 +952,15 @@
 | MSI GS73VR 7RF            | [链接](https://github.com/dogukanoksuz/msi-gs73vr-7rf-macOS)                                                                                                                                              |                                                                                      |                 |
 | MSI GT60 16F4 | [链接](https://github.com/lakent/MSI-16F4-Hackintosh) | | |
 | MSI GV62 7RE              | [链接](https://github.com/amogh-w/Hackintosh-MSI-GV62-7RE)                                                                                                                                                |                                                                                      |                 |
+| MSI H510M | [链接](https://github.com/oasteroasteroaster-jpg/EFI-MSI-H510M-A-PRO-i5-10400F-RX580) |  | OpenCore | i5-10400F |
 | MSI Modern 15 A10M        | [链接](https://github.com/hla63/Msi-modern-15-Hackintosh) [链接](https://github.com/AndresGarciaSobrado91/MSI-Modern15-Hackintosh)                                                                        |                                                                                      |                 |
 | MSI Modern 15 A5M         | [链接](https://github.com/saeidex/ryzentosh-msi-modern-15)                                                                                                                                                |                                                                                      | AMD Ryzen 5 5500u |
 | MSI PL62 7RC              | [链接](https://github.com/juanlatorre/MSI-PL62-7RC-OC-Hackintosh)                                                                                                                                         |                                                                                      | Intel i5-7300HQ |
 | MSI Prestige 15           | [链接](https://github.com/KerKerOgh/MSI-Prestige-15-Hackintosh) [链接](https://github.com/wgjas2/MSI-Prestige-15-Hackintosh)<br />[链接](https://github.com/naturalBlacksmith/hackintosh-msi-prestige-15) |                                                                                      |                 |
 | MSI PS63 Modern 8RC       |                                                                                                                                                                                                           |                                                                                      |                 |
+| MSI-GV62_7RD | [链接](https://github.com/rahulsinghaspqwv/MSI-GV62_7RD-EFI-Hackintosh) |  | i7-7700HQ | Intel UHD Graphics |
+| MSI-GS66 | [链接](https://github.com/SummerEmber/MSI-GS66) |  | OpenCore | i7-10750H | Intel UHD Graphics |
+| MSI Z790 Gaming | [链接](https://github.com/Lortunate/msi-z790-i7-14700kf-hackintosh) |  | OpenCore | i7-14700kf | AMD Radeon RX 6750 |
 
 
 ### Razer Blade 雷蛇
@@ -875,6 +977,8 @@
 
 | 机型名称                        | 发布地址                                                     | 教程地址 | 备注 |
 | ------------------------------- | ------------------------------------------------------------ | -------- | ---- |
+| Surface-Pro-5-i7-Variant-OC | [链接](https://github.com/bruhmeme1234/Surface-Pro-5-i7-Variant-OC-Hackintosh) |  | OpenCore | i7-7660U | Intel Iris Plus |
+| M1707 | [链接](https://github.com/Sanqing678/TIMI-TM1707-Hackintosh) |  | OpenCore | i5-8250U | Intel UHD Graphics |
 | 三星 Samsung NP300E4C           |                                                              |          |      |
 | 三星 Samsung NP300E5L           | [链接](https://github.com/bearkfear/SAMSUNG-NP300E5L-HACKINTOSH) |          |      |
 | 三星 Samsung NP300E5M           |                                                              |          |      |
@@ -945,7 +1049,19 @@
 
 | 机型名称                                            | 发布地址                                                                                                                           | 教程地址                                                                                                     | 备注                                                |
 | --------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ | --------------------------------------------------- |
+| Comet-Lake | [链接](https://github.com/adam-za/Comet-Lake-Opencore-EFI) |  | OpenCore | Core I5 |
+| AIGO-X99M-D3-MAX | [链接](https://github.com/Sanqing678/AIGO-X99M-D3-MAX-Hackintosh) |  | OpenCore | Xeon |
+| Colorful B860M | [链接](https://github.com/Sanqing678/Colorful-B860M-Arrow-Lake-Hackintosh) |  | OpenCore | AMD Radeon RX 6950 |
 | Intel DH67GD, DH67BL, <br />DH67CF, DH67CL 系列主板 | [链接](https://github.com/RehabMan/Intel-DH67XX-DSDT-Patch)                                                                        | [链接](https://www.tonymacx86.com/threads/guide-intel-dh67xx-with-hd3000-using-clover-uefi-hotpatch.233257/) | Intel DH67GD, DH67BL, <br />DH67CF, DH67CL 系列主板 |
+| JGINYUE-X99M-PLUS-D4 for 26 | [链接](https://github.com/woshinibaba6666/JGINYUE-X99M-PLUS-D4-OpenCore-EFI-for-macOS-26) |  | OpenCore |
+| r5235 | [链接](https://github.com/jcreed69/Steam-Deck-MacOS-sequoia-Opencore-EFI-Working) |  | OpenCore |
+| ryzen | [链接](https://github.com/mikigal/ryzen-hackintosh) |  | OpenCore | Threadripper |
+| OEM-HN-B85 | [链接](https://github.com/Sanqing678/OEM-HN-B85-Hackintosh) |  | OpenCore | Xeon | Intel HD Graphics |
+| magicbook-x14 tahoe | [链接](https://github.com/GurLabs/magicbook-x14-hackintosh-tahoe) |  | OpenCore | i5-10210U | Intel UHD Graphics |
+| NEC-PC-MKL31CZG4 | [链接](https://github.com/Sanqing678/NEC-PC-MKL31CZG4-Hackintosh) |  | OpenCore | i5-8400T | Intel UHD Graphics |
+| Q1HY | [链接](https://github.com/yonzilch/EFI-Q1HY-OpenCore-Hackintosh) |  | OpenCore | AMD Radeon RX 6750 |
+| Main Z690 | [链接](https://github.com/adambaylin21/EFI-Hackintosh) |  |  |
+| LIFEBOOK U939 | [链接](https://github.com/Acheng-0552/Fujitsu-LIFEBOOK-U939-B-Hackintosh) |  | OpenCore | i5-8265U |
 | Surface Pro 3                                       |                                                                                                                                    |                                                                                                              |                                                     |
 | Surface Pro 4                                       | [链接](https://github.com/Neil-Steven/SurfacePro4-Hackintosh) [链接](https://github.com/bigsadan/surface-pro-4-hackintosh-10.14.3) [链接](https://github.com/Afanyiyu/surface-pro-4-hackintosh-big-sur) | [链接](https://github.com/Neil-Steven/SurfacePro4-Hackintosh/blob/master/README.md) [链接](https://github.com/Afanyiyu/surface-pro-4-hackintosh-big-sur/blob/master/README.md)                         | surfacePro 4                                        |
 | Surface Pro 6                                       | [链接](https://github.com/molie34/Surface-Pro-6-macOS)                                                                             | [教程](https://github.com/molie34/Surface-Pro-6-macOS)                                                       |                                                     |
@@ -957,6 +1073,16 @@
 | avita liver v-14 |  |  |  |
 | Clevo NH5x/NH70 | [链接](https://github.com/MichaelPan1026/Clevo-NH50-NH70-Hackintosh) | | |
 | Clevo P950HR                 | [链接](https://github.com/MegaCookie/Clevo-P950HR-Hackintosh)                       |                                                                              | 蓝天 P950HR，猜的                                                                                           |
+| xpfiy | [链接](https://github.com/Thatskycat/opencore-xpfiy) |  | OpenCore |
+| erying | [链接](https://github.com/qq91235832-bit/hackintosh-erying) |  | OpenCore | i7-11800H |
+| Tahoe-Drive-Icons-Pack | [链接](https://github.com/kgp-macPro/Tahoe-Drive-Icons-Pack) |  | OpenCore |
+| restore | [链接](https://github.com/supermarsx/opencore-restore) |  | OpenCore |
+| Rapid Tool | [链接](https://github.com/JeoJay127/RapidEFI-Tool) |  | OpenCore |
+| OCE-Build | [链接](https://github.com/Qonfused/OCE-Build) |  | OpenCore |
+| Esprimo Q958 | [链接](https://github.com/5T33Z0/Fujitsu-Esprimo-Q958-Hackintosh-OpenCore) |  | OpenCore |
+| for B450 | [链接](https://github.com/n4zguu1/Rayzen-dGPU-B450-hackintosh) |  | OpenCore | Ryzen 5 5600G |
+| My | [链接](https://github.com/osayko/My-Hackintosh) |  |  |
+| Hackintosh-EFI | [链接](https://github.com/kirito489/Hackintosh-EFI) |  |  |
 | 火影地狱火 X6                | [链接](https://github.com/gaofeicm/DiYuHuo-X6-MacOS-Mojave-10.14.3-Hackintosh)      |                                                                              |                                                                                                             |
 | 火影金刚 GTX                 | [链接](https://github.com/Sherlockouo/Hackintosh)                                   |                                                                              |                                                                                                             |
 | Thunderobot 911 Air          | [链接](https://github.com/athlonreg/Thunderobot-911-Air-i7-9750h)                   |                                                                              |                                                                                                             |
@@ -989,6 +1115,7 @@
 | Medion Erazer P7647 | [链接](https://github.com/axemre/OpenCore-Medion-Erazer-P7647) | | |
 | Infinix INBook X1 | [链接](https://github.com/devboloji/Infinix-Hackintosh-Guide-Opencore_INBook_X1_XL11_i3-) | | |
 | Mechrevo Jiaolon-76Q | [链接](https://github.com/top1Ashier/Mechrevo-Jiaolong-76Q-Hackintosh) | | AMD Ryzen 7 5800h |
+| 123123123 | [链接](https://github.com/DonGamer9107/123123123) |  | OpenCore |
 
 
 ### 笔记本更多的机型
