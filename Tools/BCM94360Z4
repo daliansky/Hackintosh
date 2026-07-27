@@ -68,7 +68,9 @@ echo "  ######   #####  #     #  #####       #   #####   #####    ###   ####### 
 
 echo "\033[31m ${DW1820A} \033[0m"
 echo "\033[33m ${ver} \033[0m \c" && sw_vers -productVersion
-echo "\033[36m ${bootargs} \033[0m \c" && ioreg -l | grep -y boot-args | awk '{for(i=4;i<=NF;i++){to=to" " $i};print to}'
+if [ "$(uname -m)" != "arm64" ]; then
+    echo "\033[36m ${bootargs} \033[0m \c" && ioreg -l | grep -y boot-args | awk '{for(i=4;i<=NF;i++){to=to" " $i};print to}'
+fi
 echo "==========================================================="
 
 echo "\033[33m 主板型号：\033[0m"

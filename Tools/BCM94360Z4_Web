@@ -97,7 +97,11 @@ OUTPUT_FILE="/tmp/hackintosh_report.html"
 os_ver=$(sw_vers -productVersion 2>/dev/null)
 os_name=$(sw_vers -productName 2>/dev/null)
 build_ver=$(sw_vers -buildVersion 2>/dev/null)
-bootargs=$(ioreg -l | grep -y boot-args | awk '{for(i=4;i<=NF;i++){to=to" "$i};print to}')
+if [ "$(uname -m)" = "arm64" ]; then
+    bootargs=""
+else
+    bootargs=$(ioreg -l | grep -y boot-args | awk '{for(i=4;i<=NF;i++){to=to" "$i};print to}')
+fi
 
 # 主板
 board=$(sysctl -n hw.model 2>/dev/null)
@@ -368,10 +372,12 @@ cat >> "$OUTPUT_FILE" << EOF
                 <span class="info-label">构建版本</span>
                 <span class="info-value">$build_ver</span>
             </div>
-            <div class="info-row">
-                <span class="info-label">引导参数</span>
-                <span class="info-value" style="font-size:0.85em;word-break:break-all;">$bootargs</span>
-            </div>
+            if [ -n "$bootargs" ]; then
+            echo '<div class="info-row">' >> "$OUTPUT_FILE"
+            echo '                <span class="info-label">引导参数</span>' >> "$OUTPUT_FILE"
+            echo "                <span class=\"info-value\" style=\"font-size:0.85em;word-break:break-all;\">$bootargs</span>" >> "$OUTPUT_FILE"
+            echo '            </div>' >> "$OUTPUT_FILE"
+            fi
             <div class="info-row">
                 <span class="info-label">OpenCore</span>
                 <span class="info-value">$oc_ver</span>
@@ -576,7 +582,7 @@ EOF
 
 # iMessage/Handoff 状态卡片
 cat >> "$OUTPUT_FILE" << EOF
-        <div class="card full-width">
+        <div class="card">
             <h2><span class="icon">📱</span> iMessage & 隔空接力</h2>
             <div class="info-row">
                 <span class="info-label">iCloud账户</span>
