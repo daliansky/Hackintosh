@@ -95,8 +95,18 @@ mem_wired="$(vm_stat | awk '/wired/ { print $4 }')"
 mem_active="$(vm_stat | awk '/active / { printf $3 }')"
 mem_compressed="$(vm_stat | awk '/occupied/ { printf $5 }')"
 mem_used="$(((${mem_wired//.} + ${mem_active//.} + ${mem_compressed//.}) * 4 / 1024))"
-ssd="$(system_profiler SPNVMeDataType | grep Model | awk '{print $2}' | xargs -n2)"
-ssd_size="$(system_profiler SPNVMeDataType | grep -E '(Model|Capacity)' | sed  -n '1p' | awk '{print $2 $3}')"
+# List all NVMe drive models
+ssd="$(system_profiler SPNVMeDataType | grep "Model:" | sed 's/.*Model: //' | awk 'NR>1{printf " + "}{printf "%s", $0}')"
+# Sum all NVMe physical capacities
+ssd_size="$(system_profiler SPNVMeDataType | grep "^          Capacity:" | sed 's/.*Capacity: //' | sed 's/ (.*//' | awk '{
+  val=$1; unit=$2
+  if (unit=="TB") total+=val*1000000000000
+  else if (unit=="GB") total+=val*1000000000
+  else if (unit=="MB") total+=val*1000000
+} END {
+  if (total>=1000000000000) printf "%.1fTB", total/1000000000000
+  else printf "%.0fGB", total/1000000000
+}')"
 
 cores="$(sysctl -n hw.logicalcpu_max)"
 
@@ -168,10 +178,14 @@ else
   batterystatus="充电完成"
 fi
 
-# disk
-disk_total="$(df -h | head -2 | tail -1 | awk '{print $2}' | sed 's/i/B/g')(Total)"
-disk_used="$(df -h | head -2 | tail -1 | awk '{print $4}' | sed 's/i/B/g')(Avai)"
-Disk="$disk_used / $disk_total"
+# disk - total available across all NVMe APFS containers
+disk_avail="$(system_profiler SPNVMeDataType | grep "^          BSD Name:" | awk '{print $NF}' | while read disk; do
+  diskutil list $disk 2>/dev/null | grep "Apple_APFS Container" | awk '{print $4}'
+done | sort -u | while read container; do
+  vol=$(df -h | grep "^/dev/${container}" | head -1 | awk '{print $1}')
+  [[ -n "$vol" ]] && diskutil info $vol 2>/dev/null | grep "Container Free Space:" | sed 's/.*(\([0-9]*\) Bytes)/\1/'
+done | awk '{total+=$1} END {if (total>=1e12) printf "%.1fTB", total/1e12; else printf "%.0fGB", total/1e9}')"
+Disk="${disk_avail}(Avai) / ${ssd_size}(Total)"
 
 
 # GPU
@@ -288,7 +302,7 @@ fieldlist[${#fieldlist[@]}]="${textColor}Shell    :${normal} ${Shell}${normal}"
 fieldlist[${#fieldlist[@]}]="${textColor}当前时间 :${normal} ${Date}${normal}"
 fieldlist[${#fieldlist[@]}]="${textColor}处 理 器 :${normal} ${Cpu}${normal}"
 fieldlist[${#fieldlist[@]}]="${textColor}内    存 :${normal} ${memory}${normal}"
-fieldlist[${#fieldlist[@]}]="${textColor}磁盘型号 :${normal} ${ssd} ${ssd_size}${normal}"
+fieldlist[${#fieldlist[@]}]="${textColor}磁盘型号 :${normal} ${ssd}${normal}"
 fieldlist[${#fieldlist[@]}]="${textColor}磁盘空间 :${normal} ${Disk}${normal}"
 if [[ ! -z $Battery ]]; then
     fieldlist[${#fieldlist[@]}]="${textColor}剩余电量 :${normal} ${Battery}%  /  ${batterystatus}${normal}"
@@ -297,8 +311,12 @@ fieldlist[${#fieldlist[@]}]="${textColor}IP 地 址 :${normal} 公网 ${Public} 
 fieldlist[${#fieldlist[@]}]="${textColor}当前终端 :${normal} ${Terminal}${normal}"
 fieldlist[${#fieldlist[@]}]="${textColor}显卡设备 :${normal} ${gpu}/ $vram${normal}"
 fieldlist[${#fieldlist[@]}]="${textColor}主显示器 :${normal} ${resolution}${normal}"
-fieldlist[${#fieldlist[@]}]="${textColor}扩展显示 :${normal} ${displayext}${normal}"
-fieldlist[${#fieldlist[@]}]="${textColor}扩展显示 :${normal} ${displayext2}${normal}"
+if [[ ! -z "$displayext" ]]; then
+  fieldlist[${#fieldlist[@]}]="${textColor}扩展显示 :${normal} ${displayext}${normal}"
+fi
+if [[ ! -z "$displayext2" ]]; then
+  fieldlist[${#fieldlist[@]}]="${textColor}扩展显示 :${normal} ${displayext2}${normal}"
+fi
 logofile=${ARCHEY_LOGO_FILE:-"${HOME}/.config/archey-logo"}
 if [ -a "$logofile" ]
   then
