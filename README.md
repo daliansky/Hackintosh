@@ -140,6 +140,7 @@
 
 | 机型名称                          | 发布地址                                                     | 教程地址                                                     | 备注                                                         |
 | --------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| ASRock B560M | [链接](https://github.com/QuanTrieuPCYT/ASRock-B560M-Pro4_Hackintosh) |  | OpenCore | i9-11900F | AMD Radeon RX 6600 |
 | Asus A43SJ                        | [链接](https://github.com/badruzeus/Hackintosh-Asus-A43SJ)   | [链接](https://github.com/badruzeus/Hackintosh-Asus-A43SJ/blob/master/README.md) | Asus A43SJ                                                   |
 | Asus A411UF                       | [链接](https://github.com/faizauthar12/Asus_A411UF_Hackintosh) |                                                              |                                                              |
 | Asus A441-A456 | [链接](https://github.com/DanteHub/hackintool-oc-ASUAA441-A456) | | |
@@ -261,15 +262,22 @@
 | Asus Zenbook UX450FDX             | [链接](https://github.com/xvAcid/Hackintosh_Zenbook_UX450FDX) |                                                              |                                                              |
 | Asus Zenbook UX463F | [链接](https://github.com/MSzturc/ASUS-Zenbook-Flip-UX463-OpenCore) | | |
 | Asus Zenbook 3 UX490              | [链接](https://github.com/VillenaDeveloper/asus-ux490-hackintosh) |                                                              |                                                              |
+| MSI B850M-G | [链接](https://github.com/icliberen/hackintosh-opencore-sequoia-tahoe-msi_b850m_g-ryzen5_9600x-rx570-rx5500xt) |  | OpenCore | ryzen5 | AMD Radeon rx5500 |
+| ThinkPad T470 | [链接](https://github.com/ShimotsukiMerin/T470-Hackintosh) |  | OpenCore | i5-6300U | Intel HD Graphics |
 | STRIX B550 | [链接](https://github.com/Emanuele-Chiummo/hackintosh-b550f-ryzen7-rx6900xt) |  | OpenCore | ryzen7 | AMD Radeon rx6900 |
 | PRIME Z390 | [链接](https://github.com/petrouv/Hackintosh-ASUS-PRIME-Z390-A-i3-8350K-UHD630) |  | OpenCore | i3-8350K |
 | PRIME Z370 | [链接](https://github.com/ratan-ops/EFI) |  | OpenCore | i7-9700F | Intel UHD Graphics |
 | Tahoe-OC Asus-TUF-A15-FA506IHRB | [链接](https://github.com/MiskaWasTaken/Tahoe-OC-EFI-Asus-TUF-A15-FA506IHRB) |  | OpenCore | Ryzen 5 4600H | NVIDIA GTX 1650 |
 | PRIME H310M | [链接](https://github.com/tuananh511/EFI-ASUS-PRIME-H310M-E-R2.0) |  | OpenCore | i3-9100F | NVIDIA GTX 1060 |
 | Asus-K53SC | [链接](https://github.com/MIAMIcooler/Asus-K53SC-OpenCore) |  | OpenCore |
+| s | [链接](https://github.com/PIKACHUIM/OpenCoreEFIs) |  | OpenCore | I9-10900K | AMD Radeon RX6900 |
+| CELSIUS J5012 | [链接](https://github.com/ljzxzxl/fujitsu-celsius-j5012-efi) |  | OpenCore | i5-13500 | Intel UHD Graphics |
 | Asus-Zenbook13 | [链接](https://github.com/brodsbytes/Asus-Zenbook13-Hackintosh-EFI) |  | OpenCore |
 | ASUS-TUF-FX504GE | [链接](https://github.com/Sanqing678/ASUS-TUF-FX504GE-Hackintosh) |  | OpenCore | i7-8750H | Intel UHD Graphics |
+| HP-Pavilion-Gaming-15-cx0xxx | [链接](https://github.com/ititrica/HP-Pavilion-Gaming-15-cx0xxx-Hackintosh) |  | OpenCore | i5-8300H | NVIDIA GTX 1050 |
+| RX550-Lexa | [链接](https://github.com/adambaylin21/EFI-Hackintosh-RX550-Lexa) |  |  |
 | ASUS-TUF-GAMING-FX506LH | [链接](https://github.com/vinzelato/ASUS-TUF-GAMING-FX506LH-HACKINTOSH) |  | OpenCore | i5-10300H | NVIDIA GTX 1650 |
+| Open | [链接](https://github.com/andreapieri151-afk/OpenHackintosh) |  |  |
 | Monterey-ASUS-GL552VX | [链接](https://github.com/aquistusfami/Monterey-ASUS-GL552VX-Hackintosh) |  | OpenCore | i5-6300HQ | Intel HD Graphics |
 | 华硕 zx50jx4200                   | [链接](https://github.com/sxz799/zx50jx4200_hackintosh)      |                                                              |                                                              |
 | 华硕 A407UB                       | [链接](https://github.com/xinguisoft/Hackintosh-EFI-Asus-A407UB/) |                                                              |                                                              |
