@@ -6,8 +6,20 @@
 #/_____/\__,_/_/_/\__,_/_/ /_/____/_/|_|\__, /  /_____/_/\____/\__, /
 #                                      /____/                 /____/
 # Modified: DalianSky(https://blog.daliansky.net)
+#
+# 用法 / Usage:
+#   本地运行:
+#     bash archey
+#
+#   远程调用（GitHub）:
+#     bash -c "$(curl -fsSL https://raw.githubusercontent.com/daliansky/Hackintosh/master/Tools/archey)"
+#
+#   远程调用（国内加速）:
+#     bash -c "$(curl -fsSL https://ghfast.top/https://raw.githubusercontent.com/daliansky/Hackintosh/master/Tools/archey)"
+#     bash -c "$(curl -fsSL https://cdn.jsdelivr.net/gh/daliansky/Hackintosh/Tools/archey)"
+#
 # 脚本中调用了bdmesg获取主板型号，所以使用前请勾选安装CLOVER的RC Scripts
-# updated: 2-11-2020
+# updated: 7-27-2026
 
 # archey-osx 1.6.0 (https://github.com/obihann/archey-osx/)
 
