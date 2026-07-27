@@ -262,22 +262,15 @@
 | Asus Zenbook UX450FDX             | [链接](https://github.com/xvAcid/Hackintosh_Zenbook_UX450FDX) |                                                              |                                                              |
 | Asus Zenbook UX463F | [链接](https://github.com/MSzturc/ASUS-Zenbook-Flip-UX463-OpenCore) | | |
 | Asus Zenbook 3 UX490              | [链接](https://github.com/VillenaDeveloper/asus-ux490-hackintosh) |                                                              |                                                              |
-| MSI B850M-G | [链接](https://github.com/icliberen/hackintosh-opencore-sequoia-tahoe-msi_b850m_g-ryzen5_9600x-rx570-rx5500xt) |  | OpenCore | ryzen5 | AMD Radeon rx5500 |
-| ThinkPad T470 | [链接](https://github.com/ShimotsukiMerin/T470-Hackintosh) |  | OpenCore | i5-6300U | Intel HD Graphics |
 | STRIX B550 | [链接](https://github.com/Emanuele-Chiummo/hackintosh-b550f-ryzen7-rx6900xt) |  | OpenCore | ryzen7 | AMD Radeon rx6900 |
 | PRIME Z390 | [链接](https://github.com/petrouv/Hackintosh-ASUS-PRIME-Z390-A-i3-8350K-UHD630) |  | OpenCore | i3-8350K |
 | PRIME Z370 | [链接](https://github.com/ratan-ops/EFI) |  | OpenCore | i7-9700F | Intel UHD Graphics |
 | Tahoe-OC Asus-TUF-A15-FA506IHRB | [链接](https://github.com/MiskaWasTaken/Tahoe-OC-EFI-Asus-TUF-A15-FA506IHRB) |  | OpenCore | Ryzen 5 4600H | NVIDIA GTX 1650 |
 | PRIME H310M | [链接](https://github.com/tuananh511/EFI-ASUS-PRIME-H310M-E-R2.0) |  | OpenCore | i3-9100F | NVIDIA GTX 1060 |
 | Asus-K53SC | [链接](https://github.com/MIAMIcooler/Asus-K53SC-OpenCore) |  | OpenCore |
-| s | [链接](https://github.com/PIKACHUIM/OpenCoreEFIs) |  | OpenCore | I9-10900K | AMD Radeon RX6900 |
-| CELSIUS J5012 | [链接](https://github.com/ljzxzxl/fujitsu-celsius-j5012-efi) |  | OpenCore | i5-13500 | Intel UHD Graphics |
 | Asus-Zenbook13 | [链接](https://github.com/brodsbytes/Asus-Zenbook13-Hackintosh-EFI) |  | OpenCore |
 | ASUS-TUF-FX504GE | [链接](https://github.com/Sanqing678/ASUS-TUF-FX504GE-Hackintosh) |  | OpenCore | i7-8750H | Intel UHD Graphics |
-| HP-Pavilion-Gaming-15-cx0xxx | [链接](https://github.com/ititrica/HP-Pavilion-Gaming-15-cx0xxx-Hackintosh) |  | OpenCore | i5-8300H | NVIDIA GTX 1050 |
-| RX550-Lexa | [链接](https://github.com/adambaylin21/EFI-Hackintosh-RX550-Lexa) |  |  |
 | ASUS-TUF-GAMING-FX506LH | [链接](https://github.com/vinzelato/ASUS-TUF-GAMING-FX506LH-HACKINTOSH) |  | OpenCore | i5-10300H | NVIDIA GTX 1650 |
-| Open | [链接](https://github.com/andreapieri151-afk/OpenHackintosh) |  |  |
 | Monterey-ASUS-GL552VX | [链接](https://github.com/aquistusfami/Monterey-ASUS-GL552VX-Hackintosh) |  | OpenCore | i5-6300HQ | Intel HD Graphics |
 | 华硕 zx50jx4200                   | [链接](https://github.com/sxz799/zx50jx4200_hackintosh)      |                                                              |                                                              |
 | 华硕 A407UB                       | [链接](https://github.com/xinguisoft/Hackintosh-EFI-Asus-A407UB/) |                                                              |                                                              |
@@ -651,6 +644,7 @@
 | HP Omen 15 dc0003la                             | [链接](https://github.com/rocadavel/HPOmenDC0003LAHackintoshCatalinaOpenCore) |                                                              |                                                              |
 | HP Elite X2 G4 平板                             | [链接](https://github.com/lulujyc/EliteX2G4-OpenCore)        |                                                              |                                                              |
 | HP合集                                          | [链接](https://github.com/Baio1977/EFI-Varie-Hackintosh/tree/main/EFI%20Laptop%20/HP) |                                                              |                                                              |
+| HP-Pavilion-Gaming-15-cx0xxx | [链接](https://github.com/ititrica/HP-Pavilion-Gaming-15-cx0xxx-Hackintosh) |  | OpenCore | i5-8300H | NVIDIA GTX 1050 |
 
 ### Huawei 华为
 
@@ -877,6 +871,7 @@
 | Thinkstation P910                  | [链接](https://github.com/crazyi/Hackintosh_Thinkstation_P910) |                                                              |                                                              |
 | Lenovo Yoga 920 13IKB              | [链接](https://github.com/qxuchn/YOGA920-Hackintosh)         |                                                              |                                                              |
 | Lenovo Z410                        | [链接](https://github.com/chencaidy/Hackintosh-OC-Lenovo-Z410) |                                                              |                                                              |
+| ThinkPad T470 | [链接](https://github.com/ShimotsukiMerin/T470-Hackintosh) |  | OpenCore | i5-6300U | Intel HD Graphics |
 
 ### LG
 
@@ -961,6 +956,7 @@
 | MSI-GV62_7RD | [链接](https://github.com/rahulsinghaspqwv/MSI-GV62_7RD-EFI-Hackintosh) |  | i7-7700HQ | Intel UHD Graphics |
 | MSI-GS66 | [链接](https://github.com/SummerEmber/MSI-GS66) |  | OpenCore | i7-10750H | Intel UHD Graphics |
 | MSI Z790 Gaming | [链接](https://github.com/Lortunate/msi-z790-i7-14700kf-hackintosh) |  | OpenCore | i7-14700kf | AMD Radeon RX 6750 |
+| MSI B850M-G | [链接](https://github.com/icliberen/hackintosh-opencore-sequoia-tahoe-msi_b850m_g-ryzen5_9600x-rx570-rx5500xt) |  | OpenCore | ryzen5 | AMD Radeon rx5500 |
 
 
 ### Razer Blade 雷蛇
@@ -1116,6 +1112,7 @@
 | Infinix INBook X1 | [链接](https://github.com/devboloji/Infinix-Hackintosh-Guide-Opencore_INBook_X1_XL11_i3-) | | |
 | Mechrevo Jiaolon-76Q | [链接](https://github.com/top1Ashier/Mechrevo-Jiaolong-76Q-Hackintosh) | | AMD Ryzen 7 5800h |
 | 123123123 | [链接](https://github.com/DonGamer9107/123123123) |  | OpenCore |
+| CELSIUS J5012 | [链接](https://github.com/ljzxzxl/fujitsu-celsius-j5012-efi) |  | OpenCore | i5-13500 | Intel UHD Graphics |
 
 
 ### 笔记本更多的机型
@@ -1274,6 +1271,7 @@
 | ASRock Z490 Phantom Gaming ITX/TB3 | [链接](https://github.com/papadiche/10900K-ASRock-Z490-Phantom-Gaming-ITX-TB3-RX-5600-XT) |                                                              |                                                              |
 | ASRock Z490 Steel Legend           | [链接](https://github.com/sqlsec/AsRock-Z490-Steel-Legend-i7-10700)[链接](https://github.com/xiaoyaowx/Hackintosh-Z490-ASRock-Steel-Legend-Intel-10700) |                                                              | I7-10700 / 蓝宝石 RX 5600XT<br />网卡推荐：[BCM94360CD](https://hackintosher.taobao.com) |
 | ASRock Z890I Nova WiFi             | [链接](https://github.com/akinwale/asrock-z890i-nova-wifi-efi) |                                                              |                                                              |
+| ASRock B560M | [链接](https://github.com/QuanTrieuPCYT/ASRock-B560M-Pro4_Hackintosh) |  | OpenCore | i9-11900F | AMD Radeon RX 6600 |
 
 ### ASUS 华硕
 
