@@ -598,7 +598,7 @@ cat >> "$OUTPUT_FILE" << EOF
 EOF
 
 if [ -n "$icloud_account" ]; then
-    echo "                    <span class=\"status-badge status-ok\">$icloud_account</span>" >> "$OUTPUT_FILE"
+    echo '                    <span class="status-badge status-ok">已登录</span>' >> "$OUTPUT_FILE"
 else
     echo "                    <span class=\"status-badge status-warning\">未登录</span>" >> "$OUTPUT_FILE"
 fi

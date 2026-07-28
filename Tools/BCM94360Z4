@@ -430,7 +430,7 @@ else
     # 检查iCloud是否登录
     icloud_account=$(defaults read MobileMeAccounts 2>/dev/null | grep -A 1 "AccountID" | head -1 | sed 's/.*=//g' | sed 's/;//g' | sed 's/"//g' | sed 's/^ *//g')
     if [ -n "$icloud_account" ]; then
-        echo "  \033[32m✓ iCloud已登录: $icloud_account\033[0m"
+        echo "  \033[32m✓ iCloud已登录\033[0m"
     else
         echo "  \033[33m△ iCloud未登录\033[0m"
     fi
