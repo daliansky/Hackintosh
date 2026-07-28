@@ -372,18 +372,26 @@ cat >> "$OUTPUT_FILE" << EOF
                 <span class="info-label">构建版本</span>
                 <span class="info-value">$build_ver</span>
             </div>
-            if [ -n "$bootargs" ]; then
-            echo '<div class="info-row">' >> "$OUTPUT_FILE"
-            echo '                <span class="info-label">引导参数</span>' >> "$OUTPUT_FILE"
-            echo "                <span class=\"info-value\" style=\"font-size:0.85em;word-break:break-all;\">$bootargs</span>" >> "$OUTPUT_FILE"
-            echo '            </div>' >> "$OUTPUT_FILE"
-            fi
+EOF
+
+if [ -n "$bootargs" ]; then
+    cat >> "$OUTPUT_FILE" << EOF
+            <div class="info-row">
+                <span class="info-label">引导参数</span>
+                <span class="info-value" style="font-size:0.85em;word-break:break-all;">$bootargs</span>
+            </div>
+EOF
+fi
+
+cat >> "$OUTPUT_FILE" << EOF
             <div class="info-row">
                 <span class="info-label">OpenCore</span>
                 <span class="info-value">$oc_ver</span>
             </div>
         </div>
+EOF
 
+cat >> "$OUTPUT_FILE" << EOF
         <div class="card">
             <h2><span class="icon">🔧</span> 硬件信息</h2>
             <div class="info-row">
@@ -633,7 +641,11 @@ cat >> "$OUTPUT_FILE" << EOF
 EOF
 
 if [ "$wifi_is_broadcom" = true ]; then
-    echo '                    <span class="status-badge status-ok">支持</span>' >> "$OUTPUT_FILE"
+    cat >> "$OUTPUT_FILE" << 'EOF'
+                    <span class="status-badge status-ok">支持</span>
+                </span>
+            </div>
+EOF
 else
     cat >> "$OUTPUT_FILE" << 'EOF'
                     <span class="status-badge status-error">不支持</span>
