@@ -150,7 +150,7 @@ uptime="${uptime%', '}"
 uptime="${uptime:-${seconds} seconds}"
 
 # model
-if [[ "$(kextstat | grep "FakeSMC")" != "" ]]; then
+if [[ "$(kextstat 2>/dev/null | grep "FakeSMC")" != "" ]]; then
   #model="$(ioreg -c FakeSMCKeyStore | grep product-name | sed -e's/"//g' | sed -e 's/|//g' | sed -e 's/product-name = //g' | sed -e 's/  //g') (SMBIOS: $(sysctl -n hw.model))"
   model="$(bdmesg | grep ProductName | grep ProductName | sed '{print $7}')"
 else
