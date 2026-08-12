@@ -108,9 +108,10 @@ mem_active="$(vm_stat | awk '/active / { printf $3 }')"
 mem_compressed="$(vm_stat | awk '/occupied/ { printf $5 }')"
 mem_used="$(((${mem_wired//.} + ${mem_active//.} + ${mem_compressed//.}) * 4 / 1024))"
 # List all NVMe drive models
-ssd="$(system_profiler SPNVMeDataType | grep "Model:" | sed 's/.*Model: //' | awk 'NR>1{printf " + "}{printf "%s", $0}')"
+nvme_info="$(system_profiler SPNVMeDataType)"
+ssd="$(echo "$nvme_info" | grep "Model:" | sed 's/.*Model: //' | awk 'NR>1{printf " + "}{printf "%s", $0}')"
 # Sum all NVMe physical capacities
-ssd_size="$(system_profiler SPNVMeDataType | grep "^          Capacity:" | sed 's/.*Capacity: //' | sed 's/ (.*//' | awk '{
+ssd_size="$(echo "$nvme_info" | grep "^          Capacity:" | sed 's/.*Capacity: //' | sed 's/ (.*//' | awk '{
   val=$1; unit=$2
   if (unit=="TB") total+=val*1000000000000
   else if (unit=="GB") total+=val*1000000000
@@ -164,11 +165,11 @@ fi
 # User="$(osascript -e "computer name of (system info)")"
 # Hostname=$(osascript -e "computer name of (system info)")
 # Hostname=$(system_profiler SPSoftwareDataType | grep "Computer" | sed 's/      Computer Name: //g')
-User=$(echo $(osascript -e "computer name of (system info)") | sed "s/-/ /g") 
+osainfo="$(osascript -e "set _cn to computer name of (system info)" -e "set _ip to IPv4 address of (system info)" -e "return _cn & linefeed & _ip")"
+User=$(echo "$osainfo" | head -1 | sed "s/-/ /g") 
 Date=$(date | sed 's/CST//g')
-# IP=$(osascript -e "IPv4 address of (system info)")
 # IP=`echo $(ifconfig | grep 'inet.*netmask.*broadcast') | awk '{print $2}'`
-Intranet=$(osascript -e "IPv4 address of (system info)")
+Intranet=$(echo "$osainfo" | tail -1)
 Public=$(dig +short myip.opendns.com @resolver1.opendns.com)
 #System_version="$codename $osx_version $osx_build"
 System_version="macOS $osx_version $osx_build"
@@ -191,7 +192,7 @@ else
 fi
 
 # disk - total available across all NVMe APFS containers
-disk_avail="$(system_profiler SPNVMeDataType | grep "^          BSD Name:" | awk '{print $NF}' | while read disk; do
+disk_avail="$(echo "$nvme_info" | grep "^          BSD Name:" | awk '{print $NF}' | while read disk; do
   diskutil list $disk 2>/dev/null | grep "Apple_APFS Container" | awk '{print $4}'
 done | sort -u | while read container; do
   vol=$(df -h | grep "^/dev/${container}" | head -1 | awk '{print $1}')
@@ -202,12 +203,13 @@ Disk="${disk_avail}(Avai) / ${ssd_size}(Total)"
 
 # GPU
 # main resolution
-resolution="$(system_profiler SPDisplaysDataType  2>/dev/null| grep Resolution | awk 'NF+=1' | sed 's/Resolution://g' | cut -b 2- | sed -e 's/, /\n/g' | sed -n 1p)"
-gpu="$(system_profiler SPDisplaysDataType 2>/dev/null|awk -F': ' '/^\ *Chipset Model:/ {printf $2 " "}')"
-vram="$(system_profiler SPDisplaysDataType 2>/dev/null| grep VRAM | cut -b 7-)"
+gpu_info="$(system_profiler SPDisplaysDataType 2>/dev/null)"
+resolution="$(echo "$gpu_info" | grep Resolution | awk 'NF+=1' | sed 's/Resolution://g' | cut -b 2- | sed -e 's/, /\n/g' | sed -n 1p)"
+gpu="$(echo "$gpu_info" | awk -F': ' '/^\ *Chipset Model:/ {printf $2 " "}')"
+vram="$(echo "$gpu_info" | grep VRAM | cut -b 7-)"
 # extension resolution
-displayext="$(system_profiler SPDisplaysDataType  2>/dev/null| grep Resolution | awk 'NF+=1' | sed 's/Resolution://g' | cut -b 2- | sed -e 's/, /\n/g' | sed -n 2p)"
-displayext2="$(system_profiler SPDisplaysDataType  2>/dev/null| grep Resolution | awk 'NF+=1' | sed 's/Resolution://g' | cut -b 2- | sed -e 's/, /\n/g' | sed -n 3p)"
+displayext="$(echo "$gpu_info" | grep Resolution | awk 'NF+=1' | sed 's/Resolution://g' | cut -b 2- | sed -e 's/, /\n/g' | sed -n 2p)"
+displayext2="$(echo "$gpu_info" | grep Resolution | awk 'NF+=1' | sed 's/Resolution://g' | cut -b 2- | sed -e 's/, /\n/g' | sed -n 3p)"
 #if [[ -z $displayext ]] ; then 
 #  displayext=$resolution
 #fi
