@@ -674,7 +674,7 @@
 | Lenovo B50-80 80EW | [链接](https://github.com/moneaalhad/LenovoB50.80_Hackintosh) |  |  |
 | Lenovo Flex 15                     | [链接](https://github.com/aytic/Lenovo-Flex-15-Hackintosh)   | [链接](https://github.com/aytic/Lenovo-Flex-15-Hackintosh/blob/master/README.md) | Lenovo Flex 15                                               |
 | Lenovo Ideapad S145-15IWL          | [链接](https://github.com/boffik/LenovoS145-15IWL_OpenCore) [链接](https://github.com/Ninjacornix/Lenovo-S145-15IWL-Big-sur-OC-EFI) |                                                              |                                                              |
-| Lenovo Ideapad S540 | [链接](https://github.com/ConradZn/Lenovo-Ideapad-S540-OpenCore-EFI) |  | OpenCore | i3-8145U | Intel UHD Graphics |
+| Lenovo Ideapad S540 | [链接](https://github.com/ConradZn/Lenovo-Ideapad-S540-OpenCore-EFI) |  | OpenCore |
 | lenovo ideapad slim | [链接](https://github.com/vivaloscarpinchos2001-jpg/EFI-HACKINTOSH-LENOVOIDEAPADSLIM3-15ABR8-RYZEN-7-5825U-works-with-sonoma-sequoia-and-more-not-tahoe-) |  | ryzen 7 5825U |
 | Lenovo ideapad 3 14iil05           | [链接](https://github.com/DagerDW/Lenovo-ideapad-3-14iil05-Hackintosh) |                                                              | i5-1035G4 Ice Lake-U                                         |
 | Lenovo IdeaPad 3 15ALC6 | [链接](https://github.com/mariolandossa/hackintosh_EFI) | | AMD Ryzen 7 5700U |
@@ -704,28 +704,28 @@
 | Lenovo G50-80                      | [链接](https://github.com/upupming/Lenovo-G50-80-Clover)     |                                                              |                                                              |
 | Lenovo G510                        | [链接](https://github.com/Z39/G510-OS-X-Clover-Hotpatch)     |                                                              | 感谢：[39 军小兵张](http://i.pcbeta.com/space-uid-4472739.html) |
 | Lenovo G580 | [链接](https://github.com/TECHNIKVERBOT/Lenovo-G580-OpenCore) | |  |
-| Lenovo-ThinkBook-15-IIL | [链接](https://github.com/mumingluan/Lenovo-ThinkBook-15-IIL-OpenCore) |  | OpenCore | i5-1035G |
-| Lenovo ThinkPad E14 | [链接](https://github.com/5T33Z0/Lenovo-ThinkPad-E14-Gen-5-AMD-OpenCore) |  | OpenCore | Ryzen 7 CPU |
-| thinkpad-t420s | [链接](https://github.com/tylerbnobleday-cmyk/thinkpad-t420s-opencore-efi) |  | OpenCore | i5-2520M | Intel HD Graphics |
-| ThinkCentre M900z | [链接](https://github.com/Radion-MacOS/LENOVO-M900Z-EFI-FOR-CATALINA) |  | OpenCore | i5-6500 |
+| Lenovo-ThinkBook-15-IIL | [链接](https://github.com/mumingluan/Lenovo-ThinkBook-15-IIL-OpenCore) |  | OpenCore |
+| Lenovo ThinkPad E14 | [链接](https://github.com/5T33Z0/Lenovo-ThinkPad-E14-Gen-5-AMD-OpenCore) |  | OpenCore |
+| thinkpad-t420s | [链接](https://github.com/tylerbnobleday-cmyk/thinkpad-t420s-opencore-efi) |  | OpenCore |
+| ThinkCentre M900z | [链接](https://github.com/Radion-MacOS/LENOVO-M900Z-EFI-FOR-CATALINA) |  | OpenCore |
 | Lenovo T470S | [链接](https://github.com/Seeker-65/Thinkpad-T470S-OpenCore) |  | OpenCore |
 | thinkpad-p43s | [链接](https://github.com/bloomdevelop/thinkpad-p43s-macos) |  | OpenCore |
-| lenovo-thinkpad-c13-yoga-chromebook | [链接](https://github.com/bons027/efi-lenovo-thinkpad-c13-yoga-chromebook-hackintosh) |  | OpenCore | Ryzen 5 3500C | AMD Radeon Radeon Vega |
-| Lenovo-M73 | [链接](https://github.com/Yuuki2026/Lenovo-M73-Hackintosh-EFI) |  | i3-4170 | Intel HD Graphics |
-| ThinkCentre M920 | [链接](https://github.com/Sanqing678/Lenovo-ThinkCentre-M920-Hackintosh) |  | OpenCore | i7-9700T | Intel UHD Graphics |
-| Thinkpad L570 | [链接](https://github.com/mati4693/thinkpad_L570_hackintosh) |  | OpenCore | i5-7200U |
+| lenovo-thinkpad-c13-yoga-chromebook | [链接](https://github.com/bons027/efi-lenovo-thinkpad-c13-yoga-chromebook-hackintosh) |  | OpenCore |
+| Lenovo-M73 | [链接](https://github.com/Yuuki2026/Lenovo-M73-Hackintosh-EFI) |  | i3-4170 |
+| ThinkCentre M920 | [链接](https://github.com/Sanqing678/Lenovo-ThinkCentre-M920-Hackintosh) |  | OpenCore |
+| Thinkpad L570 | [链接](https://github.com/mati4693/thinkpad_L570_hackintosh) |  | OpenCore |
 | Thinkpad X1 | [链接](https://github.com/Eridani075/thinkpad-x1c6-hackintosh-efi) |  |  |
 | Thinkpad-t460s Sonoma | [链接](https://github.com/Asadexto/Thinkpad-t460s-hackintosh-Sonoma-EFI) |  |  |
-| Lenovo ThinkPad X280 | [链接](https://github.com/Sanqing678/Lenovo-ThinkPad-X280-Hackintosh) |  | OpenCore | i7-8550U | Intel UHD Graphics |
-| Lenovo-ThinkBook14IML | [链接](https://github.com/Karthik-kannekanti/Lenovo-ThinkBook14IML-EFI) |  | OpenCore | i5-10210U | Intel UHD Graphics |
-| ThinkCentre M710q | [链接](https://github.com/Sanqing678/Lenovo-ThinkCentre-M710q-Hackintosh) |  | OpenCore | Intel UHD Graphics |
-| ThinkPad-P53 Sequoia | [链接](https://github.com/cucu-labs/ThinkPad-P53-Hackintosh-Sequoia-EFI) |  | OpenCore | i7-9850H | Intel UHD Graphics |
-| Lenovo-Xiaoxin-Pro-13-2019 | [链接](https://github.com/2909177248-crypto/Lenovo-Xiaoxin-Pro-13-2019-Hackintosh-EFI) |  | OpenCore | i5-10210U | Intel UHD Graphics |
+| Lenovo ThinkPad X280 | [链接](https://github.com/Sanqing678/Lenovo-ThinkPad-X280-Hackintosh) |  | OpenCore |
+| Lenovo-ThinkBook14IML | [链接](https://github.com/Karthik-kannekanti/Lenovo-ThinkBook14IML-EFI) |  | OpenCore |
+| ThinkCentre M710q | [链接](https://github.com/Sanqing678/Lenovo-ThinkCentre-M710q-Hackintosh) |  | OpenCore |
+| ThinkPad-P53 Sequoia | [链接](https://github.com/cucu-labs/ThinkPad-P53-Hackintosh-Sequoia-EFI) |  | OpenCore |
+| Lenovo-Xiaoxin-Pro-13-2019 | [链接](https://github.com/2909177248-crypto/Lenovo-Xiaoxin-Pro-13-2019-Hackintosh-EFI) |  | OpenCore |
 | Thinkcentre M910X | [链接](https://github.com/xiaoran007/Thinkcentre-M910X-Hackintosh-OC-EFI) |  | OpenCore |
-| my T470s | [链接](https://github.com/userminer2/Thinkpad-T470s-Tahoe-OpenCore-EFI) |  | OpenCore | i7-6600u |
+| my T470s | [链接](https://github.com/userminer2/Thinkpad-T470s-Tahoe-OpenCore-EFI) |  | OpenCore |
 | ThinkPad_L14_gen2a-5850u | [链接](https://github.com/hzyj377/EFI-ThinkPad_L14_gen2a-5850u-hackintosh) |  |  |
 | LENOVO-IDEAPAD-SLIM-3-15ABR8-ryzen-7-DONT-USE-THIS- | [链接](https://github.com/vivaloscarpinchos2001-jpg/EFI-HACKINTOSH-LENOVO-IDEAPAD-SLIM-3-15ABR8-ryzen-7-DONT-USE-THIS-) |  |  |
-| Lenovo-Xiaoxin-14IWL | [链接](https://github.com/QQXB-C/Lenovo-Xiaoxin-14IWL-Hackintosh) |  | OpenCore | i5-8265U | Intel UHD Graphics |
+| Lenovo-Xiaoxin-14IWL | [链接](https://github.com/QQXB-C/Lenovo-Xiaoxin-14IWL-Hackintosh) |  | OpenCore |
 | 联想 flex3-1470/i5 5200u-hd5500    | [链接](https://github.com/xl120022/FLEX-3-1470-Mac-10.15.3-efi) |                                                              |                                                              |
 | Thinkpad E14 Gen 1 | [链接](https://github.com/AniKulkarn/Hackintosh-ThinkPad-E14) | | |
 | ThinkPad E14 Gen2 AMD | [链接](https://github.com/mgjuc/ThinkPad-E14-Gen2-Hackintosh) | | |
@@ -870,8 +870,9 @@
 | Lenovo Miix720                     | [链接](https://github.com/jennie26/Lenovo-Miix-720-Hackintosh) |                                                              |                                                              |
 | Thinkstation P910                  | [链接](https://github.com/crazyi/Hackintosh_Thinkstation_P910) |                                                              |                                                              |
 | Lenovo Yoga 920 13IKB              | [链接](https://github.com/qxuchn/YOGA920-Hackintosh)         |                                                              |                                                              |
+| Lenovo Yoga 9 15IMH5 | [链接](https://github.com/sunbos/Yoga-9-15IMH5-Hackintosh) | | I9-10980HK |
 | Lenovo Z410                        | [链接](https://github.com/chencaidy/Hackintosh-OC-Lenovo-Z410) |                                                              |                                                              |
-| ThinkPad T470 | [链接](https://github.com/ShimotsukiMerin/T470-Hackintosh) |  | OpenCore | i5-6300U | Intel HD Graphics |
+| ThinkPad T470 | [链接](https://github.com/ShimotsukiMerin/T470-Hackintosh) |  | OpenCore |
 
 ### LG
 
