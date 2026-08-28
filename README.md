@@ -1355,6 +1355,7 @@
 | Asus X299 PRIME DELUXE II      | [链接](https://github.com/yifan-gu/hackintosh)               |          | i9 7980XE + Radeon VII<br />网卡推荐：[BCM94360CD](https://hackintosher.taobao.com) |
 | Asus X299                      |      |          |                                                              |
 | Asus ROG STRIX X299-E GAMING   | [链接](https://github.com/Fansaly/X299-STRIX-macOS)          |          | INTEL® CORE™ i7-7800X<br />网卡推荐：[BCM94360CD](https://hackintosher.taobao.com) |
+| ASUS Pro WS C621-64L SAGE | [链接](https://github.com/ENDlezZenith/Hackintosh-Epilogue-Mac-Pro-2019) | | Intel Xeon W-3275M + 2 * AMD Radeon Pro VII交火支持 |
 | Asus合集 | [链接](https://github.com/Baio1977/EFI-Varie-Hackintosh/tree/main/EFI%20Desktop/ASUS) | |  |
 
 
