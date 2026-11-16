@@ -69,6 +69,9 @@
   - [NVIDIA 机型（台式机）](#nvidia-机型台式机)
   - [台式机其它机型](#台式机其它机型)
 - [硬件兼容列表](#硬件兼容列表)
+  - [Intel 11-14 代核显 \& AMD 780M 驱动支持](#intel-11-14-代核显--amd-780m-驱动支持)
+    - [Intel Iris Xe / UHD 770（11th-14th Gen）](#intel-iris-xe--uhd-77011th-14th-gen)
+    - [AMD Radeon 780M / RDNA3 iGPU](#amd-radeon-780m--rdna3-igpu)
   - [NVIDIA（NullMoth 驱动）](#nvidianullmoth-驱动)
     - [NVIDIA 驱动 \& 工具](#nvidia-驱动--工具)
   - [无线网卡（WiFi）支持列表](#无线网卡wifi支持列表)
@@ -1805,6 +1808,72 @@
 
 ## 硬件兼容列表
 
+### Intel 11-14 代核显 & AMD 780M 驱动支持
+
+Hackintosh 下 Intel 第 11-14 代（及之后）核显和 AMD RDNA3 iGPU 的驱动方案汇总。
+
+#### Intel Iris Xe / UHD 770（11th-14th Gen）
+
+| 驱动 | 链接 | 支持芯片 | 备注 |
+| --- | --- | --- | --- |
+| WhateverGreen | [acidanthera](https://github.com/acidanthera/WhateverGreen) | 旧款 UHD 620/630 | 最稳定方案 |
+| WhateverXe | [b00t0x](https://github.com/b00t0x/WhateverXe) ★370 | Iris Xe (Tiger Lake+) / UHD 770 | Metal 加速主力 |
+| WhateverXe Patched | [belugaa-01](https://github.com/belugaa-01/WhateverXe-Patched) | 12th/13th Gen 扩展 | 12th/13th Gen 扩展支持 |
+| WhateverXe Next | [Minorli](https://github.com/Minorli/WhateverXe-Next) | 全 Intel Xe 系列 | 独立开发分支 |
+| WhateverXe Graphics 24H232 | [WangHaoZhengMing](https://github.com/WangHaoZhengMing/WhateverXe-Graphics-24H232-Port) | Tahoe 24H232 | eDP handoff + 亮度修复 |
+| Iris Xe Driver Research | [wallali77666](https://github.com/wallali77666-cyber/iris-xe-macos-driver) | Tiger Lake Gen12 | IXFB/IXRM/Metal-on-Vulkan |
+
+**参考机型：**
+
+| 机型 | 链接 | GPU | 备注 |
+| --- | --- | --- | --- |
+| Dell Inspiron 5510 | [ViniciusCostaGrillo](https://github.com/ViniciusCostaGrillo/Hackintosh-Inspiron-5510-IrisXe-Tahoe) | Iris Xe 8086:9A49 | Metal 2 / Tahoe |
+| ThinkPad P1 Gen 5 | [khucxtriendev](https://github.com/khucxtriendev/irisxegraphic-i712800h-efi) | i7-12800H | Iris Xe / macOS |
+| Alder Lake i5-1235U | [Aniket601](https://github.com/Aniket601/AlderLake-IrisXe-OpenCore) | Iris Xe 8086:46A0 | Metal 2 / OpenCore |
+| MSI Tiger Lake i7-1195G7 | [dwiwinarno911](https://github.com/dwiwinarno911/opencore-msi-tigerlake-irisxe) | Iris Xe 8086:9A49 | Xe-LP Metal / Sequoia |
+| Dell XPS 13 Plus 9320 | [JulioNectar](https://github.com/JulioNectar/Hackintosh-XPS13Plus-IrisXe-Tahoe) | Raptor Lake Iris Xe | Metal / Tahoe |
+| Dell XPS 9720 | [jkbuha](https://github.com/jkbuha/XPS-9720-AlderLake-OpenCore) | i9-12900HK / Iris Xe | Tahoe / OpenCore |
+| Lenovo ThinkBook 14+ 2022 | [yangchengwu-1](https://github.com/yangchengwu-1/thinkbook-14p-2022-hackintosh) | i5-12500H | macOS 26 + WhateverXe |
+| Lenovo 小新 Air14 IRP8 | [Wtrwx](https://github.com/Wtrwx/Lenovo-Air14-IRP8-Hackintosh) | 实验性 | WhateverXe 源码 |
+| ASUS VivoBook X421EA | [khoanguyen1808](https://github.com/khoanguyen1808/ASUS-VivoBook-X421EA-Hackintosh) | Iris Xe 1536MB | Sequoia / QE/CI |
+
+#### AMD Radeon（全系支持）
+
+| 驱动 | 链接 | 支持芯片 | 备注 |
+| --- | --- | --- | --- |
+| NootRX | [ChefKissInc](https://github.com/ChefKissInc/NootRX) | RX 5000/6000/7000 (RDNA/RDNA2/RDNA3) | 独立显卡主力驱动 |
+| NootedRed | [ChefKissInc](https://github.com/ChefKissInc/NootedRed) | 核显 iGPU | iGPU 支持 |
+| RX 780M Hackintosh | [OscarrWu](https://github.com/OscarrWu/780m-hackintosh) | 780M (RDNA3) | 原生 kext，PSP/SMU/GPU 直接上电 |
+| nullarc | [luuumi-dev](https://github.com/luuumi-dev/nullarc) | 780M | Metal / WindowServer 120Hz / Vulkan |
+| RX 9070 RDNA4 | [RX4Darwin](https://github.com/RX4Darwin/AMDRadeonRDNA4.kext) | RX 9070/9070 XT | 实验性，Metal via paravirtual GPU |
+| RX 7900 XT | [leolivm](https://github.com/leolivm/vermilion) | RX 7900 XT (RDNA3) | 高刷新率 / 多显示器 |
+| AMDGPU macOS | [lemonade-sdk](https://github.com/lemonade-sdk/mac_linuxgpu) | 全 AMD Radeon | Linux amdgpu 驱动移植 |
+
+**参考机型：**
+
+| 机型 | 链接 | CPU | GPU | 备注 |
+| --- | --- | --- | --- | --- |
+| GPD Win Max 2 | [caoshiyuan0211](https://github.com/caoshiyuan0211-blip/winmax2-2022-6800u-hackintosh) | Ryzen 7 6800U | 680M | Sequoia / Metal |
+| NucBox M8 | [youngminz](https://github.com/youngminz/m8-hackintosh) | Ryzen 5 6650H | 660M | RembrandtGfx / Metal |
+| ThinkPad T495s | [vluncasu](https://github.com/vluncasu/ThinkPad-T495s-macOS) | Ryzen 7 3700U | Vega 10 | NootedRed |
+| Ryzen 5700U | [luuconghoangnam](https://github.com/luuconghoangnam/hckintosh_AMD_MacOS13) | Ryzen 7 5700U | 核显 | NootedRed |
+| MECHREVO 无界15XA | [QiRanChenk](https://github.com/QiRanChenk/MECHREVO-WUJIE15XA-8745HS-Hackintosh) | Ryzen 7 8745HS | 780M | macOS Tahoe |
+| MECHREVO 无界14X Pro | [gg723](https://github.com/gg723/Wujie-14X-Pro-Hackintosh) | Ryzen 7 H255 | 780M | macOS Tahoe |
+| 同方 7840HS | [kevin8717](https://github.com/kevin8717/TongFang-7840HS-Hackintosh) | Ryzen 7 7840HS | 780M | macOS 26 |
+| 机械无界14 7840HS | [bbbbrt](https://github.com/bbbbrt/mechrevo-wujie14pro-7840hs-780m-hackintosh-efi) | Ryzen 7 7840HS | 780M | EFI |
+| Firebat U6C | [luuumi-dev](https://github.com/luuumi-dev/firebat-u6c-hackintosh-efi) | Ryzen 7 H 255 | 780M | Sonoma |
+| Corsair A1600 Voyager | [luchina-gabriel](https://github.com/luchina-gabriel/EFI-CORSAIR-a1600-RYZEN-7-6800HS-dGPU-RX6800M-AX210NGW-20261105-PUBLIC) | Ryzen 7 6800HS | RX 6800M | Sequoia |
+| B850M + 9600X | [icliberen](https://github.com/icliberen/hackintosh-opencore-sequoia-tahoe-msi_b850m_g-ryzen5_9600x-rx570-rx5500xt) | Ryzen 5 9600X | RX 570 / RX 5500 XT | Sequoia / Tahoe |
+| B450 + 5600G | [n4zguu1](https://github.com/n4zguu1/Rayzen-dGPU-B450-hackintosh) | Ryzen 5 5600G | RX 580 | B450 独显 |
+| B650M + 7950X | [akirakani-kei](https://github.com/akirakani-kei/7950X-6650XT-B650M-Hackintosh) | Ryzen 9 7950X | RX 6650 XT | B650M |
+| B550M + 5700X | [luchina-gabriel](https://github.com/luchina-gabriel/EFI-GIGABYTE-B550M-DS3H-RYZEN-7-5700X-RX-6600XT-20260508-PUBLIC) | Ryzen 7 5700X | RX 6600 XT | B550M / Tahoe |
+| A320M + 5500X3D | [luchina-gabriel](https://github.com/luchina-gabriel/EFI-ASUS-PRIME-A320M-A-AMD-RYZEN-5-5500X3D-RX-6600-WITHOUT-WIFI-20260617-PUBLIC) | Ryzen 5 5500X3D | RX 6600 | A320M / Tahoe |
+| X870E + 7700 | [luchina-gabriel](https://github.com/luchina-gabriel/EFI-MSI-X870E-GAMING-PLUS-WIFI-RYZEN-7-7700-RX-6600-20260310-PUBLIC) | Ryzen 7 7700 | RX 6600 | X870E / Tahoe |
+| X399 + 2920X | [luchina-gabriel](https://github.com/luchina-gabriel/EFI-GIGABYTE-X399-DESIGNARE-EX-THREADRIPPER-2920X-RX-5700-XT-BCM94360CD-AIRDROP-20261006-PUBLIC) | Threadripper 2920X | RX 5700 XT | X399 / AirDrop |
+| m75q Gen3 | [BensonJia](https://github.com/BensonJia/Hackintosh_m75q_gen3_perfect) | Ryzen 7 5700G | Pro WX4100 | Lenovo 迷你主机 |
+| ThinkPad AMD | [ThinkDifferentInc](https://github.com/ThinkDifferentInc/ThinkPad-AMD) | Ryzen 全系 | 核显 | Tahoe 预烘焙 EFI |
+
+
 ### NVIDIA（NullMoth 驱动）
 
 NVIDIA GPU 通过 NullMoth / nvidia-macos-driver 驱动在 Hackintosh 上实现 Metal 加速。以下为基于该驱动的机型/项目汇总：
@@ -1913,54 +1982,6 @@ NVIDIA GPU 通过 NullMoth / nvidia-macos-driver 驱动在 Hackintosh 上实现 
 | 黑苹果互助项目   |                                                                                  |                                                                                                 | 和本 repo 类似                                             |
 
 
-### Intel 11-14 代核显 & AMD 780M 驱动支持
-
-Hackintosh 下 Intel 第 11-14 代（及之后）核显和 AMD RDNA3 iGPU 的驱动方案汇总。
-
-#### Intel Iris Xe / UHD 770（11th-14th Gen）
-
-| 驱动 | 链接 | 支持芯片 | 备注 |
-| --- | --- | --- | --- |
-| WhateverGreen | [acidanthera](https://github.com/acidanthera/WhateverGreen) | 旧款 UHD 620/630 | 最稳定方案 |
-| WhateverXe | [b00t0x](https://github.com/b00t0x/WhateverXe) ★370 | Iris Xe (Tiger Lake+) / UHD 770 | Metal 加速主力 |
-| WhateverXe Patched | [belugaa-01](https://github.com/belugaa-01/WhateverXe-Patched) | 12th/13th Gen 扩展 | 12th/13th Gen 扩展支持 |
-| WhateverXe Next | [Minorli](https://github.com/Minorli/WhateverXe-Next) | 全 Intel Xe 系列 | 独立开发分支 |
-| WhateverXe Graphics 24H232 | [WangHaoZhengMing](https://github.com/WangHaoZhengMing/WhateverXe-Graphics-24H232-Port) | Tahoe 24H232 | eDP handoff + 亮度修复 |
-| Iris Xe Driver Research | [wallali77666](https://github.com/wallali77666-cyber/iris-xe-macos-driver) | Tiger Lake Gen12 | IXFB/IXRM/Metal-on-Vulkan |
-
-**参考机型：**
-
-| 机型 | 链接 | GPU | 备注 |
-| --- | --- | --- | --- |
-| Dell Inspiron 5510 | [ViniciusCostaGrillo](https://github.com/ViniciusCostaGrillo/Hackintosh-Inspiron-5510-IrisXe-Tahoe) | Iris Xe 8086:9A49 | Metal 2 / Tahoe |
-| ThinkPad P1 Gen 5 | [khucxtriendev](https://github.com/khucxtriendev/irisxegraphic-i712800h-efi) | i7-12800H | Iris Xe / macOS |
-| Alder Lake i5-1235U | [Aniket601](https://github.com/Aniket601/AlderLake-IrisXe-OpenCore) | Iris Xe 8086:46A0 | Metal 2 / OpenCore |
-| MSI Tiger Lake i7-1195G7 | [dwiwinarno911](https://github.com/dwiwinarno911/opencore-msi-tigerlake-irisxe) | Iris Xe 8086:9A49 | Xe-LP Metal / Sequoia |
-| Dell XPS 13 Plus 9320 | [JulioNectar](https://github.com/JulioNectar/Hackintosh-XPS13Plus-IrisXe-Tahoe) | Raptor Lake Iris Xe | Metal / Tahoe |
-| Dell XPS 9720 | [jkbuha](https://github.com/jkbuha/XPS-9720-AlderLake-OpenCore) | i9-12900HK / Iris Xe | Tahoe / OpenCore |
-| Lenovo ThinkBook 14+ 2022 | [yangchengwu-1](https://github.com/yangchengwu-1/thinkbook-14p-2022-hackintosh) | i5-12500H | macOS 26 + WhateverXe |
-| Lenovo 小新 Air14 IRP8 | [Wtrwx](https://github.com/Wtrwx/Lenovo-Air14-IRP8-Hackintosh) | 实验性 | WhateverXe 源码 |
-| ASUS VivoBook X421EA | [khoanguyen1808](https://github.com/khoanguyen1808/ASUS-VivoBook-X421EA-Hackintosh) | Iris Xe 1536MB | Sequoia / QE/CI |
-
-#### AMD Radeon 780M / RDNA3 iGPU
-
-| 驱动 | 链接 | 支持芯片 | 备注 |
-| --- | --- | --- | --- |
-| 780M Hackintosh | [OscarrWu](https://github.com/OscarrWu/780m-hackintosh) | Radeon 780M (RDNA3) | 原生 kext，PSP/SMU/GPU 直接上电 |
-| nullarc | [luuumi-dev](https://github.com/luuumi-dev/nullarc) | Radeon 780M | Metal / WindowServer 120Hz / Vulkan |
-| RX9070 RDNA4 | [RX4Darwin](https://github.com/RX4Darwin/AMDRadeonRDNA4.kext) | RX 9070/9070 XT | 实验性，Metal via paravirtual GPU |
-| RX 7900 XT | [leolivm](https://github.com/leolivm/vermilion) | RX 7900 XT (RDNA3) | 高刷新率 / 多显示器 |
-| AMDGPU macOS | [lemonade-sdk](https://github.com/lemonade-sdk/mac_linuxgpu) | 全 AMD Radeon | Linux amdgpu 驱动移植 |
-
-**参考机型：**
-
-| 机型 | 链接 | CPU | GPU | 备注 |
-| --- | --- | --- | --- | --- |
-| MECHREVO 无界15XA | [QiRanChenk](https://github.com/QiRanChenk/MECHREVO-WUJIE15XA-8745HS-Hackintosh) | Ryzen 7 8745HS | 780M | macOS Tahoe |
-| MECHREVO 无界14X Pro | [gg723](https://github.com/gg723/Wujie-14X-Pro-Hackintosh) | Ryzen 7 H255 | 780M | macOS Tahoe |
-| 同方 7840HS | [kevin8717](https://github.com/kevin8717/TongFang-7840HS-Hackintosh) | Ryzen 7 7840HS | 780M | macOS 26 |
-| MECHREVO 无界14 Pro 7840HS | [bbbbrt](https://github.com/bbbbrt/mechrevo-wujie14pro-7840hs-780m-hackintosh-efi) | Ryzen 7 7840HS | 780M | EFI |
-| Firebat U6C | [luuumi-dev](https://github.com/luuumi-dev/firebat-u6c-hackintosh-efi) | Ryzen 7 H 255 | 780M | Sonoma |
 
 
 ## 其它机型请提交到[这里](https://github.com/daliansky/Hackintosh)
