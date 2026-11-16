@@ -10,13 +10,16 @@
 <details>
 <summary>更新日志</summary>
 
-更新日期：2026年6月18日
+更新日期：2026年11月16日
 
 - 新增机型：
-  - Asus X550VQ
-  - Dell Latitude 7410
-  - Dell OptiPlex 7070 MFF
-  - ThinkPad E14 Gen2 AMD
+  - Lenovo Yoga 9 15IMH5
+  - ASUS Pro WS C621-64L SAGE
+  - Clevo NH50RA
+- 新增 NVIDIA（NullMoth 驱动）机型汇总（台式机 11 + 笔记本 20）
+- 新增无线网卡（WiFi）支持列表（博通 / Intel / MediaTek / Realtek / Atheros）
+- archey 修复：多 NVMe 盘显示、磁盘空间统计、扩展显示器隐藏
+- BCM94360Z4 修复：移除 SMBIOS 三码信息、Apple Silicon 隐藏引导参数
 
 完整的更新日志：[更新日志](./Changelog.md)
 
