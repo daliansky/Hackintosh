@@ -1821,6 +1821,87 @@ NVIDIA GPU 通过 NullMoth / nvidia-macos-driver 驱动在 Hackintosh 上实现 
 
 ## 其它机型请提交到[这里](https://github.com/daliansky/Hackintosh)
 
+## 无线网卡（WiFi）支持列表
+
+各品牌无线网卡在 Hackintosh 下的驱动支持、功能特性及参考项目汇总。
+
+### 博通（Broadcom）
+
+| 芯片型号 | 驱动方式 | 隔空接力 | 备注 |
+| --- | --- | --- | --- |
+| BCM94360Z4 | 原生（en0） | ✅ AirDrop / Handoff | 最成熟的 Hackintosh WiFi 方案，PCIe 转 M.2 网卡，淘宝大量现货 |
+| BCM94360CD | 原生 | ✅ | 笔记本常见（MacBook），PCIe 转 USB 版本可外置使用 |
+| BCM943602 | 原生 | ✅ | 较新芯片，部分 M.2 卡 |
+| BCM94391 / BCM94360 系列 | 原生 | ✅ | 旧款 Mac 自带 |
+| BCM 系列（其他） | 原生 | ⚠️ 部分支持 | 多数 BCM94xx 系列可被 AirPort 驱动识别 |
+
+> **提示**：博通 BCM94360Z4 是黑果首选，支持完整 iMessage / AirDrop / Handoff / AirPlay 功能。
+
+### Intel
+
+| 芯片型号 | 驱动方式 | 隔空接力 | 备注 |
+| --- | --- | --- | --- |
+| AX200 / AX201 / AX210 / AX211 | [AirportItlwm](https://github.com/OpenIntelWireless/itlwm) + [HeliPort](https://github.com/OpenIntelWireless/HeliPort) | ⚠️ AirDrop 受限 | 802.11ax，WPA2/WPA3，最常用 Intel M.2 方案 |
+| BE200 / BE201（WiFi 7） | [AirportItlwm Tahoe 分支](https://github.com/kgp-macPro/AirportItlwm-Tahoe) / [Eric 分支](https://github.com/Ersiter/Eric-AirportItlwm) | ⚠️ 实验性 | Wi-Fi 7 / 6GHz，Tahoe 26 支持中 |
+| 802.11ac（8260/8265 等） | AirportItlwm | ⚠️ | 802.11n/ac，较老但仍可用 |
+| AX210S（PCIe） | AirportItlwm | ⚠️ | 无需放宽 Apple Secure Boot |
+
+参考项目：
+
+| 项目 | 链接 | 备注 |
+| --- | --- | --- |
+| OpenIntelWireless/itlwm | [链接](https://github.com/OpenIntelWireless/itlwm) | 官方 Intel WiFi 驱动仓库 |
+| OpenIntelWireless/HeliPort | [链接](https://github.com/OpenIntelWireless/HeliPort) | Intel WiFi 客户端 |
+| Eric-AirportItlwm | [Ersiter](https://github.com/Ersiter/Eric-AirportItlwm) | 802.11n ~ WiFi 7 (BE200/BE201) |
+| AirportItlwm Tahoe | [kgp-macPro](https://github.com/kgp-macPro/AirportItlwm-Tahoe) | Tahoe + AppleVTD/IOMMU |
+| AX210 AirDrop 修复 | [kevineduardo](https://github.com/kevineduardo/ax210-airdrop-awdl-hackintosh) | AirDrop/AWDL + BlueTool |
+| Intel-AX210 指南 | [perez987](https://github.com/perez987/Intel-AX210-on-Sonoma-Sequoia-Tahoe) | AX210S PCIe 全版本 |
+
+### MediaTek
+
+| 芯片型号 | 驱动方式 | 隔空接力 | 备注 |
+| --- | --- | --- | --- |
+| MT7921 / MT7922 / RZ616 | [AirportMtkWlan](https://github.com/Arxusion/AirportMtkWlan) | ⚠️ 实验性 | 笔记本常见，Tahoe/Sequoia |
+| MT7921 / MT7922 AWDL | [AirportMtk-AWDL](https://github.com/Arxusion/AirportMtk-AWDL) | ✅ | AirDrop / Continuity 支持 |
+| MT7925 | [WTLWireless](https://github.com/watchthelight-labs/WTLNvidiaGfx) | ⚠️ | Muxless 笔记本 |
+
+### Realtek
+
+| 芯片型号 | 驱动方式 | 隔空接力 | 备注 |
+| --- | --- | --- | --- |
+| RTL8188E / EUS（USB） | [RTL8188EAirport](https://github.com/zexry619/RTL8188EAirport) | ❌ | TP-Link TL-WN725N，IO80211 原生 |
+| RTW89 系列 | [AirPort_RTW89](https://github.com/FranciumOS-org/AirPort_RTW89) | ❌ | 通用 RTW89 kext |
+| RTL88xx | [Airport_RTW88](https://github.com/xnoah222/Airport_RTW88) | ❌ | 原生 AirPort 驱动 |
+| RTL8188CU（D-Link DWA-121） | [Panther 驱动](https://github.com/invartam/driver-dwa121-macx-panther) | ❌ | 老款 USB 网卡 |
+
+### Atheros / Qualcomm
+
+| 芯片型号 | 驱动方式 | 隔空接力 | 备注 |
+| --- | --- | --- | --- |
+| AR946x / AR5Bxx 系列 | [SimpleATH](https://github.com/albertovillaosorno/SimpleATH) | ❌ | PCIe，实验性 |
+| WCN7850 / FastConnect 7800 | [qwz-macos](https://github.com/f0xeri/qwz-macos) | ❌ | OpenBSD 移植 |
+
+### 其他
+
+| 芯片/项目 | 链接 | 备注 |
+| --- | --- | --- |
+| 小米 8265 AWDL 修复 | [baggioyfan](https://github.com/baggioyfan/xiaomi-mi-air-13.3-2017-airportitlwm-awdl) | Intel 8265 AirportItlwm + AWDL |
+| AX210 PCIe 全版本 | [perez987](https://github.com/perez987/Intel-AX210-on-Sonoma-Sequoia-Tahoe) | 无需 OCLP |
+| OCLP 博通 + Intel 混合 | [kgp-macPro](https://github.com/kgp-macPro/OCLP-CustoMac) | 现代 WiFi 支持 |
+| 隔空接力诊断工具 | [IAmLegionVaal](https://github.com/IAmLegionVaal/macOS-Bluetooth-AirDrop-and-Continuity-Troubleshooter) | 排障工具 |
+| AWDL 开关面板 | [Microburo](https://github.com/Microburo/awdl-toggle) | 控制 AirDrop 延迟 |
+
+### 选购建议
+
+| 需求 | 推荐 |
+| --- | --- |
+| 完整 iMessage / AirDrop / Handoff / AirPlay | **BCM94360Z4**（PCIe 转 M.2） |
+| M.2 插槽直接安装 | **Intel AX200/AX201**（AirportItlwm） |
+| 笔记本 M.2 插槽 | **MediaTek MT7921/MT7922** 或 **Intel AX210/AX211** |
+| USB 外置（临时） | **Realtek RTL8188E** / **RTL8188CU** |
+| 老笔记本 | **Intel 8265/8260**（AirportItlwm） |
+| 台式机无 M.2 插槽 | **BCM94360Z4 PCIe 卡** 或 **Intel AX210S PCIe 转接卡** |
+
 ## 感谢名单
 
 - [Apple](https://www.apple.com/) 的 macOS
@@ -1904,87 +1985,6 @@ NVIDIA GPU 通过 NullMoth / nvidia-macos-driver 驱动在 Hackintosh 上实现 
 943181023 [联想小新 Air 黑苹果交流群](https://qm.qq.com/cgi-bin/qm/qr?k=OGO_GSX9ZhtbQ_HNns57Vdxm5pR1wH6V&jump_from=webapi) 500 人群 非专用机型请勿加入
 
 247451054 [小米 PRO 黑苹果高级群](https://qm.qq.com/cgi-bin/qm/qr?k=mnawqS-p0Djpx-B1sgjJPtMfUtVpn-2-&jump_from=webapi) 2000 人群，限小米机型
-
-## 无线网卡（WiFi）支持列表
-
-各品牌无线网卡在 Hackintosh 下的驱动支持、功能特性及参考项目汇总。
-
-### 博通（Broadcom）
-
-| 芯片型号 | 驱动方式 | 隔空接力 | 备注 |
-| --- | --- | --- | --- |
-| BCM94360Z4 | 原生（en0） | ✅ AirDrop / Handoff | 最成熟的 Hackintosh WiFi 方案，PCIe 转 M.2 网卡，淘宝大量现货 |
-| BCM94360CD | 原生 | ✅ | 笔记本常见（MacBook），PCIe 转 USB 版本可外置使用 |
-| BCM943602 | 原生 | ✅ | 较新芯片，部分 M.2 卡 |
-| BCM94391 / BCM94360 系列 | 原生 | ✅ | 旧款 Mac 自带 |
-| BCM 系列（其他） | 原生 | ⚠️ 部分支持 | 多数 BCM94xx 系列可被 AirPort 驱动识别 |
-
-> **提示**：博通 BCM94360Z4 是黑果首选，支持完整 iMessage / AirDrop / Handoff / AirPlay 功能。
-
-### Intel
-
-| 芯片型号 | 驱动方式 | 隔空接力 | 备注 |
-| --- | --- | --- | --- |
-| AX200 / AX201 / AX210 / AX211 | [AirportItlwm](https://github.com/OpenIntelWireless/itlwm) + [HeliPort](https://github.com/OpenIntelWireless/HeliPort) | ⚠️ AirDrop 受限 | 802.11ax，WPA2/WPA3，最常用 Intel M.2 方案 |
-| BE200 / BE201（WiFi 7） | [AirportItlwm Tahoe 分支](https://github.com/kgp-macPro/AirportItlwm-Tahoe) / [Eric 分支](https://github.com/Ersiter/Eric-AirportItlwm) | ⚠️ 实验性 | Wi-Fi 7 / 6GHz，Tahoe 26 支持中 |
-| 802.11ac（8260/8265 等） | AirportItlwm | ⚠️ | 802.11n/ac，较老但仍可用 |
-| AX210S（PCIe） | AirportItlwm | ⚠️ | 无需放宽 Apple Secure Boot |
-
-参考项目：
-
-| 项目 | 链接 | 备注 |
-| --- | --- | --- |
-| OpenIntelWireless/itlwm | [链接](https://github.com/OpenIntelWireless/itlwm) | 官方 Intel WiFi 驱动仓库 |
-| OpenIntelWireless/HeliPort | [链接](https://github.com/OpenIntelWireless/HeliPort) | Intel WiFi 客户端 |
-| Eric-AirportItlwm | [Ersiter](https://github.com/Ersiter/Eric-AirportItlwm) | 802.11n ~ WiFi 7 (BE200/BE201) |
-| AirportItlwm Tahoe | [kgp-macPro](https://github.com/kgp-macPro/AirportItlwm-Tahoe) | Tahoe + AppleVTD/IOMMU |
-| AX210 AirDrop 修复 | [kevineduardo](https://github.com/kevineduardo/ax210-airdrop-awdl-hackintosh) | AirDrop/AWDL + BlueTool |
-| Intel-AX210 指南 | [perez987](https://github.com/perez987/Intel-AX210-on-Sonoma-Sequoia-Tahoe) | AX210S PCIe 全版本 |
-
-### MediaTek
-
-| 芯片型号 | 驱动方式 | 隔空接力 | 备注 |
-| --- | --- | --- | --- |
-| MT7921 / MT7922 / RZ616 | [AirportMtkWlan](https://github.com/Arxusion/AirportMtkWlan) | ⚠️ 实验性 | 笔记本常见，Tahoe/Sequoia |
-| MT7921 / MT7922 AWDL | [AirportMtk-AWDL](https://github.com/Arxusion/AirportMtk-AWDL) | ✅ | AirDrop / Continuity 支持 |
-| MT7925 | [WTLWireless](https://github.com/watchthelight-labs/WTLNvidiaGfx) | ⚠️ | Muxless 笔记本 |
-
-### Realtek
-
-| 芯片型号 | 驱动方式 | 隔空接力 | 备注 |
-| --- | --- | --- | --- |
-| RTL8188E / EUS（USB） | [RTL8188EAirport](https://github.com/zexry619/RTL8188EAirport) | ❌ | TP-Link TL-WN725N，IO80211 原生 |
-| RTW89 系列 | [AirPort_RTW89](https://github.com/FranciumOS-org/AirPort_RTW89) | ❌ | 通用 RTW89 kext |
-| RTL88xx | [Airport_RTW88](https://github.com/xnoah222/Airport_RTW88) | ❌ | 原生 AirPort 驱动 |
-| RTL8188CU（D-Link DWA-121） | [Panther 驱动](https://github.com/invartam/driver-dwa121-macx-panther) | ❌ | 老款 USB 网卡 |
-
-### Atheros / Qualcomm
-
-| 芯片型号 | 驱动方式 | 隔空接力 | 备注 |
-| --- | --- | --- | --- |
-| AR946x / AR5Bxx 系列 | [SimpleATH](https://github.com/albertovillaosorno/SimpleATH) | ❌ | PCIe，实验性 |
-| WCN7850 / FastConnect 7800 | [qwz-macos](https://github.com/f0xeri/qwz-macos) | ❌ | OpenBSD 移植 |
-
-### 其他
-
-| 芯片/项目 | 链接 | 备注 |
-| --- | --- | --- |
-| 小米 8265 AWDL 修复 | [baggioyfan](https://github.com/baggioyfan/xiaomi-mi-air-13.3-2017-airportitlwm-awdl) | Intel 8265 AirportItlwm + AWDL |
-| AX210 PCIe 全版本 | [perez987](https://github.com/perez987/Intel-AX210-on-Sonoma-Sequoia-Tahoe) | 无需 OCLP |
-| OCLP 博通 + Intel 混合 | [kgp-macPro](https://github.com/kgp-macPro/OCLP-CustoMac) | 现代 WiFi 支持 |
-| 隔空接力诊断工具 | [IAmLegionVaal](https://github.com/IAmLegionVaal/macOS-Bluetooth-AirDrop-and-Continuity-Troubleshooter) | 排障工具 |
-| AWDL 开关面板 | [Microburo](https://github.com/Microburo/awdl-toggle) | 控制 AirDrop 延迟 |
-
-### 选购建议
-
-| 需求 | 推荐 |
-| --- | --- |
-| 完整 iMessage / AirDrop / Handoff / AirPlay | **BCM94360Z4**（PCIe 转 M.2） |
-| M.2 插槽直接安装 | **Intel AX200/AX201**（AirportItlwm） |
-| 笔记本 M.2 插槽 | **MediaTek MT7921/MT7922** 或 **Intel AX210/AX211** |
-| USB 外置（临时） | **Realtek RTL8188E** / **RTL8188CU** |
-| 老笔记本 | **Intel 8265/8260**（AirportItlwm） |
-| 台式机无 M.2 插槽 | **BCM94360Z4 PCIe 卡** 或 **Intel AX210S PCIe 转接卡** |
 
 
 ## Telegram 群
