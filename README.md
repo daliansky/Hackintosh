@@ -69,7 +69,7 @@
   - [NVIDIA 机型（台式机）](#nvidia-机型台式机)
   - [台式机其它机型](#台式机其它机型)
 - [硬件兼容列表](#硬件兼容列表)
-  - [Intel 11-14 代核显 \& AMD 780M 驱动支持](#intel-11-14-代核显--amd-780m-驱动支持)
+  - [Intel 11-14 代核显 & AMD Radeon 驱动支持](#intel-11-14-代核显--amd-radeon-驱动支持)
     - [Intel Iris Xe / UHD 770（11th-14th Gen）](#intel-iris-xe--uhd-77011th-14th-gen)
     - [AMD Radeon 780M / RDNA3 iGPU](#amd-radeon-780m--rdna3-igpu)
   - [NVIDIA（NullMoth 驱动）](#nvidianullmoth-驱动)
