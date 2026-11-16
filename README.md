@@ -1068,16 +1068,17 @@
 | 机型名称                     | 发布地址                                                                            | 教程地址                                                                     | 备注                                                                                                        |
 | ---------------------------- | ----------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
 | avita liver v-14 |  |  |  |
+| Clevo NH50RA | [链接](https://github.com/Tang1124/Clevo-NH50RA-Hackintosh) | | |
 | Clevo NH5x/NH70 | [链接](https://github.com/MichaelPan1026/Clevo-NH50-NH70-Hackintosh) | | |
 | Clevo P950HR                 | [链接](https://github.com/MegaCookie/Clevo-P950HR-Hackintosh)                       |                                                                              | 蓝天 P950HR，猜的                                                                                           |
 | xpfiy | [链接](https://github.com/Thatskycat/opencore-xpfiy) |  | OpenCore |
-| erying | [链接](https://github.com/qq91235832-bit/hackintosh-erying) |  | OpenCore | i7-11800H |
+| erying | [链接](https://github.com/qq91235832-bit/hackintosh-erying) |  | OpenCore |
 | Tahoe-Drive-Icons-Pack | [链接](https://github.com/kgp-macPro/Tahoe-Drive-Icons-Pack) |  | OpenCore |
 | restore | [链接](https://github.com/supermarsx/opencore-restore) |  | OpenCore |
 | Rapid Tool | [链接](https://github.com/JeoJay127/RapidEFI-Tool) |  | OpenCore |
 | OCE-Build | [链接](https://github.com/Qonfused/OCE-Build) |  | OpenCore |
 | Esprimo Q958 | [链接](https://github.com/5T33Z0/Fujitsu-Esprimo-Q958-Hackintosh-OpenCore) |  | OpenCore |
-| for B450 | [链接](https://github.com/n4zguu1/Rayzen-dGPU-B450-hackintosh) |  | OpenCore | Ryzen 5 5600G |
+| for B450 | [链接](https://github.com/n4zguu1/Rayzen-dGPU-B450-hackintosh) |  | OpenCore |
 | My | [链接](https://github.com/osayko/My-Hackintosh) |  |  |
 | Hackintosh-EFI | [链接](https://github.com/kirito489/Hackintosh-EFI) |  |  |
 | 火影地狱火 X6                | [链接](https://github.com/gaofeicm/DiYuHuo-X6-MacOS-Mojave-10.14.3-Hackintosh)      |                                                                              |                                                                                                             |
@@ -1113,7 +1114,7 @@
 | Infinix INBook X1 | [链接](https://github.com/devboloji/Infinix-Hackintosh-Guide-Opencore_INBook_X1_XL11_i3-) | | |
 | Mechrevo Jiaolon-76Q | [链接](https://github.com/top1Ashier/Mechrevo-Jiaolong-76Q-Hackintosh) | | AMD Ryzen 7 5800h |
 | 123123123 | [链接](https://github.com/DonGamer9107/123123123) |  | OpenCore |
-| CELSIUS J5012 | [链接](https://github.com/ljzxzxl/fujitsu-celsius-j5012-efi) |  | OpenCore | i5-13500 | Intel UHD Graphics |
+| CELSIUS J5012 | [链接](https://github.com/ljzxzxl/fujitsu-celsius-j5012-efi) |  | OpenCore |
 
 
 ### 笔记本更多的机型
