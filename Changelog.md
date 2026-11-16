@@ -527,7 +527,7 @@
      - Dell OptiPlex 7070 MFF
      - ThinkPad E14 Gen2 AMD
 
-- 2026年 7月 27日
+- 2026年 11月 16日
    - 新增机型：
      - Lenovo Yoga 9 15IMH5
      - ASUS Pro WS C621-64L SAGE
