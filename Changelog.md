@@ -527,3 +527,20 @@
      - Dell OptiPlex 7070 MFF
      - ThinkPad E14 Gen2 AMD
 
+- 2026年 7月 27日
+   - 新增机型：
+     - Lenovo Yoga 9 15IMH5
+     - ASUS Pro WS C621-64L SAGE
+     - Clevo NH50RA
+   - 新增 NVIDIA（NullMoth 驱动）机型汇总：
+     - 台式机：B550M/5600X + RTX 5070、H610M/14400F + RTX 5060、14600KF + RTX 3060、B550/5600G + RTX 2070、B760M/12400F + RTX 4060、i7-6700K + RTX 2080 Super、RTX 5060 Ti、Arrow Lake 245K + RTX 3070、RTX 4090、RTX A5000、ROG G16 QEMU/KVM + RTX 4060
+     - 笔记本：Legion Y7000P IRX10 + RTX 5060、Lenovo R7000P 2025 + RTX 5060、Y9000P IRX9 + RTX 4060、Y540-17IRH + GTX 1660 Ti、Legion Y7000P 2020H + RTX 2060、Razer Blade 18 + RTX 4080、ROG GU603ZM + RTX 3060、OMEN 8f06 + RTX 5060、MECHREVO GM5AR5E + RTX 4050、Dell G15 5530 + RTX 4050、HP Victus 15 fa2xxx + RTX 4050、HP Victus 15 fa0xxx + RTX 3050 Ti、ASUS TUF A14 + RTX 4050、Gigabyte Gaming A16 + RTX 5050、Acer AN515 + RTX、MECHREVO 极光X + RTX 5060、MECHREVO 蛟龙 + RTX 5070、MSI GF63 Thin 9SCX + GTX、OEMN15 1082TX + RTX 2070、ROG Strix SCAR17 + RTX 3060
+   - 新增无线网卡（WiFi）支持列表：
+     - 博通 BCM94360Z4（隔空接力完整支持）
+     - Intel AX200/AX201/AX210/AX211、BE200/BE201（AirportItlwm）
+     - MediaTek MT7921/MT7922（AirportMtkWlan）
+     - Realtek RTL8188E/RTW88/RTW89
+     - Atheros AR946x/AR5Bxx
+   - archey 修复：多 NVMe 盘显示、磁盘空间统计、扩展显示器隐藏
+   - BCM94360Z4/BCM94360Z4_Web 修复：移除 SMBIOS 三码信息显示
+   - 移除 Apple Silicon 引导参数显示
