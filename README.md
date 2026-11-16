@@ -1808,7 +1808,7 @@
 
 ## 硬件兼容列表
 
-### Intel 11-14 代核显 & AMD 780M 驱动支持
+### Intel 11-14 代核显 ### Intel 11-14 代核显 & AMD 780M 驱动支持 AMD Radeon 驱动支持
 
 Hackintosh 下 Intel 第 11-14 代（及之后）核显和 AMD RDNA3 iGPU 的驱动方案汇总。
 
