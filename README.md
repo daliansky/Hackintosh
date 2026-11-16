@@ -24,26 +24,58 @@
 
 ## 目录
 笔记本
-- [Acer 宏碁](#acer-宏碁)
-- [Asus 华硕](#asus-华硕)
-- [DELL 戴尔](#dell-戴尔)
-- [Gigabyte 技嘉](#gigabyte-技嘉)
-- [Hasee 神舟](#hasee-神舟)
-- [HP 惠普](#hp-惠普)
-- [Huawei 华为](#huawei-华为)
-- [Lenovo 联想](#lenovo-联想)
-- [LG](#lg)
-- [Mechrevo 机械革命](#mechrevo-机械革命)
-- [MSI 微星](#msi-微星)
-- [Razer Blade 雷蛇](#razer-blade-雷蛇)
-- [Samsung 三星](#samsung-三星)
-- [Shinelon 炫龙](#shinelon-炫龙)
-- [Toshiba 东芝](#toshiba-东芝)
-- [XiaoMi 小米](#xiaomi-小米)
-- [Intel 英特尔](#intel-英特尔)
-- [Other 其它](#other-其它)
-- [笔记本更多的机型](#笔记本更多的机型)
-- [笔记本相关资源](#笔记本相关资源)
+- [Hackintosh 黑苹果长期维护机型 EFI 及安装教程整理](#hackintosh-黑苹果长期维护机型-efi-及安装教程整理)
+- [English Version: Hackintosh long-term maintenance model EFI and installation tutorial](#english-version-hackintosh-long-term-maintenance-model-efi-and-installation-tutorial)
+- [机型讨论：远景 pcbeta.com](#机型讨论远景-pcbetacom)
+- [目录](#目录)
+- [笔记本部分机型](#笔记本部分机型)
+  - [Acer 宏碁](#acer-宏碁)
+  - [Asus 华硕](#asus-华硕)
+  - [DELL 戴尔](#dell-戴尔)
+  - [Gigabyte 技嘉](#gigabyte-技嘉)
+  - [Hasee 神舟](#hasee-神舟)
+  - [HP 惠普](#hp-惠普)
+  - [Huawei 华为](#huawei-华为)
+  - [Lenovo 联想](#lenovo-联想)
+  - [LG](#lg)
+  - [Mechrevo 机械革命](#mechrevo-机械革命)
+  - [MSI 微星](#msi-微星)
+  - [Razer Blade 雷蛇](#razer-blade-雷蛇)
+  - [Samsung 三星](#samsung-三星)
+  - [Shinelon 炫龙](#shinelon-炫龙)
+  - [Toshiba 东芝](#toshiba-东芝)
+  - [XiaoMi 小米](#xiaomi-小米)
+  - [Intel 英特尔](#intel-英特尔)
+  - [Other 其它](#other-其它)
+    - [NVIDIA 机型（笔记本）](#nvidia-机型笔记本)
+  - [笔记本更多的机型](#笔记本更多的机型)
+  - [笔记本相关资源](#笔记本相关资源)
+- [台式机](#台式机)
+- [AMD Ryzen](#amd-ryzen)
+- [INTEL CPU 系列](#intel-cpu-系列)
+  - [ASRock 华擎](#asrock-华擎)
+  - [ASUS 华硕](#asus-华硕-1)
+  - [Dell 戴尔](#dell-戴尔-1)
+  - [Gigabyte 技嘉](#gigabyte-技嘉-1)
+  - [HP 惠普](#hp-惠普-1)
+  - [Intel 英特尔](#intel-英特尔-1)
+  - [Lenovo 联想](#lenovo-联想-1)
+- [Minisforum 铭凡](#minisforum-铭凡)
+  - [MSI 微星](#msi-微星-1)
+  - [Mini 迷你系列](#mini-迷你系列)
+  - [NVIDIA 机型（台式机）](#nvidia-机型台式机)
+  - [台式机其它机型](#台式机其它机型)
+- [硬件兼容列表](#硬件兼容列表)
+  - [NVIDIA（NullMoth 驱动）](#nvidianullmoth-驱动)
+    - [NVIDIA 驱动 \& 工具](#nvidia-驱动--工具)
+- [其它机型请提交到这里](#其它机型请提交到这里)
+- [感谢名单](#感谢名单)
+- [参考及引用](#参考及引用)
+- [QQ 群列表](#qq-群列表)
+- [Telegram 群](#telegram-群)
+- [微信扫一扫，订阅/直达【黑果小兵的部落阁】](#微信扫一扫订阅直达黑果小兵的部落阁)
+- [关于打赏](#关于打赏)
+- [项目 Star 数增长趋势](#项目-star-数增长趋势)
 
 台式机
 - [AMD Ryzen](#amd-ryzen)
@@ -1116,39 +1148,6 @@
 | 123123123 | [链接](https://github.com/DonGamer9107/123123123) |  | OpenCore |
 | CELSIUS J5012 | [链接](https://github.com/ljzxzxl/fujitsu-celsius-j5012-efi) |  | OpenCore |
 
-### NVIDIA（NullMoth 驱动）
-
-NVIDIA GPU 通过 NullMoth / nvidia-macos-driver 驱动在 Hackintosh 上实现 Metal 加速。以下为基于该驱动的机型/项目汇总：
-
-#### NVIDIA 驱动 & 工具
-
-| 项目 | 链接 | 备注 |
-| --- | --- | --- |
-| NullMoth nvidia-macos-driver | [riyueGHB](https://github.com/riyueGHB/nvidia-macos-driver) [Abdelhameed123](https://github.com/Abdelhameed123/nvidia-macos-driver) | 主驱动仓库 |
-| nvmweb 备份 | [kir001684](https://github.com/kir001684-svg/nvmweb) | 驱动仓库 |
-| GPU Monitor | [moesuito](https://github.com/moesuito/gpu-monitor) | macOS 菜单栏 NVIDIA 监控 |
-| nvoffload | [anoshmisiosdev](https://github.com/anoshmisiosdev/nvoffload) | Muxless 笔记本离屏渲染 |
-| 3060 NVENC | [dixtdf](https://github.com/dixtdf/nvidia-macos-driver-3060-nvenc) | RTX 3060 H.264 NVENC 实验 |
-| GreenMetal | [Johncall20](https://github.com/Johncall20/GreenMetal) | Maxwell GTX 960 Metal 实验 |
-| OpenNVDA | [bdwithganesh](https://github.com/bdwithganesh/OpenNVDA) | RTX 4080 4K / Vulkan / NVDEC / Metal |
-| RTXmacOC | [milcorix](https://github.com/milcorix/RTXmacOC) | 全版本 NVIDIA RTX 支持 |
-| OpenCore+NullMoth CLI | [joseteo](https://github.com/joseteo/nvidia-macos-opencore) | Rust CLI 自动配置 |
-
-#### NVIDIA 机型（台式机）
-
-| 机型 | 链接 | 显卡 | 备注 |
-| --- | --- | --- | --- |
-| B550M + 5600X | [BirdRa1n](https://github.com/BirdRa1n/hackintosh-b550m-5600x-rtx5070) | RTX 5070 | macOS Tahoe, 锐利 HiDPI |
-| H610M + 14400F | [NZJ-Jimmy](https://github.com/NZJ-Jimmy/Hackintosh-MSI-H610M-S-WIFI-RTX5060) | RTX 5060 | macOS Sequoia, OpenCore |
-| 14600KF | [playGitboy](https://github.com/playGitboy/hackintosh-14600kf-rtx3060) | RTX 3060 | HiDPI / ALC897 / RTL8852BE |
-| B550 + 5600G | [artpetrow](https://github.com/artpetrow-cmyk/opencore-b550-5600g-rtx2070) | RTX 2070 | macOS Tahoe |
-| B760M + 12400F | [nanosan0](https://github.com/nanosan0/B760m-i5-12400f-AX201-RTX4060-Hackintosh-oc-efi) | RTX 4060 | OpenCore 1.0.8 |
-| i7-6700K | [tarekwasfy01](https://github.com/tarekwasfy01/Hackintosh-i7-6700k-RTX-2080-Super-Opencore-EFI) | RTX 2080 Super | OpenCore |
-| RTX 5060 Ti | [icliberen](https://github.com/icliberen/hackintosh-rtx_5060_ti-tahoe) | RTX 5060 Ti 16GB | Ryzen / Metal compute / 1440p 180Hz |
-| Arrow Lake 245K | [ydd1126](https://github.com/ydd1126/skybreak) | RTX 3070 | macOS Tahoe |
-| RTX 4090 | [gabrielmaialva33](https://github.com/gabrielmaialva33/Hackintosh-13900k-z790-ASUS-MAXIMUS-HERO) | RTX 4090 | i9-13900K / Z790 |
-| RTX A5000 | [datanonymus](https://github.com/datanonymus/Dell-Precision-7760-Hackintosh) | RTX A5000 | Dell Precision 7760 / i7-11850H |
-| ROG G16 + QEMU | [KangweiZhu](https://github.com/KangweiZhu/ROG-G16-2024-Hackintosh-QEMU-KVM) | RTX 4060 | QEMU/KVM + Metal / NullMoth |
 
 #### NVIDIA 机型（笔记本）
 
@@ -1729,6 +1728,22 @@ NVIDIA GPU 通过 NullMoth / nvidia-macos-driver 驱动在 Hackintosh 上实现 
 | TinyMonster ECO              | [链接](https://github.com/daliansky/TinyMonsterECO-Hackintosh) |                                                          | 小兵长期维护机型<br />网卡推荐：[BCM94360Z4](https://hackintosher.taobao.com) |
 | TinyMonster PRO              | [链接](https://github.com/daliansky/TinyMonsterPro-Hackintosh) |                                                          | 小兵长期维护机型<br />网卡推荐：[BCM94360Z4](https://hackintosher.taobao.com) |
 
+### NVIDIA 机型（台式机）
+
+| 机型 | 链接 | 显卡 | 备注 |
+| --- | --- | --- | --- |
+| B550M + 5600X | [BirdRa1n](https://github.com/BirdRa1n/hackintosh-b550m-5600x-rtx5070) | RTX 5070 | macOS Tahoe, 锐利 HiDPI |
+| H610M + 14400F | [NZJ-Jimmy](https://github.com/NZJ-Jimmy/Hackintosh-MSI-H610M-S-WIFI-RTX5060) | RTX 5060 | macOS Sequoia, OpenCore |
+| 14600KF | [playGitboy](https://github.com/playGitboy/hackintosh-14600kf-rtx3060) | RTX 3060 | HiDPI / ALC897 / RTL8852BE |
+| B550 + 5600G | [artpetrow](https://github.com/artpetrow-cmyk/opencore-b550-5600g-rtx2070) | RTX 2070 | macOS Tahoe |
+| B760M + 12400F | [nanosan0](https://github.com/nanosan0/B760m-i5-12400f-AX201-RTX4060-Hackintosh-oc-efi) | RTX 4060 | OpenCore 1.0.8 |
+| i7-6700K | [tarekwasfy01](https://github.com/tarekwasfy01/Hackintosh-i7-6700k-RTX-2080-Super-Opencore-EFI) | RTX 2080 Super | OpenCore |
+| RTX 5060 Ti | [icliberen](https://github.com/icliberen/hackintosh-rtx_5060_ti-tahoe) | RTX 5060 Ti 16GB | Ryzen / Metal compute / 1440p 180Hz |
+| Arrow Lake 245K | [ydd1126](https://github.com/ydd1126/skybreak) | RTX 3070 | macOS Tahoe |
+| RTX 4090 | [gabrielmaialva33](https://github.com/gabrielmaialva33/Hackintosh-13900k-z790-ASUS-MAXIMUS-HERO) | RTX 4090 | i9-13900K / Z790 |
+| RTX A5000 | [datanonymus](https://github.com/datanonymus/Dell-Precision-7760-Hackintosh) | RTX A5000 | Dell Precision 7760 / i7-11850H |
+| ROG G16 + QEMU | [KangweiZhu](https://github.com/KangweiZhu/ROG-G16-2024-Hackintosh-QEMU-KVM) | RTX 4060 | QEMU/KVM + Metal / NullMoth |
+
 ### 台式机其它机型
 
 | 机型名称                         | 发布地址                                                     | 教程地址                                                     | 备注             |
@@ -1778,6 +1793,24 @@ NVIDIA GPU 通过 NullMoth / nvidia-macos-driver 驱动在 Hackintosh 上实现 
 | 精粤B760i Snow Dream	|[链接](https://github.com/zhongjiachao/JingyueB760i-hackintosh-Opentcore-EFI)	|	|	|
 
 ## 硬件兼容列表
+
+### NVIDIA（NullMoth 驱动）
+
+NVIDIA GPU 通过 NullMoth / nvidia-macos-driver 驱动在 Hackintosh 上实现 Metal 加速。以下为基于该驱动的机型/项目汇总：
+
+#### NVIDIA 驱动 & 工具
+
+| 项目 | 链接 | 备注 |
+| --- | --- | --- |
+| NullMoth nvidia-macos-driver | [riyueGHB](https://github.com/riyueGHB/nvidia-macos-driver) [Abdelhameed123](https://github.com/Abdelhameed123/nvidia-macos-driver) | 主驱动仓库 |
+| nvmweb 备份 | [kir001684](https://github.com/kir001684-svg/nvmweb) | 驱动仓库 |
+| GPU Monitor | [moesuito](https://github.com/moesuito/gpu-monitor) | macOS 菜单栏 NVIDIA 监控 |
+| nvoffload | [anoshmisiosdev](https://github.com/anoshmisiosdev/nvoffload) | Muxless 笔记本离屏渲染 |
+| 3060 NVENC | [dixtdf](https://github.com/dixtdf/nvidia-macos-driver-3060-nvenc) | RTX 3060 H.264 NVENC 实验 |
+| GreenMetal | [Johncall20](https://github.com/Johncall20/GreenMetal) | Maxwell GTX 960 Metal 实验 |
+| OpenNVDA | [bdwithganesh](https://github.com/bdwithganesh/OpenNVDA) | RTX 4080 4K / Vulkan / NVDEC / Metal |
+| RTXmacOC | [milcorix](https://github.com/milcorix/RTXmacOC) | 全版本 NVIDIA RTX 支持 |
+| OpenCore+NullMoth CLI | [joseteo](https://github.com/joseteo/nvidia-macos-opencore) | Rust CLI 自动配置 |
 
 | 机型名称         | 发布地址                                                                         | 教程地址                                                                                        | 备注                                                       |
 | ---------------- | -------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- | ---------------------------------------------------------- |
