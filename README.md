@@ -68,6 +68,14 @@
 - [硬件兼容列表](#硬件兼容列表)
   - [NVIDIA（NullMoth 驱动）](#nvidianullmoth-驱动)
     - [NVIDIA 驱动 \& 工具](#nvidia-驱动--工具)
+  - [无线网卡（WiFi）支持列表](#无线网卡wifi支持列表)
+    - [博通（Broadcom）](#博通broadcom)
+    - [Intel](#intel)
+    - [MediaTek](#mediatek)
+    - [Realtek](#realtek)
+    - [Atheros / Qualcomm](#atheros--qualcomm)
+    - [其他](#其他)
+    - [选购建议](#选购建议)
 - [其它机型请提交到这里](#其它机型请提交到这里)
 - [感谢名单](#感谢名单)
 - [参考及引用](#参考及引用)
@@ -1812,20 +1820,12 @@ NVIDIA GPU 通过 NullMoth / nvidia-macos-driver 驱动在 Hackintosh 上实现 
 | RTXmacOC | [milcorix](https://github.com/milcorix/RTXmacOC) | 全版本 NVIDIA RTX 支持 |
 | OpenCore+NullMoth CLI | [joseteo](https://github.com/joseteo/nvidia-macos-opencore) | Rust CLI 自动配置 |
 
-| 机型名称         | 发布地址                                                                         | 教程地址                                                                                        | 备注                                                       |
-| ---------------- | -------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- | ---------------------------------------------------------- |
-| **硬件兼容列表** | [链接](https://github.com/CrazyPegAsus/macOS-Mojave-Compatibility-hardware-list) |                                                                                                 | 感谢: [CrazyPegAsus](https://github.com/CrazyPegAsus)      |
-| 黑苹果购买指南   | [链接](https://github.com/khronokernel/Anti-Hackintosh-Buyers-Guide)             |                                                                                                 | Hackintosh Buyers Guide                                    |
-| 黑苹果安装学院   | [链接](https://github.com/huangyz0918/Hackintosh-Installer-University)           | [链接](https://github.com/huangyz0918/Hackintosh-Installer-University/blob/master/README-CN.md) | 这个和本 repo 功能类似，既然作者开放了，我们也可以收录补充 |
-| 黑苹果互助项目   |                                                                                  |                                                                                                 | 和本 repo 类似                                             |
 
-## 其它机型请提交到[这里](https://github.com/daliansky/Hackintosh)
-
-## 无线网卡（WiFi）支持列表
+### 无线网卡（WiFi）支持列表
 
 各品牌无线网卡在 Hackintosh 下的驱动支持、功能特性及参考项目汇总。
 
-### 博通（Broadcom）
+#### 博通（Broadcom）
 
 | 芯片型号 | 驱动方式 | 隔空接力 | 备注 |
 | --- | --- | --- | --- |
@@ -1837,7 +1837,7 @@ NVIDIA GPU 通过 NullMoth / nvidia-macos-driver 驱动在 Hackintosh 上实现 
 
 > **提示**：博通 BCM94360Z4 是黑果首选，支持完整 iMessage / AirDrop / Handoff / AirPlay 功能。
 
-### Intel
+#### Intel
 
 | 芯片型号 | 驱动方式 | 隔空接力 | 备注 |
 | --- | --- | --- | --- |
@@ -1857,7 +1857,7 @@ NVIDIA GPU 通过 NullMoth / nvidia-macos-driver 驱动在 Hackintosh 上实现 
 | AX210 AirDrop 修复 | [kevineduardo](https://github.com/kevineduardo/ax210-airdrop-awdl-hackintosh) | AirDrop/AWDL + BlueTool |
 | Intel-AX210 指南 | [perez987](https://github.com/perez987/Intel-AX210-on-Sonoma-Sequoia-Tahoe) | AX210S PCIe 全版本 |
 
-### MediaTek
+#### MediaTek
 
 | 芯片型号 | 驱动方式 | 隔空接力 | 备注 |
 | --- | --- | --- | --- |
@@ -1865,7 +1865,7 @@ NVIDIA GPU 通过 NullMoth / nvidia-macos-driver 驱动在 Hackintosh 上实现 
 | MT7921 / MT7922 AWDL | [AirportMtk-AWDL](https://github.com/Arxusion/AirportMtk-AWDL) | ✅ | AirDrop / Continuity 支持 |
 | MT7925 | [WTLWireless](https://github.com/watchthelight-labs/WTLNvidiaGfx) | ⚠️ | Muxless 笔记本 |
 
-### Realtek
+#### Realtek
 
 | 芯片型号 | 驱动方式 | 隔空接力 | 备注 |
 | --- | --- | --- | --- |
@@ -1874,14 +1874,14 @@ NVIDIA GPU 通过 NullMoth / nvidia-macos-driver 驱动在 Hackintosh 上实现 
 | RTL88xx | [Airport_RTW88](https://github.com/xnoah222/Airport_RTW88) | ❌ | 原生 AirPort 驱动 |
 | RTL8188CU（D-Link DWA-121） | [Panther 驱动](https://github.com/invartam/driver-dwa121-macx-panther) | ❌ | 老款 USB 网卡 |
 
-### Atheros / Qualcomm
+#### Atheros / Qualcomm
 
 | 芯片型号 | 驱动方式 | 隔空接力 | 备注 |
 | --- | --- | --- | --- |
 | AR946x / AR5Bxx 系列 | [SimpleATH](https://github.com/albertovillaosorno/SimpleATH) | ❌ | PCIe，实验性 |
 | WCN7850 / FastConnect 7800 | [qwz-macos](https://github.com/f0xeri/qwz-macos) | ❌ | OpenBSD 移植 |
 
-### 其他
+#### 其他
 
 | 芯片/项目 | 链接 | 备注 |
 | --- | --- | --- |
@@ -1891,7 +1891,7 @@ NVIDIA GPU 通过 NullMoth / nvidia-macos-driver 驱动在 Hackintosh 上实现 
 | 隔空接力诊断工具 | [IAmLegionVaal](https://github.com/IAmLegionVaal/macOS-Bluetooth-AirDrop-and-Continuity-Troubleshooter) | 排障工具 |
 | AWDL 开关面板 | [Microburo](https://github.com/Microburo/awdl-toggle) | 控制 AirDrop 延迟 |
 
-### 选购建议
+#### 选购建议
 
 | 需求 | 推荐 |
 | --- | --- |
@@ -1901,6 +1901,15 @@ NVIDIA GPU 通过 NullMoth / nvidia-macos-driver 驱动在 Hackintosh 上实现 
 | USB 外置（临时） | **Realtek RTL8188E** / **RTL8188CU** |
 | 老笔记本 | **Intel 8265/8260**（AirportItlwm） |
 | 台式机无 M.2 插槽 | **BCM94360Z4 PCIe 卡** 或 **Intel AX210S PCIe 转接卡** |
+
+| 机型名称         | 发布地址                                                                         | 教程地址                                                                                        | 备注                                                       |
+| ---------------- | -------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- | ---------------------------------------------------------- |
+| **硬件兼容列表** | [链接](https://github.com/CrazyPegAsus/macOS-Mojave-Compatibility-hardware-list) |                                                                                                 | 感谢: [CrazyPegAsus](https://github.com/CrazyPegAsus)      |
+| 黑苹果购买指南   | [链接](https://github.com/khronokernel/Anti-Hackintosh-Buyers-Guide)             |                                                                                                 | Hackintosh Buyers Guide                                    |
+| 黑苹果安装学院   | [链接](https://github.com/huangyz0918/Hackintosh-Installer-University)           | [链接](https://github.com/huangyz0918/Hackintosh-Installer-University/blob/master/README-CN.md) | 这个和本 repo 功能类似，既然作者开放了，我们也可以收录补充 |
+| 黑苹果互助项目   |                                                                                  |                                                                                                 | 和本 repo 类似                                             |
+
+## 其它机型请提交到[这里](https://github.com/daliansky/Hackintosh)
 
 ## 感谢名单
 
