@@ -1116,6 +1116,65 @@
 | 123123123 | [链接](https://github.com/DonGamer9107/123123123) |  | OpenCore |
 | CELSIUS J5012 | [链接](https://github.com/ljzxzxl/fujitsu-celsius-j5012-efi) |  | OpenCore |
 
+### NVIDIA（NullMoth 驱动）
+
+NVIDIA GPU 通过 NullMoth / nvidia-macos-driver 驱动在 Hackintosh 上实现 Metal 加速。以下为基于该驱动的机型/项目汇总：
+
+#### NVIDIA 驱动 & 工具
+
+| 项目 | 链接 | 备注 |
+| --- | --- | --- |
+| NullMoth nvidia-macos-driver | [riyueGHB](https://github.com/riyueGHB/nvidia-macos-driver) [Abdelhameed123](https://github.com/Abdelhameed123/nvidia-macos-driver) | 主驱动仓库 |
+| nvmweb 备份 | [kir001684](https://github.com/kir001684-svg/nvmweb) | 驱动仓库 |
+| GPU Monitor | [moesuito](https://github.com/moesuito/gpu-monitor) | macOS 菜单栏 NVIDIA 监控 |
+| nvoffload | [anoshmisiosdev](https://github.com/anoshmisiosdev/nvoffload) | Muxless 笔记本离屏渲染 |
+| 3060 NVENC | [dixtdf](https://github.com/dixtdf/nvidia-macos-driver-3060-nvenc) | RTX 3060 H.264 NVENC 实验 |
+| GreenMetal | [Johncall20](https://github.com/Johncall20/GreenMetal) | Maxwell GTX 960 Metal 实验 |
+| OpenNVDA | [bdwithganesh](https://github.com/bdwithganesh/OpenNVDA) | RTX 4080 4K / Vulkan / NVDEC / Metal |
+| RTXmacOC | [milcorix](https://github.com/milcorix/RTXmacOC) | 全版本 NVIDIA RTX 支持 |
+| OpenCore+NullMoth CLI | [joseteo](https://github.com/joseteo/nvidia-macos-opencore) | Rust CLI 自动配置 |
+
+#### NVIDIA 机型（台式机）
+
+| 机型 | 链接 | 显卡 | 备注 |
+| --- | --- | --- | --- |
+| B550M + 5600X | [BirdRa1n](https://github.com/BirdRa1n/hackintosh-b550m-5600x-rtx5070) | RTX 5070 | macOS Tahoe, 锐利 HiDPI |
+| H610M + 14400F | [NZJ-Jimmy](https://github.com/NZJ-Jimmy/Hackintosh-MSI-H610M-S-WIFI-RTX5060) | RTX 5060 | macOS Sequoia, OpenCore |
+| 14600KF | [playGitboy](https://github.com/playGitboy/hackintosh-14600kf-rtx3060) | RTX 3060 | HiDPI / ALC897 / RTL8852BE |
+| B550 + 5600G | [artpetrow](https://github.com/artpetrow-cmyk/opencore-b550-5600g-rtx2070) | RTX 2070 | macOS Tahoe |
+| B760M + 12400F | [nanosan0](https://github.com/nanosan0/B760m-i5-12400f-AX201-RTX4060-Hackintosh-oc-efi) | RTX 4060 | OpenCore 1.0.8 |
+| i7-6700K | [tarekwasfy01](https://github.com/tarekwasfy01/Hackintosh-i7-6700k-RTX-2080-Super-Opencore-EFI) | RTX 2080 Super | OpenCore |
+| RTX 5060 Ti | [icliberen](https://github.com/icliberen/hackintosh-rtx_5060_ti-tahoe) | RTX 5060 Ti 16GB | Ryzen / Metal compute / 1440p 180Hz |
+| Arrow Lake 245K | [ydd1126](https://github.com/ydd1126/skybreak) | RTX 3070 | macOS Tahoe |
+| RTX 4090 | [gabrielmaialva33](https://github.com/gabrielmaialva33/Hackintosh-13900k-z790-ASUS-MAXIMUS-HERO) | RTX 4090 | i9-13900K / Z790 |
+| RTX A5000 | [datanonymus](https://github.com/datanonymus/Dell-Precision-7760-Hackintosh) | RTX A5000 | Dell Precision 7760 / i7-11850H |
+| ROG G16 + QEMU | [KangweiZhu](https://github.com/KangweiZhu/ROG-G16-2024-Hackintosh-QEMU-KVM) | RTX 4060 | QEMU/KVM + Metal / NullMoth |
+
+#### NVIDIA 机型（笔记本）
+
+| 机型 | 链接 | 显卡 | 备注 |
+| --- | --- | --- | --- |
+| Legion Y7000P IRX10 | [UNDERDOG07](https://github.com/UNDERDOG07/hackintosh-lenovo-legion-y7000p-irx10) | RTX 5060 | i9-14900HX / Sequoia |
+| Lenovo R7000P 2025 | [WuChen33417](https://github.com/WuChen33417/Lenovo-R7000P-2025-Hackintosh-EFI) | RTX 5060 | Ryzen 9 8940HX / Tahoe |
+| Y9000P IRX9 | [ndh0408](https://github.com/ndh0408/Hackintosh-Y9000P) | RTX 4060 | i9-14900HX / Sequoia |
+| Y540-17IRH | [JungyoKim](https://github.com/JungyoKim/Y540-17IRH-TAHOE) | GTX 1660 Ti | Tahoe / NullMoth 驱动构建 |
+| Legion Y7000P 2020H | [H-Dynamite](https://github.com/H-Dynamite/Y7000P-2020H-RTX2060-macOS-Sequoia) | RTX 2060 | 独显直连内屏教程 |
+| Razer Blade 18 | [jixx-choi](https://github.com/jixx-choi/Razer-Blade-18-2024-Hackintosh) | RTX 4080 | macOS Tahoe |
+| ROG GU603ZM | [pubglite55](https://github.com/pubglite55/ROG-GU603ZM-Hackintosh) | RTX 3060 | 幻16 / Sequoia |
+| OMEN 8f06 | [xiaoyizpast](https://github.com/xiaoyizpast/Hackintosh-OMEN-8f06) | RTX 5060 | Ryzen 9 9955HX / Tahoe |
+| MECHREVO GM5AR5E | [jiangshi27](https://github.com/jiangshi27-source/MECHREVO-JiguangE-SeriesGM5AR5E-macOS15-EFI) | RTX 4050 | i5-12450H / Sequoia |
+| Dell G15 5530 | [rodgod-rr](https://github.com/rodgod-rr/Dell-G15-5530-Hackintosh) | RTX 4050 | i5-13450HX / Tahoe |
+| HP Victus 15 fa2xxx | [utsabzz](https://github.com/utsabzz/HP-Victus-15-EFI-Sequoia) | RTX 4050 | Muxless / Sequoia |
+| HP Victus 15 fa0xxx | [TrDiTu](https://github.com/TrDiTu/Hackintosh-victus-15-fa0xxx-i7-12650H) | RTX 3050 Ti | i7-12650H / Tahoe |
+| ASUS TUF A14 | [LiamZhaofor](https://github.com/LiamZhaofor/asus-tuf-a14-fa401uu-hackintosh) | RTX 4050 | Ryzen 7 8845H / Sequoia |
+| Gigabyte Gaming A16 | [ductruongvu23](https://github.com/ductruongvu23/hackintosh-gigabyte-a16) | RTX 5050 | i7-13620H / Tahoe |
+| Acer AN515 | [CGR-MIX](https://github.com/CGR-MIX/AN515-macOS-Tahoe) | RTX | Tahoe |
+| MECHREVO 极光X | [YSKeLi](https://github.com/YSKeLi/MECHREVO-JIGUANG-Hackintosh-EFI) | RTX 5060 | i7-13700HX / 混合显卡 |
+| MECHREVO 蛟龙 | [gqm321](https://github.com/gqm321/macos15-rtx5070-jiaolong) | RTX 5070 | Ryzen 9 7845HX / MUX / QEMU+裸机 |
+| MSI GF63 Thin 9SCX | [nvsaim](https://github.com/nvsaim/mothbridge-630) | GTX | Muxless / UHD 630 |
+| OEMN15 1082TX | [Shadowjavis](https://github.com/Shadowjavis/OEMN15-1082TX_Hackintosh_EFI) | RTX 2070 | i5-9750H / 暗影精灵5 |
+| ROG Strix SCAR17 | [0xJunpeng](https://github.com/0xJunpeng/ROG-Strix-SCAR17-Hackintosh-EFI) | RTX 3060 | i9-12900H / Tahoe / Metal 4 |
+
 
 ### 笔记本更多的机型
 
