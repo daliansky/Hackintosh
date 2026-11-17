@@ -10,16 +10,24 @@
 <details>
 <summary>更新日志</summary>
 
-更新日期：2026年11月16日
+更新日期：2026年11月17日
 
-- 新增机型：
-  - Lenovo Yoga 9 15IMH5
-  - ASUS Pro WS C621-64L SAGE
-  - Clevo NH50RA
-- 新增 NVIDIA（NullMoth 驱动）机型汇总（台式机 11 + 笔记本 20）
-- 新增无线网卡（WiFi）支持列表（博通 / Intel / MediaTek / Realtek / Atheros）
-- archey 修复：多 NVMe 盘显示、磁盘空间统计、扩展显示器隐藏
-- BCM94360Z4 修复：移除 SMBIOS 三码信息、Apple Silicon 隐藏引导参数
+- 新增机型（NVIDIA 笔记本）：
+  - ASUS TUF FA607PI (Ryzen 9 7940HX + RTX 4070)
+  - Legion Pro5 16IRX9 (RTX 5060)
+  - GTX 1650 + AMD Renoir
+  - RTX 2070 Super (NullMoth 适配)
+- 新增机型（Intel 核显）：
+  - ASUS Vivobook X513EP / Dell XPS 13 Plus / Dell XPS 17 / Dell OptiPlex Micro
+  - ThinkPad T15 Gen2 / Dynabook G83 / HP EliteBook 830 G8
+  - Alder Lake-H MoDT / ThinkBook 14 G5+ IRH
+- 新增机型（AMD Radeon）：
+  - Lenovo m75q Gen3 / B850M + 9600X / MECHREVO 无界15XA / 无界14X Pro / 同方 7840HS
+- 新增驱动 & 工具：
+  - NVIDIA optC CI / NullMoth Audio
+- 扩展 AMD Radeon 驱动列表至全系支持
+- 修正标题：AMD 780M → AMD Radeon
+- 修正目录锚点
 
 完整的更新日志：[更新日志](./Changelog.md)
 

@@ -1,4 +1,27 @@
 ## 更新日志：
+- 2026年 11月 17日
+   - 新增机型（NVIDIA 笔记本）：
+     - ASUS TUF FA607PI (Ryzen 9 7940HX + RTX 4070)
+     - Legion Pro5 16IRX9 (RTX 5060)
+     - GTX 1650 + AMD Renoir (Turing TU117)
+     - RTX 2070 Super (NullMoth 驱动适配)
+   - 新增机型（Intel 核显）：
+     - ASUS Vivobook X513EP (i7-1165G7)
+     - Dell XPS 13 Plus 9320 (i7-1360P Raptor Lake)
+     - Dell XPS 17 9720 (i9-12900HK Alder Lake)
+     - Dell OptiPlex Micro (i7-12700T UHD 770)
+     - ThinkPad T15 Gen2 (Tiger Lake)
+     - Dynabook G83 (PORTEGE X30L-J)
+     - HP EliteBook 830 G8 (11th Gen)
+     - Alder Lake-H MoDT (i7-13500H)
+     - ThinkBook 14 G5+ IRH (i5-13500H)
+   - 新增 AMD Radeon 参考机型：
+     - Lenovo m75q Gen3 (Ryzen 7 5700G + Pro WX4100)
+     - B850M + Ryzen 5 9600X + RX 570 / 5500 XT
+     - MECHREVO 无界15XA / 无界14X Pro / 同方 7840HS (Ryzen 780M)
+   - 新增驱动 & 工具：
+     - NVIDIA optC CI (NullMoth v3.0)
+     - NullMoth Audio
 - 2026年 11月 16日
    - 新增机型：
      - Lenovo Yoga 9 15IMH5
