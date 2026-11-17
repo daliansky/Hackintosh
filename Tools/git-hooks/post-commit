@@ -1,0 +1,44 @@
+#!/bin/sh
+# post-commit: README.md 有变化时，自动同步到 Hexo 博客并发布
+#
+# 安装: cp Tools/git-hooks/post-commit .git/hooks/post-commit && chmod +x .git/hooks/post-commit
+# 跳过: SYNC_BLOG=0 git commit ...   或   git commit --no-verify（仅跳过 pre-hook 类型）
+# 只同步不发布: SYNC_BLOG_DEPLOY=0 git commit ...
+
+REPO_ROOT=$(git rev-parse --show-toplevel)
+SYNC_SCRIPT="$REPO_ROOT/Tools/sync_to_blog.py"
+
+# 检查本次提交是否改动了 README.md
+if ! git diff-tree --no-commit-id --name-only -r HEAD | grep -qx 'README.md'; then
+    exit 0
+fi
+
+# 允许显式关闭
+if [ "$SYNC_BLOG" = "0" ]; then
+    echo "[post-commit] SYNC_BLOG=0，跳过博客同步"
+    exit 0
+fi
+
+if [ ! -f "$SYNC_SCRIPT" ]; then
+    echo "[post-commit] 未找到 $SYNC_SCRIPT，跳过"
+    exit 0
+fi
+
+echo ""
+echo "=========================================="
+echo "[post-commit] 检测到 README.md 变更，开始同步博客"
+echo "=========================================="
+
+if [ "$SYNC_BLOG_DEPLOY" = "0" ]; then
+    python3 "$SYNC_SCRIPT" --no-deploy
+else
+    python3 "$SYNC_SCRIPT"
+fi
+
+STATUS=$?
+if [ $STATUS -ne 0 ]; then
+    echo "[post-commit] ⚠ 博客同步失败 (exit=$STATUS)，但提交已完成"
+fi
+
+# hook 永远返回 0，避免影响提交流程
+exit 0

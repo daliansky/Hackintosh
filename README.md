@@ -1901,12 +1901,6 @@ Intel 第 14 代（Meteor Lake）及第 200 系列（Arrow Lake）Core Ultra 处
 | X399 + 2920X | [luchina-gabriel](https://github.com/luchina-gabriel/EFI-GIGABYTE-X399-DESIGNARE-EX-THREADRIPPER-2920X-RX-5700-XT-BCM94360CD-AIRDROP-20261006-PUBLIC) | Threadripper 2920X | RX 5700 XT | X399 / AirDrop |
 | m75q Gen3 | [BensonJia](https://github.com/BensonJia/Hackintosh_m75q_gen3_perfect) | Ryzen 7 5700G | Pro WX4100 | Lenovo 迷你主机 |
 | ThinkPad AMD | [ThinkDifferentInc](https://github.com/ThinkDifferentInc/ThinkPad-AMD) | Ryzen 全系 | 核显 | Tahoe 预烘焙 EFI |
-| Lenovo m75q Gen3 | [BensonJia](https://github.com/BensonJia/Hackintosh_m75q_gen3_perfect) | Ryzen 7 5700G | Pro WX4100 | OpenCore 完整 |
-| B850M + 9600X | [icliberen](https://github.com/icliberen/hackintosh-opencore-sequoia-tahoe-msi_b850m_g-ryzen5_9600x-rx570-rx5500xt) | Ryzen 5 9600X | RX 570 / 5500 XT | Sequoia / Tahoe |
-| 机械无界14 7840HS | [bbbbrt](https://github.com/bbbbrt/mechrevo-wujie14pro-7840hs-780m-hackintosh-efi) | Ryzen 7 7840HS | 780M | EFI |
-| MECHREVO 无界15XA | [QiRanChenk](https://github.com/QiRanChenk/MECHREVO-WUJIE15XA-8745HS-Hackintosh) | Ryzen 7 8745HS | 780M | Tahoe |
-| MECHREVO 无界14X Pro | [gg723](https://github.com/gg723/Wujie-14X-Pro-Hackintosh) | Ryzen 7 H255 | 780M | Tahoe |
-| 同方 7840HS | [kevin8717](https://github.com/kevin8717/TongFang-7840HS-Hackintosh) | Ryzen 7 7840HS | 780M | macOS 26 |
 
 
 ### NVIDIA（NullMoth 驱动）
