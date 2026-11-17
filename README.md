@@ -1187,6 +1187,10 @@
 | MSI GF63 Thin 9SCX | [nvsaim](https://github.com/nvsaim/mothbridge-630) | GTX | Muxless / UHD 630 |
 | OEMN15 1082TX | [Shadowjavis](https://github.com/Shadowjavis/OEMN15-1082TX_Hackintosh_EFI) | RTX 2070 | i5-9750H / 暗影精灵5 |
 | ROG Strix SCAR17 | [0xJunpeng](https://github.com/0xJunpeng/ROG-Strix-SCAR17-Hackintosh-EFI) | RTX 3060 | i9-12900H / Tahoe / Metal 4 |
+| ASUS TUF FA607PI | [Souitou-iop](https://github.com/Souitou-iop/Hackintosh-FA607PI-Driver) | RTX 4070 | Ryzen 9 7940HX / Tahoe |
+| Legion Pro5 16IRX9 | [Ammarrrrrrr](https://github.com/Ammarrrrrrr/legion-pro5-hackintosh) | RTX 5060 | Sequoia / NullMoth |
+| GTX 1650 | [buidi2004](https://github.com/buidi2004/gtx1650-nullmoth-macos) | GTX 1650 | Turing TU117 / AMD Renoir / Sequoia |
+| RTX 2070 Super | [soumarcelino](https://github.com/soumarcelino/nvidia-macos-driver-RTX-2070-SUPER) | RTX 2070 Super | NullMoth 驱动适配 |
 
 
 ### 笔记本更多的机型
@@ -1836,6 +1840,15 @@ Hackintosh 下 Intel 第 11-14 代（及之后）核显和 AMD RDNA3 iGPU 的驱
 | Lenovo ThinkBook 14+ 2022 | [yangchengwu-1](https://github.com/yangchengwu-1/thinkbook-14p-2022-hackintosh) | i5-12500H | macOS 26 + WhateverXe |
 | Lenovo 小新 Air14 IRP8 | [Wtrwx](https://github.com/Wtrwx/Lenovo-Air14-IRP8-Hackintosh) | 实验性 | WhateverXe 源码 |
 | ASUS VivoBook X421EA | [khoanguyen1808](https://github.com/khoanguyen1808/ASUS-VivoBook-X421EA-Hackintosh) | Iris Xe 1536MB | Sequoia / QE/CI |
+| ASUS Vivobook X513EP | [Soumyo78](https://github.com/Soumyo78/macOS-Tahoe-Asus-Vivobook-X513EP) | i7-1165G7 / Iris Xe | Tahoe / OpenCore |
+| Dell XPS 13 Plus 9320 (Raptor) | [jkbuha](https://github.com/jkbuha/XPS-9320-RaptorLake-OpenCore) | i7-1360P / Iris Xe | Tahoe / WhateverXe |
+| Dell XPS 17 9720 | [jkbuha](https://github.com/jkbuha/XPS-9720-AlderLake-OpenCore) | i9-12900HK / Iris Xe | Tahoe / eGPU |
+| Dell OptiPlex Micro 12700T | [palermostest25](https://github.com/palermostest25/dell-optiplex-micro-12700t-hackintosh) | i7-12700T / UHD 770 | Tahoe / WhateverXe |
+| Lenovo ThinkPad T15 Gen2 | [manojbarot1](https://github.com/manojbarot1/lenovo-T15-Gen2-hackintosh) | Tiger Lake / Iris Xe | Ventura / WhateverXe |
+| Dynabook G83 | [Kansamu216](https://github.com/Kansamu216/dynabook-g83-macos-tahoe) | PORTEGE X30L-J / Iris Xe | Tahoe / WhateverXe |
+| HP EliteBook 830 G8 | [abdulrahman-software](https://github.com/abdulrahman-software/HP-Elitebook-G8-830-11th-gen-EFI) | 11th Gen / Iris Xe | Big Sur / WhateverXe |
+| Alder Lake-H MoDT | [yuanyiHY](https://github.com/yuanyiHY/opencore-alder-lake-h-modt) | i7-13500H / Iris Xe | Tahoe / OpenCore |
+| ThinkBook 14 G5+ IRH | [mengguizzz](https://github.com/mengguizzz/ThinkBook14-G5-IRH-Hackintosh-Tahoe) | i5-13500H / Iris Xe | Tahoe / WhateverXe |
 
 #### AMD Radeon（全系支持）
 
@@ -1872,6 +1885,12 @@ Hackintosh 下 Intel 第 11-14 代（及之后）核显和 AMD RDNA3 iGPU 的驱
 | X399 + 2920X | [luchina-gabriel](https://github.com/luchina-gabriel/EFI-GIGABYTE-X399-DESIGNARE-EX-THREADRIPPER-2920X-RX-5700-XT-BCM94360CD-AIRDROP-20261006-PUBLIC) | Threadripper 2920X | RX 5700 XT | X399 / AirDrop |
 | m75q Gen3 | [BensonJia](https://github.com/BensonJia/Hackintosh_m75q_gen3_perfect) | Ryzen 7 5700G | Pro WX4100 | Lenovo 迷你主机 |
 | ThinkPad AMD | [ThinkDifferentInc](https://github.com/ThinkDifferentInc/ThinkPad-AMD) | Ryzen 全系 | 核显 | Tahoe 预烘焙 EFI |
+| Lenovo m75q Gen3 | [BensonJia](https://github.com/BensonJia/Hackintosh_m75q_gen3_perfect) | Ryzen 7 5700G | Pro WX4100 | OpenCore 完整 |
+| B850M + 9600X | [icliberen](https://github.com/icliberen/hackintosh-opencore-sequoia-tahoe-msi_b850m_g-ryzen5_9600x-rx570-rx5500xt) | Ryzen 5 9600X | RX 570 / 5500 XT | Sequoia / Tahoe |
+| 机械无界14 7840HS | [bbbbrt](https://github.com/bbbbrt/mechrevo-wujie14pro-7840hs-780m-hackintosh-efi) | Ryzen 7 7840HS | 780M | EFI |
+| MECHREVO 无界15XA | [QiRanChenk](https://github.com/QiRanChenk/MECHREVO-WUJIE15XA-8745HS-Hackintosh) | Ryzen 7 8745HS | 780M | Tahoe |
+| MECHREVO 无界14X Pro | [gg723](https://github.com/gg723/Wujie-14X-Pro-Hackintosh) | Ryzen 7 H255 | 780M | Tahoe |
+| 同方 7840HS | [kevin8717](https://github.com/kevin8717/TongFang-7840HS-Hackintosh) | Ryzen 7 7840HS | 780M | macOS 26 |
 
 
 ### NVIDIA（NullMoth 驱动）
@@ -1883,6 +1902,8 @@ NVIDIA GPU 通过 NullMoth / nvidia-macos-driver 驱动在 Hackintosh 上实现 
 | 项目 | 链接 | 备注 |
 | --- | --- | --- |
 | NullMoth nvidia-macos-driver | [riyueGHB](https://github.com/riyueGHB/nvidia-macos-driver) [Abdelhameed123](https://github.com/Abdelhameed123/nvidia-macos-driver) | 主驱动仓库 |
+| optC CI | [nvdorman](https://github.com/nvdorman/nvidia-macos-optc-ci) | NullMoth v3.0 混合 kext 构建 CI |
+| NullMoth Audio | [emirercan3459](https://github.com/emirercan3459/nullmoth-nvidia-audio) | NVIDIA 音频支持 |
 | nvmweb 备份 | [kir001684](https://github.com/kir001684-svg/nvmweb) | 驱动仓库 |
 | GPU Monitor | [moesuito](https://github.com/moesuito/gpu-monitor) | macOS 菜单栏 NVIDIA 监控 |
 | nvoffload | [anoshmisiosdev](https://github.com/anoshmisiosdev/nvoffload) | Muxless 笔记本离屏渲染 |
