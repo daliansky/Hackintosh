@@ -69,9 +69,9 @@
   - [NVIDIA 机型（台式机）](#nvidia-机型台式机)
   - [台式机其它机型](#台式机其它机型)
 - [硬件兼容列表](#硬件兼容列表)
-  - [Intel 11-14 代核显 & AMD Radeon 驱动支持](#intel-11-14-代核显--amd-radeon-驱动支持)
+  - [Intel 11-14 代核显 \& AMD Radeon 驱动支持](#intel-11-14-代核显--amd-radeon-驱动支持)
     - [Intel Iris Xe / UHD 770（11th-14th Gen）](#intel-iris-xe--uhd-77011th-14th-gen)
-    - [AMD Radeon 780M / RDNA3 iGPU](#amd-radeon-780m--rdna3-igpu)
+    - [AMD Radeon（全系支持）](#amd-radeon全系支持)
   - [NVIDIA（NullMoth 驱动）](#nvidianullmoth-驱动)
     - [NVIDIA 驱动 \& 工具](#nvidia-驱动--工具)
   - [无线网卡（WiFi）支持列表](#无线网卡wifi支持列表)
@@ -90,21 +90,6 @@
 - [微信扫一扫，订阅/直达【黑果小兵的部落阁】](#微信扫一扫订阅直达黑果小兵的部落阁)
 - [关于打赏](#关于打赏)
 - [项目 Star 数增长趋势](#项目-star-数增长趋势)
-
-台式机
-- [AMD Ryzen](#amd-ryzen)
-- [ASRock 华擎](#asrock-华擎)
-- [ASUS 华硕](#asus-华硕-1)
-- [Dell 戴尔](#dell-戴尔-1)
-- [Gigabyte 技嘉](#gigabyte-技嘉-1)
-- [HP 惠普](#hp-惠普-1)
-- [Intel 英特尔](#intel-英特尔-1)
-- [Lenovo 联想](#lenovo-联想-1)
-- [minisforum 铭凡](#minisforum-铭凡)
-- [MSI 微星](#msi-微星-1)
-- [Mini 迷你系列](#mini-迷你系列)
-- [台式机其它机型](#台式机其它机型)
-- [硬件兼容列表](#硬件兼容列表)
 
 ## 笔记本部分机型
 
