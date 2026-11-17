@@ -1,4 +1,34 @@
 ## 更新日志：
+- 2026年 11月 18日
+   - 新增驱动：
+     - AMD: RedNavi (RX 7800 XT / RDNA3)、RX 9060 XT (Navi 44)、Tahiti VCE H.264 编码
+     - NVIDIA: RTXDarwin (RTX 3060 研究)、NVDAAL Driver (RTX 40 系计算)
+     - WiFi: RTL8814Native (RTL8814AU + AWDL)、ForbiddenItlwm、AX200 蓝牙修复
+   - 新增 AMD Radeon 机型：
+     - MSI Bravo 15 B7ED (Ryzen 5 7535HS + 660M)
+     - MSI Bravo 15 C7VFKP (Ryzen 7 7735HS)
+     - WOOKING X15 (8745HS + 780M)、MECHREVO 无界14XA (H255 + 780M)
+     - Beelink SER 5800H、AMD Athlon PRO 300U 迷你主机
+   - 新增 Intel 核显机型：
+     - Samsung Galaxy Book3 Ultra (OLED 120Hz)、X-STATION V2
+     - Monster Abra A5 V19.2、dynabook G83/HS、ASUS VivoBook X415JA
+     - ASUS ROG Strix SCAR 18 G835LXG、ASUS TUF F16 FX607JVB
+     - ThinkBook 14+ 2024 (Meteor Lake)
+   - 新增 NVIDIA 机型：
+     - ASUS ROG Strix FX607VJ (RTX 3050)、Legion Y7000P IRX10 详版 + 触控板方案
+     - Ryzen + RTX 通用 EFI、Dell G15 风扇控制工具
+   - 新增笔记本机型：
+     - ThinkPad T490 (OC 版)、T14 G2、X1 Carbon 6th Gen (OC 1.0.2)
+     - HUAWEI MateBook D15 2020 / D16、Lenovo Legion R7000 2020
+     - Lenovo IdeaPad Flex 5 14ITL05、Yoga 920 (80Y7)
+     - Acer Nitro 5 AN515-46、HP 15s-dy0xxx
+     - Dell Latitude 5300 / 7400 2-in-1 / Inspiron 15 3511 / PowerEdge T40
+   - 新增台式机/迷你机型：
+     - Gigabyte Z390 Designare (i9-9900K + RX 580)
+     - MSI B760M BOMBER DDR4 (i5-13400F + RX 6650 XT)
+     - Intel NUC8 Bean Canyon、Lenovo ThinkCentre M720q Tiny / ThinkStation P320 Tiny
+     - Alienware x14 R1、GPD P2 Max 2019
+
 - 2026年 11月 17日
    - 新增机型（NVIDIA 笔记本）：
      - ASUS TUF FA607PI (Ryzen 9 7940HX + RTX 4070)
