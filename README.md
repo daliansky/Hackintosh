@@ -79,6 +79,7 @@
 - [硬件兼容列表](#硬件兼容列表)
   - [Intel 11-14 代核显 \& AMD Radeon 驱动支持](#intel-11-14-代核显--amd-radeon-驱动支持)
     - [Intel Iris Xe / UHD 770（11th-14th Gen）](#intel-iris-xe--uhd-77011th-14th-gen)
+    - [Intel Core Ultra 核显（Meteor Lake / Arrow Lake）](#intel-core-ultra-核显meteor-lake--arrow-lake)
     - [AMD Radeon（全系支持）](#amd-radeon全系支持)
   - [NVIDIA（NullMoth 驱动）](#nvidianullmoth-驱动)
     - [NVIDIA 驱动 \& 工具](#nvidia-驱动--工具)
