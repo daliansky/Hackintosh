@@ -1843,6 +1843,28 @@ Hackintosh 下 Intel 第 11-14 代（及之后）核显和 AMD RDNA3 iGPU 的驱
 | Alder Lake-H MoDT | [yuanyiHY](https://github.com/yuanyiHY/opencore-alder-lake-h-modt) | i7-13500H / Iris Xe | Tahoe / OpenCore |
 | ThinkBook 14 G5+ IRH | [mengguizzz](https://github.com/mengguizzz/ThinkBook14-G5-IRH-Hackintosh-Tahoe) | i5-13500H / Iris Xe | Tahoe / WhateverXe |
 
+#### Intel Core Ultra 核显（Meteor Lake / Arrow Lake）
+
+Intel 第 14 代（Meteor Lake）及第 200 系列（Arrow Lake）Core Ultra 处理器核显（Xe-LPG / Xe2）的驱动方案：
+
+| 驱动 | 链接 | 支持芯片 | 备注 |
+| --- | --- | --- | --- |
+| WTLIntelGfx | [watchthelight-labs](https://github.com/watchthelight-labs/WTLIntelGfx) ★66 | Meteor Lake / Arrow Lake / Core Ultra | Metal + Vulkan，基于 Linux i915 移植 |
+| XEGFX-MIGRATE | [change-48](https://github.com/change-48/XEGFX-MIGRATE) | Xe-LPG (Arrow Lake) | macOS 26 桌面合成 / Vulkan |
+| ArrowWhatever | [Mountainatic](https://github.com/Mountainatic/ArrowWhatever) | Core Ultra 9 275HX | 实验性，XeGfx + XeMTL + Mesa ANV |
+| ArcMTL | [longurara](https://github.com/longurara/ArcMTL) | Intel Arc / Meteor Lake / Xe-LPG | Metal 3 + Vulkan 1.3 |
+| Meteor Lake Xe-LPG | [VedCloud](https://github.com/VedCloud/Meteor-Lake-Xe-LPG-Metal-Graphics) | Meteor Lake Xe-LPG | Metal / Vulkan 翻译层 |
+| CoreUltraGraphics | [VedCloud2](https://github.com/VedCloud2/CoreUltraGraphics) | Core Ultra (Xe-LPG) | IOKit kext 基础驱动 |
+| Latitude 5450 MTL | [zeyadhost](https://github.com/zeyadhost/latitude-5450-meteor-lake-macos) | Meteor Lake | macOS Metal 驱动 |
+
+**参考机型：**
+
+| 机型 | 链接 | CPU | GPU | 备注 |
+| --- | --- | --- | --- | --- |
+| ThinkBook 14+ 2024 | [samwu07](https://github.com/samwu07/xegfx-thinkbook14plus-mtl) | Meteor Lake 7D55 | Xe-LPG | XeGfx 桌面合成 |
+| Arrow Lake 245K | [ydd1126](https://github.com/ydd1126/skybreak) | Core Ultra 245K | Xe2 + RTX 3070 | macOS Tahoe |
+| Z890 AERO G + 285K | [luchina-gabriel](https://github.com/luchina-gabriel/EFI-GIGABYTE-Z890-AERO-G-CORE-ULTRA-9-285K-2x-RX6600-DUAL-GPU-PUBLIC) | Core Ultra 9 285K | Xe2 + 双 RX 6600 | 双 GPU |
+
 #### AMD Radeon（全系支持）
 
 | 驱动 | 链接 | 支持芯片 | 备注 |
