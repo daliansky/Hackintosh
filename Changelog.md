@@ -1,4 +1,12 @@
 ## 更新日志：
+- 2026年 11月 18日（补充）
+   - 新增驱动：Intel Arc 独立显卡 Metal 驱动
+     - yusufklncc/intel-gpu-macos-driver：Arc B580 实测 / B570 (0.1.4) / Pro B60/B50 (下一版) / Pro B70 (boot-arg)
+     - Linux xe 风格内核驱动 (IntelXe.kext) + IntelXeFB + Mesa ANV + Metal-on-Vulkan (基于 nullmoth) + VideoToolbox
+     - macOS 26 Tahoe x86_64，OpenCore + Above 4G Decoding + Resizable BAR，单 DisplayPort
+     - Geekbench 7：Metal 95.7k / OpenCL 85.5k；H.264/HEVC/AV1/VP9 解码 + 编码
+     - 实验性：需放宽 SIP/AMFI，仅 B580 实机验证
+
 - 2026年 11月 18日
    - 新增驱动：
      - AMD: RedNavi (RX 7800 XT / RDNA3)、RX 9060 XT (Navi 44)、Tahiti VCE H.264 编码

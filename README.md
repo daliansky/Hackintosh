@@ -12,6 +12,7 @@
 
 更新日期：2026年11月18日
 
+- **新增 Intel Arc 独立显卡 Metal 驱动**：Arc B580 实测 / B570 / Pro B60/B50（Linux xe + Mesa ANV + Metal-on-Vulkan，需放宽 SIP/AMFI）
 - 新增驱动：AMD RedNavi (RX 7800 XT) / RX 9060 XT / Tahiti VCE、NVIDIA RTXDarwin / NVDAAL、WiFi RTL8814AU + AWDL
 - 新增机型（AMD Radeon）：MSI Bravo 15 B7ED (660M) / C7VFKP、WOOKING X15、MECHREVO 无界14XA、Beelink SER 5800H
 - 新增机型（Intel 核显）：Galaxy Book3 Ultra、X-STATION V2、Monster Abra A5、dynabook G83/HS、ASUS X415JA、ROG SCAR 18、TUF F16
@@ -88,6 +89,7 @@
   - [Intel 11-14 代核显 \& AMD Radeon 驱动支持](#intel-11-14-代核显--amd-radeon-驱动支持)
     - [Intel Iris Xe / UHD 770（11th-14th Gen）](#intel-iris-xe--uhd-77011th-14th-gen)
     - [Intel Core Ultra 核显（Meteor Lake / Arrow Lake）](#intel-core-ultra-核显meteor-lake--arrow-lake)
+    - [Intel Arc 独立显卡（Xe2 / Battlemage）](#intel-arc-独立显卡xe2--battlemage)
     - [AMD Radeon（全系支持）](#amd-radeon全系支持)
   - [NVIDIA（NullMoth 驱动）](#nvidianullmoth-驱动)
     - [NVIDIA 驱动 \& 工具](#nvidia-驱动--工具)
@@ -1903,6 +1905,68 @@ Intel 第 14 代（Meteor Lake）及第 200 系列（Arrow Lake）Core Ultra 处
 | ThinkBook 14+ 2024 | [samwu07](https://github.com/samwu07/xegfx-thinkbook14plus-mtl) | Meteor Lake 7D55 | Xe-LPG | XeGfx 桌面合成 |
 | Arrow Lake 245K | [ydd1126](https://github.com/ydd1126/skybreak) | Core Ultra 245K | Xe2 + RTX 3070 | macOS Tahoe |
 | Z890 AERO G + 285K | [luchina-gabriel](https://github.com/luchina-gabriel/EFI-GIGABYTE-Z890-AERO-G-CORE-ULTRA-9-285K-2x-RX6600-DUAL-GPU-PUBLIC) | Core Ultra 9 285K | Xe2 + 双 RX 6600 | 双 GPU |
+
+#### Intel Arc 独立显卡（Xe2 / Battlemage）
+
+Intel Arc 独立显卡（DG2/Battlemage）在 macOS 下的 Metal 驱动方案。该驱动基于 nullmoth 的 Metal 插件栈改造，复用 Mesa ANV（Vulkan）作为底层。
+
+| 项目 | 链接 | 支持显卡 | 备注 |
+| --- | --- | --- | --- |
+| intel-gpu-macos-driver | [yusufklncc](https://github.com/yusufklncc/intel-gpu-macos-driver) ★11 | **Arc B580**（8086:E20B）实测 / **B570**（E20C）0.1.4 起<br />Pro B60（E211）/ Pro B50（E212）下一版本<br />Pro B70（E223）需 boot-arg `-intelxe_allow_g31` | Linux `xe` 风格内核驱动 + Mesa ANV + Metal-on-Vulkan + VideoToolbox |
+
+**技术栈：**
+
+```
+Metal / WindowServer / OpenGL / OpenCL
+        │  NVMTLDriver.bundle（nullmoth Metal 插件，AIR→SPIR-V）
+        │  Mesa ANV (libvulkan_intel.dylib) — Vulkan + Vulkan Video
+        │  NMXAccel.kext / NMXAGDC.kext（IOAccelerator / 显示管道）
+        │  IntelXeFB.kext（IOFramebuffer：模式 / EDID / VRR / 翻页）
+        ▼  IntelXe.kext（GuC/HuC、GGTT/PPGTT、VRAM、引擎、xe uAPI）
+   Intel Arc GPU（BMG-G21）
+```
+
+**支持范围与实测数据：**
+
+| 项目 | 状态 |
+| --- | --- |
+| macOS | 26 Tahoe（26.7.1 实测）· 15 Sequoia（同源构建，未复测）· 仅 x86_64 |
+| 硬件要求 | OpenCore + Above 4G Decoding + Resizable BAR；单台 DisplayPort 显示器 |
+| 实测平台 | Z790 + i7-14700K |
+| 桌面 | GPU 合成、165fps 窗口拖动 / 180Hz、VRR、HiDPI、硬件光标、睡眠唤醒 |
+| Geekbench 7 | Metal **95.7k** · OpenCL **85.5k**（约为 Windows Vulkan/OpenCL 的 86% / 79%） |
+| Metal 3 | 应用 / Chrome / 游戏；含光线追踪（`intel-rt`）；着色器磁盘缓存 |
+| OpenGL / OpenCL | 经 Apple GL-over-Metal、OpenCL-over-Metal；可选 Zink 原生 GL |
+| Vulkan | Mesa ANV，可选 `-vulkan.zip` 供 Wine DXVK / vkd3d-proton 使用 |
+| 视频 | H.264 / HEVC / AV1 / VP9 解码（4K 位精确且快于 Windows）；H.264 / HEVC / AV1 编码 |
+| 混合 CPU | 12-14 代 / Arrow Lake 可选 `HybridPM.kext`（Lilu 插件）恢复 P 核满频 |
+
+**安装要点：**
+
+1. 先用普通 OpenCore EFI 装好 macOS（安装器走显卡固件输出，无需核显）
+2. `config.plist` 调整：放宽 SIP、AMFI boot-arg、两个 quirk、`ReconnectGraphicsOnConnect = false`
+3. 安装 **IntelXe Manager** 应用（下载对应版本并安装 / 校验签名 / 可回滚）
+4. EFI 内加入 `IntelXe.kext` 与显卡 ACPI 路径表，重启后显示器接显卡
+
+> ⚠️ **实验性**：需放宽系统安全（SIP/AMFI、未签名 kext），构建失败可能导致无法开机。请先准备可启动的 OpenCore U 盘，安装前可用 `./install.sh --undo` 回退。目前仅 B580 经实机验证，仅支持单 DisplayPort 显示器。
+
+**已知限制：**
+
+- macOS 无法映射大于 1GB 的 BAR，12GB 显存中仅 1GB 对 CPU 可见
+- 第二台显示器暂不支持
+- 未拷贝到系统卷时，Safari 走软件渲染路径（部分 CSS 滤镜元素不显示）
+- 安装后首次登录需重新编译着色器，前几秒略卡
+- GuC 低延迟提示默认关闭（开启后偶发 `MEMORY_CAT_ERROR`）
+- 首会话即为 VideoToolbox 编码的命令行工具（ffmpeg）看不到编码器
+
+**相关项目：**
+
+| 项目 | 链接 | 备注 |
+| --- | --- | --- |
+| nullmoth | [nullmoth](https://github.com/nullmoth/nvidia-macos-driver) | Metal 插件 / AIR→SPIR-V 翻译器 / 加速 kext 来源 |
+| metal2vulkan | [steelbrain](https://github.com/steelbrain/metal2vulkan) | 翻译器原型 |
+| Mesa ANV | [mesa3d.org](https://mesa3d.org) | Vulkan 驱动 |
+| ArcMTL | [longurara](https://github.com/longurara/ArcMTL) | 另一路 Arc / Xe-LPG 尝试 |
 
 #### AMD Radeon（全系支持）
 
