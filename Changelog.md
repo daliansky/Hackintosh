@@ -1,4 +1,26 @@
 ## 更新日志：
+- 2026年 11月 19日
+   - 新增驱动 / 工具：
+     - WiFi-Intel: AirportItlwm (Continuity 版)、IntelBTUnified、BroadcomVTD-Tahoe、FeatureUnlock-Tahoe
+     - WiFi-MediaTek: YYavicWiFi (MT7922/RZ616 WiFi 6)、MT7921-Bluetooth-Tahoe、WTLLegionBtFix
+     - WiFi-Realtek: AirPort-RTW (原生 IO80211)
+     - WiFi-Qualcomm: WCN7850-macOS (WiFi + BT + AirDrop)
+     - Intel 核显: WhateverGreen-IceLake-HDMIB (Ice Lake HDMI)、WTLLegionCpuPower (Arrow Lake 频率/功耗)
+     - 其他: hack-touchid (Touch-ID 支持)
+   - 新增笔记本机型：
+     - Acer Predator Triton 500 (PT515-51)
+     - Asus VivoBook K15 OLED (K513EA)
+     - HP ZBook Power G10、HP ENVY x360 13-bf0xxx、HP EliteBook 830 G7 (Tahoe)
+     - ThinkPad E16 Gen 3 (Core 7 240H + NootedGreen)
+     - Samsung Book 11th (i3-1115G4)
+     - 雷神猎刃 R15 (i7-13650HX + RTX 4060)
+   - 补充链接：
+     - Dell Latitude 7210 (+Sonoma/Sequoia 版本)
+     - Dell Precision 5510 (+Tahoe 版本)
+     - ASUS PRIME Z590-P (+i5-11600K + RX 5700 XT 版本)
+   - 新增台式机机型：
+     - MAXSUN Terminator B760M Gaming
+
 - 2026年 11月 18日（补充）
    - 新增驱动：Intel Arc 独立显卡 Metal 驱动
      - yusufklncc/intel-gpu-macos-driver：Arc B580 实测 / B570 (0.1.4) / Pro B60/B50 (下一版) / Pro B70 (boot-arg)

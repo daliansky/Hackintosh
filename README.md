@@ -10,7 +10,13 @@
 <details>
 <summary>更新日志</summary>
 
-更新日期：2026年11月18日
+更新日期：2026年11月19日
+
+- 新增 WiFi 驱动：AirportItlwm (Continuity) / IntelBTUnified / YYavicWiFi (MT7922) / AirPort-RTW / WCN7850-macOS
+- 新增驱动：WhateverGreen-IceLake-HDMIB、WTLLegionCpuPower (Arrow Lake)、WTLLegionBtFix、hack-touchid
+- 新增机型：Acer Predator Triton 500、ASUS VivoBook K15 OLED、HP ZBook Power G10 / ENVY x360 13-bf / EliteBook 830 G7、ThinkPad E16 Gen 3、Samsung Book 11th、雷神猎刃 R15、MAXSUN Terminator B760M
+- 补充链接：Dell Latitude 7210 / Precision 5510、ASUS PRIME Z590-P
+- 以下为 11月18日 更新
 
 - **新增 Intel Arc 独立显卡 Metal 驱动**：Arc B580 实测 / B570 / Pro B60/B50（Linux xe + Mesa ANV + Metal-on-Vulkan，需放宽 SIP/AMFI）
 - 新增驱动：AMD RedNavi (RX 7800 XT) / RX 9060 XT / Tahiti VCE、NVIDIA RTXDarwin / NVDAAL、WiFi RTL8814AU + AWDL
@@ -166,6 +172,7 @@
 | Acer Nitro 5 an517-51-55NT | [链接](https://github.com/sostenesg7/Nitro5-an517-51-55NT-hackintosh-EFI) | | |
 | Acer Predator Helios 300    | [链接](https://github.com/PruvostMaxime/Hackintosh-Predator-300) [链接](https://github.com/KadeReolance/Predator-Helios-300-OpenCore-0.6.2)<br />[链接](https://github.com/suryavamsi6/EFI_Acer_Predator_Helios_300) |                                                              |                                                  |
 | Acer Predator G3-571        | [链接](https://github.com/geminis3/Predator-G3-571-OC)       |                                                              |                                                  |
+| Acer Predator Triton 500 (PT515-51) | [链接](https://github.com/rojandotpro/PT515-51-Hackintosh) | | Tahoe + PredatorSense 自定义应用 |
 | Acer Swift 3                | [链接](https://github.com/FallenChromium/Acer-Swift3-2018-hackintosh) |                                                              | SF315-51-518S                                    |
 | Acer Swift 3 52G            | [链接](https://github.com/geekcjj/Clover-Acer-Swift3-SF315-52G) |                                                              | Acer-Swift3-SF315-52G                            |
 | Acer Swift 3 SF314-54       | [链接](https://github.com/diepeterpan/Acer-Swift-3-SF314-54-2018-MacOS-Big-Sur) |                                                              |                                                  |
@@ -271,6 +278,7 @@
 | Asus VivoBook FL8000UQ            | [链接](https://github.com/alexanderkin/ASUS-FL8000UQ-Hackintosh/releases) | [链接](https://github.com/alexanderkin/ASUS-FL8000UQ-Hackintosh) | ASUS FL8000UQ i7-8550U GeForce 940MX                         |
 | ASUS VivoBook FL8700JP            | [链接](https://github.com/bilijp153/ASUS-VivoBook-FL8700JP-Hackintosh) |                                                              |                                                              |
 | Asus VivoBook Max X441UVK         | [链接](https://alfinauzikri.github.io/Asus-Vivobook-Max-X441UVK-Hackintosh/) |                                                              |                                                              |
+| Asus VivoBook K15 OLED (K513EA) | [链接](https://github.com/Kaushal-snap/ASUS-VivoBook-K15-OLED-Hackintosh) | | i5-1135G7 / Iris Xe / Tahoe 26.7.1 |
 | ASUS Vivobook Pro 15 N580GD | [链接](https://github.com/Iwantwater1116/EFI_Hackintosh_ASUS_VivoBook_Pro_15_N580GD_OC7.3) | | |
 | Asus VivoBook S15 S510UA          | [链接](https://github.com/tctien342/Asus-Vivobook-S510UA-High-Sierra-10.13-Hackintosh) | [链接](https://github.com/tctien342/Asus-Vivobook-S510UA-High-Sierra-10.13-Hackintosh/blob/master/README.md) | Vivobook S510UA                                              |
 | Asus Vivobook S530UA BQ100T       | [链接](https://github.com/superzeldalink/Asus-Vivobook-S530-hackintosh) |                                                              |                                                              |
@@ -442,7 +450,7 @@
 | Dell Latitude E7280                        | [链接](https://github.com/Lorys89/DELL_LATITUDE_7280) |                                                              |                                                              |
 | Dell Latitude E7370                        | [链接](https://github.com/mikeTOliu/dell-latitude7370-Hackintosh-EFI-backup) [链接](https://github.com/gazzmanzx6/OC_Dell_Latitude_7370) |                                                              |                                                              |
 | Dell Latitude E7390                        | [链接](https://github.com/Swung0x48/Dell-Latitude-7490-Hackintosh-EFI) [链接](https://github.com/PurpleCrumpets/Hackintosh-Dell-Latitude-7390-2-in-1-OpenCore-EFI) [链接](https://github.com/guozenghuang/latitude-E7390-hackintosh) |                                                              | 基于 Latitude 7490。 不保证 7390 可用。（可在 issue 中提出 7390 的问题） |
-| Dell Latitude 7210 | [链接](https://github.com/catp123g/Dell-Latitude-7210-OpenCore-Monterey) |  | OpenCore | i7-10610U | Intel UHD Graphics |
+| Dell Latitude 7210 | [链接](https://github.com/catp123g/Dell-Latitude-7210-OpenCore-Monterey) [链接](https://github.com/kuloryan1/dell-7210-hackintosh) |  | OpenCore | i7-10610U / Sonoma + Sequoia |
 | Dell Latitude 5580 | [链接](https://github.com/ixmaelx/Dell-Latitude-5580-Hackintosh) |  | OpenCore | i7-7820HQ | Intel HD Graphics |
 | Dell Latitude 7410 | [链接](https://github.com/abbasabidii/Dell-Latitude-7410-Hackintosh-OC) | |  |
 | Dell Latitude E7440                        | [链接](https://github.com/ameeno/Dell-E7440-Hackintosh)      |                                                              |                                                              |
@@ -464,7 +472,7 @@
 | Dell OptiPlex 9020                         | [链接](https://github.com/kyroschow/Dell-Optiplex-9020-Hackintosh-Clover-EFI) |                                                              |                                                              |
 | Dell OptiPlex 9020 USFF                    | [链接](https://github.com/Lorys89/DELL_OPTIPLEX_9020_USFF)   |                                                              |                                                              |
 | Dell OptiPlex 9020 OpenCore                | [链接](https://github.com/li3p/dell-optiplex-9020-hackintosh-opencore) | [链接](https://github.com/li3p/dell-optiplex-9020-hackintosh-opencore/blob/master/README.md) | 支持 MT/SFF/USFF/Micro 所有机型                              |
-| Dell Precision 5510                        | [链接](https://github.com/soulomoon/Dell-Precision-5510-OSX) [链接](https://github.com/PLChinDev/Dell-Precision-5510-Mojave) |                                                              | Dell-Precision-5510<br />链接 2 支持`Catalina`               |
+| Dell Precision 5510                        | [链接](https://github.com/soulomoon/Dell-Precision-5510-OSX) [链接](https://github.com/PLChinDev/Dell-Precision-5510-Mojave) [链接](https://github.com/harshavardhanr05/Dell-Precision-5510-Opencore-Tahoe) |                                                              | Dell-Precision-5510<br />链接 3 支持 Tahoe / Sequoia |
 | Dell Precision 5560 | [链接](https://github.com/tueminh192/Dell-5560-Hackintosh) | |  |
 | Dell Precision 5591                        | [链接](https://github.com/n0faith/Dell-Precision-5591-Hackintosh) |                                                              |                                                              |
 | Dell Precision M3800<br />Dell XPS 15-9530 | [链接](https://github.com/syscl/M3800)                       | [链接](https://github.com/syscl/M3800/blob/M3800/README.md)  | Dell M3800 和 XPS 9530                                       |
@@ -576,6 +584,9 @@
 | ----------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | HP ProBook 4x30s | [链接](https://github.com/ubihazard/probook-4x30s-oc) |  | OpenCore |
 | HP 15s-dy0xxx | [链接](https://github.com/Emilelu/Hackintosh-EFI-HP-15s-dy0xxx) | | i7-8565U / UHD 620 / Tahoe |
+| HP ZBook Power G10 | [链接](https://github.com/EnormousKnob/zbook-g10-hackintosh) | | i7-13700H / Tahoe / eDP 内屏修复 |
+| HP ENVY x360 13-bf0xxx | [链接](https://github.com/lamjiidii1/HP-Envy-X360-13bf0xxx-EFI) | | Sequoia 15.8.2 / Tahoe 26.7.1 |
+| HP EliteBook 830 G7 (Tahoe) | [链接](https://github.com/reyaansh-mishra/HP-Elitebook-G7-830-Hackintosh) | | macOS Tahoe 实测 |
 | HP ProBook 450 | [链接](https://github.com/ksajolaer/HP-ProBook-450-G1-EFI) |  | OpenCore |
 | Galaxy-Book-5-Ultra-7-NT750XHD | [链接](https://github.com/NiSeullent/EFI-Galaxy-Book-5-Ultra-7-NT750XHD) |  | OpenCore |
 | c1073d | [链接](https://github.com/br3zil/HP-Pavilion-Gaming-15-ec1073dx-EFI) |  | OpenCore | Ryzen 5 4600H | NVIDIA GTX 1650 |
@@ -836,6 +847,7 @@
 | ThinkPad T480s                     | [链接](https://github.com/kk1987/T480s-hackintosh) <br /> | [链接](https://github.com/kk1987/T480s-hackintosh/blob/master/README.md) | ThinkPad T480s<br />网卡推荐：[DW1820A](https://hackintosher.taobao.com) |
 | ThinkPad T490                      | [链接](https://github.com/yusifsalam/t490-macos) [链接](https://github.com/5T33Z0/Thinkpad-T490-Hackintosh-OpenCore) |                                                              | Sonoma ~ Tahoe |
 | ThinkPad T14 G2 (Intel) | [链接](https://github.com/itzfurizugg/T14G2-Intel-EFI) | | OpenCore / OpCore-Simplify |
+| ThinkPad E16 Gen 3 | [链接](https://github.com/keenerdavid18/thinkpad-e16-gen3-hackintosh) | | Core 7 240H / Iris Xe (NootedGreen) / Tahoe |
 | ThinkPad X1 Carbon 6th Gen（OC 1.0.2） | [链接](https://github.com/SanketRohilla/ThinkPad-X1C6-Hackintosh) | | 20KG / 安装后套件 |
 | Thinkpad T495 | [链接](https://github.com/EraserCN/ThinkPad-T495-Hackintosh) | | |
 | ThinkPad T530                      | [链接](https://github.com/m1qnet/ThinkPad-T530-Hackintosh) [链接](https://github.com/5T33Z0/Lenovo-T530-Hackinosh-OpenCore) |                                                              |                                                              |
@@ -1037,6 +1049,7 @@
 | ------------------------------- | ------------------------------------------------------------ | -------- | ---- |
 | Surface-Pro-5-i7-Variant-OC | [链接](https://github.com/bruhmeme1234/Surface-Pro-5-i7-Variant-OC-Hackintosh) |  | OpenCore | i7-7660U | Intel Iris Plus |
 | M1707 | [链接](https://github.com/Sanqing678/TIMI-TM1707-Hackintosh) |  | OpenCore | i5-8250U | Intel UHD Graphics |
+| Samsung Book 11th (i3-1115G4) | [链接](https://github.com/cost-12/Hackintosh-Samsung-Book-INTEL-CORE-I3-1115G4-11TH) | | OpenCore EFI |
 | 三星 Samsung NP300E4C           |                                                              |          |      |
 | 三星 Samsung NP300E5L           | [链接](https://github.com/bearkfear/SAMSUNG-NP300E5L-HACKINTOSH) |          |      |
 | 三星 Samsung NP300E5M           |                                                              |          |      |
@@ -1205,6 +1218,7 @@
 | ASUS ROG Strix FX607VJ | [luchina-gabriel](https://github.com/luchina-gabriel/EFI-NOTEBOOK-ASUS-ROG-STRIX-FX607VJ-CORE-5-210H-RTX-3050-20261111-PUBLIC) | RTX 3050 6GB | Core 5 210H / Tahoe |
 | Legion Y7000P IRX10（详版） | [xavierbe278](https://github.com/xavierbe278/legion-y7000p-irx10-83nn-hackintosh) | RTX 5060 | i9-14900HX / OC 1.0.9 / 20+ 踩坑 |
 | Y7000P IRX10 触控板 | [xavierbe278](https://github.com/xavierbe278/legion-y7000p-irx10-touchpad-voodooi2c) | — | Goodix GXTP5100 + VoodooI2C |
+| 雷神猎刃 R15 | [zhouzt0121](https://github.com/zhouzt0121/Hunter-R15-13650HX-Hackintosh-EFI) | RTX 4060 | i7-13650HX / HM770 / 除睡眠外全功能 |
 | ASUS TUF FA607PI | [Souitou-iop](https://github.com/Souitou-iop/Hackintosh-FA607PI-Driver) | RTX 4070 | Ryzen 9 7940HX / Tahoe |
 | Legion Pro5 16IRX9 | [Ammarrrrrrr](https://github.com/Ammarrrrrrr/legion-pro5-hackintosh) | RTX 5060 | Sequoia / NullMoth |
 | GTX 1650 | [buidi2004](https://github.com/buidi2004/gtx1650-nullmoth-macos) | GTX 1650 | Turing TU117 / AMD Renoir / Sequoia |
@@ -1435,7 +1449,7 @@
 | Asus Z490 MAXIMUS XII FORMULA  | [链接](https://github.com/shijij/OSX_EFI_Asus_Z490_MAXIMUS_FORMULA) |          | i7-10700k + RX5700XT<br />网卡推荐：[BCM94360CD](https://hackintosher.taobao.com) |
 | Asus TUF Z490 Plus             | [链接](https://github.com/horphi/Asus-TUF-Z490-Plus) [链接](https://github.com/raofeng/ASUS_TUF_Z490_PLUS_WIFI_EFI) |          | 网卡推荐：[BCM94360CD](https://hackintosher.taobao.com) |
 | Asus ROG MAXIMUS XIII HERO | [链接](https://github.com/Dave1482/Maximus-XIII-Hero-Z590-11900K-6800XT-OpenCore-EFI-Public) | |  |
-| ASUS PRIME Z590-P | [链接](https://github.com/rafaelmaeuer/Asus-Z590-P-Hackintosh) | | 网卡推荐：[BCM94360CD](https://hackintosher.taobao.com) |
+| ASUS PRIME Z590-P | [链接](https://github.com/rafaelmaeuer/Asus-Z590-P-Hackintosh) [链接](https://github.com/jesuscastilla/hackintosh-Z590) | | 网卡推荐：[BCM94360CD](https://hackintosher.taobao.com)<br />链接 2：i5-11600K + RX 5700 XT |
 | ASUS ROG Z590-A-Gaming-WIFI-II | [链接](https://github.com/cuihairu/ROG-STRIX-Z590-A-i910900K-RX6900XT-Hackintosh) | | i9-10900k + RX6900XT <br />网卡推荐：[BCM94360CD](https://hackintosher.taobao.com) |
 | ASUS ROG STRIX Z690-A GAMING WIFI | [链接](https://github.com/cuihairu/ROG-STRIX-Z690-A-GAMING-WIFI-i513600KF-RX6600XT-Hackintosh) | | i5-13600kF + RX6600XT <br />网卡推荐：[BCM94360CD](https://hackintosher.taobao.com) |
 | ASUS ProArt Z690 CREATOR WIFI | [链接](https://github.com/cuihairu/ProArt-Z690-CREATOR-WIFI-W5700-i912900K-Hackintosh/blob/main/README.md) | | i9-12900K + W5700 <br />网卡推荐：[BCM94360CD](https://hackintosher.taobao.com) |
@@ -1832,6 +1846,7 @@
 | MSI-B250M PRO-VDH-i5-7500	|[链接](https://gitee.com/akwangl/msi-b250-m-pro-vdh-i5-7500)	|		|		|
 | 铭瑄B760M 终结者 D4	|[链接](https://github.com/nsinm/13400F-B760M-EFI) 	[链接](https://github.com/xiecang/Hackintosh-B760M-12490F-6600xt)	|	| 网卡推荐：[BCM94360CD](https://hackintosher.taobao.com) |
 | 铭瑄 MS-B760ITX	|[链接](https://github.com/rbongIO/rbongIO-MaxSun-B760ITX-EFI)	|	|  |
+| MAXSUN Terminator B760M Gaming | [链接](https://github.com/SummerEmber/MAXSUN-Terminator-B760M-Gaming) | | Hackintosh OpenCore EFI |
 | 铭瑄z790m	|[链接](https://github.com/xxy6910/13700k_z790m_EFI)	|	|	|
 | MAXSUN Terminator-Z790M-D5	|[链接](https://github.com/sonojo/Terminator-Z790M-D5)	|	|	|
 | 精粤B760i Snow Dream	|[链接](https://github.com/zhongjiachao/JingyueB760i-hackintosh-Opentcore-EFI)	|	|	|
@@ -1852,6 +1867,8 @@ Hackintosh 下 Intel 第 11-14 代（及之后）核显和 AMD RDNA3 iGPU 的驱
 | WhateverXe Next | [Minorli](https://github.com/Minorli/WhateverXe-Next) | 全 Intel Xe 系列 | 独立开发分支 |
 | WhateverXe Graphics 24H232 | [WangHaoZhengMing](https://github.com/WangHaoZhengMing/WhateverXe-Graphics-24H232-Port) | Tahoe 24H232 | eDP handoff + 亮度修复 |
 | Iris Xe Driver Research | [wallali77666](https://github.com/wallali77666-cyber/iris-xe-macos-driver) | Tiger Lake Gen12 | IXFB/IXRM/Metal-on-Vulkan |
+| WhateverGreen-IceLake-HDMIB | [miyatimusica](https://github.com/miyatimusica/WhateverGreen-IceLake-HDMIB) | Ice Lake LP (DDI B) | 开启 Ice Lake HDMI 输出 |
+| WTLLegionCpuPower | [watchthelight-labs](https://github.com/watchthelight-labs/WTLLegionCpuPower) | Arrow Lake (Core Ultra 200HX) | Lilu 插件：真实频率 / 功耗，解除 30W 限制 |
 
 **参考机型：**
 
@@ -2035,6 +2052,7 @@ NVIDIA GPU 通过 NullMoth / nvidia-macos-driver 驱动在 Hackintosh 上实现 
 | OpenCore+NullMoth CLI | [joseteo](https://github.com/joseteo/nvidia-macos-opencore) | Rust CLI 自动配置 |
 | RTXDarwin | [OneDeadMachine-Dev](https://github.com/OneDeadMachine-Dev/RTXDarwin) | RTX 3060 开源驱动研究（Tahoe） |
 | NVDAAL Driver | [gabrielmaialva33](https://github.com/gabrielmaialva33/NVDAAL-Driver) | RTX 40 系计算驱动（AI/ML） |
+| hack-touchid | [hackintosh-user](https://github.com/hackintosh-user/hack-touchid) | Hackintosh 上的 Touch-ID 支持（客户端） |
 
 
 ### 无线网卡（WiFi）支持列表
@@ -2074,6 +2092,10 @@ NVIDIA GPU 通过 NullMoth / nvidia-macos-driver 驱动在 Hackintosh 上实现 
 | Intel-AX210 指南 | [perez987](https://github.com/perez987/Intel-AX210-on-Sonoma-Sequoia-Tahoe) | AX210S PCIe 全版本 |
 | ForbiddenItlwm | [retropineaple](https://github.com/retropineaple/ForbiddenItlwm) | Intel Wi-Fi AirDrop 实验 |
 | AX200 蓝牙修复 | [iceworld009](https://github.com/iceworld009/ax200-bt-macos) | AX200 BT/AirDrop/Handoff/剪贴板 |
+| AirportItlwm (Continuity) | [minhnhan-tran](https://github.com/minhnhan-tran/AirportItlwm) | 通用剪贴板 / Handoff / iPhone 热点 |
+| IntelBTUnified | [laguillo](https://github.com/laguillo/IntelBTUnified) | Intel 蓝牙统一 kext（含固件） |
+| BroadcomVTD-Tahoe | [kgp-macPro](https://github.com/kgp-macPro/BroadcomVTD-Tahoe) | 博通 + AppleVTD/IOMMU |
+| FeatureUnlock-Tahoe | [kgp-macPro](https://github.com/kgp-macPro/FeatureUnlock-Tahoe) | AirPlay 屏幕镜像解锁 |
 
 #### MediaTek
 
@@ -2082,6 +2104,9 @@ NVIDIA GPU 通过 NullMoth / nvidia-macos-driver 驱动在 Hackintosh 上实现 
 | MT7921 / MT7922 / RZ616 | [AirportMtkWlan](https://github.com/Arxusion/AirportMtkWlan) | ⚠️ 实验性 | 笔记本常见，Tahoe/Sequoia |
 | MT7921 / MT7922 AWDL | [AirportMtk-AWDL](https://github.com/Arxusion/AirportMtk-AWDL) | ✅ | AirDrop / Continuity 支持 |
 | MT7925 | [WTLWireless](https://github.com/watchthelight-labs/WTLNvidiaGfx) | ⚠️ | Muxless 笔记本 |
+| MT7922 / RZ616（WiFi 6） | [YYavicWiFi](https://github.com/yusufcanyavic/YYavicWiFi) | ⚠️ 实验性 | 802.11ax / 2x2 / 160MHz，Sequoia + Tahoe |
+| MT7921 蓝牙（Tahoe） | [MT7921-Bluetooth-Tahoe](https://github.com/sl520987456/MT7921-Bluetooth-Tahoe) | — | Foxconn 0489:E0CD，bluetoothd SRS 模式 |
+| MT 蓝牙修复 | [WTLLegionBtFix](https://github.com/watchthelight-labs/WTLLegionBtFix) | — | bluetoothd 内存补丁（26.7.1/26.7.2） |
 
 #### Realtek
 
@@ -2092,6 +2117,7 @@ NVIDIA GPU 通过 NullMoth / nvidia-macos-driver 驱动在 Hackintosh 上实现 
 | RTL88xx | [Airport_RTW88](https://github.com/xnoah222/Airport_RTW88) | ❌ | 原生 AirPort 驱动 |
 | RTL8188CU（D-Link DWA-121） | [Panther 驱动](https://github.com/invartam/driver-dwa121-macx-panther) | ❌ | 老款 USB 网卡 |
 | RTL8814AU（USB） | [RTL8814Native](https://github.com/DrogaBox/RTL8814Native) | ⚠️ 实验性 | macOS 26，软件 AWDL 支持 AirDrop |
+| Realtek 通用（IO80211） | [AirPort-RTW](https://github.com/JoMei9019-real/AirPort-RTW) | ❌ | 原生 IO80211 驱动 |
 
 #### Atheros / Qualcomm
 
@@ -2099,6 +2125,7 @@ NVIDIA GPU 通过 NullMoth / nvidia-macos-driver 驱动在 Hackintosh 上实现 
 | --- | --- | --- | --- |
 | AR946x / AR5Bxx 系列 | [SimpleATH](https://github.com/albertovillaosorno/SimpleATH) | ❌ | PCIe，实验性 |
 | WCN7850 / FastConnect 7800 | [qwz-macos](https://github.com/f0xeri/qwz-macos) | ❌ | OpenBSD 移植 |
+| WCN7850（WiFi+BT+AirDrop） | [WCN7850-macOS](https://github.com/Marc051297/WCN7850-macOS) | ⚠️ 实验性 | AirportWCN7850 + BluetoothWCN7850，Tahoe |
 
 #### 其他
 
