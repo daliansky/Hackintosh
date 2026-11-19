@@ -2071,6 +2071,12 @@ NVIDIA GPU 通过 NullMoth / nvidia-macos-driver 驱动在 Hackintosh 上实现 
 
 > **提示**：博通 BCM94360Z4 是黑果首选，支持完整 iMessage / AirDrop / Handoff / AirPlay 功能。
 
+参考项目：
+
+| 项目 | 链接 | 备注 |
+| --- | --- | --- |
+| BroadcomVTD-Tahoe | [kgp-macPro](https://github.com/kgp-macPro/BroadcomVTD-Tahoe) | 传统博通网卡在 AppleVTD/IOMMU 开启下的 Lilu 插件（Tahoe） |
+
 #### Intel
 
 | 芯片型号 | 驱动方式 | 隔空接力 | 备注 |
@@ -2094,8 +2100,6 @@ NVIDIA GPU 通过 NullMoth / nvidia-macos-driver 驱动在 Hackintosh 上实现 
 | AX200 蓝牙修复 | [iceworld009](https://github.com/iceworld009/ax200-bt-macos) | AX200 BT/AirDrop/Handoff/剪贴板 |
 | AirportItlwm (Continuity) | [minhnhan-tran](https://github.com/minhnhan-tran/AirportItlwm) | 通用剪贴板 / Handoff / iPhone 热点 |
 | IntelBTUnified | [laguillo](https://github.com/laguillo/IntelBTUnified) | Intel 蓝牙统一 kext（含固件） |
-| BroadcomVTD-Tahoe | [kgp-macPro](https://github.com/kgp-macPro/BroadcomVTD-Tahoe) | 博通 + AppleVTD/IOMMU |
-| FeatureUnlock-Tahoe | [kgp-macPro](https://github.com/kgp-macPro/FeatureUnlock-Tahoe) | AirPlay 屏幕镜像解锁 |
 
 #### MediaTek
 
@@ -2136,6 +2140,7 @@ NVIDIA GPU 通过 NullMoth / nvidia-macos-driver 驱动在 Hackintosh 上实现 
 | OCLP 博通 + Intel 混合 | [kgp-macPro](https://github.com/kgp-macPro/OCLP-CustoMac) | 现代 WiFi 支持 |
 | 隔空接力诊断工具 | [IAmLegionVaal](https://github.com/IAmLegionVaal/macOS-Bluetooth-AirDrop-and-Continuity-Troubleshooter) | 排障工具 |
 | AWDL 开关面板 | [Microburo](https://github.com/Microburo/awdl-toggle) | 控制 AirDrop 延迟 |
+| FeatureUnlock-Tahoe | [kgp-macPro](https://github.com/kgp-macPro/FeatureUnlock-Tahoe) | 解锁 AirPlay 屏幕镜像（芯片无关） |
 
 #### 选购建议
 
