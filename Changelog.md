@@ -1,7 +1,9 @@
 ## 更新日志：
 - 2026年 11月 19日
    - 新增驱动 / 工具：
-     - WiFi-Intel: AirportItlwm (Continuity 版)、IntelBTUnified、BroadcomVTD-Tahoe、FeatureUnlock-Tahoe
+     - WiFi-Intel: AirportItlwm (Continuity 版)、IntelBTUnified
+     - WiFi-Broadcom: BroadcomVTD-Tahoe (AppleVTD/IOMMU)
+     - 其他: FeatureUnlock-Tahoe (AirPlay 镜像解锁)
      - WiFi-MediaTek: YYavicWiFi (MT7922/RZ616 WiFi 6)、MT7921-Bluetooth-Tahoe、WTLLegionBtFix
      - WiFi-Realtek: AirPort-RTW (原生 IO80211)
      - WiFi-Qualcomm: WCN7850-macOS (WiFi + BT + AirDrop)
