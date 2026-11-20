@@ -10,7 +10,13 @@
 <details>
 <summary>更新日志</summary>
 
-更新日期：2026年11月19日
+更新日期：2026年11月20日
+
+- 新增驱动 / 工具：WiFiTahoeBridge（BCM4360 + AWDL，Lilu kext 无需 OCLP）、hack-touchid
+- 新增机型：Asus Zephyrus G14 2022 (GA402RJ) / ZenBook UX325EA、Lenovo T14 G1 / X380 Yoga / Legion Y7000P IRX10 (MT7925) / Y9000P 2024、TECNO MEGABOOK K15SDA
+- 新增迷你主机：K8（Ryzen 7 H 255 + Radeon 780M）
+- 补充链接：MSI GL62M 7RDX
+- 以下为 11月19日 更新
 
 - 新增 WiFi 驱动：AirportItlwm (Continuity) / IntelBTUnified / YYavicWiFi (MT7922) / AirPort-RTW / WCN7850-macOS
 - 新增驱动：WhateverGreen-IceLake-HDMIB、WTLLegionCpuPower (Arrow Lake)、WTLLegionBtFix、hack-touchid
@@ -248,6 +254,8 @@
 | Asus ROG Zephyrus M15 GU502LW     | [链接](https://github.com/RmondJone/ROG-Zephyrus-M15-Hackintosh-GU502LW) |                                                              | 华硕玩家国度幻15                                             |
 | Asus ROG Zephyrus S GX531GS       |                                                              |                                                              | 华硕玩家国度冰刃 3                                           |
 | Asus ROG-Zephyrus-G14-GA401(2020-2021) | [链接](https://github.com/PIut02/ROG-Zephyrus-G14-GA401-Hackintosh) | | 华硕幻14<br />AMD Ryzen 7 4800HS/5800HS |
+| Asus ROG Zephyrus G14 2022 (GA402RJ) | [链接](https://github.com/ttpro7/ZephyrusG14-2022-Hackintosh) | | i7-12700H + RTX 3060 / Tahoe 26.7.1 / Parallels |
+| Asus ZenBook 13 OLED UX325EA | [链接](https://github.com/AS2812/ZenBook-UX325EA-Hackintosh) | | i7-1165G7 / Sonoma + 修复黑屏的 WhateverXe |
 | Asus ROG GL703ge                  |                                                              |                                                              |                                                              |
 | ASUS ROG GL753VD | [链接](https://github.com/namxg6626/Asus-GL753VD-hackintosh-opencore) | | |
 | Asus ROG Strix G17 G712LW | [链接](https://github.com/tueminh192/Asus-g712lw-prebuilt-efi) | | |
@@ -847,6 +855,8 @@
 | ThinkPad T480s                     | [链接](https://github.com/kk1987/T480s-hackintosh) <br /> | [链接](https://github.com/kk1987/T480s-hackintosh/blob/master/README.md) | ThinkPad T480s<br />网卡推荐：[DW1820A](https://hackintosher.taobao.com) |
 | ThinkPad T490                      | [链接](https://github.com/yusifsalam/t490-macos) [链接](https://github.com/5T33Z0/Thinkpad-T490-Hackintosh-OpenCore) |                                                              | Sonoma ~ Tahoe |
 | ThinkPad T14 G2 (Intel) | [链接](https://github.com/itzfurizugg/T14G2-Intel-EFI) | | OpenCore / OpCore-Simplify |
+| ThinkPad T14 Gen 1 | [链接](https://github.com/yuxunyang/ThinkPad-T14-Gen1-Hackintosh) | | i7-10510U / UHD 620 / Sequoia 15.8.3 |
+| ThinkPad X380 Yoga | [链接](https://github.com/kotakbiasa/ThinkPad-X380-Yoga-Hackintosh) | | OpenCore |
 | ThinkPad E16 Gen 3 | [链接](https://github.com/keenerdavid18/thinkpad-e16-gen3-hackintosh) | | Core 7 240H / Iris Xe (NootedGreen) / Tahoe |
 | ThinkPad X1 Carbon 6th Gen（OC 1.0.2） | [链接](https://github.com/SanketRohilla/ThinkPad-X1C6-Hackintosh) | | 20KG / 安装后套件 |
 | Thinkpad T495 | [链接](https://github.com/EraserCN/ThinkPad-T495-Hackintosh) | | |
@@ -1004,7 +1014,7 @@
 | MSI GF63 thin 9sc         | [链接](https://github.com/LongBody/EFi-Hackintosh-MSi-GF63-thin-9sc)                                                                                                                                      |                                                                                      |                 |
 | MSI GF75                  | [链接](https://github.com/PeenkLion/Laptop-Hackintosh-EFI)                                                                                                                                            |                                                                                                                                            |                 |
 | MSI GL62M 7RD             | [链接](https://github.com/0ranko0P/GL62M-7RD-Hackintosh)                                                                                                                                                  |                                                                                      |                 |
-| MSI GL62M 7RDX            | [链接](https://github.com/ForceGT/Hackintosh--MSIGL62M-7RDX)                                                                                                                                              |                                                                                      |                 |
+| MSI GL62M 7RDX            | [链接](https://github.com/ForceGT/Hackintosh--MSIGL62M-7RDX) [链接](https://github.com/zqwad/MSI-GL62M-7RDX-OpenCore-EFI)                                                                                                                                              |                                                                                      | i5-7300HQ / HD 630 / Ventura |
 | MSI GL62M 7REX            | [链接](https://github.com/rlindsberg/Hackintosh-On-MSI-GL62m-7REX)                                                                                                                                        |                                                                                      |                 |
 | MSI GL 63-8RC             | [链接](https://github.com/devendramilmile121/msigl638rc-hackintosh-efi)                                                                                                                                   |                                                                                      |                 |
 | MSI GL63-8RE              |                                                                                                                                                                                                           |                                                                                      |                 |
@@ -1188,6 +1198,7 @@
 | Infinix INBook X1 | [链接](https://github.com/devboloji/Infinix-Hackintosh-Guide-Opencore_INBook_X1_XL11_i3-) | | |
 | Mechrevo Jiaolon-76Q | [链接](https://github.com/top1Ashier/Mechrevo-Jiaolong-76Q-Hackintosh) | | AMD Ryzen 7 5800h |
 | 123123123 | [链接](https://github.com/DonGamer9107/123123123) |  | OpenCore |
+| TECNO MEGABOOK K15SDA | [链接](https://github.com/mur44ev/my-awesome-tecno-15sda-amd) | | AMD 平台 / Windows 背光修复 |
 | CELSIUS J5012 | [链接](https://github.com/ljzxzxl/fujitsu-celsius-j5012-efi) |  | OpenCore |
 
 
@@ -1198,6 +1209,8 @@
 | Legion Y7000P IRX10 | [UNDERDOG07](https://github.com/UNDERDOG07/hackintosh-lenovo-legion-y7000p-irx10) | RTX 5060 | i9-14900HX / Sequoia |
 | Lenovo R7000P 2025 | [WuChen33417](https://github.com/WuChen33417/Lenovo-R7000P-2025-Hackintosh-EFI) | RTX 5060 | Ryzen 9 8940HX / Tahoe |
 | Y9000P IRX9 | [ndh0408](https://github.com/ndh0408/Hackintosh-Y9000P) | RTX 4060 | i9-14900HX / Sequoia |
+| Legion Y7000P IRX10（MT7925+触控板） | [Cube-geometric](https://github.com/Cube-geometric/Hackintosh-Legion-Y7000P-IRX10-EFI-with-MT7925-and-Trackpad) | RTX 5060 | i9-14900HX / MT7925 网卡 + Goodix 触控板 |
+| Lenovo Y9000P 2024 | [VerveVertex](https://github.com/VerveVertex/Lenovo-Legion-Y9000P-2024-Hackintosh-EFI) | RTX 4060 | i9-14900HX / 三语 EFI |
 | Y540-17IRH | [JungyoKim](https://github.com/JungyoKim/Y540-17IRH-TAHOE) | GTX 1660 Ti | Tahoe / NullMoth 驱动构建 |
 | Legion Y7000P 2020H | [H-Dynamite](https://github.com/H-Dynamite/Y7000P-2020H-RTX2060-macOS-Sequoia) | RTX 2060 | 独显直连内屏教程 |
 | Razer Blade 18 | [jixx-choi](https://github.com/jixx-choi/Razer-Blade-18-2024-Hackintosh) | RTX 4080 | macOS Tahoe |
@@ -2028,6 +2041,7 @@ Metal / WindowServer / OpenGL / OpenCL
 | MSI Bravo 15 C7VFKP | [miladtahanian](https://github.com/miladtahanian/MSI-Bravo-15-C7VFKP-macOS-Tahoe-EFI) | Ryzen 7 7735HS | 核显 | Tahoe EFI |
 | Beelink SER 5800H | [fenghelao](https://github.com/fenghelao/Hackintosh-Beelink-SER-5800H-Tahoe) | Ryzen 7 5800H | Vega | NootedRed / AX200 |
 | AMD Athlon PRO 300U | [lorzzn](https://github.com/lorzzn/300u-hackintosh-15) | Athlon PRO 300U | Vega | 迷你主机 / NootedRed |
+| K8 迷你主机（Ryzen 7 H 255） | [izerok](https://github.com/izerok/k8-tahoe-hackintosh) | 780M | Zen4 xHCI 修复 | Tahoe |
 | ThinkPad AMD | [ThinkDifferentInc](https://github.com/ThinkDifferentInc/ThinkPad-AMD) | Ryzen 全系 | 核显 | Tahoe 预烘焙 EFI |
 
 
@@ -2076,6 +2090,7 @@ NVIDIA GPU 通过 NullMoth / nvidia-macos-driver 驱动在 Hackintosh 上实现 
 | 项目 | 链接 | 备注 |
 | --- | --- | --- |
 | BroadcomVTD-Tahoe | [kgp-macPro](https://github.com/kgp-macPro/BroadcomVTD-Tahoe) | 传统博通网卡在 AppleVTD/IOMMU 开启下的 Lilu 插件（Tahoe） |
+| WiFiTahoeBridge | [hamedafra](https://github.com/hamedafra/WiFiTahoeBridge) | BCM4360 WiFi + AirDrop (AWDL) Lilu kext，无需 OCLP 根补丁 |
 
 #### Intel
 
@@ -2141,6 +2156,7 @@ NVIDIA GPU 通过 NullMoth / nvidia-macos-driver 驱动在 Hackintosh 上实现 
 | 隔空接力诊断工具 | [IAmLegionVaal](https://github.com/IAmLegionVaal/macOS-Bluetooth-AirDrop-and-Continuity-Troubleshooter) | 排障工具 |
 | AWDL 开关面板 | [Microburo](https://github.com/Microburo/awdl-toggle) | 控制 AirDrop 延迟 |
 | FeatureUnlock-Tahoe | [kgp-macPro](https://github.com/kgp-macPro/FeatureUnlock-Tahoe) | 解锁 AirPlay 屏幕镜像（芯片无关） |
+| hack-touchid | [hackintosh-user](https://github.com/hackintosh-user/hack-touchid) | Hackintosh Touch-ID 支持 |
 
 #### 选购建议
 

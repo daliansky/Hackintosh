@@ -1,4 +1,20 @@
 ## 更新日志：
+- 2026年 11月 20日
+   - 新增驱动 / 工具：
+     - WiFi 博通: WiFiTahoeBridge (BCM4360 + AWDL Lilu kext，无 OCLP 根补丁)
+     - 工具: hack-touchid (Touch-ID 支持，已加入"其他"表)
+   - 新增机型（笔记本）：
+     - Asus ROG Zephyrus G14 2022 GA402RJ（i7-12700H + RTX 3060）
+     - Asus ZenBook 13 OLED UX325EA（i7-1165G7 + 修复黑屏的 WhateverXe）
+     - Lenovo ThinkPad T14 Gen 1 / X380 Yoga
+     - Lenovo Legion Y7000P IRX10（MT7925 + Goodix 触控板）
+     - Lenovo Y9000P 2024（i9-14900HX + 三语 EFI）
+     - TECNO MEGABOOK K15SDA（AMD 平台）
+   - 新增机型（迷你主机）：
+     - K8 迷你主机（Ryzen 7 H 255 + Radeon 780M，Zen4 xHCI 修复）
+   - 补充链接：
+     - MSI GL62M 7RDX (+OC 1.0.7 Ventura)
+
 - 2026年 11月 19日
    - 新增驱动 / 工具：
      - WiFi-Intel: AirportItlwm (Continuity 版)、IntelBTUnified
