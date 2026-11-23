@@ -12,6 +12,9 @@
 
 更新日期：2026年11月23日
 
+- **新增 NVIDIA NullMoth 工具：Liberator ★178** — macOS 27 安装/升级工具（Beta），将 OpenCore PC + NullMoth NVIDIA 驱动从 macOS 15/26 迁移到 macOS 27 (Golden Gate)
+- 新增驱动 / 工具：WTLLegionCbmrFix
+
 - 新增驱动：WTLLegionCbmrFix（Legion 系 vm_page_validate_no_references panic 修复）
 - 新增机型（笔记本 13 台）：MotoBook 60 Pro / GT215 (Arrow Lake-H)、Dell Latitude 7430、Acer Aspire 7 A715-59G、ThinkBook 16p 2025、MSI GF63 10SCSR、Acer Nitro Lite 16、OneNetbook 4 / OneMix 4、ASUS TUF A15、FX608JMR、无界14 2023、Rescuer R720 / Y520、MateBook 13 2020
 - 新增机型（台式机/特殊）：PS5 (Zen 2 SoC)、Asus X99-Deluxe、MSI H110M + i5-7400
@@ -2086,6 +2089,8 @@ NVIDIA GPU 通过 NullMoth / nvidia-macos-driver 驱动在 Hackintosh 上实现 
 | OpenNVDA | [bdwithganesh](https://github.com/bdwithganesh/OpenNVDA) | RTX 4080 4K / Vulkan / NVDEC / Metal |
 | RTXmacOC | [milcorix](https://github.com/milcorix/RTXmacOC) | 全版本 NVIDIA RTX 支持 |
 | OpenCore+NullMoth CLI | [joseteo](https://github.com/joseteo/nvidia-macos-opencore) | Rust CLI 自动配置 |
+| **Liberator** | [nullmoth](https://github.com/nullmoth/liberator) ★178 | **macOS 27 安装/升级工具**：将 OpenCore PC + NullMoth NVIDIA 驱动从 macOS 15/26 迁移到 macOS 27（Golden Gate），一键 Prepare / Cancel / Remove，Beta 阶段 |
+| NullMoth 1401 | [nullmoth](https://github.com/nullmoth/1401) | 构建 PC 上第一个 macOS 安装的基础工具 |
 | RTXDarwin | [OneDeadMachine-Dev](https://github.com/OneDeadMachine-Dev/RTXDarwin) | RTX 3060 开源驱动研究（Tahoe） |
 | NVDAAL Driver | [gabrielmaialva33](https://github.com/gabrielmaialva33/NVDAAL-Driver) | RTX 40 系计算驱动（AI/ML） |
 | hack-touchid | [hackintosh-user](https://github.com/hackintosh-user/hack-touchid) | Hackintosh 上的 Touch-ID 支持（客户端） |

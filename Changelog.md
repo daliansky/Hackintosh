@@ -1,4 +1,12 @@
 ## 更新日志：
+- 2026年 11月 23日（补充）
+   - 新增 NVIDIA NullMoth 工具：
+     - [nullmoth/liberator](https://github.com/nullmoth/liberator) ★178：macOS 27 安装/升级工具（Beta）
+       - 将 OpenCore PC + NullMoth NVIDIA 驱动从 macOS 15/26 迁移到 macOS 27 (Golden Gate)
+       - 一键 Prepare / Cancel / Remove；已支持 Intel + RTX 50 系（桌面）
+       - 限制：无 WiFi/蓝牙、Spotlight 不可用、Books/Journal/Maps/Reminders/Voice Memos 暂不可用
+     - [nullmoth/1401](https://github.com/nullmoth/1401)：构建 PC 上第一个 macOS 安装的基础工具
+
 - 2026年 11月 23日
    - 新增驱动 / 工具：
      - WTLLegionCbmrFix（Lenion 系笔记本 vm_page_validate_no_references 内核 panic 修复 UEFI 驱动）
