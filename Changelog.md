@@ -1,4 +1,26 @@
 ## 更新日志：
+- 2026年 11月 23日
+   - 新增驱动 / 工具：
+     - WTLLegionCbmrFix（Lenion 系笔记本 vm_page_validate_no_references 内核 panic 修复 UEFI 驱动）
+   - 新增机型（笔记本）：
+     - Motorola MotoBook 60 Pro（Core Ultra 5 225H / Arrow Lake-H）
+     - Motorola MotoBook 60 GT215（Core 5 220H）
+     - Dell Latitude 7430（i7-1265U / Tahoe 26.7.1）
+     - Acer Aspire 7 A715-59G（i5-13420H + RTX 4050）
+     - Lenovo ThinkBook 16p 2025 G6 ADR（Ryzen 9 8945HX + RTX 5060）
+     - MSI GF63 Thin 10SCSR（i5-1035G7 / LSPCON HDMI）
+     - Acer Nitro Lite 16 NL16-71G（i7-13620H + RTX 3050）
+     - One-Netbook OneNetbook 4 / OneMix 4（i5-1130G7）
+     - ASUS TUF Gaming A15 FA507UU（Ryzen 7 8845H + RTX 4050）
+     - ASUS FX608JMR
+     - MECHREVO 无界14 2023（R7-7735H + Radeon 680M）
+     - Lenovo Rescuer R720 / Y520
+     - HUAWEI MateBook 13 2020（i5-10210U）
+   - 新增机型（台式机 / 特殊）：
+     - Sony PS5（Zen 2 SoC / OpenCore + 原生 kext）
+     - Asus X99-Deluxe
+     - MSI H110M PRO-VD + i5-7400
+
 - 2026年 11月 20日
    - 新增驱动 / 工具：
      - WiFi 博通: WiFiTahoeBridge (BCM4360 + AWDL Lilu kext，无 OCLP 根补丁)

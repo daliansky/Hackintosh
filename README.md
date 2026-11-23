@@ -10,7 +10,12 @@
 <details>
 <summary>更新日志</summary>
 
-更新日期：2026年11月20日
+更新日期：2026年11月23日
+
+- 新增驱动：WTLLegionCbmrFix（Legion 系 vm_page_validate_no_references panic 修复）
+- 新增机型（笔记本 13 台）：MotoBook 60 Pro / GT215 (Arrow Lake-H)、Dell Latitude 7430、Acer Aspire 7 A715-59G、ThinkBook 16p 2025、MSI GF63 10SCSR、Acer Nitro Lite 16、OneNetbook 4 / OneMix 4、ASUS TUF A15、FX608JMR、无界14 2023、Rescuer R720 / Y520、MateBook 13 2020
+- 新增机型（台式机/特殊）：PS5 (Zen 2 SoC)、Asus X99-Deluxe、MSI H110M + i5-7400
+- 以下为 11月20日 更新
 
 - 新增驱动 / 工具：WiFiTahoeBridge（BCM4360 + AWDL，Lilu kext 无需 OCLP）、hack-touchid
 - 新增机型：Asus Zephyrus G14 2022 (GA402RJ) / ZenBook UX325EA、Lenovo T14 G1 / X380 Yoga / Legion Y7000P IRX10 (MT7925) / Y9000P 2024、TECNO MEGABOOK K15SDA
@@ -1060,6 +1065,19 @@
 | Surface-Pro-5-i7-Variant-OC | [链接](https://github.com/bruhmeme1234/Surface-Pro-5-i7-Variant-OC-Hackintosh) |  | OpenCore | i7-7660U | Intel Iris Plus |
 | M1707 | [链接](https://github.com/Sanqing678/TIMI-TM1707-Hackintosh) |  | OpenCore | i5-8250U | Intel UHD Graphics |
 | Samsung Book 11th (i3-1115G4) | [链接](https://github.com/cost-12/Hackintosh-Samsung-Book-INTEL-CORE-I3-1115G4-11TH) | | OpenCore EFI |
+| Motorola MotoBook 60 Pro | [链接](https://github.com/sortedcord/MotoBook60Pro-Hackintosh-EFI) | | Core Ultra 5 225H (Arrow Lake-H) |
+| Motorola MotoBook 60 (GT215) | [链接](https://github.com/Oppraty/MotoBook-60-Pro-GT215-Hackintosh) | | Core 5 220H (Arrow Lake-H) |
+| Dell Latitude 7430 | [链接](https://github.com/iqsanfm/Dell-Latitude-7430-Hackintosh) | | i7-1265U / Iris Xe / Tahoe 26.7.1 |
+| Acer Aspire 7 A715-59G | [链接](https://github.com/ZarXD/Acer-Aspire-7-A715-59G-Hackintosh-EFI) | | i5-13420H / Iris Xe + RTX 4050 |
+| Lenovo ThinkBook 16p 2025 G6 ADR | [链接](https://github.com/Yangcheng811/ThinkBook-16p-2025-G6-ADR-Hackintosh) | | Ryzen 9 8945HX + RTX 5060 + MT7925 |
+| MSI GF63 Thin 10SCSR | [链接](https://github.com/p3perLTU/MSI-GF63-Thin-10SCSR-Hackintosh) | | i5-1035G7 / LSPCON HDMI / Tahoe |
+| Acer Nitro Lite 16 NL16-71G | [链接](https://github.com/mrgoba5/Acer-Nitro-Lite-16-Hackintosh-Tahoe) | | i7-13620H + RTX 3050 / Tahoe 26 |
+| One-Netbook OneNetbook 4 / OneMix 4 | [链接](https://github.com/shengchichill/OneNetbook4-Hackintosh) | | i5-1130G7 / Iris Xe 9A40 |
+| ASUS TUF Gaming A15 FA507UU | [链接](https://github.com/Winston-zzx/ASUS-FA507UU-Tahoe-EFI) | | Ryzen 7 8845H + RTX 4050 / Tahoe |
+| ASUS FX608JMR | [链接](https://github.com/z1537076810-akks/efi-publish) | | Hackintosh OpenCore EFI |
+| MECHREVO 无界14 2023（R7-7735H / 680M） | [链接](https://github.com/zhengyun21/MECHREVO-WUJIE-14-2023-R7-7735H-Hackintosh-OpenCore) | | Radeon 680M / AX210 / Sequoia |
+| Lenovo Rescuer R720 / Y520 | [链接](https://github.com/happylzyy/Hackintosh-Lenovo-R720) | | OpenCore EFI |
+| HUAWEI MateBook 13 (2020) | [链接](https://github.com/yal3ay/MateBook13-2020-Hackintosh) | | i5-10210U / UHD 620 / Sequoia |
 | 三星 Samsung NP300E4C           |                                                              |          |      |
 | 三星 Samsung NP300E5L           | [链接](https://github.com/bearkfear/SAMSUNG-NP300E5L-HACKINTOSH) |          |      |
 | 三星 Samsung NP300E5M           |                                                              |          |      |
@@ -1818,6 +1836,9 @@
 | 机型名称                         | 发布地址                                                     | 教程地址                                                     | 备注             |
 | -------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------------- |
 | ACER Veriton D430                | [链接](https://github.com/SummerEmber/ACER-Veriton-D430)     |                                                              |                  |
+| Sony PS5 (Zen 2 SoC) | [链接](https://github.com/Forte500/PS5-Hackintosh) | | OpenCore + 原生 kext（Metal/WiFi/BT/Ethernet） |
+| Asus X99-Deluxe | [链接](https://github.com/Unleqxt/Asus-X99-Deluxe-EFI-OpenCore-Hackintosh) | | OpenCore EFI |
+| MSI H110M PRO-VD + i5-7400 | [链接](https://github.com/Schoji/MSI-H110M-PRO-VD-i5-7400-Hackintosh-OpenCore-EFI) | | HD 630 / Sequoia / 睡眠唤醒 |
 | Alienware x14 R1 | [链接](https://github.com/hjn0618/hackintosh-alienware-x14r1) | | Tahoe 26.7.3 |
 | GPD P2 Max 2019 | [链接](https://github.com/rowell1/GPD-P2-Max-2019-Hackintosh) | | OC 1.0.8 / Tahoe 26.7.3 / Wi-Fi 5 |
 | 华南金牌 B75                     | [链接](https://github.com/ic005k/HUANAN-B75) [链接](https://github.com/LeUKi/Hackintosh-EFI-huanan_B75) |                                                              | e3-1230-v2 RX460 |
@@ -1882,6 +1903,7 @@ Hackintosh 下 Intel 第 11-14 代（及之后）核显和 AMD RDNA3 iGPU 的驱
 | Iris Xe Driver Research | [wallali77666](https://github.com/wallali77666-cyber/iris-xe-macos-driver) | Tiger Lake Gen12 | IXFB/IXRM/Metal-on-Vulkan |
 | WhateverGreen-IceLake-HDMIB | [miyatimusica](https://github.com/miyatimusica/WhateverGreen-IceLake-HDMIB) | Ice Lake LP (DDI B) | 开启 Ice Lake HDMI 输出 |
 | WTLLegionCpuPower | [watchthelight-labs](https://github.com/watchthelight-labs/WTLLegionCpuPower) | Arrow Lake (Core Ultra 200HX) | Lilu 插件：真实频率 / 功耗，解除 30W 限制 |
+| WTLLegionCbmrFix | [watchthelight-labs](https://github.com/watchthelight-labs/WTLLegionCbmrFix) | Legion 5 15IAX10 等 | OpenCore UEFI 驱动，修复 vm_page_validate_no_references 内核 panic |
 
 **参考机型：**
 
