@@ -30,7 +30,7 @@ DEFAULT_BLOG = Path.home() / "Blog/source/_posts/【黑果小兵】Hackintosh黑
 # (README 中起始标题, 结束标题(不含), 说明)
 # 注意：相邻区块的边界必须首尾相接，不能重叠，否则后一个区块会被前一个吞掉
 SECTIONS = [
-    ("<details>\n<summary>更新日志</summary>", None, "更新日志折叠块"),
+    ("<details open>\n<summary>更新日志</summary>", None, "更新日志折叠块"),
     ("### NVIDIA 机型（台式机）", "### 台式机其它机型", "NVIDIA 台式机机型"),
     ("## 硬件兼容列表", "### NVIDIA（NullMoth 驱动）", "硬件兼容列表 (Intel/AMD/Core Ultra)"),
     ("### NVIDIA（NullMoth 驱动）", "### 无线网卡（WiFi）支持列表", "NVIDIA NullMoth"),
