@@ -30,6 +30,7 @@ DEFAULT_BLOG = Path.home() / "Blog/source/_posts/【黑果小兵】Hackintosh黑
 # (README 中起始标题, 结束标题(不含), 说明)
 # 注意：相邻区块的边界必须首尾相接，不能重叠，否则后一个区块会被前一个吞掉
 SECTIONS = [
+    ("<details>\n<summary>更新日志</summary>", None, "更新日志折叠块"),
     ("### NVIDIA 机型（台式机）", "### 台式机其它机型", "NVIDIA 台式机机型"),
     ("## 硬件兼容列表", "### NVIDIA（NullMoth 驱动）", "硬件兼容列表 (Intel/AMD/Core Ultra)"),
     ("### NVIDIA（NullMoth 驱动）", "### 无线网卡（WiFi）支持列表", "NVIDIA NullMoth"),
@@ -49,15 +50,18 @@ def write(path: Path, text: str) -> None:
 
 def extract_section(text: str, start_heading: str, end_heading: str | None) -> str | None:
     """从 text 中提取从 start_heading 开始到 end_heading（或下一个同级/更高级标题）的区块。"""
-    start = text.find(start_heading + "\n")
+    start = text.find(start_heading)
     if start < 0:
         return None
 
     if end_heading:
-        end = text.find(end_heading + "\n", start + len(start_heading))
+        end = text.find(end_heading, start + len(start_heading))
         if end < 0:
-            # 退化为：找下一个同级或更高级标题
             end = _next_heading(text, start, start_heading)
+    elif start_heading.startswith("<"):
+        end = text.find("\n## 目录", start)
+        if end < 0:
+            end = len(text)
     else:
         end = _next_heading(text, start, start_heading)
 
@@ -77,14 +81,18 @@ def _next_heading(text: str, offset: int, heading: str) -> int:
 
 def replace_section(blog: str, start_heading: str, end_heading: str | None, new_body: str) -> tuple[str, bool]:
     """在 blog 中替换区块，返回 (新内容, 是否发生改动)。"""
-    start = blog.find(start_heading + "\n")
+    start = blog.find(start_heading)
     if start < 0:
         return blog, False
 
     if end_heading:
-        end = blog.find(end_heading + "\n", start + len(start_heading))
+        end = blog.find(end_heading, start + len(start_heading))
         if end < 0:
             end = _next_heading(blog, start, start_heading)
+    elif start_heading.startswith("<"):
+        end = blog.find("\n## 目录", start)
+        if end < 0:
+            end = len(blog)
     else:
         end = _next_heading(blog, start, start_heading)
 

@@ -14,55 +14,26 @@
 
 - 新增 AMD Radeon 参考：天钡 GEM12 (780M)、MECHREVO 无界S F7BSC (7840H)、MECHREVO 无界14 2023 (680M)、畅网 CW56-58
 - 新增台式机：ASUS ROG STRIX B760-I + i7-13700K + RX 7900 XT（Vermilion）
-- 补充链接：Dell OptiPlex 7050 (+Sequoia)
 - 新增工具：OpenKext CLI
+- 补充链接：Dell OptiPlex 7050 (+Sequoia)
 - 以下为 11月23日 更新
-
-- **新增 NVIDIA NullMoth 工具：Liberator ★178** — macOS 27 安装/升级工具（Beta），将 OpenCore PC + NullMoth NVIDIA 驱动从 macOS 15/26 迁移到 macOS 27 (Golden Gate)
-- 新增驱动 / 工具：WTLLegionCbmrFix
-
-- 新增驱动：WTLLegionCbmrFix（Legion 系 vm_page_validate_no_references panic 修复）
-- 新增机型（笔记本 13 台）：MotoBook 60 Pro / GT215 (Arrow Lake-H)、Dell Latitude 7430、Acer Aspire 7 A715-59G、ThinkBook 16p 2025、MSI GF63 10SCSR、Acer Nitro Lite 16、OneNetbook 4 / OneMix 4、ASUS TUF A15、FX608JMR、无界14 2023、Rescuer R720 / Y520、MateBook 13 2020
-- 新增机型（台式机/特殊）：PS5 (Zen 2 SoC)、Asus X99-Deluxe、MSI H110M + i5-7400
+  - **新增 NVIDIA NullMoth 工具：Liberator ★178**（macOS 27 安装/升级，Beta）
+  - 新增驱动：WTLLegionCbmrFix（Legion 系 vm_page_validate_no_references panic 修复）
+  - 新增机型（笔记本 13 台）：MotoBook 60 Pro / GT215 (Arrow Lake-H)、Dell Latitude 7430、Acer Aspire 7 A715-59G、ThinkBook 16p 2025、MSI GF63 10SCSR、Acer Nitro Lite 16、OneNetbook 4 / OneMix 4、ASUS TUF A15、FX608JMR、无界14 2023、Rescuer R720 / Y520、MateBook 13 2020
+  - 新增机型（台式机/特殊）：PS5 (Zen 2 SoC)、Asus X99-Deluxe、MSI H110M + i5-7400
 - 以下为 11月20日 更新
-
-- 新增驱动 / 工具：WiFiTahoeBridge（BCM4360 + AWDL，Lilu kext 无需 OCLP）、hack-touchid
-- 新增机型：Asus Zephyrus G14 2022 (GA402RJ) / ZenBook UX325EA、Lenovo T14 G1 / X380 Yoga / Legion Y7000P IRX10 (MT7925) / Y9000P 2024、TECNO MEGABOOK K15SDA
-- 新增迷你主机：K8（Ryzen 7 H 255 + Radeon 780M）
-- 补充链接：MSI GL62M 7RDX
+  - 新增驱动 / 工具：WiFiTahoeBridge（BCM4360 + AWDL）、hack-touchid
+  - 新增机型（13 台）：Zephyrus G14 2022 / ZenBook UX325EA / T14 G1 / X380 Yoga / Legion Y7000P IRX10 (MT7925) / Y9000P 2024 / TECNO MEGABOOK / K8 迷你主机 等
 - 以下为 11月19日 更新
-
-- 新增 WiFi 驱动：AirportItlwm (Continuity) / IntelBTUnified / YYavicWiFi (MT7922) / AirPort-RTW / WCN7850-macOS
-- 新增驱动：WhateverGreen-IceLake-HDMIB、WTLLegionCpuPower (Arrow Lake)、WTLLegionBtFix、hack-touchid
-- 新增机型：Acer Predator Triton 500、ASUS VivoBook K15 OLED、HP ZBook Power G10 / ENVY x360 13-bf / EliteBook 830 G7、ThinkPad E16 Gen 3、Samsung Book 11th、雷神猎刃 R15、MAXSUN Terminator B760M
-- 补充链接：Dell Latitude 7210 / Precision 5510、ASUS PRIME Z590-P
+  - 新增 WiFi 驱动：AirportItlwm (Continuity)、IntelBTUnified、YYavicWiFi (MT7922)、AirPort-RTW、WCN7850-macOS
+  - 新增驱动：WhateverGreen-IceLake-HDMIB、WTLLegionCpuPower (Arrow Lake)、WTLLegionBtFix
+  - 新增机型：Predator Triton 500、VivoBook K15 OLED、ZBook Power G10 / ENVY x360 13-bf / EliteBook 830 G7、ThinkPad E16 Gen 3、Samsung Book 11th、雷神猎刃 R15、MAXSUN Terminator B760M
 - 以下为 11月18日 更新
+  - **新增 Intel Arc 独立显卡 Metal 驱动**（Arc B580 实测）
+  - 新增驱动：AMD RedNavi / RX 9060 XT / Tahiti VCE、NVIDIA RTXDarwin / NVDAAL、RTL8814AU + AWDL
+  - 新增机型（AMD）：MSI Bravo 15 B7ED (660M) / C7VFKP、WOOKING X15、MECHREVO 无界14XA、Beelink SER 5800H
+  - 新增机型（Intel 核显）：Galaxy Book3 Ultra、X-STATION V2、Monster Abra A5、dynabook G83/HS、ASUS X415JA、ROG SCAR 18、TUF F16、ThinkBook 14+ 2024
 
-- **新增 Intel Arc 独立显卡 Metal 驱动**：Arc B580 实测 / B570 / Pro B60/B50（Linux xe + Mesa ANV + Metal-on-Vulkan，需放宽 SIP/AMFI）
-- 新增驱动：AMD RedNavi (RX 7800 XT) / RX 9060 XT / Tahiti VCE、NVIDIA RTXDarwin / NVDAAL、WiFi RTL8814AU + AWDL
-- 新增机型（AMD Radeon）：MSI Bravo 15 B7ED (660M) / C7VFKP、WOOKING X15、MECHREVO 无界14XA、Beelink SER 5800H
-- 新增机型（Intel 核显）：Galaxy Book3 Ultra、X-STATION V2、Monster Abra A5、dynabook G83/HS、ASUS X415JA、ROG SCAR 18、TUF F16
-- 新增机型（NVIDIA）：ROG Strix FX607VJ、Legion Y7000P IRX10 详版 + 触控板方案
-- 新增机型（笔记本）：ThinkPad T490 / T14 G2 / X1C6、MateBook D15/D16、Legion R7000 2020、Acer AN515-46、HP 15s、Dell 多款
-- 新增机型（台式机/迷你）：Z390 Designare、MSI B760M BOMBER、NUC8、M720q Tiny、P320 Tiny、Alienware x14 R1、GPD P2 Max 2019
-- 以下为 11月17日 更新
-
-- 新增机型（NVIDIA 笔记本）：
-  - ASUS TUF FA607PI (Ryzen 9 7940HX + RTX 4070)
-  - Legion Pro5 16IRX9 (RTX 5060)
-  - GTX 1650 + AMD Renoir
-  - RTX 2070 Super (NullMoth 适配)
-- 新增机型（Intel 核显）：
-  - ASUS Vivobook X513EP / Dell XPS 13 Plus / Dell XPS 17 / Dell OptiPlex Micro
-  - ThinkPad T15 Gen2 / Dynabook G83 / HP EliteBook 830 G8
-  - Alder Lake-H MoDT / ThinkBook 14 G5+ IRH
-- 新增机型（AMD Radeon）：
-  - Lenovo m75q Gen3 / B850M + 9600X / MECHREVO 无界15XA / 无界14X Pro / 同方 7840HS
-- 新增驱动 & 工具：
-  - NVIDIA optC CI / NullMoth Audio
-- 扩展 AMD Radeon 驱动列表至全系支持
-- 修正标题：AMD 780M → AMD Radeon
-- 修正目录锚点
 
 完整的更新日志：[更新日志](./Changelog.md)
 
