@@ -7,7 +7,7 @@
 
 ## 机型讨论：[远景 pcbeta.com](http://bbs.pcbeta.com/viewthread-1795904-1-1.html)
 
-<details open>
+<details>
 <summary>更新日志</summary>
 
 更新日期：2026年11月24日
