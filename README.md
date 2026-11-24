@@ -10,7 +10,13 @@
 <details>
 <summary>更新日志</summary>
 
-更新日期：2026年11月23日
+更新日期：2026年11月24日
+
+- 新增 AMD Radeon 参考：天钡 GEM12 (780M)、MECHREVO 无界S F7BSC (7840H)、MECHREVO 无界14 2023 (680M)、畅网 CW56-58
+- 新增台式机：ASUS ROG STRIX B760-I + i7-13700K + RX 7900 XT（Vermilion）
+- 补充链接：Dell OptiPlex 7050 (+Sequoia)
+- 新增工具：OpenKext CLI
+- 以下为 11月23日 更新
 
 - **新增 NVIDIA NullMoth 工具：Liberator ★178** — macOS 27 安装/升级工具（Beta），将 OpenCore PC + NullMoth NVIDIA 驱动从 macOS 15/26 迁移到 macOS 27 (Golden Gate)
 - 新增驱动 / 工具：WTLLegionCbmrFix
@@ -866,6 +872,7 @@
 | ThinkPad T14 Gen 1 | [链接](https://github.com/yuxunyang/ThinkPad-T14-Gen1-Hackintosh) | | i7-10510U / UHD 620 / Sequoia 15.8.3 |
 | ThinkPad X380 Yoga | [链接](https://github.com/kotakbiasa/ThinkPad-X380-Yoga-Hackintosh) | | OpenCore |
 | ThinkPad E16 Gen 3 | [链接](https://github.com/keenerdavid18/thinkpad-e16-gen3-hackintosh) | | Core 7 240H / Iris Xe (NootedGreen) / Tahoe |
+| 畅网 CW56-58 | [链接](https://github.com/wyfhbb/CW56-58-5825U-Hackintosh) | | Ryzen 7 5825U / RyzenHV / Sequoia |
 | ThinkPad X1 Carbon 6th Gen（OC 1.0.2） | [链接](https://github.com/SanketRohilla/ThinkPad-X1C6-Hackintosh) | | 20KG / 安装后套件 |
 | Thinkpad T495 | [链接](https://github.com/EraserCN/ThinkPad-T495-Hackintosh) | | |
 | ThinkPad T530                      | [链接](https://github.com/m1qnet/ThinkPad-T530-Hackintosh) [链接](https://github.com/5T33Z0/Lenovo-T530-Hackinosh-OpenCore) |                                                              |                                                              |
@@ -1484,6 +1491,7 @@
 | Asus TUF Z490 Plus             | [链接](https://github.com/horphi/Asus-TUF-Z490-Plus) [链接](https://github.com/raofeng/ASUS_TUF_Z490_PLUS_WIFI_EFI) |          | 网卡推荐：[BCM94360CD](https://hackintosher.taobao.com) |
 | Asus ROG MAXIMUS XIII HERO | [链接](https://github.com/Dave1482/Maximus-XIII-Hero-Z590-11900K-6800XT-OpenCore-EFI-Public) | |  |
 | ASUS PRIME Z590-P | [链接](https://github.com/rafaelmaeuer/Asus-Z590-P-Hackintosh) [链接](https://github.com/jesuscastilla/hackintosh-Z590) | | 网卡推荐：[BCM94360CD](https://hackintosher.taobao.com)<br />链接 2：i5-11600K + RX 5700 XT |
+| ASUS ROG STRIX B760-I + RX 7900 XT | [leolivm](https://github.com/leolivm/ROG-STRIX-B760-I-RX7900XT-EFI) | | i7-13700K / Tahoe 26.7.1 / Vermilion 加速 |
 | ASUS ROG Z590-A-Gaming-WIFI-II | [链接](https://github.com/cuihairu/ROG-STRIX-Z590-A-i910900K-RX6900XT-Hackintosh) | | i9-10900k + RX6900XT <br />网卡推荐：[BCM94360CD](https://hackintosher.taobao.com) |
 | ASUS ROG STRIX Z690-A GAMING WIFI | [链接](https://github.com/cuihairu/ROG-STRIX-Z690-A-GAMING-WIFI-i513600KF-RX6600XT-Hackintosh) | | i5-13600kF + RX6600XT <br />网卡推荐：[BCM94360CD](https://hackintosher.taobao.com) |
 | ASUS ProArt Z690 CREATOR WIFI | [链接](https://github.com/cuihairu/ProArt-Z690-CREATOR-WIFI-W5700-i912900K-Hackintosh/blob/main/README.md) | | i9-12900K + W5700 <br />网卡推荐：[BCM94360CD](https://hackintosher.taobao.com) |
@@ -1521,7 +1529,7 @@
 | Dell Optiplex 7010                         | [链接](https://github.com/Abbasm234/Dell_Optiplex_7010_Opencore0.6.5_EFI) [链接](https://github.com/karam-araby/dell-optiplex-7010-bigsur-EFI-Open-Core-0.6.6) |                                                              | 网卡推荐：[BCM94360Z4](https://hackintosher.taobao.com)      |
 | Dell Optiplex 7020 SFF/MT                  | [链接](https://github.com/zearp/OptiHack)                    |                                                              | 网卡推荐：[BCM94360Z4](https://hackintosher.taobao.com)      |
 | Dell OptiPlex 7040                         | [链接](https://github.com/optiplex-osx/Dell-OptiPlex-7040-Clover-EFI) [链接](https://github.com/monaive/DELL-OptiPlex-7040-Clover) |                                                              | 网卡推荐：[BCM94360Z4](https://hackintosher.taobao.com)      |
-| Dell OptiPlex 7050                         | [链接](https://github.com/kuaima/Dell-OptiPlex-7050-Clover-EFI) [链接](https://github.com/linkev/Dell-Optiplex-7050-Micro-Hackintosh) | [链接](https://github.com/linkev/Dell-Optiplex-7050-Micro-Hackintosh) | 网卡推荐：[BCM94360Z4](https://hackintosher.taobao.com)      |
+| Dell OptiPlex 7050                         | [链接](https://github.com/kuaima/Dell-OptiPlex-7050-Clover-EFI) [链接](https://github.com/linkev/Dell-Optiplex-7050-Micro-Hackintosh) [链接](https://github.com/danibutnotdani/OptiPlex-7050-Hackintosh) | [链接](https://github.com/linkev/Dell-Optiplex-7050-Micro-Hackintosh) | i7-7700 / HD 630 / Sequoia |
 | Dell OptiPlex 7060<br />Dell OptiPlex 7070 | [链接](https://github.com/W-MS/OptiPlex-7060and7070-Catalina) [链接](https://github.com/Jianhua-Wang/DELL-Optiplex-7060-7040-Clover)<br />[链接](https://github.com/webleon/Hackintosh-OptiPlex-7060-MFF) |                                                              | Increase DVMT to 64M `setup_var 0x8DC 0x2` ，不支持 96M 模式，<br />切勿使用 0x3 或在其他型号使用此命令。支持 Catalina。<br />网卡推荐：[BCM94360Z4](https://hackintosher.taobao.com) |
 | Dell OptiPlex 7060 Micro                   | [链接](https://github.com/binwan-dev/Hackintosh-OC-Dell-Optiplex-7060-Micro) |                                                              |                                                              |
 | Dell OptiPlex 7080 MFF                     | [链接](https://github.com/jerryhan77/dell-optiplex-7080mff-opencore) [链接](https://github.com/webleon/Hackintosh-OptiPlex-7080-MT) |                                                              |                                                              |
@@ -2067,6 +2075,9 @@ Metal / WindowServer / OpenGL / OpenCL
 | Beelink SER 5800H | [fenghelao](https://github.com/fenghelao/Hackintosh-Beelink-SER-5800H-Tahoe) | Ryzen 7 5800H | Vega | NootedRed / AX200 |
 | AMD Athlon PRO 300U | [lorzzn](https://github.com/lorzzn/300u-hackintosh-15) | Athlon PRO 300U | Vega | 迷你主机 / NootedRed |
 | K8 迷你主机（Ryzen 7 H 255） | [izerok](https://github.com/izerok/k8-tahoe-hackintosh) | 780M | Zen4 xHCI 修复 | Tahoe |
+| 天钡 GEM12 | [pcdgck](https://github.com/pcdgck/gem12-tahoe-hackintosh) | Ryzen 7 8845HS / 780M | nullarc 780M + AX210 | Tahoe |
+| MECHREVO 无界S 迷你 (F7BSC) | [sfyyy](https://github.com/sfyyy/mechrevo-f7bsc-hackintosh) | Ryzen 7 7840H | macOS 26 + 驱动补丁 |
+| MECHREVO 无界14 2023 (R7-7735H) | [zhengyun21](https://github.com/zhengyun21/MECHREVO-WUJIE-14-2023-R7-7735H-Hackintosh-OpenCore) | Ryzen 7 7735H / 680M | AX210 / Sequoia |
 | ThinkPad AMD | [ThinkDifferentInc](https://github.com/ThinkDifferentInc/ThinkPad-AMD) | Ryzen 全系 | 核显 | Tahoe 预烘焙 EFI |
 
 
@@ -2183,6 +2194,7 @@ NVIDIA GPU 通过 NullMoth / nvidia-macos-driver 驱动在 Hackintosh 上实现 
 | 隔空接力诊断工具 | [IAmLegionVaal](https://github.com/IAmLegionVaal/macOS-Bluetooth-AirDrop-and-Continuity-Troubleshooter) | 排障工具 |
 | AWDL 开关面板 | [Microburo](https://github.com/Microburo/awdl-toggle) | 控制 AirDrop 延迟 |
 | FeatureUnlock-Tahoe | [kgp-macPro](https://github.com/kgp-macPro/FeatureUnlock-Tahoe) | 解锁 AirPlay 屏幕镜像（芯片无关） |
+| OpenKext CLI | [openkext](https://github.com/openkext/cli) | 从 OpenKext 目录查找/校验/安装 kext 到 OpenCore |
 | hack-touchid | [hackintosh-user](https://github.com/hackintosh-user/hack-touchid) | Hackintosh Touch-ID 支持 |
 
 #### 选购建议

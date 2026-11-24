@@ -1,4 +1,17 @@
 ## 更新日志：
+- 2026年 11月 24日
+   - 新增机型（AMD Radeon 参考）：
+     - 天钡 GEM12（Ryzen 7 8845HS + Radeon 780M，nullarc）
+     - MECHREVO 无界S 迷你 F7BSC（Ryzen 7 7840H）
+     - MECHREVO 无界14 2023（R7-7735H + Radeon 680M）
+     - 畅网 CW56-58（Ryzen 7 5825U，RyzenHV）
+   - 新增机型（台式机）：
+     - ASUS ROG STRIX B760-I + i7-13700K + RX 7900 XT（Vermilion 加速）
+   - 补充链接：
+     - Dell OptiPlex 7050 (+Sequoia 版本)
+   - 新增工具：
+     - OpenKext CLI（kext 目录搜索/校验/安装）
+
 - 2026年 11月 23日（补充）
    - 新增 NVIDIA NullMoth 工具：
      - [nullmoth/liberator](https://github.com/nullmoth/liberator) ★178：macOS 27 安装/升级工具（Beta）
