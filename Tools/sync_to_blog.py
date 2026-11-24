@@ -149,6 +149,11 @@ def main() -> int:
         else:
             print(f"= 无变化: {label}")
 
+    # 博客中 Changelog.md 的相对路径需要改为 GitHub 绝对路径
+    if "./Changelog.md" in blog:
+        blog = blog.replace("./Changelog.md", "https://github.com/daliansky/Hackintosh/blob/master/Changelog.md")
+        print("✓ Changelog.md 链接已改为 GitHub 绝对路径")
+
     if not changed_sections:
         print("\n没有需要同步的改动。")
         return 0
