@@ -10,7 +10,13 @@
 <details>
 <summary>更新日志</summary>
 
-更新日期：2026年11月24日
+更新日期：2026年11月25日
+
+- 新增机型：ThinkPad T14 G4 (i7-1355U / Tahoe)、Dell Latitude 7280、联想小新 Air 14 ARE 2020 (4650U)
+- 新增工具：HackMate / OCforge / HackicLab（OC EFI 自动构建）
+- 补充链接：Gigabyte Z490 Vision G
+- 以下为 11月24日 更新
+
 
 - 新增 AMD Radeon 参考：天钡 GEM12 (780M)、MECHREVO 无界S F7BSC (7840H)、MECHREVO 无界14 2023 (680M)、畅网 CW56-58
 - 新增台式机：ASUS ROG STRIX B760-I + i7-13700K + RX 7900 XT（Vermilion）
@@ -841,6 +847,7 @@
 | ThinkPad T490                      | [链接](https://github.com/yusifsalam/t490-macos) [链接](https://github.com/5T33Z0/Thinkpad-T490-Hackintosh-OpenCore) |                                                              | Sonoma ~ Tahoe |
 | ThinkPad T14 G2 (Intel) | [链接](https://github.com/itzfurizugg/T14G2-Intel-EFI) | | OpenCore / OpCore-Simplify |
 | ThinkPad T14 Gen 1 | [链接](https://github.com/yuxunyang/ThinkPad-T14-Gen1-Hackintosh) | | i7-10510U / UHD 620 / Sequoia 15.8.3 |
+| ThinkPad T14 Gen 4 (Intel 13th) | [链接](https://github.com/chxnathanaels/T14g4-hackintosh) | | i7-1355U / Iris Xe / Tahoe 26.7.1 |
 | ThinkPad X380 Yoga | [链接](https://github.com/kotakbiasa/ThinkPad-X380-Yoga-Hackintosh) | | OpenCore |
 | ThinkPad E16 Gen 3 | [链接](https://github.com/keenerdavid18/thinkpad-e16-gen3-hackintosh) | | Core 7 240H / Iris Xe (NootedGreen) / Tahoe |
 | 畅网 CW56-58 | [链接](https://github.com/wyfhbb/CW56-58-5825U-Hackintosh) | | Ryzen 7 5825U / RyzenHV / Sequoia |
@@ -1049,6 +1056,7 @@
 | Motorola MotoBook 60 Pro | [链接](https://github.com/sortedcord/MotoBook60Pro-Hackintosh-EFI) | | Core Ultra 5 225H (Arrow Lake-H) |
 | Motorola MotoBook 60 (GT215) | [链接](https://github.com/Oppraty/MotoBook-60-Pro-GT215-Hackintosh) | | Core 5 220H (Arrow Lake-H) |
 | Dell Latitude 7430 | [链接](https://github.com/iqsanfm/Dell-Latitude-7430-Hackintosh) | | i7-1265U / Iris Xe / Tahoe 26.7.1 |
+| Dell Latitude 7280 | [链接](https://github.com/amane1234/Latitude-7280-EFI-opencore) | | i5-8250U / UHD 630 / OpenCore |
 | Acer Aspire 7 A715-59G | [链接](https://github.com/ZarXD/Acer-Aspire-7-A715-59G-Hackintosh-EFI) | | i5-13420H / Iris Xe + RTX 4050 |
 | Lenovo ThinkBook 16p 2025 G6 ADR | [链接](https://github.com/Yangcheng811/ThinkBook-16p-2025-G6-ADR-Hackintosh) | | Ryzen 9 8945HX + RTX 5060 + MT7925 |
 | MSI GF63 Thin 10SCSR | [链接](https://github.com/p3perLTU/MSI-GF63-Thin-10SCSR-Hackintosh) | | i5-1035G7 / LSPCON HDMI / Tahoe |
@@ -2050,6 +2058,7 @@ Metal / WindowServer / OpenGL / OpenCL
 | MECHREVO 无界S 迷你 (F7BSC) | [sfyyy](https://github.com/sfyyy/mechrevo-f7bsc-hackintosh) | Ryzen 7 7840H | macOS 26 + 驱动补丁 |
 | MECHREVO 无界14 2023 (R7-7735H) | [zhengyun21](https://github.com/zhengyun21/MECHREVO-WUJIE-14-2023-R7-7735H-Hackintosh-OpenCore) | Ryzen 7 7735H / 680M | AX210 / Sequoia |
 | ThinkPad AMD | [ThinkDifferentInc](https://github.com/ThinkDifferentInc/ThinkPad-AMD) | Ryzen 全系 | 核显 | Tahoe 预烘焙 EFI |
+| 联想小新 Air 14 ARE 2020 | [链接](https://github.com/SilenceCheung/Lenovo-XiaoXin-Air-14-ARE-2020-Hackintosh) | | Ryzen 5 PRO 4650U / RTL8822CE | Sequoia Metal 3 |
 
 
 ### NVIDIA（NullMoth 驱动）
@@ -2166,6 +2175,10 @@ NVIDIA GPU 通过 NullMoth / nvidia-macos-driver 驱动在 Hackintosh 上实现 
 | AWDL 开关面板 | [Microburo](https://github.com/Microburo/awdl-toggle) | 控制 AirDrop 延迟 |
 | FeatureUnlock-Tahoe | [kgp-macPro](https://github.com/kgp-macPro/FeatureUnlock-Tahoe) | 解锁 AirPlay 屏幕镜像（芯片无关） |
 | OpenKext CLI | [openkext](https://github.com/openkext/cli) | 从 OpenKext 目录查找/校验/安装 kext 到 OpenCore |
+| HackMate | [hackmatelabs](https://github.com/hackmatelabs/hackmate) | 自动创建可启动 OpenCore Hackintosh U 盘，无需手动编辑 config.plist |
+| OCforge | [kevinisgoated24](https://github.com/kevinisgoated24-spec/OCforge) | CLI + 桌面 GUI，按描述生成 OpenCore EFI |
+| HackicLab | [SLEP-KOMP](https://github.com/SLEP-KOMP/HackicLab) | Windows 下 GUI 构建 OpenCore Hackintosh EFI（硬件扫描 + ocvalidate 校验） |
+| Hackintosh-for-All-Computers | [yusufklncc](https://github.com/yusufklncc/Hackintosh-for-All-Computers) | macOS 镜像 + 通用 OpenCore EFI 合集 |
 | hack-touchid | [hackintosh-user](https://github.com/hackintosh-user/hack-touchid) | Hackintosh Touch-ID 支持 |
 
 #### 选购建议

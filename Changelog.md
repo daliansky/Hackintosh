@@ -1,4 +1,16 @@
 ## 更新日志：
+- 2026年 11月 25日
+   - 新增机型：
+     - ThinkPad T14 Gen 4（Intel 13th gen / i7-1355U / Tahoe）
+     - Dell Latitude 7280（i5-8250U / UHD 630）
+     - 联想小新 Air 14 ARE 2020（Ryzen 5 PRO 4650U / RTL8822CE / Sequoia）
+   - 补充链接：Gigabyte Z490 Vision G (+新 OpenCore EFI)
+   - 新增工具：
+     - HackMate（自动创建 OC Hackintosh U 盘）
+     - OCforge（CLI + GUI 生成 OpenCore EFI）
+     - HackicLab（Windows GUI 构建 OC EFI）
+     - Hackintosh-for-All-Computers（macOS 镜像 + 通用 OC EFI 合集）
+
 - 2026年 11月 24日
    - 新增机型（AMD Radeon 参考）：
      - 天钡 GEM12（Ryzen 7 8845HS + Radeon 780M，nullarc）
