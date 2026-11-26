@@ -1,4 +1,11 @@
 ## 更新日志：
+- 2026年 11月 26日
+   - 新增机型（AMD Radeon 参考）：
+     - ASUS ROG Zephyrus G14 2024 GA403WM（Ryzen AI 9 HX 370 / MT7925 / AMD xHCI 修复）
+     - COLORFIRE B650M + Ryzen 9 9900X + RX 7800 XT（Tahoe 26.7.x）
+   - 新增机型：
+     - MoreFine S500+（Ryzen 9 5900HX / Sequoia）
+
 - 2026年 11月 25日
    - 新增机型：
      - ThinkPad T14 Gen 4（Intel 13th gen / i7-1355U / Tahoe）

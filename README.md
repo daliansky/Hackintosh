@@ -10,7 +10,12 @@
 <details>
 <summary>更新日志</summary>
 
-更新日期：2026年11月25日
+更新日期：2026年11月26日
+
+- 新增 AMD Radeon 参考：ASUS ROG Zephyrus G14 2024 GA403WM (Ryzen AI 9 HX 370)、COLORFIRE B650M + 9900X + RX 7800 XT
+- 新增机型：MoreFine S500+（5900HX）
+- 以下为 11月25日 更新
+
 
 - 新增机型：ThinkPad T14 G4 (i7-1355U / Tahoe)、Dell Latitude 7280、联想小新 Air 14 ARE 2020 (4650U)
 - 新增工具：HackMate / OCforge / HackicLab（OC EFI 自动构建）
@@ -1799,6 +1804,7 @@
 | I7-8850H 迷你主机            | [链接](https://github.com/n0jack/i78850h-minipc-hackintosh)  |                                                          |                                                              |
 | DQ77KB                       | [链接](https://github.com/siwilizhao/DQ77KB-I7-3770S-Hackintosh) |                                                          |                                                              |
 | morefine S500                | [链接](https://github.com/daliansky/morefine-S500-Hackintosh) |                                                          | 小兵长期维护机型<br />网卡推荐：[BCM94360Z3](https://hackintosher.taobao.com) |
+| morefine S500+ (5900HX) | [链接](https://github.com/xinzhangsw/MoreFine-S500Plus-5900HX-Hackintosh-OpenCore) | | Ryzen 9 5900HX / Sequoia |
 | **morefine M600s**           | [链接](https://github.com/daliansky/morefine-M600s-Hackintosh) | [链接](https://item.taobao.com/item.htm?id=659725057885) | 小兵长期维护机型<br />网卡推荐：[BCM94360Z3](https://hackintosher.taobao.com) |
 | TinyMonster ECO              | [链接](https://github.com/daliansky/TinyMonsterECO-Hackintosh) |                                                          | 小兵长期维护机型<br />网卡推荐：[BCM94360Z4](https://hackintosher.taobao.com) |
 | TinyMonster PRO              | [链接](https://github.com/daliansky/TinyMonsterPro-Hackintosh) |                                                          | 小兵长期维护机型<br />网卡推荐：[BCM94360Z4](https://hackintosher.taobao.com) |
@@ -2059,6 +2065,8 @@ Metal / WindowServer / OpenGL / OpenCL
 | MECHREVO 无界14 2023 (R7-7735H) | [zhengyun21](https://github.com/zhengyun21/MECHREVO-WUJIE-14-2023-R7-7735H-Hackintosh-OpenCore) | Ryzen 7 7735H / 680M | AX210 / Sequoia |
 | ThinkPad AMD | [ThinkDifferentInc](https://github.com/ThinkDifferentInc/ThinkPad-AMD) | Ryzen 全系 | 核显 | Tahoe 预烘焙 EFI |
 | 联想小新 Air 14 ARE 2020 | [链接](https://github.com/SilenceCheung/Lenovo-XiaoXin-Air-14-ARE-2020-Hackintosh) | | Ryzen 5 PRO 4650U / RTL8822CE | Sequoia Metal 3 |
+| ASUS ROG Zephyrus G14 2024 (GA403WM) | [链接](https://github.com/thanhndev/ga403wm-hackintosh) | | Ryzen AI 9 HX 370 / MT7925 | AMD xHCI USB 修复 |
+| COLORFIRE B650M + 9900X + RX 7800 XT | [链接](https://github.com/KawaiiHachimi/B650M-9900X-7800XT-hackintosh) | | Ryzen 9 9900X / RX 7800 XT (Navi 32) | Tahoe 26.7.x |
 
 
 ### NVIDIA（NullMoth 驱动）
