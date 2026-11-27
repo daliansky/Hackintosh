@@ -1,5 +1,15 @@
 ## 更新日志：
 - 2026年 11月 26日
+   - 新增机型：
+     - Lenovo IdeaPad 3 Gaming 15ACH6（AMD Ryzen / Tahoe）
+     - Lenovo ThinkPad B490（Sonoma / Wi-Fi 白名单移除）
+     - HUAWEI MateBook 14 2019
+     - RedmiBook 14（i7-12700H / macOS 26.7.3 Tahoe）
+   - 新增驱动 / 工具：
+     - WTLLegionOpenCore（Legion 5 15IAX10 / Core Ultra 9 275HX / Tahoe 26.7.2 + Sequoia）
+     - Hackintosh-Toolkit-CN（四类机型完整教程 + OpCore-Simplify）
+
+- 2026年 11月 26日
    - 新增机型（AMD Radeon 参考）：
      - ASUS ROG Zephyrus G14 2024 GA403WM（Ryzen AI 9 HX 370 / MT7925 / AMD xHCI 修复）
      - COLORFIRE B650M + Ryzen 9 9900X + RX 7800 XT（Tahoe 26.7.x）

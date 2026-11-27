@@ -10,7 +10,13 @@
 <details>
 <summary>更新日志</summary>
 
-更新日期：2026年11月26日
+更新日期：2026年11月27日
+
+- 新增机型：Lenovo IdeaPad 3 Gaming 15ACH6 / ThinkPad B490、华为 MateBook 14 2019、RedmiBook 14 (12700H)
+- 新增驱动：WTLLegionOpenCore（Legion 5 15IAX10 / 275HX）
+- 新增工具：Hackintosh-Toolkit-CN（四类机型教程包）
+- 以下为 11月26日 更新
+
 
 - 新增 AMD Radeon 参考：ASUS ROG Zephyrus G14 2024 GA403WM (Ryzen AI 9 HX 370)、COLORFIRE B650M + 9900X + RX 7800 XT
 - 新增机型：MoreFine S500+（5900HX）
@@ -720,6 +726,7 @@
 | 机型名称                 | 发布地址                                                     | 教程地址                                                     | 备注                                                         |
 | ------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | HUAWEI MateBook D14 | [链接](https://github.com/HandsomeYDZ/HUAWEI-Matebook-D14-2020-Hackintosh-EFI) |  | OpenCore | i7-10510U |
+| HUAWEI MateBook 14 2019 | [链接](https://github.com/withxat/Matebook-14-2019-Hackintosh) | | OpenCore |
 | HUAWEI MateBook D15 (2020) | [链接](https://github.com/1769588795/huawei-matebook-d15-hackintosh-tahoe-efi) | | i5-10210U / Comet Lake / Tahoe |
 | HUAWEI MateBook D16 | [链接](https://github.com/akiffurkan/Huawei-MateBook-D16-Hackintosh-Guide) | | i9-13900H / Raptor Lake |
 | MateStation B520 | [链接](https://github.com/Sanqing678/Huawei-MateStation-B520-Hackintosh) |  | OpenCore | i7-10700 | AMD Radeon RX 6750 |
@@ -743,12 +750,14 @@
 | I2000 | [链接](https://github.com/runofftheearth/lenovo-xiaoxinI2000-hackintosh-Catalina) |  | i7-5500U |
 | i510210u | [链接](https://github.com/unknxwnwxrld/Thinkpad-e15-i510210u-hackintosh) |  | i510210u |
 | Lenovo B50-80 80EW | [链接](https://github.com/moneaalhad/LenovoB50.80_Hackintosh) |  |  |
+| Lenovo ThinkPad B490 | [链接](https://github.com/sardax40-debug/Lenovo-B490-Hackintosh-Sonoma-NWL) | | Sonoma / Wi-Fi 白名单移除 |
 | Lenovo Flex 15                     | [链接](https://github.com/aytic/Lenovo-Flex-15-Hackintosh)   | [链接](https://github.com/aytic/Lenovo-Flex-15-Hackintosh/blob/master/README.md) | Lenovo Flex 15                                               |
 | Lenovo Ideapad S145-15IWL          | [链接](https://github.com/boffik/LenovoS145-15IWL_OpenCore) [链接](https://github.com/Ninjacornix/Lenovo-S145-15IWL-Big-sur-OC-EFI) |                                                              |                                                              |
 | Lenovo Ideapad S540 | [链接](https://github.com/ConradZn/Lenovo-Ideapad-S540-OpenCore-EFI) |  | OpenCore |
 | lenovo ideapad slim | [链接](https://github.com/vivaloscarpinchos2001-jpg/EFI-HACKINTOSH-LENOVOIDEAPADSLIM3-15ABR8-RYZEN-7-5825U-works-with-sonoma-sequoia-and-more-not-tahoe-) |  | ryzen 7 5825U |
 | Lenovo ideapad 3 14iil05           | [链接](https://github.com/DagerDW/Lenovo-ideapad-3-14iil05-Hackintosh) |                                                              | i5-1035G4 Ice Lake-U                                         |
 | Lenovo IdeaPad 3 15ALC6 | [链接](https://github.com/mariolandossa/hackintosh_EFI) | | AMD Ryzen 7 5700U |
+| Lenovo IdeaPad 3 Gaming 15ACH6 | [链接](https://github.com/GitNell/Lenovo-IdeaPad-3-15ACH6-Hackintosh) | | AMD Ryzen / Tahoe |
 | Lenovo Legion R7000 2020 / Legion 5 15ARH05 | [链接](https://github.com/Emilelu/Hackintosh-EFI-Lenovo-Legion-R7000-2020-Legion5-15ARH05-Ryzen-7-4800H) | | Ryzen 7 4800H |
 | Lenovo IdeaPad Flex 5 14ITL05 | [链接](https://github.com/nerdjb/lenovo-flex5-14itl05-tahoe) | | i5-1135G7 / Iris Xe 80EU / Tahoe |
 | Lenovo Yoga 920 (80Y7) | [链接](https://github.com/isaacmateosv/OpenCoreTahoe26.7.3Lenovo80y7) | | Tahoe 26.7.3 / 触屏 / 自动旋转 |
@@ -1133,6 +1142,7 @@
 | 红米 redmibook mx250 | [链接](https://github.com/ming1234jpi/hackintosh_redmibook)                                                                             |                                                                                                             | i5-8265u、i7-8650u                                                                                          |
 | 红米 G               | [链接](https://github.com/Xhichn/Hackbook_Redmi_G)                                                                                      |                                                                                                             |                                                                                                             |
 | Redmibook14 增强版   | [链接](https://github.com/haoey/-)                                                                                                      |                                                                                                             |                                                                                                             |
+| RedmiBook 14 (i7-12700H) | [链接](https://github.com/lipangza/Hackintosh-RedmiBook14-12700H) | | macOS 26.7.3 Tahoe |
 | RedmiBook14II | [链接](https://github.com/codeMauguin/RedmiBook14II-i5-1035G1-EFI) | | i5-1035G1 |
 | Xiaomi Redmibook 16  | [链接](https://github.com/elishevatavori/Xiaomi-Redmibook-16-Hackintosh)                                                                |                                                                                                             | i7-1065G7                                                                                                   |
 | Redmibook 14 XMA1901-AI | [链接](https://github.com/THLIVSQAZ/Redmibook14-XMA1901-AI-OpenCore) |            | i5-8250u|
@@ -1900,6 +1910,7 @@ Hackintosh 下 Intel 第 11-14 代（及之后）核显和 AMD RDNA3 iGPU 的驱
 | WhateverGreen-IceLake-HDMIB | [miyatimusica](https://github.com/miyatimusica/WhateverGreen-IceLake-HDMIB) | Ice Lake LP (DDI B) | 开启 Ice Lake HDMI 输出 |
 | WTLLegionCpuPower | [watchthelight-labs](https://github.com/watchthelight-labs/WTLLegionCpuPower) | Arrow Lake (Core Ultra 200HX) | Lilu 插件：真实频率 / 功耗，解除 30W 限制 |
 | WTLLegionCbmrFix | [watchthelight-labs](https://github.com/watchthelight-labs/WTLLegionCbmrFix) | Legion 5 15IAX10 等 | OpenCore UEFI 驱动，修复 vm_page_validate_no_references 内核 panic |
+| WTLLegionOpenCore | [watchthelight-labs](https://github.com/watchthelight-labs/WTLLegionOpenCore) | Legion 5 15IAX10 (Core Ultra 9 275HX) | OpenCore 1.0.8 EFI + ACPI / Tahoe 26.7.2 + Sequoia |
 
 **参考机型：**
 
@@ -2187,6 +2198,7 @@ NVIDIA GPU 通过 NullMoth / nvidia-macos-driver 驱动在 Hackintosh 上实现 
 | OCforge | [kevinisgoated24](https://github.com/kevinisgoated24-spec/OCforge) | CLI + 桌面 GUI，按描述生成 OpenCore EFI |
 | HackicLab | [SLEP-KOMP](https://github.com/SLEP-KOMP/HackicLab) | Windows 下 GUI 构建 OpenCore Hackintosh EFI（硬件扫描 + ocvalidate 校验） |
 | Hackintosh-for-All-Computers | [yusufklncc](https://github.com/yusufklncc/Hackintosh-for-All-Computers) | macOS 镜像 + 通用 OpenCore EFI 合集 |
+| Hackintosh-Toolkit-CN | [WenQiangStudio](https://github.com/WenQiangStudio/Hackintosh-Toolkit-CN) | 黑苹果工具包：办公/游戏/全能本/服务器四类机型完整教程（OpCore-Simplify + gibMacOS） |
 | hack-touchid | [hackintosh-user](https://github.com/hackintosh-user/hack-touchid) | Hackintosh Touch-ID 支持 |
 
 #### 选购建议
